@@ -22,20 +22,28 @@ import {
   Printer,
   Bookmark,
   Compass,
+  Library,
   Play
 } from 'lucide-react';
 import { UserAcademyProfile } from '../../types';
 import { LESSON_A1_1_1_DATA } from '../../data/lessons/lesson_a1_1_1';
 import { AudioService } from '../../services/AudioService';
 import { getActiveEnglishAccent, playSoundEffectEffect } from '../../utils/audioUtils';
+import {
+  getAllGrammarTopics,
+  getGrammarTopicCounts,
+  searchGrammarTopics,
+  getGrammarSourceLabel,
+} from '../../services/GrammarLibraryService';
 
 interface GrammarExperienceModalProps {
   user: UserAcademyProfile;
   onClose: () => void;
-  initialTab?: 'formulas' | 'timeline' | 'traps' | 'playground' | 'patterns' | 'examples' | 'practice' | 'analytics' | 'cheatsheet';
+  initialTab?: 'library' | 'formulas' | 'timeline' | 'traps' | 'playground' | 'patterns' | 'examples' | 'practice' | 'analytics' | 'cheatsheet';
 }
 
 type GrammarTab =
+  | 'library'
   | 'formulas'
   | 'timeline'
   | 'traps'
@@ -239,6 +247,46 @@ const HINDI_SPEAKER_TRAPS: HindiTrap[] = [
     explanation: '"Revert" already contains the prefix "re-" meaning back. Adding "back" makes it redundant. In international business English, "reply to" or "respond to" is preferred.',
     proTip: 'Use "Please reply at your earliest convenience" for a natural, global executive tone.',
     category: 'Business English'
+  },
+  {
+    id: 'trap_discuss_about',
+    trapTitle: 'Transitive Verb Trap ("discuss about")',
+    incorrect: 'We discussed about the project yesterday.',
+    correct: 'We discussed the project yesterday.',
+    hindiThought: 'हिन्दी में "हमने प्रोजेक्ट के बारे में चर्चा की" — "के बारे में" को सीधे "about" बना देना।',
+    explanation: '"Discuss" is a transitive verb — it already means "talk about". Adding "about" after it is redundant and non-standard in English.',
+    proTip: 'Say "discuss something", "talk about something", "explain something". Never "discuss about".',
+    category: 'Prepositions'
+  },
+  {
+    id: 'trap_agree_adjective',
+    trapTitle: 'Verb-as-Adjective Trap ("I am agree")',
+    incorrect: 'I am agree with your plan.',
+    correct: 'I agree with your plan.',
+    hindiThought: 'हिन्दी में "मैं सहमत हूँ" — "हूँ" देखकर "am agree" लिख देना।',
+    explanation: '"Agree" is a verb, not an adjective. English uses it directly with the subject: I agree / He agrees. Never pair it with am / is / are.',
+    proTip: 'Fix pattern: "I am agree" → "I agree". Same trap: "I am understand" → "I understand".',
+    category: 'Verb Tenses'
+  },
+  {
+    id: 'trap_since_present_perfect',
+    trapTitle: 'Duration Trap ("since" needs Perfect Continuous)',
+    incorrect: 'I am living in Bengaluru since 2019.',
+    correct: 'I have been living in Bengaluru since 2019.',
+    hindiThought: 'हिन्दी में "2019 से रह रहा हूँ" — वर्तमान में जारी भाव दिखता है, इसलिए Present Continuous सूझता है।',
+    explanation: '"Since" + a starting point describes an action that began in the past and is STILL true now. English marks this with Present Perfect Continuous (have/has been + V-ing), not Present Continuous.',
+    proTip: 'since 2019 / since Monday → have been + V-ing. for 3 years → have been + V-ing too.',
+    category: 'Verb Tenses'
+  },
+  {
+    id: 'trap_double_comparative',
+    trapTitle: 'Double Comparative Trap ("more better")',
+    incorrect: 'This option is more better than that one.',
+    correct: 'This option is better than that one.',
+    hindiThought: 'हिन्दी में "और बेहतर" — "और" को सीधे "more" में बदल देना।',
+    explanation: 'Irregular comparatives like better, worse and farther already contain the comparison. Adding "more" compares twice — use one, never both.',
+    proTip: 'better (not more better), cheaper (not more cheaper). Use "more" only with longer adjectives: more difficult.',
+    category: 'Sentence Structure'
   }
 ];
 
@@ -417,6 +465,75 @@ const PRACTICE_QUESTIONS: PracticeQuestion[] = [
     ],
     correctIndex: 0,
     explanation: 'Use "FOR" for a duration of time (for 10 years). Use "SINCE" only for starting points.'
+  },
+  {
+    id: 'pq_5',
+    type: 'fill_blank',
+    promptEn: 'She _______ to office by metro every day.',
+    promptHi: 'वह हर दिन मेट्रो से ऑफिस जाती है।',
+    options: ['go', 'goes', 'going', 'is go'],
+    correctIndex: 1,
+    explanation: '"She" is third-person singular, so Present Simple needs the -s form: "goes".'
+  },
+  {
+    id: 'pq_6',
+    type: 'choose_correct',
+    promptEn: 'Which sentence uses the correct article?',
+    promptHi: 'कौन सा वाक्य सही article (a/an/the) का प्रयोग करता है?',
+    options: [
+      'She is an honest officer.',
+      'She is a honest officer.',
+      'She is the honest officer.',
+      'She is honest officer.'
+    ],
+    correctIndex: 0,
+    explanation: '"Honest" begins with a vowel SOUND, so it takes "an": an honest officer. Articles follow sound, not spelling.'
+  },
+  {
+    id: 'pq_7',
+    type: 'fill_blank',
+    promptEn: 'You _______ wear a seatbelt while driving. It\u2019s the law.',
+    promptHi: 'गाड़ी चलाते समय सीटबेल्ट पहनना चाहिए — यह कानून है।',
+    options: ['can', 'should', 'must', 'may'],
+    correctIndex: 2,
+    explanation: '"Must" expresses a strong obligation imposed by law; "should" is only advice, not a legal requirement.'
+  },
+  {
+    id: 'pq_8',
+    type: 'fill_blank',
+    promptEn: 'If it _______ tomorrow, we will cancel the picnic.',
+    promptHi: 'अगर कल बारिश हुई तो हम पिकनिक रद्द कर देंगे।',
+    options: ['rains', 'will rain', 'rained', 'is rain'],
+    correctIndex: 0,
+    explanation: 'First conditional: If + Present Simple, ... will + V1. The if-clause never takes "will".'
+  },
+  {
+    id: 'pq_9',
+    type: 'choose_correct',
+    promptEn: 'Which sentence is in the Present Perfect tense?',
+    promptHi: 'कौन सा वाक्य Present Perfect काल में है?',
+    options: [
+      'I have finished my homework.',
+      'I finished my homework yesterday.',
+      'I am finishing my homework.',
+      'I will finish my homework.'
+    ],
+    correctIndex: 0,
+    explanation: 'Present Perfect = have/has + V3, for finished actions with present relevance — never with "yesterday".'
+  },
+  {
+    id: 'pq_10',
+    type: 'spot_error',
+    promptEn: 'Identify the error: "He didn\u2019t went to school yesterday."',
+    promptHi: 'ग़लती पहचानें: didn\u2019t के बाद क्रिया का कौन सा रूप सही है?',
+    options: [
+      'Change "didn\u2019t" to "doesn\u2019t"',
+      'Change "went" to "go"',
+      'Change "yesterday" to "today"',
+      'Change "He" to "They"'
+    ],
+    correctIndex: 1,
+    explanation: '"Did/didn\u2019t" already carries the past tense, so the main verb returns to its base form: didn\u2019t go.'
   }
 ];
 
@@ -469,6 +586,30 @@ const CHEAT_SHEETS = [
     hindiSummary: 'at 5 PM, on Monday, in July, at the door, in India',
     tip: 'Pyramid rule: AT is narrowest, ON is medium, IN is broadest.',
     color: 'border-teal-500'
+  },
+  {
+    title: 'Present Perfect Tense',
+    formula: 'Subject + have/has + V3 + Object',
+    usage: 'Past actions with present results; experience; unfinished time',
+    hindiSummary: 'कर चुका है / कर लिया है (अनुभव व वर्तमान परिणाम)',
+    tip: 'have with I/You/We/They, has with He/She/It. Never with "yesterday".',
+    color: 'border-rose-500'
+  },
+  {
+    title: 'Conditional Sentences (If-Clauses)',
+    formula: 'If + Present Simple, ... will + V1  (First Conditional)',
+    usage: 'Real future possibilities; conditions and results',
+    hindiSummary: 'अगर...तो (भविष्य की संभावित शर्त)',
+    tip: 'The if-clause NEVER takes "will": "If it rains, we will stay home."',
+    color: 'border-sky-500'
+  },
+  {
+    title: 'Passive Voice',
+    formula: 'Object + is/are/was/were + V3 (+ by Subject)',
+    usage: 'When the action matters more than the doer',
+    hindiSummary: 'किया गया / की गई (कर्ता कम, क्रिया ज़्यादा ज़रूरी)',
+    tip: 'Active "Ravi wrote it" → Passive "It was written by Ravi". The tense lives in the be-verb.',
+    color: 'border-orange-500'
   }
 ];
 
@@ -481,6 +622,11 @@ export const GrammarExperienceModal: React.FC<GrammarExperienceModalProps> = ({
   const [selectedRuleId, setSelectedRuleId] = useState<string>('present_simple');
   const [selectedTimelineTense, setSelectedTimelineTense] = useState<'past' | 'present' | 'future'>('present');
   const [isSlowSpeech, setIsSlowSpeech] = useState(false);
+
+  // Grammar Library state
+  const [libraryQuery, setLibraryQuery] = useState('');
+  const [libraryLevel, setLibraryLevel] = useState<'all' | 'A1' | 'A2'>('all');
+  const [expandedLibraryId, setExpandedLibraryId] = useState<string | null>(null);
   const [expandedPatternIndex, setExpandedPatternIndex] = useState<number | null>(0);
 
   // Playground state
@@ -497,6 +643,18 @@ export const GrammarExperienceModal: React.FC<GrammarExperienceModalProps> = ({
   const activeRule = FORMULA_RULES_DATA.find((r) => r.id === selectedRuleId) || FORMULA_RULES_DATA[0];
   const activePlayground = PLAYGROUND_CHALLENGES[currentPlaygroundIndex];
   const currentPracticeQ = PRACTICE_QUESTIONS[practiceIndex];
+
+  // Grammar Library derived data (service list is built once and cached)
+  const grammarTopics = getAllGrammarTopics();
+  const grammarCounts = getGrammarTopicCounts();
+  const levelFilter = libraryLevel === 'all' ? null : libraryLevel;
+  const levelFilteredTopics = grammarTopics.filter(
+    (t) => !levelFilter || (t.cefr || '').toUpperCase().startsWith(levelFilter),
+  );
+  const searchedLibraryTopics = libraryQuery.trim()
+    ? searchGrammarTopics(libraryQuery, levelFilteredTopics)
+    : levelFilteredTopics;
+  const shownLibraryTopics = searchedLibraryTopics.slice(0, 60);
 
   const handlePlayAudio = (text: string) => {
     playSoundEffectEffect('tap');
@@ -628,9 +786,10 @@ export const GrammarExperienceModal: React.FC<GrammarExperienceModalProps> = ({
         {/* Studio Tabs Navigation (9 Modes) */}
         <div className="px-3 py-2 bg-slate-50/90 dark:bg-slate-900/90 border-b border-[#D9E4FF] dark:border-slate-800 flex space-x-1.5 overflow-x-auto no-scrollbar scrollbar-none">
           {[
+            { id: 'library', label: 'Grammar Library', icon: Library },
             { id: 'formulas', label: 'Formulas', icon: Layers },
             { id: 'timeline', label: 'Tense Timeline', icon: Clock },
-            { id: 'traps', label: 'Hindi Traps (6)', icon: AlertTriangle },
+            { id: 'traps', label: `Hindi Traps (${HINDI_SPEAKER_TRAPS.length})`, icon: AlertTriangle },
             { id: 'playground', label: 'Playground', icon: Sparkles },
             { id: 'patterns', label: 'Patterns', icon: Compass },
             { id: 'examples', label: 'Live Gallery', icon: MessageSquare },
@@ -684,11 +843,11 @@ export const GrammarExperienceModal: React.FC<GrammarExperienceModalProps> = ({
                 <div className="pt-2 flex flex-wrap items-center justify-center sm:justify-start gap-2 text-[11px] font-bold">
                   <span className="bg-white/20 backdrop-blur-md px-2.5 py-1 rounded-xl flex items-center space-x-1">
                     <Flame className="w-3.5 h-3.5 text-amber-300" />
-                    <span>Grammar XP: +240 XP</span>
+                    <span>{grammarCounts.total} Topics Indexed</span>
                   </span>
                   <span className="bg-white/20 backdrop-blur-md px-2.5 py-1 rounded-xl flex items-center space-x-1">
                     <CheckCircle2 className="w-3.5 h-3.5 text-emerald-300" />
-                    <span>18 / 24 Rules Mastered</span>
+                    <span>{grammarCounts.bySource.lesson} Lessons · {grammarCounts.bySource.hindi_day} Hindi Rules</span>
                   </span>
                 </div>
               </div>
@@ -719,12 +878,242 @@ export const GrammarExperienceModal: React.FC<GrammarExperienceModalProps> = ({
                   />
                 </svg>
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
-                  <span className="text-lg font-black font-display text-white">75%</span>
-                  <span className="text-[9px] uppercase font-bold tracking-wider text-indigo-100">Stage A1</span>
+                  <span className="text-lg font-black font-display text-white">{grammarCounts.total}</span>
+                  <span className="text-[9px] uppercase font-bold tracking-wider text-indigo-100">Grammar Topics</span>
                 </div>
               </div>
             </div>
           </div>
+
+          {/* ========================================================================= */}
+          {/* PART 1B: GRAMMAR LIBRARY — in-depth, aggregated from all app corpora    */}
+          {/* ========================================================================= */}
+          {activeTab === 'library' && (
+            <div className="space-y-4 animate-fade-in">
+              {/* Live corpus stat cards */}
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+                {[
+                  { label: 'Total Topics', value: grammarCounts.total, badge: '📚' },
+                  { label: 'Lesson Grammar', value: grammarCounts.bySource.lesson, badge: '📖' },
+                  { label: 'Hindi Rules', value: grammarCounts.bySource.hindi_day, badge: '🇮🇳' },
+                  {
+                    label: 'Guidebook + Blueprint',
+                    value: grammarCounts.bySource.guidebook + grammarCounts.bySource.blueprint,
+                    badge: '🧭',
+                  },
+                ].map((stat) => (
+                  <div
+                    key={stat.label}
+                    className="bg-white dark:bg-slate-900 border border-[#D9E4FF] dark:border-slate-800 rounded-2xl p-3 space-y-0.5 shadow-xs"
+                  >
+                    <div className="flex items-center space-x-1.5">
+                      <span className="text-sm">{stat.badge}</span>
+                      <span className="text-[10px] font-black uppercase tracking-wider text-slate-500 dark:text-slate-400">
+                        {stat.label}
+                      </span>
+                    </div>
+                    <p className="text-xl font-black text-slate-900 dark:text-white font-display">{stat.value}</p>
+                  </div>
+                ))}
+              </div>
+
+              {/* Search + CEFR level chips */}
+              <div className="space-y-2.5">
+                <input
+                  type="text"
+                  value={libraryQuery}
+                  onChange={(e) => {
+                    setLibraryQuery(e.target.value);
+                    setExpandedLibraryId(null);
+                  }}
+                  placeholder="Search grammar… e.g. present perfect, conditionals, articles, question tag, व्याकरण"
+                  className="w-full px-4 py-3 rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-[#D9E4FF] dark:border-slate-700 text-sm font-medium text-slate-900 dark:text-white placeholder:text-slate-400 focus:outline-none focus:border-indigo-400 transition"
+                />
+                <div className="flex space-x-2 overflow-x-auto pb-1 no-scrollbar">
+                  {(['all', 'A1', 'A2'] as const).map((level) => {
+                    const isActive = libraryLevel === level;
+                    return (
+                      <button
+                        key={level}
+                        onClick={() => {
+                          playSoundEffectEffect('tap');
+                          setLibraryLevel(level);
+                          setExpandedLibraryId(null);
+                        }}
+                        className={`px-3.5 py-2 rounded-2xl text-xs font-black transition whitespace-nowrap cursor-pointer btn-press border ${
+                          isActive
+                            ? 'bg-gradient-to-r from-[#335CFF] to-[#6D5DF6] text-white shadow-md shadow-indigo-500/25'
+                            : 'bg-white dark:bg-slate-800/80 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white border-[#D9E4FF] dark:border-slate-700'
+                        }`}
+                      >
+                        {level === 'all' ? 'All Levels' : level}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* Results */}
+              <div className="space-y-2.5">
+                <p className="text-[11px] font-bold text-slate-500 dark:text-slate-400">
+                  Showing {shownLibraryTopics.length} of {searchedLibraryTopics.length} topics
+                  {libraryQuery.trim() ? ` matching “${libraryQuery.trim()}”` : ''} · tap a topic for the full explanation
+                </p>
+
+                {shownLibraryTopics.length === 0 && (
+                  <div className="bg-white dark:bg-slate-900 border border-dashed border-[#D9E4FF] dark:border-slate-700 rounded-3xl p-6 text-center space-y-1.5">
+                    <p className="text-sm font-black text-slate-700 dark:text-slate-200">No topics match that search</p>
+                    <p className="text-xs text-slate-500 dark:text-slate-400">
+                      Try “tense”, “modal”, “conditionals”, “preposition”, or clear the search box.
+                    </p>
+                  </div>
+                )}
+
+                {shownLibraryTopics.map((topic) => {
+                  const isExpanded = expandedLibraryId === topic.id;
+                  return (
+                    <div
+                      key={topic.id}
+                      className="bg-white dark:bg-slate-900 border border-[#D9E4FF] dark:border-slate-800 rounded-3xl shadow-xs overflow-hidden transition hover:border-indigo-300 dark:hover:border-indigo-500/40"
+                    >
+                      <button
+                        onClick={() => {
+                          playSoundEffectEffect('tap');
+                          setExpandedLibraryId(isExpanded ? null : topic.id);
+                        }}
+                        className="w-full flex items-center justify-between gap-3 p-3.5 text-left cursor-pointer"
+                      >
+                        <div className="flex items-center space-x-2.5 min-w-0">
+                          <span className="shrink-0 px-2 py-0.5 rounded-lg bg-indigo-100 dark:bg-indigo-500/20 text-indigo-700 dark:text-indigo-300 text-[10px] font-black border border-indigo-200 dark:border-indigo-500/30">
+                            {topic.cefr}
+                          </span>
+                          <span className="text-xs sm:text-sm font-bold text-slate-900 dark:text-white truncate">
+                            {topic.title}
+                          </span>
+                        </div>
+                        <div className="flex items-center space-x-2 shrink-0">
+                          <span className="text-[9px] font-black uppercase tracking-wider text-slate-400 dark:text-slate-500 hidden sm:block">
+                            {getGrammarSourceLabel(topic.source)}
+                          </span>
+                          <ChevronDown
+                            className={`w-4 h-4 text-slate-400 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
+                          />
+                        </div>
+                      </button>
+
+                      {isExpanded && (
+                        <div className="px-3.5 pb-3.5 pt-3 border-t border-[#D9E4FF] dark:border-slate-800 space-y-3">
+                          {(topic.lessonTitle || topic.dayNumber) && (
+                            <p className="text-[10px] font-black uppercase tracking-wider text-emerald-600 dark:text-emerald-400">
+                              {topic.lessonTitle
+                                ? `Unit ${topic.unitNumber} · ${topic.lessonTitle}`
+                                : `Hindi Course · Day ${topic.dayNumber}`}
+                            </p>
+                          )}
+                          {topic.register && (
+                            <span className="inline-block px-2 py-0.5 rounded-lg bg-amber-100 dark:bg-amber-500/20 text-amber-700 dark:text-amber-300 text-[10px] font-black border border-amber-200 dark:border-amber-500/30">
+                              Register: {topic.register}
+                            </span>
+                          )}
+
+                          {topic.concept && (
+                            <p className="text-xs text-slate-700 dark:text-slate-300 leading-relaxed font-medium">
+                              {topic.concept}
+                            </p>
+                          )}
+                          {topic.conceptHi && (
+                            <p className="text-xs text-emerald-700 dark:text-emerald-400 leading-relaxed font-hindi">
+                              {topic.conceptHi}
+                            </p>
+                          )}
+
+                          {topic.structure && (
+                            <div className="bg-slate-950 border border-slate-800 rounded-2xl px-3 py-2.5 font-mono text-[11px] text-emerald-400 font-bold">
+                              {topic.structure}
+                            </div>
+                          )}
+
+                          {topic.patterns && topic.patterns.length > 0 && (
+                            <div className="space-y-1.5">
+                              <p className="text-[10px] font-black uppercase tracking-wider text-slate-500 dark:text-slate-400">
+                                Sentence Patterns
+                              </p>
+                              <div className="flex flex-wrap gap-1.5">
+                                {topic.patterns.map((pat, idx) => (
+                                  <span
+                                    key={idx}
+                                    className="px-2.5 py-1 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[11px] font-bold border border-[#D9E4FF] dark:border-slate-700"
+                                  >
+                                    {pat}
+                                  </span>
+                                ))}
+                              </div>
+                            </div>
+                          )}
+
+                          {topic.commonErrors && topic.commonErrors.length > 0 && (
+                            <div className="space-y-1.5">
+                              <p className="text-[10px] font-black uppercase tracking-wider text-rose-500">
+                                Common Errors (आम ग़लतियाँ)
+                              </p>
+                              <ul className="space-y-1">
+                                {topic.commonErrors.map((err, idx) => (
+                                  <li
+                                    key={idx}
+                                    className="text-[11px] text-rose-600 dark:text-rose-400 font-medium flex items-start space-x-1.5"
+                                  >
+                                    <XCircle className="w-3.5 h-3.5 shrink-0 mt-0.5" />
+                                    <span>{err}</span>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
+
+                          {topic.contractions && topic.contractions.length > 0 && (
+                            <div className="space-y-1.5">
+                              <p className="text-[10px] font-black uppercase tracking-wider text-slate-500 dark:text-slate-400">
+                                Contractions (संक्षिप्त रूप)
+                              </p>
+                              <div className="space-y-1.5">
+                                {topic.contractions.slice(0, 5).map((row, idx) => (
+                                  <div
+                                    key={idx}
+                                    className="flex items-center justify-between gap-2 bg-slate-50 dark:bg-slate-950/80 border border-[#D9E4FF] dark:border-slate-800 rounded-xl px-3 py-2"
+                                  >
+                                    <div className="min-w-0">
+                                      <p className="text-[11px] font-bold text-slate-600 dark:text-slate-400 line-through">
+                                        {row.full}
+                                      </p>
+                                      <p className="text-xs font-black text-emerald-600 dark:text-emerald-400">
+                                        {row.contracted}
+                                      </p>
+                                      {row.meaningHi && (
+                                        <p className="text-[10px] text-slate-500 dark:text-slate-400 font-hindi">
+                                          {row.meaningHi}
+                                        </p>
+                                      )}
+                                    </div>
+                                    <button
+                                      onClick={() => handlePlayAudio(row.contracted)}
+                                      className="p-2 bg-indigo-100 dark:bg-indigo-500/20 hover:bg-indigo-200 dark:hover:bg-indigo-500/30 text-indigo-600 dark:text-indigo-300 rounded-xl transition cursor-pointer shrink-0"
+                                      title="Listen"
+                                    >
+                                      <Volume2 className="w-3.5 h-3.5" />
+                                    </button>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
 
           {/* ========================================================================= */}
           {/* PART 2: INTERACTIVE FORMULA CARDS */}
@@ -1008,7 +1397,7 @@ export const GrammarExperienceModal: React.FC<GrammarExperienceModalProps> = ({
                 <AlertTriangle className="w-5 h-5 text-amber-500" />
                 <div>
                   <h4 className="text-base font-black text-slate-900 dark:text-white font-display">
-                    Hindi Speaker Traps (हिन्दी भाषियों की 6 सामान्य ग़लतियाँ)
+                    Hindi Speaker Traps (हिन्दी भाषियों की {HINDI_SPEAKER_TRAPS.length} सामान्य ग़लतियाँ)
                   </h4>
                   <p className="text-[11px] text-slate-500 dark:text-slate-400">
                     Fix translation interference and speak naturally like a global native.
