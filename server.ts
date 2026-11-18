@@ -33,6 +33,30 @@ app.get('/api/health', (_req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
+// 1b. Generic Gemini proxy for in-app AI features (Hint Pills, Explain-in-Hindi,
+// Tone Switcher). The packaged Android app prefers its own key and only hits
+// this route in web-dev mode; see src/services/GeminiClient.ts.
+app.post('/api/gemini/proxy', async (req, res) => {
+  try {
+    const { prompt, json: wantJson = false } = req.body || {};
+    if (!prompt || typeof prompt !== 'string') {
+      return res.status(400).json({ error: 'prompt parameter is required.' });
+    }
+
+    const ai = getAIClient();
+    const response = await ai.models.generateContent({
+      model: 'gemini-3.6-flash',
+      contents: prompt,
+      config: wantJson ? { responseMimeType: 'application/json' } : undefined,
+    });
+
+    res.json({ text: response.text || '' });
+  } catch (error: any) {
+    console.error('Error in /api/gemini/proxy:', error);
+    res.status(500).json({ error: error.message || 'Failed to generate content.' });
+  }
+});
+
 // 2. AI Conversation Partner Chat & Instant Feedback Endpoint
 app.post('/api/gemini/chat', async (req, res) => {
   try {

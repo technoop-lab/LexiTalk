@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   ConversationTurn,
   ConversationCharacter,
@@ -18,6 +18,7 @@ import {
   AlertCircle,
 } from 'lucide-react';
 import { getActiveEnglishAccent, playSoundEffectEffect } from '../../utils/audioUtils';
+import { askGeminiJson, isAiConfigured } from '../../services/GeminiClient';
 
 interface ConversationTurnRunnerProps {
   turn: ConversationTurn;
@@ -43,6 +44,12 @@ export const ConversationTurnRunner: React.FC<ConversationTurnRunnerProps> = ({
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
   const [startTimeMs, setStartTimeMs] = useState<number>(Date.now());
 
+  // GEM-1 Smart Hint Pills — appear after 4s of silence
+  const [showHints, setShowHints] = useState(false);
+  const [hintTexts, setHintTexts] = useState<string[]>([]);
+  const [hintsFromAi, setHintsFromAi] = useState(false);
+  const interactedRef = useRef(false);
+
   const provider = SpeechService.getProvider();
 
   // Play partner audio on turn load
@@ -51,7 +58,44 @@ export const ConversationTurnRunner: React.FC<ConversationTurnRunnerProps> = ({
     setManualTranscript('');
     setSpeechError(null);
     setStartTimeMs(Date.now());
+    interactedRef.current = false;
+    setShowHints(false);
+    setHintsFromAi(false);
+    setHintTexts([]);
     playPartnerAudio();
+  }, [turn.id]);
+
+  // Silence detector: no typing / mic / submit for 4s → reveal hint pills.
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (interactedRef.current) return;
+
+      const localHints = turn.suggestedResponses
+        .map((s) => s.text)
+        .filter(Boolean)
+        .slice(0, 3);
+      setHintTexts(localHints);
+      setShowHints(localHints.length > 0);
+
+      // Enrich with AI hints when a key/proxy is available (non-blocking).
+      if (isAiConfigured()) {
+        void askGeminiJson<{ hints?: string[] }>(
+          `A CEFR-${cefr} English learner is stuck on a speaking task.\n` +
+            `They were asked: "${turn.partnerPrompt}"\n` +
+            `Communicative goal: ${turn.contextGoal}\n` +
+            `Target vocabulary: ${turn.targetVocabulary.join(', ')}\n` +
+            `Give exactly 3 DIFFERENT short starter sentences (5-9 words) they can say out loud to begin their answer. Natural, simple, level-appropriate.\n` +
+            `Return JSON only as {"hints":["...","...","..."]}`,
+        ).then((data) => {
+          const aiHints = (data?.hints || []).map((h) => String(h || '').trim()).filter(Boolean).slice(0, 3);
+          if (aiHints.length >= 2 && !interactedRef.current) {
+            setHintTexts(aiHints);
+            setHintsFromAi(true);
+          }
+        });
+      }
+    }, 4000);
+    return () => clearTimeout(timer);
   }, [turn.id]);
 
   const playPartnerAudio = () => {
@@ -77,6 +121,8 @@ export const ConversationTurnRunner: React.FC<ConversationTurnRunnerProps> = ({
 
   const handleStartListening = async () => {
     playSoundEffectEffect('tap');
+    interactedRef.current = true;
+    setShowHints(false);
     setSpeechError(null);
 
     const isAvail = await provider.isAvailable();
@@ -111,6 +157,8 @@ export const ConversationTurnRunner: React.FC<ConversationTurnRunnerProps> = ({
   };
 
   const handleSubmitResponse = (submittedText?: string) => {
+    interactedRef.current = true;
+    setShowHints(false);
     const text = (submittedText || manualTranscript || liveTranscript).trim();
     if (!text) {
       setSpeechError('Please speak or enter your response before submitting.');
@@ -135,6 +183,24 @@ export const ConversationTurnRunner: React.FC<ConversationTurnRunnerProps> = ({
   const handleSelectSuggested = (text: string) => {
     setManualTranscript(text);
     setLiveTranscript(text);
+  };
+
+  const handleUseHint = (text: string) => {
+    playSoundEffectEffect('tap');
+    interactedRef.current = true;
+    setShowHints(false);
+    setManualTranscript(text);
+    setLiveTranscript(text);
+    // Read the starter aloud so the learner can repeat it
+    try {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = getActiveEnglishAccent();
+      utterance.rate = cefr === 'A1' ? 0.85 : 0.95;
+      window.speechSynthesis.speak(utterance);
+    } catch {
+      /* speech synthesis unavailable */
+    }
   };
 
   return (
@@ -263,7 +329,11 @@ export const ConversationTurnRunner: React.FC<ConversationTurnRunnerProps> = ({
         <div className="relative">
           <textarea
             value={manualTranscript}
-            onChange={(e) => setManualTranscript(e.target.value)}
+            onChange={(e) => {
+              interactedRef.current = true;
+              setShowHints(false);
+              setManualTranscript(e.target.value);
+            }}
             placeholder={
               isListening
                 ? 'Listening... Speak clearly into your microphone...'
@@ -289,6 +359,33 @@ export const ConversationTurnRunner: React.FC<ConversationTurnRunnerProps> = ({
               <p className="text-[11px] text-amber-400/80 mt-0.5">
                 You can still type or edit your response above and submit for complete local evaluation.
               </p>
+            </div>
+          </div>
+        )}
+
+        {/* GEM-1: Smart Hint Pills — appear after 4s of silence, hide on any interaction */}
+        {showHints && !manualTranscript && !isListening && hintTexts.length > 0 && (
+          <div className="space-y-1.5 animate-fade-in">
+            <div className="flex items-center space-x-1.5">
+              <span className="text-[10px] font-black uppercase tracking-wider text-amber-400">
+                💡 Stuck? Tap a starter
+              </span>
+              {hintsFromAi && (
+                <span className="text-[9px] font-black px-1.5 py-0.5 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+                  ✨ AI
+                </span>
+              )}
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {hintTexts.map((hint, idx) => (
+                <button
+                  key={idx}
+                  onClick={() => handleUseHint(hint)}
+                  className="px-3 py-2 rounded-2xl text-xs font-bold text-left bg-amber-500/10 hover:bg-amber-500/20 text-amber-200 border border-amber-500/30 transition cursor-pointer btn-press"
+                >
+                  “{hint}”
+                </button>
+              ))}
             </div>
           </div>
         )}

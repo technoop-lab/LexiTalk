@@ -9,6 +9,11 @@ public class MainActivity extends BridgeActivity {
     private AndroidSpeechBridge speechBridge;
     private AndroidTTSBridge ttsBridge;
 
+    public MainActivity() {
+        // Native one-tap hand-off to the learner's installed Gemini app
+        registerPlugin(GeminiHandoffPlugin.class);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -23,7 +23,9 @@ import {
   Bookmark,
   Compass,
   Library,
-  Play
+  Languages,
+  Play,
+  Loader2
 } from 'lucide-react';
 import { UserAcademyProfile } from '../../types';
 import { LESSON_A1_1_1_DATA } from '../../data/lessons/lesson_a1_1_1';
@@ -34,7 +36,10 @@ import {
   getGrammarTopicCounts,
   searchGrammarTopics,
   getGrammarSourceLabel,
+  GrammarTopic,
 } from '../../services/GrammarLibraryService';
+import { askGeminiJson, isAiConfigured } from '../../services/GeminiClient';
+import { AskGeminiButton } from '../ui/AskGeminiButton';
 
 interface GrammarExperienceModalProps {
   user: UserAcademyProfile;
@@ -627,6 +632,12 @@ export const GrammarExperienceModal: React.FC<GrammarExperienceModalProps> = ({
   const [libraryQuery, setLibraryQuery] = useState('');
   const [libraryLevel, setLibraryLevel] = useState<'all' | 'A1' | 'A2'>('all');
   const [expandedLibraryId, setExpandedLibraryId] = useState<string | null>(null);
+  const [topicExplain, setTopicExplain] = useState<{
+    id: string;
+    loading: boolean;
+    text?: string;
+    local?: boolean;
+  } | null>(null);
   const [expandedPatternIndex, setExpandedPatternIndex] = useState<number | null>(0);
 
   // Playground state
@@ -655,6 +666,34 @@ export const GrammarExperienceModal: React.FC<GrammarExperienceModalProps> = ({
     ? searchGrammarTopics(libraryQuery, levelFilteredTopics)
     : levelFilteredTopics;
   const shownLibraryTopics = searchedLibraryTopics.slice(0, 60);
+
+  // GEM-3: AI deep-dive for a library topic (falls back to local content).
+  const handleTopicExplain = async (topic: GrammarTopic) => {
+    playSoundEffectEffect('tap');
+    if (topicExplain?.id === topic.id) {
+      setTopicExplain(null);
+      return;
+    }
+    const localText = topic.conceptHi || topic.concept || topic.title;
+    if (!isAiConfigured()) {
+      setTopicExplain({ id: topic.id, loading: false, text: localText, local: true });
+      return;
+    }
+    setTopicExplain({ id: topic.id, loading: true });
+    const data = await askGeminiJson<{ explanationHi?: string }>(
+      `Explain this English grammar topic for a Hindi-speaking learner in SIMPLE Hindi (Devanagari), ` +
+        `max 4 short sentences: what it means, when to use it, and one memory trick.\n` +
+        `Topic: "${topic.title}"\n` +
+        `Concept: ${topic.concept || ''}\n` +
+        `Structure: ${topic.structure || ''}\n` +
+        `Return JSON only: {"explanationHi":"..."}`,
+    );
+    if (data?.explanationHi) {
+      setTopicExplain({ id: topic.id, loading: false, text: data.explanationHi, local: false });
+    } else {
+      setTopicExplain({ id: topic.id, loading: false, text: localText, local: true });
+    }
+  };
 
   const handlePlayAudio = (text: string) => {
     playSoundEffectEffect('tap');
@@ -1025,6 +1064,50 @@ export const GrammarExperienceModal: React.FC<GrammarExperienceModalProps> = ({
                             <p className="text-xs text-emerald-700 dark:text-emerald-400 leading-relaxed font-hindi">
                               {topic.conceptHi}
                             </p>
+                          )}
+
+                          {/* GEM-3 + GEM-H1: AI explain / hand off to Gemini */}
+                          <div className="flex flex-wrap items-center gap-2">
+                            <button
+                              onClick={() => handleTopicExplain(topic)}
+                              className="inline-flex items-center space-x-1.5 px-3 py-2 rounded-xl text-[11px] font-black transition border cursor-pointer btn-press bg-emerald-50 dark:bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border-emerald-200 dark:border-emerald-500/30 hover:bg-emerald-100 dark:hover:bg-emerald-500/25"
+                            >
+                              <Languages className="w-3.5 h-3.5" />
+                              <span>
+                                {topicExplain?.id === topic.id && !topicExplain.loading
+                                  ? 'बंद करें (Close)'
+                                  : '✨ ज़्यादा बताओ (Explain)'}
+                              </span>
+                            </button>
+                            <AskGeminiButton
+                              prompt={
+                                `Explain the English grammar topic "${topic.title}" in simple Hindi for an Indian learner: ` +
+                                `formula/structure, when to use it, 1 common mistake Hindi speakers make, ` +
+                                `and 2 example sentences with Hindi translations.`
+                              }
+                            />
+                          </div>
+
+                          {topicExplain?.id === topic.id && (
+                            <div className="bg-emerald-950/30 border border-emerald-500/30 rounded-2xl p-3.5 space-y-1.5 animate-fade-in">
+                              {topicExplain.loading ? (
+                                <div className="flex items-center space-x-2 text-xs text-slate-400">
+                                  <Loader2 className="w-4 h-4 animate-spin text-emerald-400" />
+                                  <span>समझा रहा है…</span>
+                                </div>
+                              ) : (
+                                <>
+                                  <p className="text-xs text-slate-200 leading-relaxed font-hindi">
+                                    {topicExplain.text}
+                                  </p>
+                                  {topicExplain.local && (
+                                    <p className="text-[10px] text-slate-500 italic">
+                                      Local explanation — add a Gemini API key for a detailed AI breakdown.
+                                    </p>
+                                  )}
+                                </>
+                              )}
+                            </div>
                           )}
 
                           {topic.structure && (

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   TurnEvaluationResult,
   ControlledPracticeTask,
@@ -15,8 +15,14 @@ import {
   HelpCircle,
   Award,
   BookOpen,
+  Languages,
+  Loader2,
 } from 'lucide-react';
 import { playSoundEffectEffect } from '../../utils/audioUtils';
+import { getActiveEnglishAccent } from '../../utils/audioUtils';
+import { AudioService } from '../../services/AudioService';
+import { askGeminiJson, isAiConfigured } from '../../services/GeminiClient';
+import { AskGeminiButton } from '../ui/AskGeminiButton';
 
 interface ConversationFeedbackModalProps {
   turn: ConversationTurn;
@@ -34,7 +40,95 @@ export const ConversationFeedbackModal: React.FC<ConversationFeedbackModalProps>
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [remediationSolved, setRemediationSolved] = useState(false);
 
+  // GEM-2 Tone Switcher + GEM-3 Explain-in-Hindi
+  const [toneTab, setToneTab] = useState<'casual' | 'polite' | 'professional'>('casual');
+  const [toneVariants, setToneVariants] = useState<Record<string, string> | null>(null);
+  const [toneLoading, setToneLoading] = useState(false);
+  const [explain, setExplain] = useState<{
+    loading: boolean;
+    explanationHi?: string;
+    examples?: string[];
+    local?: boolean;
+  } | null>(null);
+
   const { feedback, overallSuccess, requiresRetry, detectedErrors, remediationTask } = evaluation;
+
+  const speak = (text: string) => {
+    playSoundEffectEffect('tap');
+    AudioService.speak(text, getActiveEnglishAccent());
+  };
+
+  const correctionSummary = detectedErrors.length
+    ? detectedErrors.map((e) => `${e.message} → ${e.correction}`).join('; ')
+    : '';
+
+  const buildTonePrompt = () =>
+    `A Hindi-speaking learner said this English sentence: "${evaluation.rawTranscript}"\n` +
+    (correctionSummary ? `Corrections needed: ${correctionSummary}\n` : 'Their grammar is already correct.\n') +
+    `Create THREE one-sentence versions with the SAME meaning and correct grammar:\n` +
+    `- casual: friendly, talking with friends\n` +
+    `- polite: soft and respectful\n` +
+    `- professional: suitable for office / work\n` +
+    `Return JSON only: {"casual":"...","polite":"...","professional":"..."}`;
+
+  const buildExplainPrompt = () =>
+    `A Hindi-speaking English learner needs to understand their speaking feedback.\n` +
+    `They said: "${evaluation.rawTranscript}"\n` +
+    (correctionSummary ? `Feedback: ${correctionSummary}\n` : `Feedback: ${feedback.grammar.message}\n`) +
+    `Explain IN SIMPLE HINDI (Devanagari) why, in max 4 short sentences a 15-year-old understands. ` +
+    `Then give 2 example sentences showing the rule, each as "English sentence — Hindi translation".\n` +
+    `Return JSON only: {"explanationHi":"...","examples":["...","..."]}`;
+
+  // Fetch tone variants once when the modal opens (only when AI is reachable).
+  useEffect(() => {
+    if (!isAiConfigured()) return;
+    let cancelled = false;
+    setToneLoading(true);
+    void askGeminiJson<{ casual?: string; polite?: string; professional?: string }>(buildTonePrompt()).then(
+      (data) => {
+        if (cancelled) return;
+        if (data && (data.casual || data.polite || data.professional)) {
+          setToneVariants({
+            casual: data.casual || evaluation.rawTranscript,
+            polite: data.polite || evaluation.rawTranscript,
+            professional: data.professional || evaluation.rawTranscript,
+          });
+        }
+        setToneLoading(false);
+      },
+    );
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const handleExplainToggle = async () => {
+    playSoundEffectEffect('tap');
+    if (explain) {
+      setExplain(null);
+      return;
+    }
+    const localText =
+      correctionSummary ||
+      feedback.grammar.message ||
+      'No major grammar issues detected in this response.';
+    if (!isAiConfigured()) {
+      setExplain({ loading: false, explanationHi: localText, examples: [], local: true });
+      return;
+    }
+    setExplain({ loading: true });
+    const data = await askGeminiJson<{ explanationHi?: string; examples?: string[] }>(buildExplainPrompt());
+    if (data?.explanationHi) {
+      setExplain({
+        loading: false,
+        explanationHi: data.explanationHi,
+        examples: (Array.isArray(data.examples) ? data.examples : []).slice(0, 2),
+        local: false,
+      });
+    } else {
+      setExplain({ loading: false, explanationHi: localText, examples: [], local: true });
+    }
+  };
 
   const handleOptionSelect = (optionId: string, isCorrect: boolean) => {
     setSelectedOption(optionId);
@@ -85,9 +179,169 @@ export const ConversationFeedbackModal: React.FC<ConversationFeedbackModalProps>
         </div>
 
         {/* Transcript Recap */}
-        <div className="bg-slate-850 p-3.5 rounded-2xl border border-slate-800 space-y-1">
+        <div className="bg-slate-850 p-3.5 rounded-2xl border border-slate-800 space-y-2.5">
           <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Your Spoken Answer:</span>
           <p className="text-sm font-medium text-slate-200 italic">"{evaluation.rawTranscript}"</p>
+          <div className="flex justify-end">
+            <AskGeminiButton
+              prompt={
+                `I said in English: "${evaluation.rawTranscript}"\n` +
+                (correctionSummary ? `Corrections: ${correctionSummary}\n` : 'My grammar was correct.\n') +
+                `Explain in simple Hindi why, with 2 example sentences.`
+              }
+              label="Ask Gemini"
+            />
+          </div>
+        </div>
+
+        {/* GEM-2: Say It Better — in-app tabs when AI key set, else keyless Gemini hand-off */}
+        {isAiConfigured() ? (
+          <div className="bg-slate-850 p-3.5 rounded-2xl border border-slate-800 space-y-2.5">
+            <div className="flex items-center justify-between">
+              <span className="text-[10px] font-black uppercase tracking-wider text-indigo-300">
+                🗣️ Say It Better (बोलने का तरीका)
+              </span>
+              <span className="text-[9px] font-black px-1.5 py-0.5 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+                ✨ AI
+              </span>
+            </div>
+
+            <div className="flex space-x-1.5">
+              {([
+                ['casual', 'Casual 🧑‍🎤'],
+                ['polite', 'Polite 🙏'],
+                ['professional', 'Office 💼'],
+              ] as const).map(([id, labelText]) => (
+                <button
+                  key={id}
+                  onClick={() => {
+                    playSoundEffectEffect('tap');
+                    setToneTab(id);
+                  }}
+                  className={`px-3 py-1.5 rounded-xl text-[11px] font-black transition cursor-pointer border ${
+                    toneTab === id
+                      ? 'bg-indigo-500 text-white border-indigo-400'
+                      : 'bg-slate-900 text-slate-400 border-slate-700 hover:text-slate-200'
+                  }`}
+                >
+                  {labelText}
+                </button>
+              ))}
+            </div>
+
+            {toneLoading ? (
+              <div className="flex items-center space-x-2 text-xs text-slate-400">
+                <Loader2 className="w-4 h-4 animate-spin text-indigo-400" />
+                <span>Preparing3 versions…</span>
+              </div>
+            ) : toneVariants ? (
+              <div className="flex items-start justify-between gap-2 bg-slate-900 border border-slate-800 rounded-xl p-3">
+                <p className="text-sm font-medium text-slate-100 leading-relaxed">
+                  {toneVariants[toneTab]}
+                </p>
+                <button
+                  onClick={() => speak(toneVariants[toneTab])}
+                  className="p-2 bg-indigo-500/20 hover:bg-indigo-500/30 text-indigo-300 rounded-xl transition cursor-pointer shrink-0"
+                  title="Listen"
+                >
+                  <Volume2 className="w-4 h-4" />
+                </button>
+              </div>
+            ) : (
+              <p className="text-[11px] text-slate-500">
+                Could not reach the AI coach right now — check your connection or API key.
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="bg-slate-850 p-3.5 rounded-2xl border border-slate-800 space-y-2.5">
+            <div className="flex items-center justify-between">
+              <span className="text-[10px] font-black uppercase tracking-wider text-indigo-300">
+                🗣️ Say It Better (बोलने का तरीका)
+              </span>
+              <span className="text-[9px] font-black px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                🔑-free · your Gemini app
+              </span>
+            </div>
+            <p className="text-[11px] text-slate-400 leading-relaxed">
+              Get Casual / Polite / Office versions of your sentence straight from the Gemini app
+              already installed on your phone — free, no API key needed.
+            </p>
+            <AskGeminiButton
+              prompt={
+                `Correct and rewrite this English sentence in 3 ways with the SAME meaning:\n` +
+                `1. Casual (friends)\n2. Polite (respectful)\n3. Professional (office)\n` +
+                `Sentence: "${evaluation.rawTranscript}"\n` +
+                (correctionSummary ? `Fix the grammar first. Corrections: ${correctionSummary}\n` : '') +
+                `One sentence per version, numbered.`
+              }
+              label="Gemini से 3 तरीकें सीखें"
+            />
+          </div>
+        )}
+
+        {/* Corrections detected for this turn (GEM-3 support) */}
+        {detectedErrors.length > 0 && (
+          <div className="bg-rose-950/30 border border-rose-500/30 rounded-2xl p-3.5 space-y-2">
+            <span className="text-[10px] font-black uppercase tracking-wider text-rose-400 flex items-center space-x-1.5">
+              <XCircle className="w-3.5 h-3.5" />
+              <span>Corrections ({detectedErrors.length})</span>
+            </span>
+            {detectedErrors.map((err, idx) => (
+              <div key={idx} className="text-xs space-y-0.5">
+                <p className="text-rose-300">✗ {err.message}</p>
+                <p className="text-emerald-400 font-bold">✓ {err.correction}</p>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* GEM-3: Explain-in-Hindi deep dive */}
+        <div className="space-y-2">
+          <button
+            onClick={handleExplainToggle}
+            className="inline-flex items-center space-x-1.5 px-3 py-2 rounded-xl text-[11px] font-black transition border cursor-pointer btn-press bg-emerald-50 dark:bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border-emerald-200 dark:border-emerald-500/30 hover:bg-emerald-100 dark:hover:bg-emerald-500/25"
+          >
+            <Languages className="w-3.5 h-3.5" />
+            <span>{explain ? 'बंद करें (Close)' : '✨ ज़्यादा बताओ · Explain in Hindi'}</span>
+          </button>
+
+          {explain && (
+            <div className="bg-emerald-950/30 border border-emerald-500/30 rounded-2xl p-3.5 space-y-2.5 animate-fade-in">
+              {explain.loading ? (
+                <div className="flex items-center space-x-2 text-xs text-slate-400">
+                  <Loader2 className="w-4 h-4 animate-spin text-emerald-400" />
+                  <span>समझा रहा है…</span>
+                </div>
+              ) : (
+                <>
+                  <p className="text-xs text-slate-200 leading-relaxed font-hindi">
+                    {explain.explanationHi}
+                  </p>
+                  {(explain.examples || []).map((ex, idx) => (
+                    <div
+                      key={idx}
+                      className="flex items-start justify-between gap-2 bg-slate-900 border border-slate-800 rounded-xl p-2.5"
+                    >
+                      <p className="text-[11px] text-slate-300 font-medium">{ex}</p>
+                      <button
+                        onClick={() => speak(ex.split('—')[0].trim())}
+                        className="p-1.5 bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-300 rounded-lg transition cursor-pointer shrink-0"
+                        title="Listen"
+                      >
+                        <Volume2 className="w-3.5 h-3.5" />
+                      </button>
+                    </div>
+                  ))}
+                  {explain.local && (
+                    <p className="text-[10px] text-slate-500 italic">
+                      Local explanation — add a Gemini API key for a detailed AI breakdown.
+                    </p>
+                  )}
+                </>
+              )}
+            </div>
+          )}
         </div>
 
         {/* 6-Domain Structured Feedback Grid */}
