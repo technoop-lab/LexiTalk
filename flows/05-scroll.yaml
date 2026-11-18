@@ -1,0 +1,32 @@
+appId: com.curiosity.english
+---
+- launchApp:
+    clearState: false
+- extendedWaitUntil:
+    visible: "(?i).*welcome.*"
+    timeout: 30000
+- tapOn:
+    id: "hero-primary-cta"
+- extendedWaitUntil:
+    visible: "(?i).*start day.*"
+    timeout: 20000
+- tapOn: "(?i).*start day.*"
+- extendedWaitUntil:
+    visible: "(?i).*learning objectives.*"
+    timeout: 30000
+- tapOn: '3. Learn'
+- extendedWaitUntil:
+    visible: "(?i).*vocabulary.*words.*"
+    timeout: 20000
+- scrollUntilVisible:
+    element:
+      text: "(?i).*listen to transcendent.*"
+    direction: DOWN
+    timeout: 60000
+- takeScreenshot: 30-scrolled-to-last-word
+- scrollUntilVisible:
+    element:
+      text: "(?i).*next section.*"
+    direction: DOWN
+    timeout: 30000
+- takeScreenshot: 31-next-section-visible

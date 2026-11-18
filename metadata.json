@@ -1,0 +1,6 @@
+{
+  "name": "Curiosity English Academy",
+  "description": "Comprehensive CEFR-aligned English learning academy featuring Units 1 through 18, the complete 60-Day English for Hindi Speakers bilingual learning system (Days 1–60 full production curriculum with interactive exercise engine, audio pronunciation drills, bilingual exemplars, conversational dialogues, and CEFR exit benchmarks), multilingual grammar foundations, and communicative mastery evaluation.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

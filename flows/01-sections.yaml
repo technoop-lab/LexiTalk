@@ -1,0 +1,23 @@
+appId: com.curiosity.english
+---
+- launchApp:
+    clearState: false
+- extendedWaitUntil:
+    visible: "(?i).*welcome.*"
+    timeout: 30000
+- tapOn:
+    id: "hero-primary-cta"
+- extendedWaitUntil:
+    visible: "(?i).*start day.*"
+    timeout: 20000
+- tapOn: "(?i).*start day.*"
+- extendedWaitUntil:
+    visible: "(?i).*learning objectives.*"
+    timeout: 20000
+- takeScreenshot: 10-overview
+- tapOn: '2. Teach'
+- assertVisible: '2. Teach'
+- takeScreenshot: 11-teach
+- tapOn: '3. Learn'
+- assertVisible: '3. Learn'
+- takeScreenshot: 12-learn

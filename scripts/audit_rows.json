@@ -1,0 +1,1002 @@
+[
+  {
+    "day": 1,
+    "dlgId": "d01_sc01",
+    "dlgTitle": "Morning Greetings in the Apartment Hallway",
+    "origObjective": "Daily Greetings, Time-Bound Salutations & Basic Parting",
+    "actualTopic": "Morning Greetings in the Apartment Hallway",
+    "targetGrammar": "Greetings & Introductions with Copular Verb \"To Be\" (am/is/are)",
+    "targetVocab": "Greetings, introductions, job roles, backgrounds",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 1,
+    "dlgId": "d01_sc02",
+    "dlgTitle": "Arriving at the Office & Greeting New Colleagues",
+    "origObjective": "Daily Greetings, Time-Bound Salutations & Basic Parting",
+    "actualTopic": "Arriving at the Office & Greeting New Colleagues",
+    "targetGrammar": "Greetings & Introductions with Copular Verb \"To Be\" (am/is/are)",
+    "targetVocab": "Greetings, introductions, job roles, backgrounds",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 1,
+    "dlgId": "d01_sc03",
+    "dlgTitle": "Reuniting with an Old Friend at a Coffee Shop",
+    "origObjective": "Daily Greetings, Time-Bound Salutations & Basic Parting",
+    "actualTopic": "Reuniting with an Old Friend at a Coffee Shop",
+    "targetGrammar": "Greetings & Introductions with Copular Verb \"To Be\" (am/is/are)",
+    "targetVocab": "Greetings, introductions, job roles, backgrounds",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 1,
+    "dlgId": "d01_sc04",
+    "dlgTitle": "Polite Customer Service Greeting at an Electronics Store",
+    "origObjective": "Daily Greetings, Time-Bound Salutations & Basic Parting",
+    "actualTopic": "Polite Customer Service Greeting at an Electronics Store",
+    "targetGrammar": "Greetings & Introductions with Copular Verb \"To Be\" (am/is/are)",
+    "targetVocab": "Greetings, introductions, job roles, backgrounds",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 1,
+    "dlgId": "d01_sc05",
+    "dlgTitle": "Late Afternoon Encounter at School Pickup",
+    "origObjective": "Daily Greetings, Time-Bound Salutations & Basic Parting",
+    "actualTopic": "Late Afternoon Encounter at School Pickup",
+    "targetGrammar": "Greetings & Introductions with Copular Verb \"To Be\" (am/is/are)",
+    "targetVocab": "Greetings, introductions, job roles, backgrounds",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 1,
+    "dlgId": "d01_sc06",
+    "dlgTitle": "Formal Evening Welcome at a Corporate Networking Event",
+    "origObjective": "Daily Greetings, Time-Bound Salutations & Basic Parting",
+    "actualTopic": "Formal Evening Welcome at a Corporate Networking Event",
+    "targetGrammar": "Greetings & Introductions with Copular Verb \"To Be\" (am/is/are)",
+    "targetVocab": "Greetings, introductions, job roles, backgrounds",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 1,
+    "dlgId": "d01_sc07",
+    "dlgTitle": "Casual Weekend Greeting Between Gym Workout Buddies",
+    "origObjective": "Daily Greetings, Time-Bound Salutations & Basic Parting",
+    "actualTopic": "Casual Weekend Greeting Between Gym Workout Buddies",
+    "targetGrammar": "Greetings & Introductions with Copular Verb \"To Be\" (am/is/are)",
+    "targetVocab": "Greetings, introductions, job roles, backgrounds",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 1,
+    "dlgId": "d01_sc08",
+    "dlgTitle": "Running into a Former Teacher at a Heritage Bookstore",
+    "origObjective": "Daily Greetings, Time-Bound Salutations & Basic Parting",
+    "actualTopic": "Running into a Former Teacher at a Heritage Bookstore",
+    "targetGrammar": "Greetings & Introductions with Copular Verb \"To Be\" (am/is/are)",
+    "targetVocab": "Greetings, introductions, job roles, backgrounds",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 1,
+    "dlgId": "d01_sc09",
+    "dlgTitle": "Checking In at a Boutique Hotel Reception",
+    "origObjective": "Daily Greetings, Time-Bound Salutations & Basic Parting",
+    "actualTopic": "Checking In at a Boutique Hotel Reception",
+    "targetGrammar": "Greetings & Introductions with Copular Verb \"To Be\" (am/is/are)",
+    "targetVocab": "Greetings, introductions, job roles, backgrounds",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 1,
+    "dlgId": "d01_sc10",
+    "dlgTitle": "Emotional Farewell & Parting at a Train Station Platform",
+    "origObjective": "Daily Greetings, Time-Bound Salutations & Basic Parting",
+    "actualTopic": "Emotional Farewell & Parting at a Train Station Platform",
+    "targetGrammar": "Greetings & Introductions with Copular Verb \"To Be\" (am/is/are)",
+    "targetVocab": "Greetings, introductions, job roles, backgrounds",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 2,
+    "dlgId": "d02_sc01",
+    "dlgTitle": "Ordering and Making Polite Custom Requests at a Cafe",
+    "origObjective": "Social Etiquette, Courtesy & Polite Interaction",
+    "actualTopic": "Ordering and Making Polite Custom Requests at a Cafe",
+    "targetGrammar": "Present Simple habitual actions (wakes up, begins, reviews, exercises, eats)",
+    "targetVocab": "Routines, schedule, morning, daily habits, shifts, training",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 2,
+    "dlgId": "d02_sc02",
+    "dlgTitle": "Asking for Street Directions Politely",
+    "origObjective": "Social Etiquette, Courtesy & Polite Interaction",
+    "actualTopic": "Asking for Street Directions Politely",
+    "targetGrammar": "Present Simple habitual actions (wakes up, begins, reviews, exercises, eats)",
+    "targetVocab": "Routines, schedule, morning, daily habits, shifts, training",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 2,
+    "dlgId": "d02_sc03",
+    "dlgTitle": "Returning a Dropped Wallet on the Metro",
+    "origObjective": "Social Etiquette, Courtesy & Polite Interaction",
+    "actualTopic": "Returning a Dropped Wallet on the Metro",
+    "targetGrammar": "Present Simple habitual actions (wakes up, begins, reviews, exercises, eats)",
+    "targetVocab": "Routines, schedule, morning, daily habits, shifts, training",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 2,
+    "dlgId": "d02_sc04",
+    "dlgTitle": "Asking to Share a Study Table in a Quiet Library",
+    "origObjective": "Social Etiquette, Courtesy & Polite Interaction",
+    "actualTopic": "Asking to Share a Study Table in a Quiet Library",
+    "targetGrammar": "Present Simple habitual actions (wakes up, begins, reviews, exercises, eats)",
+    "targetVocab": "Routines, schedule, morning, daily habits, shifts, training",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 2,
+    "dlgId": "d02_sc05",
+    "dlgTitle": "Apologizing for an Accidental Collision in an Elevator",
+    "origObjective": "Social Etiquette, Courtesy & Polite Interaction",
+    "actualTopic": "Apologizing for an Accidental Collision in an Elevator",
+    "targetGrammar": "Present Simple habitual actions (wakes up, begins, reviews, exercises, eats)",
+    "targetVocab": "Routines, schedule, morning, daily habits, shifts, training",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 2,
+    "dlgId": "d02_sc06",
+    "dlgTitle": "Borrowing Office Supplies with Courtesy",
+    "origObjective": "Social Etiquette, Courtesy & Polite Interaction",
+    "actualTopic": "Borrowing Office Supplies with Courtesy",
+    "targetGrammar": "Present Simple habitual actions (wakes up, begins, reviews, exercises, eats)",
+    "targetVocab": "Routines, schedule, morning, daily habits, shifts, training",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 2,
+    "dlgId": "d02_sc07",
+    "dlgTitle": "Polite Noise Complaint Between Roommates",
+    "origObjective": "Social Etiquette, Courtesy & Polite Interaction",
+    "actualTopic": "Polite Noise Complaint Between Roommates",
+    "targetGrammar": "Present Simple habitual actions (wakes up, begins, reviews, exercises, eats)",
+    "targetVocab": "Routines, schedule, morning, daily habits, shifts, training",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 2,
+    "dlgId": "d02_sc08",
+    "dlgTitle": "Asking a Store Assistant to Reach a High Shelf",
+    "origObjective": "Social Etiquette, Courtesy & Polite Interaction",
+    "actualTopic": "Asking a Store Assistant to Reach a High Shelf",
+    "targetGrammar": "Present Simple habitual actions (wakes up, begins, reviews, exercises, eats)",
+    "targetVocab": "Routines, schedule, morning, daily habits, shifts, training",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 2,
+    "dlgId": "d02_sc09",
+    "dlgTitle": "Politely Declining an Offer at a Friend's Dinner Table",
+    "origObjective": "Social Etiquette, Courtesy & Polite Interaction",
+    "actualTopic": "Politely Declining an Offer at a Friend's Dinner Table",
+    "targetGrammar": "Present Simple habitual actions (wakes up, begins, reviews, exercises, eats)",
+    "targetVocab": "Routines, schedule, morning, daily habits, shifts, training",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 2,
+    "dlgId": "d02_sc10",
+    "dlgTitle": "Resolving a Billing Query with Customer Support",
+    "origObjective": "Social Etiquette, Courtesy & Polite Interaction",
+    "actualTopic": "Resolving a Billing Query with Customer Support",
+    "targetGrammar": "Present Simple habitual actions (wakes up, begins, reviews, exercises, eats)",
+    "targetVocab": "Routines, schedule, morning, daily habits, shifts, training",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 3,
+    "dlgId": "d03_sc01",
+    "dlgTitle": "Introducing Yourself at a New Tech Job Orientation",
+    "origObjective": "Expressive Reactions, Emotional Exclamations & Interjections",
+    "actualTopic": "Introducing Yourself at a New Tech Job Orientation",
+    "targetGrammar": "Spatial prepositions (next to, opposite, on the left, behind, above, between)",
+    "targetVocab": "Tower, aisle, floor, corridor, shelves, pantry, terminal, station",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 3,
+    "dlgId": "d03_sc02",
+    "dlgTitle": "First Day in an MBA College Classroom",
+    "origObjective": "Expressive Reactions, Emotional Exclamations & Interjections",
+    "actualTopic": "First Day in an MBA College Classroom",
+    "targetGrammar": "Spatial prepositions (next to, opposite, on the left, behind, above, between)",
+    "targetVocab": "Tower, aisle, floor, corridor, shelves, pantry, terminal, station",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 3,
+    "dlgId": "d03_sc03",
+    "dlgTitle": "Introducing Yourself to Neighbors at a Society Meeting",
+    "origObjective": "Expressive Reactions, Emotional Exclamations & Interjections",
+    "actualTopic": "Introducing Yourself to Neighbors at a Society Meeting",
+    "targetGrammar": "Spatial prepositions (next to, opposite, on the left, behind, above, between)",
+    "targetVocab": "Tower, aisle, floor, corridor, shelves, pantry, terminal, station",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 3,
+    "dlgId": "d03_sc04",
+    "dlgTitle": "Networking at an Entrepreneurship Summit",
+    "origObjective": "Expressive Reactions, Emotional Exclamations & Interjections",
+    "actualTopic": "Networking at an Entrepreneurship Summit",
+    "targetGrammar": "Spatial prepositions (next to, opposite, on the left, behind, above, between)",
+    "targetVocab": "Tower, aisle, floor, corridor, shelves, pantry, terminal, station",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 3,
+    "dlgId": "d03_sc05",
+    "dlgTitle": "Introducing Yourself at an Art & Pottery Workshop",
+    "origObjective": "Expressive Reactions, Emotional Exclamations & Interjections",
+    "actualTopic": "Introducing Yourself at an Art & Pottery Workshop",
+    "targetGrammar": "Spatial prepositions (next to, opposite, on the left, behind, above, between)",
+    "targetVocab": "Tower, aisle, floor, corridor, shelves, pantry, terminal, station",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 3,
+    "dlgId": "d03_sc06",
+    "dlgTitle": "Welcoming a Remote Colleague on a Video Conference",
+    "origObjective": "Expressive Reactions, Emotional Exclamations & Interjections",
+    "actualTopic": "Welcoming a Remote Colleague on a Video Conference",
+    "targetGrammar": "Spatial prepositions (next to, opposite, on the left, behind, above, between)",
+    "targetVocab": "Tower, aisle, floor, corridor, shelves, pantry, terminal, station",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 3,
+    "dlgId": "d03_sc07",
+    "dlgTitle": "Introducing Yourself at a Neighborhood Book Club",
+    "origObjective": "Expressive Reactions, Emotional Exclamations & Interjections",
+    "actualTopic": "Introducing Yourself at a Neighborhood Book Club",
+    "targetGrammar": "Spatial prepositions (next to, opposite, on the left, behind, above, between)",
+    "targetVocab": "Tower, aisle, floor, corridor, shelves, pantry, terminal, station",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 3,
+    "dlgId": "d03_sc08",
+    "dlgTitle": "Meeting a Fellow Volunteer at an Animal Shelter",
+    "origObjective": "Expressive Reactions, Emotional Exclamations & Interjections",
+    "actualTopic": "Meeting a Fellow Volunteer at an Animal Shelter",
+    "targetGrammar": "Spatial prepositions (next to, opposite, on the left, behind, above, between)",
+    "targetVocab": "Tower, aisle, floor, corridor, shelves, pantry, terminal, station",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 3,
+    "dlgId": "d03_sc09",
+    "dlgTitle": "Introducing Yourself to a Marathon Running Group",
+    "origObjective": "Expressive Reactions, Emotional Exclamations & Interjections",
+    "actualTopic": "Introducing Yourself to a Marathon Running Group",
+    "targetGrammar": "Spatial prepositions (next to, opposite, on the left, behind, above, between)",
+    "targetVocab": "Tower, aisle, floor, corridor, shelves, pantry, terminal, station",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 3,
+    "dlgId": "d03_sc10",
+    "dlgTitle": "Introductions at a Language Exchange Meetup",
+    "origObjective": "Expressive Reactions, Emotional Exclamations & Interjections",
+    "actualTopic": "Introductions at a Language Exchange Meetup",
+    "targetGrammar": "Spatial prepositions (next to, opposite, on the left, behind, above, between)",
+    "targetVocab": "Tower, aisle, floor, corridor, shelves, pantry, terminal, station",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 4,
+    "dlgId": "d04_sc01",
+    "dlgTitle": "Buying Fresh Vegetables and Herbs at a Morning Mandi",
+    "origObjective": "Conversational Phrases & Daily Action Imperatives",
+    "actualTopic": "Buying Fresh Vegetables and Herbs at a Morning Mandi",
+    "targetGrammar": "Modal verb \"can/cannot\" for ability, skills & requests + action directives",
+    "targetVocab": "Skills, abilities, languages, certifications, requests, instructions",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 4,
+    "dlgId": "d04_sc02",
+    "dlgTitle": "Choosing and Comparing Stationery at a Bookstore",
+    "origObjective": "Conversational Phrases & Daily Action Imperatives",
+    "actualTopic": "Choosing and Comparing Stationery at a Bookstore",
+    "targetGrammar": "Modal verb \"can/cannot\" for ability, skills & requests + action directives",
+    "targetVocab": "Skills, abilities, languages, certifications, requests, instructions",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 4,
+    "dlgId": "d04_sc03",
+    "dlgTitle": "Selecting Pottery and Souvenirs at an Artisan Handicraft Fair",
+    "origObjective": "Conversational Phrases & Daily Action Imperatives",
+    "actualTopic": "Selecting Pottery and Souvenirs at an Artisan Handicraft Fair",
+    "targetGrammar": "Modal verb \"can/cannot\" for ability, skills & requests + action directives",
+    "targetVocab": "Skills, abilities, languages, certifications, requests, instructions",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 4,
+    "dlgId": "d04_sc04",
+    "dlgTitle": "Comparing Fabric and Sarees at a Traditional Textile Shop",
+    "origObjective": "Conversational Phrases & Daily Action Imperatives",
+    "actualTopic": "Comparing Fabric and Sarees at a Traditional Textile Shop",
+    "targetGrammar": "Modal verb \"can/cannot\" for ability, skills & requests + action directives",
+    "targetVocab": "Skills, abilities, languages, certifications, requests, instructions",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 4,
+    "dlgId": "d04_sc05",
+    "dlgTitle": "Identifying Lost Property at a Mall Security Help Desk",
+    "origObjective": "Conversational Phrases & Daily Action Imperatives",
+    "actualTopic": "Identifying Lost Property at a Mall Security Help Desk",
+    "targetGrammar": "Modal verb \"can/cannot\" for ability, skills & requests + action directives",
+    "targetVocab": "Skills, abilities, languages, certifications, requests, instructions",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 4,
+    "dlgId": "d04_sc06",
+    "dlgTitle": "Inspecting Second-Hand Laptops at an Electronics Hub",
+    "origObjective": "Conversational Phrases & Daily Action Imperatives",
+    "actualTopic": "Inspecting Second-Hand Laptops at an Electronics Hub",
+    "targetGrammar": "Modal verb \"can/cannot\" for ability, skills & requests + action directives",
+    "targetVocab": "Skills, abilities, languages, certifications, requests, instructions",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 4,
+    "dlgId": "d04_sc07",
+    "dlgTitle": "Organizing and Labeling Toolboxes in a Home Garage",
+    "origObjective": "Conversational Phrases & Daily Action Imperatives",
+    "actualTopic": "Organizing and Labeling Toolboxes in a Home Garage",
+    "targetGrammar": "Modal verb \"can/cannot\" for ability, skills & requests + action directives",
+    "targetVocab": "Skills, abilities, languages, certifications, requests, instructions",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 4,
+    "dlgId": "d04_sc08",
+    "dlgTitle": "Choosing Indoor Plants at a Garden Nursery",
+    "origObjective": "Conversational Phrases & Daily Action Imperatives",
+    "actualTopic": "Choosing Indoor Plants at a Garden Nursery",
+    "targetGrammar": "Modal verb \"can/cannot\" for ability, skills & requests + action directives",
+    "targetVocab": "Skills, abilities, languages, certifications, requests, instructions",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 4,
+    "dlgId": "d04_sc09",
+    "dlgTitle": "Pointing Out Historical Artifacts in a Heritage Museum",
+    "origObjective": "Conversational Phrases & Daily Action Imperatives",
+    "actualTopic": "Pointing Out Historical Artifacts in a Heritage Museum",
+    "targetGrammar": "Modal verb \"can/cannot\" for ability, skills & requests + action directives",
+    "targetVocab": "Skills, abilities, languages, certifications, requests, instructions",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 4,
+    "dlgId": "d04_sc10",
+    "dlgTitle": "Selecting Designer Eyewear Frames at an Optician Boutique",
+    "origObjective": "Conversational Phrases & Daily Action Imperatives",
+    "actualTopic": "Selecting Designer Eyewear Frames at an Optician Boutique",
+    "targetGrammar": "Modal verb \"can/cannot\" for ability, skills & requests + action directives",
+    "targetVocab": "Skills, abilities, languages, certifications, requests, instructions",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 5,
+    "dlgId": "d05_sc01",
+    "dlgTitle": "Finding the Owner of a Lost Umbrella at a Community Center",
+    "origObjective": "Present State of Being: is / am / are",
+    "actualTopic": "Finding the Owner of a Lost Umbrella at a Community Center",
+    "targetGrammar": "Frequency adverbs (always, usually, often, rarely, seldom, never) with habitual verbs",
+    "targetVocab": "Habits, lifestyle, workouts, diet, meditation, finances, cadence",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 5,
+    "dlgId": "d05_sc02",
+    "dlgTitle": "Inquiring About Pet Breeds and Owners at a Dog Park",
+    "origObjective": "Present State of Being: is / am / are",
+    "actualTopic": "Inquiring About Pet Breeds and Owners at a Dog Park",
+    "targetGrammar": "Frequency adverbs (always, usually, often, rarely, seldom, never) with habitual verbs",
+    "targetVocab": "Habits, lifestyle, workouts, diet, meditation, finances, cadence",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 5,
+    "dlgId": "d05_sc03",
+    "dlgTitle": "Introducing Family Members at a Grand Wedding Banquet",
+    "origObjective": "Present State of Being: is / am / are",
+    "actualTopic": "Introducing Family Members at a Grand Wedding Banquet",
+    "targetGrammar": "Frequency adverbs (always, usually, often, rarely, seldom, never) with habitual verbs",
+    "targetVocab": "Habits, lifestyle, workouts, diet, meditation, finances, cadence",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 5,
+    "dlgId": "d05_sc04",
+    "dlgTitle": "Resolving Confusion Over Swapped Luggage Bags at the Airport",
+    "origObjective": "Present State of Being: is / am / are",
+    "actualTopic": "Resolving Confusion Over Swapped Luggage Bags at the Airport",
+    "targetGrammar": "Frequency adverbs (always, usually, often, rarely, seldom, never) with habitual verbs",
+    "targetVocab": "Habits, lifestyle, workouts, diet, meditation, finances, cadence",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 5,
+    "dlgId": "d05_sc05",
+    "dlgTitle": "Inquiring About Car Models and Parking Spots in an Apartment Society",
+    "origObjective": "Present State of Being: is / am / are",
+    "actualTopic": "Inquiring About Car Models and Parking Spots in an Apartment Society",
+    "targetGrammar": "Frequency adverbs (always, usually, often, rarely, seldom, never) with habitual verbs",
+    "targetVocab": "Habits, lifestyle, workouts, diet, meditation, finances, cadence",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 5,
+    "dlgId": "d05_sc06",
+    "dlgTitle": "Inquiring About Artwork Ownership at a Student Art Exhibition",
+    "origObjective": "Present State of Being: is / am / are",
+    "actualTopic": "Inquiring About Artwork Ownership at a Student Art Exhibition",
+    "targetGrammar": "Frequency adverbs (always, usually, often, rarely, seldom, never) with habitual verbs",
+    "targetVocab": "Habits, lifestyle, workouts, diet, meditation, finances, cadence",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 5,
+    "dlgId": "d05_sc07",
+    "dlgTitle": "Allocating Shared Responsibilities in a College Hostel Flat",
+    "origObjective": "Present State of Being: is / am / are",
+    "actualTopic": "Allocating Shared Responsibilities in a College Hostel Flat",
+    "targetGrammar": "Frequency adverbs (always, usually, often, rarely, seldom, never) with habitual verbs",
+    "targetVocab": "Habits, lifestyle, workouts, diet, meditation, finances, cadence",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 5,
+    "dlgId": "d05_sc08",
+    "dlgTitle": "Clarifying Ownership of Musical Instruments in a Band Practice Room",
+    "origObjective": "Present State of Being: is / am / are",
+    "actualTopic": "Clarifying Ownership of Musical Instruments in a Band Practice Room",
+    "targetGrammar": "Frequency adverbs (always, usually, often, rarely, seldom, never) with habitual verbs",
+    "targetVocab": "Habits, lifestyle, workouts, diet, meditation, finances, cadence",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 5,
+    "dlgId": "d05_sc09",
+    "dlgTitle": "Returning Misplaced Office Accessories in a Co-Working Space",
+    "origObjective": "Present State of Being: is / am / are",
+    "actualTopic": "Returning Misplaced Office Accessories in a Co-Working Space",
+    "targetGrammar": "Frequency adverbs (always, usually, often, rarely, seldom, never) with habitual verbs",
+    "targetVocab": "Habits, lifestyle, workouts, diet, meditation, finances, cadence",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 5,
+    "dlgId": "d05_sc10",
+    "dlgTitle": "Identifying Borrowed Books and Reading Lists in a Neighborhood Library",
+    "origObjective": "Present State of Being: is / am / are",
+    "actualTopic": "Identifying Borrowed Books and Reading Lists in a Neighborhood Library",
+    "targetGrammar": "Frequency adverbs (always, usually, often, rarely, seldom, never) with habitual verbs",
+    "targetVocab": "Habits, lifestyle, workouts, diet, meditation, finances, cadence",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 6,
+    "dlgId": "d06_sc01",
+    "dlgTitle": "Comparing Morning Routines Between Flatmates",
+    "origObjective": "Past State of Being: was / were",
+    "actualTopic": "Comparing Morning Routines Between Flatmates",
+    "targetGrammar": "Time-telling syntax, clock expressions (o'clock, quarter past, half past, sharp) and schedules",
+    "targetVocab": "Time, schedule, roster, flight, screening, train, timetable",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 6,
+    "dlgId": "d06_sc02",
+    "dlgTitle": "Discussing Weekly Workout Routines at the Gym",
+    "origObjective": "Past State of Being: was / were",
+    "actualTopic": "Discussing Weekly Workout Routines at the Gym",
+    "targetGrammar": "Time-telling syntax, clock expressions (o'clock, quarter past, half past, sharp) and schedules",
+    "targetVocab": "Time, schedule, roster, flight, screening, train, timetable",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 6,
+    "dlgId": "d06_sc03",
+    "dlgTitle": "Sharing Daily Teaching Schedules at an Elementary School",
+    "origObjective": "Past State of Being: was / were",
+    "actualTopic": "Sharing Daily Teaching Schedules at an Elementary School",
+    "targetGrammar": "Time-telling syntax, clock expressions (o'clock, quarter past, half past, sharp) and schedules",
+    "targetVocab": "Time, schedule, roster, flight, screening, train, timetable",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 6,
+    "dlgId": "d06_sc04",
+    "dlgTitle": "Discussing an Agile Software Engineering Daily Workflow",
+    "origObjective": "Past State of Being: was / were",
+    "actualTopic": "Discussing an Agile Software Engineering Daily Workflow",
+    "targetGrammar": "Time-telling syntax, clock expressions (o'clock, quarter past, half past, sharp) and schedules",
+    "targetVocab": "Time, schedule, roster, flight, screening, train, timetable",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 6,
+    "dlgId": "d06_sc05",
+    "dlgTitle": "Exam Study Habits and Library Routines Between College Friends",
+    "origObjective": "Past State of Being: was / were",
+    "actualTopic": "Exam Study Habits and Library Routines Between College Friends",
+    "targetGrammar": "Time-telling syntax, clock expressions (o'clock, quarter past, half past, sharp) and schedules",
+    "targetVocab": "Time, schedule, roster, flight, screening, train, timetable",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 6,
+    "dlgId": "d06_sc06",
+    "dlgTitle": "Daily Medical Rounds and Patient Care in a City Hospital",
+    "origObjective": "Past State of Being: was / were",
+    "actualTopic": "Daily Medical Rounds and Patient Care in a City Hospital",
+    "targetGrammar": "Time-telling syntax, clock expressions (o'clock, quarter past, half past, sharp) and schedules",
+    "targetVocab": "Time, schedule, roster, flight, screening, train, timetable",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 6,
+    "dlgId": "d06_sc07",
+    "dlgTitle": "Daily Culinary Prep and Kitchen Routines in a Fine Dining Restaurant",
+    "origObjective": "Past State of Being: was / were",
+    "actualTopic": "Daily Culinary Prep and Kitchen Routines in a Fine Dining Restaurant",
+    "targetGrammar": "Time-telling syntax, clock expressions (o'clock, quarter past, half past, sharp) and schedules",
+    "targetVocab": "Time, schedule, roster, flight, screening, train, timetable",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 6,
+    "dlgId": "d06_sc08",
+    "dlgTitle": "Daily Work-from-Home Routine of an Independent Graphic Designer",
+    "origObjective": "Past State of Being: was / were",
+    "actualTopic": "Daily Work-from-Home Routine of an Independent Graphic Designer",
+    "targetGrammar": "Time-telling syntax, clock expressions (o'clock, quarter past, half past, sharp) and schedules",
+    "targetVocab": "Time, schedule, roster, flight, screening, train, timetable",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 6,
+    "dlgId": "d06_sc09",
+    "dlgTitle": "Daily Sustainable Living and Waste Segregation Habits",
+    "origObjective": "Past State of Being: was / were",
+    "actualTopic": "Daily Sustainable Living and Waste Segregation Habits",
+    "targetGrammar": "Time-telling syntax, clock expressions (o'clock, quarter past, half past, sharp) and schedules",
+    "targetVocab": "Time, schedule, roster, flight, screening, train, timetable",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 6,
+    "dlgId": "d06_sc10",
+    "dlgTitle": "Daily Public Transit and Metro Commute Habits in Mumbai",
+    "origObjective": "Past State of Being: was / were",
+    "actualTopic": "Daily Public Transit and Metro Commute Habits in Mumbai",
+    "targetGrammar": "Time-telling syntax, clock expressions (o'clock, quarter past, half past, sharp) and schedules",
+    "targetVocab": "Time, schedule, roster, flight, screening, train, timetable",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 7,
+    "dlgId": "d07_sc01",
+    "dlgTitle": "Interviewing a Job Candidate at a Tech Company",
+    "origObjective": "Future State of Being: will be / won't be",
+    "actualTopic": "Interviewing a Job Candidate at a Tech Company",
+    "targetGrammar": "Possessive pronouns (mine, yours, his, hers, ours, theirs) and possessive determiners (whose)",
+    "targetVocab": "Luggage, locker, equipment, tools, books, parking, belongings, ownership",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 7,
+    "dlgId": "d07_sc02",
+    "dlgTitle": "Inquiring About Apartment Rental Amenities with a Real Estate Broker",
+    "origObjective": "Future State of Being: will be / won't be",
+    "actualTopic": "Inquiring About Apartment Rental Amenities with a Real Estate Broker",
+    "targetGrammar": "Possessive pronouns (mine, yours, his, hers, ours, theirs) and possessive determiners (whose)",
+    "targetVocab": "Luggage, locker, equipment, tools, books, parking, belongings, ownership",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 7,
+    "dlgId": "d07_sc03",
+    "dlgTitle": "Asking About Course Schedules and Fees at an Institute",
+    "origObjective": "Future State of Being: will be / won't be",
+    "actualTopic": "Asking About Course Schedules and Fees at an Institute",
+    "targetGrammar": "Possessive pronouns (mine, yours, his, hers, ours, theirs) and possessive determiners (whose)",
+    "targetVocab": "Luggage, locker, equipment, tools, books, parking, belongings, ownership",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 7,
+    "dlgId": "d07_sc04",
+    "dlgTitle": "Inquiring About Hotel Facilities and Check-in Policies",
+    "origObjective": "Future State of Being: will be / won't be",
+    "actualTopic": "Inquiring About Hotel Facilities and Check-in Policies",
+    "targetGrammar": "Possessive pronouns (mine, yours, his, hers, ours, theirs) and possessive determiners (whose)",
+    "targetVocab": "Luggage, locker, equipment, tools, books, parking, belongings, ownership",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 7,
+    "dlgId": "d07_sc05",
+    "dlgTitle": "Inquiring About Membership Packages at a Yoga Studio",
+    "origObjective": "Future State of Being: will be / won't be",
+    "actualTopic": "Inquiring About Membership Packages at a Yoga Studio",
+    "targetGrammar": "Possessive pronouns (mine, yours, his, hers, ours, theirs) and possessive determiners (whose)",
+    "targetVocab": "Luggage, locker, equipment, tools, books, parking, belongings, ownership",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 7,
+    "dlgId": "d07_sc06",
+    "dlgTitle": "Interviewing an Author at a Literary Festival",
+    "origObjective": "Future State of Being: will be / won't be",
+    "actualTopic": "Interviewing an Author at a Literary Festival",
+    "targetGrammar": "Possessive pronouns (mine, yours, his, hers, ours, theirs) and possessive determiners (whose)",
+    "targetVocab": "Luggage, locker, equipment, tools, books, parking, belongings, ownership",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 7,
+    "dlgId": "d07_sc07",
+    "dlgTitle": "Inquiring About Vehicle Servicing and Maintenance Packages",
+    "origObjective": "Future State of Being: will be / won't be",
+    "actualTopic": "Inquiring About Vehicle Servicing and Maintenance Packages",
+    "targetGrammar": "Possessive pronouns (mine, yours, his, hers, ours, theirs) and possessive determiners (whose)",
+    "targetVocab": "Luggage, locker, equipment, tools, books, parking, belongings, ownership",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 7,
+    "dlgId": "d07_sc08",
+    "dlgTitle": "Surveying Consumer Preferences at an Organic Farmers Market",
+    "origObjective": "Future State of Being: will be / won't be",
+    "actualTopic": "Surveying Consumer Preferences at an Organic Farmers Market",
+    "targetGrammar": "Possessive pronouns (mine, yours, his, hers, ours, theirs) and possessive determiners (whose)",
+    "targetVocab": "Luggage, locker, equipment, tools, books, parking, belongings, ownership",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 7,
+    "dlgId": "d07_sc09",
+    "dlgTitle": "Asking About Overseas Study Programs with an Academic Counselor",
+    "origObjective": "Future State of Being: will be / won't be",
+    "actualTopic": "Asking About Overseas Study Programs with an Academic Counselor",
+    "targetGrammar": "Possessive pronouns (mine, yours, his, hers, ours, theirs) and possessive determiners (whose)",
+    "targetVocab": "Luggage, locker, equipment, tools, books, parking, belongings, ownership",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 7,
+    "dlgId": "d07_sc10",
+    "dlgTitle": "Inquiring About Heritage Walking Tours in Old Delhi",
+    "origObjective": "Future State of Being: will be / won't be",
+    "actualTopic": "Inquiring About Heritage Walking Tours in Old Delhi",
+    "targetGrammar": "Possessive pronouns (mine, yours, his, hers, ours, theirs) and possessive determiners (whose)",
+    "targetVocab": "Luggage, locker, equipment, tools, books, parking, belongings, ownership",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 8,
+    "dlgId": "d08_sc01",
+    "dlgTitle": "Live Sports Commentary at a Local Football Derby",
+    "origObjective": "Demonstratives: this / that / these / those and there is / there are",
+    "actualTopic": "Live Sports Commentary at a Local Football Derby",
+    "targetGrammar": "Present Continuous tense (am/is/are + -ing) for live ongoing actions",
+    "targetVocab": "Commentary, rehearsal, live broadcast, coding, testing, observing, painting",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 8,
+    "dlgId": "d08_sc02",
+    "dlgTitle": "Directing Scene Rehearsals on a Film Set",
+    "origObjective": "Demonstratives: this / that / these / those and there is / there are",
+    "actualTopic": "Directing Scene Rehearsals on a Film Set",
+    "targetGrammar": "Present Continuous tense (am/is/are + -ing) for live ongoing actions",
+    "targetVocab": "Commentary, rehearsal, live broadcast, coding, testing, observing, painting",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 8,
+    "dlgId": "d08_sc03",
+    "dlgTitle": "Busy Dinner Service Coordination in an Open Restaurant Kitchen",
+    "origObjective": "Demonstratives: this / that / these / those and there is / there are",
+    "actualTopic": "Busy Dinner Service Coordination in an Open Restaurant Kitchen",
+    "targetGrammar": "Present Continuous tense (am/is/are + -ing) for live ongoing actions",
+    "targetVocab": "Commentary, rehearsal, live broadcast, coding, testing, observing, painting",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 8,
+    "dlgId": "d08_sc04",
+    "dlgTitle": "Live Telecast of a Space Mission Launch at Mission Control",
+    "origObjective": "Demonstratives: this / that / these / those and there is / there are",
+    "actualTopic": "Live Telecast of a Space Mission Launch at Mission Control",
+    "targetGrammar": "Present Continuous tense (am/is/are + -ing) for live ongoing actions",
+    "targetVocab": "Commentary, rehearsal, live broadcast, coding, testing, observing, painting",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 8,
+    "dlgId": "d08_sc05",
+    "dlgTitle": "Navigating Rainy Traffic Chaos via Hands-Free Phone Call",
+    "origObjective": "Demonstratives: this / that / these / those and there is / there are",
+    "actualTopic": "Navigating Rainy Traffic Chaos via Hands-Free Phone Call",
+    "targetGrammar": "Present Continuous tense (am/is/are + -ing) for live ongoing actions",
+    "targetVocab": "Commentary, rehearsal, live broadcast, coding, testing, observing, painting",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 8,
+    "dlgId": "d08_sc06",
+    "dlgTitle": "Observing Animal Behaviors on a Wildlife Safari",
+    "origObjective": "Demonstratives: this / that / these / those and there is / there are",
+    "actualTopic": "Observing Animal Behaviors on a Wildlife Safari",
+    "targetGrammar": "Present Continuous tense (am/is/are + -ing) for live ongoing actions",
+    "targetVocab": "Commentary, rehearsal, live broadcast, coding, testing, observing, painting",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 8,
+    "dlgId": "d08_sc07",
+    "dlgTitle": "Organizing a Multi-Team Corporate Hackathon Hall",
+    "origObjective": "Demonstratives: this / that / these / those and there is / there are",
+    "actualTopic": "Organizing a Multi-Team Corporate Hackathon Hall",
+    "targetGrammar": "Present Continuous tense (am/is/are + -ing) for live ongoing actions",
+    "targetVocab": "Commentary, rehearsal, live broadcast, coding, testing, observing, painting",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 8,
+    "dlgId": "d08_sc08",
+    "dlgTitle": "Managing Backstage Chaos Before a Live Music Concert",
+    "origObjective": "Demonstratives: this / that / these / those and there is / there are",
+    "actualTopic": "Managing Backstage Chaos Before a Live Music Concert",
+    "targetGrammar": "Present Continuous tense (am/is/are + -ing) for live ongoing actions",
+    "targetVocab": "Commentary, rehearsal, live broadcast, coding, testing, observing, painting",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 8,
+    "dlgId": "d08_sc09",
+    "dlgTitle": "Troubleshooting Technical Glitches During a Live Webinar Broadcast",
+    "origObjective": "Demonstratives: this / that / these / those and there is / there are",
+    "actualTopic": "Troubleshooting Technical Glitches During a Live Webinar Broadcast",
+    "targetGrammar": "Present Continuous tense (am/is/are + -ing) for live ongoing actions",
+    "targetVocab": "Commentary, rehearsal, live broadcast, coding, testing, observing, painting",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 8,
+    "dlgId": "d08_sc10",
+    "dlgTitle": "Live Art Mural Painting Demonstration in an Urban Plaza",
+    "origObjective": "Demonstratives: this / that / these / those and there is / there are",
+    "actualTopic": "Live Art Mural Painting Demonstration in an Urban Plaza",
+    "targetGrammar": "Present Continuous tense (am/is/are + -ing) for live ongoing actions",
+    "targetVocab": "Commentary, rehearsal, live broadcast, coding, testing, observing, painting",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 9,
+    "dlgId": "d09_sc01",
+    "dlgTitle": "Working from a Mountain Homestay Instead of the Usual Office",
+    "origObjective": "Possession / Relationships / has / have / had",
+    "actualTopic": "Working from a Mountain Homestay Instead of the Usual Office",
+    "targetGrammar": "Contrast between Present Simple (usually/always) and Present Continuous (currently/today/right now)",
+    "targetVocab": "Homestay vs office, cycling vs metro, reading vs scrolling, cooking vs takeout",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 9,
+    "dlgId": "d09_sc02",
+    "dlgTitle": "Trying an Exotic International Cuisine Over Usual Daily Diet",
+    "origObjective": "Possession / Relationships / has / have / had",
+    "actualTopic": "Trying an Exotic International Cuisine Over Usual Daily Diet",
+    "targetGrammar": "Contrast between Present Simple (usually/always) and Present Continuous (currently/today/right now)",
+    "targetVocab": "Homestay vs office, cycling vs metro, reading vs scrolling, cooking vs takeout",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 9,
+    "dlgId": "d09_sc03",
+    "dlgTitle": "Commuting by Cycling Instead of Usual Daily Metro Ride",
+    "origObjective": "Possession / Relationships / has / have / had",
+    "actualTopic": "Commuting by Cycling Instead of Usual Daily Metro Ride",
+    "targetGrammar": "Contrast between Present Simple (usually/always) and Present Continuous (currently/today/right now)",
+    "targetVocab": "Homestay vs office, cycling vs metro, reading vs scrolling, cooking vs takeout",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 9,
+    "dlgId": "d09_sc04",
+    "dlgTitle": "Learning a Musical Instrument Over the Usual Evening Video Games",
+    "origObjective": "Possession / Relationships / has / have / had",
+    "actualTopic": "Learning a Musical Instrument Over the Usual Evening Video Games",
+    "targetGrammar": "Contrast between Present Simple (usually/always) and Present Continuous (currently/today/right now)",
+    "targetVocab": "Homestay vs office, cycling vs metro, reading vs scrolling, cooking vs takeout",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 9,
+    "dlgId": "d09_sc05",
+    "dlgTitle": "Reading Classic Physical Books Instead of Daily Screen Scrolling",
+    "origObjective": "Possession / Relationships / has / have / had",
+    "actualTopic": "Reading Classic Physical Books Instead of Daily Screen Scrolling",
+    "targetGrammar": "Contrast between Present Simple (usually/always) and Present Continuous (currently/today/right now)",
+    "targetVocab": "Homestay vs office, cycling vs metro, reading vs scrolling, cooking vs takeout",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 9,
+    "dlgId": "d09_sc06",
+    "dlgTitle": "Preparing a Homecooked Weekend Feast Over Usual Takeout Food",
+    "origObjective": "Possession / Relationships / has / have / had",
+    "actualTopic": "Preparing a Homecooked Weekend Feast Over Usual Takeout Food",
+    "targetGrammar": "Contrast between Present Simple (usually/always) and Present Continuous (currently/today/right now)",
+    "targetVocab": "Homestay vs office, cycling vs metro, reading vs scrolling, cooking vs takeout",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 9,
+    "dlgId": "d09_sc07",
+    "dlgTitle": "Walking in Nature Parks Over Usual Daily Gym Treadmills",
+    "origObjective": "Possession / Relationships / has / have / had",
+    "actualTopic": "Walking in Nature Parks Over Usual Daily Gym Treadmills",
+    "targetGrammar": "Contrast between Present Simple (usually/always) and Present Continuous (currently/today/right now)",
+    "targetVocab": "Homestay vs office, cycling vs metro, reading vs scrolling, cooking vs takeout",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 9,
+    "dlgId": "d09_sc08",
+    "dlgTitle": "Handcrafting Personalized Gifts Over Usual Online Shopping",
+    "origObjective": "Possession / Relationships / has / have / had",
+    "actualTopic": "Handcrafting Personalized Gifts Over Usual Online Shopping",
+    "targetGrammar": "Contrast between Present Simple (usually/always) and Present Continuous (currently/today/right now)",
+    "targetVocab": "Homestay vs office, cycling vs metro, reading vs scrolling, cooking vs takeout",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 9,
+    "dlgId": "d09_sc09",
+    "dlgTitle": "Writing in a Physical Journal Over Usual Daily Digital Note-taking",
+    "origObjective": "Possession / Relationships / has / have / had",
+    "actualTopic": "Writing in a Physical Journal Over Usual Daily Digital Note-taking",
+    "targetGrammar": "Contrast between Present Simple (usually/always) and Present Continuous (currently/today/right now)",
+    "targetVocab": "Homestay vs office, cycling vs metro, reading vs scrolling, cooking vs takeout",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 9,
+    "dlgId": "d09_sc10",
+    "dlgTitle": "Hosting a Board Game Night Over Usual Movie Streaming",
+    "origObjective": "Possession / Relationships / has / have / had",
+    "actualTopic": "Hosting a Board Game Night Over Usual Movie Streaming",
+    "targetGrammar": "Contrast between Present Simple (usually/always) and Present Continuous (currently/today/right now)",
+    "targetVocab": "Homestay vs office, cycling vs metro, reading vs scrolling, cooking vs takeout",
+    "status": "MISALIGNED"
+  },
+  {
+    "day": 10,
+    "dlgId": "d10_sc01",
+    "dlgTitle": "Comprehensive Job Interview for Senior Program Manager Role",
+    "origObjective": "Cumulative Stage-1 synthesis",
+    "actualTopic": "Comprehensive Job Interview for Senior Program Manager Role",
+    "targetGrammar": "Multi-structure Stage 1 conversational synthesis (interview, tour, consult, tenant onboarding)",
+    "targetVocab": "Job interview, exchange student, podcast, walking tour, medical consult, tenant onboarding, travel planning",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 10,
+    "dlgId": "d10_sc02",
+    "dlgTitle": "Welcoming an International Exchange Student into a Family Home",
+    "origObjective": "Cumulative Stage-1 synthesis",
+    "actualTopic": "Welcoming an International Exchange Student into a Family Home",
+    "targetGrammar": "Multi-structure Stage 1 conversational synthesis (interview, tour, consult, tenant onboarding)",
+    "targetVocab": "Job interview, exchange student, podcast, walking tour, medical consult, tenant onboarding, travel planning",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 10,
+    "dlgId": "d10_sc03",
+    "dlgTitle": "Live Podcast Interview with an Eco-Entrepreneur",
+    "origObjective": "Cumulative Stage-1 synthesis",
+    "actualTopic": "Live Podcast Interview with an Eco-Entrepreneur",
+    "targetGrammar": "Multi-structure Stage 1 conversational synthesis (interview, tour, consult, tenant onboarding)",
+    "targetVocab": "Job interview, exchange student, podcast, walking tour, medical consult, tenant onboarding, travel planning",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 10,
+    "dlgId": "d10_sc04",
+    "dlgTitle": "Guided Architectural Walking Tour of Old Delhi Heritage",
+    "origObjective": "Cumulative Stage-1 synthesis",
+    "actualTopic": "Guided Architectural Walking Tour of Old Delhi Heritage",
+    "targetGrammar": "Multi-structure Stage 1 conversational synthesis (interview, tour, consult, tenant onboarding)",
+    "targetVocab": "Job interview, exchange student, podcast, walking tour, medical consult, tenant onboarding, travel planning",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 10,
+    "dlgId": "d10_sc05",
+    "dlgTitle": "Comprehensive Health and Lifestyle Consultation with a Family Physician",
+    "origObjective": "Cumulative Stage-1 synthesis",
+    "actualTopic": "Comprehensive Health and Lifestyle Consultation with a Family Physician",
+    "targetGrammar": "Multi-structure Stage 1 conversational synthesis (interview, tour, consult, tenant onboarding)",
+    "targetVocab": "Job interview, exchange student, podcast, walking tour, medical consult, tenant onboarding, travel planning",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 10,
+    "dlgId": "d10_sc06",
+    "dlgTitle": "Onboarding a New Tenant and Explaining Apartment Society Rules",
+    "origObjective": "Cumulative Stage-1 synthesis",
+    "actualTopic": "Onboarding a New Tenant and Explaining Apartment Society Rules",
+    "targetGrammar": "Multi-structure Stage 1 conversational synthesis (interview, tour, consult, tenant onboarding)",
+    "targetVocab": "Job interview, exchange student, podcast, walking tour, medical consult, tenant onboarding, travel planning",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 10,
+    "dlgId": "d10_sc07",
+    "dlgTitle": "Planning a Complex Multi-City Indian Vacation Itinerary",
+    "origObjective": "Cumulative Stage-1 synthesis",
+    "actualTopic": "Planning a Complex Multi-City Indian Vacation Itinerary",
+    "targetGrammar": "Multi-structure Stage 1 conversational synthesis (interview, tour, consult, tenant onboarding)",
+    "targetVocab": "Job interview, exchange student, podcast, walking tour, medical consult, tenant onboarding, travel planning",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 10,
+    "dlgId": "d10_sc08",
+    "dlgTitle": "High-Stakes Project Status Review Meeting with Company Director",
+    "origObjective": "Cumulative Stage-1 synthesis",
+    "actualTopic": "High-Stakes Project Status Review Meeting with Company Director",
+    "targetGrammar": "Multi-structure Stage 1 conversational synthesis (interview, tour, consult, tenant onboarding)",
+    "targetVocab": "Job interview, exchange student, podcast, walking tour, medical consult, tenant onboarding, travel planning",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 10,
+    "dlgId": "d10_sc09",
+    "dlgTitle": "Exploring a Bustling Traditional Indian Spice and Craft Bazaar",
+    "origObjective": "Cumulative Stage-1 synthesis",
+    "actualTopic": "Exploring a Bustling Traditional Indian Spice and Craft Bazaar",
+    "targetGrammar": "Multi-structure Stage 1 conversational synthesis (interview, tour, consult, tenant onboarding)",
+    "targetVocab": "Job interview, exchange student, podcast, walking tour, medical consult, tenant onboarding, travel planning",
+    "status": "PARTIALLY ALIGNED"
+  },
+  {
+    "day": 10,
+    "dlgId": "d10_sc10",
+    "dlgTitle": "Comprehensive End-of-Module English Fluency Review and Celebration",
+    "origObjective": "Cumulative Stage-1 synthesis",
+    "actualTopic": "Comprehensive End-of-Module English Fluency Review and Celebration",
+    "targetGrammar": "Multi-structure Stage 1 conversational synthesis (interview, tour, consult, tenant onboarding)",
+    "targetVocab": "Job interview, exchange student, podcast, walking tour, medical consult, tenant onboarding, travel planning",
+    "status": "PARTIALLY ALIGNED"
+  }
+]

@@ -1,0 +1,34 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Private Audio Production Output
+audio-output/
+generation-report.json
+generation-report.txt
+generated-audio-manifest.json
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
+android/.gradle/
+android/app/build/
+android/local.properties
+
+# Obsolete/local backup and IDE artifacts
+.idea/
+.android/
+*.before-*
+*.bak
+*.backup*
+backups/
+.lexitalk-backup/
+lexitalk-backup/
+lexitalk_installer/

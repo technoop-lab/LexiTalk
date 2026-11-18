@@ -1,0 +1,8 @@
+appId: com.curiosity.english
+---
+- launchApp
+- tapOn: "English"
+- assertVisible: "Welcome"
+- tapOn: "Continue"
+- assertVisible: "Home"
+

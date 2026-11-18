@@ -1,0 +1,9 @@
+appId: com.curiosity.english
+---
+- launchApp:
+    clearState: false
+- extendedWaitUntil:
+    visible: "(?i).*welcome.*"
+    timeout: 30000
+- tapOn: "(?i).*continue today.*"
+- takeScreenshot: 04-after-tap

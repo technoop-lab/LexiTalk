@@ -1,0 +1,15 @@
+appId: com.curiosity.english
+---
+- launchApp:
+    clearState: false
+- extendedWaitUntil:
+    visible: "(?i).*welcome.*"
+    timeout: 30000
+- tapOn:
+    id: "nav-tab-hindi_course"
+- scrollUntilVisible:
+    element:
+      text: "(?i).*day 60.*"
+    direction: DOWN
+    timeout: 180000
+- takeScreenshot: 50-hindi-day60-reached

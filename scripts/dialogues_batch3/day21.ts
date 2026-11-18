@@ -1,0 +1,285 @@
+export interface DialogueTurn {
+  speaker: string;
+  textEn: string;
+  textHi: string;
+}
+
+export interface DialogueScenario {
+  id: string;
+  title: string;
+  context: string;
+  turns: DialogueTurn[];
+}
+
+export const day21Dialogues: DialogueScenario[] = [
+  {
+    id: "d21_sc01",
+    title: "Project Submission Debrief at the Tech Office",
+    context: "Manager Sangeeta and software developer Vikram discuss yesterday's software deployment and bug fixes.",
+    turns: [
+      { speaker: "Sangeeta", textEn: "Good morning Vikram. Did your team finish the deployment yesterday?", textHi: "शुभ प्रभात विक्रम। क्या आपकी टीम ने कल डिप्लॉयमेंट पूरा कर लिया था?" },
+      { speaker: "Vikram", textEn: "Good morning Sangeeta. Yes, we worked until seven in the evening and completed all tasks.", textHi: "शुभ प्रभात संगीता। हाँ, हमने शाम सात बजे तक काम किया और सभी कार्य पूरे किए।" },
+      { speaker: "Sangeeta", textEn: "That sounds great. Did you test the payment gateway module?", textHi: "यह बहुत अच्छी बात है। क्या आपने पेमेंट गेटवे मॉड्यूल का परीक्षण किया?" },
+      { speaker: "Vikram", textEn: "Yes, we tested it three times, and every transaction succeeded smoothly.", textHi: "हाँ, हमने तीन बार इसका परीक्षण किया, और हर लेनदेन सुचारू रूप से सफल रहा।" },
+      { speaker: "Sangeeta", textEn: "Excellent. Did any unexpected errors appear during the final check?", textHi: "बहुत बढ़िया। क्या अंतिम जांच के दौरान कोई अप्रत्याशित त्रुटि सामने आई?" },
+      { speaker: "Vikram", textEn: "A minor database connection error occurred around five o'clock, but Rahul fixed it quickly.", textHi: "शाम पांच बजे के आसपास डेटाबेस कनेक्शन की एक छोटी सी त्रुटि आई थी, लेकिन राहुल ने उसे तुरंत ठीक कर दिया।" },
+      { speaker: "Sangeeta", textEn: "I am glad Rahul resolved that issue without delay. Did you update the documentation?", textHi: "मुझे खुशी है कि राहुल ने बिना देरी के उस समस्या को हल कर दिया। क्या आपने दस्तावेज़ीकरण अपडेट किया?" },
+      { speaker: "Vikram", textEn: "Yes, Priya updated all API endpoints and shared the revised PDF with the team.", textHi: "हाँ, प्रिया ने सभी एपीआई एंडपॉइंट्स अपडेट किए और संशोधित पीडीएफ टीम के साथ साझा की।" },
+      { speaker: "Sangeeta", textEn: "Did the client join the evening review call as scheduled?", textHi: "क्या क्लाइंट निर्धारित समय के अनुसार शाम की समीक्षा कॉल में शामिल हुआ?" },
+      { speaker: "Vikram", textEn: "Yes, Mr. Davis joined the video call and asked several questions about security.", textHi: "हाँ, मिस्टर डेविस वीडियो कॉल में शामिल हुए और उन्होंने सुरक्षा के बारे में कई सवाल पूछे।" },
+      { speaker: "Sangeeta", textEn: "How did he respond to our security presentation?", textHi: "हमारी सुरक्षा प्रस्तुति पर उनकी क्या प्रतिक्रिया थी?" },
+      { speaker: "Vikram", textEn: "He listened very carefully and appreciated our data encryption approach.", textHi: "उन्होंने बहुत ध्यान से सुना और हमारे डेटा एन्क्रिप्शन दृष्टिकोण की सराहना की।" },
+      { speaker: "Sangeeta", textEn: "That is wonderful feedback! Did he approve the final release milestone?", textHi: "यह शानदार प्रतिक्रिया है! क्या उन्होंने अंतिम रिलीज माइलस्टोन को मंजूरी दी?" },
+      { speaker: "Vikram", textEn: "Yes, he approved the release and thanked the entire engineering department.", textHi: "हाँ, उन्होंने रिलीज को मंजूरी दी और पूरे इंजीनियरिंग विभाग को धन्यवाद दिया।" },
+      { speaker: "Sangeeta", textEn: "Did you email the release notes to the operations department?", textHi: "क्या आपने ऑपरेशंस विभाग को रिलीज नोट्स ईमेल कर दिए?" },
+      { speaker: "Vikram", textEn: "I emailed the detailed summary late last night before I logged off.", textHi: "मैंने कल देर रात लॉग ऑफ करने से पहले विस्तृत सारांश ईमेल कर दिया था।" },
+      { speaker: "Sangeeta", textEn: "You and your team worked exceptionally hard on this sprint.", textHi: "आपने और आपकी टीम ने इस स्प्रिंट पर असाधारण रूप से कड़ी मेहनत की।" },
+      { speaker: "Vikram", textEn: "Thank you, Sangeeta. Everyone cooperated wonderfully throughout the challenging week.", textHi: "धन्यवाद, संगीता। इस चुनौतीपूर्ण सप्ताह के दौरान सभी ने बहुत अच्छा सहयोग किया।" },
+      { speaker: "Sangeeta", textEn: "Please take a short break this morning before we start the next planning cycle.", textHi: "अगला योजना चक्र शुरू करने से पहले कृपया आज सुबह थोड़ा विश्राम लें।" },
+      { speaker: "Vikram", textEn: "Thank you, Sangeeta. I really appreciate your consideration.", textHi: "धन्यवाद, संगीता। मैं आपके इस विचार की वास्तव में सराहना करता हूँ।" }
+    ]
+  },
+  {
+    id: "d21_sc02",
+    title: "Weekend Home Renovations and Garden Cleaning",
+    context: "Rajesh and Kavita talk about their productive Saturday painting the living room and cleaning the garden.",
+    turns: [
+      { speaker: "Rajesh", textEn: "Kavita, we accomplished so many household chores yesterday!", textHi: "कविता, हमने कल घर के बहुत सारे काम पूरे किए!" },
+      { speaker: "Kavita", textEn: "We certainly did! We started early in the morning and painted the entire living room.", textHi: "बिल्कुल किए! हमने सुबह जल्दी शुरुआत की और पूरे लिविंग रूम को पेंट किया।" },
+      { speaker: "Rajesh", textEn: "I really liked the warm beige shade you selected for the north wall.", textHi: "उत्तर की दीवार के लिए आपके द्वारा चुना गया वॉर्म बेज रंग मुझे बहुत पसंद आया।" },
+      { speaker: "Kavita", textEn: "Thank you. The color brightened the space and made the room feel much larger.", textHi: "धन्यवाद। उस रंग ने जगह को उज्ज्वल बना दिया और कमरे को काफी बड़ा महसूस कराया।" },
+      { speaker: "Rajesh", textEn: "After we finished painting, I cleaned the balcony and watered all the potted plants.", textHi: "पेंटिंग खत्म करने के बाद, मैंने बालकनी साफ की और सभी गमलों में पानी डाला।" },
+      { speaker: "Kavita", textEn: "And I trimmed the dried branches on the rose bushes in the front garden.", textHi: "और मैंने सामने के बगीचे में गुलाब के पौधों की सूखी टहनियों की छंटाई की।" },
+      { speaker: "Rajesh", textEn: "Did you notice how the fresh fertilizer helped the jasmine plant?", textHi: "क्या आपने देखा कि नई खाद ने चमेली के पौधे की किस तरह मदद की?" },
+      { speaker: "Kavita", textEn: "Yes, little green buds appeared on almost every branch.", textHi: "हाँ, लगभग हर शाखा पर छोटी हरी कलियाँ निकल आई हैं।" },
+      { speaker: "Rajesh", textEn: "In the afternoon, our neighbor Mr. Verma visited and asked for our garden tools.", textHi: "दोपहर में, हमारे पड़ोसी मिस्टर वर्मा आए और उन्होंने हमारे बागवानी के औजार मांगे।" },
+      { speaker: "Kavita", textEn: "I loaned him the hedge shears, and he returned them in the evening.", textHi: "मैंने उन्हें झाड़ियों वाली कैंची दी थी, और उन्होंने शाम को वे वापस कर दीं।" },
+      { speaker: "Rajesh", textEn: "Did the carpenter arrive to repair the broken cabinet door in the kitchen?", textHi: "क्या रसोई में टूटे हुए कैबिनेट के दरवाजे की मरम्मत के लिए बढ़ई आया था?" },
+      { speaker: "Kavita", textEn: "Yes, he arrived at four o'clock and fixed the hinges securely.", textHi: "हाँ, वह चार बजे आया और उसने कब्जों को मजबूती से ठीक कर दिया।" },
+      { speaker: "Rajesh", textEn: "He worked very neatly and cleaned up all the wood shavings afterwards.", textHi: "उसने बहुत सफाई से काम किया और बाद में लकड़ी का सारा बुरादा साफ कर दिया।" },
+      { speaker: "Kavita", textEn: "Later in the evening, I cooked a delicious vegetable stew for dinner.", textHi: "शाम को बाद में, मैंने रात के खाने के लिए एक स्वादिष्ट वेजीटेबल स्टू बनाया।" },
+      { speaker: "Rajesh", textEn: "I enjoyed every single bite. It tasted wonderful after such a busy day.", textHi: "मैंने हर एक कौर का आनंद लिया। इतने व्यस्त दिन के बाद इसका स्वाद बहुत लाजवाब लगा।" },
+      { speaker: "Kavita", textEn: "Then we relaxed on the sofa and watched a classic nature documentary.", textHi: "फिर हमने सोफे पर आराम किया और एक क्लासिक प्रकृति वृत्तचित्र देखा।" },
+      { speaker: "Rajesh", textEn: "I drifted off to sleep before the documentary even ended.", textHi: "डॉक्यूमेंट्री खत्म होने से पहले ही मुझे नींद आ गई थी।" },
+      { speaker: "Kavita", textEn: "You worked very hard yesterday, so your body needed that deep rest.", textHi: "आपने कल बहुत मेहनत की थी, इसलिए आपके शरीर को उस गहरी नींद की ज़रूरत थी।" },
+      { speaker: "Rajesh", textEn: "Today our home looks clean, fresh, and beautifully organized.", textHi: "आज हमारा घर साफ, तरोताजा और बेहद व्यवस्थित लग रहा है।" },
+      { speaker: "Kavita", textEn: "It truly does. Our weekend teamwork paid off wonderfully!", textHi: "सचमुच लग रहा है। हमारी सप्ताहांत की टीमवर्क का बहुत बढ़िया परिणाम मिला!" }
+    ]
+  },
+  {
+    id: "d21_sc03",
+    title: "Clinic Reception Patient Follow-up",
+    context: "Nurse Anita checks in with patient Mr. Kapoor regarding his diagnostic tests from yesterday.",
+    turns: [
+      { speaker: "Nurse Anita", textEn: "Good morning Mr. Kapoor. Welcome back to the clinic.", textHi: "शुभ प्रभात श्री कपूर। क्लिनिक में आपका पुनः स्वागत है।" },
+      { speaker: "Mr. Kapoor", textEn: "Good morning Nurse Anita. I arrived early for my test results.", textHi: "शुभ प्रभात नर्स अनीता। मैं अपनी जांच रिपोर्ट के लिए जल्दी आ गया हूँ।" },
+      { speaker: "Nurse Anita", textEn: "Let me check your file. You visited Dr. Joshi yesterday afternoon, right?", textHi: "मुझे आपकी फाइल देखने दीजिए। आप कल दोपहर डॉ. जोशी से मिले थे, ठीक?" },
+      { speaker: "Mr. Kapoor", textEn: "Yes, I consulted Dr. Joshi around two o'clock yesterday.", textHi: "हाँ, मैंने कल दोपहर करीब दो बजे डॉ. जोशी से परामर्श लिया था।" },
+      { speaker: "Nurse Anita", textEn: "Did the laboratory technician collect your blood samples yesterday?", textHi: "क्या लैब तकनीशियन ने कल आपके रक्त के नमूने लिए थे?" },
+      { speaker: "Mr. Kapoor", textEn: "Yes, the technician collected the samples and handed me an appointment slip.", textHi: "हाँ, तकनीशियन ने नमूने एकत्र किए और मुझे एक अपॉइंटमेंट पर्ची थमाई।" },
+      { speaker: "Nurse Anita", textEn: "Did you follow the overnight fasting guidelines before the test?", textHi: "क्या आपने जांच से पहले रात भर भूखे रहने के दिशानिर्देशों का पालन किया था?" },
+      { speaker: "Mr. Kapoor", textEn: "I fasted for ten full hours and drank only plain water.", textHi: "मैंने पूरे दस घंटे उपवास रखा और केवल सादा पानी पिया।" },
+      { speaker: "Nurse Anita", textEn: "That was very important. The lab processed your complete blood panel last night.", textHi: "यह बहुत महत्वपूर्ण था। लैब ने कल रात आपकी पूरी ब्लड प्रोफाइल की जांच की।" },
+      { speaker: "Mr. Kapoor", textEn: "Did the diagnostic report indicate any major abnormalities?", textHi: "क्या डायग्नोस्टिक रिपोर्ट में किसी बड़ी असामान्यता का संकेत मिला?" },
+      { speaker: "Nurse Anita", textEn: "Your blood sugar levels improved significantly compared to last month.", textHi: "पिछले महीने की तुलना में आपके ब्लड शुगर के स्तर में काफी सुधार हुआ है।" },
+      { speaker: "Mr. Kapoor", textEn: "I walked four kilometers every evening and changed my diet.", textHi: "मैं हर शाम चार किलोमीटर टहलता था और मैंने अपने आहार में बदलाव किया।" },
+      { speaker: "Nurse Anita", textEn: "Your disciplined routine helped reduce your cholesterol numbers as well.", textHi: "आपकी अनुशासित दिनचर्या ने आपके कोलेस्ट्रॉल के स्तर को भी कम करने में मदद की।" },
+      { speaker: "Mr. Kapoor", textEn: "That is such a relief! Dr. Joshi warned me about my cholesterol last visit.", textHi: "यह बहुत बड़ी राहत की बात है! डॉ. जोशी ने पिछली मुलाकात में मुझे कोलेस्ट्रॉल के बारे में चेतावनी दी थी।" },
+      { speaker: "Nurse Anita", textEn: "I printed two copies of the official lab report for you.", textHi: "मैंने आपके लिए आधिकारिक लैब रिपोर्ट की दो प्रतियां प्रिंट कर दी हैं।" },
+      { speaker: "Mr. Kapoor", textEn: "Thank you. Should I wait in the lounge for my follow-up consultation?", textHi: "धन्यवाद। क्या मुझे अपने फॉलो-अप परामर्श के लिए लाउंज में इंतजार करना चाहिए?" },
+      { speaker: "Nurse Anita", textEn: "Yes, please take a seat. Dr. Joshi just opened his examination room.", textHi: "हाँ, कृपया बैठ जाइए। डॉ. जोशी ने अभी अपना परीक्षण कक्ष खोला है।" },
+      { speaker: "Mr. Kapoor", textEn: "Thank you for your polite assistance and quick service, Anita.", textHi: "आपकी विनम्र सहायता और त्वरित सेवा के लिए धन्यवाद, अनीता।" },
+      { speaker: "Nurse Anita", textEn: "You are very welcome, Mr. Kapoor. We are always glad to assist you.", textHi: "आपका बहुत-बहुत स्वागत है, श्री कपूर। आपकी सहायता करके हमें हमेशा खुशी होती है।" },
+      { speaker: "Mr. Kapoor", textEn: "I appreciate the dedication of this medical staff.", textHi: "मैं इस मेडिकल स्टाफ के समर्पण की सराहना करता हूँ।" }
+    ]
+  },
+  {
+    id: "d21_sc04",
+    title: "College Campus Cultural Fest Logistics Review",
+    context: "Student Coordinator Pooja and volunteer Rahul review yesterday's annual college fest arrangements.",
+    turns: [
+      { speaker: "Pooja", textEn: "Rahul, thank you for coming. Let us review yesterday's event setup.", textHi: "राहुल, आने के लिए धन्यवाद। आइए कल के कार्यक्रम की व्यवस्थाओं की समीक्षा करें।" },
+      { speaker: "Rahul", textEn: "Sure Pooja. Yesterday was intense, but we managed everything successfully.", textHi: "ज़रूर पूजा। कल का दिन काफी व्यस्त था, लेकिन हमने सब कुछ सफलतापूर्वक संभाल लिया।" },
+      { speaker: "Pooja", textEn: "When did the audio technicians arrive at the main auditorium?", textHi: "मुख्य सभागार में ऑडियो तकनीशियन कब पहुंचे?" },
+      { speaker: "Rahul", textEn: "They arrived at nine in the morning and installed all the stage speakers.", textHi: "वे सुबह नौ बजे पहुंचे और उन्होंने मंच के सभी स्पीकर स्थापित किए।" },
+      { speaker: "Pooja", textEn: "Did the light crew test the spotlight sequences properly?", textHi: "क्या लाइट टीम ने स्पॉटलाइट अनुक्रमों का ठीक से परीक्षण किया था?" },
+      { speaker: "Rahul", textEn: "Yes, they tested the lighting rigs twice and adjusted the colored filters.", textHi: "हाँ, उन्होंने दो बार लाइटिंग का परीक्षण किया और रंगीन फिल्टर को समायोजित किया।" },
+      { speaker: "Pooja", textEn: "Did the registration volunteers verify student identity cards at the gate?", textHi: "क्या पंजीकरण स्वयंसेवकों ने गेट पर छात्रों के पहचान पत्रों का सत्यापन किया?" },
+      { speaker: "Rahul", textEn: "They verified every entry badge and handed out event schedule booklets.", textHi: "उन्होंने प्रत्येक प्रवेश बैज का सत्यापन किया और कार्यक्रम अनुसूची पुस्तिकाएं बांटीं।" },
+      { speaker: "Pooja", textEn: "How did the inaugural classical dance performance proceed?", textHi: "उद्घाटन शास्त्रीय नृत्य का प्रदर्शन कैसा रहा?" },
+      { speaker: "Rahul", textEn: "The audience cheered enthusiastically and clapped for five minutes.", textHi: "दर्शकों ने उत्साहपूर्वक जयकार की और पांच मिनट तक तालियां बजाईं।" },
+      { speaker: "Pooja", textEn: "Did the chief guest deliver his keynote address on time?", textHi: "क्या मुख्य अतिथि ने अपना मुख्य भाषण समय पर दिया?" },
+      { speaker: "Rahul", textEn: "Yes, Dr. Kulkarni spoke inspiringly about innovation and youth leadership.", textHi: "हाँ, डॉ. कुलकर्णी ने नवाचार और युवा नेतृत्व पर प्रेरणादायक बात की।" },
+      { speaker: "Pooja", textEn: "Did our hospitality team serve refreshments to the guest panel?", textHi: "क्या हमारी आतिथ्य टीम ने अतिथि पैनल को जलपान परोसा?" },
+      { speaker: "Rahul", textEn: "We served tea, traditional snacks, and fresh fruit juices at four o'clock.", textHi: "हमने चार बजे चाय, पारंपरिक नाश्ता और ताजे फलों का जूस परोसा।" },
+      { speaker: "Pooja", textEn: "Did any student report missing personal items during the evening concert?", textHi: "क्या शाम के संगीत कार्यक्रम के दौरान किसी छात्र ने कोई व्यक्तिगत सामान खोने की सूचना दी?" },
+      { speaker: "Rahul", textEn: "One student lost a notebook, but another volunteer discovered it near the cafeteria.", textHi: "एक छात्र की नोटबुक खो गई थी, लेकिन दूसरे स्वयंसेवक को वह कैफेटेरिया के पास मिल गई।" },
+      { speaker: "Pooja", textEn: "I am glad our lost-and-found desk operated so efficiently.", textHi: "मुझे खुशी है कि हमारा 'खोया-पाया' डेस्क इतनी कुशलता से काम कर रहा था।" },
+      { speaker: "Rahul", textEn: "We packed all equipment safely into the storage room by ten last night.", textHi: "हमने कल रात दस बजे तक सभी उपकरण सुरक्षित रूप से स्टोरेज रूम में रख दिए थे।" },
+      { speaker: "Pooja", textEn: "The college principal praised our organization and thanked the committee.", textHi: "कॉलेज के प्रिंसिपल ने हमारे संगठन की प्रशंसा की और समिति को धन्यवाद दिया।" },
+      { speaker: "Rahul", textEn: "Everyone worked with genuine passion, and the results showed that.", textHi: "सभी ने सच्चे लगन के साथ काम किया, और परिणाम में वह साफ दिखा।" }
+    ]
+  },
+  {
+    id: "d21_sc05",
+    title: "Neighborhood Community Hall Meeting Recap",
+    context: "Society Secretary Mr. Joshi and resident Mrs. Sen discuss yesterday's annual maintenance meeting.",
+    turns: [
+      { speaker: "Mr. Joshi", textEn: "Good afternoon Mrs. Sen. Were you able to attend yesterday's general meeting?", textHi: "शुभ दोपहर श्रीमती सेन। क्या आप कल की आम बैठक में भाग ले पाई थीं?" },
+      { speaker: "Mrs. Sen", textEn: "Good afternoon Mr. Joshi. Yes, I attended from the start until the adjournment.", textHi: "शुभ दोपहर श्री जोशी। हाँ, मैं शुरुआत से लेकर बैठक समाप्त होने तक उपस्थित थी।" },
+      { speaker: "Mr. Joshi", textEn: "What did you think of the proposal for installing solar panels on our roof?", textHi: "हमारी छत पर सोलर पैनल लगाने के प्रस्ताव के बारे में आपका क्या विचार था?" },
+      { speaker: "Mrs. Sen", textEn: "I supported the green initiative completely, and several other residents agreed.", textHi: "मैंने इस पर्यावरण-अनुकूल पहल का पूरा समर्थन किया, और कई अन्य निवासी भी सहमत हुए।" },
+      { speaker: "Mr. Joshi", textEn: "Did the treasurer explain the budget forecast clearly?", textHi: "क्या कोषाध्यक्ष ने बजट अनुमान को स्पष्ट रूप से समझाया?" },
+      { speaker: "Mrs. Sen", textEn: "Yes, Mr. Agarwal presented detailed charts and answered all financial questions.", textHi: "हाँ, श्री अग्रवाल ने विस्तृत चार्ट प्रस्तुत किए और सभी वित्तीय प्रश्नों के उत्तर दिए।" },
+      { speaker: "Mr. Joshi", textEn: "Did the residents vote on the new security gate automation system?", textHi: "क्या निवासियों ने नए स्वचालित सुरक्षा गेट सिस्टम पर मतदान किया?" },
+      { speaker: "Mrs. Sen", textEn: "Over eighty percent of the members voted in favor of the upgrade.", textHi: "अस्सी प्रतिशत से अधिक सदस्यों ने इस अपग्रेड के पक्ष में मतदान किया।" },
+      { speaker: "Mr. Joshi", textEn: "Did anyone raise concerns regarding the monthly maintenance increase?", textHi: "क्या किसी ने मासिक रखरखाव शुल्क में वृद्धि को लेकर चिंता व्यक्त की?" },
+      { speaker: "Mrs. Sen", textEn: "A few apartment owners asked for clarification, but the committee explained the long-term benefits.", textHi: "कुछ फ्लैट मालिकों ने स्पष्टीकरण मांगा, लेकिन समिति ने दीर्घकालिक लाभों को समझाया।" },
+      { speaker: "Mr. Joshi", textEn: "Did the landscape contractor submit his garden enhancement plan?", textHi: "क्या लैंडस्केप ठेकेदार ने अपनी बगीचा सुधार योजना प्रस्तुत की?" },
+      { speaker: "Mrs. Sen", textEn: "He demonstrated 3D sketches of the proposed walking path and flower beds.", textHi: "उन्होंने प्रस्तावित वॉकिंग ट्रैक और फूलों की क्यारियों के 3D रेखाचित्र दिखाए।" },
+      { speaker: "Mr. Joshi", textEn: "The children in our society needed a safer playground area.", textHi: "हमारी सोसाइटी के बच्चों को एक सुरक्षित खेल के मैदान की ज़रूरत थी।" },
+      { speaker: "Mrs. Sen", textEn: "Yes, parents appreciated the plan for rubber flooring beneath the swing sets.", textHi: "हाँ, माता-पिता ने झूलों के नीचे रबर फर्श बिछाने की योजना की सराहना की।" },
+      { speaker: "Mr. Joshi", textEn: "Did the secretary record all minutes of the meeting accurately?", textHi: "क्या सचिव ने बैठक के सभी कार्यवृत्त (मिनट्स) सटीक रूप से दर्ज किए?" },
+      { speaker: "Mrs. Sen", textEn: "Yes, Mrs. Rao typed every resolution and printed draft copies immediately.", textHi: "हाँ, श्रीमती राव ने प्रत्येक प्रस्ताव को टाइप किया और तुरंत ड्राफ्ट प्रतियां प्रिंट कीं।" },
+      { speaker: "Mr. Joshi", textEn: "I will distribute the finalized minutes to all homeowners this evening.", textHi: "मैं आज शाम सभी मकान मालिकों को अंतिम कार्यवृत्त वितरित करूँगा।" },
+      { speaker: "Mrs. Sen", textEn: "Thank you for leading such a transparent and productive meeting, Mr. Joshi.", textHi: "इतनी पारदर्शी और फलदायी बैठक का नेतृत्व करने के लिए धन्यवाद, श्री जोशी।" },
+      { speaker: "Mr. Joshi", textEn: "Our community thrives because responsible residents like you actively participate.", textHi: "हमारा समुदाय इसलिए प्रगति करता है क्योंकि आप जैसे जिम्मेदार निवासी सक्रिय रूप से भाग लेते हैं।" },
+      { speaker: "Mrs. Sen", textEn: "I look forward to seeing the construction work start next month.", textHi: "मैं अगले महीने निर्माण कार्य शुरू होने की प्रतीक्षा कर रही हूँ।" }
+    ]
+  },
+  {
+    id: "d21_sc06",
+    title: "Restaurant Kitchen Evening Rush Review",
+    context: "Head Chef Manjit and line cook Deepak review yesterday's busy banquet dinner service.",
+    turns: [
+      { speaker: "Manjit", textEn: "Deepak, let us discuss how our kitchen performed during yesterday's dinner rush.", textHi: "दीपक, आइए चर्चा करें कि कल रात की भीड़ के दौरान हमारी रसोई का प्रदर्शन कैसा रहा।" },
+      { speaker: "Deepak", textEn: "Good morning Chef. We prepared over two hundred banquet meals in four hours.", textHi: "शुभ प्रभात शेफ। हमने चार घंटे में दो सौ से अधिक बैंक्वेट भोजन तैयार किए।" },
+      { speaker: "Manjit", textEn: "Did the suppliers deliver the fresh seafood on time yesterday afternoon?", textHi: "क्या आपूर्तिकर्ताओं ने कल दोपहर समय पर ताज़ा सीफ़ूड पहुँचाया था?" },
+      { speaker: "Deepak", textEn: "Yes, the delivery truck arrived at three o'clock with premium quality fish and prawns.", textHi: "हाँ, डिलीवरी ट्रक तीन बजे उच्च गुणवत्ता वाली मछली और झींगों के साथ पहुंचा।" },
+      { speaker: "Manjit", textEn: "Did you marinate the chicken according to the new spice recipe?", textHi: "क्या आपने चिकन को नए मसाले के नुस्खे के अनुसार मैरीनेट किया था?" },
+      { speaker: "Deepak", textEn: "We marinated all thirty kilograms four hours prior to roasting.", textHi: "हमने भूनने से चार घंटे पहले पूरे तीस किलोग्राम को मैरीनेट किया।" },
+      { speaker: "Manjit", textEn: "How did the guests react to the special Mughlai curry?", textHi: "मेहमानों की स्पेशल मुगलाई करी पर क्या प्रतिक्रिया रही?" },
+      { speaker: "Deepak", textEn: "The banquet manager reported that several guests complimented the aromatic gravy.", textHi: "बैंक्वेट मैनेजर ने बताया कि कई मेहमानों ने सुगंधित ग्रेवी की तारीफ की।" },
+      { speaker: "Manjit", textEn: "Did the dishwashing crew maintain clean plates and cutlery throughout service?", textHi: "क्या बर्तन धोने वाली टीम ने पूरी सर्विस के दौरान साफ प्लेटें और कटलरी बनाए रखी?" },
+      { speaker: "Deepak", textEn: "Yes, Sunita and Ramesh operated the industrial washer non-stop without any bottleneck.", textHi: "हाँ, सुनीता और रमेश ने बिना किसी रुकावट के लगातार इंडस्ट्रियल वॉशर चलाया।" },
+      { speaker: "Manjit", textEn: "Did any customer complain about delayed orders during peak hours?", textHi: "क्या पीक ऑवर्स के दौरान किसी ग्राहक ने ऑर्डर में देरी की शिकायत की?" },
+      { speaker: "Deepak", textEn: "Table twelve waited ten minutes for their appetizers, but our head waiter apologized and offered complimentary desserts.", textHi: "टेबल बारह को अपने ऐपेटाइज़र के लिए दस मिनट इंतज़ार करना पड़ा, लेकिन हमारे हेड वेटर ने माफ़ी मांगी और कॉम्प्लिमेंट्री डेज़र्ट दिया।" },
+      { speaker: "Manjit", textEn: "Handling minor delays with courtesy is the mark of a top-tier establishment.", textHi: "विनम्रता के साथ छोटी देरी को संभालना एक शीर्ष स्तर के संस्थान की पहचान है।" },
+      { speaker: "Deepak", textEn: "After the guests departed, we sanitized all stainless steel counters thoroughly.", textHi: "मेहमानों के जाने के बाद, हमने स्टेनलेस स्टील के सभी काउंटरों को पूरी तरह से सैनिटाइज किया।" },
+      { speaker: "Manjit", textEn: "Did you inspect the deep freezers and log their temperature readings?", textHi: "क्या आपने डीप फ्रीजर का निरीक्षण किया और उनके तापमान की रीडिंग दर्ज की?" },
+      { speaker: "Deepak", textEn: "Yes Chef, I checked all three units and recorded minus eighteen degrees Celsius.", textHi: "हाँ शेफ, मैंने तीनों यूनिट्स की जाँच की और माइनस अठारह डिग्री सेल्सियस दर्ज किया।" },
+      { speaker: "Manjit", textEn: "Excellent discipline. You managed your station with great precision.", textHi: "शानदार अनुशासन। आपने अपने स्टेशन को बहुत सटीकता से संभाला।" },
+      { speaker: "Deepak", textEn: "Thank you Chef Manjit. Your guidance helped us stay organized under pressure.", textHi: "धन्यवाद शेफ मंजीत। आपके मार्गदर्शन ने दबाव में भी व्यवस्थित रहने में हमारी मदद की।" },
+      { speaker: "Manjit", textEn: "Rest well today because we have another corporate booking tomorrow evening.", textHi: "आज अच्छी तरह आराम करें क्योंकि कल शाम हमारी एक और कॉर्पोरेट बुकिंग है।" },
+      { speaker: "Deepak", textEn: "Understood, Chef. I will arrive refreshed and prepared.", textHi: "समझ गया, शेफ। मैं तरोताजा और पूरी तरह तैयार होकर आऊंगा।" }
+    ]
+  },
+  {
+    id: "d21_sc07",
+    title: "Hotel Guest Service and Sightseeing Tour Review",
+    context: "Front Office Supervisor Sunita checks in with hotel guest Mr. Verma about his tour yesterday.",
+    turns: [
+      { speaker: "Sunita", textEn: "Good morning Mr. Verma! How was your sightseeing tour of Jaipur yesterday?", textHi: "शुभ प्रभात श्री वर्मा! कल आपका जयपुर का दर्शनीय स्थल दौरा कैसा रहा?" },
+      { speaker: "Mr. Verma", textEn: "Good morning Sunita. My family and I enjoyed the entire day tremendously!", textHi: "शुभ प्रभात सुनीता। मेरे परिवार और मैंने पूरे दिन का भरपूर आनंद लिया!" },
+      { speaker: "Sunita", textEn: "Did the private chauffeur arrive at the hotel porch on time?", textHi: "क्या निजी ड्राइवर समय पर होटल के पोर्च में पहुंचा था?" },
+      { speaker: "Mr. Verma", textEn: "Yes, driver Mahendra arrived promptly at eight-thirty in a pristine vehicle.", textHi: "हाँ, ड्राइवर महेंद्र बिल्कुल सही समय पर साढ़े आठ बजे एक साफ-सुथरी गाड़ी लेकर पहुंचे।" },
+      { speaker: "Sunita", textEn: "Which historical monument did you explore first?", textHi: "आपने सबसे पहले किस ऐतिहासिक स्मारक का भ्रमण किया?" },
+      { speaker: "Mr. Verma", textEn: "We visited the magnificent Amber Fort first and climbed up to the royal courtyard.", textHi: "हमने पहले भव्य आमेर का किला देखा और शाही प्रांगण तक ऊपर चढ़े।" },
+      { speaker: "Sunita", textEn: "Did you hire a licensed tourist guide at the fort entrance?", textHi: "क्या आपने किले के प्रवेश द्वार पर एक लाइसेंस प्राप्त गाइड किराए पर लिया था?" },
+      { speaker: "Mr. Verma", textEn: "Yes, we hired an expert guide who explained the architectural history brilliantly.", textHi: "हाँ, हमने एक विशेषज्ञ गाइड लिया जिसने स्थापत्य इतिहास को बहुत शानदार ढंग से समझाया।" },
+      { speaker: "Sunita", textEn: "Did your children like the mirror mosaic work inside the Sheesh Mahal?", textHi: "क्या आपके बच्चों को शीश महल के अंदर का कांच का नक्काशीदार काम पसंद आया?" },
+      { speaker: "Mr. Verma", textEn: "They loved it! My daughter photographed every intricately carved pillar.", textHi: "उन्हें यह बहुत पसंद आया! मेरी बेटी ने हर जटिल नक्काशीदार खंभे की तस्वीर खींची।" },
+      { speaker: "Sunita", textEn: "Where did you stop for traditional Rajasthani lunch?", textHi: "आप पारंपरिक राजस्थानी दोपहर के भोजन के लिए कहाँ रुके थे?" },
+      { speaker: "Mr. Verma", textEn: "We dined at a heritage restaurant near the City Palace and tasted Dal Baati Churma.", textHi: "हमने सिटी पैलेस के पास एक हेरिटेज रेस्तरां में भोजन किया और दाल बाटी चूरमा का स्वाद चखा।" },
+      { speaker: "Sunita", textEn: "Did you shop for local handicrafts in the Johari Bazaar afterwards?", textHi: "क्या आपने बाद में जौहरी बाजार में स्थानीय हस्तशिल्प की खरीदारी की?" },
+      { speaker: "Mr. Verma", textEn: "Yes, my wife purchased handcrafted block-printed bedsheets and silver jewelry.", textHi: "हाँ, मेरी पत्नी ने हाथ से ब्लॉक-प्रिंट की गई चादरें और चांदी के गहने खरीदे।" },
+      { speaker: "Sunita", textEn: "Did the shopkeepers pack the fragile souvenirs safely for air travel?", textHi: "क्या दुकानदारों ने हवाई यात्रा के लिए नाजुक स्मृति चिन्हों को सुरक्षित रूप से पैक किया?" },
+      { speaker: "Mr. Verma", textEn: "They wrapped everything in thick bubble wrap and placed items in sturdy boxes.", textHi: "उन्होंने हर चीज़ को मोटी बबल रैप में लपेटा और वस्तुओं को मजबूत बक्सों में रखा।" },
+      { speaker: "Sunita", textEn: "What time did you return to our hotel yesterday evening?", textHi: "आप कल शाम कितने बजे हमारे होटल लौटे?" },
+      { speaker: "Mr. Verma", textEn: "We returned around seven o'clock and relaxed by the swimming pool.", textHi: "हम करीब सात बजे लौटे और स्विमिंग पूल के किनारे आराम किया।" },
+      { speaker: "Sunita", textEn: "Thank you for sharing your experience. We are thrilled you enjoyed Jaipur.", textHi: "अपना अनुभव साझा करने के लिए धन्यवाद। हमें खुशी है कि आपको जयपुर पसंद आया।" },
+      { speaker: "Mr. Verma", textEn: "Your concierge team organized the itinerary flawlessly. Thank you!", textHi: "आपकी कंसीयज टीम ने यात्रा कार्यक्रम को त्रुटिहीन ढंग से व्यवस्थित किया। धन्यवाद!" }
+    ]
+  },
+  {
+    id: "d21_sc08",
+    title: "Library Book Restoration and Archive Work",
+    context: "Librarian Meera and assistant Ankur discuss yesterday's cataloging of rare historical manuscripts.",
+    turns: [
+      { speaker: "Meera", textEn: "Ankur, how much progress did we achieve in the archive room yesterday?", textHi: "अंकुर, कल हमने अभिलेखागार कक्ष में कितनी प्रगति हासिल की?" },
+      { speaker: "Ankur", textEn: "Good morning Ma'am. We cataloged forty rare historical manuscripts yesterday.", textHi: "शुभ प्रभात मैम। हमने कल चालीस दुर्लभ ऐतिहासिक पांडुलिपियों को सूचीबद्ध किया।" },
+      { speaker: "Meera", textEn: "Did you dust the vintage wooden storage cabinets carefully?", textHi: "क्या आपने लकड़ी की पुरानी स्टोरेज अलमारियों की धूल सावधानी से साफ की?" },
+      { speaker: "Ankur", textEn: "Yes, I dusted every shelf with microfiber cloths and applied protective beeswax.", textHi: "हाँ, मैंने माइक्रोफाइबर कपड़े से हर शेल्फ को झाड़ा और सुरक्षात्मक मोम लगाया।" },
+      { speaker: "Meera", textEn: "Did you inspect the binding on the nineteenth-century botanical encyclopedias?", textHi: "क्या आपने उन्नीसवीं सदी के वनस्पति विज्ञान के विश्वकोशों की बाइंडिंग का निरीक्षण किया?" },
+      { speaker: "Ankur", textEn: "I examined all five volumes and discovered minor tear damage on volume three.", textHi: "मैंने सभी पांच खंडों की जांच की और खंड तीन पर थोड़ा फटा हुआ हिस्सा पाया।" },
+      { speaker: "Meera", textEn: "Did you repair the damaged spine with acid-free bookbinding tape?", textHi: "क्या आपने एसिड-मुक्त बाइंडिंग टेप से क्षतिग्रस्त हिस्से की मरम्मत की?" },
+      { speaker: "Ankur", textEn: "Yes, I patched the spine meticulously and placed the book in a climate-controlled sleeve.", textHi: "हाँ, मैंने रीढ़ की बहुत सावधानी से मरम्मत की और पुस्तक को जलवायु-नियंत्रित आस्तीन में रखा।" },
+      { speaker: "Meera", textEn: "Did the visiting history professor review our digital scan copies?", textHi: "क्या आने वाले इतिहास के प्रोफेसर ने हमारी डिजिटल स्कैन प्रतियों की समीक्षा की?" },
+      { speaker: "Ankur", textEn: "Professor Sen reviewed twenty high-resolution scans and verified their metadata.", textHi: "प्रोफेसर सेन ने बीस हाई-रिज़ॉल्यूशन स्कैन की समीक्षा की और उनके मेटाडेटा को सत्यापित किया।" },
+      { speaker: "Meera", textEn: "Did he request any additional archival records for his research paper?", textHi: "क्या उन्होंने अपने शोध पत्र के लिए किसी अतिरिक्त अभिलेखीय रिकॉर्ड का अनुरोध किया?" },
+      { speaker: "Ankur", textEn: "He requested access to the colonial municipal revenue maps from 1910.", textHi: "उन्होंने 1910 के औपनिवेशिक नगरपालिका राजस्व मानचित्रों तक पहुंच का अनुरोध किया।" },
+      { speaker: "Meera", textEn: "I located those maps last week in box twenty-four.", textHi: "मैंने पिछले सप्ताह बॉक्स चौबीस में उन नक्शों को ढूंढ निकाला था।" },
+      { speaker: "Ankur", textEn: "I digitized four of those oversized maps before five o'clock yesterday.", textHi: "मैंने कल शाम पांच बजे से पहले उन बड़े आकार के नक्शों में से चार को डिजिटाइज़ कर लिया था।" },
+      { speaker: "Meera", textEn: "Did you label each scanned file with the official museum accession number?", textHi: "क्या आपने प्रत्येक स्कैन की गई फ़ाइल पर आधिकारिक संग्रहालय परिग्रहण संख्या का लेबल लगाया?" },
+      { speaker: "Ankur", textEn: "Yes, I labeled every single image file and backed up the folder to the secure server.", textHi: "हाँ, मैंने हर एक इमेज फ़ाइल पर लेबल लगाया और फ़ोल्डर का बैकअप सुरक्षित सर्वर पर लिया।" },
+      { speaker: "Meera", textEn: "You worked with great scientific diligence, Ankur.", textHi: "आपने बहुत वैज्ञानिक लगन के साथ काम किया, अंकुर।" },
+      { speaker: "Ankur", textEn: "Preserving these priceless documents gives me immense professional satisfaction.", textHi: "इन अमूल्य दस्तावेजों को संरक्षित करना मुझे अत्यधिक व्यावसायिक संतुष्टि देता है।" },
+      { speaker: "Meera", textEn: "Let us continue with the 1920 journal collection today.", textHi: "आइए आज हम 1920 के जर्नल संग्रह के साथ आगे बढ़ें।" },
+      { speaker: "Ankur", textEn: "I am ready with the scanner and preservation supplies.", textHi: "मैं स्कैनर और संरक्षण सामग्री के साथ तैयार हूँ।" }
+    ]
+  },
+  {
+    id: "d21_sc09",
+    title: "Customer Support Broadband Installation Resolution",
+    context: "Support Agent Neha and customer Mr. Rao review yesterday's broadband fiber installation at his home.",
+    turns: [
+      { speaker: "Neha", textEn: "Good morning Mr. Rao. I am calling from Apex Fiber Customer Support.", textHi: "शुभ प्रभात श्री राव। मैं एपेक्स फाइबर ग्राहक सहायता से बात कर रही हूँ।" },
+      { speaker: "Mr. Rao", textEn: "Good morning Neha. Thank you for following up on my service request.", textHi: "शुभ प्रभात नेहा। मेरे सेवा अनुरोध पर फॉलोअप करने के लिए धन्यवाद।" },
+      { speaker: "Neha", textEn: "Our records show that our technician visited your residence yesterday.", textHi: "हमारे रिकॉर्ड बताते हैं कि हमारे तकनीशियन कल आपके आवास पर आए थे।" },
+      { speaker: "Mr. Rao", textEn: "Yes, technician Sunil arrived at two in the afternoon as promised.", textHi: "हाँ, तकनीशियन सुनील वादे के अनुसार दोपहर दो बजे आए।" },
+      { speaker: "Neha", textEn: "Did he install the new optical fiber router in your study room?", textHi: "क्या उन्होंने आपके अध्ययन कक्ष में नया ऑप्टिकल फाइबर राउटर स्थापित किया?" },
+      { speaker: "Mr. Rao", textEn: "He installed the optical box and routed the cabling very neatly along the baseboard.", textHi: "उन्होंने ऑप्टिकल बॉक्स स्थापित किया और बेसबोर्ड के साथ बहुत सफाई से केबल बिछाई।" },
+      { speaker: "Neha", textEn: "Did he configure the dual-band Wi-Fi network with your preferred password?", textHi: "क्या उन्होंने आपके पसंदीदा पासवर्ड के साथ डुअल-बैंड वाई-फाई नेटवर्क कॉन्फ़िगर किया?" },
+      { speaker: "Mr. Rao", textEn: "Yes, he configured both five gigahertz and two point four gigahertz channels.", textHi: "हाँ, उन्होंने पाँच गीगाहर्ट्ज़ और दो दशमलव चार गीगाहर्ट्ज़ दोनों चैनलों को कॉन्फ़िगर किया।" },
+      { speaker: "Neha", textEn: "Did you test the download and upload speeds on your laptop?", textHi: "क्या आपने अपने लैपटॉप पर डाउनलोड और अपलोड गति का परीक्षण किया?" },
+      { speaker: "Mr. Rao", textEn: "We tested the connection speed and clocked two hundred megabits per second.", textHi: "हमने कनेक्शन की गति का परीक्षण किया और दो सौ मेगाबिट प्रति सेकंड की गति दर्ज की।" },
+      { speaker: "Neha", textEn: "Did the internet stream high-definition video without buffering?", textHi: "क्या इंटरनेट बिना बफरिंग के हाई-डेफिनिशन वीडियो स्ट्रीम कर रहा था?" },
+      { speaker: "Mr. Rao", textEn: "Yes, my son streamed a 4K educational documentary with zero interruptions.", textHi: "हाँ, मेरे बेटे ने बिना किसी रुकावट के 4K शैक्षिक वृत्तचित्र देखा।" },
+      { speaker: "Neha", textEn: "Did the technician explain how to manage your account via our mobile app?", textHi: "क्या तकनीशियन ने समझाया कि हमारे मोबाइल ऐप के माध्यम से आपके खाते को कैसे प्रबंधित किया जाए?" },
+      { speaker: "Mr. Rao", textEn: "He demonstrated the bill payment feature and showed me how to reset the password.", textHi: "उन्होंने बिल भुगतान सुविधा का प्रदर्शन किया और मुझे पासवर्ड रीसेट करने का तरीका दिखाया।" },
+      { speaker: "Neha", textEn: "Did you sign the digital work completion form on his tablet?", textHi: "क्या आपने उनके टैबलेट पर डिजिटल कार्य समापन फॉर्म पर हस्ताक्षर किए?" },
+      { speaker: "Mr. Rao", textEn: "Yes, I signed the form and rated his service five stars.", textHi: "हाँ, मैंने फॉर्म पर हस्ताक्षर किए और उनकी सेवा को पांच सितारा रेटिंग दी।" },
+      { speaker: "Neha", textEn: "We appreciate your kind rating. Has the connection remained stable today?", textHi: "हम आपकी सकारात्मक रेटिंग की सराहना करते हैं। क्या आज कनेक्शन स्थिर रहा है?" },
+      { speaker: "Mr. Rao", textEn: "It has functioned flawlessly all morning during my remote office calls.", textHi: "मेरे रिमोट ऑफिस कॉल के दौरान आज सुबह इसने बिल्कुल सही काम किया है।" },
+      { speaker: "Neha", textEn: "Thank you for choosing Apex Fiber, Mr. Rao. Have a wonderful day!", textHi: "एपेक्स फाइबर चुनने के लिए धन्यवाद, श्री राव। आपका दिन शुभ हो!" },
+      { speaker: "Mr. Rao", textEn: "Thank you Neha. Your team delivered excellent customer service.", textHi: "धन्यवाद नेहा। आपकी टीम ने बेहतरीन ग्राहक सेवा प्रदान की।" }
+    ]
+  },
+  {
+    id: "d21_sc10",
+    title: "Family Weekend Museum Visit and Park Walk",
+    context: "Father Alok and daughter Diya talk about their wonderful Sunday visit to the National Science Museum.",
+    turns: [
+      { speaker: "Alok", textEn: "Diya, we experienced such a memorable Sunday outing yesterday!", textHi: "दीया, हमने कल रविवार को कितना यादगार भ्रमण किया!" },
+      { speaker: "Diya", textEn: "Yes Papa! We explored so many interactive science exhibits at the museum.", textHi: "हाँ पापा! हमने संग्रहालय में विज्ञान की कई इंटरैक्टिव प्रदर्शनियों को देखा।" },
+      { speaker: "Alok", textEn: "Which gallery interested you the most during our morning tour?", textHi: "सुबह के दौरे के दौरान किस गैलरी ने आपको सबसे ज्यादा आकर्षित किया?" },
+      { speaker: "Diya", textEn: "I loved the space exploration hall where we watched the simulated Mars rover landing.", textHi: "मुझे अंतरिक्ष अन्वेषण हॉल बहुत पसंद आया जहाँ हमने सिम्युलेटेड मार्स रोवर लैंडिंग देखी।" },
+      { speaker: "Alok", textEn: "Did you participate in the hands-on physics experiment with magnetic levitation?", textHi: "क्या आपने चुंबकीय उत्तोलन (मैग्नेटिक लेविटेशन) वाले भौतिक विज्ञान प्रयोग में भाग लिया?" },
+      { speaker: "Diya", textEn: "Yes, I pushed the copper coil button and watched the metal ring float in the air!", textHi: "हाँ, मैंने तांबे के तार का बटन दबाया और धातु की अंगूठी को हवा में तैरते देखा!" },
+      { speaker: "Alok", textEn: "The science demonstrator explained electromagnetism in a very engaging way.", textHi: "विज्ञान प्रदर्शक ने बहुत ही आकर्षक तरीके से विद्युत चुंबकत्व को समझाया।" },
+      { speaker: "Diya", textEn: "After the museum show, where did we walk for lunch?", textHi: "संग्रहालय के शो के बाद, हम दोपहर के भोजन के लिए कहाँ गए थे?" },
+      { speaker: "Alok", textEn: "We walked across the botanical garden and relaxed under the giant banyan tree.", textHi: "हम बॉटनिकल गार्डन से होकर गुजरे और विशाल बरगद के पेड़ के नीचे आराम किया।" },
+      { speaker: "Diya", textEn: "We shared the sandwiches Mama packed and tasted fresh coconut water.", textHi: "हमने माँ द्वारा पैक किए गए सैंडविच खाए और ताजे नारियल पानी का स्वाद लिया।" },
+      { speaker: "Alok", textEn: "Did you observe the flock of migratory ducks near the lake?", textHi: "क्या आपने झील के पास प्रवासी बत्तखों के झुंड को देखा?" },
+      { speaker: "Diya", textEn: "I counted twelve ducks swimming in a straight line across the water.", textHi: "मैंने पानी में सीधी रेखा में तैरती बारह बत्तखों को गिना।" },
+      { speaker: "Alok", textEn: "Did you photograph the blooming lotus flowers with your phone camera?", textHi: "क्या आपने अपने फोन के कैमरे से खिले हुए कमल के फूलों की तस्वीर खींची?" },
+      { speaker: "Diya", textEn: "I captured several close-up pictures and showed them to Grandma last night.", textHi: "मैंने कई क्लोज-अप तस्वीरें लीं और कल रात दादी को दिखाईं।" },
+      { speaker: "Alok", textEn: "Grandma smiled warmly and praised your photography skills.", textHi: "दादी गर्मजोशी से मुस्कुराईं और उन्होंने आपके फोटोग्राफी कौशल की प्रशंसा की।" },
+      { speaker: "Diya", textEn: "On the way home, we stopped at the bookstore and purchased my science encyclopedia.", textHi: "घर के रास्ते में, हम किताबों की दुकान पर रुके और मेरी विज्ञान विश्वकोश खरीदी।" },
+      { speaker: "Alok", textEn: "You read two full chapters before you turned off the bedroom lamp.", textHi: "कमरे की बत्ती बुझाने से पहले आपने पूरे दो अध्याय पढ़े।" },
+      { speaker: "Diya", textEn: "I learned so many fascinating facts about galaxies and stars.", textHi: "मैंने आकाशगंगाओं और तारों के बारे में कई दिलचस्प तथ्य सीखे।" },
+      { speaker: "Alok", textEn: "Curiosity and learning make every weekend meaningful.", textHi: "जिज्ञासा और नया सीखना हर सप्ताहांत को सार्थक बनाते हैं।" },
+      { speaker: "Diya", textEn: "Thank you for organizing such a wonderful trip, Papa!", textHi: "इतनी शानदार यात्रा आयोजित करने के लिए धन्यवाद, पापा!" }
+    ]
+  }
+];

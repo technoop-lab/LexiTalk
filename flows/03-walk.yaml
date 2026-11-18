@@ -1,0 +1,22 @@
+appId: com.curiosity.english
+---
+- launchApp:
+    clearState: false
+- extendedWaitUntil:
+    visible: "(?i).*welcome.*"
+    timeout: 30000
+- tapOn: "(?i).*continue today.*"
+- runFlow:
+    when:
+      visible: "(?i)^resume$"
+    commands:
+      - tapOn: "(?i)^resume$"
+- repeat:
+    times: 10
+    commands:
+      - runFlow:
+          when:
+            visible: "(?i).*(begin step|continue to step|next practice|next review|proceed|continue|got it|next|finish|complete).*"
+          commands:
+            - tapOn: "(?i).*(begin step|continue to step|next practice|next review|proceed|continue|got it|next|finish|complete).*"
+- takeScreenshot: 03-end-of-walk

@@ -1,0 +1,34 @@
+appId: com.curiosity.english
+---
+- launchApp:
+    clearState: false
+- extendedWaitUntil:
+    visible: "(?i).*welcome.*"
+    timeout: 30000
+- takeScreenshot: 00-home
+- tapOn:
+    id: "nav-tab-path"
+- assertVisible:
+    id: "nav-tab-home"
+- takeScreenshot: 01-path
+- tapOn:
+    id: "nav-tab-practice"
+- assertVisible:
+    id: "nav-tab-home"
+- takeScreenshot: 02-practice
+- tapOn:
+    id: "nav-tab-profile"
+- assertVisible:
+    id: "nav-tab-home"
+- takeScreenshot: 03-profile
+- tapOn:
+    id: "nav-tab-hindi_course"
+- assertVisible:
+    id: "nav-tab-home"
+- takeScreenshot: 04-hindi-course
+- tapOn:
+    id: "nav-tab-home"
+- extendedWaitUntil:
+    visible: "(?i).*welcome.*"
+    timeout: 15000
+- takeScreenshot: 05-home-again

@@ -1,0 +1,1675 @@
+import { DetailedLessonData } from '../../types';
+
+export const LESSON_A1_3_32_DATA: DetailedLessonData = {
+  "id": "lesson_a1_3_32",
+  "unitId": "unit_a1_3",
+  "title": "Appointments, Schedules & Making Reservations",
+  "cefr": "A1",
+  "icon": "🗓️",
+  "estimatedMinutes": 25,
+  "learningObjective": {
+    "title": "Booking Appointments, Confirming Time Slots and Rescheduling",
+    "description": "Learn to book appointments with doctors, dentists, salons, and meeting rooms. Practice time prepositions (\"at 3:30 PM\", \"on Tuesday\", \"in the morning\"), asking about availability (\"What times are open?\"), and politely requesting to reschedule (\"Could we move it to Thursday?\").",
+    "descriptionsByLang": {
+      "hi": "डॉक्टर, डेंटिस्ट, सैलून आदि के लिए अपॉइंटमेंट बुक करना सीखें। समय के पूर्वसर्ग (\"at 3 PM\", \"on Monday\"), उपलब्धता पूछना (\"What times are available?\") और समय बदलना (\"Could I reschedule?\") का अभ्यास करें।",
+      "es": "Aprende a pedir citas y reservas para el médico, dentista, peluquería o salas. Practica preposiciones de tiempo (\"at 3 PM\", \"on Tuesday\"), consultar disponibilidad y cambiar de hora (\"Could we reschedule?\").",
+      "fr": "Apprenez à prendre rendez-vous, confirmer des créneaux et reporter.",
+      "de": "Lernen Sie, Termine zu vereinbaren, Zeiten zu bestätigen und Termine zu verschieben.",
+      "pt": "Aprenda a marcar consultas, confirmar horários e reagendar.",
+      "zh": "掌握预约医生、理发店、会议室等日程安排，熟练运用时间介词以及改约与确认时间。",
+      "ar": "تعلم كيفية حجز المواعيد وتأكيد الأوقات وتعديلها بلباقة.",
+      "ja": "病院やサロンなどの予約の取り方、日時の確認、日時の変更（リスケジュール）を学びます。",
+      "ru": "Научитесь записываться на прием, бронировать время, уточнять доступность и переносить встречи."
+    },
+    "canDoStatements": [
+      "Request an appointment politely: \"I'd like to make an appointment for Tuesday morning\"",
+      "Ask about availability: \"Do you have any openings this Friday afternoon?\"",
+      "Confirm dates and times: \"Let me confirm: that is Thursday the 14th at 2:30 PM\"",
+      "Request to reschedule: \"Could I reschedule my appointment to next Monday?\"",
+      "Provide contact details for booking: \"My name is Carlos and my phone number is...\""
+    ],
+    "canDoByLang": {
+      "hi": [
+        "अपॉइंटमेंट बुक करना: \"I would like to make an appointment\"",
+        "उपलब्धता पूछना: \"What times are available on Monday?\"",
+        "तारीख और समय की पुष्टि करना: \"That is at 3 PM on Friday\"",
+        "समय बदलना: \"Could I reschedule for tomorrow?\""
+      ],
+      "es": [
+        "Pedir una cita: \"I'd like to make an appointment\"",
+        "Preguntar disponibilidad: \"Do you have any openings on Friday?\"",
+        "Confirmar fecha y hora: \"Thursday at 2:30 PM\"",
+        "Cambiar de hora: \"Could I reschedule to next week?\""
+      ]
+    }
+  },
+  "vocabulary": [
+    {
+      "id": "v_u03_l32_appointment",
+      "word": "appointment",
+      "phonetic": "/əˈpɔɪnt.mənt/",
+      "meaning": "An agreed time for a meeting or service",
+      "translationsByLang": {
+        "hi": "मुलाकात का समय / अपॉइंटमेंट",
+        "es": "cita",
+        "fr": "rendez-vous",
+        "de": "Termin",
+        "pt": "consulta / compromisso",
+        "zh": "预约",
+        "ar": "موعد",
+        "ja": "予約 / 約束",
+        "ru": "прием / встреча"
+      },
+      "exampleSentence": "I have a dental appointment tomorrow at ten o'clock.",
+      "exampleTranslationByLang": {
+        "hi": "कल सुबह दस बजे मेरी डेंटिस्ट के साथ अपॉइंटमेंट है।",
+        "es": "Tengo una cita dental mañana a las diez en punto."
+      },
+      "audioText": "appointment",
+      "audioId": "en_a1_u03_l32_v_appointment",
+      "slowAudioId": "en_a1_u03_l32_v_appointment_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "📅",
+      "difficulty": "A1 Beginner"
+    },
+    {
+      "id": "v_u03_l32_reservation",
+      "word": "reservation / booking",
+      "phonetic": "/ˌrez.ɚˈveɪ.ʃən/",
+      "meaning": "An arrangement to secure a seat, table, or room",
+      "translationsByLang": {
+        "hi": "आरक्षण / बुकिंग",
+        "es": "reserva",
+        "fr": "réservation",
+        "de": "Reservierung / Buchung",
+        "pt": "reserva",
+        "zh": "预订",
+        "ar": "حجز",
+        "ja": "予約",
+        "ru": "бронирование"
+      },
+      "exampleSentence": "We have a table reservation for four people at 8 PM.",
+      "exampleTranslationByLang": {
+        "hi": "हमारे पास रात 8 बजे चार लोगों के लिए टेबल रिजर्वेशन है।",
+        "es": "Tenemos una reserva de mesa para cuatro personas a las 8 de la noche."
+      },
+      "audioText": "reservation",
+      "audioId": "en_a1_u03_l32_v_reservation",
+      "slowAudioId": "en_a1_u03_l32_v_reservation_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "🍽️",
+      "difficulty": "A1 Beginner"
+    },
+    {
+      "id": "v_u03_l32_book",
+      "word": "book",
+      "phonetic": "/bʊk/",
+      "meaning": "To reserve a time slot, room, or ticket in advance",
+      "translationsByLang": {
+        "hi": "बुक करना / पहले से स्थान सुरक्षित करना",
+        "es": "reservar",
+        "fr": "réserver",
+        "de": "buchen / reservieren",
+        "pt": "reservar",
+        "zh": "预订（动词）",
+        "ar": "يحجز",
+        "ja": "予約する",
+        "ru": "бронировать"
+      },
+      "exampleSentence": "I need to book an appointment with Dr. Miller.",
+      "exampleTranslationByLang": {
+        "hi": "मुझे डॉ. मिलर के साथ अपॉइंटमेंट बुक करने की आवश्यकता है।",
+        "es": "Necesito reservar una cita con el Dr. Miller."
+      },
+      "audioText": "book",
+      "audioId": "en_a1_u03_l32_v_book",
+      "slowAudioId": "en_a1_u03_l32_v_book_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "📖",
+      "difficulty": "A1 Beginner"
+    },
+    {
+      "id": "v_u03_l32_cancel",
+      "word": "cancel",
+      "phonetic": "/ˈkæn.səl/",
+      "meaning": "To decide that an organized event will not take place",
+      "translationsByLang": {
+        "hi": "रद्द करना",
+        "es": "cancelar",
+        "fr": "annuler",
+        "de": "absagen / stornieren",
+        "pt": "cancelar",
+        "zh": "取消",
+        "ar": "يلغي",
+        "ja": "キャンセルする / 取り消す",
+        "ru": "отменять"
+      },
+      "exampleSentence": "I am calling to cancel my appointment for this afternoon.",
+      "exampleTranslationByLang": {
+        "hi": "मैं आज दोपहर की अपनी अपॉइंटमेंट रद्द करने के लिए कॉल कर रहा हूँ।",
+        "es": "Llamo para cancelar mi cita de esta tarde."
+      },
+      "audioText": "cancel",
+      "audioId": "en_a1_u03_l32_v_cancel",
+      "slowAudioId": "en_a1_u03_l32_v_cancel_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "❌",
+      "difficulty": "A1 Beginner"
+    },
+    {
+      "id": "v_u03_l32_reschedule",
+      "word": "reschedule",
+      "phonetic": "/ˌriːˈskedʒ.uːl/",
+      "meaning": "To change the date or time of an existing appointment",
+      "translationsByLang": {
+        "hi": "समय या तारीख बदलना",
+        "es": "reprogramar / cambiar de hora",
+        "fr": "reporter / reprogrammer",
+        "de": "verschieben / umbuchen",
+        "pt": "reagendar",
+        "zh": "重新安排时间",
+        "ar": "يعيد جدولة",
+        "ja": "日程を変更する",
+        "ru": "переносить (на другое время)"
+      },
+      "exampleSentence": "Can I reschedule my appointment to Friday morning?",
+      "exampleTranslationByLang": {
+        "hi": "क्या मैं अपनी अपॉइंटमेंट शुक्रवार सुबह के लिए बदल सकता हूँ?",
+        "es": "¿Puedo cambiar mi cita para el viernes por la mañana?"
+      },
+      "audioText": "reschedule",
+      "audioId": "en_a1_u03_l32_v_reschedule",
+      "slowAudioId": "en_a1_u03_l32_v_reschedule_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "🔄",
+      "difficulty": "A1 Beginner"
+    },
+    {
+      "id": "v_u03_l32_available",
+      "word": "available / opening",
+      "phonetic": "/əˈveɪ.lə.bəl/",
+      "meaning": "Free to be used or scheduled",
+      "translationsByLang": {
+        "hi": "उपलब्ध / खाली स्लॉट",
+        "es": "disponible / hueco libre",
+        "fr": "disponible / créneau libre",
+        "de": "verfügbar / freier Termin",
+        "pt": "disponível / vaga",
+        "zh": "有空的 / 可用的",
+        "ar": "متاح / شاغر",
+        "ja": "空きがある / 利用可能",
+        "ru": "свободный / доступный"
+      },
+      "exampleSentence": "Is the doctor available on Wednesday at 4 PM?",
+      "exampleTranslationByLang": {
+        "hi": "क्या डॉक्टर बुधवार को शाम 4 बजे उपलब्ध हैं?",
+        "es": "¿El médico está disponible el miércoles a las 4 de la tarde?"
+      },
+      "audioText": "available and opening",
+      "audioId": "en_a1_u03_l32_v_available",
+      "slowAudioId": "en_a1_u03_l32_v_available_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "🟢",
+      "difficulty": "A1 Beginner"
+    },
+    {
+      "id": "v_u03_l32_confirm",
+      "word": "confirm",
+      "phonetic": "/kənˈfɝːm/",
+      "meaning": "To state that something is definitely true or fixed",
+      "translationsByLang": {
+        "hi": "पुष्टि करना / पक्का करना",
+        "es": "confirmar",
+        "fr": "confirmer",
+        "de": "bestätigen",
+        "pt": "confirmar",
+        "zh": "确认",
+        "ar": "يؤكد",
+        "ja": "確認する / 確定する",
+        "ru": "подтверждать"
+      },
+      "exampleSentence": "Please reply to this text message to confirm your booking.",
+      "exampleTranslationByLang": {
+        "hi": "कृपया अपनी बुकिंग की पुष्टि करने के लिए इस टेक्स्ट संदेश का उत्तर दें।",
+        "es": "Por favor responde a este mensaje de texto para confirmar tu reserva."
+      },
+      "audioText": "confirm",
+      "audioId": "en_a1_u03_l32_v_confirm",
+      "slowAudioId": "en_a1_u03_l32_v_confirm_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "✔️",
+      "difficulty": "A1 Beginner"
+    },
+    {
+      "id": "v_u03_l32_dentist",
+      "word": "dentist",
+      "phonetic": "/ˈden.tɪst/",
+      "meaning": "A doctor who treats teeth",
+      "translationsByLang": {
+        "hi": "दांतों का डॉक्टर (डेंटिस्ट)",
+        "es": "dentista",
+        "fr": "dentiste",
+        "de": "Zahnarzt",
+        "pt": "dentista",
+        "zh": "牙医",
+        "ar": "طبيب أسنان",
+        "ja": "歯科医",
+        "ru": "стоматолог"
+      },
+      "exampleSentence": "I see my dentist twice a year for a regular check-up.",
+      "exampleTranslationByLang": {
+        "hi": "मैं नियमित जांच के लिए साल में दो बार अपने डेंटिस्ट के पास जाता हूँ।",
+        "es": "Veo a mi dentista dos veces al año para una revisión regular."
+      },
+      "audioText": "dentist",
+      "audioId": "en_a1_u03_l32_v_dentist",
+      "slowAudioId": "en_a1_u03_l32_v_dentist_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "🦷",
+      "difficulty": "A1 Beginner"
+    },
+    {
+      "id": "v_u03_l32_receptionist",
+      "word": "receptionist",
+      "phonetic": "/rɪˈsep.ʃən.ɪst/",
+      "meaning": "A person who greets clients and manages bookings",
+      "translationsByLang": {
+        "hi": "रिसेप्शनिस्ट / स्वागतकर्ता",
+        "es": "recepcionista",
+        "fr": "réceptionniste",
+        "de": "Empfangskraft / Rezeptionist",
+        "pt": "recepcionista",
+        "zh": "接待员",
+        "ar": "موظف استقبال",
+        "ja": "受付係",
+        "ru": "администратор / ресепшионист"
+      },
+      "exampleSentence": "The receptionist helped me schedule a morning slot.",
+      "exampleTranslationByLang": {
+        "hi": "रिसेप्शनिस्ट ने मुझे सुबह का स्लॉट शेड्यूल करने में मदद की।",
+        "es": "La recepcionista me ayudó a programar una cita por la mañana."
+      },
+      "audioText": "receptionist",
+      "audioId": "en_a1_u03_l32_v_receptionist",
+      "slowAudioId": "en_a1_u03_l32_v_receptionist_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "👩‍💼",
+      "difficulty": "A1 Beginner"
+    },
+    {
+      "id": "v_u03_l32_calendar",
+      "word": "calendar / schedule",
+      "phonetic": "/ˈkæl.ən.dɚ/ /ˈskedʒ.uːl/",
+      "meaning": "A chart or plan of dates, events, and hours",
+      "translationsByLang": {
+        "hi": "कैलेंडर / समय सारणी",
+        "es": "calendario / horario",
+        "fr": "calendrier / planning",
+        "de": "Kalender / Zeitplan",
+        "pt": "calendário / agenda",
+        "zh": "日程表 / 日历",
+        "ar": "تقويم / جدول مواعيد",
+        "ja": "カレンダー / スケジュール",
+        "ru": "календарь / расписание"
+      },
+      "exampleSentence": "Let me check my calendar before I confirm the date.",
+      "exampleTranslationByLang": {
+        "hi": "तारीख की पुष्टि करने से पहले मुझे अपना कैलेंडर देखने दीजिए।",
+        "es": "Déjame revisar mi calendario antes de confirmar la fecha."
+      },
+      "audioText": "calendar and schedule",
+      "audioId": "en_a1_u03_l32_v_calendar",
+      "slowAudioId": "en_a1_u03_l32_v_calendar_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "📆",
+      "difficulty": "A1 Beginner"
+    },
+    {
+      "id": "v_u03_l32_timeslot",
+      "word": "time slot",
+      "phonetic": "/taɪm slɑːt/",
+      "meaning": "A specific period of time assigned on a schedule",
+      "translationsByLang": {
+        "hi": "समय स्लॉट",
+        "es": "horario / franja horaria",
+        "fr": "créneau horaire",
+        "de": "Zeitfenster / Termin",
+        "pt": "horário disponível",
+        "zh": "时间段 / 时段",
+        "ar": "فترة زمنية محددة",
+        "ja": "時間枠",
+        "ru": "временной интервал"
+      },
+      "exampleSentence": "We have a free time slot at 11:30 AM.",
+      "exampleTranslationByLang": {
+        "hi": "हमारे पास सुबह 11:30 बजे एक खाली टाइम स्लॉट है।",
+        "es": "Tenemos una franja horaria libre a las 11:30 de la mañana."
+      },
+      "audioText": "time slot",
+      "audioId": "en_a1_u03_l32_v_timeslot",
+      "slowAudioId": "en_a1_u03_l32_v_timeslot_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "⏱️",
+      "difficulty": "A1 Beginner"
+    },
+    {
+      "id": "v_u03_l32_earliest",
+      "word": "earliest",
+      "phonetic": "/ˈɝː.li.ɪst/",
+      "meaning": "Happening first in a period of time",
+      "translationsByLang": {
+        "hi": "सबसे पहले / जल्द से जल्द",
+        "es": "lo más temprano / más pronto",
+        "fr": "au plus tôt",
+        "de": "frühestens",
+        "pt": "o mais cedo possível",
+        "zh": "最早的",
+        "ar": "الأبكر / في أقرب وقت",
+        "ja": "一番早い",
+        "ru": "самый ранний"
+      },
+      "exampleSentence": "What is the earliest appointment you have on Monday?",
+      "exampleTranslationByLang": {
+        "hi": "सोमवार को आपके पास सबसे पहली अपॉइंटमेंट कौन सी है?",
+        "es": "¿Cuál es la cita más temprana que tienen el lunes?"
+      },
+      "audioText": "earliest",
+      "audioId": "en_a1_u03_l32_v_earliest",
+      "slowAudioId": "en_a1_u03_l32_v_earliest_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "🌅",
+      "difficulty": "A1 Beginner"
+    },
+    {
+      "id": "v_u03_l32_latest",
+      "word": "latest",
+      "phonetic": "/ˈleɪ.tɪst/",
+      "meaning": "Happening near the end of a period",
+      "translationsByLang": {
+        "hi": "सबसे देर का / अंतिम समय",
+        "es": "lo más tarde",
+        "fr": "au plus tard",
+        "de": "spätestens",
+        "pt": "o mais tarde",
+        "zh": "最晚的",
+        "ar": "الأحدث / في أبعد وقت",
+        "ja": "一番遅い",
+        "ru": "самый поздний"
+      },
+      "exampleSentence": "The latest booking we can accept is at 7 PM.",
+      "exampleTranslationByLang": {
+        "hi": "हम जो सबसे देर की बुकिंग स्वीकार कर सकते हैं वह शाम 7 बजे की है।",
+        "es": "La última reserva que podemos aceptar es a las 7 de la tarde."
+      },
+      "audioText": "latest",
+      "audioId": "en_a1_u03_l32_v_latest",
+      "slowAudioId": "en_a1_u03_l32_v_latest_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "🌙",
+      "difficulty": "A1 Beginner"
+    },
+    {
+      "id": "v_u03_l32_convenient",
+      "word": "convenient",
+      "phonetic": "/kənˈviː.ni.ənt/",
+      "meaning": "Fitting in well with a person's needs or plans",
+      "translationsByLang": {
+        "hi": "सुविधाजनक / अनुकूल",
+        "es": "conveniente / cómodo",
+        "fr": "pratique / qui convient",
+        "de": "günstig / passend",
+        "pt": "conveniente / adequado",
+        "zh": "方便的 / 合适的",
+        "ar": "مناسب / ملائم",
+        "ja": "都合が良い / 便利な",
+        "ru": "удобный / подходящий"
+      },
+      "exampleSentence": "Is 3 o'clock convenient for your schedule?",
+      "exampleTranslationByLang": {
+        "hi": "क्या 3 बजे का समय आपके कार्यक्रम के लिए सुविधाजनक है?",
+        "es": "¿Las 3 en punto le resulta conveniente a su horario?"
+      },
+      "audioText": "convenient",
+      "audioId": "en_a1_u03_l32_v_convenient",
+      "slowAudioId": "en_a1_u03_l32_v_convenient_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "👌",
+      "difficulty": "A1 Beginner"
+    },
+    {
+      "id": "v_u03_l32_contact",
+      "word": "contact details",
+      "phonetic": "/ˈkɑːn.tækt ˌdiː.teɪlz/",
+      "meaning": "Information like phone number and email address",
+      "translationsByLang": {
+        "hi": "संपर्क विवरण (फ़ोन, ईमेल)",
+        "es": "datos de contacto",
+        "fr": "coordonnées",
+        "de": "Kontaktdaten",
+        "pt": "dados de contato",
+        "zh": "联系方式",
+        "ar": "بيانات الاتصال",
+        "ja": "連絡先",
+        "ru": "контактные данные"
+      },
+      "exampleSentence": "Could you please give me your contact details?",
+      "exampleTranslationByLang": {
+        "hi": "क्या आप कृपया मुझे अपना संपर्क विवरण दे सकते हैं?",
+        "es": "¿Podría darme sus datos de contacto, por favor?"
+      },
+      "audioText": "contact details",
+      "audioId": "en_a1_u03_l32_v_contact",
+      "slowAudioId": "en_a1_u03_l32_v_contact_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "📱",
+      "difficulty": "A1 Beginner"
+    },
+    {
+      "id": "v_u03_l32_checkup",
+      "word": "consultation / check-up",
+      "phonetic": "/ˌkɑːn.sʌlˈteɪ.ʃən/",
+      "meaning": "A meeting with an expert or doctor for advice",
+      "translationsByLang": {
+        "hi": "परामर्श / नियमित जांच",
+        "es": "consulta / revisión médica",
+        "fr": "consultation / bilan de santé",
+        "de": "Beratung / Kontrolluntersuchung",
+        "pt": "consulta / exame de rotina",
+        "zh": "问诊 / 体检",
+        "ar": "استشارة / فحص دوري",
+        "ja": "診察 / 定期健診",
+        "ru": "консультация / осмотр"
+      },
+      "exampleSentence": "I would like to schedule a medical consultation.",
+      "exampleTranslationByLang": {
+        "hi": "मैं एक चिकित्सा परामर्श शेड्यूल करना चाहूँगा।",
+        "es": "Me gustaría programar una consulta médica."
+      },
+      "audioText": "consultation and check up",
+      "audioId": "en_a1_u03_l32_v_checkup",
+      "slowAudioId": "en_a1_u03_l32_v_checkup_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "🩺",
+      "difficulty": "A1 Beginner"
+    },
+    {
+      "id": "v_u03_l32_hairdresser",
+      "word": "hairdresser / salon",
+      "phonetic": "/ˈherˌdres.ɚ/",
+      "meaning": "A place or person providing haircuts and styling",
+      "translationsByLang": {
+        "hi": "नाई / हेयरड्रेसर / सैलून",
+        "es": "peluquería / peluquero",
+        "fr": "coiffeur / salon de coiffure",
+        "de": "Friseur / Salon",
+        "pt": "cabeleireiro / salão",
+        "zh": "理发师 / 美发沙龙",
+        "ar": "مصفف شعر / صالون حلاقة",
+        "ja": "美容院 / 理髪店",
+        "ru": "парикмахер / салон"
+      },
+      "exampleSentence": "I booked a haircut at the salon for Saturday morning.",
+      "exampleTranslationByLang": {
+        "hi": "मैंने शनिवार सुबह के लिए सैलून में बाल कटवाने की बुकिंग की है।",
+        "es": "Reservé un corte de pelo en la peluquería para el sábado por la mañana."
+      },
+      "audioText": "hairdresser and salon",
+      "audioId": "en_a1_u03_l32_v_hairdresser",
+      "slowAudioId": "en_a1_u03_l32_v_hairdresser_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "💇",
+      "difficulty": "A1 Beginner"
+    },
+    {
+      "id": "v_u03_l32_party_of",
+      "word": "party of (number)",
+      "phonetic": "/ˈpɑːr.t̬i əv/",
+      "meaning": "A group of people for a restaurant reservation",
+      "translationsByLang": {
+        "hi": "(व्यक्तियों की संख्या) का समूह",
+        "es": "mesa para (número de personas)",
+        "fr": "table pour (nombre)",
+        "de": "Tisch für (Anzahl)",
+        "pt": "mesa para (número)",
+        "zh": "（餐厅）几位同行",
+        "ar": "مجموعة من (عدد أفراد)",
+        "ja": "〜名のグループ",
+        "ru": "столик на (количество человек)"
+      },
+      "exampleSentence": "I would like to reserve a table for a party of six.",
+      "exampleTranslationByLang": {
+        "hi": "मैं छह लोगों के समूह के लिए एक टेबल आरक्षित करना चाहता हूँ।",
+        "es": "Me gustaría reservar una mesa para un grupo de seis personas."
+      },
+      "audioText": "party of",
+      "audioId": "en_a1_u03_l32_v_party_of",
+      "slowAudioId": "en_a1_u03_l32_v_party_of_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "👥",
+      "difficulty": "A1 Beginner"
+    },
+    {
+      "id": "v_u03_l32_waiting_list",
+      "word": "waiting list",
+      "phonetic": "/ˈweɪ.tɪŋ lɪst/",
+      "meaning": "A list of people waiting for a free slot",
+      "translationsByLang": {
+        "hi": "प्रतीक्षा सूची / वेटिंग लिस्ट",
+        "es": "lista de espera",
+        "fr": "liste d'attente",
+        "de": "Warteliste",
+        "pt": "lista de espera",
+        "zh": "候补名单",
+        "ar": "قائمة الانتظار",
+        "ja": "キャンセル待ちリスト",
+        "ru": "список ожидания"
+      },
+      "exampleSentence": "The class is full, but we can put you on the waiting list.",
+      "exampleTranslationByLang": {
+        "hi": "कक्षा भरी हुई है, लेकिन हम आपको प्रतीक्षा सूची में डाल सकते हैं।",
+        "es": "La clase está llena, pero podemos ponerle en la lista de espera."
+      },
+      "audioText": "waiting list",
+      "audioId": "en_a1_u03_l32_v_waiting_list",
+      "slowAudioId": "en_a1_u03_l32_v_waiting_list_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "📝",
+      "difficulty": "A1 Beginner"
+    },
+    {
+      "id": "v_u03_l32_all_set",
+      "word": "you are all set",
+      "phonetic": "/juː ɑːr ɔːl set/",
+      "meaning": "Phrase meaning everything is confirmed and complete",
+      "translationsByLang": {
+        "hi": "सब कुछ तैयार और पक्का हो गया है",
+        "es": "está todo listo y confirmado",
+        "fr": "tout est prêt / confirmé",
+        "de": "alles ist fertig vorbereitet",
+        "pt": "está tudo pronto / confirmado",
+        "zh": "一切都已办妥",
+        "ar": "كل شيء جاهز ومؤكد",
+        "ja": "すべて完了しました / 準備万端です",
+        "ru": "все готово и оформлено"
+      },
+      "exampleSentence": "Thank you Mr. Smith, you are all set for Thursday at 10 AM.",
+      "exampleTranslationByLang": {
+        "hi": "धन्यवाद मिस्टर स्मिथ, गुरुवार सुबह 10 बजे के लिए आपकी बुकिंग पक्की हो गई है।",
+        "es": "Gracias Sr. Smith, todo está listo para el jueves a las 10 de la mañana."
+      },
+      "audioText": "you are all set",
+      "audioId": "en_a1_u03_l32_v_all_set",
+      "slowAudioId": "en_a1_u03_l32_v_all_set_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "✨",
+      "difficulty": "A1 Beginner"
+    }
+  ],
+  "expressions": [
+    {
+      "id": "c_u03_l32_1",
+      "expression": "I'd like to make an appointment.",
+      "meaning": "Standard polite opening formula for booking",
+      "translationsByLang": {
+        "hi": "मैं एक अपॉइंटमेंट लेना चाहता हूँ।",
+        "es": "Me gustaría pedir una cita.",
+        "fr": "Je voudrais prendre rendez-vous.",
+        "de": "Ich möchte einen Termin vereinbaren.",
+        "pt": "Gostaria de marcar uma consulta.",
+        "zh": "我想预约一个时间。",
+        "ar": "أود حجز موعد.",
+        "ja": "予約を取りたいのですが。",
+        "ru": "Я бы хотел записаться на прием."
+      },
+      "usageNote": "Used on the phone or in person",
+      "audioText": "I would like to make an appointment.",
+      "audioId": "en_a1_u03_l32_c_makeapp",
+      "slowAudioId": "en_a1_u03_l32_c_makeapp_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "📅"
+    },
+    {
+      "id": "c_u03_l32_2",
+      "expression": "What times are available?",
+      "meaning": "Inquiring about open scheduling slots",
+      "translationsByLang": {
+        "hi": "कौन से समय उपलब्ध हैं?",
+        "es": "¿Qué horarios tienen disponibles?",
+        "fr": "Quels sont les créneaux disponibles ?",
+        "de": "Welche Zeiten sind verfügbar?",
+        "pt": "Quais horários estão disponíveis?",
+        "zh": "有哪些时间可以预约？",
+        "ar": "ما هي الأوقات المتاحة؟",
+        "ja": "空いている時間はいつですか？",
+        "ru": "Какое время свободно?"
+      },
+      "usageNote": "Polite inquiry to receptionist",
+      "audioText": "What times are available?",
+      "audioId": "en_a1_u03_l32_c_whattimes",
+      "slowAudioId": "en_a1_u03_l32_c_whattimes_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "⏰"
+    },
+    {
+      "id": "c_u03_l32_3",
+      "expression": "Is Tuesday at 3 PM convenient?",
+      "meaning": "Proposing or checking a specific time",
+      "translationsByLang": {
+        "hi": "क्या मंगलवार दोपहर 3 बजे का समय सुविधाजनक है?",
+        "es": "¿El martes a las 3 de la tarde le conviene?",
+        "fr": "Le mardi à 15h vous convient-il ?",
+        "de": "Passt Ihnen Dienstag um 15 Uhr?",
+        "pt": "Terça-feira às 15h é conveniente para você?",
+        "zh": "周二下午三点合适吗？",
+        "ar": "هل يوم الثلاثاء في الثالثة مساءً مناسب لك؟",
+        "ja": "火曜日の午後3時はご都合よろしいですか？",
+        "ru": "Вам удобно во вторник в 15:00?"
+      },
+      "usageNote": "Checks partner/client availability",
+      "audioText": "Is Tuesday at 3 PM convenient?",
+      "audioId": "en_a1_u03_l32_c_convenient",
+      "slowAudioId": "en_a1_u03_l32_c_convenient_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "👌"
+    },
+    {
+      "id": "c_u03_l32_4",
+      "expression": "Could I reschedule for Friday?",
+      "meaning": "Politely requesting to move an appointment",
+      "translationsByLang": {
+        "hi": "क्या मैं इसे शुक्रवार के लिए बदल सकता हूँ?",
+        "es": "¿Podría cambiarla para el viernes?",
+        "fr": "Pourrais-je reporter à vendredi ?",
+        "de": "Könnte ich auf Freitag verschieben?",
+        "pt": "Poderia reagendar para sexta-feira?",
+        "zh": "我可以改到周五吗？",
+        "ar": "هل يمكنني تأجيل الموعد إلى الجمعة؟",
+        "ja": "金曜日に変更できますでしょうか？",
+        "ru": "Могу я перенести на пятницу?"
+      },
+      "usageNote": "\"Could I\" is softer and more polite than \"Can I\"",
+      "audioText": "Could I reschedule for Friday?",
+      "audioId": "en_a1_u03_l32_c_reschedule",
+      "slowAudioId": "en_a1_u03_l32_c_reschedule_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "🔄"
+    },
+    {
+      "id": "c_u03_l32_5",
+      "expression": "Let me check the schedule.",
+      "meaning": "Indicating you are looking up availability",
+      "translationsByLang": {
+        "hi": "मुझे समय सारणी देखने दीजिए।",
+        "es": "Déjeme revisar el horario.",
+        "fr": "Laissez-moi vérifier le planning.",
+        "de": "Lassen Sie mich den Kalender prüfen.",
+        "pt": "Deixe-me verificar a agenda.",
+        "zh": "让我查一下日程。",
+        "ar": "دعني أتحقق من الجدول.",
+        "ja": "スケジュールを確認いたします。",
+        "ru": "Позвольте мне проверить расписание."
+      },
+      "usageNote": "Used by staff while looking at screen/book",
+      "audioText": "Let me check the schedule.",
+      "audioId": "en_a1_u03_l32_c_checksch",
+      "slowAudioId": "en_a1_u03_l32_c_checksch_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "📋"
+    },
+    {
+      "id": "c_u03_l32_6",
+      "expression": "Please confirm your full name.",
+      "meaning": "Requesting identity verification during booking",
+      "translationsByLang": {
+        "hi": "कृपया अपने पूरे नाम की पुष्टि करें।",
+        "es": "Por favor confirme su nombre completo.",
+        "fr": "Veuillez confirmer votre nom complet.",
+        "de": "Bitte bestätigen Sie Ihren vollständigen Namen.",
+        "pt": "Por favor, confirme seu nome completo.",
+        "zh": "请确认您的全名。",
+        "ar": "يرجى تأكيد اسمك الكامل.",
+        "ja": "フルネームのご確認をお願いいたします。",
+        "ru": "Пожалуйста, назовите ваше полное имя."
+      },
+      "usageNote": "Standard customer verification step",
+      "audioText": "Please confirm your full name.",
+      "audioId": "en_a1_u03_l32_c_confirmname",
+      "slowAudioId": "en_a1_u03_l32_c_confirmname_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "👤"
+    },
+    {
+      "id": "c_u03_l32_7",
+      "expression": "You are all set for Monday morning.",
+      "meaning": "Confirmation formula concluding the booking",
+      "translationsByLang": {
+        "hi": "सोमवार सुबह के लिए सब तय हो गया है।",
+        "es": "Está todo listo para el lunes por la mañana.",
+        "fr": "Tout est confirmé pour lundi matin.",
+        "de": "Für Montagmorgen ist alles gebucht.",
+        "pt": "Está tudo confirmado para segunda de manhã.",
+        "zh": "周一早上的预约已为您安排妥当。",
+        "ar": "تم تأكيد موعدك صباح يوم الاثنين.",
+        "ja": "月曜日の朝で予約を完了いたしました。",
+        "ru": "Вы записаны на утро понедельника."
+      },
+      "usageNote": "Reassures client that process is complete",
+      "audioText": "You are all set for Monday morning.",
+      "audioId": "en_a1_u03_l32_c_allset",
+      "slowAudioId": "en_a1_u03_l32_c_allset_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "✅"
+    },
+    {
+      "id": "c_u03_l32_8",
+      "expression": "Thank you for your help!",
+      "meaning": "Courteous sign-off after completing a reservation",
+      "translationsByLang": {
+        "hi": "आपकी मदद के लिए धन्यवाद!",
+        "es": "¡Muchas gracias por su ayuda!",
+        "fr": "Merci beaucoup pour votre aide !",
+        "de": "Vielen Dank für Ihre Hilfe!",
+        "pt": "Muito obrigado pela sua ajuda!",
+        "zh": "谢谢您的帮助！",
+        "ar": "شكراً جزيلاً لمساعدتك!",
+        "ja": "ご対応ありがとうございました！",
+        "ru": "Большое спасибо за помощь!"
+      },
+      "usageNote": "Polite concluding gratitude",
+      "audioText": "Thank you for your help!",
+      "audioId": "en_a1_u03_l32_c_thankshelp",
+      "slowAudioId": "en_a1_u03_l32_c_thankshelp_slow",
+      "voiceId": "EN_TEACHER_01",
+      "icon": "🙏"
+    }
+  ],
+  "grammar": {
+    "title": "Time Prepositions & Booking Modals",
+    "concept": "Using \"at\", \"on\", \"in\" for precise scheduling, and polite modals \"Can / Could I book...?\"",
+    "patterns": [
+      {
+        "id": "gp_u03_l32_time_prep",
+        "title": "Prepositions of Time: AT (precise time), ON (days/dates), IN (months/parts of day)",
+        "structure": "at + [clock time] / on + [day or date] / in + [the morning / month]",
+        "rule": "Use \"at\" for exact clock times (at 3:30 PM), \"on\" for days of the week and dates (on Friday, on June 10th), and \"in\" for parts of the day or months (in the morning, in August).",
+        "examples": [
+          {
+            "english": "My appointment is at two o'clock on Wednesday afternoon.",
+            "translation": "Mi cita es a las dos en punto el miércoles por la tarde.",
+            "translationByLang": {
+              "hi": "मेरी अपॉइंटमेंट बुधवार दोपहर दो बजे है।",
+              "es": "Mi cita es a las dos en punto el miércoles por la tarde."
+            },
+            "audioText": "My appointment is at two o clock on Wednesday afternoon.",
+            "audioId": "en_a1_u03_l32_g_ex1"
+          },
+          {
+            "english": "Dr. Lee only works in the morning on Mondays.",
+            "translation": "El Dr. Lee solo atiende por la mañana los lunes.",
+            "translationByLang": {
+              "hi": "डॉ. ली केवल सोमवार को सुबह काम करते हैं।",
+              "es": "El Dr. Lee solo atiende por la mañana los lunes."
+            },
+            "audioText": "Dr Lee only works in the morning on Mondays.",
+            "audioId": "en_a1_u03_l32_g_ex2"
+          }
+        ]
+      },
+      {
+        "id": "gp_u03_l32_could_i_book",
+        "title": "Polite Booking Requests: Could I / I'd like to + Verb",
+        "structure": "Could I + [make an appointment / reserve a table] + for + [day/time]?",
+        "rule": "Use \"Could I\" or \"I would like to\" for respectful, professional customer service transactions.",
+        "examples": [
+          {
+            "english": "Could I reserve a table for four people this evening?",
+            "translation": "¿Podría reservar una mesa para cuatro personas esta noche?",
+            "translationByLang": {
+              "hi": "क्या मैं आज शाम चार लोगों के लिए टेबल आरक्षित कर सकता हूँ?",
+              "es": "¿Podría reservar una mesa para cuatro personas esta noche?"
+            },
+            "audioText": "Could I reserve a table for four people this evening?",
+            "audioId": "en_a1_u03_l32_g_ex3"
+          },
+          {
+            "english": "I'd like to reschedule my consultation to next Friday.",
+            "translation": "Me gustaría reprogramar mi consulta para el próximo viernes.",
+            "translationByLang": {
+              "hi": "मैं अपने परामर्श को अगले शुक्रवार के लिए बदलना चाहूँगा।",
+              "es": "Me gustaría reprogramar mi consulta para el próximo viernes."
+            },
+            "audioText": "I would like to reschedule my consultation to next Friday.",
+            "audioId": "en_a1_u03_l32_g_ex4"
+          }
+        ]
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "id": "cm_u03_l32_1",
+      "incorrect": "I have an appointment in Monday.",
+      "correct": "I have an appointment on Monday.",
+      "explanation": "Use \"on\" with days of the week, not \"in\".",
+      "explanationsByLang": {
+        "hi": "सप्ताह के दिनों के साथ \"on\" का प्रयोग होता है, \"in\" का नहीं।",
+        "es": "Usa \"on\" con los días de la semana, no \"in\"."
+      }
+    },
+    {
+      "id": "cm_u03_l32_2",
+      "incorrect": "My meeting is on 3:30 PM.",
+      "correct": "My meeting is at 3:30 PM.",
+      "explanation": "Use \"at\" with specific clock times, not \"on\".",
+      "explanationsByLang": {
+        "hi": "घड़ी के निश्चित समय के साथ \"at\" का प्रयोग होता है।",
+        "es": "Usa \"at\" con horas exactas del reloj, no \"on\"."
+      }
+    },
+    {
+      "id": "cm_u03_l32_3",
+      "incorrect": "I want reschedule my booking.",
+      "correct": "I want to reschedule my booking.",
+      "explanation": "\"Want\" requires \"to + base verb\".",
+      "explanationsByLang": {
+        "hi": "\"Want\" के बाद \"to + क्रिया\" आता है।",
+        "es": "\"Want\" requiere \"to + verbo base\"."
+      }
+    },
+    {
+      "id": "cm_u03_l32_4",
+      "incorrect": "I'd like to book a table of four.",
+      "correct": "I'd like to book a table for four.",
+      "explanation": "Use preposition \"for\" when stating the number of guests: \"a table for four\".",
+      "explanationsByLang": {
+        "hi": "लोगों की संख्या बताते समय \"table for four\" कहें।",
+        "es": "Di \"table for four\" (mesa para cuatro) usando la preposición \"for\"."
+      }
+    },
+    {
+      "id": "cm_u03_l32_5",
+      "incorrect": "Do you have openings at the morning?",
+      "correct": "Do you have openings in the morning?",
+      "explanation": "Use \"in the morning\", \"in the afternoon\", but \"at night\".",
+      "explanationsByLang": {
+        "hi": "\"in the morning\" सही है, \"at the morning\" नहीं।",
+        "es": "Se dice \"in the morning / in the afternoon\", pero \"at night\"."
+      }
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d_u03_l32_1",
+      "title": "Booking a Dental Appointment",
+      "context": "Sarah calls the dental clinic to make an appointment.",
+      "characters": [
+        {
+          "name": "Receptionist",
+          "avatar": "👩‍⚕️",
+          "role": "Clinic Staff"
+        },
+        {
+          "name": "Sarah",
+          "avatar": "👩",
+          "role": "Patient"
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "Receptionist",
+          "text": "Good morning, Bright Smiles Dental. How can I help you today?",
+          "translationsByLang": {
+            "hi": "सुप्रभात, ब्राइट स्माइल्स डेंटल। आज मैं आपकी क्या मदद कर सकता हूँ?",
+            "es": "Buenos días, Clínica Dental Bright Smiles. ¿Cómo puedo ayudarle hoy?"
+          },
+          "audioText": "Good morning, Bright Smiles Dental. How can I help you today?",
+          "audioId": "en_a1_u03_l32_d1_l1"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Hello! I'd like to make an appointment for a dental check-up, please.",
+          "translationsByLang": {
+            "hi": "नमस्ते! मैं दांतों की जांच के लिए अपॉइंटमेंट लेना चाहूँगी।",
+            "es": "¡Hola! Me gustaría pedir una cita para una revisión dental, por favor."
+          },
+          "audioText": "Hello! I would like to make an appointment for a dental check-up, please.",
+          "audioId": "en_a1_u03_l32_d1_l2"
+        },
+        {
+          "speaker": "Receptionist",
+          "text": "Certainly. Do you prefer mornings or afternoons?",
+          "translationsByLang": {
+            "hi": "बिल्कुल। क्या आप सुबह का समय पसंद करेंगी या दोपहर का?",
+            "es": "Por supuesto. ¿Prefiere por la mañana o por la tarde?"
+          },
+          "audioText": "Certainly. Do you prefer mornings or afternoons?",
+          "audioId": "en_a1_u03_l32_d1_l3"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Afternoons, please. Do you have any openings on Thursday after 3 PM?",
+          "translationsByLang": {
+            "hi": "दोपहर का, कृपया। क्या गुरुवार को दोपहर 3 बजे के बाद कोई खाली समय है?",
+            "es": "Por la tarde, por favor. ¿Tienen algún hueco el jueves después de las 3?"
+          },
+          "audioText": "Afternoons, please. Do you have any openings on Thursday after 3 PM?",
+          "audioId": "en_a1_u03_l32_d1_l4"
+        },
+        {
+          "speaker": "Receptionist",
+          "text": "Yes, we have an opening at 4:15 PM on Thursday with Dr. Evans. Does that work?",
+          "translationsByLang": {
+            "hi": "हाँ, गुरुवार को शाम 4:15 बजे डॉ. इवांस के साथ समय खाली है। क्या यह ठीक रहेगा?",
+            "es": "Sí, tenemos un hueco a las 4:15 de la tarde el jueves con el Dr. Evans. ¿Le viene bien?"
+          },
+          "audioText": "Yes, we have an opening at 4:15 PM on Thursday with Dr. Evans. Does that work?",
+          "audioId": "en_a1_u03_l32_d1_l5"
+        },
+        {
+          "speaker": "Sarah",
+          "text": "Yes, 4:15 PM is perfect. My name is Sarah Miller.",
+          "translationsByLang": {
+            "hi": "हाँ, 4:15 बजे बिल्कुल सही है। मेरा नाम सारा मिलर है।",
+            "es": "Sí, a las 4:15 es perfecto. Mi nombre es Sarah Miller."
+          },
+          "audioText": "Yes, 4:15 PM is perfect. My name is Sarah Miller.",
+          "audioId": "en_a1_u03_l32_d1_l6"
+        }
+      ]
+    },
+    {
+      "id": "d_u03_l32_2",
+      "title": "Rescheduling a Restaurant Reservation",
+      "context": "David calls an Italian restaurant to change his reservation time.",
+      "characters": [
+        {
+          "name": "Host",
+          "avatar": "👨‍🍳",
+          "role": "Restaurant Host"
+        },
+        {
+          "name": "David",
+          "avatar": "👨",
+          "role": "Customer"
+        }
+      ],
+      "lines": [
+        {
+          "speaker": "Host",
+          "text": "Good evening, Bella Roma Restaurant. How may I assist you?",
+          "translationsByLang": {
+            "hi": "शुभ संध्या, बेला रोमा रेस्तरां। मैं आपकी क्या मदद कर सकता हूँ?",
+            "es": "Buenas noches, Restaurante Bella Roma. ¿En qué puedo servirle?"
+          },
+          "audioText": "Good evening, Bella Roma Restaurant. How may I assist you?",
+          "audioId": "en_a1_u03_l32_d2_l1"
+        },
+        {
+          "speaker": "David",
+          "text": "Hi, I have a reservation for a party of four under the name David tonight at 7 PM.",
+          "translationsByLang": {
+            "hi": "नमस्ते, आज रात 7 बजे डेविड नाम से चार लोगों के लिए मेरी बुकिंग है।",
+            "es": "Hola, tengo una reserva para cuatro personas a nombre de David hoy a las 7 de la tarde."
+          },
+          "audioText": "Hi, I have a reservation for a party of four under the name David tonight at 7 PM.",
+          "audioId": "en_a1_u03_l32_d2_l2"
+        },
+        {
+          "speaker": "David",
+          "text": "Could we please reschedule it to 8:30 PM instead?",
+          "translationsByLang": {
+            "hi": "क्या हम इसे बदलकर रात 8:30 बजे कर सकते हैं?",
+            "es": "¿Podríamos cambiarla para las 8:30 en su lugar?"
+          },
+          "audioText": "Could we please reschedule it to 8:30 PM instead?",
+          "audioId": "en_a1_u03_l32_d2_l3"
+        },
+        {
+          "speaker": "Host",
+          "text": "Let me check... Yes, we have a table for four at 8:30 PM. I have updated your booking.",
+          "translationsByLang": {
+            "hi": "मुझे देखने दीजिए... हाँ, रात 8:30 बजे चार लोगों के लिए टेबल उपलब्ध है। मैंने आपकी बुकिंग अपडेट कर दी है।",
+            "es": "Déjeme revisar... Sí, tenemos una mesa para cuatro a las 8:30. He actualizado su reserva."
+          },
+          "audioText": "Let me check... Yes, we have a table for four at 8:30 PM. I have updated your booking.",
+          "audioId": "en_a1_u03_l32_d2_l4"
+        },
+        {
+          "speaker": "David",
+          "text": "Thank you so much for your help! See you at eight thirty.",
+          "translationsByLang": {
+            "hi": "आपकी मदद के लिए बहुत-बहुत धन्यवाद! साढ़े आठ बजे मिलते हैं।",
+            "es": "¡Muchísimas gracias por su ayuda! Nos vemos a las ocho y media."
+          },
+          "audioText": "Thank you so much for your help! See you at eight thirty.",
+          "audioId": "en_a1_u03_l32_d2_l5"
+        }
+      ]
+    }
+  ],
+  "practiceExercises": [
+    {
+      "id": "ex_u03_l32_p1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct preposition to complete the sentence:",
+      "targetSentence": "My doctor appointment is on Tuesday morning at 10 AM.",
+      "options": [
+        {
+          "id": "1",
+          "text": "on / at",
+          "isCorrect": true
+        },
+        {
+          "id": "2",
+          "text": "in / on",
+          "isCorrect": false
+        },
+        {
+          "id": "3",
+          "text": "at / in",
+          "isCorrect": false
+        },
+        {
+          "id": "4",
+          "text": "to / for",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "ex_u03_l32_p2",
+      "type": "fill_blank",
+      "prompt": "Fill in the blank with the correct booking phrase:",
+      "targetSentence": "I would like to book a table for four tonight.",
+      "options": [
+        {
+          "id": "1",
+          "text": "for",
+          "isCorrect": true
+        },
+        {
+          "id": "2",
+          "text": "of",
+          "isCorrect": false
+        },
+        {
+          "id": "3",
+          "text": "with",
+          "isCorrect": false
+        },
+        {
+          "id": "4",
+          "text": "from",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "ex_u03_l32_p3",
+      "type": "word_ordering",
+      "prompt": "Assemble the polite inquiry sentence:",
+      "targetSentence": "What times are available on Friday afternoon",
+      "wordBank": [
+        "What",
+        "times",
+        "are",
+        "available",
+        "on",
+        "Friday",
+        "afternoon",
+        "is",
+        "at"
+      ]
+    },
+    {
+      "id": "ex_u03_l32_p4",
+      "type": "listening",
+      "prompt": "Listen to the audio and identify the confirmed time:",
+      "audioText": "Your appointment is confirmed for Thursday at two thirty in the afternoon.",
+      "options": [
+        {
+          "id": "1",
+          "text": "Thursday at 2:30 PM",
+          "isCorrect": true
+        },
+        {
+          "id": "2",
+          "text": "Tuesday at 2:30 AM",
+          "isCorrect": false
+        },
+        {
+          "id": "3",
+          "text": "Thursday at 3:20 PM",
+          "isCorrect": false
+        },
+        {
+          "id": "4",
+          "text": "Friday at 2:30 PM",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "ex_u03_l32_p5",
+      "type": "error_correction",
+      "prompt": "Correct the preposition error:",
+      "targetSentence": "I have a meeting at three o'clock.",
+      "errorSentence": "I have a meeting on three o'clock.",
+      "options": [
+        {
+          "id": "1",
+          "text": "I have a meeting at three o'clock.",
+          "isCorrect": true
+        },
+        {
+          "id": "2",
+          "text": "I have a meeting in three o'clock.",
+          "isCorrect": false
+        },
+        {
+          "id": "3",
+          "text": "I have a meeting to three o'clock.",
+          "isCorrect": false
+        },
+        {
+          "id": "4",
+          "text": "I have a meeting of three o'clock.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "ex_u03_l32_p6",
+      "type": "dialogue_completion",
+      "prompt": "Select the best response to confirm a reservation:",
+      "dialogueContext": {
+        "speakerA": "Receptionist",
+        "lineA": "We have a free slot at 10 AM on Monday. Does that work for you?",
+        "speakerB": "Customer"
+      },
+      "options": [
+        {
+          "id": "1",
+          "text": "Yes, 10 AM on Monday is perfect, thank you!",
+          "isCorrect": true
+        },
+        {
+          "id": "2",
+          "text": "I am book for doctor.",
+          "isCorrect": false
+        },
+        {
+          "id": "3",
+          "text": "No have appointments.",
+          "isCorrect": false
+        },
+        {
+          "id": "4",
+          "text": "Please reschedule me yesterday.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "ex_u03_l32_p7",
+      "type": "translation",
+      "prompt": "Translate this booking request into English:",
+      "sourceSentence": "मैं डॉक्टर के साथ एक अपॉइंटमेंट बुक करना चाहता हूँ।",
+      "sourceTranslations": {
+        "hi": "मैं डॉक्टर के साथ एक अपॉइंटमेंट बुक करना चाहता हूँ।",
+        "es": "Me gustaría reservar una cita con el médico."
+      },
+      "targetSentence": "I would like to book an appointment with the doctor",
+      "wordBank": [
+        "I",
+        "would",
+        "like",
+        "to",
+        "book",
+        "an",
+        "appointment",
+        "with",
+        "the",
+        "doctor",
+        "am",
+        "of"
+      ]
+    },
+    {
+      "id": "ex_u03_l32_p8",
+      "type": "speaking",
+      "prompt": "Speak this polite rescheduling request clearly:",
+      "targetSentence": "Could I please reschedule my appointment to Friday?",
+      "audioText": "Could I please reschedule my appointment to Friday?"
+    },
+    {
+      "id": "ex_u03_l32_p9",
+      "type": "listen_and_type",
+      "prompt": "Listen to the audio and assemble the sentence:",
+      "audioText": "Please confirm your full name and phone number.",
+      "targetSentence": "Please confirm your full name and phone number",
+      "wordBank": [
+        "Please",
+        "confirm",
+        "your",
+        "full",
+        "name",
+        "and",
+        "phone",
+        "number",
+        "give",
+        "call"
+      ]
+    },
+    {
+      "id": "ex_u03_l32_p10",
+      "type": "multiple_choice",
+      "prompt": "Which phrase is most natural when moving a reservation time?",
+      "targetSentence": "Could we move our reservation to 8 PM instead?",
+      "options": [
+        {
+          "id": "1",
+          "text": "Could we move our reservation to 8 PM instead?",
+          "isCorrect": true
+        },
+        {
+          "id": "2",
+          "text": "Can we change time yesterday?",
+          "isCorrect": false
+        },
+        {
+          "id": "3",
+          "text": "I want move table on eight.",
+          "isCorrect": false
+        },
+        {
+          "id": "4",
+          "text": "Please delete my time now.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "ex_u03_l32_p11",
+      "type": "fill_blank",
+      "prompt": "Choose the correct word for checking schedules:",
+      "targetSentence": "Let me check the calendar for available openings.",
+      "options": [
+        {
+          "id": "1",
+          "text": "check",
+          "isCorrect": true
+        },
+        {
+          "id": "2",
+          "text": "checking",
+          "isCorrect": false
+        },
+        {
+          "id": "3",
+          "text": "checked",
+          "isCorrect": false
+        },
+        {
+          "id": "4",
+          "text": "to check",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "ex_u03_l32_p12",
+      "type": "match_pairs",
+      "prompt": "Match the terms with their definitions:",
+      "options": [
+        {
+          "id": "m1",
+          "text": "Reschedule"
+        },
+        {
+          "id": "m1_m",
+          "text": "Change date or time"
+        },
+        {
+          "id": "m2",
+          "text": "Cancel"
+        },
+        {
+          "id": "m2_m",
+          "text": "Call off booking"
+        },
+        {
+          "id": "m3",
+          "text": "Confirm"
+        },
+        {
+          "id": "m3_m",
+          "text": "Make final and definite"
+        },
+        {
+          "id": "m4",
+          "text": "Available"
+        },
+        {
+          "id": "m4_m",
+          "text": "Free and open"
+        }
+      ]
+    },
+    {
+      "id": "ex_u03_l32_p13",
+      "type": "word_ordering",
+      "prompt": "Assemble the final confirmation sentence:",
+      "targetSentence": "You are all set for Thursday afternoon",
+      "wordBank": [
+        "You",
+        "are",
+        "all",
+        "set",
+        "for",
+        "Thursday",
+        "afternoon",
+        "is",
+        "on"
+      ]
+    },
+    {
+      "id": "ex_u03_l32_p14",
+      "type": "multiple_choice",
+      "prompt": "What does \"party of five\" mean in a restaurant reservation?",
+      "targetSentence": "A table reserved for five people.",
+      "options": [
+        {
+          "id": "1",
+          "text": "A table reserved for five people.",
+          "isCorrect": true
+        },
+        {
+          "id": "2",
+          "text": "Five different parties at 5 PM.",
+          "isCorrect": false
+        },
+        {
+          "id": "3",
+          "text": "A party ending at 5 o'clock.",
+          "isCorrect": false
+        },
+        {
+          "id": "4",
+          "text": "A discount of five dollars.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "ex_u03_l32_p15",
+      "type": "fill_blank",
+      "prompt": "Select the correct preposition for morning/afternoon:",
+      "targetSentence": "Dr. Patel has consultations in the afternoon.",
+      "options": [
+        {
+          "id": "1",
+          "text": "in",
+          "isCorrect": true
+        },
+        {
+          "id": "2",
+          "text": "at",
+          "isCorrect": false
+        },
+        {
+          "id": "3",
+          "text": "on",
+          "isCorrect": false
+        },
+        {
+          "id": "4",
+          "text": "to",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "reviewExercises": [
+    {
+      "id": "ex_u03_l32_rev1",
+      "type": "multiple_choice",
+      "prompt": "Select the grammatically correct sentence:",
+      "targetSentence": "I would like to make an appointment on Wednesday at 2 PM.",
+      "options": [
+        {
+          "id": "1",
+          "text": "I would like to make an appointment on Wednesday at 2 PM.",
+          "isCorrect": true
+        },
+        {
+          "id": "2",
+          "text": "I would like making appointment in Wednesday on 2 PM.",
+          "isCorrect": false
+        },
+        {
+          "id": "3",
+          "text": "I like make an appointment at Wednesday in 2 PM.",
+          "isCorrect": false
+        },
+        {
+          "id": "4",
+          "text": "I would make appointment to Wednesday on 2 PM.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "ex_u03_l32_rev2",
+      "type": "word_ordering",
+      "prompt": "Build the polite availability inquiry:",
+      "targetSentence": "Do you have any openings this coming Friday",
+      "wordBank": [
+        "Do",
+        "you",
+        "have",
+        "any",
+        "openings",
+        "this",
+        "coming",
+        "Friday",
+        "are",
+        "on"
+      ]
+    },
+    {
+      "id": "ex_u03_l32_rev3",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence with the appropriate preposition:",
+      "targetSentence": "Our dinner reservation is at eight o'clock sharp.",
+      "options": [
+        {
+          "id": "1",
+          "text": "at",
+          "isCorrect": true
+        },
+        {
+          "id": "2",
+          "text": "on",
+          "isCorrect": false
+        },
+        {
+          "id": "3",
+          "text": "in",
+          "isCorrect": false
+        },
+        {
+          "id": "4",
+          "text": "for",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "ex_u03_l32_rev4",
+      "type": "error_correction",
+      "prompt": "Correct the error:",
+      "targetSentence": "Could I reschedule my dental appointment for next week?",
+      "errorSentence": "Could I to reschedule my dental appointment for next week?",
+      "options": [
+        {
+          "id": "1",
+          "text": "Could I reschedule my dental appointment for next week?",
+          "isCorrect": true
+        },
+        {
+          "id": "2",
+          "text": "Could I rescheduling my appointment for next week?",
+          "isCorrect": false
+        },
+        {
+          "id": "3",
+          "text": "Could I rescheduled my appointment for next week?",
+          "isCorrect": false
+        },
+        {
+          "id": "4",
+          "text": "Can I to reschedule appointment next week?",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "ex_u03_l32_rev5",
+      "type": "translation",
+      "prompt": "Translate into English:",
+      "sourceSentence": "क्या बुधवार दोपहर 3 बजे का समय आपके लिए सुविधाजनक है?",
+      "sourceTranslations": {
+        "hi": "क्या बुधवार दोपहर 3 बजे का समय आपके लिए सुविधाजनक है?",
+        "es": "¿El miércoles a las 3 de la tarde es conveniente para usted?"
+      },
+      "targetSentence": "Is Wednesday at three in the afternoon convenient for you",
+      "wordBank": [
+        "Is",
+        "Wednesday",
+        "at",
+        "three",
+        "in",
+        "the",
+        "afternoon",
+        "convenient",
+        "for",
+        "you",
+        "on",
+        "are"
+      ]
+    }
+  ],
+  "assessmentExercises": [
+    {
+      "id": "ex_u03_l32_a1",
+      "type": "multiple_choice",
+      "prompt": "Which preposition correctly completes: \"The seminar starts ___ 9:00 AM ___ Monday\"?",
+      "targetSentence": "at / on",
+      "options": [
+        {
+          "id": "1",
+          "text": "at / on",
+          "isCorrect": true
+        },
+        {
+          "id": "2",
+          "text": "on / in",
+          "isCorrect": false
+        },
+        {
+          "id": "3",
+          "text": "in / at",
+          "isCorrect": false
+        },
+        {
+          "id": "4",
+          "text": "at / in",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "ex_u03_l32_a2",
+      "type": "fill_blank",
+      "prompt": "Fill in the blank to complete the polite phone request:",
+      "targetSentence": "Could I please speak with the receptionist about my schedule?",
+      "options": [
+        {
+          "id": "1",
+          "text": "speak",
+          "isCorrect": true
+        },
+        {
+          "id": "2",
+          "text": "to speak",
+          "isCorrect": false
+        },
+        {
+          "id": "3",
+          "text": "speaking",
+          "isCorrect": false
+        },
+        {
+          "id": "4",
+          "text": "spoke",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "ex_u03_l32_a3",
+      "type": "word_ordering",
+      "prompt": "Assemble the reservation confirmation phrase:",
+      "targetSentence": "I have updated your reservation for four guests tonight",
+      "wordBank": [
+        "I",
+        "have",
+        "updated",
+        "your",
+        "reservation",
+        "for",
+        "four",
+        "guests",
+        "tonight",
+        "of",
+        "at"
+      ]
+    },
+    {
+      "id": "ex_u03_l32_a4",
+      "type": "listening",
+      "prompt": "Listen to the clinic receptionist and choose the correct statement:",
+      "audioText": "The doctor is fully booked today, but we have a free consultation tomorrow morning at nine.",
+      "options": [
+        {
+          "id": "1",
+          "text": "An appointment is available tomorrow at 9 AM",
+          "isCorrect": true
+        },
+        {
+          "id": "2",
+          "text": "The doctor can see the patient today at 9 PM",
+          "isCorrect": false
+        },
+        {
+          "id": "3",
+          "text": "The clinic is closed tomorrow",
+          "isCorrect": false
+        },
+        {
+          "id": "4",
+          "text": "The consultation is only available next week",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "ex_u03_l32_a5",
+      "type": "speaking",
+      "prompt": "Speak this booking statement clearly into your microphone:",
+      "targetSentence": "I would like to book a table for two at seven thirty this evening.",
+      "audioText": "I would like to book a table for two at seven thirty this evening."
+    }
+  ]
+};

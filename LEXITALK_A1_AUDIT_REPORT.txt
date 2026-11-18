@@ -1,0 +1,133 @@
+# LEXITALK 60-DAY CURRICULUM AUDIT REPORT
+
+---
+
+## A. Files Inspected
+
+1. **Curriculum Source & Data Packs:**
+   - DAYS_01_10_CONTENT.json
+   - DAYS_11_20_CONTENT.json
+   - DAYS_21_30_CONTENT.json
+   - DAYS_31_40_CONTENT.json
+   - DAYS_41_50_CONTENT.json
+   - DAYS_51_60_CONTENT.json
+   - content_builder/day01.js through content_builder/day60.js
+   - content_builder/compile_pack.js
+   - content_builder/compile_days11_20.js
+   - content_builder/compile_days21_30.js
+   - DAYS_01_10_CONTENT.backup.json, DAYS_11_20_CONTENT.backup.json, DAYS_21_30_CONTENT.original.backup.json, DAYS_31_40_CONTENT.original.backup.json
+
+2. **Application Loaders & Service Architecture:**
+   - src/data/curriculumRegistry.ts
+   - src/services/CurriculumService.ts
+   - src/services/LessonService.ts
+   - src/services/LessonFactoryService.ts
+   - src/services/MasterCurriculumService.ts
+
+---
+
+## B. Root Causes Found
+
+1. **Duplicate Example Cards Origin:**
+   - **JSON / JS Source Data (Primary):** Generation scripts in content_builder/ appended identical exemplar blocks up to 15 times per day to meet array size targets (e.g. 100 exemplars per day).
+   - **Loader Function (Mitigation):** curriculumRegistry.ts contains a runtime seenExamples = new Set() filter inside normalizeDayLesson(). However, any view or builder directly accessing raw JSON or bypass methods bypasses this deduplication and renders identical duplicate cards on screen.
+
+2. **Missing Scenarios / Dialogue Turns Origin:**
+   - **JSON / JS Source Data:** Days 11–20 and Days 31–40 in content_builder/ are missing the dialogues / dialogue object inside the use block (0 scenarios and 0 turns present in raw data).
+   - **Fallback Logic (Synthetic Generation):** curriculumRegistry.ts (lines 354–368) contains a fallback that synthesizes a fake 2-turn dialogue using examples[0] and examples[1] when rawTurns.length === 0.
+
+3. **Practice Integrity & Missing Answer Keys Origin:**
+   - **Source Data:**
+     - Days 41–50 practice arrays are missing correctAnswer or targetText fields on all 95 exercise items per day.
+     - Days 24–29 are missing correctAnswer keys on 20 translation items per day.
+     - Days 2–10 contain high prompt duplication (up to 60 repeated prompts per day) due to looped exercise generation in content_builder/.
+
+4. **JSON File Syntax / Encoding Issues:**
+   - The root JSON content packs (DAYS_01_10_CONTENT.json through DAYS_51_60_CONTENT.json) contain unescaped control characters (newlines/tabs) and binary artifacts inside Hindi text strings, causing standard JSON.parse to fail unless sanitized or loaded via JavaScript modules.
+
+---
+
+## C. Duplicate Counts by Day (Example Cards)
+
+* **Day 2:** 100 total examples | 8 unique duplicated sentences | **92 extra duplicate cards** (Repeated up to 15x each)
+* **Day 3:** 100 total examples | 8 unique duplicated sentences | **92 extra duplicate cards** (Repeated up to 15x each)
+* **Day 4:** 100 total examples | 8 unique duplicated sentences | **92 extra duplicate cards** (Repeated up to 15x each)
+* **Day 5:** 100 total examples | 8 unique duplicated sentences | **92 extra duplicate cards** (Repeated up to 15x each)
+* **Day 11:** 100 total examples | 1 unique duplicated sentence | **5 extra duplicate cards**
+* **Day 12:** 100 total examples | 2 unique duplicated sentences | **10 extra duplicate cards**
+* **Day 13:** 100 total examples | 2 unique duplicated sentences | **10 extra duplicate cards**
+* **Day 15:** 100 total examples | 6 unique duplicated sentences | **30 extra duplicate cards**
+* **Day 16:** 100 total examples | 2 unique duplicated sentences | **10 extra duplicate cards**
+* **Day 18:** 100 total examples | 3 unique duplicated sentences | **15 extra duplicate cards**
+* **Day 19:** 100 total examples | 2 unique duplicated sentences | **10 extra duplicate cards**
+* **Day 20:** 100 total examples | 2 unique duplicated sentences | **10 extra duplicate cards**
+* **Day 30:** 100 total examples | 2 unique duplicated sentences | **10 extra duplicate cards**
+
+> **Total Extra Duplicate Example Cards Found:** 478 cards across 13 days.
+
+---
+
+## D. Missing Scenarios by Day
+
+* **Days 11 through 20 (Stage 2):**
+  - **Expected Scenarios:** 1+ scenario per day (6–12 conversational turns)
+  - **Loaded from Source:** 0 scenarios, 0 turns
+  - **Runtime Behavior:** Falls back to synthetic 2-turn dialogue built from examples[0] and examples[1].
+
+* **Days 31 through 40 (Stage 4):**
+  - **Expected Scenarios:** 1+ scenario per day (6–12 conversational turns)
+  - **Loaded from Source:** 0 scenarios, 0 turns
+  - **Runtime Behavior:** Falls back to synthetic 2-turn dialogue built from examples[0] and examples[1].
+
+> **Total Days Missing Native Dialogues:** 20 Days (Days 11–20 and Days 31–40).
+
+---
+
+## E. Assessment Placeholder Locations
+
+* **Source JSON/JS Items:** No raw strings containing "Question #1", "TODO", "Placeholder", or "Coming Soon" were found in the assess arrays of the source files.
+* **Runtime Fallback Location:** In src/data/curriculumRegistry.ts (lines 440–448), if rawAssessList is empty or missing detailed question objects, the normalizer dynamically injects placeholder strings:
+  - "Exit Competency #1: [Objective Text]"
+  - "Day [N] Core Competency #[Idx]"
+
+---
+
+## F. Translation Issues Found
+
+* **Vocabulary Items:** 0 missing Hindi translations.
+* **Pragmatic Phrases:** 0 missing Hindi translations.
+* **Example Sentences:** 0 missing Hindi translations.
+* **Dialogue Turns:** 0 missing Hindi translations.
+
+> **Status:** All existing English entries across all 60 days have matching Hindi translations (meaningHi, exampleHi, textHi).
+
+---
+
+## G. Practice Issues Found
+
+1. **Missing Answer Keys (correctAnswer / targetText):**
+   - **Days 24–29:** 20 translation items per day have missing correctAnswer keys.
+   - **Days 41–50:** All 95 practice items per day have missing correctAnswer keys (950 items total across Stage 5).
+   - **Days 51–58:** 2 items per day have missing correctAnswer keys.
+
+2. **Duplicated Prompts (Loop Generation):**
+   - **Days 2–5:** 19 duplicated prompts per day.
+   - **Days 6–10:** 52 to 60 duplicated prompts per day.
+   - **Days 24–29:** 19 duplicated prompts per day.
+
+---
+
+## H. Recommended Files to Modify (Pending Your Approval)
+
+To fix these issues cleanly without regenerating curriculum or modifying UI/architecture:
+
+1. **src/data/curriculumRegistry.ts**:
+   - Enhance normalizeDayLesson() to enforce deduplication on all practice prompts and examples.
+   - Provide proper correctAnswer fallbacks where missing in Stage 5 practice sets.
+   - Ensure dialogue normalizer safely surfaces complete scenarios without falling back to 2-turn example pairs when fuller dialogues exist.
+
+2. **content_builder/day02.js through day05.js, day11.js through day20.js, day30.js**:
+   - Remove duplicate example objects from the arrays while preserving unique exemplar content.
+
+3. **content_builder/compile_pack.js (and Stage compiler scripts)**:
+   - Ensure proper string escaping (JSON.stringify) to eliminate unescaped control characters in generated JSON files.

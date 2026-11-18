@@ -1,0 +1,330 @@
+// scripts/stage5_vocabulary_data.js
+import { fullStage5Vocab } from './expand_stage5_full_vocab.js';
+
+function createVocabList(day, domain, items) {
+  // Merge items with additional fullStage5Vocab if available
+  const extendedItems = fullStage5Vocab[day] ? [...items, ...fullStage5Vocab[day]] : items;
+  
+  // Deduplicate by lemma
+  const seen = new Set();
+  const deduped = [];
+  for (const it of extendedItems) {
+    const key = it.lemma.toLowerCase().trim();
+    if (!seen.has(key)) {
+      seen.add(key);
+      deduped.push(it);
+    }
+  }
+
+  return deduped.map((item, idx) => ({
+    lemma: item.lemma,
+    wordForm: item.wordForm || item.lemma,
+    pos: item.pos || "noun",
+    ipa: item.ipa || "/wɜːd/",
+    devanagari: item.dev || item.lemma,
+    syllables: item.syllables || `${item.lemma} (2)`,
+    stress: item.stress || "1st Syllable",
+    hindiMeaning: item.hi,
+    register: item.reg || domain,
+    collocations: item.colloc || [`standard ${item.lemma}`, `applied ${item.lemma}`],
+    relatedForms: item.rel || [],
+    exampleSentenceEn: item.en || `The ${item.lemma} is an important concept in ${domain.toLowerCase()}.`,
+    exampleSentenceHi: item.hiEx || `${item.hi} इस संदर्भ में अत्यंत महत्वपूर्ण है।`,
+    commonMistake: item.mistake || `Pay close attention to the pronunciation and standard usage of '${item.lemma}'.`,
+    recyclingTag: `Day ${day} ${domain}`
+  }));
+}
+
+export const stage5VocabProfiles = {
+  // Day 41: House, Architecture & Living Space Descriptors (60 items)
+  41: createVocabList(41, "Architecture", [
+    { lemma: "residence", ipa: "/ˈrez.ɪ.dəns/", dev: "रेज़िडन्स", hi: "निवास स्थान / आवास", en: "The governor maintains an official residence in the capital.", hiEx: "राज्यपाल राजधानी में एक आधिकारिक निवास रखते हैं।" },
+    { lemma: "duplex", ipa: "/ˈdjuː.pleks/", dev: "ड्यूप्लेक्स", hi: "दो मंजिला फ्लैट", en: "They purchased a sunlit duplex overlooking the park.", hiEx: "उन्होंने पार्क की ओर देखने वाला एक धूपदार डुप्लेक्स खरीदा।" },
+    { lemma: "penthouse", ipa: "/ˈpent.haʊs/", dev: "पेन्टहाउस", hi: "सबसे ऊपरी मंजिल का भव्य फ्लैट", en: "The rooftop penthouse offers panoramic skyline views.", hiEx: "पेंटहाउस शहर के क्षितिज का विहंगम दृश्य प्रस्तुत करता है।" },
+    { lemma: "studio apartment", ipa: "/ˈstjuː.di.əʊ əˈpɑːt.mənt/", dev: "स्टूडियो अपार्टमेन्ट", hi: "एक कमरे वाला खुला फ्लैट", en: "A studio apartment is ideal for young working professionals.", hiEx: "स्टूडियो अपार्टमेंट युवा कामकाजी पेशेवरों के लिए आदर्श है।" },
+    { lemma: "amenities", ipa: "/əˈmiː.nə.tiz/", dev: "अमीनिटीज़", hi: "सुख-सुविधाएं", en: "The society charges maintenance fees for shared amenities.", hiEx: "सोसाइटी साझा सुविधाओं के लिए रखरखाव शुल्क लेती है।" },
+    { lemma: "tenant", ipa: "/ˈten.ənt/", dev: "टेनन्ट", hi: "किरायेदार", en: "The tenant signed a twelve-month rental agreement.", hiEx: "किरायेदार ने बारह महीने के किराये के अनुबंध पर हस्ताक्षर किए।" },
+    { lemma: "landlord", ipa: "/ˈlænd.lɔːd/", dev: "लैण्डलॉर्ड", hi: "मकान मालिक", en: "The landlord agreed to repaint the living room walls.", hiEx: "मकान मालिक बैठक की दीवारों को रंगने पर सहमत हो गए।" },
+    { lemma: "lease", ipa: "/liːs/", dev: "लीस", hi: "पट्टा / किराया अनुबंध", en: "We negotiated a renewal clause in the lease.", hiEx: "हमने पट्टे में नवीनीकरण की एक शर्त तय की।" },
+    { lemma: "balcony", ipa: "/ˈbæl.kə.ni/", dev: "बाल्कनी", hi: "छज्जा / बालकनी", en: "We placed potted plants along the balcony railing.", hiEx: "हमने बालकनी की रेलिंग पर गमले रखे।" },
+    { lemma: "foyer", ipa: "/ˈfɔɪ.eɪ/", dev: "फ़ॉए", hi: "प्रवेश कक्ष / ड्योढ़ी", en: "Guests leave coats in the entrance foyer.", hiEx: "मेहमान प्रवेश कक्ष में कोट छोड़ते हैं।" },
+    { lemma: "corridor", ipa: "/ˈkɒr.ɪ.dɔːr/", dev: "कॉरिडॉर", hi: "गलियारा", en: "Motion-sensor lights illuminate the long corridor.", hiEx: "मोशन सेंसर लाइटें लंबे गलियारे को रोशन करती हैं।" },
+    { lemma: "hallway", ipa: "/ˈhɔːl.weɪ/", dev: "हॉलवे", hi: "आंतरिक गलियारा", en: "Portraits hang along the upstairs hallway.", hiEx: "ऊपर के गलियारे में चित्र टंगे हैं।" },
+    { lemma: "ventilation", ipa: "/ˌven.tɪˈleɪ.ʃən/", dev: "वेन्टिलेशन", hi: "हवा की आवाजाही", en: "Cross ventilation keeps the apartment cool in summer.", hiEx: "क्रॉस वेंटिलेशन से गर्मियों में फ्लैट ठंडा रहता है।" },
+    { lemma: "renovation", ipa: "/ˌren.əˈveɪ.ʃən/", dev: "रेनोवेशन", hi: "नवीनीकरण", en: "The colonial bungalow underwent a full renovation.", hiEx: "बंगले का पूर्ण नवीनीकरण किया गया।" },
+    { lemma: "furnishing", ipa: "/ˈfɜː.nɪ.ʃɪŋ/", dev: "फ़र्निशिंग", hi: "फर्नीचर एवं सजावटी सामान", en: "The rent includes all modern furnishings.", hiEx: "किराये में आधुनिक साज-सज्जा शामिल है।" },
+    { lemma: "mortgage", ipa: "/ˈmɔː.ɡɪdʒ/", dev: "मॉर्गेज", hi: "गृह ऋण / बंधक", en: "They applied for a 20-year fixed-rate mortgage.", hiEx: "उन्होंने 20 साल के फिक्स्ड-रेट होम लोन के लिए आवेदन किया।" },
+    { lemma: "suburb", ipa: "/ˈsʌb.ɜːb/", dev: "सबर्ब", hi: "उपनगर / बाहरी आवासीय क्षेत्र", en: "Many families relocate to peaceful suburbs.", hiEx: "कई परिवार शांत उपनगरों में बस जाते हैं।" },
+    { lemma: "basement", ipa: "/ˈbeɪs.mənt/", dev: "बेसमन्ट", hi: "तहखाना / भूमिगत मंजिल", en: "The basement provides covered resident parking.", hiEx: "तहखाना सुरक्षित पार्किंग प्रदान करता है।" },
+    { lemma: "attic", ipa: "/ˈæt.ɪk/", dev: "ऐटिक", hi: "अटारी", en: "She converted the attic into an art studio.", hiEx: "उसने अटारी को कला स्टूडियो में बदल दिया।" },
+    { lemma: "plumbing", ipa: "/ˈplʌm.ɪŋ/", dev: "प्लम्बिंग", hi: "नल-पाइप प्रणाली", en: "Inspect the plumbing before purchasing the house.", hiEx: "घर खरीदने से पहले नल-पाइप की जांच करें।" },
+    { lemma: "insulation", ipa: "/ˌɪn.sjəˈleɪ.ʃən/", dev: "इन्स्यूलेशन", hi: "ताप व ध्वनि रोधन", en: "Double-glazed windows provide thermal insulation.", hiEx: "डबल-ग्लेज़्ड खिड़कियां थर्मल इंसुलेशन प्रदान करती हैं।" },
+    { lemma: "terrace", ipa: "/ˈter.əs/", dev: "टेरेस", hi: "खुली छत", en: "We enjoy tea on the open rooftop terrace.", hiEx: "हम खुली छत पर चाय का आनंद लेते हैं।" },
+    { lemma: "veranda", ipa: "/vəˈræn.də/", dev: "वरैन्डा", hi: "बरामदा", en: "The villa features a wrap-around veranda.", hiEx: "विला में चारों ओर फैला बरामदा है।" },
+    { lemma: "patio", ipa: "/ˈpæt.i.əʊ/", dev: "पैटिओ", hi: "आंगन / पक्का बाहरी हिस्सा", en: "We set up barbecue furniture on the patio.", hiEx: "हमने आंगन में बारबेक्यू फर्नीचर लगाया।" },
+    { lemma: "square footage", ipa: "/ˌskweər ˈfʊt.ɪdʒ/", dev: "स्क्वेयर फुटेज", hi: "कुल क्षेत्रफल (वर्ग फुट में)", en: "The property has 1,500 square footage of living space.", hiEx: "संपत्ति में 1,500 वर्ग फुट का क्षेत्रफल है।" },
+    { lemma: "realtor", ipa: "/ˈrɪəl.tər/", dev: "रीअल्टर", hi: "संपत्ति दलाल / एजेंट", en: "Our realtor arranged viewings for five villas.", hiEx: "हमारे रियल्टर ने पांच विला देखने की व्यवस्था की।" },
+    { lemma: "occupancy", ipa: "/ˈɒk.jə.pən.si/", dev: "ऑक्यूपन्सी", hi: "कब्ज़ा / अधिभोग", en: "The builder received the occupancy certificate.", hiEx: "बिल्डर को अधिभोग प्रमाणपत्र प्राप्त हुआ।" },
+    { lemma: "fixtures", ipa: "/ˈfɪks.tʃəz/", dev: "फ़िक्सचर्स", hi: "स्थिर फिटिंग", en: "All lighting fixtures are included in the price.", hiEx: "सभी लाइट फिटिंग मूल्य में शामिल हैं।" },
+    { lemma: "gated community", ipa: "/ˌɡeɪ.tɪd kəˈmjuː.nə.ti/", dev: "गेटेड कम्युनिटी", hi: "चारदीवारी वाली आवासीय कॉलोनी", en: "Living in a gated community provides security.", hiEx: "गेटेड कम्युनिटी में रहने से सुरक्षा मिलती है।" },
+    { lemma: "utility bills", ipa: "/juːˈtɪl.ə.ti bɪlz/", dev: "यूटिलिटी बिल्स", hi: "बिजली-पानी के बिल", en: "Utility bills are paid on a monthly cycle.", hiEx: "यूटिलिटी बिल मासिक रूप से चुकाए जाते हैं।" },
+    { lemma: "security deposit", ipa: "/sɪˈkjʊə.rə.ti dɪˈpɒz.ɪt/", dev: "सिक्योरिटी डिपॉज़िट", hi: "सुरक्षा जमानत राशि", en: "The refundable security deposit was returned.", hiEx: "सुरक्षा जमानत राशि वापस कर दी गई।" },
+    { lemma: "eviction", ipa: "/ɪˈvɪk.ʃən/", dev: "इविक्शन", hi: "बेदखली", en: "The court issued an eviction notice for non-payment.", hiEx: "अदालत ने बेदखली का नोटिस जारी किया।" },
+    { lemma: "blueprint", ipa: "/ˈbluː.prɪnt/", dev: "ब्लूप्रिन्ट", hi: "वास्तुशिल्प नक्शा", en: "The engineer inspected the architectural blueprint.", hiEx: "इंजीनियर ने वास्तुशिल्प नक्शे का निरीक्षण किया।" },
+    { lemma: "spacious", pos: "adjective", ipa: "/ˈspeɪ.ʃəs/", dev: "स्पेशस", hi: "विशाल / खुला", en: "The living room is exceptionally spacious.", hiEx: "बैठक कक्ष असाधारण रूप से विशाल है।" },
+    { lemma: "cramped", pos: "adjective", ipa: "/kræmpt/", dev: "क्रैम्प्ट", hi: "तंग / संकीर्ण", en: "The temporary cabin felt cramped and dim.", hiEx: "अस्थायी केबिन तंग महसूस हुआ।" },
+    { lemma: "airy", pos: "adjective", ipa: "/ˈeə.ri/", dev: "एअरी", hi: "हवादार", en: "Tall windows give the room an airy ambience.", hiEx: "बड़ी खिड़कियां कमरे को हवादार बनाती हैं।" },
+    { lemma: "well-lit", pos: "adjective", ipa: "/ˌwel ˈlɪt/", dev: "वेल-लिट", hi: "उचित रोशनी वाला", en: "A well-lit staircase prevents accidents.", hiEx: "अच्छी रोशनी वाली सीढ़ी हादसों को रोकती है।" },
+    { lemma: "cluttered", pos: "adjective", ipa: "/ˈklʌt.əd/", dev: "क्लैटर्ड", hi: "अव्यवस्थित / सामान से भरा", en: "Clear the cluttered desk before working.", hiEx: "काम करने से पहले अव्यवस्थित मेज को साफ करें।" },
+    { lemma: "pristine", pos: "adjective", ipa: "/ˈprɪs.tiːn/", dev: "प्रिस्टीन", hi: "बेदाग / बिल्कुल नया", en: "The marble flooring is in pristine condition.", hiEx: "संगमरमर का फर्श बेदाग स्थिति में है।" },
+    { lemma: "dilapidated", pos: "adjective", ipa: "/dɪˈlæp.ɪ.deɪ.tɪd/", dev: "डिलैपिडेटिड", hi: "जर्जर / खस्ताहाल", en: "The dilapidated warehouse was demolished.", hiEx: "जर्जर गोदाम को गिरा दिया गया।" },
+    { lemma: "drainage", ipa: "/ˈdreɪ.nɪdʒ/", dev: "ड्रेनेज", hi: "जल निकासी", en: "Adequate drainage prevents monsoon flooding.", hiEx: "उचित जल निकासी मानसून में बाढ़ रोकती है।" },
+    { lemma: "skylight", ipa: "/ˈskaɪ.laɪt/", dev: "स्काईलाइट", hi: "छत की रोशनदान", en: "Sunshine streams through the roof skylight.", hiEx: "छत की स्काईलाइट से धूप आती है।" },
+    { lemma: "stairwell", ipa: "/ˈsteə.wel/", dev: "स्टेयरवेल", hi: "सीढ़ी का ढांचा", en: "Use the emergency stairwell during fire alarms.", hiEx: "आपात स्थिति में सीढ़ियों का उपयोग करें।" },
+    { lemma: "driveway", ipa: "/ˈdraɪv.weɪ/", dev: "ड्राइववे", hi: "गाड़ी का निजी रास्ता", en: "Cars parked in the stone-paved driveway.", hiEx: "गाड़ियाँ पत्थर के रास्ते पर पार्क की गईं।" },
+    { lemma: "masonry", ipa: "/ˈmeɪ.sən.ri/", dev: "मेसनरी", hi: "चिनाई कार्य", en: "Exposed brick masonry adds character.", hiEx: "ईंटों की चिनाई सुंदरता जोड़ती है।" },
+    { lemma: "inspected", pos: "verb", ipa: "/ɪnˈspek.tɪd/", dev: "इन्स्पेक्टिड", hi: "निरीक्षण किया", en: "The engineer inspected the foundation walls.", hiEx: "इंजीनियर ने दीवारों का निरीक्षण किया।" },
+    { lemma: "renovate", pos: "verb", ipa: "/ˈren.ə.veɪt/", dev: "रेनोवेट", hi: "नवीनीकरण करना", en: "They plan to renovate the modular kitchen.", hiEx: "वे किचन का नवीनीकरण करने की योजना बना रहे हैं।" },
+    { lemma: "refurbish", pos: "verb", ipa: "/ˌriːˈfɜː.bɪʃ/", dev: "रीफ़र्बिश", hi: "सजाना व चमकाना", en: "The hotel closed to refurbish guest rooms.", hiEx: "होटल कमरों को सजाने के लिए बंद रहा।" },
+    { lemma: "sublet", pos: "verb", ipa: "/ˌsʌbˈlet/", dev: "सबलेट", hi: "किराये पर आगे देना", en: "The agreement prohibits subletting.", hiEx: "अनुबंध सबलेट करने से रोकता है।" },
+    { lemma: "furnish", pos: "verb", ipa: "/ˈfɜː.nɪʃ/", dev: "फ़र्निश", hi: "सुसज्जित करना", en: "It took weeks to furnish the apartment.", hiEx: "फ्लैट को सजाने में कई हफ्ते लगे।" },
+    { lemma: "soundproof", pos: "adjective", ipa: "/ˈsaʊnd.pruːf/", dev: "साउन्डप्रूफ़", hi: "ध्वनि-रोधी", en: "The recording booth is completely soundproof.", hiEx: "रिकॉर्डिंग बूथ पूरी तरह से ध्वनि-रोधी है।" },
+    { lemma: "waterproof", pos: "adjective", ipa: "/ˈwɔː.tə.pruːf/", dev: "वॉटरप्रूफ़", hi: "जल-रोधी", en: "Apply waterproof coating on the terrace.", hiEx: "छत पर वॉटरप्रूफ कोटिंग लगाएं।" },
+    { lemma: "seepage", ipa: "/ˈsiː.pɪdʒ/", dev: "सीपेज", hi: "सीलन / रिसाव", en: "Address wall seepage before repainting.", hiEx: "रंगने से पहले दीवार की सीलन ठीक करें।" },
+    { lemma: "dampness", ipa: "/ˈdæmp.nəs/", dev: "डैम्पनस", hi: "नमी / गीलापन", en: "A dehumidifier removes basement dampness.", hiEx: "डीह्यूमिडिफ़ायर बेसमेंट की नमी हटाता है।" },
+    { lemma: "partition", ipa: "/pɑːˈtɪʃ.ən/", dev: "पार्टिशन", hi: "विभाजन पर्दा / दीवार", en: "A glass partition divides the study area.", hiEx: "कांच का विभाजन अध्ययन क्षेत्र को अलग करता है।" },
+    { lemma: "countertop", ipa: "/ˈkaʊn.tə.tɒp/", dev: "काउन्टर्टॉप", hi: "रसोई का स्लैब", en: "Granite countertops resist kitchen heat.", hiEx: "ग्रेनाइट स्लैब गर्मी सहन करते हैं।" },
+    { lemma: "cupboard", ipa: "/ˈkʌb.əd/", dev: "कबर्ड", hi: "अलमारी", en: "Store dry spices in the pantry cupboard.", hiEx: "मसालों को अलमारी में रखें।" },
+    { lemma: "wardrobe", ipa: "/ˈwɔː.drəʊb/", dev: "वॉर्डरोब", hi: "कपड़ों की अलमारी", en: "The walk-in wardrobe has built-in shelving.", hiEx: "वॉर्डरोब में इनबिल्ट शेल्फ हैं।" },
+    { lemma: "flooring", ipa: "/ˈflɔː.rɪŋ/", dev: "फ़्लोरिंग", hi: "फर्श सामग्री", en: "Wooden flooring creates a warm ambience.", hiEx: "लकड़ी का फर्श सुखद माहौल बनाता है।" },
+    { lemma: "ceiling", ipa: "/ˈsiː.lɪŋ/", dev: "सीलिंग", hi: "भीतरी छत", en: "The false ceiling hides ambient LED strips.", hiEx: "फॉल्स सीलिंग एलईडी लाइटों को छिपाती है।" },
+    { lemma: "facade", ipa: "/fəˈsɑːd/", dev: "फ़साद", hi: "इमारत का अग्रभाग", en: "The sandstone facade was beautifully restored.", hiEx: "बलुआ पत्थर का अग्रभाग खूबसूरती से बहाल किया गया।" },
+    { lemma: "chimney", ipa: "/ˈtʃɪm.ni/", dev: "चिम्नी", hi: "धुआँ निकालने का नल", en: "An electric chimney extracts cooking fumes.", hiEx: "इलेक्ट्रिक चिमनी खाना पकाने का धुआँ निकालती है।" }
+  ]),
+
+  // Day 42: Street Directions, City Transit & Commuting (60 items)
+  42: createVocabList(42, "Transit", [
+    { lemma: "roundabout", ipa: "/ˈraʊnd.ə.baʊt/", dev: "राउंडअबाउट", hi: "गोलचक्कर / ट्रैफिक सर्कल", en: "Take the second exit at the roundabout.", hiEx: "गोलचक्कर पर दूसरा निकास लें।" },
+    { lemma: "intersection", ipa: "/ˌɪn.təˈsek.ʃən/", dev: "इन्टरसेक्शन", hi: "चौराहा / मार्ग संगम", en: "Turn right at the busy traffic intersection.", hiEx: "व्यस्त चौराहे पर दाएं मुड़ें।" },
+    { lemma: "transit hub", ipa: "/ˈtræn.zɪt hʌb/", dev: "ट्रैन्ज़िट हब", hi: "परिवहन केंद्र", en: "The central station is a major transit hub.", hiEx: "सेंट्रल स्टेशन एक प्रमुख परिवहन केंद्र है।" },
+    { lemma: "commuter", ipa: "/kəˈmjuː.tər/", dev: "कम्यूटर", hi: "दैनिक यात्री", en: "Thousands of commuters board early morning trains.", hiEx: "हजारों दैनिक यात्री सुबह की ट्रेनों में सवार होते हैं।" },
+    { lemma: "pedestrian crossing", ipa: "/pəˈdes.tri.ən ˈkrɒs.ɪŋ/", dev: "पेडेस्ट्रियन क्रॉसिंग", hi: "पैदल पार पथ", en: "Vehicles must yield at the pedestrian crossing.", hiEx: "पैदल पार पथ पर वाहनों को रुकना चाहिए।" },
+    { lemma: "tramway", ipa: "/ˈtræm.weɪ/", dev: "ट्रैमवे", hi: "ट्राम की पटरी / मार्ग", en: "The historic city operates an electric tramway.", hiEx: "शहर एक इलेक्ट्रिक ट्रामवे संचालित करता है।" },
+    { lemma: "bottleneck", ipa: "/ˈbɒt.əl.nek/", dev: "बॉटलनेक", hi: "यातायात का संकरा रुकावट बिंदु", en: "The narrow bridge creates a severe traffic bottleneck.", hiEx: "संकरा पुल भारी ट्रैफिक रुकावट पैदा करता है।" },
+    { lemma: "detour", ipa: "/ˈdiː.tʊər/", dev: "डिटूर", hi: "चक्करदार वैकल्पिक रास्ता", en: "Follow the detour signs around the roadwork.", hiEx: "सड़क निर्माण के चारों ओर वैकल्पिक रास्ते का पालन करें।" },
+    { lemma: "fare card", ipa: "/ˈfeə kɑːd/", dev: "फ़ेयर कार्ड", hi: "किराया कार्ड", en: "Tap your rechargeable fare card at the gate.", hiEx: "गेट पर अपना किराया कार्ड टैप करें।" },
+    { lemma: "interchange", ipa: "/ˈɪn.tə.tʃeɪndʒ/", dev: "इन्टरचेन्ज", hi: "ट्रेन या बस बदलने का स्टेशन", en: "Transfer lines at the major metro interchange.", hiEx: "मेट्रो इंटरचेंज पर लाइन बदलें।" },
+    { lemma: "overpass", ipa: "/ˈəʊ.və.pɑːs/", dev: "ओवरपास", hi: "फ्लाईओवर / ऊपरी पुल", en: "Traffic flows smoothly over the newly opened overpass.", hiEx: "नए ओवरपास पर यातायात सुचारू रूप से चलता है।" },
+    { lemma: "underpass", ipa: "/ˈʌn.də.pɑːs/", dev: "अन्डरपास", hi: "भूमिगत मार्ग", en: "Avoid the waterlogged underpass during storms.", hiEx: "तूफान के दौरान जलभराव वाले अंडरपास से बचें।" },
+    { lemma: "cul-de-sac", ipa: "/ˌkʌl.dəˈsæk/", dev: "कल-ड-सैक", hi: "बंद गली / अंधी गली", en: "Children play safely in the quiet cul-de-sac.", hiEx: "बच्चे शांत बंद गली में सुरक्षित खेलते हैं।" },
+    { lemma: "boulevard", ipa: "/ˈbuː.lə.vɑːd/", dev: "बूलवार्ड", hi: "चौड़ी मुख्य सड़क", en: "Tree-lined boulevards stretch across the city.", hiEx: "पेड़ों से घिरी चौड़ी सड़कें शहर में फैली हैं।" },
+    { lemma: "avenue", ipa: "/ˈæv.ə.njuː/", dev: "ऐवेन्यू", hi: "विशाल मार्ग / एवेन्यू", en: "The flagship store is on Fifth Avenue.", hiEx: "प्रमुख स्टोर फिफ्थ एवेन्यू पर है।" },
+    { lemma: "congestion", ipa: "/kənˈdʒes.tʃən/", dev: "कन्जेश्चन", hi: "यातायात जाम / भीड़", en: "Peak-hour congestion delays airport shuttles.", hiEx: "पीक-ऑवर का जाम हवाई अड्डे की शटल में देरी करता है।" },
+    { lemma: "turnstile", ipa: "/ˈtɜːn.staɪl/", dev: "टर्नस्टाइल", hi: "घूर्णन प्रवेश द्वार", en: "Pass through the turnstile after scanning your ticket.", hiEx: "टिकट स्कैन करने के बाद टर्नस्टाइल से गुजरें।" },
+    { lemma: "escalator", ipa: "/ˈes.kə.leɪ.tər/", dev: "एस्केलेटर", hi: "स्वचालित सीढ़ी", en: "Take the escalator down to platform number two.", hiEx: "प्लेटफॉर्म नंबर दो के लिए एस्केलेटर लें।" },
+    { lemma: "toll booth", ipa: "/ˈtəʊl buːð/", dev: "टोल बूथ", hi: "टोल संग्रह केंद्र", en: "Electronic tags allow non-stop transit at the toll booth.", hiEx: "इलेक्ट्रॉनिक टैग टोल बूथ पर निर्बाध पारगमन की अनुमति देते हैं।" },
+    { lemma: "footbridge", ipa: "/ˈfʊt.brɪdʒ/", dev: "फ़ुटब्रिज", hi: "पैदल पुल", en: "Use the covered footbridge to cross the highway.", hiEx: "हाईवे पार करने के लिए ढके हुए फुटब्रिज का प्रयोग करें।" },
+    { lemma: "sidewalk", ipa: "/ˈsaɪd.wɔːk/", dev: "साइडवॉक", hi: "फुटपाथ / पटरी", en: "Paved sidewalks ensure pedestrian safety.", hiEx: "पक्के फुटपाथ पैदल यात्रियों की सुरक्षा सुनिश्चित करते हैं।" },
+    { lemma: "curb", ipa: "/kɜːb/", dev: "कर्ब", hi: "सड़क का किनारा", en: "The taxi pulled over close to the curb.", hiEx: "टैक्सी सड़क के किनारे रुक गई।" },
+    { lemma: "shuttle", ipa: "/ˈʃʌt.əl/", dev: "शटल", hi: "नियमित आने-जाने वाली बस/ट्रेन", en: "A complimentary shuttle runs every fifteen minutes.", hiEx: "एक मानार्थ शटल हर पंद्रह मिनट में चलती है।" },
+    { lemma: "timetable", ipa: "/ˈtaɪmˌteɪ.bəl/", dev: "टाइमटेबल", hi: "समय सारणी", en: "Check the digital timetable for bus arrivals.", hiEx: "बस आगमन के लिए डिजिटल समय सारणी देखें।" },
+    { lemma: "carpool", ipa: "/ˈkɑː.puːl/", dev: "कारपूल", hi: "साझा कार यात्रा", en: "Carpooling reduces vehicle emissions significantly.", hiEx: "कारपूलिंग से प्रदूषण काफी कम होता है।" },
+    { lemma: "gridlock", ipa: "/ˈɡrɪd.lɒk/", dev: "ग्रिडलॉक", hi: "पूर्ण यातायात ठप", en: "Heavy snowfall caused complete city gridlock.", hiEx: "भारी बर्फबारी से शहर में पूर्ण जाम लग गया।" },
+    { lemma: "crosswalk", ipa: "/ˈkrɒs.wɔːk/", dev: "क्रॉसवॉक", hi: "पैदल पार पथ", en: "Stop before the painted crosswalk lines.", hiEx: "क्रॉसवॉक रेखाओं से पहले रुकें।" },
+    { lemma: "express bus", ipa: "/ɪkˈspres bʌs/", dev: "एक्सप्रेस बस", hi: "द्रुतगामी बस", en: "The express bus bypasses suburban stops.", hiEx: "एक्सप्रेस बस उपनगरीय स्टॉप्स को छोड़ती है।" },
+    { lemma: "commute", pos: "verb", ipa: "/kəˈmjuːt/", dev: "कम्यूट", hi: "दैनिक यात्रा करना", en: "Many professionals commute by rail every morning.", hiEx: "कई पेशेवर रोज सुबह ट्रेन से यात्रा करते हैं।" },
+    { lemma: "navigate", pos: "verb", ipa: "/ˈnæv.ɪ.ɡeɪt/", dev: "नेविगेट", hi: "दिशा तय करना / मार्ग खोजना", en: "Use satellite maps to navigate unfamiliar streets.", hiEx: "अपरिचित सड़कों पर रास्ता खोजने के लिए मानचित्र का उपयोग करें।" }
+  ]),
+
+  // Day 43: Shopping, Product Inquiries & Consumer Communication (60 items)
+  43: createVocabList(43, "Shopping", [
+    { lemma: "fitting room", ipa: "/ˈfɪt.ɪŋ ruːm/", dev: "फ़िटिंग रूम", hi: "वस्त्र परीक्षण कक्ष", en: "The fitting rooms are located near the back.", hiEx: "ट्रायल रूम पीछे की ओर स्थित हैं।" },
+    { lemma: "refund policy", ipa: "/ˈriː.fʌnd ˌpɒl.ə.si/", dev: "रीफ़ण्ड पॉलिसी", hi: "धन वापसी नीति", en: "Read the store refund policy before purchase.", hiEx: "खरीदने से पहले दुकान की रिफंड नीति पढ़ें।" },
+    { lemma: "receipt", ipa: "/rɪˈsiːt/", dev: "रिसीट", hi: "खरीद रसीद", en: "Keep your purchase receipt for any exchanges.", hiEx: "किसी भी बदलाव के लिए खरीद रसीद संभाल कर रखें।" },
+    { lemma: "cashier", ipa: "/kæʃˈɪər/", dev: "कैशियर", hi: "रोकड़िया / बिलिंग क्लर्क", en: "The cashier handed back the invoice and change.", hiEx: "कैशियर ने बिल और बाकी पैसे लौटा दिए।" },
+    { lemma: "barcode", ipa: "/ˈbɑː.kəʊd/", dev: "बारकोड", hi: "उत्पाद बारकोड", en: "The scanner reads the product barcode instantly.", hiEx: "स्कैनर बारकोड को तुरंत पढ़ता है।" },
+    { lemma: "warranty", ipa: "/ˈwɒr.ən.ti/", dev: "वॉरन्टी", hi: "निर्माता गारंटी / वारंटी", en: "This laptop includes a two-year warranty.", hiEx: "इस लैपटॉप में दो साल की वारंटी शामिल है।" },
+    { lemma: "checkout counter", ipa: "/ˈtʃek.aʊt ˌkaʊn.tər/", dev: "चेकआउट काउन्टर", hi: "भुगतान काउंटर", en: "Join the queue at the checkout counter.", hiEx: "चेकआउट काउंटर पर कतार में लगें।" },
+    { lemma: "aisle", ipa: "/aɪl/", dev: "आइल", hi: "दुकान का गलियारा", en: "Organic grains are found in aisle four.", hiEx: "अनाज गलियारे नंबर चार में पाए जाते हैं।" },
+    { lemma: "markdown", ipa: "/ˈmɑːk.daʊn/", dev: "मार्कडाउन", hi: "कीमत में कटौती", en: "Seasonal markdown discounts apply at billing.", hiEx: "बिलिंग के समय मौसमी छूट लागू होती है।" },
+    { lemma: "clearance sale", ipa: "/ˈklɪə.rəns seɪl/", dev: "क्लियरन्स सेल", hi: "स्टॉक निकासी सेल", en: "Shoppers lined up for the annual clearance sale.", hiEx: "वार्षिक क्लीयरेंस सेल के लिए खरीदार कतार में लगे।" },
+    { lemma: "defective", pos: "adjective", ipa: "/dɪˈfek.tɪv/", dev: "डिफ़ेक्टिव", hi: "दोषपूर्ण / खराब", en: "Return the defective appliance for replacement.", hiEx: "बदलने के लिए खराब उपकरण वापस करें।" },
+    { lemma: "exchange", pos: "verb", ipa: "/ɪksˈtʃeɪndʒ/", dev: "एक्सचेन्ज", hi: "अदला-बदली करना", en: "You can exchange the size within two weeks.", hiEx: "आप दो सप्ताह के भीतर साइज़ बदल सकते हैं।" },
+    { lemma: "loyalty reward", ipa: "/ˈlɔɪ.əl.ti rɪˌwɔːd/", dev: "लॉयल्टी रिवॉर्ड", hi: "ग्राहक निष्ठा पुरस्कार", en: "Earn points and redeem your loyalty reward.", hiEx: "अंक अर्जित करें और लॉयल्टी रिवॉर्ड भुनाएं।" },
+    { lemma: "mannequin", ipa: "/ˈmæn.ə.kɪn/", dev: "मैनकिन", hi: "पुतला (कपड़े प्रदर्शित करने वाला)", en: "The designer dress is displayed on the mannequin.", hiEx: "डिज़ाइनर ड्रेस पुतले पर प्रदर्शित है।" },
+    { lemma: "shopping cart", ipa: "/ˈʃɒp.ɪŋ kɑːt/", dev: "शॉपिंग कार्ट", hi: "सामान ले जाने वाली ट्रॉली", en: "Place selected groceries in your shopping cart.", hiEx: "चुने हुए किराने के सामान को ट्रॉली में रखें।" },
+    { lemma: "invoice", ipa: "/ˈɪn.vɔɪs/", dev: "इन्वॉइस", hi: "चालान / विस्तृत बिल", en: "The digital invoice was emailed after payment.", hiEx: "भुगतान के बाद डिजिटल बिल ईमेल किया गया।" },
+    { lemma: "voucher", ipa: "/ˈvaʊ.tʃər/", dev: "वाउचर", hi: "छूट कूपन", en: "Apply the discount voucher during checkout.", hiEx: "चेकआउट के दौरान डिस्काउंट वाउचर लागू करें।" },
+    { lemma: "boutique", ipa: "/buːˈtiːk/", dev: "बूटीक", hi: "विशेष परिधान की दुकान", en: "She purchased handmade silk at the boutique.", hiEx: "उसने बुटीक से हाथ से बनी सिल्क खरीदी।" },
+    { lemma: "counterfeit", pos: "adjective", ipa: "/ˈkaʊn.tə.fɪt/", dev: "काउन्टर्फ़िट", hi: "नकली / जाली", en: "Customs confiscated counterfeit designer bags.", hiEx: "कस्टम ने नकली डिज़ाइनर बैग ज़ब्त किए।" },
+    { lemma: "apparel", ipa: "/əˈpær.əl/", dev: "अपैरल", hi: "पोशाक / परिधान", en: "The department store specializes in luxury apparel.", hiEx: "डिपार्टमेंटल स्टोर लग्जरी कपड़ों में माहिर है।" }
+  ]),
+
+  // Day 44: Higher Education, Academic Disciplines & Campus Life (60 items)
+  44: createVocabList(44, "Academics", [
+    { lemma: "curriculum", ipa: "/kəˈrɪk.jə.ləm/", dev: "करिक्युलम", hi: "पाठ्यचर्या / पाठ्यक्रम", en: "The revised university curriculum focuses on AI.", hiEx: "संशोधित पाठ्यक्रम एआई पर केंद्रित है।" },
+    { lemma: "syllabus", ipa: "/ˈsɪl.ə.bəs/", dev: "सिलबस", hi: "विषय सूची / पाठ्यक्रम", en: "Download the semester syllabus from the portal.", hiEx: "पोर्टल से सेमेस्टर सिलेबस डाउनलोड करें।" },
+    { lemma: "prerequisite", ipa: "/ˌpriːˈrek.wɪ.zɪt/", dev: "प्रिरिक्विज़िट", hi: "पूर्व-आवश्यकता", en: "Calculus is a prerequisite for Physics III.", hiEx: "कैलकुलस फिजिक्स III के लिए एक पूर्व-आवश्यकता है।" },
+    { lemma: "lecture hall", ipa: "/ˈlek.tʃə hɔːl/", dev: "लेक्चर हॉल", hi: "व्याख्यान कक्ष", en: "The guest lecture is in lecture hall B.", hiEx: "अतिथि व्याख्यान हॉल बी में है।" },
+    { lemma: "dissertation", ipa: "/ˌdɪs.əˈteɪ.ʃən/", dev: "डिसर्टेशन", hi: "शोध प्रबंध", en: "Doctoral candidates must defend their dissertation.", hiEx: "पीएचडी उम्मीदवारों को अपने शोध प्रबंध का बचाव करना होगा।" },
+    { lemma: "thesis", ipa: "/ˈθiː.sɪs/", dev: "थीसिस", hi: "शोध निबंध", en: "She submitted her master's thesis in economics.", hiEx: "उसने अर्थशास्त्र में अपनी मास्टर थीसिस जमा की।" },
+    { lemma: "academic advisor", ipa: "/ˌæk.əˈdem.ɪk ədˈvaɪ.zər/", dev: "अकादमिक एडवाइज़र", hi: "शैक्षणिक सलाहकार", en: "Consult your academic advisor before adding electives.", hiEx: "ऐच्छिक विषय चुनने से पहले अपने सलाहकार से परामर्श लें।" },
+    { lemma: "semester", ipa: "/sɪˈmes.tər/", dev: "सेमेस्टर", hi: "सत्र / छमाही", en: "Final exams occur at the end of each semester.", hiEx: "प्रत्येक सेमेस्टर के अंत में अंतिम परीक्षाएं होती हैं।" },
+    { lemma: "dormitory", ipa: "/ˈdɔː.mɪ.tər.i/", dev: "डॉर्मिटरी", hi: "छात्र छात्रावास", en: "First-year students usually reside in the campus dormitory.", hiEx: "प्रथम वर्ष के छात्र आमतौर पर छात्रावास में रहते हैं।" },
+    { lemma: "registrar", ipa: "/ˌredʒ.ɪˈstrɑːr/", dev: "रजिस्ट्रार", hi: "कुलसचिव / पंजीयक", en: "The registrar issues official grade transcripts.", hiEx: "रजिस्ट्रार आधिकारिक अंकतालिकाएं जारी करता है।" },
+    { lemma: "faculty", ipa: "/ˈfæk.əl.ti/", dev: "फ़ैकल्टी", hi: "शिक्षक वर्ग / संकाय", en: "The faculty published cutting-edge research.", hiEx: "संकाय ने अत्याधुनिक शोध प्रकाशित किया।" },
+    { lemma: "scholarship", ipa: "/ˈskɒl.ə.ʃɪp/", dev: "स्कॉलरशिप", hi: "छात्रवृत्ति", en: "She received a merit scholarship covering full tuition.", hiEx: "उसे पूरी ट्यूशन फीस कवर करने वाली छात्रवृत्ति मिली।" },
+    { lemma: "seminar", ipa: "/ˈsem.ɪ.nɑːr/", dev: "सेमिनार", hi: "संगोष्ठी / विचार-गोष्ठी", en: "The department organized an international research seminar.", hiEx: "विभाग ने एक अंतरराष्ट्रीय संगोष्ठी आयोजित की।" },
+    { lemma: "plagiarism", ipa: "/ˈpleɪ.dʒər.ɪ.zəm/", dev: "प्लेगियरीज़म", hi: "साहित्यिक चोरी", en: "Software scans submissions for detected plagiarism.", hiEx: "सॉफ्टवेयर साहित्यिक चोरी की जांच के लिए स्कैन करता है।" },
+    { lemma: "accreditation", ipa: "/əˌkred.ɪˈteɪ.ʃən/", dev: "अक्रेडिटेशन", hi: "मान्यता / प्रत्यायन", en: "The engineering college earned international accreditation.", hiEx: "कॉलेज ने अंतरराष्ट्रीय मान्यता प्राप्त की।" },
+    { lemma: "internship", ipa: "/ˈɪn.tɜːn.ʃɪप/", dev: "इन्टर्नशिप", hi: "व्यावहारिक प्रशिक्षण", en: "Summer internships offer valuable industry exposure.", hiEx: "ग्रीष्मकालीन इंटर्नशिप उद्योग का अनुभव देती है।" },
+    { lemma: "alumni", ipa: "/əˈlʌm.naɪ/", dev: "एलम्नाइ", hi: "पूर्व छात्र", en: "Alumni mentors guide graduating students.", hiEx: "पूर्व छात्र स्नातक छात्रों का मार्गदर्शन करते हैं।" },
+    { lemma: "convocation", ipa: "/ˌkɒn.vəˈkeɪ.ʃən/", dev: "कॉन्वोकेशन", hi: "दीक्षांत समारोह", en: "Degrees were conferred at the annual convocation.", hiEx: "वार्षिक दीक्षांत समारोह में उपाधियां प्रदान की गईं।" },
+    { lemma: "elective", ipa: "/iˈlek.tɪv/", dev: "इलेक्टिव", hi: "ऐच्छिक विषय", en: "Choose two elective courses this semester.", hiEx: "इस सेमेस्टर में दो ऐच्छिक पाठ्यक्रम चुनें।" },
+    { lemma: "fellowship", ipa: "/ˈfel.əʊ.ʃɪp/", dev: "फ़ेलोशिप", hi: "अध्येतावृत्ति / शोध अनुदान", en: "The research fellowship funds international travel.", hiEx: "रिसर्च फेलोशिप अंतरराष्ट्रीय यात्रा का खर्च देती है।" }
+  ]),
+
+  // Day 45: Medical Symptoms & Doctor Consultations (60 items)
+  45: createVocabList(45, "Medicine", [
+    { lemma: "dizziness", ipa: "/ˈdɪz.i.nəs/", dev: "डिज़ीनेस", hi: "चक्कर आना", en: "Sudden standing caused transient dizziness.", hiEx: "अचानक खड़े होने से चक्कर आ गया।" },
+    { lemma: "nausea", ipa: "/ˈnɔː.zi.ə/", dev: "नॉज़िआ", hi: "जी मिचलाना / उल्टी का अहसास", en: "Motion sickness often triggers severe nausea.", hiEx: "सफर की बीमारी अक्सर जी मिचलाने का कारण बनती है।" },
+    { lemma: "palpitation", ipa: "/ˌpæl.pɪˈteɪ.ʃən/", dev: "पैल्पिटेशन", hi: "दिल की धड़कन तेज होना", en: "Caffeine intake can induce heart palpitations.", hiEx: "कैफीन के सेवन से दिल की धड़कन तेज हो सकती है।" },
+    { lemma: "diagnosis", ipa: "/ˌdaɪ.əɡˈnəʊ.sɪs/", dev: "डायग्नोसिस", hi: "रोग निदान / पहचान", en: "The physician confirmed the diagnosis after tests.", hiEx: "डॉक्टर ने परीक्षणों के बाद रोग निदान की पुष्टि की।" },
+    { lemma: "prescription", ipa: "/prɪˈskrɪp.ʃən/", dev: "प्रिस्क्रिप्शन", hi: "दवा की पर्ची", en: "The chemist dispensed the prescription antibiotics.", hiEx: "केमिस्ट ने पर्ची के अनुसार दवाएं दीं।" },
+    { lemma: "chronic", pos: "adjective", ipa: "/ˈkrɒn.ɪk/", dev: "क्रॉनिक", hi: "दीर्घकालिक / पुराना रोग", en: "Proper therapy manages chronic lower back pain.", hiEx: "उचित चिकित्सा पुराने पीठ दर्द को नियंत्रित करती है।" },
+    { lemma: "acute", pos: "adjective", ipa: "/əˈkjuːt/", dev: "एक्यूट", hi: "तीव्र / अचानक उठा दर्द", en: "She sought emergency care for acute abdominal pain.", hiEx: "उसने पेट के तीव्र दर्द के लिए आपातकालीन देखभाल मांगी।" },
+    { lemma: "fatigue", ipa: "/fəˈtiːɡ/", dev: "फ़टीग", hi: "थकावट / अत्यधिक शिथिलता", en: "Chronic fatigue is a symptom of anemia.", hiEx: "लगातार थकान एनीमिया का एक लक्षण है।" },
+    { lemma: "inflammation", ipa: "/ˌɪn.fləˈmeɪ.ʃən/", dev: "इन्फ़्लेमेशन", hi: "सूजन व जलन", en: "Ice packs reduce localized joint inflammation.", hiEx: "बर्फ की थैली जोड़ों की सूजन को कम करती है।" },
+    { lemma: "physician", ipa: "/fɪˈzɪʃ.ən/", dev: "फ़िज़िशियन", hi: "चिकित्सक / डॉक्टर", en: "Consult your primary physician regularly.", hiEx: "अपने प्राथमिक चिकित्सक से नियमित परामर्श लें।" },
+    { lemma: "stethoscope", ipa: "/ˈsteθ.ə.skəʊp/", dev: "स्टेथस्कोप", hi: "आला (हृदय की धड़कन सुनने का यंत्र)", en: "The doctor checked chest sounds with a stethoscope.", hiEx: "डॉक्टर ने स्टेथोस्कोप से फेफड़ों की आवाज जांची।" },
+    { lemma: "vital signs", ipa: "/ˈvaɪ.təl saɪnz/", dev: "वाइटल साइन्स", hi: "जीवन सूचक संकेत (बीपी, नब्ज आदि)", en: "Nurses monitor patients' vital signs hourly.", hiEx: "नर्सें हर घंटे मरीजों के जीवन सूचक संकेतों की निगरानी करती हैं।" },
+    { lemma: "soreness", ipa: "/ˈsɔː.nəs/", dev: "सॉर्नस", hi: "मांसपेशियों का दर्द व अकड़न", en: "Stretching relieves post-exercise muscle soreness.", hiEx: "स्ट्रेचिंग से मांसपेशियों का दर्द कम होता है।" },
+    { lemma: "sprain", ipa: "/spreɪn/", dev: "स्प्रेन", hi: "मोच", en: "He suffered a minor ankle sprain during football.", hiEx: "फुटबॉल के दौरान उसके टखने में हल्की मोच आ गई।" },
+    { lemma: "fracture", ipa: "/ˈfræk.tʃər/", dev: "फ़्रैक्चर", hi: "हड्डी का टूटना", en: "The X-ray revealed a hairline bone fracture.", hiEx: "एक्स-रे में हड्डी का बारीक फ्रैक्चर दिखा।" },
+    { lemma: "dehydration", ipa: "/ˌdiː.haɪˈdreɪ.ʃən/", dev: "डीहाइड्रेशन", hi: "पानी की कमी / निर्जलीकरण", en: "Drink electrolytes to prevent summer dehydration.", hiEx: "पानी की कमी से बचने के लिए इलेक्ट्रोलाइट्स पिएं।" },
+    { lemma: "numbness", ipa: "/ˈnʌm.nəs/", dev: "नम्नस", hi: "सुन्नपन", en: "Pinched nerves can cause finger numbness.", hiEx: "दबी हुई नसें उंगलियों में सुन्नपन पैदा कर सकती हैं।" },
+    { lemma: "insomnia", ipa: "/ɪnˈsɒm.ni.ə/", dev: "इन्सॉम्निआ", hi: "अनिद्रा", en: "Stress is a leading cause of chronic insomnia.", hiEx: "तनाव पुरानी अनिद्रा का एक प्रमुख कारण है।" },
+    { lemma: "triage", ipa: "/ˈtriː.ɑːʒ/", dev: "ट्राइएज", hi: "रोगियों की गंभीरता के अनुसार प्राथमिकता वर्गीकरण", en: "Emergency triage prioritizes critical trauma cases.", hiEx: "इमरजेंसी ट्राइएज गंभीर मामलों को प्राथमिकता देता है।" },
+    { lemma: "consultation", ipa: "/ˌkɒn.sʌlˈteɪ.ʃən/", dev: "कन्सल्टेशन", hi: "चिकित्सीय परामर्श", en: "Book a consultation with the specialist.", hiEx: "विशेषज्ञ के साथ परामर्श बुक करें।" }
+  ]),
+
+  // Day 46: Pharmacy, Diagnostics & Medical Specialists (60 items)
+  46: createVocabList(46, "Specialists", [
+    { lemma: "pharmacist", ipa: "/ˈfɑː.mə.sɪst/", dev: "फ़ार्मासिस्ट", hi: "दवा विक्रेता / फार्मासिस्ट", en: "Ask the licensed pharmacist about medication risks.", hiEx: "लाइसेंस प्राप्त फार्मासिस्ट से दवाओं के जोखिम के बारे में पूछें।" },
+    { lemma: "dosage", ipa: "/ˈdəʊ.sɪdʒ/", dev: "डोसेज", hi: "खुराक की मात्रा", en: "Never exceed the recommended dosage on the label.", hiEx: "लेबल पर दी गई खुराक की मात्रा से अधिक कभी न लें।" },
+    { lemma: "side effects", ipa: "/ˈsaɪd ɪˌfekts/", dev: "साइड इफेक्ट्स", hi: "दुष्प्रभाव", en: "Drowsiness is a common side effect of antihistamines.", hiEx: "उनींदापन एंटीहिस्टामाइन का एक सामान्य दुष्प्रभाव है।" },
+    { lemma: "over-the-counter", pos: "adjective", ipa: "/ˌəʊ.və.ðəˈkaʊn.tər/", dev: "ओवर-द-काउन्टर", hi: "बिना पर्ची मिलने वाली दवा", en: "Purchase over-the-counter cough syrups at any chemist.", hiEx: "किसी भी केमिस्ट से बिना पर्ची वाली खांसी की दवाई खरीदें।" },
+    { lemma: "ultrasound", ipa: "/ˈʌl.trə.saʊnd/", dev: "अल्ट्रासाउन्ड", hi: "सोनोग्राफी / अल्ट्रासाउंड", en: "The technician performed an abdominal ultrasound.", hiEx: "तकनीशियन ने पेट का अल्ट्रासाउंड किया।" },
+    { lemma: "radiologist", ipa: "/ˌreɪ.diˈɒl.ə.dʒɪst/", dev: "रेडियोलॉजिस्ट", hi: "एक्स-रे व स्कैन विशेषज्ञ", en: "The radiologist interpreted the cranial CT scan.", hiEx: "रेडियोलॉजिस्ट ने सीटी स्कैन रिपोर्ट की व्याख्या की।" },
+    { lemma: "cardiologist", ipa: "/ˌkɑː.diˈɒl.ə.dʒɪst/", dev: "कार्डियोलॉजिस्ट", hi: "हृदय रोग विशेषज्ञ", en: "The cardiologist reviewed the patient's electrocardiogram.", hiEx: "हृदय रोग विशेषज्ञ ने ईसीजी की समीक्षा की।" },
+    { lemma: "dermatologist", ipa: "/ˌdɜː.məˈtɒl.ə.dʒɪst/", dev: "डर्मेटोलॉजिस्ट", hi: "त्वचा रोग विशेषज्ञ", en: "Visit a dermatologist for chronic eczema treatment.", hiEx: "एक्जिमा के इलाज के लिए त्वचा रोग विशेषज्ञ से मिलें।" },
+    { lemma: "pediatrician", ipa: "/ˌpiː.di.əˈtrɪʃ.ən/", dev: "पीडियाट्रिशियन", hi: "शिशु एवं बाल रोग विशेषज्ञ", en: "The pediatrician administered routine childhood vaccinations.", hiEx: "बाल रोग विशेषज्ञ ने बच्चों के टीके लगाए।" },
+    { lemma: "orthopedic surgeon", ipa: "/ˌɔː.θəˈpiː.dɪk ˈsɜː.dʒən/", dev: "ऑर्थोपेडिक सर्जन", hi: "हड्डी रोग शल्य चिकित्सक", en: "The orthopedic surgeon operated on the fractured collarbone.", hiEx: "हड्डी रोग विशेषज्ञ ने कॉलरबोन का ऑपरेशन किया।" },
+    { lemma: "pathology", ipa: "/pəˈθɒl.ə.dʒi/", dev: "पैथोलॉजी", hi: "रोग विज्ञान प्रयोगशाला", en: "The pathology lab processed the blood sample.", hiEx: "पैथोलॉजी लैब ने रक्त के नमूने की जांच की।" },
+    { lemma: "antibiotic", ipa: "/ˌæn.ti.baɪˈɒt.ɪk/", dev: "ऐन्टीबायोटिक", hi: "जीवाणुनाशक औषधि", en: "Complete the full seven-day course of antibiotics.", hiEx: "एंटीबायोटिक्स का सात दिनों का पूरा कोर्स पूरा करें।" },
+    { lemma: "neurologist", ipa: "/njʊəˈrɒl.ə.dʒɪst/", dev: "न्यूरोलॉजिस्ट", hi: "तंत्रिका रोग विशेषज्ञ", en: "The neurologist investigated the recurring migraines.", hiEx: "न्यूरोलॉजिस्ट ने माइग्रेन के कारणों की जांच की।" },
+    { lemma: "oncologist", ipa: "/ɒŋˈkɒl.ə.dʒɪst/", dev: "ऑन्कोलॉजिस्ट", hi: "कैंसर रोग विशेषज्ञ", en: "The oncologist designed a targeted chemotherapy protocol.", hiEx: "कैंसर विशेषज्ञ ने कीमोथेरेपी योजना तैयार की।" },
+    { lemma: "antiseptic", ipa: "/ˌæn.tiˈsep.tɪk/", dev: "ऐन्टीसेप्टिक", hi: "रोगाणुरोधक", en: "Clean minor cuts with antiseptic solution.", hiEx: "रोगाणुरोधक घोल से छोटे घावों को साफ करें।" },
+    { lemma: "capsule", ipa: "/ˈkæp.sjuːl/", dev: "कैप्सूल", hi: "कैप्सूल दवा", en: "Swallow the multivitamin capsule with water.", hiEx: "मल्टीविटामिन कैप्सूल पानी के साथ निगलें।" },
+    { lemma: "ointment", ipa: "/ˈɔɪnt.mənt/", dev: "ऑइन्टमेन्ट", hi: "मरहम", en: "Apply a thin layer of soothing ointment.", hiEx: "मरहम की एक पतली परत लगाएं।" },
+    { lemma: "biopsy", ipa: "/ˈbaɪ.ɒp.si/", dev: "बायोप्सी", hi: "ऊतक परीक्षण", en: "The tissue biopsy confirmed benign cell growth.", hiEx: "बायोप्सी ने सौम्य कोशिका वृद्धि की पुष्टि की।" },
+    { lemma: "ophthalmologist", ipa: "/ˌɒf.θælˈmɒl.ə.dʒɪst/", dev: "ऑफ़्थैल्मोलॉजिस्ट", hi: "नेत्र रोग विशेषज्ञ", en: "An ophthalmologist performs precision laser eye surgery.", hiEx: "नेत्र विशेषज्ञ लेजर सर्जरी करते हैं।" },
+    { lemma: "contraindication", ipa: "/ˌkɒn.trəˌɪn.dɪˈkeɪ.ʃən/", dev: "कॉन्ट्रा-इन्डिकेशन", hi: "अनुचितता / जिस स्थिति में दवा न दी जाए", en: "Pregnancy is a known contraindication for this drug.", hiEx: "गर्भावस्था इस दवा के लिए एक ज्ञात वर्जित स्थिति है।" }
+  ]),
+
+  // Day 47: Weather, Seasons, Climate & Environmental Conditions (60 items)
+  47: createVocabList(47, "Meteorology", [
+    { lemma: "precipitation", ipa: "/prɪˌsɪp.ɪˈteɪ.ʃən/", dev: "प्रेसिपिटेशन", hi: "वर्षण (वर्षा, हिमपात आदि)", en: "Coastal regions record heavy annual precipitation.", hiEx: "तटीय क्षेत्रों में भारी वार्षिक वर्षण दर्ज होता है।" },
+    { lemma: "humidity", ipa: "/hjuːˈmɪd.ə.ti/", dev: "ह्यूमिडिटी", hi: "आर्द्रता / हवा में नमी", en: "High humidity makes summer heat feel intense.", hiEx: "अधिक नमी से गर्मी अधिक महसूस होती है।" },
+    { lemma: "drizzle", ipa: "/ˈdrɪz.əl/", dev: "ड्रिज़ल", hi: "रिमझिम बारिश / हल्की फुहार", en: "A gentle drizzle dampened the streets all morning.", hiEx: "हल्की रिमझिम ने पूरी सुबह सड़कों को नम रखा।" },
+    { lemma: "overcast", pos: "adjective", ipa: "/ˌəʊ.vəˈkɑːst/", dev: "ओवरकास्ट", hi: "बादलों से घिरा / मेघाच्छन्न", en: "The skies remained overcast throughout the afternoon.", hiEx: "पूरी दोपहर आसमान बादलों से घिरा रहा।" },
+    { lemma: "meteorology", ipa: "/ˌmiː.ti.əˈrɒl.ə.dʒi/", dev: "मीटियोरोलॉजी", hi: "मौसम विज्ञान", en: "Advanced meteorology predicts cyclones accurately.", hiEx: "उन्नत मौसम विज्ञान चक्रवातों की सटीक भविष्यवाणी करता है।" },
+    { lemma: "forecast", ipa: "/ˈfɔː.kɑːst/", dev: "फ़ोरकास्ट", hi: "मौसम का पूर्वानुमान", en: "The five-day forecast predicts clear sunny skies.", hiEx: "पांच दिवसीय पूर्वानुमान साफ आसमान बताता है।" },
+    { lemma: "thunderstorm", ipa: "/ˈθʌn.də.stɔːm/", dev: "थन्डर्स्टॉर्म", hi: "गरज के साथ तूफान", en: "A sudden thunderstorm caused localized power outages.", hiEx: "अचानक आए तूफान से बिजली गुल हो गई।" },
+    { lemma: "blizzard", ipa: "/ˈblɪz.əd/", dev: "ब्लिज़र्ड", hi: "बर्फानी तूफान", en: "Mountain passes were blocked by a raging blizzard.", hiEx: "पहाड़ी रास्ते बर्फीले तूफान से बंद हो गए।" },
+    { lemma: "gale", ipa: "/ɡeɪl/", dev: "गेल", hi: "प्रचंड तेज हवा", en: "Gale-force winds uprooted trees along the coast.", hiEx: "तेज हवाओं ने तट पर पेड़ उखाड़ दिए।" },
+    { lemma: "heatwave", ipa: "/ˈhiːt.weɪv/", dev: "हीटवेव", hi: "लू / अत्यधिक गर्मी की लहर", en: "Authorities issued health advisories during the heatwave.", hiEx: "लू के दौरान अधिकारियों ने सलाह जारी की।" },
+    { lemma: "atmospheric pressure", ipa: "/ˌæt.məs.fer.ɪk ˈpreʃ.ər/", dev: "ऐटमॉस्फेरिक प्रेशर", hi: "वायुमंडलीय दबाव", en: "Dropping atmospheric pressure signals an incoming storm.", hiEx: "गिरता वायुमंडलीय दबाव तूफान का संकेत देता है।" },
+    { lemma: "drought", ipa: "/draʊt/", dev: "ड्राउट", hi: "सूखा / अकाल", en: "Severe drought depleted regional agricultural reservoirs.", hiEx: "गंभीर सूखे ने जल जलाशयों को खाली कर दिया।" },
+    { lemma: "smog", ipa: "/smɒɡ/", dev: "स्मॉग", hi: "धुआंसा / धुएं वाला कोहरा", en: "Winter smog severely impacts urban respiratory health.", hiEx: "सर्दियों का स्मॉग सांस के स्वास्थ्य पर असर डालता है।" },
+    { lemma: "downpour", ipa: "/ˈdaʊn.pɔːr/", dev: "डाउनपोर", hi: "मूसलाधार बारिश", en: "A sudden torrential downpour inundated low streets.", hiEx: "अचानक मूसलाधार बारिश से सड़कों पर पानी भर गया।" },
+    { lemma: "barometer", ipa: "/bəˈrɒm.ɪ.tər/", dev: "बैरोमीटर", hi: "वायुदाबमापी यंत्र", en: "The laboratory barometer measured air pressure shifts.", hiEx: "बैरोमीटर ने वायुदाब में बदलाव को मापा।" },
+    { lemma: "monsoon", ipa: "/mɒnˈsuːn/", dev: "मॉनसून", hi: "मानसूनी वर्षा ऋतु", en: "Farmers welcome the annual arrival of the monsoon.", hiEx: "किसान मानसून के आगमन का स्वागत करते हैं।" },
+    { lemma: "gusty", pos: "adjective", ipa: "/ˈɡʌs.ti/", dev: "गस्टी", hi: "झोंके वाली तेज हवा", en: "Gusty conditions made cycling difficult across the bridge.", hiEx: "तेज झोंकों वाली हवा ने पुल पर साइकिल चलाना कठिन बना दिया।" },
+    { lemma: "dew point", ipa: "/ˈdjuː pɔɪnt/", dev: "ड्यू पॉइन्ट", hi: "ओसांक बिंदु", en: "Condensation forms when temperatures reach the dew point.", hiEx: "ओसांक बिंदु पर पहुंचते ही संघनन बनता है।" },
+    { lemma: "cyclone", ipa: "/ˈsaɪ.kləʊn/", dev: "साइक्लोन", hi: "चक्रवात / भयंकर समुद्री तूफान", en: "Coastal communities evacuated before the severe cyclone.", hiEx: "गंभीर चक्रवात से पहले तटीय इलाकों को खाली कराया गया।" },
+    { lemma: "hailstone", ipa: "/ˈheɪl.stəʊn/", dev: "हेलस्टोन", hi: "ओला", en: "Large hailstones damaged orchard fruit crops.", hiEx: "बड़े ओलों ने फलों की फसलों को नुकसान पहुंचाया।" }
+  ]),
+
+  // Day 48: Animal Kingdom, Habitats & Zoological Vocabulary (60 items)
+  48: createVocabList(48, "Zoology", [
+    { lemma: "herbivore", ipa: "/ˈhɜː.bɪ.vɔːr/", dev: "हर्बिवोर", hi: "शाकाहारी जीव", en: "Elephants are the largest terrestrial herbivores.", hiEx: "हाथी सबसे बड़े स्थलीय शाकाहारी जीव हैं।" },
+    { lemma: "carnivore", ipa: "/ˈkɑː.nɪ.vɔːr/", dev: "कार्निवोर", hi: "मांसाहारी जीव", en: "Lions are apex carnivores in the savanna.", hiEx: "शेर सवाना के शीर्ष मांसाहारी जीव हैं।" },
+    { lemma: "omnivore", ipa: "/ˈɒm.nɪ.vɔːr/", dev: "ओम्निवोर", hi: "सर्वाहारी जीव", en: "Bears are omnivores that consume berries and fish.", hiEx: "भालू सर्वाहारी होते हैं जो फल और मछली खाते हैं।" },
+    { lemma: "nocturnal", pos: "adjective", ipa: "/nɒkˈtɜː.nəl/", dev: "नॉक्टर्नल", hi: "निशाचर / रात में सक्रिय", en: "Owls are nocturnal predators with exceptional night vision.", hiEx: "उल्लू निशाचर शिकारी होते हैं।" },
+    { lemma: "camouflage", ipa: "/ˈkæm.ə.flɑːʒ/", dev: "कैमूफ़्लाज", hi: "छलावरण / रंग बदलना", en: "The insect's camouflage matches dried leaves perfectly.", hiEx: "कीट का छलावरण सूखे पत्तों से पूरी तरह मेल खाता है।" },
+    { lemma: "predator", ipa: "/ˈpred.ə.tər/", dev: "प्रेडटर", hi: "शिकारी जीव", en: "Apex predators maintain balanced prey populations.", hiEx: "शीर्ष शिकारी जीव शिकार की आबादी को संतुलित रखते हैं।" },
+    { lemma: "prey", ipa: "/preɪ/", dev: "प्रे", hi: "शिकार बनने वाला जीव", en: "Deer remain alert to evade approaching predators.", hiEx: "हिरण शिकारियों से बचने के लिए सतर्क रहते हैं।" },
+    { lemma: "terrestrial", pos: "adjective", ipa: "/təˈres.tri.əl/", dev: "टेरेस्ट्रियल", hi: "स्थलीय / भूमि पर रहने वाला", en: "Cheetahs are the fastest terrestrial mammals.", hiEx: "चीता सबसे तेज स्थलीय स्तनपायी हैं।" },
+    { lemma: "endangered species", ipa: "/ɪnˌdeɪn.dʒəd ˈspiː.ʃiːz/", dev: "इन्डेन्जर्ड स्पीशीज़", hi: "लुप्तप्राय प्रजातियां", en: "Sanctuaries protect endangered species from extinction.", hiEx: "अभयारण्य लुप्तप्राय प्रजातियों को विलुप्त होने से बचाते हैं।" },
+    { lemma: "mammal", ipa: "/ˈmæm.əl/", dev: "मैमल", hi: "स्तनपायी प्राणी", en: "Whales are warm-blooded marine mammals.", hiEx: "व्हेल गर्म खून वाले समुद्री स्तनपायी हैं।" },
+    { lemma: "reptile", ipa: "/ˈrep.taɪl/", dev: "रेप्टाइल", hi: "सरीसृप / रेंगने वाला जीव", en: "Snakes and lizards belong to the reptile class.", hiEx: "सांप और छिपकली सरीसृप वर्ग में आते हैं।" },
+    { lemma: "plumage", ipa: "/ˈpluː.mɪdʒ/", dev: "प्लूमैज", hi: "पक्षियों के पंख व पर", en: "Peacocks display vibrant, iridescent plumage.", hiEx: "मोर चमकीले पंख प्रदर्शित करते हैं।" },
+    { lemma: "biodiversity", ipa: "/ˌbaɪ.əʊ.daɪˈvɜː.sə.ti/", dev: "बायोडाइवर्सिटी", hi: "जैव विविधता", en: "Tropical rainforests harbor immense biodiversity.", hiEx: "वर्षावन अपार जैव विविधता को शरण देते हैं।" },
+    { lemma: "migration", ipa: "/maɪˈɡreɪ.ʃən/", dev: "माइग्रेशन", hi: "प्रवास / ऋतु परिवर्तन पर स्थानांतरण", en: "Bird migration spans thousands of miles each autumn.", hiEx: "पक्षियों का प्रवास हर पतझड़ में हजारों मील तक होता है।" },
+    { lemma: "sanctuary", ipa: "/ˈsæŋk.tʃʊə.ri/", dev: "सैंक्चुअरी", hi: "वन्यजीव अभयारण्य", en: "The sanctuary prohibits unauthorized human encroachment.", hiEx: "अभयारण्य में अनधिकृत प्रवेश वर्जित है।" },
+    { lemma: "venomous", pos: "adjective", ipa: "/ˈven.ə.məs/", dev: "वेनमस", hi: "विषैला", en: "Cobras possess potent venomous fangs.", hiEx: "कोबरा के पास विषैले दांत होते हैं।" },
+    { lemma: "ecosystem", ipa: "/ˈiː.kəʊˌsɪs.təm/", dev: "इकोसिस्टम", hi: "पारिस्थितिकी तंत्र", en: "Wetlands form a fragile freshwater ecosystem.", hiEx: "वेटलैंड्स एक नाजुक मीठे पानी का इकोसिस्टम बनाते हैं।" },
+    { lemma: "hibernate", pos: "verb", ipa: "/ˈhaɪ.bə.neɪt/", dev: "हाइबरनेट", hi: "शीतनिद्रा में जाना", en: "Grizzly bears hibernate during harsh winters.", hiEx: "भालू कठोर सर्दियों में शीतनिद्रा में चले जाते हैं।" },
+    { lemma: "poaching", ipa: "/ˈpəʊ.tʃɪŋ/", dev: "पोचिंग", hi: "अवैध शिकार", en: "Rangers patrol the perimeter to stop illegal poaching.", hiEx: "रेंजर अवैध शिकार रोकने के लिए गश्त करते हैं।" },
+    { lemma: "amphibian", ipa: "/æmˈfɪb.i.ən/", dev: "ऐम्फिबियन", hi: "उभयचर (जल और थल दोनों में रहने वाला)", en: "Frogs are amphibians that breathe through moist skin.", hiEx: "मेंढक उभयचर हैं जो नम त्वचा से सांस लेते हैं।" }
+  ]),
+
+  // Day 49: Human Appearance, Attire & Personality Descriptions (60 items)
+  49: createVocabList(49, "Personality", [
+    { lemma: "complexion", ipa: "/kəmˈplek.ʃən/", dev: "कम्प्लेक्शन", hi: "चेहरे की त्वचा का रंग व निखार", en: "She has a radiant, clear complexion.", hiEx: "उसकी त्वचा का निखार चमकदार और साफ है।" },
+    { lemma: "posture", ipa: "/ˈpɒs.tʃər/", dev: "पॉस्चर", hi: "उठने-बैठने की शारीरिक मुद्रा", en: "Good posture conveys poise and confidence.", hiEx: "अच्छी शारीरिक मुद्रा आत्मविश्वास दर्शाती है।" },
+    { lemma: "athletic build", ipa: "/æθˈlet.ɪk bɪld/", dev: "एथलेटिक बिल्ड", hi: "खिलाड़ी जैसा सुगठित शरीर", en: "Regular swimming gave him an athletic build.", hiEx: "नियमित तैराकी ने उन्हें सुगठित शरीर दिया।" },
+    { lemma: "charismatic", pos: "adjective", ipa: "/ˌkær.ɪzˈmæt.ɪk/", dev: "कैरिजमैटिक", hi: "आकर्षक व्यक्तित्व वाला / चमत्कारी", en: "The charismatic speaker inspired the auditorium.", hiEx: "आकर्षक वक्ता ने पूरे सभागार को प्रेरित किया।" },
+    { lemma: "meticulous", pos: "adjective", ipa: "/məˈtɪk.jə.ləs/", dev: "मटिक्युलस", hi: "अति-सावधान / बारीक विवरण पर ध्यान देने वाला", en: "She conducted meticulous financial audits.", hiEx: "उसने अत्यंत सावधानी से वित्तीय ऑडिट किया।" },
+    { lemma: "articulate", pos: "adjective", ipa: "/ɑːˈtɪk.jə.lət/", dev: "आर्टिक्युलेट", hi: "सुस्पष्ट वक्ता / विचारों को स्पष्ट रखने वाला", en: "He is an articulate advocate for legal reform.", hiEx: "वह कानूनी सुधारों के सुस्पष्ट समर्थक हैं।" },
+    { lemma: "empathetic", pos: "adjective", ipa: "/ˌem.pəˈθet.ɪk/", dev: "एम्पथेटिक", hi: "सहानुभूतिपूर्ण / दूसरों के दुख को समझने वाला", en: "Empathetic counselors listen without judgment.", hiEx: "सहानुभूतिपूर्ण परामर्शदाता बिना पूर्वाग्रह के सुनते हैं।" },
+    { lemma: "compassionate", pos: "adjective", ipa: "/kəmˈpæʃ.ən.ət/", dev: "कम्पैशनेट", hi: "दयालु व संवेदनशील", en: "Doctors showed compassionate care to all patients.", hiEx: "डॉक्टरों ने सभी मरीजों के प्रति संवेदनशील देखभाल दिखाई।" },
+    { lemma: "attire", ipa: "/əˈtaɪər/", dev: "अटायर", hi: "वेशभूषा / पोशाक", en: "Business formal attire is mandatory for the gala.", hiEx: "समारोह के लिए औपचारिक व्यावसायिक पोशाक अनिवार्य है।" },
+    { lemma: "accessories", ipa: "/əkˈses.ər.iz/", dev: "एक्सेसरीज़", hi: "सजावटी सहायक वस्तुएं (घड़ी, बेल्ट आदि)", en: "Matching leather accessories complemented his suit.", hiEx: "मैचिंग चमड़े की एक्सेसरीज ने उनके सूट को पूरा किया।" },
+    { lemma: "demeanor", ipa: "/dɪˈmiː.nər/", dev: "डिमीनर", hi: "आचरण / स्वभाव व भाव-भंगिमा", en: "Her calm demeanor reassured anxious passengers.", hiEx: "उनके शांत आचरण ने घबराए हुए यात्रियों को आश्वस्त किया।" },
+    { lemma: "extrovert", ipa: "/ˈek.strə.vɜːt/", dev: "एक्स्ट्रोवर्ट", hi: "बहिर्मुखी / मिलनसार व्यक्ति", en: "Extroverts thrive in lively social gatherings.", hiEx: "बहिर्मुखी लोग सामाजिक समारोहों में सहज रहते हैं।" },
+    { lemma: "introvert", ipa: "/ˈɪn.trə.vɜːt/", dev: "इन्ट्रोवर्ट", hi: "अंतर्मुखी / एकांतप्रिय व्यक्ति", en: "Introverts often recharge in quiet spaces.", hiEx: "अंतर्मुखी लोग शांत स्थानों में ऊर्जा प्राप्त करते हैं।" },
+    { lemma: "approachable", pos: "adjective", ipa: "/əˈprəʊ.tʃə.bəl/", dev: "अप्रोचेबल", hi: "सुलभ / जिससे आसानी से बात की जा सके", en: "The CEO maintains an approachable open-door policy.", hiEx: "सीईओ एक सुलभ और खुली नीति बनाए रखते हैं।" },
+    { lemma: "well-groomed", pos: "adjective", ipa: "/ˌwel ˈɡruːmd/", dev: "वेल-ग्रूम्ड", hi: "सुरुचिपूर्ण / सुव्यवस्थित व साफ-सुथरा", en: "Candidates should present a well-groomed appearance.", hiEx: "उम्मीदवारों को सुव्यवस्थित रूप प्रस्तुत करना चाहिए।" },
+    { lemma: "resilient", pos: "adjective", ipa: "/rɪˈzɪl.i.ənt/", dev: "रिज़िल्यन्ट", hi: "कठिनाइयों से उबरने वाला / लचीला व दृढ़", en: "Resilient teams adapt quickly to unexpected crises.", hiEx: "दृढ़ टीमें संकटों से जल्दी उबरती हैं।" },
+    { lemma: "sincere", pos: "adjective", ipa: "/sɪnˈsɪər/", dev: "सिन्सियर", hi: "सच्चा / निष्ठावान व ईमानदार", en: "She expressed sincere gratitude for their support.", hiEx: "उसने उनके समर्थन के लिए सच्चा आभार व्यक्त किया।" },
+    { lemma: "tailored", pos: "adjective", ipa: "/ˈteɪ.ləd/", dev: "टेलरड", hi: "नाप के अनुसार सिला हुआ", en: "He wore a bespoke tailored charcoal blazer.", hiEx: "उसने सिलवाई गई चारकोल ब्लेज़र पहनी थी।" },
+    { lemma: "poised", pos: "adjective", ipa: "/pɔɪzd/", dev: "पॉइज़्ड", hi: "संतुलित / आत्मविश्वासी व शांत", en: "The speaker remained poised during tough questions.", hiEx: "वक्ता कठिन सवालों के दौरान भी शांत रहे।" },
+    { lemma: "courteous", pos: "adjective", ipa: "/ˈkɜː.ti.əs/", dev: "कर्टियस", hi: "विनम्र व शिष्ट", en: "Front-desk staff are unfailingly courteous.", hiEx: "फ्रंट डेस्क कर्मचारी हमेशा विनम्र रहते हैं।" }
+  ]),
+
+  // Day 50: Stage 5 Cumulative Mastery Review (60 items)
+  50: createVocabList(50, "Mastery", [
+    { lemma: "interdisciplinary", pos: "adjective", ipa: "/ˌɪn.təˌdɪs.ɪˈplɪn.ər.i/", dev: "इन्टरडिसिप्लिनरी", hi: "अंतर-विषयक / बहु-विषयक", en: "Urban planning requires interdisciplinary research.", hiEx: "शहरी योजना के लिए बहु-विषयक शोध की आवश्यकता होती है।" },
+    { lemma: "pragmatic", pos: "adjective", ipa: "/præɡˈmæt.ɪk/", dev: "प्रैग्मैटिक", hi: "व्यावहारिक / यथार्थवादी", en: "We need a pragmatic approach to transit problems.", hiEx: "हमें परिवहन समस्याओं के लिए व्यावहारिक दृष्टिकोण चाहिए।" },
+    { lemma: "synthesize", pos: "verb", ipa: "/ˈsɪn.θə.saɪz/", dev: "सिन्थेसाइज़", hi: "संश्लेषण करना / तत्वों को जोड़ना", en: "Synthesize data from multiple scientific trials.", hiEx: "परीक्षणों से प्राप्त आंकड़ों का संश्लेषण करें।" },
+    { lemma: "benchmark", ipa: "/ˈbentʃ.mɑːk/", dev: "बेन्चमार्क", hi: "मानक / कसौटी", en: "This milestone sets a new educational benchmark.", hiEx: "यह उपलब्धि एक नया शैक्षिक मानक स्थापित करती है।" },
+    { lemma: "competence", ipa: "/ˈkɒm.pɪ.təns/", dev: "कॉम्पिटन्स", hi: "दक्षता / योग्यता व क्षमता", en: "Demonstrate high linguistic competence in global forums.", hiEx: "वैश्विक मंचों पर उच्च भाषाई दक्षता प्रदर्शित करें।" },
+    { lemma: "nuance", ipa: "/ˈnjuː.ɑːns/", dev: "न्यूआन्स", hi: "सूक्ष्म अंतर / बारीकी", en: "Master the subtle nuances of formal discourse.", hiEx: "औपचारिक संवाद की सूक्ष्म बारीकियों में महारत हासिल करें।" },
+    { lemma: "articulation", ipa: "/ɑːˌtɪk.jəˈleɪ.ʃən/", dev: "आर्टिक्युलेशन", hi: "स्पष्ट उच्चारण व अभिव्यक्ति", en: "Clear articulation ensures immediate listener comprehension.", hiEx: "स्पष्ट अभिव्यक्ति त्वरित समझ सुनिश्चित करती है।" },
+    { lemma: "repertoire", ipa: "/ˈrep.ə.twɑːr/", dev: "रेपर्टवार", hi: "शब्दावली एवं अभिव्यक्ति का खजाना", en: "Broaden your professional conversational repertoire.", hiEx: "अपने व्यावसायिक बातचीत के खजाने का विस्तार करें।" },
+    { lemma: "cohesion", ipa: "/kəʊˈhiː.ʒən/", dev: "कोहीज़न", hi: "तार्किक जुड़ाव / सुसंगतता", en: "Discourse linkers enhance structural paragraph cohesion.", hiEx: "डिस्कोर्स लिंकर्स तार्किक जुड़ाव को बढ़ाते हैं।" },
+    { lemma: "prosody", ipa: "/ˈprɒs.ə.di/", dev: "प्रॉसडी", hi: "लय, सुर व उच्चारण का प्रवाह", en: "Natural English prosody relies on rhythm and stress.", hiEx: "स्वाभाविक अंग्रेज़ी प्रवाह लय और तनाव पर निर्भर करता है।" },
+    { lemma: "intonation", ipa: "/ˌɪn.təˈneɪ.ʃən/", dev: "इन्टोनेशन", hi: "सुर का उतार-चढ़ाव", en: "Use falling intonation for definitive statements.", hiEx: "निश्चयात्मक वाक्यों के लिए गिरते सुर का प्रयोग करें।" },
+    { lemma: "fluency", ipa: "/ˈfluː.ən.si/", dev: "फ्लूएन्सी", hi: "धाराप्रवाह प्रवाह", en: "Daily active practice develops effortless speaking fluency.", hiEx: "दैनिक अभ्यास से सहज धाराप्रवाह प्रवाह विकसित होता है।" },
+    { lemma: "eloquence", ipa: "/ˈel.ə.kwəns/", dev: "एलोक़्वन्स", hi: "वाकपटुता / प्रभावशाली वक्तृत्व", en: "Her eloquence captivated the international audience.", hiEx: "उनकी वाकपटुता ने अंतरराष्ट्रीय दर्शकों को मंत्रमुग्ध कर दिया।" },
+    { lemma: "comprehension", ipa: "/ˌkɒm.prɪˈhen.ʃən/", dev: "कॉम्प्रिहेन्शन", hi: "गहन समझ व बोध", en: "Listening drills sharpen contextual comprehension.", hiEx: "सुनने के अभ्यास से समझ तेज होती है।" },
+    { lemma: "dexterity", ipa: "/dekˈster.ə.ti/", dev: "डेक्सटेरिटी", hi: "निपुणता / भाषाई चपलता", en: "Mental dexterity enables rapid vocabulary recall.", hiEx: "मानसिक निपुणता त्वरित शब्द स्मरण को सक्षम बनाती है।" },
+    { lemma: "versatility", ipa: "/ˌvɜː.səˈtɪl.ə.ti/", dev: "वर्सटैलिटी", hi: "बहुमुखी प्रतिभा", en: "Language versatility allows switching between formal and informal registers.", hiEx: "भाषाई बहुमुखी प्रतिभा विभिन्न शैलियों में सहज बदलाव की अनुमति देती है।" },
+    { lemma: "coherence", ipa: "/kəʊˈhɪə.rəns/", dev: "कोहीरन्स", hi: "स्पष्टता व तार्किकता", en: "Maintain logical coherence throughout your argument.", hiEx: "अपने तर्क में तार्किक स्पष्टता बनाए रखें।" },
+    { lemma: "precision", ipa: "/prɪˈsɪʒ.ən/", dev: "प्रिसिजन", hi: "सटीकता / यथार्थता", en: "Technical writing requires absolute lexical precision.", hiEx: "तकनीकी लेखन में पूर्ण सटीकता की आवश्यकता होती है।" },
+    { lemma: "proficiency", ipa: "/prəˈfɪʃ.ən.si/", dev: "प्रफ़िशन्सी", hi: "प्रवीणता / विशेषज्ञता", en: "Attain CEFR B1+ proficiency upon completing Stage 5.", hiEx: "स्टेज 5 पूरा करने पर प्रवीणता प्राप्त करें।" },
+    { lemma: "discourse", ipa: "/ˈdɪs.kɔːs/", dev: "डिस्कोर्स", hi: "प्रवचन / बौद्धिक वार्तालाप", en: "Engage in meaningful cross-cultural discourse.", hiEx: "सार्थक अंतर-सांस्कृतिक संवाद में भाग लें।" }
+  ])
+};

@@ -1,0 +1,1842 @@
+[
+  {
+    "num": "1",
+    "title": "Hello! Introducing Yourself",
+    "unitId": "unit_a1_1",
+    "grammarTitle": "Grammar: The Present Tense of \"BE\" & Question Structures",
+    "patterns": [
+      "Affirmative: Subject + BE (am / is / are) + [Info]"
+    ]
+  },
+  {
+    "num": "2",
+    "title": "Occupations, Workplaces & Indefinite Articles",
+    "unitId": "unit_a1_1",
+    "grammarTitle": "Indefinite Articles (A / An) with Occupations",
+    "patterns": [
+      "Subject + Verb BE + a/an + Profession",
+      "Subject + Verb BE + not + a/an + Profession",
+      "Verb BE + Subject + a/an + Profession?"
+    ]
+  },
+  {
+    "num": "3",
+    "title": "Family Members, Relationships & Possessives",
+    "unitId": "unit_a1_1",
+    "grammarTitle": "Possessive 's (Genitive) & Possessive Adjectives",
+    "patterns": [
+      "Name + 's + Family Member + is a/an + Profession",
+      "How many + [Plural Family Noun] + do you have?"
+    ]
+  },
+  {
+    "num": "4",
+    "title": "Everyday Objects, Personal Belongings & Demonstratives",
+    "unitId": "unit_a1_1",
+    "grammarTitle": "Demonstratives (This/That/These/Those) & Noun Plural Formation",
+    "patterns": [
+      "This/That + is + a/an + Singular Noun",
+      "These/Those + are + Plural Noun"
+    ]
+  },
+  {
+    "num": "5",
+    "title": "Numbers 0–100, Age, Time & Contact Information",
+    "unitId": "unit_a1_1",
+    "grammarTitle": "Age Construction with BE & Number Mechanics",
+    "patterns": [
+      "Subject + Verb BE + [Number] + (years old)",
+      "It is + [Hour] + o'clock / half past + [Hour]"
+    ]
+  },
+  {
+    "num": "6",
+    "title": "Colors, Descriptions & Basic Adjectives",
+    "unitId": "unit_a1_1",
+    "patterns": [
+      "Adjective Position: Before Nouns & After BE",
+      "Adjective Opposites & Intensifier \"Very\""
+    ]
+  },
+  {
+    "num": "7",
+    "title": "Places in the City & Prepositions of Location",
+    "unitId": "unit_a1_1",
+    "patterns": [
+      "Prepositions of Place (Spatial Location)",
+      "Asking Existence: \"Is there a...?\" & \"There is a...\""
+    ]
+  },
+  {
+    "num": "8",
+    "title": "Daily Routines & Present Simple (I, You, We, They)",
+    "unitId": "unit_a1_1",
+    "patterns": [
+      "Present Simple Affirmative (I, You, We, They)",
+      "Preposition \"At\" with Clock Times"
+    ]
+  },
+  {
+    "num": "9",
+    "title": "Present Simple Third-Person Singular (He, She, It)",
+    "unitId": "unit_a1_1",
+    "patterns": [
+      "Third-Person Singular Spelling Rules (-s, -es, -ies)",
+      "Pronunciation of Final -s Ending: /s/, /z/, /ɪz/"
+    ]
+  },
+  {
+    "num": "10",
+    "title": "Days of the Week & Adverbs of Frequency",
+    "unitId": "unit_a1_1",
+    "patterns": [
+      "Placement of Frequency Adverbs",
+      "Prepositions: ON days, AT times/night, IN parts of day"
+    ]
+  },
+  {
+    "num": "11",
+    "title": "Present Simple Negative (Don't / Doesn't)",
+    "unitId": "unit_a1_1",
+    "patterns": [
+      "Present Simple Negative Structure (Don't / Doesn't)",
+      "Negative Possession: \"doesn't have\" (Never \"*doesn't has*\")"
+    ]
+  },
+  {
+    "num": "12",
+    "title": "Present Simple Questions & Short Answers (Do / Does)",
+    "unitId": "unit_a1_1",
+    "patterns": [
+      "Present Simple Yes/No Questions & Short Answers",
+      "WH- Information Questions (What, Where, When, Why, How)"
+    ]
+  },
+  {
+    "num": "13",
+    "title": "Food, Drinks & Ordering at a Café (Some / Any / A / An)",
+    "unitId": "unit_a1_1",
+    "patterns": [
+      "Countable vs. Uncountable Nouns (A/An vs. Some)",
+      "Some vs. Any Rules"
+    ]
+  },
+  {
+    "num": "14",
+    "title": "Hobbies, Preferences & Free Time (Like / Love / Hate + -ing)",
+    "unitId": "unit_a1_1",
+    "patterns": [
+      "Preference Verbs + Gerund (-ing) or Noun",
+      "Prefer X to Y Structure"
+    ]
+  },
+  {
+    "num": "15",
+    "title": "Abilities, Skills & Polite Requests (Can / Can't)",
+    "unitId": "unit_a1_1",
+    "patterns": [
+      "Modal Verb Can & Can't (Affirmative & Negative)",
+      "Can Questions & Short Answers"
+    ]
+  },
+  {
+    "num": "16",
+    "title": "Home & Rooms in the House (There is / There are)",
+    "unitId": "unit_a1_2",
+    "patterns": [
+      "There is / There are (Existential Statements)",
+      "Questions with Is there...? / Are there...?"
+    ]
+  },
+  {
+    "num": "17",
+    "title": "Furniture, Household Objects & Prepositions of Location",
+    "unitId": "unit_a1_2",
+    "patterns": [
+      "Prepositions of Location (next to, behind, in front of, opposite, above, under)",
+      "Locating Items: Where is...? / Where are...?"
+    ]
+  },
+  {
+    "num": "18",
+    "title": "Morning to Night: Extended Daily Routines & Time Sequencing",
+    "unitId": "unit_a1_2",
+    "patterns": [
+      "Time Sequencing Connectors (First, Then, After that, Next, Finally)",
+      "Present Simple for Habitual Schedules with Time Prepositions"
+    ]
+  },
+  {
+    "num": "19",
+    "title": "Transportation, Commuting & Travel Methods",
+    "unitId": "unit_a1_2",
+    "patterns": [
+      "Prepositions of Transportation: \"by\" vs \"on\" vs \"in\"",
+      "Verbs of Movement (Take / Catch / Ride / Drive / Walk)"
+    ]
+  },
+  {
+    "num": "20",
+    "title": "Asking for & Giving Street Directions (Imperatives & Navigation)",
+    "unitId": "unit_a1_2",
+    "patterns": [
+      "Imperatives for Street Directions (Base Verb Form)",
+      "Polite Direction Questions (Excuse me + How do I get to...?)"
+    ]
+  },
+  {
+    "num": "21",
+    "title": "Food, Supermarket Shopping & Countable / Uncountable Nouns",
+    "unitId": "unit_a1_2",
+    "patterns": [
+      "Countable vs. Uncountable Food Nouns",
+      "Quantifiers: \"Some\" vs \"Any\"",
+      "Asking Quantities: \"How much\" vs \"How many\""
+    ]
+  },
+  {
+    "num": "22",
+    "title": "Ordering in a Restaurant & Café Conversations",
+    "unitId": "unit_a1_2",
+    "patterns": [
+      "Polite Ordering: \"I would like...\" / \"I'd like...\"",
+      "Asking for Recommendations & Inquiring Ingredients"
+    ]
+  },
+  {
+    "num": "23",
+    "title": "Clothing, Colors, Sizes & Department Store Shopping",
+    "unitId": "unit_a1_2",
+    "patterns": [
+      "Demonstratives: This, That, These, Those",
+      "Expressing Excess: \"Too\" + Adjective"
+    ]
+  },
+  {
+    "num": "24",
+    "title": "Weather, Seasons, Climate & Outdoor Plans",
+    "unitId": "unit_a1_2",
+    "patterns": []
+  },
+  {
+    "num": "25",
+    "title": "Hobbies, Free Time & Expressing Likes & Dislikes",
+    "unitId": "unit_a1_2",
+    "patterns": []
+  },
+  {
+    "num": "26",
+    "title": "Abilities, Skills & Permission (Modal \"Can / Can't\")",
+    "unitId": "unit_a1_2",
+    "patterns": [
+      "The Modal Verb CAN: Invariant Form & Bare Infinitive",
+      "Questions and Short Answers with CAN",
+      "Asking for & Giving Permission with CAN / CAN'T"
+    ]
+  },
+  {
+    "num": "27",
+    "title": "Health, Physical Sensations & Doctor Visits (Have / Feel)",
+    "unitId": "unit_a1_2",
+    "patterns": [
+      "Expressing Illnesses & Symptoms: HAVE + a/an + Noun",
+      "Expressing Physical Sensations: FEEL + Adjective",
+      "Describing Pain: [Body Part] + HURT / HURTS"
+    ]
+  },
+  {
+    "num": "28",
+    "title": "Past States & Whereabouts (Was / Were)",
+    "unitId": "unit_a1_2",
+    "patterns": [
+      "Past Simple of \"TO BE\": WAS vs. WERE Distribution",
+      "Questions with Was / Were: Direct Inversion (No \"Did\")",
+      "Past Time Expressions: Yesterday, Last, Ago, In + Year"
+    ]
+  },
+  {
+    "num": "29",
+    "title": "Past Actions & Stories (Simple Past Verbs)",
+    "unitId": "unit_a1_2",
+    "patterns": [
+      "Affirmative Past Simple: Regular Verbs (-ed) & Core Irregular Verbs",
+      "Negative Past Simple: Subject + DIDN'T + Bare Infinitive (Base Verb)",
+      "Questions with DID: \"Did + Subject + Base Verb?\""
+    ]
+  },
+  {
+    "num": "30",
+    "title": "Future Plans & Capstone Review (Be Going To)",
+    "unitId": "unit_a1_2",
+    "patterns": [
+      "Structure of \"BE GOING TO\": Subject + [am/is/are] + going to + Base Verb",
+      "Negative & Interrogative with \"BE GOING TO\"",
+      "Unit 2 Capstone Integration: Present, Past & Future Synthesis"
+    ]
+  },
+  {
+    "num": "31",
+    "title": "Making, Accepting & Declining Invitations",
+    "unitId": "unit_a1_3",
+    "grammarTitle": "Invitations: Making, Accepting & Politely Declining",
+    "patterns": [
+      "Making Invitations: Would you like to + Base Verb",
+      "Accepting vs Declining Politely with Reasons"
+    ]
+  },
+  {
+    "num": "32",
+    "title": "Appointments, Schedules & Making Reservations",
+    "unitId": "unit_a1_3",
+    "grammarTitle": "Time Prepositions & Booking Modals",
+    "patterns": [
+      "Prepositions of Time: AT (precise time), ON (days/dates), IN (months/parts of day)",
+      "Polite Booking Requests: Could I / I'd like to + Verb"
+    ]
+  },
+  {
+    "num": "33",
+    "title": "Object Pronouns & Giving Gifts or Help (me, you, him, her, it, us, them)",
+    "unitId": "unit_a1_3",
+    "grammarTitle": "Subject vs. Object Pronouns & Double-Object Verbs",
+    "patterns": [
+      "Subject Pronoun vs. Object Pronoun Mapping",
+      "Verbs with Two Objects: Give / Send / Show / Tell"
+    ]
+  },
+  {
+    "num": "34",
+    "title": "Possessive Pronouns & Belongings (Whose / mine, yours, ours, theirs)",
+    "unitId": "unit_a1_3",
+    "grammarTitle": "Possessive Adjectives vs. Possessive Pronouns",
+    "patterns": [
+      "Adjective vs. Pronoun Contrast Matrix",
+      "Whose Questions for Ownership"
+    ]
+  },
+  {
+    "num": "35",
+    "title": "Hotel Check-In, Rooms & Guest Services (Facilities & Requests)",
+    "unitId": "unit_a1_3",
+    "grammarTitle": "Hotel Requests & Ordinal Floor Numbers",
+    "patterns": [
+      "Polite Hotel Requests: Could I / Could we have + Noun",
+      "Ordinal Numbers with Floor Levels"
+    ]
+  },
+  {
+    "num": "36",
+    "title": "Long-Distance Travel & Airport Navigation (Flights, Luggage & Gates)",
+    "unitId": "unit_a1_3",
+    "grammarTitle": "Airport Prepositions & Present Continuous Flight States",
+    "patterns": [
+      "Airport Location Prepositions: AT / ON / IN",
+      "Present Continuous for Active Airport States"
+    ]
+  },
+  {
+    "num": "37",
+    "title": "Comparing Everyday Things (Comparative Adjectives)",
+    "unitId": "unit_a1_3",
+    "grammarTitle": "Comparative Adjective Rules (Short, Long & Irregular)",
+    "patterns": [
+      "Short Adjectives: Adjective + ER + than",
+      "Long & Irregular Adjectives: MORE + Adjective + than / Irregulars"
+    ]
+  },
+  {
+    "num": "38",
+    "title": "Superlative Adjectives (The Biggest, The Best, The Most...)",
+    "unitId": "unit_a1_3",
+    "grammarTitle": "Superlative Adjectives (Short, Long & Irregular)",
+    "patterns": [
+      "Short Adjectives: The + Adjective + EST",
+      "Long & Irregular Adjectives: The Most + Adjective / The Best & Worst"
+    ]
+  },
+  {
+    "num": "39",
+    "title": "Talking About the Past (Regular Simple Past Verbs -ed)",
+    "unitId": "unit_a1_3",
+    "grammarTitle": "Regular Simple Past Verbs (-ed) & Past Time Expressions",
+    "patterns": [
+      "Regular Past Verb Spelling Rules",
+      "Pronunciation of -ed: /t/, /d/, and /ɪd/"
+    ]
+  },
+  {
+    "num": "40",
+    "title": "Talking About the Past (High-Frequency Irregular Verbs)",
+    "unitId": "unit_a1_3",
+    "grammarTitle": "Irregular Simple Past Verbs (Common Forms & Patterns)",
+    "patterns": [
+      "Core Movement & Possession Irregulars",
+      "Sensory, Communication & Action Irregulars"
+    ]
+  },
+  {
+    "num": "41",
+    "title": "Past Simple Negatives & Questions (did not / didn't, Did you...?)",
+    "unitId": "unit_a1_3",
+    "grammarTitle": "Past Simple Negatives & Question Formations",
+    "patterns": [
+      "Negative Past: Subject + didn't + BASE VERB",
+      "Past Questions: (Wh-) + Did + Subject + BASE VERB?"
+    ]
+  },
+  {
+    "num": "42",
+    "title": "Expressing Obligations, Needs & Rules (Must, Have to, Need to)",
+    "unitId": "unit_a1_3",
+    "grammarTitle": "Obligations, Prohibitions & Lack of Necessity (Must, Have to, Need to)",
+    "patterns": [
+      "Must vs Mustn't (Obligation vs Prohibition)",
+      "Have to vs Don't Have to (Obligation vs Lack of Necessity)"
+    ]
+  },
+  {
+    "num": "43",
+    "title": "Future Intentions & Predictions with \"Will\" & \"Won't\"",
+    "unitId": "unit_a1_3",
+    "grammarTitle": "Future with Will / Won't & Contractions",
+    "patterns": [
+      "Spontaneous Decisions & Offers: Subject + will ('ll) + BASE VERB",
+      "Predictions & Negative Future: Subject + won't + BASE VERB / Will + Subject...?"
+    ]
+  },
+  {
+    "num": "44",
+    "title": "Future Plans & Arrangements (Be Going To & Present Continuous)",
+    "unitId": "unit_a1_3",
+    "grammarTitle": "Future Plans: Be Going To vs Present Continuous vs Will",
+    "patterns": [
+      "Be Going To: Prior Intentions & Evidence-Based Predictions",
+      "Present Continuous for Fixed Personal Arrangements"
+    ]
+  },
+  {
+    "num": "45",
+    "title": "Unit 3 Comprehensive Review & Milestone A1 Capstone",
+    "unitId": "unit_a1_3",
+    "grammarTitle": "Unit 3 Capstone Grand Review: 5 Core Pillars",
+    "patterns": [
+      "Pillar 1 & 2: Past Narrative & Comparative Scaling",
+      "Pillar 3, 4 & 5: Quantifiers, Modals & Future Architecture"
+    ]
+  },
+  {
+    "num": "46",
+    "title": "Workplace Routines, Office Items & Daily Professional Tasks",
+    "unitId": "unit_a1_4",
+    "grammarTitle": "Workplace Frequency & Present Simple Daily Routines",
+    "patterns": [
+      "Subject + Frequency Adverb + Verb",
+      "Third-Person Singular Routine Verbs"
+    ]
+  },
+  {
+    "num": "47",
+    "title": "Making Requests, Inquiries & Asking for Clarification",
+    "unitId": "unit_a1_4",
+    "grammarTitle": "Polite Modal Inquiries & Clarification Patterns",
+    "patterns": [
+      "Could you + Base Verb (Polite Request)",
+      "What / How Question Patterns for Clarification"
+    ]
+  },
+  {
+    "num": "48",
+    "title": "Customer Service, Returns, Exchanges & Store Policies",
+    "unitId": "unit_a1_4",
+    "grammarTitle": "Expressing Problems & Polite Customer Requests (Too + Adjective & Would Like)",
+    "patterns": [
+      "Too + Adjective (Excess or Problem)",
+      "I would like + Noun / to Verb (Polite Request)"
+    ]
+  },
+  {
+    "num": "49",
+    "title": "Banking, Money, Payments & Financial Transactions",
+    "unitId": "unit_a1_4",
+    "grammarTitle": "Prepositions of Payment & How Much Inquiries",
+    "patterns": [
+      "Pay + by card / in cash",
+      "How much + Uncountable Noun / Is Questions"
+    ]
+  },
+  {
+    "num": "50",
+    "title": "Post Office, Deliveries, Mail & Sending Packages",
+    "unitId": "unit_a1_4",
+    "grammarTitle": "Comparative Adjectives & Shipping Inquiries (Faster / Cheaper)",
+    "patterns": [
+      "Comparative Adjectives (-er than / more ___ than)",
+      "How long does it take + to arrive?"
+    ]
+  },
+  {
+    "num": "51",
+    "title": "Emergencies, Urgent Help, Safety & Reporting Incidents",
+    "unitId": "unit_a1_4",
+    "grammarTitle": "Imperatives for Safety & Reporting in Past Simple",
+    "patterns": [
+      "Emergency Imperatives (Positive & Negative)",
+      "Past Simple Incident Statements"
+    ]
+  },
+  {
+    "num": "52",
+    "title": "Neighborhood Places, Community Services & Local Facilities",
+    "unitId": "unit_a1_4",
+    "grammarTitle": "Compound Prepositions of Place & There is / There are in Neighborhoods",
+    "patterns": [
+      "Compound Prepositions of Place",
+      "There is / There are for Local Facilities"
+    ]
+  },
+  {
+    "num": "53",
+    "title": "Describing Past Experiences, Holidays & Memorable Events",
+    "unitId": "unit_a1_4",
+    "grammarTitle": "Past Simple Consolidation & Time Markers (Ago, Last, Yesterday)",
+    "patterns": [
+      "Past Simple Affirmative Statements",
+      "Past Simple Questions with \"Did\""
+    ]
+  },
+  {
+    "num": "54",
+    "title": "Expressing Opinions, Giving Reasons & Connecting Ideas",
+    "unitId": "unit_a1_4",
+    "grammarTitle": "Conjunctions of Cause & Contrast (Because, So, But, Although)",
+    "patterns": [
+      "Cause and Result (Because vs. So)",
+      "Contrast (But vs. Although)"
+    ]
+  },
+  {
+    "num": "55",
+    "title": "Future Intentions, Plans & Predictions (going to / will)",
+    "unitId": "unit_a1_4",
+    "grammarTitle": "Future Forms: \"Be Going To\" vs. \"Will\"",
+    "patterns": [
+      "Be Going To + Base Verb (Prior Plans & Intentions)",
+      "Will + Base Verb (Instant Decisions, Offers, Predictions)"
+    ]
+  },
+  {
+    "num": "56",
+    "title": "Hobbies, Free Time, Entertainment & Creative Passions",
+    "unitId": "unit_a1_4",
+    "grammarTitle": "Verbs of Preference + Gerunds (-ing) & The Definite Article with Instruments",
+    "patterns": [
+      "Verbs of Preference + Gerund (-ing)",
+      "Play + THE instrument vs. Play + sport (no article)"
+    ]
+  },
+  {
+    "num": "57",
+    "title": "Technology, Devices, The Internet & Digital Life",
+    "unitId": "unit_a1_4",
+    "grammarTitle": "Separable Phrasal Verbs of Technology & Imperatives for Digital Actions",
+    "patterns": [
+      "Separable Phrasal Verbs (Turn on it ❌ -> Turn it on ✅)",
+      "Digital Instructions with Imperatives"
+    ]
+  },
+  {
+    "num": "58",
+    "title": "Social Invitations, Plans, Accepting & Declining Politely",
+    "unitId": "unit_a1_4",
+    "grammarTitle": "Polite Formulas with \"Would like to\" & \"Have to\" for Obligations",
+    "patterns": [
+      "Polite Invitations: Would you like to...?",
+      "Polite Declining with \"have to\" (Obligation)"
+    ]
+  },
+  {
+    "num": "59",
+    "title": "Life Milestones, Personal Biographies & Life Stories",
+    "unitId": "unit_a1_4",
+    "grammarTitle": "Narrative Past Tense with Time Sequencers & \"Was Born\"",
+    "patterns": [
+      "Was / Were Born (Passive Past)",
+      "Narrative Time Sequencers"
+    ]
+  },
+  {
+    "num": "60",
+    "title": "A1 Comprehensive Capstone, Fluency Checkpoint & Graduation!",
+    "unitId": "unit_a1_4",
+    "grammarTitle": "Comprehensive CEFR A1 Tense & Structure Synthesis",
+    "patterns": [
+      "Present vs. Past vs. Future Master Matrix",
+      "Questions & Modals Synthesis (Can, Could, Would like, Have to)"
+    ]
+  },
+  {
+    "num": "61",
+    "title": "Workplace Collaboration, Team Meetings & Status Updates",
+    "unitId": "unit_a1_5",
+    "grammarTitle": "Present Continuous for Ongoing Projects & Temporary Workplace Tasks",
+    "patterns": [
+      "Subject + be (am/is/are) + Verb-ing",
+      "Contrasting Routines vs. In-Progress Actions"
+    ]
+  },
+  {
+    "num": "62",
+    "title": "Telephone Calls, Voicemails & Taking Messages",
+    "unitId": "unit_a1_5",
+    "grammarTitle": "Polite Modals for Telephone Inquiries (May I, Could you, Would you like to)",
+    "patterns": [
+      "May I + base verb (Polite Self-Requests & Offers)",
+      "Could you + base verb (Polite Requests to the Listener)"
+    ]
+  },
+  {
+    "num": "63",
+    "title": "Scheduling Appointments, Confirmations & Rescheduling",
+    "unitId": "unit_a1_5",
+    "grammarTitle": "Prepositions of Time for Scheduling (at + time, on + day/date, in + month/season)",
+    "patterns": [
+      "at + Specific Clock Time",
+      "on + Days and Dates | in + Parts of the Day"
+    ]
+  },
+  {
+    "num": "64",
+    "title": "Transportation Inquiries, Ticket Booking & Travel Delays",
+    "unitId": "unit_a1_5",
+    "grammarTitle": "WH- Questions with Public Transit & Future Timetables (Present Simple for Schedules)",
+    "patterns": [
+      "Present Simple for Official Timetables",
+      "WH- Question Formation (Which, What time, Where)"
+    ]
+  },
+  {
+    "num": "65",
+    "title": "Hotel Stays, Check-In, Room Amenities & Special Requests",
+    "unitId": "unit_a1_5",
+    "grammarTitle": "Polite Requests with \"Could we have...\" & Ordinal Numbers for Floor Locations (on the 1st, 2nd, 3rd floor)",
+    "patterns": [
+      "Could we have + noun phrase + please?",
+      "Ordinal Numbers & Floor Locations: on + the + Ordinal + floor"
+    ]
+  },
+  {
+    "num": "66",
+    "title": "Dining Out Preferences, Food Allergies & Custom Orders",
+    "unitId": "unit_a1_5",
+    "grammarTitle": "Expressing Dietary Restrictions with \"be allergic to\" & Polite Requests with \"Could I have [X] without [Y]?\"",
+    "patterns": [
+      "Subject + be (am/is/are) + allergic to + Noun",
+      "Could I have + Dish + without + Ingredient / with + Sauce + on the side"
+    ]
+  },
+  {
+    "num": "67",
+    "title": "Describing Symptoms, Pharmacy & Healthcare Consultations",
+    "unitId": "unit_a1_5",
+    "grammarTitle": "Describing Aches & Pains with \"have a + ache/pain\" and Modal \"should\" for Medical Advice",
+    "patterns": [
+      "Subject + have / has + a + [Ache / Symptom]",
+      "Modal \"should\" for Advice & Instructions: should + base verb"
+    ]
+  },
+  {
+    "num": "68",
+    "title": "Housing, Renting an Apartment & Household Repairs",
+    "unitId": "unit_a1_5",
+    "grammarTitle": "There is / There are for Housing Features & Present Continuous for Malfunctions (is leaking / is dripping / is not working)",
+    "patterns": [
+      "There is / There are + Apartment Features",
+      "Present Continuous for Active Maintenance Issues: Subject + is/are + verb-ing"
+    ]
+  },
+  {
+    "num": "69",
+    "title": "Bank Services, Online Accounts & Financial Security",
+    "unitId": "unit_a1_5",
+    "grammarTitle": "Polite Requests with \"I need to...\" & Obligation Modals (must / have to / should) for Financial Tasks",
+    "patterns": [
+      "Subject + need to / would like to + base verb",
+      "Obligation & Security Rules: must / have to + base verb"
+    ]
+  },
+  {
+    "num": "70",
+    "title": "Formal & Informal Emails, Inquiries & Professional Tone",
+    "unitId": "unit_a1_5",
+    "grammarTitle": "Formal Email Writing: Present Continuous Purpose (\"I am writing to...\") & Polite Future Closings (\"I look forward to hearing...\")",
+    "patterns": [
+      "I am writing to + [inquire about / confirm / request / inform you]",
+      "I look forward to + verb-ing (hearing / meeting / working with you)"
+    ]
+  },
+  {
+    "num": "71",
+    "title": "Job Applications, Resumes & Work Experience",
+    "unitId": "unit_a1_5",
+    "grammarTitle": "Past Simple for Completed Roles (graduated / worked / managed) vs. Present Perfect for Ongoing Career Tenure (have worked for 3 years)",
+    "patterns": [
+      "Past Simple for Completed Jobs & Education",
+      "Present Perfect for Accumulated Career Tenure: have/has + Past Participle"
+    ]
+  },
+  {
+    "num": "72",
+    "title": "Job Interviews, Professional Strengths & Career Goals",
+    "unitId": "unit_a1_5",
+    "grammarTitle": "Expressing Personal Strengths with \"Gerunds after Prepositions\" (good at solving / interested in leading) & Future Predictions with \"will\" and \"see myself\"",
+    "patterns": [
+      "Subject + be + good at / skilled at / interested in + Verb-ing",
+      "Future Career Vision: In [X] years, I see myself + verb-ing / I hope to + base verb"
+    ]
+  },
+  {
+    "num": "73",
+    "title": "Community Services, Post Office, Local Library & Civic Inquiries",
+    "unitId": "unit_a1_5",
+    "grammarTitle": "How questions with duration (\"How long does it take?\") & Passive Voice in Public Service Notices (\"Books are borrowed for 3 weeks\")",
+    "patterns": [
+      "How long does it take to + base verb?",
+      "Simple Present Passive for Rules: Subject + is/are + Past Participle"
+    ]
+  },
+  {
+    "num": "74",
+    "title": "Emergencies, Urgent Reporting, First Aid & Calling for Help",
+    "unitId": "unit_a1_5",
+    "grammarTitle": "Imperatives for Emergency Instructions & Stating Vital Conditions with Present Continuous (is bleeding / is breathing / is choking)",
+    "patterns": [
+      "Emergency Imperatives (Commands & Instructions)",
+      "Present Continuous for Ongoing Medical Emergencies"
+    ]
+  },
+  {
+    "num": "75",
+    "title": "Comprehensive Unit 5 Milestone & A1 Capstone Mastery",
+    "unitId": "unit_a1_5",
+    "grammarTitle": "Comprehensive A1 Syntactic Synthesis: Tense Mastery (Present Simple, Continuous, Past Simple, Present Perfect, Future) & Modal Verbs",
+    "patterns": [
+      "Mastery of Tense Contrast in Spoken & Written English",
+      "Polite Modals & Direct Commands in Diverse Social Contexts"
+    ]
+  },
+  {
+    "num": "76",
+    "title": "Workplace Problem-Solving & Requesting Assistance",
+    "unitId": "unit_a1_6",
+    "grammarTitle": "Connecting Causes & Effects: \"Because\" vs. \"So\"",
+    "patterns": [
+      "Cause with \"Because\" (Result + because + Reason)",
+      "Result with \"So\" (Reason + , so + Result)"
+    ]
+  },
+  {
+    "num": "77",
+    "title": "Professional Follow-Ups, Rescheduling & Calendar Adjustments",
+    "unitId": "unit_a1_6",
+    "grammarTitle": "Polite Proposing & Asking with \"Would you mind\" / \"Could we\"",
+    "patterns": [
+      "Would you mind if we + Past / Base form",
+      "Proposing times with \"Could we meet on [Day] at [Time]?\""
+    ]
+  },
+  {
+    "num": "78",
+    "title": "Travel Disruptions, Missed Connections & Luggage Inquiries",
+    "unitId": "unit_a1_6",
+    "grammarTitle": "Sequencing Past Events: First, Then, After That, Finally",
+    "patterns": [
+      "Sequence Adverbs with Past Simple",
+      "Explaining Missing Items with \"Did not + Base Verb\""
+    ]
+  },
+  {
+    "num": "79",
+    "title": "Hotel Special Requests, Room Issues & Checkout Queries",
+    "unitId": "unit_a1_6",
+    "grammarTitle": "Polite Hotel Requests: \"There seems to be...\" & \"Is it possible to...?\"",
+    "patterns": [
+      "Reporting Issues with \"There seems to be + [Noun]\"",
+      "Requesting Services with \"Is it possible to + Base Verb?\""
+    ]
+  },
+  {
+    "num": "80",
+    "title": "Dining Experiences, Dietary Preferences & Resolving Order Mistakes",
+    "unitId": "unit_a1_6",
+    "grammarTitle": "Dietary Inquiries & Polite Restaurant Clarifications",
+    "patterns": [
+      "Ingredient Inquiries: Does this + contain + [Noun]?",
+      "Polite Order Corrections: I ordered [X], but I received [Y]"
+    ]
+  },
+  {
+    "num": "81",
+    "title": "Healthcare Consultations, Medical Advice & Prescription Instructions",
+    "unitId": "unit_a1_6",
+    "grammarTitle": "Describing Symptoms & Durations: \"For\" vs. \"Since\"",
+    "patterns": [
+      "Duration of Symptoms with \"For\" (Period of Time)",
+      "Starting Point of Symptoms with \"Since\" (Specific Point in Time)"
+    ]
+  },
+  {
+    "num": "82",
+    "title": "Reporting Emergencies, Urgent Assistance & Roadside Breakdowns",
+    "unitId": "unit_a1_6",
+    "grammarTitle": "Emergency Reporting: Present Perfect for Recent Incidents",
+    "patterns": [
+      "Present Perfect for Urgent Recent Events: \"There has been...\" / \"Subject + has + V3\"",
+      "Imperatives & Urgent Modals: \"Please send...\" & \"We need...\""
+    ]
+  },
+  {
+    "num": "83",
+    "title": "Workplace Collaboration, Progress Updates & Scheduling Meetings",
+    "unitId": "unit_a1_6",
+    "grammarTitle": "Workplace Progress & Availability: Present Continuous vs. Present Perfect",
+    "patterns": [
+      "Ongoing Tasks: Subject + am/is/are + currently + V-ing",
+      "Proposing Meeting Times: \"Would [Time] work for you?\""
+    ]
+  },
+  {
+    "num": "84",
+    "title": "Academic Discussions, Assignment Instructions & Study Collaborations",
+    "unitId": "unit_a1_6",
+    "grammarTitle": "Academic Obligations & Passive Instructions: \"Be required to\" & \"Must be formatted\"",
+    "patterns": [
+      "Academic Obligations: Subject + be + required to + Base Verb",
+      "Passive Formatting Instructions: [Item] + must be + Past Participle"
+    ]
+  },
+  {
+    "num": "85",
+    "title": "Community Inquiries, Civic Services & Local Governance",
+    "unitId": "unit_a1_6",
+    "grammarTitle": "Civic Inquiries & Reporting: \"Where can I + Verb\" & \"Who is responsible for + V-ing\"",
+    "patterns": [
+      "Municipal Inquiries: \"Where can I + Base Verb?\" & \"Could you tell me where...?\"",
+      "Jurisdiction Inquiries: \"Who is responsible for + Gerund (V-ing)?\""
+    ]
+  },
+  {
+    "num": "86",
+    "title": "Cultural Discussions, Traditions & Celebrating Festivals",
+    "unitId": "unit_a1_6",
+    "grammarTitle": "Cultural Descriptions: \"It is customary to...\" & \"Symbolizes + Noun\"",
+    "patterns": [
+      "Describing Cultural Practices: It is customary to + Base Verb",
+      "Explaining Symbolism: Subject + symbolizes / represents + [Concept]"
+    ]
+  },
+  {
+    "num": "87",
+    "title": "Environmental Awareness, Recycling & Sustainable Habits",
+    "unitId": "unit_a1_6",
+    "grammarTitle": "Modal Recommendations & Habitual Actions: \"We should / ought to\" & \"By + V-ing\"",
+    "patterns": [
+      "Environmental Duties: Subject + should / ought to + Base Verb",
+      "Explaining Methods with \"By + Gerund (V-ing)\""
+    ]
+  },
+  {
+    "num": "88",
+    "title": "Scientific Discoveries, Space & Natural Phenomena",
+    "unitId": "unit_a1_6",
+    "grammarTitle": "Scientific Facts & Conditionals: Zero Conditional (\"When / If + Present, Present\")",
+    "patterns": [
+      "Zero Conditional (Universal Natural Laws): If / When + Present Simple, Present Simple",
+      "Scientific Cause & Effect: Subject + causes / leads to + [Noun Phrase]"
+    ]
+  },
+  {
+    "num": "89",
+    "title": "Future Visions, Innovations, Goals & Predictions",
+    "unitId": "unit_a1_6",
+    "grammarTitle": "Future Forecasts & First Conditionals: \"Will definitely / probably\", \"Is likely to\", & \"If + Present, Will + Verb\"",
+    "patterns": [
+      "Degrees of Future Certainty: Subject + will definitely / will probably / might + Base Verb",
+      "First Conditional Predictions: If + Present Simple, Future Simple (will + Base Verb)"
+    ]
+  },
+  {
+    "num": "90",
+    "title": "A1 Mastery Milestone, Comprehensive Bridge Review & A2 Transition Synthesis",
+    "unitId": "unit_a1_6",
+    "grammarTitle": "A1 Grand Synthesis: Multi-Tense Cohesion & Discourse Linking",
+    "patterns": [
+      "Multi-Tense Narrative Synthesis: Past → Present → Future",
+      "Bridging to A2: Complex Sentences with Subordinating Conjunctions (Although, Because, As soon as, If)"
+    ]
+  },
+  {
+    "num": "91",
+    "title": "Daily Routines, Habits & Frequency Adverbs",
+    "unitId": "unit_a2_7",
+    "grammarTitle": "Adverbs of Frequency & Intensifiers in Present Simple",
+    "patterns": [
+      "Adverb of Frequency with Main Verbs",
+      "Adverb of Frequency with Verb TO BE",
+      "Modifying Descriptions with Intensifiers"
+    ]
+  },
+  {
+    "num": "92",
+    "title": "Ongoing Activities vs. Habits (Present Simple vs. Continuous)",
+    "unitId": "unit_a2_7",
+    "grammarTitle": "Present Simple vs. Present Continuous & Stative Verbs",
+    "patterns": [
+      "Present Simple for Permanent Truths & Routines",
+      "Present Continuous for Temporary / Ongoing Situations",
+      "Stative Verbs (No Continuous Form)"
+    ]
+  },
+  {
+    "num": "93",
+    "title": "Past Experiences & Completed Events (Past Simple)",
+    "unitId": "unit_a2_7",
+    "grammarTitle": "Past Simple Affirmative, Negative & Question Formation",
+    "patterns": [
+      "Past Simple Regular & Irregular Affirmative",
+      "Past Simple Negative with \"didn't\"",
+      "Past Simple Questions with \"Did\""
+    ]
+  },
+  {
+    "num": "94",
+    "title": "Storytelling & Narrative Sequencing Connectors",
+    "unitId": "unit_a2_7",
+    "grammarTitle": "Narrative Linkers & Sentence Connectors",
+    "patterns": [
+      "Sequential Time Markers",
+      "Interrupting Actions with \"Suddenly\" & \"Meanwhile\"",
+      "Cause, Contrast & Consequence Linkers"
+    ]
+  },
+  {
+    "num": "95",
+    "title": "Giving Reasons, Causes & Results",
+    "unitId": "unit_a2_7",
+    "grammarTitle": "Cause, Consequence & Concession Connectors",
+    "patterns": [
+      "Because (Clause) vs. Because of (Noun Phrase)",
+      "Expressing Consequence with \"so\" and \"therefore\"",
+      "Expressing Concession with \"Although\""
+    ]
+  },
+  {
+    "num": "96",
+    "title": "Shopping, Quantities & Transactions",
+    "unitId": "unit_a2_7",
+    "grammarTitle": "Countable vs. Uncountable Nouns & Quantifiers",
+    "patterns": [
+      "Countable Nouns with \"Many\" & \"A Few\"",
+      "Uncountable Nouns with \"Much\" & \"A Little\"",
+      "Universal Quantifiers: \"A lot of\", \"Plenty of\" & \"Enough\""
+    ]
+  },
+  {
+    "num": "97",
+    "title": "Clothes, Styles & Shopping Comparisons",
+    "unitId": "unit_a2_7",
+    "grammarTitle": "Comparatives, \"Too\" & \"Enough\"",
+    "patterns": [
+      "Comparative Adjectives (-er vs. more)",
+      "Equative Comparisons (as ... as)",
+      "Fit Modifiers: \"Too\" and \"Enough\""
+    ]
+  },
+  {
+    "num": "98",
+    "title": "Eating Out, Menus & Polite Dining Requests",
+    "unitId": "unit_a2_7",
+    "grammarTitle": "Polite Requests & Modal Verbs in Dining",
+    "patterns": [
+      "Polite Ordering with \"Would like\"",
+      "Polite Requests with \"Could we have...\"",
+      "Dietary Inquiries & Conditionals"
+    ]
+  },
+  {
+    "num": "99",
+    "title": "Health, Symptoms & Medical Advice",
+    "unitId": "unit_a2_7",
+    "grammarTitle": "Expressing Symptoms & Giving Advice with Should / Shouldn't",
+    "patterns": [
+      "Describing Symptoms (Have vs Feel)",
+      "Giving Advice with \"Should\" and \"Shouldn't\""
+    ]
+  },
+  {
+    "num": "100",
+    "title": "Future Plans, Intentions & Fixed Arrangements",
+    "unitId": "unit_a2_7",
+    "grammarTitle": "Future with \"Be Going To\" vs. Present Continuous for Future",
+    "patterns": [
+      "Future Intentions with \"Be Going To\"",
+      "Fixed Arrangements with Present Continuous"
+    ]
+  },
+  {
+    "num": "101",
+    "title": "Opinions, Agreement & Polite Disagreement",
+    "unitId": "unit_a2_7",
+    "grammarTitle": "Expressing Opinions, Agreement & Diplomatic Disagreement",
+    "patterns": [
+      "Opinion Framing Clauses",
+      "Agreement & Polite Disagreement Structures"
+    ]
+  },
+  {
+    "num": "102",
+    "title": "Rules, Obligations & Permissions",
+    "unitId": "unit_a2_7",
+    "grammarTitle": "Modals of Obligation, Prohibition & Permission",
+    "patterns": [
+      "Obligation: Must vs. Have To",
+      "Prohibition (Mustn't) vs. Lack of Obligation (Don't have to)"
+    ]
+  },
+  {
+    "num": "103",
+    "title": "Future Plans, Intentions & Predictions",
+    "unitId": "unit_a2_7",
+    "grammarTitle": "Future Forms: \"Be Going To\", \"Will\", and Present Continuous for Arrangements",
+    "patterns": [
+      "Intentions & Plans (Be going to + base verb)",
+      "Spontaneous Decisions, Promises & Predictions (Will + base verb)",
+      "Fixed Arrangements (Present Continuous + Future Time)"
+    ]
+  },
+  {
+    "num": "104",
+    "title": "Digital Life, Apps & Modern Communication",
+    "unitId": "unit_a2_7",
+    "grammarTitle": "Essential Phrasal Verbs in Technology & Gerund vs Infinitive after Verbs",
+    "patterns": [
+      "Technology Phrasal Verbs (Separable vs Inseparable)",
+      "Gerunds & Infinitives with Tech Activities"
+    ]
+  },
+  {
+    "num": "105",
+    "title": "Unit 7 Milestone Review & A2 Communication Mastery",
+    "unitId": "unit_a2_7",
+    "grammarTitle": "Comprehensive Unit 7 Grammar Integration: Modals, Futures, Opinions & Past Narratives",
+    "patterns": [
+      "Mastery Matrix: Obligation vs Lack of Obligation vs Prohibition",
+      "Future Forms Discrimination: Plans vs Spontaneous vs Schedule"
+    ]
+  },
+  {
+    "num": "106",
+    "title": "Describing People: Appearance, Personality & Character Traits",
+    "unitId": "unit_a2_8",
+    "grammarTitle": "Describing Appearance vs Personality: \"Look Like\" vs \"Look\" & Adjective Order",
+    "patterns": [
+      "Look Like + Noun Phrase (Appearance / Resemblance)",
+      "Look + Adjective (Visual State / Impression)",
+      "Adjective Ordering in Descriptions"
+    ]
+  },
+  {
+    "num": "107",
+    "title": "Relationships, Social Circles & Keeping in Touch",
+    "unitId": "unit_a2_8",
+    "grammarTitle": "Reciprocal Pronouns (\"Each Other\") & Phrasal Verbs in Relationships",
+    "patterns": [
+      "Reciprocal Pronoun \"Each Other\"",
+      "Phrasal Verb \"Get Along With\"",
+      "Maintaining Contact: \"Keep in Touch\" & \"Catch Up\""
+    ]
+  },
+  {
+    "num": "108",
+    "title": "Home & Neighborhood Issues: Describing Problems & Repairs",
+    "unitId": "unit_a2_8",
+    "grammarTitle": "Passive Adjectives, \"There is Something Wrong With...\" & Need + Gerund",
+    "patterns": [
+      "Diagnosing Problems with \"There is Something Wrong With\"",
+      "Passive Participle Adjectives (Broken, Clogged, Leaking, Stuck)",
+      "Expressing Need for Repair (Need + -ing / Need to be + Past Participle)"
+    ]
+  },
+  {
+    "num": "109",
+    "title": "Travel Experiences & Unforeseen Journey Problems",
+    "unitId": "unit_a2_8",
+    "grammarTitle": "Past Continuous vs Past Simple with \"When\" & \"While\"",
+    "patterns": [
+      "Background Action Interrupted by an Event (While + Past Continuous, Past Simple)",
+      "Interrupting Event with \"When\" (Past Continuous + When + Past Simple)",
+      "Sequencing Past Events (First, Then, After that, Finally)"
+    ]
+  },
+  {
+    "num": "110",
+    "title": "Making Recommendations, Suggestions & Giving Friendly Advice",
+    "unitId": "unit_a2_8",
+    "grammarTitle": "Modals for Advice (Should / Shouldn't) & Making Suggestions (Why don't you / How about)",
+    "patterns": [
+      "Giving Advice with Should / Shouldn't",
+      "Suggestions with \"Why don't you...?\" (Bare Infinitive)",
+      "Suggestions with \"How about / What about + -ing\""
+    ]
+  },
+  {
+    "num": "111",
+    "title": "Customer Service: Polite Complaints, Faulty Items & Returns",
+    "unitId": "unit_a2_8",
+    "grammarTitle": "Polite Requests, Indirect Complaints & Conditional Return Phrases",
+    "patterns": [
+      "Polite Requests with \"I would like to...\" & \"Could you please...\"",
+      "Softening Complaints with \"I am afraid that...\"",
+      "Explaining Reasons with \"Because\" & \"Due to\""
+    ]
+  },
+  {
+    "num": "112",
+    "title": "Workplace Communication: Daily Tasks, Updates & Short Messages",
+    "unitId": "unit_a2_8",
+    "grammarTitle": "Verb + Object + To-Infinitive (Reporting Workplace Instructions) & \"Have got to\"",
+    "patterns": [
+      "Reporting Requests & Orders (Verb + Object + To-Infinitive)",
+      "Expressing Immediate Obligation with \"Have got to\"",
+      "Giving Short Status Updates (Present Continuous & Present Perfect)"
+    ]
+  },
+  {
+    "num": "113",
+    "title": "Appointments, Scheduling & Rescheduling Meetings",
+    "unitId": "unit_a2_8",
+    "grammarTitle": "Polite Inquiries (Would it be possible to...), Time Prepositions (At, On, In) & Phrasal Verbs",
+    "patterns": [
+      "Polite Rescheduling Inquiries with \"Would it be possible to...\"",
+      "Time Prepositions in Scheduling (At, On, In)",
+      "Phrasal Verbs for Calendar Adjustments (Push Back vs Bring Forward)"
+    ]
+  },
+  {
+    "num": "114",
+    "title": "Education, Courses & Learning Experiences",
+    "unitId": "unit_a2_8",
+    "grammarTitle": "\"Used to + Infinitive\" (Past Habits & States) vs Present Simple & \"Learn how to + Verb\"",
+    "patterns": [
+      "Past Habits with \"Used to + Infinitive\"",
+      "Acquiring Skills with \"Learn How to + Base Verb\"",
+      "Proficiency with \"Good at + Gerund (-ing)\""
+    ]
+  },
+  {
+    "num": "115",
+    "title": "Digital Life, Online Communication & Technical Problems",
+    "unitId": "unit_a2_8",
+    "grammarTitle": "Zero & First Conditionals for Technical Instructions & Real Possibilities",
+    "patterns": [
+      "Zero Conditional (General Tech Facts & System Rules)",
+      "First Conditional (Troubleshooting Suggestions & Future Consequences)"
+    ]
+  },
+  {
+    "num": "116",
+    "title": "Describing Objects, Materials & Everyday Inventions",
+    "unitId": "unit_a2_8",
+    "grammarTitle": "Passive Voice (Present Simple & Past Simple) for Describing Objects & Inventions",
+    "patterns": [
+      "Present Simple Passive (Materials & Manufacturing)",
+      "Past Simple Passive (Inventions & Historical Discoveries)",
+      "Describing Purpose with \"Used for + -ing\" vs \"Used to + Verb\""
+    ]
+  },
+  {
+    "num": "117",
+    "title": "Health, Minor Illnesses & Pharmacy Advice",
+    "unitId": "unit_a2_8",
+    "grammarTitle": "Health Expressions (Have got a + Ailment), Imperatives & Frequency Prepositions for Dosage",
+    "patterns": [
+      "Describing Symptoms with \"Have got a / an + Noun\"",
+      "Medication Dosage Instructions (Imperatives + Frequency)",
+      "Warning About Side Effects (May / Might + Verb)"
+    ]
+  },
+  {
+    "num": "118",
+    "title": "Life Transitions, Celebrations, Festivals & Milestone Events",
+    "unitId": "unit_a2_8",
+    "grammarTitle": "Talking About Past Customs (\"Used to\") & Celebrating Life Milestones (\"Present Perfect & Wishes\")",
+    "patterns": [
+      "Contrasting Past Traditions with \"Used To\"",
+      "Polite Formal Wishes & Congratulations Structures"
+    ]
+  },
+  {
+    "num": "119",
+    "title": "Global Travel, Holidays, Airport Navigation & Hotel Situations",
+    "unitId": "unit_a2_8",
+    "grammarTitle": "Polite Indirect Questions & Airport/Hotel Modals",
+    "patterns": [
+      "Polite Indirect Question Formation",
+      "Making Polite Requests with Modals (\"Would you mind...\", \"Could we possibly...\")"
+    ]
+  },
+  {
+    "num": "120",
+    "title": "Unit 8 Comprehensive A2 Capstone, Real-World Fluency Review & Mastery Assessment",
+    "unitId": "unit_a2_8",
+    "grammarTitle": "Complete CEFR A2 Integrated Grammar Matrix",
+    "patterns": [
+      "Narrative Time Matrix (Past Simple, Past Continuous & Present Perfect)",
+      "Polite Inquiries & Conditional Decision Matrix"
+    ]
+  },
+  {
+    "num": "121",
+    "title": "Life Milestones, Growing Up & Personal Background",
+    "unitId": "unit_a2_9",
+    "grammarTitle": "Talking About Past Habits vs Specific Past Events: \"Used To\" vs Past Simple",
+    "patterns": [
+      "\"Used to + Base Verb\" for Past Habits & States",
+      "Past Simple for Specific Completed Milestones",
+      "Time Clauses with \"When\" and \"While\""
+    ]
+  },
+  {
+    "num": "122",
+    "title": "Present Perfect for Life Experiences (\"Have you ever...?\")",
+    "unitId": "unit_a2_9",
+    "grammarTitle": "Present Perfect for Life Experiences: Form, Function & \"Ever / Never\"",
+    "patterns": [
+      "Affirmative & Negative Present Perfect Statements",
+      "Questions with \"Ever\" for Life Experiences",
+      "\"Been to\" (Visited & Returned) vs \"Gone to\" (Still Away)"
+    ]
+  },
+  {
+    "num": "123",
+    "title": "Present Perfect vs. Past Simple (Unspecified vs. Specific Time)",
+    "unitId": "unit_a2_9",
+    "grammarTitle": "Present Perfect vs. Past Simple: The Conversation Funnel Technique",
+    "patterns": [
+      "Present Perfect for General Experience (No Finished Time Marker)",
+      "Past Simple for Specific Time Markers & Story Details",
+      "The Experience-to-Detail Dialogue Flow"
+    ]
+  },
+  {
+    "num": "124",
+    "title": "Present Perfect with \"Just\", \"Already\", and \"Yet\"",
+    "unitId": "unit_a2_9",
+    "grammarTitle": "Present Perfect with \"Just\", \"Already\", and \"Yet\": Word Order & Functions",
+    "patterns": [
+      "\"Just\" for Very Recent Actions",
+      "\"Already\" for Actions Completed Ahead of Schedule",
+      "\"Yet\" in Negatives and Questions (End Position)"
+    ]
+  },
+  {
+    "num": "125",
+    "title": "Expressing Duration: Present Perfect with \"For\" and \"Since\"",
+    "unitId": "unit_a2_9",
+    "grammarTitle": "Present Perfect for Ongoing States: \"For\" (Duration) vs \"Since\" (Starting Point)",
+    "patterns": [
+      "\"For\" + Total Duration of Time (Quantity)",
+      "\"Since\" + Specific Starting Point (Date / Event)",
+      "Asking Duration: \"How long have you + V3...?\""
+    ]
+  },
+  {
+    "num": "126",
+    "title": "Workplace Collaboration, Delegating Tasks & Status Updates",
+    "unitId": "unit_a2_9",
+    "grammarTitle": "Polite Delegation & Status Reporting: Modals and Gerund Patterns",
+    "patterns": [
+      "Polite Requests with \"Could you please...\" and \"Would you mind...?\"",
+      "Expressing Task Ownership & Delegation with Modals",
+      "Reporting Project Status with Prepositional Phrases"
+    ]
+  },
+  {
+    "num": "127",
+    "title": "Travel Disruptions, Flight Delays & Lost Luggage Solutions",
+    "unitId": "unit_a2_9",
+    "grammarTitle": "Narrating Travel Crises: Past Continuous Interrupted by Past Simple",
+    "patterns": [
+      "Background Situation (Past Continuous) + Sudden Disruption (Past Simple)",
+      "Polite Requests for Assistance & Vouchers",
+      "Describing Missing Luggage Accurately"
+    ]
+  },
+  {
+    "num": "128",
+    "title": "Housing, Renting, Landlords & Household Maintenance",
+    "unitId": "unit_a2_9",
+    "grammarTitle": "Reporting Household Faults & Making Polite Requests to Landlords",
+    "patterns": [
+      "Reporting Faults: \"There is a problem with...\" / \"is broken\"",
+      "Polite Repair Requests: \"Could you send someone to...?\"",
+      "Lease & Tenancy Rules: \"Must / Have to + Base Verb\""
+    ]
+  },
+  {
+    "num": "129",
+    "title": "Giving Advice & Making Recommendations",
+    "unitId": "unit_a2_9",
+    "grammarTitle": "Giving Advice & Suggestions: \"Should\", \"Why Don't You\", and \"If I Were You\"",
+    "patterns": [
+      "Modals for Advice: \"Should / Shouldn't\" & \"Ought to\"",
+      "Friendly Suggestions: \"Why don't you...?\" & \"You could try...\"",
+      "Hypothetical Empathetic Advice: \"If I were you, I would...\""
+    ]
+  },
+  {
+    "num": "130",
+    "title": "Making Complaints & Seeking Solutions in Customer Service",
+    "unitId": "unit_a2_9",
+    "grammarTitle": "Polite Complaint Formulas & Remedial Requests",
+    "patterns": [
+      "Diplomatic Openings for Complaints",
+      "Requesting Specific Remedies with Modals",
+      "Escalating Politely: \"May I / Could I speak to...\""
+    ]
+  },
+  {
+    "num": "131",
+    "title": "Health, Minor Illnesses, Pharmacies & Medical Consultations",
+    "unitId": "unit_a2_9",
+    "grammarTitle": "Describing Symptoms & Understanding Medical Dosage Instructions",
+    "patterns": [
+      "Describing Symptoms: \"have a...\" vs \"feel...\"",
+      "Imperatives for Dosage Instructions",
+      "Declaring Allergies: \"be allergic to...\""
+    ]
+  },
+  {
+    "num": "132",
+    "title": "Environmental Awareness, Sustainable Living & Recycling",
+    "unitId": "unit_a2_9",
+    "grammarTitle": "Expressing Ecological Obligation & Practical Suggestions: \"Must\", \"Should\", and \"Have to\"",
+    "patterns": [
+      "Strong Collective Duty with \"Must\"",
+      "Sensible Recommendations with \"Should\"",
+      "Practical Necessity with \"Have to / Need to\""
+    ]
+  },
+  {
+    "num": "133",
+    "title": "Hobbies, Arts, Creativity & Musical Interests",
+    "unitId": "unit_a2_9",
+    "grammarTitle": "Verbs of Preference: Gerunds vs. Infinitives & \"Play the + Instrument\"",
+    "patterns": [
+      "Verbs Followed by Gerund (-ing)",
+      "Verbs Taking Either Gerund or Infinitive",
+      "Musical Instruments: \"Play THE + Instrument\""
+    ]
+  },
+  {
+    "num": "134",
+    "title": "Future Aspirations, Career Goals & Life Ambitions",
+    "unitId": "unit_a2_9",
+    "grammarTitle": "Future Intentions & Ambitions: \"Hope to\", \"Plan to\", and \"Going to\"",
+    "patterns": [
+      "Verbs of Intention + Infinitive",
+      "Premeditated Decisions with \"be going to\"",
+      "Polite Ambition with \"Would like to\""
+    ]
+  },
+  {
+    "num": "135",
+    "title": "Unit 9 Review, A2 Level Consolidation & Integrated Milestone Mastery",
+    "unitId": "unit_a2_9",
+    "grammarTitle": "Comprehensive Unit 9 Grammar Synthesis & Mastery Matrix",
+    "patterns": [
+      "Mastery Matrix 1: Travel, Navigation & Dining Formulas",
+      "Mastery Matrix 2: Comparisons & Customer Redress",
+      "Mastery Matrix 3: Health, Environment, Arts & Ambitions"
+    ]
+  },
+  {
+    "num": "136",
+    "title": "Work Responsibilities, Team Roles & Daily Tasks",
+    "unitId": "unit_a2_10",
+    "grammarTitle": "Expressing Workplace Obligation & Necessity: \"Have to\", \"Need to\", \"Must\" vs \"Don't have to\"",
+    "patterns": [
+      "Obligation and External Rules: \"Have to + Base Verb\"",
+      "Absence of Obligation: \"Don't have to / Doesn't have to\"",
+      "Asking About Responsibilities & Requirements"
+    ]
+  },
+  {
+    "num": "137",
+    "title": "Workplace Problem-Solving & Dealing with Delays",
+    "unitId": "unit_a2_10",
+    "grammarTitle": "Cause and Effect in Professional Contexts: \"Because\", \"Due to / Because of\", \"As a Result\", \"So\"",
+    "patterns": [
+      "Explaining Causes with \"Because\" (Clause) vs \"Due to / Because of\" (Noun Phrase)",
+      "Showing Consequences: \"As a result\" and \"So\"",
+      "Politely Requesting Deadline Adjustments"
+    ]
+  },
+  {
+    "num": "138",
+    "title": "Scheduling Meetings, Appointments & Resolving Conflicts",
+    "unitId": "unit_a2_10",
+    "grammarTitle": "Scheduling, Proposing Times & Politely Declining Meeting Slots",
+    "patterns": [
+      "Proposing Times and Slots: \"Could we meet at...\", \"How about...?\"",
+      "Politely Declining with Alternatives: \"I'm afraid I can't, but I can do...\"",
+      "Checking Suitability: \"Does that work for you?\", \"Would that suit you?\""
+    ]
+  },
+  {
+    "num": "139",
+    "title": "Travel Logistics, Booking Adjustments & Itinerary Changes",
+    "unitId": "unit_a2_10",
+    "grammarTitle": "Expressing Preferences & Making Polite Travel Requests: \"Would prefer to\" vs \"Would rather\"",
+    "patterns": [
+      "Expressing Preference with \"Would prefer to + Verb\"",
+      "Expressing Preference with \"Would rather + Base Verb\"",
+      "Polite Inquiries with \"Is there any chance of...?\" & \"Could I possibly...?\""
+    ]
+  },
+  {
+    "num": "140",
+    "title": "Navigating City Services, Public Transport & Local Facilities",
+    "unitId": "unit_a2_10",
+    "grammarTitle": "Polite Indirect Questions for City Directions & Public Inquiries",
+    "patterns": [
+      "Wh- Indirect Questions: Introductory Phrase + Question Word + Subject + Verb",
+      "Yes/No Indirect Questions with \"If\" or \"Whether\"",
+      "Asking for Directions: \"How do I get to...?\" & Prepositions of Movement"
+    ]
+  },
+  {
+    "num": "141",
+    "title": "Housing Problems, Repairs & Landlord Negotiations",
+    "unitId": "unit_a2_10",
+    "grammarTitle": "Describing Faults & Requesting Repairs: \"Needs Fixing\" vs \"Needs to Be Fixed\"",
+    "patterns": [
+      "Describing Things That Require Repair: \"Need + Gerund (-ing)\" & \"Need + to be + Past Participle\"",
+      "Politely Requesting Landlord Assistance: \"Could you please send someone over to...?\"",
+      "Describing States with Adjectives and Participles: \"is broken\", \"is leaking\", \"is clogged\""
+    ]
+  },
+  {
+    "num": "142",
+    "title": "Managing Utility Bills, Energy Usage & Home Automation",
+    "unitId": "unit_a2_10",
+    "grammarTitle": "Giving Advice & Making Recommendations for Utilities: \"Ought to\", \"Should\", \"Had better\"",
+    "patterns": [
+      "Mild to Strong Advice: \"Should\", \"Ought to\", and \"Had better\"",
+      "Comparative Reductions: \"Less... than\", \"Fewer... than\", \"As much as\"",
+      "Disputing Discrepancies Politely with \"I believe there has been...\""
+    ]
+  },
+  {
+    "num": "143",
+    "title": "Medical Consultations, Prescriptions & Describing Symptoms",
+    "unitId": "unit_a2_10",
+    "grammarTitle": "Describing Symptoms & Durations: Present Perfect Continuous (\"have been feeling... for / since\")",
+    "patterns": [
+      "Present Perfect Continuous for Ongoing Symptoms",
+      "Expressing Medical Instructions with Imperatives & Modals",
+      "Stating Allergies & Disclosures: \"I am allergic to...\""
+    ]
+  },
+  {
+    "num": "144",
+    "title": "Health Insurance, Claim Processes & Pharmacy Interactions",
+    "unitId": "unit_a2_10",
+    "grammarTitle": "Passive Structures in Insurance & Medical Rules: \"is covered\", \"was reimbursed\", \"must be submitted\"",
+    "patterns": [
+      "Present Passive for General Rules & Coverage",
+      "Modal Passive for Requirements & Obligations",
+      "Inquiring About Coverage: \"Is [treatment] covered by...?\""
+    ]
+  },
+  {
+    "num": "145",
+    "title": "Automotive Needs, Car Rentals & Roadside Assistance",
+    "unitId": "unit_a2_10",
+    "grammarTitle": "Conditional Advice for Emergencies & Describing Immediate Actions: \"If your car breaks down, you should...\"",
+    "patterns": [
+      "Emergency Conditionals with Imperatives and Modals",
+      "Reporting Locations with Prepositions of Place & Proximity",
+      "Describing Mechanical States with Past Participles: \"is drained\", \"is punctured\", \"is dented\""
+    ]
+  },
+  {
+    "num": "146",
+    "title": "Emergency Services, Reporting Incidents & Urgent Support",
+    "unitId": "unit_a2_10",
+    "grammarTitle": "Emergency Communication: Direct Imperatives for First Aid & Narrative Past for Incidents",
+    "patterns": [
+      "Emergency First-Aid Imperatives",
+      "Narrating Incident Sequences: Past Continuous + Past Simple",
+      "Describing Vital Signs and State: \"Is breathing\", \"Is conscious\""
+    ]
+  },
+  {
+    "num": "147",
+    "title": "Community Volunteering, Local Initiatives & Neighborhood Projects",
+    "unitId": "unit_a2_10",
+    "grammarTitle": "Making Suggestions & Invitations for Collaborative Action: \"Why don't we\", \"How about + V-ing\", \"Let's\", \"We could\"",
+    "patterns": [
+      "Suggestion Patterns: \"Why don't we + Base Verb\" vs \"How about + Gerund (-ing)\"",
+      "Direct Collaborative Imperative: \"Let's + Base Verb\"",
+      "Gentle Possibility: \"We could + Base Verb\""
+    ]
+  },
+  {
+    "num": "148",
+    "title": "Environmental Sustainability, Waste Management & Green Living",
+    "unitId": "unit_a2_10",
+    "grammarTitle": "Conditionals for Environmental Cause & Effect: Zero Conditional (General Truths) & First Conditional (Future Outcomes)",
+    "patterns": [
+      "Zero Conditional for Scientific Facts & General Truths",
+      "First Conditional for Real Future Consequences & Sustainability Pledges",
+      "Imperatives in Conditional Clauses for Action Guidance"
+    ]
+  },
+  {
+    "num": "149",
+    "title": "Job Hunting, Basic CVs & Entry-Level Job Interviews",
+    "unitId": "unit_a2_10",
+    "grammarTitle": "Professional Discourse: Contrasting Present Perfect (Overall Experience) & Past Simple (Specific Prior Jobs)",
+    "patterns": [
+      "Present Perfect for Cumulative Experience & Duration",
+      "Past Simple for Specific Completed Roles & Past Timelines",
+      "Describing Skills with \"Good at + Gerund\" & \"Experienced in + Noun\""
+    ]
+  },
+  {
+    "num": "150",
+    "title": "Unit 10 Comprehensive Review & CEFR A2 Cumulative Mastery Synthesis",
+    "unitId": "unit_a2_10",
+    "grammarTitle": "A2 Grand Synthesis: Combining Modals, Conditionals, Passives, and Multi-Tense Fluency",
+    "patterns": [
+      "Multi-Tense Narrative Integration: Past Simple, Present Perfect, and Future Intentions",
+      "Mastery of Conditionals & Cause-Effect Relationships",
+      "Polite Formal Registers: Passive Voice, Inquiries & Suggestion Formulas"
+    ]
+  },
+  {
+    "num": "151",
+    "title": "Teamwork Dynamics, Collaborating on Tasks & Dividing Roles",
+    "unitId": "unit_a2_11",
+    "grammarTitle": "Expressing Purpose with Infinitives & Contrastive Coordination",
+    "patterns": [
+      "Infinitive of Purpose: \"to + verb\" & \"in order to + verb\"",
+      "Contrastive Clauses: \"whereas\" & \"however\"",
+      "Correlative Addition: \"both ... and ...\""
+    ]
+  },
+  {
+    "num": "152",
+    "title": "Giving Constructive Feedback & Explaining Reasons",
+    "unitId": "unit_a2_11",
+    "grammarTitle": "Giving Diplomatic Advice & Explaining Causes (\"Because of\", \"Due to\", \"Since\")",
+    "patterns": [
+      "Explaining Causes with Noun Phrases: \"because of\" vs \"due to\"",
+      "Explaining Causes with Full Clauses: \"since\" & \"as\"",
+      "Diplomatic Feedback Formulas: \"You might want to...\" & \"Why not...?\""
+    ]
+  },
+  {
+    "num": "153",
+    "title": "Handling Misunderstandings & Asking for Clarification",
+    "unitId": "unit_a2_11",
+    "grammarTitle": "Clarification Inquiries & Polite Indirect Questions",
+    "patterns": [
+      "Polite Indirect Yes/No Questions: \"Could you tell me if / whether...\"",
+      "Polite Indirect Information Questions: \"Do you know where / when / who...\"",
+      "Active Paraphrasing for Comprehension: \"If I understand correctly...\""
+    ]
+  },
+  {
+    "num": "154",
+    "title": "Recommending Options & Comparing Alternatives",
+    "unitId": "unit_a2_11",
+    "grammarTitle": "Intensifying Comparatives & Structures of Equality (\"Not as ... as\")",
+    "patterns": [
+      "Intensifying Comparatives: \"much / far / slightly + Comparative\"",
+      "Comparisons of Equality and Inequality: \"(not) as ... as\"",
+      "Recommending the Best Option: \"If you ask me...\", \"I would go with...\""
+    ]
+  },
+  {
+    "num": "155",
+    "title": "Planning Social Events, Celebrations & Organizing Activities",
+    "unitId": "unit_a2_11",
+    "grammarTitle": "Future Arrangements (Present Continuous) & Group Suggestions (\"Shall We\")",
+    "patterns": [
+      "Fixed Social Arrangements: Present Continuous for Future",
+      "Collaborative Suggestions & Inquiries: \"Shall we ...?\"",
+      "Intentions and Preparations: \"be going to + Base Verb\""
+    ]
+  },
+  {
+    "num": "156",
+    "title": "Social Invitations, Accepting, Declining & Giving Excuses",
+    "unitId": "unit_a2_11",
+    "grammarTitle": "Polite Invitations, Refusals & Counter-Proposals with Modals",
+    "patterns": [
+      "Extending Invitations: \"Would you like to + Base Verb?\"",
+      "Diplomatic Declines: \"I'd love to, but I'm afraid...\"",
+      "Suggesting Alternative Plans: \"How about + Gerund / Noun + instead?\""
+    ]
+  },
+  {
+    "num": "157",
+    "title": "Discussing Current News, Local Events & Media Reports",
+    "unitId": "unit_a2_11",
+    "grammarTitle": "Passive Reporting Frames & Narrative Tenses in News Reporting",
+    "patterns": [
+      "Impersonal Reporting Frames: \"According to...\" & \"It is reported that...\"",
+      "Storytelling in News: Past Continuous + Past Simple",
+      "Reporting Official Actions: Passive Voice in News"
+    ]
+  },
+  {
+    "num": "158",
+    "title": "Personal Finance, Budgeting, Spending Habits & Smart Shopping",
+    "unitId": "unit_a2_11",
+    "grammarTitle": "First Conditional for Financial Planning & Money Phrasal Verbs",
+    "patterns": [
+      "First Conditional for Budget Decisions: \"If + Present, Will + Verb\"",
+      "Money Phrasal Verbs: \"cut down on\", \"put aside\", \"pay off\"",
+      "Giving Financial Advice: \"You should / You ought to...\""
+    ]
+  },
+  {
+    "num": "159",
+    "title": "Health, Fitness Habits, Wellness Routines & Healthy Choices",
+    "unitId": "unit_a2_11",
+    "grammarTitle": "Modals of Advice (\"Ought To\", \"Had Better\") & Health Imperatives",
+    "patterns": [
+      "Giving Wellness Advice: \"Ought to\" vs \"Should\"",
+      "Strong Warning / Urgent Advice: \"Had better + Base Verb\"",
+      "Clear Imperative Health Reminders: \"Make sure to...\" & \"Avoid + Gerund\""
+    ]
+  },
+  {
+    "num": "160",
+    "title": "Unit 11 Review & Mid-Unit Progress Check",
+    "unitId": "unit_a2_11",
+    "grammarTitle": "Integrated Grammar Matrix for Unit 11 (Lessons 151–159)",
+    "patterns": [
+      "Comparative Precision & Recommendations",
+      "Future Social Coordination & Modals",
+      "Advice & Conditionals in Daily Life"
+    ]
+  },
+  {
+    "num": "161",
+    "title": "Narrating Personal Journeys, Memorable Trips & Travel Misadventures",
+    "unitId": "unit_a2_11",
+    "grammarTitle": "Past Perfect (had + V3) vs. Past Simple & Narrative Connectors",
+    "patterns": [
+      "Sequencing with Past Perfect: \"had + Past Participle\"",
+      "Time Connectors: \"By the time\" + Past Simple, Past Perfect",
+      "Story Connectors: \"all of a sudden\", \"meanwhile\", \"eventually\""
+    ]
+  },
+  {
+    "num": "162",
+    "title": "Environmental Awareness, Sustainability & Daily Green Habits",
+    "unitId": "unit_a2_11",
+    "grammarTitle": "Modals of Future Possibility (\"will probably\", \"might\") & Eco-Conditionals",
+    "patterns": [
+      "Degrees of Future Certainty: \"will probably\" vs. \"might\"",
+      "Environmental First Conditionals: \"If we ..., our footprint will ...\"",
+      "Giving Eco-Friendly Advice: \"You can / should ... to reduce ...\""
+    ]
+  },
+  {
+    "num": "163",
+    "title": "Digital Communication, Remote Collaboration & Virtual Etiquette",
+    "unitId": "unit_a2_11",
+    "grammarTitle": "Expectation Modals (\"be supposed to\") & Polite Virtual Requests",
+    "patterns": [
+      "Workplace Expectations: \"be supposed to + Base Verb\"",
+      "Polite Requests: \"Would you mind + Verb-ing\"",
+      "Troubleshooting Formula: \"Your voice is ... / Could you possibly ...?\""
+    ]
+  },
+  {
+    "num": "164",
+    "title": "Customer Service, Returns, Exchanges & Formal Inquiries",
+    "unitId": "unit_a2_11",
+    "grammarTitle": "Indirect Questions for Polite Inquiries & Customer Etiquette",
+    "patterns": [
+      "Yes/No Indirect Questions: \"Could you tell me if / whether ...?\"",
+      "Wh- Indirect Questions: \"Do you know where / when / how ...?\"",
+      "Formal Politeness: \"I would appreciate it if you could + Base Verb\""
+    ]
+  },
+  {
+    "num": "165",
+    "title": "Unit 11 Capstone, Comprehensive A2 Culmination & Mastery Gateway",
+    "unitId": "unit_a2_11",
+    "grammarTitle": "Unit 11 Master Grammar Synthesis & Grand Assessment Matrix",
+    "patterns": [
+      "Past Narration vs. Future Conditionals",
+      "Polite Inquiries & Work Modals",
+      "High Courtesy & Tactful Requests"
+    ]
+  },
+  {
+    "num": "166",
+    "title": "Project Updates, Status Reports & Explaining Milestones",
+    "unitId": "unit_a2_12",
+    "grammarTitle": "Present Perfect vs Past Simple & Time Markers (already, yet, just)",
+    "patterns": [
+      "Present Perfect for Unspecified Recent Results vs Past Simple for Specific Time",
+      "Positioning \"already\", \"just\", and \"yet\""
+    ]
+  },
+  {
+    "num": "167",
+    "title": "Explaining Work & Technical Problems Clearly",
+    "unitId": "unit_a2_12",
+    "grammarTitle": "Cause-and-Result Connectors & State Passives",
+    "patterns": [
+      "Cause and Result Connectors (because of, due to, therefore, as a result)",
+      "State Passives for Problem Descriptions (be / get + past participle)"
+    ]
+  },
+  {
+    "num": "168",
+    "title": "Proposing Creative Solutions & Brainstorming Alternatives",
+    "unitId": "unit_a2_12",
+    "grammarTitle": "Modals for Suggestions (could, might want to) & Suggestion Patterns (What if, How about)",
+    "patterns": [
+      "Polite Suggestion Modals (could / might want to)",
+      "Suggestion Clauses (What if we + present/past | How about + gerund)"
+    ]
+  },
+  {
+    "num": "169",
+    "title": "Negotiating Simple Arrangements & Making Compromises",
+    "unitId": "unit_a2_12",
+    "grammarTitle": "Conditional Linkers for Negotiation (as long as, unless, provided that)",
+    "patterns": [
+      "Positive Condition Linkers (as long as / provided that)",
+      "Negative Condition Linker (unless = except if)"
+    ]
+  },
+  {
+    "num": "170",
+    "title": "Making Plans with Constraints & Contingencies",
+    "unitId": "unit_a2_12",
+    "grammarTitle": "Contingency Clauses (in case of vs in case) & Future Ability (will be able to)",
+    "patterns": [
+      "\"in case of + noun\" vs \"in case + clause\"",
+      "Future Ability with \"will be able to\""
+    ]
+  },
+  {
+    "num": "171",
+    "title": "Organizing Group Trips, Itineraries & Logistics",
+    "unitId": "unit_a2_12",
+    "grammarTitle": "Prepositions of Time/Sequence (prior to, upon arrival, throughout) & Modals of Deduction (must be, can't be)",
+    "patterns": [
+      "Formal Time Sequencers (prior to, upon arrival, throughout)",
+      "Modals of Deduction (must be / can't be)"
+    ]
+  },
+  {
+    "num": "172",
+    "title": "Presenting Ideas, Pitches & Creative Concepts",
+    "unitId": "unit_a2_12",
+    "grammarTitle": "Discourse Markers for Presentations & Rhetorical Signposts",
+    "patterns": [
+      "Structuring a Presentation (Intro, Transitions, Conclusion)",
+      "Inviting and Addressing Q&A"
+    ]
+  },
+  {
+    "num": "173",
+    "title": "Problem-Solving, Brainstorming & Action Items",
+    "unitId": "unit_a2_12",
+    "grammarTitle": "Cause-and-Effect Linkers (due to, owing to) & Task Delegation Structures",
+    "patterns": [
+      "\"due to\" and \"owing to\" (+ Noun Phrase)",
+      "Delegating Action Items and Assigning Ownership"
+    ]
+  },
+  {
+    "num": "174",
+    "title": "Formal Invitations, RSVPs & Event Etiquette",
+    "unitId": "unit_a2_12",
+    "grammarTitle": "Formal Invitation Syntax, Polite Inquiries & RSVP Formulations",
+    "patterns": [
+      "Extending Formal Invitations",
+      "RSVP Formal Acceptance and Declination"
+    ]
+  },
+  {
+    "num": "175",
+    "title": "Navigating Cross-Cultural Etiquette & Social Nuances",
+    "unitId": "unit_a2_12",
+    "grammarTitle": "Hedging & Softening Language for Diplomacy (tend to, it might be better to, seem to)",
+    "patterns": [
+      "Habitual Generalizations with \"tend to + verb\"",
+      "Polite Suggestions with \"It might be better to...\""
+    ]
+  },
+  {
+    "num": "176",
+    "title": "Modern Remote Collaboration, Tools & Async Work",
+    "unitId": "unit_a2_12",
+    "grammarTitle": "Future Time Clauses (as soon as, once, by the time) with Present Tenses",
+    "patterns": [
+      "Time Clauses with \"as soon as\" & \"once\"",
+      "Time Clauses with \"by the time\""
+    ]
+  },
+  {
+    "num": "177",
+    "title": "Handling Constructive Feedback, Criticisms & Praise",
+    "unitId": "unit_a2_12",
+    "grammarTitle": "Phrasal Verbs for Developmental Feedback & Responding to Praise Professionally",
+    "patterns": [
+      "Phrasal Verbs for Improvement (point out, work on, build on)",
+      "Accepting Feedback & Praise Diplomatically"
+    ]
+  },
+  {
+    "num": "178",
+    "title": "Giving Impactful Presentations & Pitching Ideas",
+    "unitId": "unit_a2_12",
+    "grammarTitle": "Signposting & Discourse Markers for Structured Presentations",
+    "patterns": [
+      "Structuring Presentations with Signposts",
+      "Concluding and Inviting Audience Participation"
+    ]
+  },
+  {
+    "num": "179",
+    "title": "Complex Problem Solving & Decision Making",
+    "unitId": "unit_a2_12",
+    "grammarTitle": "Cause-and-Effect Connectors & Modals of Logical Deduction (must be, can't be)",
+    "patterns": [
+      "Cause Connectors (due to, as a result of)",
+      "Modals of Present Logical Deduction (must be, can't be)"
+    ]
+  },
+  {
+    "num": "180",
+    "title": "Unit 12 Capstone & A2 Level Comprehensive Graduation Mastery Gate",
+    "unitId": "unit_a2_12",
+    "grammarTitle": "Complete CEFR A2 Integrated Grammar Synthesis & Capstone Review",
+    "patterns": [
+      "Integrating Complex Structures for Sophisticated Expression",
+      "Mastering Confident Pre-Intermediate Discourse"
+    ]
+  }
+]
