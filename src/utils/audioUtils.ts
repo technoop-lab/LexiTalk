@@ -155,8 +155,15 @@ export const sanitizeSpokenAudioText = (rawText: string): string => {
   // Remove parenthetical notes e.g. "(teeth on lip)", "(Hindi Meaning)", "(Noun)", "(Verb)"
   text = text.replace(/\([^)]*\)/g, '');
 
-  // Clean extra whitespace and quotes
-  text = text.replace(/["'“”]/g, ' ');
+  // Normalize curly/smart single quotes to a straight apostrophe FIRST so
+  // contractions ("you're", "he's", "don't") survive sanitization intact.
+  text = text.replace(/[\u2018\u2019\u02BC\u00B4]/g, "'");
+
+  // Remove double quotes only. NEVER strip apostrophes here: stripping turns
+  // "he's" into "he s" and TTS engines then read letters ("you're" -> "you r e").
+  text = text.replace(/["“”]/g, ' ');
+
+  // Clean extra whitespace
   text = text.replace(/\s+/g, ' ').trim();
 
   return text;

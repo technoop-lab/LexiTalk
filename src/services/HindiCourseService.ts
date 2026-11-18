@@ -6,7 +6,10 @@ import {
   initializeCurriculumRegistry
 } from '../data/curriculumRegistry';
 
-export const HINDI_RELEASED_DAYS = 40;
+/**
+ * Get currently released lessons (Days 1-60 — full course, A1 → B1).
+ */
+export const HINDI_RELEASED_DAYS = 60;
 export const HINDI_DAY_XP_REWARD = 75;
 
 export const HINDI_COURSE_STAGES: HindiCourseStageMeta[] = STAGES_METADATA;
@@ -19,7 +22,7 @@ class HindiCourseManager {
   }
 
   /**
-   * Get currently released lessons (Days 1-40). Later days remain planned.
+   * Get currently released lessons (Days 1-60). The full course is released.
    */
   public getAllAvailableDays(): HindiDayLesson[] {
     return getAllRegistryDays().filter((day) => day.dayNumber <= HINDI_RELEASED_DAYS);
@@ -40,7 +43,7 @@ class HindiCourseManager {
   }
 
   /**
-   * Get a released lesson day by number (1..40).
+   * Get currently released lesson day by number (1..60).
    */
   public getDayByNumber(dayNum: number): HindiDayLesson | null {
     if (!Number.isInteger(dayNum) || dayNum < 1 || dayNum > HINDI_RELEASED_DAYS) return null;

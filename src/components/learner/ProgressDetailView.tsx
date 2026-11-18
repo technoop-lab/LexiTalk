@@ -732,7 +732,7 @@ export const ProgressDetailView: React.FC<ProgressDetailViewProps> = ({
                     Released Course Progress Map
                   </h3>
                   <p className="text-[10px] text-slate-500 dark:text-slate-400">
-                    Completed days and saved scores; Days 41–60 are planned, not released.
+                    Completed days and saved scores across the full 60-day path.
                   </p>
                 </div>
               </div>
@@ -789,7 +789,7 @@ export const ProgressDetailView: React.FC<ProgressDetailViewProps> = ({
                               setSelectedHeatmapDay(selectedHeatmapDay === dayNum ? null : dayNum);
                             }}
                             className={`h-8 rounded-lg border text-[10px] transition flex items-center justify-center btn-press ${dayNum > totalDays ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'} ${bgClass}`}
-                            title={dayNum <= totalDays ? `Day ${dayNum}` : `Day ${dayNum}: planned, not released`}
+                            title={dayNum <= totalDays ? `Day ${dayNum}` : `Day ${dayNum} (locked)`}
                           >
                             {dayNum}
                           </button>
@@ -1065,7 +1065,7 @@ export const ProgressDetailView: React.FC<ProgressDetailViewProps> = ({
                           {stats.isReleased ? `${stats.percent}%` : 'Planned'}
                         </span>
                         <span className="text-[9px] text-slate-500">
-                          {stats.isReleased ? `${stats.completedInStage}/10 Days` : 'Days 41–60 not released'}
+                          {stats.isReleased ? `${stats.completedInStage}/10 Days` : 'Stage locked'}
                         </span>
                       </div>
                     </div>
@@ -1087,7 +1087,7 @@ export const ProgressDetailView: React.FC<ProgressDetailViewProps> = ({
                             <span>{stats.curriculumGrammarRules} grammar rules in course lessons</span>
                           </>
                         ) : (
-                          <span>Days 41–60 are planned and not yet released</span>
+                          <span>Complete the previous stage to unlock this stage</span>
                         )}
                       </div>
                     </div>

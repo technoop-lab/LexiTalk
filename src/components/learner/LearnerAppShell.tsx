@@ -15,7 +15,10 @@ import {
   BarChart3,
   MessageSquare,
   Sun,
-  Moon
+  Moon,
+  LayoutGrid,
+  Layers,
+  SpellCheck
 } from 'lucide-react';
 import { UserAcademyProfile, CourseUnit, LessonNode } from '../../types';
 import { LearnerHomeDashboard } from './LearnerHomeDashboard';
@@ -69,7 +72,7 @@ export const LearnerAppShell: React.FC<LearnerAppShellProps> = ({
   const [activeTab, setActiveTab] = useState<LearnerNavTab>('HOME');
   const [activeHindiDay, setActiveHindiDay] = useState<HindiDayLesson | null>(null);
   const [practiceSubTab, setPracticeSubTab] = useState<
-    'hub' | 'conversation' | 'sentence' | 'dialogue' | 'skills' | 'review' | 'progress' | 'vocab' | 'grammar'
+    'hub' | 'daily' | 'conversation' | 'sentence' | 'dialogue' | 'skills' | 'review' | 'progress' | 'vocab' | 'grammar'
   >('hub');
 
   // Theme context
@@ -282,41 +285,106 @@ export const LearnerAppShell: React.FC<LearnerAppShellProps> = ({
               />
             )}
 
-            {/* TAB 4: PRACTICE (Unified Hub: Daily Practice, Conversation Lab, Sentence Builder, Dialogue, Review, Progress) */}
+            {/* TAB 4: PRACTICE (Hub menu → focused tool, with quick switcher inside) */}
             {activeTab === 'PRACTICE' && (
               <div className="flex flex-col space-y-4 p-4 sm:p-5 w-full max-w-lg mx-auto">
-                {/* Practice Hub Sub-Navigation */}
-                <div className="flex space-x-2 overflow-x-auto scrollbar-none py-1">
-                  {[
-                    { id: 'hub', label: 'Daily Practice', icon: Zap },
-                    { id: 'conversation', label: '🗣 Conversation Lab', icon: MessageSquare },
-                    { id: 'sentence', label: 'Sentence Builder', icon: BookOpen },
-                    { id: 'dialogue', label: 'Spoken Dialogue', icon: Sparkles },
-                    { id: 'skills', label: 'Skill Modules', icon: Compass },
-                    { id: 'review', label: 'Spaced Review', icon: RotateCcw },
-                    { id: 'progress', label: 'Progress & Tests', icon: BarChart3 },
-                  ].map((sub) => {
-                    const isCurrent = practiceSubTab === sub.id;
-                    return (
-                      <button
-                        key={sub.id}
-                        onClick={() => {
-                          playSoundEffectEffect('tap');
-                          setPracticeSubTab(sub.id as any);
-                        }}
-                        className={`px-4 py-2.5 rounded-2xl text-xs font-bold transition whitespace-nowrap flex items-center space-x-1.5 border min-h-[44px] cursor-pointer btn-press ${
-                          isCurrent
-                            ? 'bg-gradient-to-r from-[#335CFF] to-[#6D5DF6] text-white border-indigo-400/40 font-black shadow-md'
-                            : 'bg-white dark:bg-slate-900 border-[#D8E3FF] dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-850 hover:text-slate-900 dark:hover:text-white'
-                        }`}
-                      >
-                        <span>{sub.label}</span>
-                      </button>
-                    );
-                  })}
-                </div>
-
+                {/* PRACTICE HUB — main menu shown when no tool is open */}
                 {practiceSubTab === 'hub' && (
+                  <div className="space-y-3 animate-fade-in">
+                    <div className="flex items-center justify-between px-1">
+                      <div>
+                        <h2 className="text-xl font-black text-slate-900 dark:text-white font-display tracking-tight">
+                          Practice Hub
+                        </h2>
+                        <p className="text-xs text-slate-500 dark:text-slate-400 font-medium">
+                          Pick a tool — अभ्यास के लिए एक टूल चुनें
+                        </p>
+                      </div>
+                      <span className="text-[10px] font-black uppercase tracking-wider text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-500/10 border border-indigo-200 dark:border-indigo-500/30 px-2.5 py-1 rounded-full">
+                        9 Tools
+                      </span>
+                    </div>
+
+                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                      {[
+                        { id: 'daily', label: 'Daily Practice', hi: 'रोज़ाना अभ्यास', icon: Zap, from: 'from-[#335CFF]', to: 'to-[#6D5DF6]', action: () => setPracticeSubTab('daily') },
+                        { id: 'conversation', label: 'Conversation Lab', hi: 'बातचीत लैब', icon: MessageSquare, from: 'from-rose-500', to: 'to-orange-500', action: () => setPracticeSubTab('conversation') },
+                        { id: 'sentence', label: 'Sentence Builder', hi: 'वाक्य निर्माण', icon: BookOpen, from: 'from-emerald-500', to: 'to-teal-500', action: () => setPracticeSubTab('sentence') },
+                        { id: 'dialogue', label: 'Spoken Dialogue', hi: 'बोलचाल संवाद', icon: Sparkles, from: 'from-amber-500', to: 'to-orange-500', action: () => setPracticeSubTab('dialogue') },
+                        { id: 'skills', label: 'Skill Modules', hi: 'कौशल मॉड्यूल', icon: Compass, from: 'from-sky-500', to: 'to-indigo-500', action: () => setPracticeSubTab('skills') },
+                        { id: 'review', label: 'Spaced Review', hi: 'दोहराव समीक्षा', icon: RotateCcw, from: 'from-violet-500', to: 'to-purple-500', action: () => setPracticeSubTab('review') },
+                        { id: 'progress', label: 'Progress & Tests', hi: 'प्रगति व परीक्षा', icon: BarChart3, from: 'from-teal-600', to: 'to-emerald-500', action: () => setPracticeSubTab('progress') },
+                        { id: 'vocab', label: 'Vocabulary Studio', hi: 'शब्दकोश स्टूडियो', icon: Layers, from: 'from-fuchsia-500', to: 'to-pink-500', action: () => setShowVocabModal(true) },
+                        { id: 'grammar', label: 'Grammar Handbook', hi: 'व्याकरण पुस्तिका', icon: SpellCheck, from: 'from-indigo-600', to: 'to-blue-500', action: () => setShowGrammarModal(true) },
+                      ].map((tile) => {
+                        const Icon = tile.icon;
+                        return (
+                          <button
+                            key={tile.id}
+                            onClick={() => {
+                              playSoundEffectEffect('tap');
+                              tile.action();
+                            }}
+                            className="group bg-white dark:bg-slate-900 border border-[#D8E3FF] dark:border-slate-800 rounded-3xl p-4 text-left space-y-2 hover:shadow-xl hover:border-indigo-300 dark:hover:border-indigo-500/40 transition-all active:scale-[0.97] cursor-pointer btn-press min-h-[124px] flex flex-col"
+                          >
+                            <div className={`w-10 h-10 rounded-2xl bg-gradient-to-br ${tile.from} ${tile.to} text-white flex items-center justify-center shadow-md group-hover:scale-105 transition-transform shrink-0`}>
+                              <Icon className="w-5 h-5" />
+                            </div>
+                            <div className="space-y-0.5">
+                              <div className="text-[13px] font-black text-slate-900 dark:text-white leading-tight">{tile.label}</div>
+                              <div className="text-[10px] text-slate-400 dark:text-slate-500 font-semibold font-hindi leading-tight">{tile.hi}</div>
+                            </div>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
+
+                {/* INSIDE A TOOL — compact switcher with quick way back to the hub */}
+                {practiceSubTab !== 'hub' && (
+                  <div className="flex space-x-2 overflow-x-auto scrollbar-none py-1">
+                    <button
+                      onClick={() => {
+                        playSoundEffectEffect('tap');
+                        setPracticeSubTab('hub');
+                      }}
+                      className="px-3.5 py-2.5 rounded-2xl text-xs font-black transition whitespace-nowrap flex items-center space-x-1.5 border min-h-[44px] cursor-pointer btn-press bg-white dark:bg-slate-900 border-[#D8E3FF] dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-850"
+                    >
+                      <LayoutGrid className="w-3.5 h-3.5" />
+                      <span>All tools</span>
+                    </button>
+                    {[
+                      { id: 'daily', label: 'Daily Practice', icon: Zap },
+                      { id: 'conversation', label: '🗣 Conversation Lab', icon: MessageSquare },
+                      { id: 'sentence', label: 'Sentence Builder', icon: BookOpen },
+                      { id: 'dialogue', label: 'Spoken Dialogue', icon: Sparkles },
+                      { id: 'skills', label: 'Skill Modules', icon: Compass },
+                      { id: 'review', label: 'Spaced Review', icon: RotateCcw },
+                      { id: 'progress', label: 'Progress & Tests', icon: BarChart3 },
+                    ].map((sub) => {
+                      const isCurrent = practiceSubTab === sub.id;
+                      return (
+                        <button
+                          key={sub.id}
+                          onClick={() => {
+                            playSoundEffectEffect('tap');
+                            setPracticeSubTab(sub.id as any);
+                          }}
+                          className={`px-4 py-2.5 rounded-2xl text-xs font-bold transition whitespace-nowrap flex items-center space-x-1.5 border min-h-[44px] cursor-pointer btn-press ${
+                            isCurrent
+                              ? 'bg-gradient-to-r from-[#335CFF] to-[#6D5DF6] text-white border-indigo-400/40 font-black shadow-md'
+                              : 'bg-white dark:bg-slate-900 border-[#D8E3FF] dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-850 hover:text-slate-900 dark:hover:text-white'
+                          }`}
+                        >
+                          <span>{sub.label}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                )}
+
+                {practiceSubTab === 'daily' && (
                   <DailyPracticeView user={user} onUpdateUser={onUpdateUser} />
                 )}
                 {practiceSubTab === 'conversation' && (
@@ -384,7 +452,7 @@ export const LearnerAppShell: React.FC<LearnerAppShellProps> = ({
             {[
               { id: 'HOME', label: 'Home', icon: Home },
               { id: 'PATH', label: 'Path', icon: Compass },
-              { id: 'HINDI_COURSE', label: 'हिन्दी कोर्स', icon: BookOpen },
+              { id: 'HINDI_COURSE', label: 'Course', icon: BookOpen },
               { id: 'PRACTICE', label: 'Practice', icon: Zap },
               { id: 'PROFILE', label: 'Profile', icon: User },
             ].map((tab) => {

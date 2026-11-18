@@ -469,9 +469,9 @@ export const MASTER_ACHIEVEMENTS: AchievementBadge[] = [
   {
     id: 'b1_graduate',
     category: 'assessments',
-    title: 'B1 course content planned',
-    hindiTitle: 'बी1 पाठ्यक्रम सामग्री प्रस्तावित',
-    desc: 'B1 content is not released in this version; no B1 credential is issued.',
+    title: 'B1 course complete',
+    hindiTitle: 'बी1 पाठ्यक्रम पूर्ण',
+    desc: 'B1 content (Days 41–60) is released; completing it records course progress — not an official CEFR examination credential.',
     tier: 'royal_indigo',
     icon: 'Award',
     badgeSymbol: '🎓',

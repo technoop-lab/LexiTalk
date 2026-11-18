@@ -1339,7 +1339,7 @@ export const HindiLessonView: React.FC<HindiLessonViewProps> = ({
                 </div>
                 <div className="bg-slate-950/90 p-3.5 rounded-2xl border border-slate-800">
                   <span className="text-[11px] text-slate-400 font-bold block">Next Day</span>
-                  <span className="text-sm font-black text-amber-400 font-display">{day.dayNumber >= HINDI_RELEASED_DAYS && day.dayNumber < HindiCourseService.getTotalPlannedDays() ? 'Days 41–60 are planned and not yet released' : day.dayNumber >= HindiCourseService.getTotalPlannedDays() ? '60-day plan complete' : `Day ${day.dayNumber + 1} becomes available after saving`}</span>
+                  <span className="text-sm font-black text-amber-400 font-display">{day.dayNumber >= HindiCourseService.getTotalPlannedDays() ? '60-day plan complete' : `Day ${day.dayNumber + 1} becomes available after saving`}</span>
                 </div>
               </div>
 

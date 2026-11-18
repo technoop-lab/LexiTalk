@@ -87,7 +87,7 @@ export const JourneySummaryStep: React.FC<JourneySummaryStepProps> = ({
         </h2>
 
         <p className="text-xs text-slate-500 dark:text-slate-400 max-w-sm mx-auto">
-          Your roadmap is activated. Days 1-40 are ready now; Days 41-60 unlock in a free update.
+          Your roadmap is activated. All 60 days are ready now — from A1 basics to B1 fluency.
         </p>
       </div>
 

@@ -273,7 +273,7 @@ export const LearnerHomeDashboard: React.FC<LearnerHomeDashboardProps> = ({
                 {nextHindiDayLesson ? `Day ${nextHindiDayNum} of ${HindiCourseService.getTotalPlannedDays()}` : `${availableHindiDays} released days complete`}
               </h3>
               <p className="text-[11px] text-indigo-100/80 truncate">
-                {nextHindiDayLesson ? `Stage ${currentStageNum}: ${currentStage.en}` : 'Days 41–60 are planned and not yet released'}
+                {nextHindiDayLesson ? `Stage ${currentStageNum}: ${currentStage.en}` : 'All 60 days complete — course finished! 🎉'}
               </p>
             </div>
           </div>
@@ -315,7 +315,7 @@ export const LearnerHomeDashboard: React.FC<LearnerHomeDashboardProps> = ({
                   {nextHindiDayLesson ? (isDayLessonCompleted ? 'Review completed day' : "▶ Continue Today's Lesson") : 'View course update status'}
                 </span>
                 <span className="text-sm font-black text-slate-900 truncate block">
-                  {nextHindiDayLesson ? `Day ${nextHindiDayNum}: ${nextHindiDayLesson.titleEn}` : nextHindiDayNum > availableHindiDays ? 'Days 41–60 are planned and not yet released' : 'Start Everyday English'}
+                  {nextHindiDayLesson ? `Day ${nextHindiDayNum}: ${nextHindiDayLesson.titleEn}` : nextHindiDayNum > availableHindiDays ? 'All 60 days complete 🎉' : 'Start Everyday English'}
                 </span>
               </div>
             </div>
@@ -368,7 +368,7 @@ export const LearnerHomeDashboard: React.FC<LearnerHomeDashboardProps> = ({
             </span>
           </div>
           <h2 className="text-lg sm:text-xl font-black text-slate-900 dark:text-white font-display tracking-tight leading-snug">
-            {nextHindiDayLesson ? nextHindiDayLesson.titleEn : 'Days 41–60 are planned and not yet released'}
+            {nextHindiDayLesson ? nextHindiDayLesson.titleEn : 'All 60 days complete — you did it!'}
           </h2>
           <p className="text-xs sm:text-sm text-indigo-700 dark:text-indigo-300 font-hindi font-semibold">
             {nextHindiDayLesson ? nextHindiDayLesson.titleHi : ''}
@@ -814,7 +814,7 @@ export const LearnerHomeDashboard: React.FC<LearnerHomeDashboardProps> = ({
               Stage {currentStageNum}: {currentStage.en}
             </h4>
             <p className="text-xs text-emerald-100 font-hindi truncate">
-              Days 41–60 are planned and not yet released
+              Days {(currentStageNum - 1) * 10 + 1}–{currentStageNum * 10} • {completionPercentage}% complete
             </p>
           </div>
         </div>

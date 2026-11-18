@@ -163,10 +163,10 @@ export const StageCompletionModal: React.FC<StageCompletionModalProps> = ({
           </div>
           <div className="min-w-0 flex-1">
             <span className="text-[10px] font-black uppercase text-indigo-600 dark:text-indigo-400 block tracking-wider">
-              {dayNumber >= 40 && dayNumber < 60 ? 'Future content' : isFinalGraduation ? 'Course plan complete' : 'Next course milestone'}
+              {isFinalGraduation ? 'Course plan complete' : 'Next course milestone'}
             </span>
             <h4 className="text-xs font-black text-slate-900 dark:text-white truncate">
-              {dayNumber >= 40 && dayNumber < 60 ? 'Days 41–60 are planned and not yet released' : meta.nextStageTitle}
+              {isFinalGraduation ? 'You completed all 60 days!' : meta.nextStageTitle}
             </h4>
           </div>
         </div>

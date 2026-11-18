@@ -1,0 +1,785 @@
+diff --git a/README.md b/README.md
+index 8f30110..04701d8 100644
+--- a/README.md
++++ b/README.md
+@@ -1,20 +1,96 @@
+ <div align="center">
+-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
++
++# Curiosity English Academy (LexiTalk)
++
++**A premium, CEFR-aligned English learning app for Hindi speakers — web + Android.**
++
++60-day guided course • 270 detailed lessons (A1–A2) • 9,157 exercises • 452 dialogues • offline-first speech practice
++
+ </div>
+ 
+-# Run and deploy your AI Studio app
++---
++
++## What's inside
++
++| Track | Scope | Status |
++|---|---|---|
++| **60-Day English Course** (Hindi → English) | Days 1–60, CEFR A1 → B1, 6 stages | ✅ All 60 days released |
++| **English Path** (Curiosity Curriculum) | 18 units, 270 lessons, A1 + A2 | ✅ Complete |
++| **English Path B1–C2** | Upper-level units | 🚧 In development |
++| **CEFR master blueprint** | Grammar progression, skills ladders, exit profiles | ✅ A1/A2 spec active |
++
++Every lesson includes vocabulary with 9-language translations, phonetics (minimal pairs, L1-Hindi interference traps), grammar explanations in Hindi + English, listening/speaking exercises, dialogues with device TTS, and end-of-day assessments.
++
++## Run locally (web)
++
++**Prerequisites:** Node.js 20+
++
++```powershell
++npm ci
++npm run build
++npm start          # serves the production build
++```
++
++For development with hot reload:
++
++```powershell
++npm run dev
++```
++
++The core learning experience is fully offline and works without any API key.
++`GEMINI_API_KEY` (see `.env.example`) is only needed for the optional AI helper
++endpoints in `server.ts` (chat / TTS / vocab-generator admin tools).
++
++## Useful scripts
++
++| Command | What it does |
++|---|---|
++| `npm run dev` | Dev server with hot reload |
++| `npm run build` | Production build (Vite front-end + esbuild server) |
++| `npm start` | Run the production server |
++| `npm run lint` | TypeScript type-check (`tsc --noEmit`) |
++| `npm run test:dialogues` | Validates all 60 days of dialogue content |
++| `npm run audio:*` | Audio production tooling (dry-run / test / generate) |
++
++## Android (Capacitor)
++
++```powershell
++npm run build
++npx cap sync android
++```
++
++Then open the `android/` folder in Android Studio (**File → Open**), wait for
++Gradle sync, and press **Run ▶** on a device or emulator.
++
++- App ID: `com.curiosity.english` · App name: Curiosity English Academy
++- Speech uses the native Android TTS engine on-device (offline); the browser
++  Web Speech API is the web fallback.
+ 
+-This contains everything you need to run your app locally.
++## Project structure
+ 
+-View your app in AI Studio: https://ai.studio/apps/d85c34dd-e321-4425-a469-ed3a2ed0849b
++```
++├── src/
++│   ├── components/        # UI (learner shell, lessons, hindi course, practice hub…)
++│   ├── services/          # Curriculum, lesson, progress, audio, TTS services
++│   ├── data/
++│   │   ├── lessons/       # 270 detailed lesson files (A1–A2)
++│   │   ├── curiosityCurriculum.ts   # Unit/lesson registry
++│   │   └── masterCurriculumBlueprint.ts  # CEFR A1 academic spec
++│   ├── utils/audioUtils.ts           # Offline TTS + sound effects
++│   └── types/
++├── DAYS_*_CONTENT.json    # 60-day course content packs (source of truth)
++├── scripts/               # Content validation + audio generation
++├── android/               # Capacitor Android project
++└── server.ts              # Optional Express server (static + AI helper endpoints)
++```
+ 
+-## Run Locally
++## Validation
+ 
+-**Prerequisites:**  Node.js
++- `npm run lint` — type-check must be clean
++- `npm run test:dialogues` — all 60 days, 0 issues
++- `npm audit --omit=dev` — known: 4 high *Picomatch* advisories via the Vite
++  toolchain (build-time only; accepted)
+ 
++## License
+ 
+-1. Install dependencies:
+-   `npm install`
+-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+-3. Run the app:
+-   `npm run dev`
++All rights reserved — no open-source license is granted at this time.
+diff --git a/src/components/achievements/MilestoneTimeline.tsx b/src/components/achievements/MilestoneTimeline.tsx
+index f240260..d59c7d0 100644
+--- a/src/components/achievements/MilestoneTimeline.tsx
++++ b/src/components/achievements/MilestoneTimeline.tsx
+@@ -118,30 +118,30 @@ export const MILESTONES_DATA: MilestoneNode[] = [
+   {
+     day: 50,
+     stageNum: 5,
+-    titleEn: 'Day 50: Planned Course Content',
+-    titleHi: 'दिन 50: प्रस्तावित पाठ्यक्रम सामग्री',
+-    releaseLabel: 'Planned; not released',
++    titleEn: 'Day 50: Intermediate Course Milestone',
++    titleHi: 'दिन 50: मध्यवर्ती पाठ्यक्रम पड़ाव',
++    releaseLabel: 'Released',
+     rewardXp: 450,
+     badgeSymbol: '💎',
+     vocabTarget: 400,
+     dialogueCount: 50,
+     speakingMinutesTarget: 300,
+-    desc: 'Day 41–60 content is planned and is not released in this version.',
++    desc: 'Days 41–60 (B1 content) are released in this version; this milestone records course progress, not an official CEFR exam result.',
+     focusArea: 'Formal Registers & Nuanced Dialogues',
+     hindiFocus: 'साक्षात्कार एवं औपचारिक वार्तालाप',
+   },
+   {
+     day: 60,
+     stageNum: 6,
+-    titleEn: 'Day 60: Planned Course Endpoint',
+-    titleHi: 'दिन 60: प्रस्तावित पाठ्यक्रम का अंतिम पड़ाव',
+-    releaseLabel: 'Planned; not released',
++    titleEn: 'Day 60: Course Completion Milestone',
++    titleHi: 'दिन 60: पाठ्यक्रम समाप्ति पड़ाव',
++    releaseLabel: 'Released',
+     rewardXp: 1000,
+     badgeSymbol: '👑',
+     vocabTarget: 500,
+     dialogueCount: 60,
+     speakingMinutesTarget: 360,
+-    desc: 'Day 41–60 content is planned and not released in this version; this milestone does not issue a CEFR certificate.',
++    desc: 'Capstone of the full 60-day course; this milestone records course completion and is not an official CEFR certificate.',
+     focusArea: 'Spontaneous English Fluency & Capstone Exam',
+     hindiFocus: 'धाराप्रवाह अंग्रेजी एवं अंतिम दीक्षांत प्रमाण पत्र',
+   },
+diff --git a/src/components/celebrations/StageCompletionModal.tsx b/src/components/celebrations/StageCompletionModal.tsx
+index 4b17c97..bb7c264 100644
+--- a/src/components/celebrations/StageCompletionModal.tsx
++++ b/src/components/celebrations/StageCompletionModal.tsx
+@@ -163,10 +163,10 @@ export const StageCompletionModal: React.FC<StageCompletionModalProps> = ({
+           </div>
+           <div className="min-w-0 flex-1">
+             <span className="text-[10px] font-black uppercase text-indigo-600 dark:text-indigo-400 block tracking-wider">
+-              {dayNumber >= 40 && dayNumber < 60 ? 'Future content' : isFinalGraduation ? 'Course plan complete' : 'Next course milestone'}
++              {isFinalGraduation ? 'Course plan complete' : 'Next course milestone'}
+             </span>
+             <h4 className="text-xs font-black text-slate-900 dark:text-white truncate">
+-              {dayNumber >= 40 && dayNumber < 60 ? 'Days 41–60 are planned and not yet released' : meta.nextStageTitle}
++              {isFinalGraduation ? 'You completed all 60 days!' : meta.nextStageTitle}
+             </h4>
+           </div>
+         </div>
+diff --git a/src/components/hindi/HindiCourseHome.tsx b/src/components/hindi/HindiCourseHome.tsx
+index e00073e..b6d9311 100644
+--- a/src/components/hindi/HindiCourseHome.tsx
++++ b/src/components/hindi/HindiCourseHome.tsx
+@@ -126,7 +126,7 @@ export const HindiCourseHome: React.FC<HindiCourseHomeProps> = ({
+             60-Day English Course Path
+           </h1>
+           <p className="text-xs sm:text-sm text-emerald-100 font-hindi font-medium">
+-            {nextIncompleteDayNum > availableDays ? 'Days 41–60 are planned and not yet released' : `${currentStage.stageTitleHi} • Days ${currentStage.startDay}–${currentStage.endDay}`}
++            {nextIncompleteDayNum > availableDays ? 'सभी 60 दिन जारी • कोर्स पूर्ण 🎉' : `${currentStage.stageTitleHi} • Days ${currentStage.startDay}–${currentStage.endDay}`}
+           </p>
+         </div>
+ 
+@@ -155,7 +155,7 @@ export const HindiCourseHome: React.FC<HindiCourseHomeProps> = ({
+             <span>Lesson reward: <strong>+{HINDI_DAY_XP_REWARD} XP once per new day</strong></span>
+           </span>
+           <span className="bg-white/20 px-2.5 py-0.5 rounded-full text-white font-extrabold">
+-            Days 41–60 are planned and not yet released
++            All 60 days released
+           </span>
+         </div>
+       </div>
+@@ -250,7 +250,7 @@ export const HindiCourseHome: React.FC<HindiCourseHomeProps> = ({
+                   60-day course plan
+                 </h4>
+                 <p className="text-[11px] text-slate-500 dark:text-slate-400 font-mono">
+-                  Days 1–40 released; Days 41–60 are planned, not released
++                  All 60 days released • A1 → B1 complete
+                 </p>
+               </div>
+             </div>
+@@ -384,7 +384,7 @@ export const HindiCourseHome: React.FC<HindiCourseHomeProps> = ({
+                       Days {stage.startDay}–{stage.endDay}
+                     </span>
+                     <span className="text-[11px] font-bold text-emerald-600 dark:text-emerald-400">
+-                      {stage.startDay > availableDays ? 'Planned; not released' : `${stageCompletedDaysCount}/${releasedStageDays.length} days complete`}
++                      {stage.startDay > availableDays ? 'Locked' : `${stageCompletedDaysCount}/${releasedStageDays.length} days complete`}
+                     </span>
+                   </div>
+                 </div>
+@@ -414,7 +414,7 @@ export const HindiCourseHome: React.FC<HindiCourseHomeProps> = ({
+                     </div>
+                     <p className="text-xs font-bold text-slate-500 dark:text-slate-400">
+                       {stage.startDay > availableDays
+-                        ? `Days ${stage.startDay}–${stage.endDay} are planned and not yet released`
++                        ? `Days ${stage.startDay}–${stage.endDay} unlock as you progress`
+                         : `Complete Stage ${stage.stageNumber - 1} to unlock this module`}
+                     </p>
+                   </div>
+diff --git a/src/components/hindi/HindiLessonView.tsx b/src/components/hindi/HindiLessonView.tsx
+index 6cb7831..afc38b2 100644
+--- a/src/components/hindi/HindiLessonView.tsx
++++ b/src/components/hindi/HindiLessonView.tsx
+@@ -1339,7 +1339,7 @@ export const HindiLessonView: React.FC<HindiLessonViewProps> = ({
+                 </div>
+                 <div className="bg-slate-950/90 p-3.5 rounded-2xl border border-slate-800">
+                   <span className="text-[11px] text-slate-400 font-bold block">Next Day</span>
+-                  <span className="text-sm font-black text-amber-400 font-display">{day.dayNumber >= HINDI_RELEASED_DAYS && day.dayNumber < HindiCourseService.getTotalPlannedDays() ? 'Days 41–60 are planned and not yet released' : day.dayNumber >= HindiCourseService.getTotalPlannedDays() ? '60-day plan complete' : `Day ${day.dayNumber + 1} becomes available after saving`}</span>
++                  <span className="text-sm font-black text-amber-400 font-display">{day.dayNumber >= HindiCourseService.getTotalPlannedDays() ? '60-day plan complete' : `Day ${day.dayNumber + 1} becomes available after saving`}</span>
+                 </div>
+               </div>
+ 
+diff --git a/src/components/hindi/HindiSpokenLabModal.tsx b/src/components/hindi/HindiSpokenLabModal.tsx
+index 3707531..cd820c5 100644
+--- a/src/components/hindi/HindiSpokenLabModal.tsx
++++ b/src/components/hindi/HindiSpokenLabModal.tsx
+@@ -661,7 +661,7 @@ export const HindiSpokenLabModal: React.FC<HindiSpokenLabModalProps> = ({
+                   <div className="space-y-1">
+                     <p className="text-sm font-bold text-slate-900 dark:text-white">No pronunciation drills found</p>
+                     <p className="text-xs text-slate-500 dark:text-slate-400">
+-                      Try adjusting your search or reset filters to view released days. Days 41–60 are planned and not released.
++                      Try adjusting your search or reset filters to view released days.
+                     </p>
+                   </div>
+                   <button
+diff --git a/src/components/learner/LearnerAppShell.tsx b/src/components/learner/LearnerAppShell.tsx
+index eaa7213..281face 100644
+--- a/src/components/learner/LearnerAppShell.tsx
++++ b/src/components/learner/LearnerAppShell.tsx
+@@ -15,7 +15,10 @@ import {
+   BarChart3,
+   MessageSquare,
+   Sun,
+-  Moon
++  Moon,
++  LayoutGrid,
++  Layers,
++  SpellCheck
+ } from 'lucide-react';
+ import { UserAcademyProfile, CourseUnit, LessonNode } from '../../types';
+ import { LearnerHomeDashboard } from './LearnerHomeDashboard';
+@@ -69,7 +72,7 @@ export const LearnerAppShell: React.FC<LearnerAppShellProps> = ({
+   const [activeTab, setActiveTab] = useState<LearnerNavTab>('HOME');
+   const [activeHindiDay, setActiveHindiDay] = useState<HindiDayLesson | null>(null);
+   const [practiceSubTab, setPracticeSubTab] = useState<
+-    'hub' | 'conversation' | 'sentence' | 'dialogue' | 'skills' | 'review' | 'progress' | 'vocab' | 'grammar'
++    'hub' | 'daily' | 'conversation' | 'sentence' | 'dialogue' | 'skills' | 'review' | 'progress' | 'vocab' | 'grammar'
+   >('hub');
+ 
+   // Theme context
+@@ -282,41 +285,106 @@ export const LearnerAppShell: React.FC<LearnerAppShellProps> = ({
+               />
+             )}
+ 
+-            {/* TAB 4: PRACTICE (Unified Hub: Daily Practice, Conversation Lab, Sentence Builder, Dialogue, Review, Progress) */}
++            {/* TAB 4: PRACTICE (Hub menu → focused tool, with quick switcher inside) */}
+             {activeTab === 'PRACTICE' && (
+               <div className="flex flex-col space-y-4 p-4 sm:p-5 w-full max-w-lg mx-auto">
+-                {/* Practice Hub Sub-Navigation */}
+-                <div className="flex space-x-2 overflow-x-auto scrollbar-none py-1">
+-                  {[
+-                    { id: 'hub', label: 'Daily Practice', icon: Zap },
+-                    { id: 'conversation', label: '🗣 Conversation Lab', icon: MessageSquare },
+-                    { id: 'sentence', label: 'Sentence Builder', icon: BookOpen },
+-                    { id: 'dialogue', label: 'Spoken Dialogue', icon: Sparkles },
+-                    { id: 'skills', label: 'Skill Modules', icon: Compass },
+-                    { id: 'review', label: 'Spaced Review', icon: RotateCcw },
+-                    { id: 'progress', label: 'Progress & Tests', icon: BarChart3 },
+-                  ].map((sub) => {
+-                    const isCurrent = practiceSubTab === sub.id;
+-                    return (
+-                      <button
+-                        key={sub.id}
+-                        onClick={() => {
+-                          playSoundEffectEffect('tap');
+-                          setPracticeSubTab(sub.id as any);
+-                        }}
+-                        className={`px-4 py-2.5 rounded-2xl text-xs font-bold transition whitespace-nowrap flex items-center space-x-1.5 border min-h-[44px] cursor-pointer btn-press ${
+-                          isCurrent
+-                            ? 'bg-gradient-to-r from-[#335CFF] to-[#6D5DF6] text-white border-indigo-400/40 font-black shadow-md'
+-                            : 'bg-white dark:bg-slate-900 border-[#D8E3FF] dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-850 hover:text-slate-900 dark:hover:text-white'
+-                        }`}
+-                      >
+-                        <span>{sub.label}</span>
+-                      </button>
+-                    );
+-                  })}
+-                </div>
+-
++                {/* PRACTICE HUB — main menu shown when no tool is open */}
+                 {practiceSubTab === 'hub' && (
++                  <div className="space-y-3 animate-fade-in">
++                    <div className="flex items-center justify-between px-1">
++                      <div>
++                        <h2 className="text-xl font-black text-slate-900 dark:text-white font-display tracking-tight">
++                          Practice Hub
++                        </h2>
++                        <p className="text-xs text-slate-500 dark:text-slate-400 font-medium">
++                          Pick a tool — अभ्यास के लिए एक टूल चुनें
++                        </p>
++                      </div>
++                      <span className="text-[10px] font-black uppercase tracking-wider text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-500/10 border border-indigo-200 dark:border-indigo-500/30 px-2.5 py-1 rounded-full">
++                        9 Tools
++                      </span>
++                    </div>
++
++                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
++                      {[
++                        { id: 'daily', label: 'Daily Practice', hi: 'रोज़ाना अभ्यास', icon: Zap, from: 'from-[#335CFF]', to: 'to-[#6D5DF6]', action: () => setPracticeSubTab('daily') },
++                        { id: 'conversation', label: 'Conversation Lab', hi: 'बातचीत लैब', icon: MessageSquare, from: 'from-rose-500', to: 'to-orange-500', action: () => setPracticeSubTab('conversation') },
++                        { id: 'sentence', label: 'Sentence Builder', hi: 'वाक्य निर्माण', icon: BookOpen, from: 'from-emerald-500', to: 'to-teal-500', action: () => setPracticeSubTab('sentence') },
++                        { id: 'dialogue', label: 'Spoken Dialogue', hi: 'बोलचाल संवाद', icon: Sparkles, from: 'from-amber-500', to: 'to-orange-500', action: () => setPracticeSubTab('dialogue') },
++                        { id: 'skills', label: 'Skill Modules', hi: 'कौशल मॉड्यूल', icon: Compass, from: 'from-sky-500', to: 'to-indigo-500', action: () => setPracticeSubTab('skills') },
++                        { id: 'review', label: 'Spaced Review', hi: 'दोहराव समीक्षा', icon: RotateCcw, from: 'from-violet-500', to: 'to-purple-500', action: () => setPracticeSubTab('review') },
++                        { id: 'progress', label: 'Progress & Tests', hi: 'प्रगति व परीक्षा', icon: BarChart3, from: 'from-teal-600', to: 'to-emerald-500', action: () => setPracticeSubTab('progress') },
++                        { id: 'vocab', label: 'Vocabulary Studio', hi: 'शब्दकोश स्टूडियो', icon: Layers, from: 'from-fuchsia-500', to: 'to-pink-500', action: () => setShowVocabModal(true) },
++                        { id: 'grammar', label: 'Grammar Handbook', hi: 'व्याकरण पुस्तिका', icon: SpellCheck, from: 'from-indigo-600', to: 'to-blue-500', action: () => setShowGrammarModal(true) },
++                      ].map((tile) => {
++                        const Icon = tile.icon;
++                        return (
++                          <button
++                            key={tile.id}
++                            onClick={() => {
++                              playSoundEffectEffect('tap');
++                              tile.action();
++                            }}
++                            className="group bg-white dark:bg-slate-900 border border-[#D8E3FF] dark:border-slate-800 rounded-3xl p-4 text-left space-y-2 hover:shadow-xl hover:border-indigo-300 dark:hover:border-indigo-500/40 transition-all active:scale-[0.97] cursor-pointer btn-press min-h-[124px] flex flex-col"
++                          >
++                            <div className={`w-10 h-10 rounded-2xl bg-gradient-to-br ${tile.from} ${tile.to} text-white flex items-center justify-center shadow-md group-hover:scale-105 transition-transform shrink-0`}>
++                              <Icon className="w-5 h-5" />
++                            </div>
++                            <div className="space-y-0.5">
++                              <div className="text-[13px] font-black text-slate-900 dark:text-white leading-tight">{tile.label}</div>
++                              <div className="text-[10px] text-slate-400 dark:text-slate-500 font-semibold font-hindi leading-tight">{tile.hi}</div>
++                            </div>
++                          </button>
++                        );
++                      })}
++                    </div>
++                  </div>
++                )}
++
++                {/* INSIDE A TOOL — compact switcher with quick way back to the hub */}
++                {practiceSubTab !== 'hub' && (
++                  <div className="flex space-x-2 overflow-x-auto scrollbar-none py-1">
++                    <button
++                      onClick={() => {
++                        playSoundEffectEffect('tap');
++                        setPracticeSubTab('hub');
++                      }}
++                      className="px-3.5 py-2.5 rounded-2xl text-xs font-black transition whitespace-nowrap flex items-center space-x-1.5 border min-h-[44px] cursor-pointer btn-press bg-white dark:bg-slate-900 border-[#D8E3FF] dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-850"
++                    >
++                      <LayoutGrid className="w-3.5 h-3.5" />
++                      <span>All tools</span>
++                    </button>
++                    {[
++                      { id: 'daily', label: 'Daily Practice', icon: Zap },
++                      { id: 'conversation', label: '🗣 Conversation Lab', icon: MessageSquare },
++                      { id: 'sentence', label: 'Sentence Builder', icon: BookOpen },
++                      { id: 'dialogue', label: 'Spoken Dialogue', icon: Sparkles },
++                      { id: 'skills', label: 'Skill Modules', icon: Compass },
++                      { id: 'review', label: 'Spaced Review', icon: RotateCcw },
++                      { id: 'progress', label: 'Progress & Tests', icon: BarChart3 },
++                    ].map((sub) => {
++                      const isCurrent = practiceSubTab === sub.id;
++                      return (
++                        <button
++                          key={sub.id}
++                          onClick={() => {
++                            playSoundEffectEffect('tap');
++                            setPracticeSubTab(sub.id as any);
++                          }}
++                          className={`px-4 py-2.5 rounded-2xl text-xs font-bold transition whitespace-nowrap flex items-center space-x-1.5 border min-h-[44px] cursor-pointer btn-press ${
++                            isCurrent
++                              ? 'bg-gradient-to-r from-[#335CFF] to-[#6D5DF6] text-white border-indigo-400/40 font-black shadow-md'
++                              : 'bg-white dark:bg-slate-900 border-[#D8E3FF] dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-850 hover:text-slate-900 dark:hover:text-white'
++                          }`}
++                        >
++                          <span>{sub.label}</span>
++                        </button>
++                      );
++                    })}
++                  </div>
++                )}
++
++                {practiceSubTab === 'daily' && (
+                   <DailyPracticeView user={user} onUpdateUser={onUpdateUser} />
+                 )}
+                 {practiceSubTab === 'conversation' && (
+@@ -384,7 +452,7 @@ export const LearnerAppShell: React.FC<LearnerAppShellProps> = ({
+             {[
+               { id: 'HOME', label: 'Home', icon: Home },
+               { id: 'PATH', label: 'Path', icon: Compass },
+-              { id: 'HINDI_COURSE', label: 'हिन्दी कोर्स', icon: BookOpen },
++              { id: 'HINDI_COURSE', label: 'Course', icon: BookOpen },
+               { id: 'PRACTICE', label: 'Practice', icon: Zap },
+               { id: 'PROFILE', label: 'Profile', icon: User },
+             ].map((tab) => {
+diff --git a/src/components/learner/LearnerHomeDashboard.tsx b/src/components/learner/LearnerHomeDashboard.tsx
+index b1d911d..22ddf65 100644
+--- a/src/components/learner/LearnerHomeDashboard.tsx
++++ b/src/components/learner/LearnerHomeDashboard.tsx
+@@ -273,7 +273,7 @@ export const LearnerHomeDashboard: React.FC<LearnerHomeDashboardProps> = ({
+                 {nextHindiDayLesson ? `Day ${nextHindiDayNum} of ${HindiCourseService.getTotalPlannedDays()}` : `${availableHindiDays} released days complete`}
+               </h3>
+               <p className="text-[11px] text-indigo-100/80 truncate">
+-                {nextHindiDayLesson ? `Stage ${currentStageNum}: ${currentStage.en}` : 'Days 41–60 are planned and not yet released'}
++                {nextHindiDayLesson ? `Stage ${currentStageNum}: ${currentStage.en}` : 'All 60 days complete — course finished! 🎉'}
+               </p>
+             </div>
+           </div>
+@@ -315,7 +315,7 @@ export const LearnerHomeDashboard: React.FC<LearnerHomeDashboardProps> = ({
+                   {nextHindiDayLesson ? (isDayLessonCompleted ? 'Review completed day' : "▶ Continue Today's Lesson") : 'View course update status'}
+                 </span>
+                 <span className="text-sm font-black text-slate-900 truncate block">
+-                  {nextHindiDayLesson ? `Day ${nextHindiDayNum}: ${nextHindiDayLesson.titleEn}` : nextHindiDayNum > availableHindiDays ? 'Days 41–60 are planned and not yet released' : 'Start Everyday English'}
++                  {nextHindiDayLesson ? `Day ${nextHindiDayNum}: ${nextHindiDayLesson.titleEn}` : nextHindiDayNum > availableHindiDays ? 'All 60 days complete 🎉' : 'Start Everyday English'}
+                 </span>
+               </div>
+             </div>
+@@ -368,7 +368,7 @@ export const LearnerHomeDashboard: React.FC<LearnerHomeDashboardProps> = ({
+             </span>
+           </div>
+           <h2 className="text-lg sm:text-xl font-black text-slate-900 dark:text-white font-display tracking-tight leading-snug">
+-            {nextHindiDayLesson ? nextHindiDayLesson.titleEn : 'Days 41–60 are planned and not yet released'}
++            {nextHindiDayLesson ? nextHindiDayLesson.titleEn : 'All 60 days complete — you did it!'}
+           </h2>
+           <p className="text-xs sm:text-sm text-indigo-700 dark:text-indigo-300 font-hindi font-semibold">
+             {nextHindiDayLesson ? nextHindiDayLesson.titleHi : ''}
+@@ -814,7 +814,7 @@ export const LearnerHomeDashboard: React.FC<LearnerHomeDashboardProps> = ({
+               Stage {currentStageNum}: {currentStage.en}
+             </h4>
+             <p className="text-xs text-emerald-100 font-hindi truncate">
+-              Days 41–60 are planned and not yet released
++              Days {(currentStageNum - 1) * 10 + 1}–{currentStageNum * 10} • {completionPercentage}% complete
+             </p>
+           </div>
+         </div>
+diff --git a/src/components/learner/ProgressDetailView.tsx b/src/components/learner/ProgressDetailView.tsx
+index b49ab29..7409857 100644
+--- a/src/components/learner/ProgressDetailView.tsx
++++ b/src/components/learner/ProgressDetailView.tsx
+@@ -732,7 +732,7 @@ export const ProgressDetailView: React.FC<ProgressDetailViewProps> = ({
+                     Released Course Progress Map
+                   </h3>
+                   <p className="text-[10px] text-slate-500 dark:text-slate-400">
+-                    Completed days and saved scores; Days 41–60 are planned, not released.
++                    Completed days and saved scores across the full 60-day path.
+                   </p>
+                 </div>
+               </div>
+@@ -789,7 +789,7 @@ export const ProgressDetailView: React.FC<ProgressDetailViewProps> = ({
+                               setSelectedHeatmapDay(selectedHeatmapDay === dayNum ? null : dayNum);
+                             }}
+                             className={`h-8 rounded-lg border text-[10px] transition flex items-center justify-center btn-press ${dayNum > totalDays ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'} ${bgClass}`}
+-                            title={dayNum <= totalDays ? `Day ${dayNum}` : `Day ${dayNum}: planned, not released`}
++                            title={dayNum <= totalDays ? `Day ${dayNum}` : `Day ${dayNum} (locked)`}
+                           >
+                             {dayNum}
+                           </button>
+@@ -1065,7 +1065,7 @@ export const ProgressDetailView: React.FC<ProgressDetailViewProps> = ({
+                           {stats.isReleased ? `${stats.percent}%` : 'Planned'}
+                         </span>
+                         <span className="text-[9px] text-slate-500">
+-                          {stats.isReleased ? `${stats.completedInStage}/10 Days` : 'Days 41–60 not released'}
++                          {stats.isReleased ? `${stats.completedInStage}/10 Days` : 'Stage locked'}
+                         </span>
+                       </div>
+                     </div>
+@@ -1087,7 +1087,7 @@ export const ProgressDetailView: React.FC<ProgressDetailViewProps> = ({
+                             <span>{stats.curriculumGrammarRules} grammar rules in course lessons</span>
+                           </>
+                         ) : (
+-                          <span>Days 41–60 are planned and not yet released</span>
++                          <span>Complete the previous stage to unlock this stage</span>
+                         )}
+                       </div>
+                     </div>
+diff --git a/src/components/lesson/ChunkedVocabView.tsx b/src/components/lesson/ChunkedVocabView.tsx
+index 20532cd..a06804a 100644
+--- a/src/components/lesson/ChunkedVocabView.tsx
++++ b/src/components/lesson/ChunkedVocabView.tsx
+@@ -27,6 +27,11 @@ export const ChunkedVocabView: React.FC<ChunkedVocabViewProps> = ({
+   const [isQuickCheckAnswered, setIsQuickCheckAnswered] = useState(false);
+   const [isQuickCheckCorrect, setIsQuickCheckCorrect] = useState<boolean | null>(null);
+ 
++  // Spaced retrieval check states
++  const [selectedRetrievalChoice, setSelectedRetrievalChoice] = useState<string | null>(null);
++  const [isRetrievalAnswered, setIsRetrievalAnswered] = useState(false);
++  const [isRetrievalCorrect, setIsRetrievalCorrect] = useState<boolean | null>(null);
++
+   // Chunking vocabulary into 4 pedagogical groups
+   const groups = [
+     {
+@@ -112,6 +117,7 @@ export const ChunkedVocabView: React.FC<ChunkedVocabViewProps> = ({
+   const currentGroup = groups[currentGroupIndex];
+ 
+   const handleSelectQuickCheck = (optionText: string, isCorrect: boolean) => {
++    if (isQuickCheckAnswered) return;
+     playSoundEffectEffect('tap');
+     setSelectedQuickChoice(optionText);
+     setIsQuickCheckAnswered(true);
+@@ -123,11 +129,27 @@ export const ChunkedVocabView: React.FC<ChunkedVocabViewProps> = ({
+     }
+   };
+ 
++  const handleSelectRetrievalCheck = (optionText: string, isCorrect: boolean) => {
++    if (isRetrievalAnswered) return;
++    playSoundEffectEffect('tap');
++    setSelectedRetrievalChoice(optionText);
++    setIsRetrievalAnswered(true);
++    setIsRetrievalCorrect(isCorrect);
++    if (isCorrect) {
++      playSoundEffectEffect('correct');
++    } else {
++      playSoundEffectEffect('wrong');
++    }
++  };
++
+   const handleNextGroup = () => {
+     playSoundEffectEffect('tap');
+     setIsQuickCheckAnswered(false);
+     setSelectedQuickChoice(null);
+     setIsQuickCheckCorrect(null);
++    setIsRetrievalAnswered(false);
++    setSelectedRetrievalChoice(null);
++    setIsRetrievalCorrect(null);
+ 
+     if (currentGroupIndex + 1 < groups.length) {
+       setCurrentGroupIndex((prev) => prev + 1);
+@@ -196,20 +218,43 @@ export const ChunkedVocabView: React.FC<ChunkedVocabViewProps> = ({
+           <p className="text-base font-bold text-white leading-snug">{currentGroup.retrievalCheck.question}</p>
+ 
+           <div className="grid grid-cols-3 gap-2.5">
+-            {currentGroup.retrievalCheck.options.map((opt, idx) => (
+-              <button
+-                key={idx}
+-                onClick={() => {
+-                  playSoundEffectEffect('tap');
+-                  if (opt.isCorrect) playSoundEffectEffect('correct');
+-                  else playSoundEffectEffect('wrong');
+-                }}
+-                className="min-h-[48px] py-3 px-3 bg-slate-950/90 hover:bg-slate-850 text-slate-200 border border-slate-800 rounded-2xl font-bold text-sm transition"
+-              >
+-                {opt.text}
+-              </button>
+-            ))}
++            {currentGroup.retrievalCheck.options.map((opt, idx) => {
++              const isSelected = selectedRetrievalChoice === opt.text;
++              let btnStyle = 'bg-slate-950/90 border-slate-800 text-slate-200 hover:border-amber-500/60 hover:bg-slate-900';
++              if (isRetrievalAnswered && isSelected) {
++                btnStyle = opt.isCorrect
++                  ? 'bg-emerald-500/20 border-emerald-400 text-emerald-300 font-black'
++                  : 'bg-rose-500/20 border-rose-400 text-rose-300 font-black';
++              } else if (isRetrievalAnswered && opt.isCorrect && !isRetrievalCorrect) {
++                // Reveal the correct answer when the learner missed it
++                btnStyle = 'bg-emerald-500/15 border-emerald-500/70 text-emerald-300 font-black';
++              }
++              return (
++                <button
++                  key={idx}
++                  disabled={isRetrievalAnswered}
++                  onClick={() => handleSelectRetrievalCheck(opt.text, opt.isCorrect)}
++                  className={`min-h-[50px] py-3 px-3 border rounded-2xl font-bold text-sm transition flex items-center justify-center space-x-1.5 active:scale-[0.97] cursor-pointer btn-press disabled:cursor-default ${btnStyle}`}
++                >
++                  <span>{opt.text}</span>
++                  {isRetrievalAnswered && isSelected && (
++                    opt.isCorrect
++                      ? <CheckCircle2 className="w-4 h-4 text-emerald-400" />
++                      : <span className="text-rose-400 font-black">✕</span>
++                  )}
++                </button>
++              );
++            })}
+           </div>
++
++          {isRetrievalAnswered && (
++            <div className="bg-slate-950/80 p-4 rounded-2xl border border-amber-500/20 text-sm text-slate-300 leading-relaxed font-medium">
++              <strong className={isRetrievalCorrect ? 'text-emerald-400 font-black' : 'text-amber-400 font-black'}>
++                {isRetrievalCorrect ? 'Correct! ' : 'Not quite — '}
++              </strong>
++              {currentGroup.retrievalCheck.explanation}
++            </div>
++          )}
+         </div>
+       )}
+ 
+@@ -225,23 +270,30 @@ export const ChunkedVocabView: React.FC<ChunkedVocabViewProps> = ({
+         <div className="grid grid-cols-3 gap-2.5">
+           {currentGroup.quickCheck.options.map((opt, idx) => {
+             const isSelected = selectedQuickChoice === opt.text;
+-            let btnStyle = 'bg-slate-950 border-slate-800 text-slate-200 hover:border-slate-700';
++            let btnStyle = 'bg-slate-950 border-slate-800 text-slate-200 hover:border-indigo-500/60 hover:bg-slate-900';
+             if (isQuickCheckAnswered && isSelected) {
+               btnStyle = opt.isCorrect
+                 ? 'bg-emerald-500/20 border-emerald-400 text-emerald-300 font-black'
+                 : 'bg-rose-500/20 border-rose-400 text-rose-300 font-black';
++            } else if (isQuickCheckAnswered && opt.isCorrect && !isQuickCheckCorrect) {
++              // Reveal the correct answer when the learner missed it
++              btnStyle = 'bg-emerald-500/15 border-emerald-500/70 text-emerald-300 font-black';
+             }
+ 
+             return (
+               <button
+                 key={idx}
++                disabled={isQuickCheckAnswered}
+                 onClick={() => handleSelectQuickCheck(opt.text, opt.isCorrect)}
+-                className={`min-h-[50px] py-3 px-3 rounded-2xl border text-sm font-bold transition flex items-center justify-center space-x-1.5 ${btnStyle}`}
++                className={`min-h-[50px] py-3 px-3 rounded-2xl border text-sm font-bold transition flex items-center justify-center space-x-1.5 active:scale-[0.97] cursor-pointer btn-press disabled:cursor-default ${btnStyle}`}
+               >
+                 <span>{opt.text}</span>
+                 {isQuickCheckAnswered && isSelected && opt.isCorrect && (
+                   <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                 )}
++                {isQuickCheckAnswered && isSelected && !opt.isCorrect && (
++                  <span className="text-rose-400 font-black">✕</span>
++                )}
+               </button>
+             );
+           })}
+diff --git a/src/components/onboarding/JourneySummaryStep.tsx b/src/components/onboarding/JourneySummaryStep.tsx
+index 7baea09..7b2d7c0 100644
+--- a/src/components/onboarding/JourneySummaryStep.tsx
++++ b/src/components/onboarding/JourneySummaryStep.tsx
+@@ -87,7 +87,7 @@ export const JourneySummaryStep: React.FC<JourneySummaryStepProps> = ({
+         </h2>
+ 
+         <p className="text-xs text-slate-500 dark:text-slate-400 max-w-sm mx-auto">
+-          Your roadmap is activated. Days 1-40 are ready now; Days 41-60 unlock in a free update.
++          Your roadmap is activated. All 60 days are ready now — from A1 basics to B1 fluency.
+         </p>
+       </div>
+ 
+diff --git a/src/data/achievementsData.ts b/src/data/achievementsData.ts
+index f1f18e0..4448aaa 100644
+--- a/src/data/achievementsData.ts
++++ b/src/data/achievementsData.ts
+@@ -469,9 +469,9 @@ export const MASTER_ACHIEVEMENTS: AchievementBadge[] = [
+   {
+     id: 'b1_graduate',
+     category: 'assessments',
+-    title: 'B1 course content planned',
+-    hindiTitle: 'बी1 पाठ्यक्रम सामग्री प्रस्तावित',
+-    desc: 'B1 content is not released in this version; no B1 credential is issued.',
++    title: 'B1 course complete',
++    hindiTitle: 'बी1 पाठ्यक्रम पूर्ण',
++    desc: 'B1 content (Days 41–60) is released; completing it records course progress — not an official CEFR examination credential.',
+     tier: 'royal_indigo',
+     icon: 'Award',
+     badgeSymbol: '🎓',
+diff --git a/src/data/curriculumRegistry.ts b/src/data/curriculumRegistry.ts
+index 7adbffd..010f52d 100644
+--- a/src/data/curriculumRegistry.ts
++++ b/src/data/curriculumRegistry.ts
+@@ -63,23 +63,23 @@ export const STAGES_METADATA: HindiCourseStageMeta[] = [
+   },
+   {
+     stageNumber: 5,
+-    stageTitleEn: 'Stage 5: Planned Course Content',
+-    stageTitleHi: 'स्टेज 5: प्रस्तावित पाठ्यक्रम सामग्री',
++    stageTitleEn: 'Stage 5: City Life, Health & Workplace English',
++    stageTitleHi: 'स्टेज 5: शहर, स्वास्थ्य और कार्यस्थल अंग्रेज़ी',
+     startDay: 41,
+     endDay: 50,
+-    cefrSpan: 'Planned; not released',
+-    descriptionEn: 'Days 41–50 are planned and not released in this version.',
+-    descriptionHi: 'दिन 41–50 की सामग्री प्रस्तावित है; इस संस्करण में जारी नहीं हुई है।',
++    cefrSpan: 'A2.2 → B1.1',
++    descriptionEn: 'Housing & architecture, city directions, shopping, campus life, doctor & pharmacy visits, weather, workplace etiquette and professional communication.',
++    descriptionHi: 'घर व वास्तुकला, शहर की दिशाएँ, खरीदारी, कैंपस जीवन, डॉक्टर व फ़ार्मेसी भेंट, मौसम, कार्यस्थल शिष्टाचार और पेशेवर संवाद।',
+   },
+   {
+     stageNumber: 6,
+-    stageTitleEn: 'Stage 6: Planned Course Endpoint',
+-    stageTitleHi: 'स्टेज 6: प्रस्तावित पाठ्यक्रम का अंतिम पड़ाव',
++    stageTitleEn: 'Stage 6: Professional Communication & Fluency Capstone',
++    stageTitleHi: 'स्टेज 6: पेशेवर संवाद और धाराप्रवाहता कैपस्टोन',
+     startDay: 51,
+     endDay: 60,
+-    cefrSpan: 'Planned; not released',
+-    descriptionEn: 'Days 51–60 are planned and not released in this version.',
+-    descriptionHi: 'दिन 51–60 की सामग्री प्रस्तावित है; इस संस्करण में जारी नहीं हुई है।',
++    cefrSpan: 'B1.1 → B1.2',
++    descriptionEn: 'Banking, travel & civic services, sales negotiations, resumes, job interviews, public speaking, and the final capstone fluency portfolio.',
++    descriptionHi: 'बैंकिंग, यात्रा व नागरिक सेवाएँ, बिक्री वार्ता, रिज़्यूमे, नौकरी के साक्षात्कार, सार्वजनिक भाषण और अंतिम कैपस्टोन प्रवीणता पोर्टफोलियो।',
+   },
+ ];
+ 
+diff --git a/src/services/CurriculumService.ts b/src/services/CurriculumService.ts
+index 78abf1b..363a847 100644
+--- a/src/services/CurriculumService.ts
++++ b/src/services/CurriculumService.ts
+@@ -317,10 +317,10 @@ export interface LessonStageDefinition {
+ export const ALL_CEFR_LEVELS: { level: CEFRLevel; title: string; description: string; unitCount: number }[] = [
+   { level: 'A1', title: 'A1 Beginner', description: 'Breakthrough & Essential Communication', unitCount: 6 },
+   { level: 'A2', title: 'A2 Elementary', description: 'Waystage & Everyday Social Situations', unitCount: 12 },
+-  { level: 'B1', title: 'B1 Intermediate', description: 'Planned; not released', unitCount: 0 },
+-  { level: 'B2', title: 'B2 Upper Intermediate', description: 'Planned; not released', unitCount: 0 },
+-  { level: 'C1', title: 'C1 Advanced', description: 'Planned; not released', unitCount: 0 },
+-  { level: 'C2', title: 'C2 Mastery', description: 'Planned; not released', unitCount: 0 },
++  { level: 'B1', title: 'B1 Intermediate', description: 'English Path units in development (60-day course B1 content is available)', unitCount: 0 },
++  { level: 'B2', title: 'B2 Upper Intermediate', description: 'In development — units not yet authored', unitCount: 0 },
++  { level: 'C1', title: 'C1 Advanced', description: 'In development — units not yet authored', unitCount: 0 },
++  { level: 'C2', title: 'C2 Mastery', description: 'In development — units not yet authored', unitCount: 0 },
+ ];
+ 
+ class CurriculumServiceManager {
+diff --git a/src/services/HindiCourseService.ts b/src/services/HindiCourseService.ts
+index cb84469..7b49d2a 100644
+--- a/src/services/HindiCourseService.ts
++++ b/src/services/HindiCourseService.ts
+@@ -6,7 +6,10 @@ import {
+   initializeCurriculumRegistry
+ } from '../data/curriculumRegistry';
+ 
+-export const HINDI_RELEASED_DAYS = 40;
++/**
++ * Get currently released lessons (Days 1-60 — full course, A1 → B1).
++ */
++export const HINDI_RELEASED_DAYS = 60;
+ export const HINDI_DAY_XP_REWARD = 75;
+ 
+ export const HINDI_COURSE_STAGES: HindiCourseStageMeta[] = STAGES_METADATA;
+@@ -19,7 +22,7 @@ class HindiCourseManager {
+   }
+ 
+   /**
+-   * Get currently released lessons (Days 1-40). Later days remain planned.
++   * Get currently released lessons (Days 1-60). The full course is released.
+    */
+   public getAllAvailableDays(): HindiDayLesson[] {
+     return getAllRegistryDays().filter((day) => day.dayNumber <= HINDI_RELEASED_DAYS);
+@@ -40,7 +43,7 @@ class HindiCourseManager {
+   }
+ 
+   /**
+-   * Get a released lesson day by number (1..40).
++   * Get currently released lesson day by number (1..60).
+    */
+   public getDayByNumber(dayNum: number): HindiDayLesson | null {
+     if (!Number.isInteger(dayNum) || dayNum < 1 || dayNum > HINDI_RELEASED_DAYS) return null;
+diff --git a/src/utils/audioUtils.ts b/src/utils/audioUtils.ts
+index 1125a3f..50148f5 100644
+--- a/src/utils/audioUtils.ts
++++ b/src/utils/audioUtils.ts
+@@ -155,8 +155,15 @@ export const sanitizeSpokenAudioText = (rawText: string): string => {
+   // Remove parenthetical notes e.g. "(teeth on lip)", "(Hindi Meaning)", "(Noun)", "(Verb)"
+   text = text.replace(/\([^)]*\)/g, '');
+ 
+-  // Clean extra whitespace and quotes
+-  text = text.replace(/["'“”]/g, ' ');
++  // Normalize curly/smart single quotes to a straight apostrophe FIRST so
++  // contractions ("you're", "he's", "don't") survive sanitization intact.
++  text = text.replace(/[\u2018\u2019\u02BC\u00B4]/g, "'");
++
++  // Remove double quotes only. NEVER strip apostrophes here: stripping turns
++  // "he's" into "he s" and TTS engines then read letters ("you're" -> "you r e").
++  text = text.replace(/["“”]/g, ' ');
++
++  // Clean extra whitespace
+   text = text.replace(/\s+/g, ' ').trim();
+ 
+   return text;

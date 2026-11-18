@@ -661,7 +661,7 @@ export const HindiSpokenLabModal: React.FC<HindiSpokenLabModalProps> = ({
                   <div className="space-y-1">
                     <p className="text-sm font-bold text-slate-900 dark:text-white">No pronunciation drills found</p>
                     <p className="text-xs text-slate-500 dark:text-slate-400">
-                      Try adjusting your search or reset filters to view released days. Days 41–60 are planned and not released.
+                      Try adjusting your search or reset filters to view released days.
                     </p>
                   </div>
                   <button

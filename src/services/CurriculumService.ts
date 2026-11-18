@@ -317,10 +317,10 @@ export interface LessonStageDefinition {
 export const ALL_CEFR_LEVELS: { level: CEFRLevel; title: string; description: string; unitCount: number }[] = [
   { level: 'A1', title: 'A1 Beginner', description: 'Breakthrough & Essential Communication', unitCount: 6 },
   { level: 'A2', title: 'A2 Elementary', description: 'Waystage & Everyday Social Situations', unitCount: 12 },
-  { level: 'B1', title: 'B1 Intermediate', description: 'Planned; not released', unitCount: 0 },
-  { level: 'B2', title: 'B2 Upper Intermediate', description: 'Planned; not released', unitCount: 0 },
-  { level: 'C1', title: 'C1 Advanced', description: 'Planned; not released', unitCount: 0 },
-  { level: 'C2', title: 'C2 Mastery', description: 'Planned; not released', unitCount: 0 },
+  { level: 'B1', title: 'B1 Intermediate', description: 'English Path units in development (60-day course B1 content is available)', unitCount: 0 },
+  { level: 'B2', title: 'B2 Upper Intermediate', description: 'In development — units not yet authored', unitCount: 0 },
+  { level: 'C1', title: 'C1 Advanced', description: 'In development — units not yet authored', unitCount: 0 },
+  { level: 'C2', title: 'C2 Mastery', description: 'In development — units not yet authored', unitCount: 0 },
 ];
 
 class CurriculumServiceManager {

@@ -126,7 +126,7 @@ export const HindiCourseHome: React.FC<HindiCourseHomeProps> = ({
             60-Day English Course Path
           </h1>
           <p className="text-xs sm:text-sm text-emerald-100 font-hindi font-medium">
-            {nextIncompleteDayNum > availableDays ? 'Days 41–60 are planned and not yet released' : `${currentStage.stageTitleHi} • Days ${currentStage.startDay}–${currentStage.endDay}`}
+            {nextIncompleteDayNum > availableDays ? 'सभी 60 दिन जारी • कोर्स पूर्ण 🎉' : `${currentStage.stageTitleHi} • Days ${currentStage.startDay}–${currentStage.endDay}`}
           </p>
         </div>
 
@@ -155,7 +155,7 @@ export const HindiCourseHome: React.FC<HindiCourseHomeProps> = ({
             <span>Lesson reward: <strong>+{HINDI_DAY_XP_REWARD} XP once per new day</strong></span>
           </span>
           <span className="bg-white/20 px-2.5 py-0.5 rounded-full text-white font-extrabold">
-            Days 41–60 are planned and not yet released
+            All 60 days released
           </span>
         </div>
       </div>
@@ -250,7 +250,7 @@ export const HindiCourseHome: React.FC<HindiCourseHomeProps> = ({
                   60-day course plan
                 </h4>
                 <p className="text-[11px] text-slate-500 dark:text-slate-400 font-mono">
-                  Days 1–40 released; Days 41–60 are planned, not released
+                  All 60 days released • A1 → B1 complete
                 </p>
               </div>
             </div>
@@ -384,7 +384,7 @@ export const HindiCourseHome: React.FC<HindiCourseHomeProps> = ({
                       Days {stage.startDay}–{stage.endDay}
                     </span>
                     <span className="text-[11px] font-bold text-emerald-600 dark:text-emerald-400">
-                      {stage.startDay > availableDays ? 'Planned; not released' : `${stageCompletedDaysCount}/${releasedStageDays.length} days complete`}
+                      {stage.startDay > availableDays ? 'Locked' : `${stageCompletedDaysCount}/${releasedStageDays.length} days complete`}
                     </span>
                   </div>
                 </div>
@@ -414,7 +414,7 @@ export const HindiCourseHome: React.FC<HindiCourseHomeProps> = ({
                     </div>
                     <p className="text-xs font-bold text-slate-500 dark:text-slate-400">
                       {stage.startDay > availableDays
-                        ? `Days ${stage.startDay}–${stage.endDay} are planned and not yet released`
+                        ? `Days ${stage.startDay}–${stage.endDay} unlock as you progress`
                         : `Complete Stage ${stage.stageNumber - 1} to unlock this module`}
                     </p>
                   </div>

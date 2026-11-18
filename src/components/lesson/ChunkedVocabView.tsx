@@ -27,6 +27,11 @@ export const ChunkedVocabView: React.FC<ChunkedVocabViewProps> = ({
   const [isQuickCheckAnswered, setIsQuickCheckAnswered] = useState(false);
   const [isQuickCheckCorrect, setIsQuickCheckCorrect] = useState<boolean | null>(null);
 
+  // Spaced retrieval check states
+  const [selectedRetrievalChoice, setSelectedRetrievalChoice] = useState<string | null>(null);
+  const [isRetrievalAnswered, setIsRetrievalAnswered] = useState(false);
+  const [isRetrievalCorrect, setIsRetrievalCorrect] = useState<boolean | null>(null);
+
   // Chunking vocabulary into 4 pedagogical groups
   const groups = [
     {
@@ -112,10 +117,24 @@ export const ChunkedVocabView: React.FC<ChunkedVocabViewProps> = ({
   const currentGroup = groups[currentGroupIndex];
 
   const handleSelectQuickCheck = (optionText: string, isCorrect: boolean) => {
+    if (isQuickCheckAnswered) return;
     playSoundEffectEffect('tap');
     setSelectedQuickChoice(optionText);
     setIsQuickCheckAnswered(true);
     setIsQuickCheckCorrect(isCorrect);
+    if (isCorrect) {
+      playSoundEffectEffect('correct');
+    } else {
+      playSoundEffectEffect('wrong');
+    }
+  };
+
+  const handleSelectRetrievalCheck = (optionText: string, isCorrect: boolean) => {
+    if (isRetrievalAnswered) return;
+    playSoundEffectEffect('tap');
+    setSelectedRetrievalChoice(optionText);
+    setIsRetrievalAnswered(true);
+    setIsRetrievalCorrect(isCorrect);
     if (isCorrect) {
       playSoundEffectEffect('correct');
     } else {
@@ -128,6 +147,9 @@ export const ChunkedVocabView: React.FC<ChunkedVocabViewProps> = ({
     setIsQuickCheckAnswered(false);
     setSelectedQuickChoice(null);
     setIsQuickCheckCorrect(null);
+    setIsRetrievalAnswered(false);
+    setSelectedRetrievalChoice(null);
+    setIsRetrievalCorrect(null);
 
     if (currentGroupIndex + 1 < groups.length) {
       setCurrentGroupIndex((prev) => prev + 1);
@@ -196,20 +218,43 @@ export const ChunkedVocabView: React.FC<ChunkedVocabViewProps> = ({
           <p className="text-base font-bold text-white leading-snug">{currentGroup.retrievalCheck.question}</p>
 
           <div className="grid grid-cols-3 gap-2.5">
-            {currentGroup.retrievalCheck.options.map((opt, idx) => (
-              <button
-                key={idx}
-                onClick={() => {
-                  playSoundEffectEffect('tap');
-                  if (opt.isCorrect) playSoundEffectEffect('correct');
-                  else playSoundEffectEffect('wrong');
-                }}
-                className="min-h-[48px] py-3 px-3 bg-slate-950/90 hover:bg-slate-850 text-slate-200 border border-slate-800 rounded-2xl font-bold text-sm transition"
-              >
-                {opt.text}
-              </button>
-            ))}
+            {currentGroup.retrievalCheck.options.map((opt, idx) => {
+              const isSelected = selectedRetrievalChoice === opt.text;
+              let btnStyle = 'bg-slate-950/90 border-slate-800 text-slate-200 hover:border-amber-500/60 hover:bg-slate-900';
+              if (isRetrievalAnswered && isSelected) {
+                btnStyle = opt.isCorrect
+                  ? 'bg-emerald-500/20 border-emerald-400 text-emerald-300 font-black'
+                  : 'bg-rose-500/20 border-rose-400 text-rose-300 font-black';
+              } else if (isRetrievalAnswered && opt.isCorrect && !isRetrievalCorrect) {
+                // Reveal the correct answer when the learner missed it
+                btnStyle = 'bg-emerald-500/15 border-emerald-500/70 text-emerald-300 font-black';
+              }
+              return (
+                <button
+                  key={idx}
+                  disabled={isRetrievalAnswered}
+                  onClick={() => handleSelectRetrievalCheck(opt.text, opt.isCorrect)}
+                  className={`min-h-[50px] py-3 px-3 border rounded-2xl font-bold text-sm transition flex items-center justify-center space-x-1.5 active:scale-[0.97] cursor-pointer btn-press disabled:cursor-default ${btnStyle}`}
+                >
+                  <span>{opt.text}</span>
+                  {isRetrievalAnswered && isSelected && (
+                    opt.isCorrect
+                      ? <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                      : <span className="text-rose-400 font-black">✕</span>
+                  )}
+                </button>
+              );
+            })}
           </div>
+
+          {isRetrievalAnswered && (
+            <div className="bg-slate-950/80 p-4 rounded-2xl border border-amber-500/20 text-sm text-slate-300 leading-relaxed font-medium">
+              <strong className={isRetrievalCorrect ? 'text-emerald-400 font-black' : 'text-amber-400 font-black'}>
+                {isRetrievalCorrect ? 'Correct! ' : 'Not quite — '}
+              </strong>
+              {currentGroup.retrievalCheck.explanation}
+            </div>
+          )}
         </div>
       )}
 
@@ -225,22 +270,29 @@ export const ChunkedVocabView: React.FC<ChunkedVocabViewProps> = ({
         <div className="grid grid-cols-3 gap-2.5">
           {currentGroup.quickCheck.options.map((opt, idx) => {
             const isSelected = selectedQuickChoice === opt.text;
-            let btnStyle = 'bg-slate-950 border-slate-800 text-slate-200 hover:border-slate-700';
+            let btnStyle = 'bg-slate-950 border-slate-800 text-slate-200 hover:border-indigo-500/60 hover:bg-slate-900';
             if (isQuickCheckAnswered && isSelected) {
               btnStyle = opt.isCorrect
                 ? 'bg-emerald-500/20 border-emerald-400 text-emerald-300 font-black'
                 : 'bg-rose-500/20 border-rose-400 text-rose-300 font-black';
+            } else if (isQuickCheckAnswered && opt.isCorrect && !isQuickCheckCorrect) {
+              // Reveal the correct answer when the learner missed it
+              btnStyle = 'bg-emerald-500/15 border-emerald-500/70 text-emerald-300 font-black';
             }
 
             return (
               <button
                 key={idx}
+                disabled={isQuickCheckAnswered}
                 onClick={() => handleSelectQuickCheck(opt.text, opt.isCorrect)}
-                className={`min-h-[50px] py-3 px-3 rounded-2xl border text-sm font-bold transition flex items-center justify-center space-x-1.5 ${btnStyle}`}
+                className={`min-h-[50px] py-3 px-3 rounded-2xl border text-sm font-bold transition flex items-center justify-center space-x-1.5 active:scale-[0.97] cursor-pointer btn-press disabled:cursor-default ${btnStyle}`}
               >
                 <span>{opt.text}</span>
                 {isQuickCheckAnswered && isSelected && opt.isCorrect && (
                   <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                )}
+                {isQuickCheckAnswered && isSelected && !opt.isCorrect && (
+                  <span className="text-rose-400 font-black">✕</span>
                 )}
               </button>
             );
