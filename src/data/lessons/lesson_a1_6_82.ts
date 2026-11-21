@@ -1036,6 +1036,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u06_l82_p1",
+      "explanation": '\'There has been + past participle\' reports a recent event. \'There was been\' and \'there having\' are incorrect.',
       "lessonId": "lesson_a1_6_82",
       "stage": 8,
       "type": "multiple_choice",
@@ -1060,6 +1061,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_p2",
+      "explanation": '\'Broken down\' is the past participle of \'break down\'. \'Is broke down\' and \'breakin\' are incorrect.',
       "lessonId": "lesson_a1_6_82",
       "stage": 8,
       "type": "multiple_choice",
@@ -1084,6 +1086,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_p3",
+      "explanation": 'Hazard lights flash to warn other drivers of a problem. \'Harbor\' and \'harvest\' do not fit.',
       "lessonId": "lesson_a1_6_82",
       "stage": 8,
       "type": "fill_blank",
@@ -1110,6 +1113,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_p4",
+      "explanation": 'A flat tire has lost air. A tow truck transports a disabled car. Jumper cables boost a dead battery.',
       "lessonId": "lesson_a1_6_82",
       "stage": 8,
       "type": "match_pairs",
@@ -1135,6 +1139,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_p5",
+      "explanation": '\'Please send an ambulance to the intersection\' is a clear, polite emergency request.',
       "lessonId": "lesson_a1_6_82",
       "stage": 8,
       "type": "word_ordering",
@@ -1152,6 +1157,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_p6",
+      "explanation": '\'Has broken down\' is the present perfect for a recent breakdown. \'Was broke do\' is incorrect.',
       "lessonId": "lesson_a1_6_82",
       "stage": 8,
       "type": "error_correction",
@@ -1173,6 +1179,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_p7",
+      "explanation": '\'There has been a collision near mile marker forty-two\' reports a recent accident with the present perfect.',
       "lessonId": "lesson_a1_6_82",
       "stage": 9,
       "type": "listen_and_type",
@@ -1182,6 +1189,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_p8",
+      "explanation": '\'Is anyone injured or trapped inside the car?\' asks a safety question with \'anyone\' in a question.',
       "lessonId": "lesson_a1_6_82",
       "stage": 10,
       "type": "multiple_choice",
@@ -1206,6 +1214,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_p9",
+      "explanation": '\'We are parked on the right shoulder of Interstate 80, near exit 25\' gives a clear location for emergency services.',
       "lessonId": "lesson_a1_6_82",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1230,6 +1239,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_p10",
+      "explanation": '\'Please send help immediately\' is a clear emergency request.',
       "lessonId": "lesson_a1_6_82",
       "stage": 12,
       "type": "speaking",
@@ -1239,6 +1249,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_p11",
+      "explanation": '\'We need a tow truck to haul the car to the garage\' uses \'to\' + base verb for purpose. Hindi: \'कार को गैरेज तक ले जाने के लिए हमें एक टो ट्रक की आवश्यकता है।\'',
       "lessonId": "lesson_a1_6_82",
       "stage": 13,
       "type": "translation",
@@ -1247,6 +1258,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_p12",
+      "explanation": 'A jack raises a car so the tire can be changed. A jug and a jaw are different things.',
       "lessonId": "lesson_a1_6_82",
       "stage": 14,
       "type": "multiple_choice",
@@ -1271,6 +1283,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_p13",
+      "explanation": 'A dispatcher coordinates emergency services. Disruption and display do not fit here.',
       "lessonId": "lesson_a1_6_82",
       "stage": 14,
       "type": "fill_blank",
@@ -1297,6 +1310,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_p14",
+      "explanation": '\'I pulled the car safely onto the shoulder\' describes an action in the past simple with an adverb.',
       "lessonId": "lesson_a1_6_82",
       "stage": 14,
       "type": "word_ordering",
@@ -1315,6 +1329,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_p15",
+      "explanation": '\'My battery is completely dead, so I need a jump start\' gives the problem and the request with \'so\'.',
       "lessonId": "lesson_a1_6_82",
       "stage": 14,
       "type": "speaking",
@@ -1326,6 +1341,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u06_l82_r1",
+      "explanation": '\'There has been a severe collision\' uses the present perfect for a recent event.',
       "lessonId": "lesson_a1_6_82",
       "stage": 16,
       "type": "multiple_choice",
@@ -1350,6 +1366,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_r2",
+      "explanation": '\'Was injured\' is the passive past. \'Injuring\' and \'injury\' do not fit the grammar.',
       "lessonId": "lesson_a1_6_82",
       "stage": 16,
       "type": "fill_blank",
@@ -1376,6 +1393,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_r3",
+      "explanation": '\'Stay on the line with me, please\' is a polite imperative.',
       "lessonId": "lesson_a1_6_82",
       "stage": 16,
       "type": "word_ordering",
@@ -1393,6 +1411,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_r4",
+      "explanation": 'A broken-down car needs roadside assistance and a tow truck. An injured passenger needs paramedics and an ambulance.',
       "lessonId": "lesson_a1_6_82",
       "stage": 16,
       "type": "match_pairs",
@@ -1418,6 +1437,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_r5",
+      "explanation": '\'Turn on your hazard lights immediately\' is a safety instruction. Hindi: \'यदि आप सड़क किनारे रुकते हैं तो तुरंत अपनी हैज़र्ड लाइट चालू करें।\'',
       "lessonId": "lesson_a1_6_82",
       "stage": 16,
       "type": "translation",
@@ -1428,6 +1448,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u06_l82_a1",
+      "explanation": '\'There has been a collision on Route 9, and one person is injured\' uses the present perfect for a recent event with a passive.',
       "lessonId": "lesson_a1_6_82",
       "stage": 17,
       "type": "multiple_choice",
@@ -1452,6 +1473,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_a2",
+      "explanation": 'A dead battery needs a jump start, so \'battery\' fits the sentence.',
       "lessonId": "lesson_a1_6_82",
       "stage": 17,
       "type": "fill_blank",
@@ -1478,6 +1500,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_a3",
+      "explanation": '\'My car has broken down near exit twelve\' reports a breakdown with the present perfect.',
       "lessonId": "lesson_a1_6_82",
       "stage": 17,
       "type": "word_ordering",
@@ -1496,6 +1519,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_a4",
+      "explanation": '\'Yes, we are standing behind the highway guardrail\' gives a safe location.',
       "lessonId": "lesson_a1_6_82",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1520,6 +1544,7 @@ export const LESSON_A1_6_82_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l82_a5",
+      "explanation": '\'I have pulled over safely onto the shoulder and turned on the hazard lights\' gives a clear report of two completed actions.',
       "lessonId": "lesson_a1_6_82",
       "stage": 17,
       "type": "speaking",

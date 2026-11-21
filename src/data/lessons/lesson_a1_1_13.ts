@@ -550,6 +550,7 @@ export const LESSON_A1_1_13_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l13_p3',
+      explanation: '\'Can I have...?\' is a polite request. Use \'a cup of\' for a drink: \'Can I have a cup of coffee, please?\' \'Please\' comes at the end.',
       lessonId: 'lesson_a1_1_13',
       stage: 8,
       type: 'word_ordering',
@@ -573,6 +574,7 @@ export const LESSON_A1_1_13_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l13_p5',
+      explanation: '\'Juice\' is uncountable, so measure it with \'a glass of\': \'I drink a glass of orange juice.\'',
       lessonId: 'lesson_a1_1_13',
       stage: 9,
       type: 'listen_and_type',
@@ -582,6 +584,7 @@ export const LESSON_A1_1_13_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l13_p6',
+      explanation: 'In questions, use \'any\' with uncountable or plural nouns: \'Do you have any green tea?\'',
       lessonId: 'lesson_a1_1_13',
       stage: 10,
       type: 'word_ordering',
@@ -591,6 +594,7 @@ export const LESSON_A1_1_13_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l13_p7',
+      explanation: '\'An egg\' takes \'an\' before a vowel sound. \'A slice of bread\' measures the bread. \'Can I have...?\' is a polite request.',
       lessonId: 'lesson_a1_1_13',
       stage: 12,
       type: 'speaking',
@@ -600,6 +604,7 @@ export const LESSON_A1_1_13_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l13_p8',
+      explanation: '\'Can I have the bill, please?\' is the polite way to ask for the bill. Hindi: \'क्या मुझे बिल मिल सकता है, कृपया?\'',
       lessonId: 'lesson_a1_1_13',
       stage: 13,
       type: 'translation',
@@ -684,6 +689,7 @@ export const LESSON_A1_1_13_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l13_p14',
+      explanation: '\'An apple\' takes \'an\' before a vowel sound. \'Orange juice\' is uncountable and needs no article.',
       lessonId: 'lesson_a1_1_13',
       stage: 8,
       type: 'word_ordering',
@@ -693,6 +699,7 @@ export const LESSON_A1_1_13_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l13_p15',
+      explanation: '\'Could I have\' is a more polite form of \'Can I have\'. \'Some\' is used with uncountable nouns such as butter and sugar.',
       lessonId: 'lesson_a1_1_13',
       stage: 12,
       type: 'speaking',
@@ -734,6 +741,7 @@ export const LESSON_A1_1_13_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l13_rev3',
+      explanation: '\'Any\' is used in negatives: \'We don\'t have any sugar.\' \'Some\' is used in positive statements.',
       lessonId: 'lesson_a1_1_13',
       stage: 16,
       type: 'word_ordering',
@@ -743,6 +751,7 @@ export const LESSON_A1_1_13_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l13_rev4',
+      explanation: '\'Some\' is used in offers: \'Would you like some coffee?\' Hindi: \'क्या आप थोड़ी कॉफी लेना चाहेंगे?\'',
       lessonId: 'lesson_a1_1_13',
       stage: 16,
       type: 'translation',
@@ -788,6 +797,7 @@ export const LESSON_A1_1_13_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l13_a3',
+      explanation: 'Use \'a glass of\' for a drink and \'the\' for a specific item: \'a glass of water and the menu, please.\'',
       lessonId: 'lesson_a1_1_13',
       stage: 17,
       type: 'word_ordering',
@@ -825,6 +835,7 @@ export const LESSON_A1_1_13_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l13_a6',
+      explanation: '\'Some\' is used with uncountable nouns in positive sentences: \'some fresh bread and cheese.\'',
       lessonId: 'lesson_a1_1_13',
       stage: 17,
       type: 'listen_and_type',
@@ -848,6 +859,7 @@ export const LESSON_A1_1_13_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l13_a8',
+      explanation: 'In questions, use \'any\' with uncountable or plural nouns: \'Do you have any fruit?\' Hindi: \'क्या आपके पास कोई फल है?\'',
       lessonId: 'lesson_a1_1_13',
       stage: 17,
       type: 'translation',
@@ -874,6 +886,7 @@ export const LESSON_A1_1_13_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l13_a10',
+      explanation: '\'Always\' comes before the main verb \'have\'. \'A glass of\' measures the drink: \'I always have a glass of orange juice for breakfast.\'',
       lessonId: 'lesson_a1_1_13',
       stage: 17,
       type: 'word_ordering',

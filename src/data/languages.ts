@@ -153,11 +153,11 @@ export const CENTRAL_LANGUAGE_REGISTRY: LanguageRegistryEntry[] = [
     flag: '🇪🇸',
     isTargetLanguageSupported: true,
     isInstructionLanguageSupported: true,
-    status: 'ARCHITECTURE_READY',
+    status: 'CONTENT_READY',
     defaultProficiencyFramework: 'CEFR',
     greeting: '¡Aprende inglés desde el español!',
     description: 'Spanish instruction support and secondary language enrichment layer.',
-    coverageNotes: 'Architecture Ready: Secondary language layer active. Full Spanish instruction in progress.'
+    coverageNotes: 'Content ready: Spanish translations in all 270 lessons. Native-speaker review pending.'
   },
   {
     code: 'fr',
@@ -168,11 +168,11 @@ export const CENTRAL_LANGUAGE_REGISTRY: LanguageRegistryEntry[] = [
     flag: '🇫🇷',
     isTargetLanguageSupported: true,
     isInstructionLanguageSupported: true,
-    status: 'ARCHITECTURE_READY',
+    status: 'CONTENT_PARTIAL',
     defaultProficiencyFramework: 'CEFR',
     greeting: 'Apprenez l\'anglais depuis le français !',
     description: 'French instruction support and secondary language enrichment layer.',
-    coverageNotes: 'Architecture Ready: Secondary language layer active. Full French instruction in progress.'
+    coverageNotes: 'Content partial: about 209 of 270 lessons translated (A1 and A2 units 7–14). Units 15–18 pending.'
   },
   {
     code: 'de',
@@ -183,11 +183,11 @@ export const CENTRAL_LANGUAGE_REGISTRY: LanguageRegistryEntry[] = [
     flag: '🇩🇪',
     isTargetLanguageSupported: true,
     isInstructionLanguageSupported: true,
-    status: 'ARCHITECTURE_READY',
+    status: 'CONTENT_PARTIAL',
     defaultProficiencyFramework: 'CEFR',
     greeting: 'Lerne Englisch aus dem Deutschen!',
     description: 'German instruction support and secondary language enrichment layer.',
-    coverageNotes: 'Architecture Ready: Secondary language layer active. Full German instruction in progress.'
+    coverageNotes: 'Content partial: about 209 of 270 lessons translated (A1 and A2 units 7–14). Units 15–18 pending.'
   },
   {
     code: 'pt',
@@ -198,11 +198,11 @@ export const CENTRAL_LANGUAGE_REGISTRY: LanguageRegistryEntry[] = [
     flag: '🇧🇷',
     isTargetLanguageSupported: true,
     isInstructionLanguageSupported: true,
-    status: 'ARCHITECTURE_READY',
+    status: 'CONTENT_PARTIAL',
     defaultProficiencyFramework: 'CEFR',
     greeting: 'Aprenda inglês a partir do português!',
     description: 'Portuguese instruction support and secondary language layer.',
-    coverageNotes: 'Architecture Ready: Secondary language layer active. Full Portuguese instruction in progress.'
+    coverageNotes: 'Content partial: about 209 of 270 lessons translated (A1 and A2 units 7–14). Units 15–18 pending.'
   },
   {
     code: 'zh',
@@ -213,11 +213,11 @@ export const CENTRAL_LANGUAGE_REGISTRY: LanguageRegistryEntry[] = [
     flag: '🇨🇳',
     isTargetLanguageSupported: true,
     isInstructionLanguageSupported: true,
-    status: 'ARCHITECTURE_READY',
+    status: 'CONTENT_PARTIAL',
     defaultProficiencyFramework: 'CEFR',
     greeting: '从中文零基础学英语！',
     description: 'Mandarin Chinese instruction support.',
-    coverageNotes: 'Architecture Ready: Schema and phonetics ready. Full Mandarin instruction in progress.'
+    coverageNotes: 'Content partial: about 209 of 270 lessons translated (A1 and A2 units 7–14). Units 15–18 pending.'
   },
   {
     code: 'ar',
@@ -228,11 +228,11 @@ export const CENTRAL_LANGUAGE_REGISTRY: LanguageRegistryEntry[] = [
     flag: '🇸🇦',
     isTargetLanguageSupported: true,
     isInstructionLanguageSupported: true,
-    status: 'ARCHITECTURE_READY',
+    status: 'CONTENT_PARTIAL',
     defaultProficiencyFramework: 'CEFR',
     greeting: 'تعلم اللغة الإنجليزية من العربية!',
     description: 'Arabic instruction support with RTL directional formatting.',
-    coverageNotes: 'Architecture Ready: RTL framework enabled. Full Arabic instruction in progress.'
+    coverageNotes: 'Content partial: about 209 of 270 lessons translated (A1 and A2 units 7–14). Units 15–18 pending.'
   },
   {
     code: 'ja',
@@ -243,11 +243,11 @@ export const CENTRAL_LANGUAGE_REGISTRY: LanguageRegistryEntry[] = [
     flag: '🇯🇵',
     isTargetLanguageSupported: true,
     isInstructionLanguageSupported: true,
-    status: 'ARCHITECTURE_READY',
+    status: 'CONTENT_PARTIAL',
     defaultProficiencyFramework: 'CEFR',
     greeting: '日本語から英語を楽しく学ぼう！',
     description: 'Japanese instruction support and secondary language layer.',
-    coverageNotes: 'Architecture Ready: Secondary language layer active. Full Japanese instruction in progress.'
+    coverageNotes: 'Content partial: about 209 of 270 lessons translated (A1 and A2 units 7–14). Units 15–18 pending.'
   },
   {
     code: 'ru',
@@ -258,11 +258,11 @@ export const CENTRAL_LANGUAGE_REGISTRY: LanguageRegistryEntry[] = [
     flag: '🇷🇺',
     isTargetLanguageSupported: true,
     isInstructionLanguageSupported: true,
-    status: 'ARCHITECTURE_READY',
+    status: 'CONTENT_PARTIAL',
     defaultProficiencyFramework: 'CEFR',
     greeting: 'Изучайте английский язык с русского!',
     description: 'Russian instruction support with Cyrillic script handling.',
-    coverageNotes: 'Architecture Ready: Cyrillic script framework enabled. Full Russian instruction in progress.'
+    coverageNotes: 'Content partial: about 209 of 270 lessons translated (A1 and A2 units 7–14). Units 15–18 pending.'
   }
 ];
 

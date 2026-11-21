@@ -296,7 +296,7 @@ export const AssessmentCenterView: React.FC<AssessmentCenterViewProps> = ({
 
       const totalCorrect = activeExam.answersLog.filter((a) => a.isCorrect).length;
       const totalQuestions = activeExam.exercises.length;
-      const scorePercent = attempt ? attempt.scorePercent : Math.round((totalCorrect / totalQuestions) * 100);
+      const scorePercent = attempt ? attempt.scorePercent : totalQuestions > 0 ? Math.round((totalCorrect / totalQuestions) * 100) : 0;
       const passed = attempt ? attempt.passed : scorePercent >= 80;
       const distinction = attempt ? attempt.isMastered : scorePercent >= 90;
       const circumference = 2 * Math.PI * 44; // r=44

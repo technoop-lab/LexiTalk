@@ -1030,6 +1030,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u03_l34_p1",
+      "explanation": '\'Mine\' is the possessive pronoun that replaces \'my umbrella\'. \'My\' is a possessive adjective and needs a noun after it.',
       "type": "multiple_choice",
       "prompt": "Choose the correct possessive pronoun: \"This is not my umbrella; ___ is blue.\"",
       "targetSentence": "This is not my umbrella; mine is blue.",
@@ -1058,6 +1059,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_p2",
+      "explanation": '\'Whose\' asks who something belongs to. \'Who\'s\' means \'who is\', which does not fit here.',
       "type": "fill_blank",
       "prompt": "Select the question word: \"___ wallet is this on the floor?\"",
       "targetSentence": "Whose wallet is this on the floor?",
@@ -1086,6 +1088,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_p3",
+      "explanation": '\'Belongs to them\' uses \'them\' as the object of \'to\'. \'Theirs\' is the possessive pronoun and is not needed after \'to\'.',
       "type": "word_ordering",
       "prompt": "Assemble the sentence about possession:",
       "targetSentence": "That new silver car belongs to them",
@@ -1103,6 +1106,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_p4",
+      "explanation": 'The audio says \'The green notebook on the table is hers.\' \'Hers\' is the possessive pronoun for a female owner.',
       "type": "listening",
       "prompt": "Listen to the audio and identify the owner:",
       "audioText": "The green notebook on the table is hers.",
@@ -1131,6 +1135,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_p5",
+      "explanation": '\'Yours\' and \'hers\' are possessive pronouns and need the -s. \'Your\' and \'her\' are possessive adjectives and need a noun after them.',
       "type": "error_correction",
       "prompt": "Fix the possessive pronoun spelling error:",
       "targetSentence": "Is this red backpack yours or hers?",
@@ -1160,6 +1165,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_p6",
+      "explanation": '\'They are mine\' answers the question with the possessive pronoun. \'Thank you for finding them\' is a natural reply.',
       "type": "dialogue_completion",
       "prompt": "Choose the most natural answer:",
       "dialogueContext": {
@@ -1192,6 +1198,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_p7",
+      "explanation": '\'Whose umbrella is this?\' asks who owns the umbrella. Hindi: \'कुर्सी पर यह काली छतरी किसकी है?\'',
       "type": "translation",
       "prompt": "Translate this question into English:",
       "sourceSentence": "कुर्सी पर यह काली छतरी किसकी है?",
@@ -1215,6 +1222,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_p8",
+      "explanation": '\'Mine\' and \'yours\' are possessive pronouns that replace \'my charger\' and \'your charger\'.',
       "type": "speaking",
       "prompt": "Speak this statement clearly into your microphone:",
       "targetSentence": "This phone charger is mine, not yours.",
@@ -1222,6 +1230,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_p9",
+      "explanation": '\'Theirs\' replaces \'their garden\'. \'Our house\' keeps the possessive adjective because it has a noun after it.',
       "type": "listen_and_type",
       "prompt": "Listen to the audio and assemble the sentence:",
       "audioText": "Our house has a garden, but theirs is bigger.",
@@ -1242,6 +1251,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_p10",
+      "explanation": '\'Hers\' is the possessive pronoun. \'Her\'s\' is incorrect, since possessive pronouns do not use an apostrophe.',
       "type": "multiple_choice",
       "prompt": "Which sentence correctly replaces \"This is her coat\"?",
       "targetSentence": "This coat is hers.",
@@ -1270,6 +1280,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_p11",
+      "explanation": '\'Ours\' is the possessive pronoun for \'we\'. \'Our\' needs a noun after it, and \'our\'s\' has an incorrect apostrophe.',
       "type": "fill_blank",
       "prompt": "Choose the correct word: \"We won the prize; the trophy is ___ (we).\"",
       "targetSentence": "We won the prize; the trophy is ours.",
@@ -1298,6 +1309,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_p12",
+      "explanation": 'Possessive adjectives (my, your, her, our) need a noun. Possessive pronouns (mine, yours, hers, ours) stand alone.',
       "type": "match_pairs",
       "prompt": "Match the possessive adjectives with their possessive pronouns:",
       "options": [
@@ -1337,6 +1349,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_p13",
+      "explanation": '\'Whose\' asks about ownership. Here the sentence states a fact about a lost item, so no question word is needed.',
       "type": "word_ordering",
       "prompt": "Assemble the sentence identifying lost items:",
       "targetSentence": "Someone left this water bottle in the conference room",
@@ -1356,6 +1369,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_p14",
+      "explanation": '\'Whose glasses are these?\' is correct: the question word \'Whose\', the plural verb \'are\', and the plural noun \'glasses\'.',
       "type": "multiple_choice",
       "prompt": "Which sentence is grammatically correct?",
       "targetSentence": "Whose glasses are these?",
@@ -1384,6 +1398,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_p15",
+      "explanation": '\'Do you have yours?\' uses \'yours\' as the possessive pronoun for \'your ticket\'.',
       "type": "fill_blank",
       "prompt": "Complete the sentence with the correct pronoun: \"I have my ticket, do you have ___?\"",
       "targetSentence": "I have my ticket, do you have yours?",
@@ -1414,6 +1429,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u03_l34_rev1",
+      "explanation": '\'His\' and \'hers\' are both possessive pronouns, so they stand alone. \'The blue jacket is his\' and \'the yellow one is hers\' are correct.',
       "type": "multiple_choice",
       "prompt": "Select the sentence with correct possessive pronoun usage:",
       "targetSentence": "The blue jacket is his, and the yellow one is hers.",
@@ -1442,6 +1458,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_rev2",
+      "explanation": '\'Belongs to my grandfather\' uses \'to\' + a person. \'For mine\' is not a correct structure.',
       "type": "word_ordering",
       "prompt": "Build the sentence about belonging:",
       "targetSentence": "This leather wallet belongs to my grandfather",
@@ -1459,6 +1476,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_rev3",
+      "explanation": '\'Lost and found\' is a fixed phrase where \'lost\' is an adjective describing the office. \'Lost\' here is the adjective.',
       "type": "fill_blank",
       "prompt": "Complete the sentence: \"We took the lost keys to the hotel ___ and found.\"",
       "targetSentence": "We took the lost keys to the hotel lost and found.",
@@ -1487,6 +1505,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_rev4",
+      "explanation": '\'Mine\' and \'yours\' are possessive pronouns. \'Me\' and \'you\' are object pronouns, and \'my\'s\' is not a word.',
       "type": "error_correction",
       "prompt": "Correct the pronoun error:",
       "targetSentence": "These shoes are mine and those are yours.",
@@ -1516,6 +1535,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_rev5",
+      "explanation": '\'Ours\' and \'theirs\' are possessive pronouns that stand alone. Hindi: \'यह कमरा हमारा है, और वह उनका है।\'',
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "यह कमरा हमारा है, और वह उनका है।",
@@ -1542,6 +1562,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u03_l34_a1",
+      "explanation": '\'It is mine\' answers \'Whose laptop is this?\' with the possessive pronoun. \'My\' cannot be used alone.',
       "type": "multiple_choice",
       "prompt": "Which sentence correctly answers \"Whose laptop is this?\"",
       "targetSentence": "It is mine.",
@@ -1570,6 +1591,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_a2",
+      "explanation": '\'Theirs\' is the possessive pronoun for \'the car was theirs\'. \'Their\' would need a noun after it.',
       "type": "fill_blank",
       "prompt": "Fill in the blank with the correct possessive pronoun: \"They claimed the car was ___ (they).\"",
       "targetSentence": "They claimed the car was theirs.",
@@ -1598,6 +1620,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_a3",
+      "explanation": '\'Whose\' asks about ownership, then \'is\' and the noun: \'Whose warm winter coat is this on the sofa?\'',
       "type": "word_ordering",
       "prompt": "Assemble the question asking whose coat it is:",
       "targetSentence": "Whose warm winter coat is this on the sofa",
@@ -1617,6 +1640,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_a4",
+      "explanation": 'The audio asks: \'Are these reading glasses on the counter yours or his?\' That asks whether the glasses belong to the listener or another man.',
       "type": "listening",
       "prompt": "Listen to the audio and answer the question:",
       "audioText": "Are these reading glasses on the counter yours or his?",
@@ -1645,6 +1669,7 @@ export const LESSON_A1_3_34_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l34_a5",
+      "explanation": '\'Whose keys are these?\' uses \'whose\' to ask about ownership. \'Them\' refers back to the keys.',
       "type": "speaking",
       "prompt": "Speak this statement clearly into your microphone:",
       "targetSentence": "Whose keys are these? I found them on the front desk.",

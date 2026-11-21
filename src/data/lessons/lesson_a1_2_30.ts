@@ -950,6 +950,7 @@ export const LESSON_A1_2_30_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l30_p05',
+      explanation: '\'Be going to\' uses am with I, is with he/she/it, are with you/we/they. Negative: \'aren\'t going to\' with we.',
       lessonId: 'lesson_a1_2_30',
       type: 'match_pairs',
       prompt: 'Match subject with the correct form of "be going to":',
@@ -1025,6 +1026,7 @@ export const LESSON_A1_2_30_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l30_p11',
+      explanation: 'Present Simple is for habits, Past Simple for finished events, \'be going to\' for planned future, and \'can\' for ability.',
       lessonId: 'lesson_a1_2_30',
       type: 'match_pairs',
       prompt: 'Match tense with its communicative function:',
@@ -1117,6 +1119,7 @@ export const LESSON_A1_2_30_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l30_r03',
+      explanation: 'Each question asks about a future plan, so the answer names the plan: food, place, time, or yes/no with a day.',
       lessonId: 'lesson_a1_2_30',
       type: 'match_pairs',
       prompt: 'Match the question with the response:',
@@ -1204,6 +1207,7 @@ export const LESSON_A1_2_30_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l30_a05',
+      explanation: '\'Travel abroad\' means visit a foreign country, \'move house\' means change home, \'pass the exam\' means reach the passing grade, and \'graduate\' means complete a degree.',
       lessonId: 'lesson_a1_2_30',
       type: 'match_pairs',
       prompt: 'Match English milestone chunk with its meaning:',

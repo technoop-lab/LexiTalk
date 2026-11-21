@@ -22,6 +22,7 @@ import { ProgressService } from '../../services/ProgressService';
 import { AudioService } from '../../services/AudioService';
 import { playSoundEffectEffect } from '../../utils/audioUtils';
 import { normalizeExercise } from '../../utils/exerciseUtils';
+import { getDialogueScripts } from '../../data/skills/skillSources';
 
 interface ReviewCenterViewProps {
   user: UserAcademyProfile;
@@ -34,7 +35,9 @@ export const ReviewCenterView: React.FC<ReviewCenterViewProps> = ({
   onStartLessonReview,
   onUpdateUser,
 }) => {
-  const [activeTab, setActiveTab] = useState<'domains' | 'adaptive' | 'spaced_vocab' | 'mistakes'>('domains');
+  const [activeTab, setActiveTab] = useState<'domains' | 'adaptive' | 'spaced_vocab' | 'mistakes' | 'dialogues'>('domains');
+  const [openDialogueId, setOpenDialogueId] = useState<string | null>(null);
+  const dialogueScripts = React.useMemo(() => getDialogueScripts(), []);
   const [activeSession, setActiveSession] = useState<{
     domainId: string;
     domainTitle: string;
@@ -74,9 +77,7 @@ export const ReviewCenterView: React.FC<ReviewCenterViewProps> = ({
       exercises = UNIT_1_REVIEW_EXERCISES.filter((e) => e.id.startsWith('u1_rev_mix_'));
     }
 
-    if (exercises.length === 0) {
-      exercises = UNIT_1_REVIEW_EXERCISES.slice(0, 5);
-    }
+    // No fallback to another domain's items: that would show the wrong content under this title.
 
     setActiveSession({
       domainId,
@@ -163,7 +164,7 @@ export const ReviewCenterView: React.FC<ReviewCenterViewProps> = ({
             <span className="font-bold text-slate-900 dark:text-white">{activeSession.domainTitle}</span>.
           </p>
           <div className="p-3 bg-purple-50 dark:bg-purple-950/40 border border-purple-200 dark:border-purple-500/30 rounded-2xl text-xs font-bold text-purple-800 dark:text-purple-300">
-            +75 XP Earned • Spaced Retrieval Reinforced
+            +{60 + activeSession.score * 5} XP Earned • Spaced Retrieval Reinforced
           </div>
 
           <div className="flex space-x-2 pt-2">
@@ -174,7 +175,7 @@ export const ReviewCenterView: React.FC<ReviewCenterViewProps> = ({
               Back to Review Hub
             </button>
             <button
-              onClick={() => startDomainSession(activeSession.domainId as any, activeSession.domainTitle)}
+              onClick={() => activeSession.domainId === 'adaptive_weakness' ? startAdaptiveSession() : startDomainSession(activeSession.domainId as any, activeSession.domainTitle)}
               className="flex-1 py-3 bg-gradient-to-r from-purple-500 to-indigo-500 text-white font-black text-xs rounded-2xl shadow hover:brightness-110 transition cursor-pointer"
             >
               Drill Again
@@ -185,6 +186,20 @@ export const ReviewCenterView: React.FC<ReviewCenterViewProps> = ({
     }
 
     const currentEx = activeSession.exercises[activeSession.currentIndex];
+
+    if (!currentEx) {
+      return (
+        <div className="p-6 max-w-md mx-auto text-center space-y-4 bg-white dark:bg-slate-900 border border-[#D9E4FF] dark:border-slate-800 rounded-3xl shadow-sm my-8 text-slate-900 dark:text-slate-100">
+          <p className="text-sm">No questions are ready for this drill yet.</p>
+          <button
+            onClick={() => setActiveSession(null)}
+            className="w-full py-3 bg-slate-100 dark:bg-slate-800 rounded-2xl font-bold text-xs cursor-pointer"
+          >
+            Back to Review Hub
+          </button>
+        </div>
+      );
+    }
 
     return (
       <div className="flex flex-col space-y-5 p-4 sm:p-6 pb-24 text-slate-900 dark:text-slate-100 max-w-xl mx-auto">
@@ -258,12 +273,13 @@ export const ReviewCenterView: React.FC<ReviewCenterViewProps> = ({
       </div>
 
       {/* Review Type Tabs */}
-      <div className="grid grid-cols-4 gap-1.5 bg-white dark:bg-slate-900 p-1.5 rounded-2xl border border-[#D9E4FF] dark:border-slate-800 text-xs font-bold shadow-xs">
+      <div className="grid grid-cols-5 gap-1.5 bg-white dark:bg-slate-900 p-1.5 rounded-2xl border border-[#D9E4FF] dark:border-slate-800 text-xs font-bold shadow-xs">
         {[
           { id: 'domains', label: '10 Domains' },
           { id: 'adaptive', label: 'Weaknesses' },
           { id: 'spaced_vocab', label: 'Vocab' },
           { id: 'mistakes', label: 'Pitfalls' },
+          { id: 'dialogues', label: 'Dialogues' },
         ].map((tab) => (
           <button
             key={tab.id}
@@ -409,6 +425,53 @@ export const ReviewCenterView: React.FC<ReviewCenterViewProps> = ({
               </div>
             ))}
           </div>
+        </div>
+      )}
+
+      {/* Tab 5: Dialogues from the lessons (same scripts the lessons teach) */}
+      {activeTab === 'dialogues' && (
+        <div className="space-y-2">
+          <span className="text-[10px] font-black uppercase tracking-wider text-slate-500 dark:text-slate-400 block">
+            Lesson Dialogues ({dialogueScripts.length})
+          </span>
+
+          {dialogueScripts.map((d) => {
+            const open = openDialogueId === d.id;
+            return (
+              <div key={d.id} className="bg-white dark:bg-slate-900 border border-[#D9E4FF] dark:border-slate-800 rounded-2xl shadow-xs overflow-hidden">
+                <button
+                  onClick={() => {
+                    playSoundEffectEffect('tap');
+                    setOpenDialogueId(open ? null : d.id);
+                  }}
+                  className="w-full text-left p-3.5 flex items-center justify-between gap-2 cursor-pointer"
+                >
+                  <span className="text-xs font-bold text-slate-800 dark:text-slate-100">{d.title}</span>
+                  <span className="text-[10px] font-black text-purple-600 dark:text-purple-400 shrink-0">{open ? 'Hide' : 'Open'}</span>
+                </button>
+
+                {open && (
+                  <div className="px-3.5 pb-3.5 space-y-2 border-t border-[#D9E4FF] dark:border-slate-800 pt-3">
+                    {d.lines.map((line, idx) => (
+                      <div key={idx} className="flex items-start gap-2">
+                        <p className="flex-1 text-xs text-slate-700 dark:text-slate-300">
+                          <span className="font-black text-purple-700 dark:text-purple-300">{line.speaker}: </span>
+                          {line.text}
+                        </p>
+                        <button
+                          onClick={() => AudioService.speakText(line.text)}
+                          className="shrink-0 p-1 text-slate-500 hover:text-purple-600 cursor-pointer"
+                          aria-label="Listen"
+                        >
+                          <Volume2 className="w-3.5 h-3.5" />
+                        </button>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </div>
       )}
 

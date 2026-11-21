@@ -635,6 +635,7 @@ export const LESSON_A1_2_22_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l22_p3',
+      explanation: '\'We would like\' is a polite way to ask for a table. \'Good evening\' is a greeting, and \'for two\' gives the number of people.',
       lessonId: 'lesson_a1_2_22',
       stage: 8,
       type: 'word_ordering',
@@ -658,6 +659,7 @@ export const LESSON_A1_2_22_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l22_p5',
+      explanation: '\'What do you recommend?\' asks for a suggestion. With \'you\', use \'do\' in the question.',
       lessonId: 'lesson_a1_2_22',
       stage: 9,
       type: 'listen_and_type',
@@ -667,6 +669,7 @@ export const LESSON_A1_2_22_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l22_p6',
+      explanation: '\'Is this...suitable for vegetarians?\' asks if a dish is suitable. \'Is\' is used with the singular \'dish\'.',
       lessonId: 'lesson_a1_2_22',
       stage: 10,
       type: 'word_ordering',
@@ -676,6 +679,7 @@ export const LESSON_A1_2_22_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l22_p7',
+      explanation: '\'Could we have the bill?\' is a polite request. \'We would like to pay by card\' states the payment method.',
       lessonId: 'lesson_a1_2_22',
       stage: 12,
       type: 'speaking',
@@ -685,6 +689,7 @@ export const LESSON_A1_2_22_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l22_p8',
+      explanation: '\'For my starter\' means as the first course. \'I would like\' is a polite way to order. Hindi: \'स्टार्टर के लिए मैं टमाटर का सूप लेना चाहूँगा।\'',
       lessonId: 'lesson_a1_2_22',
       stage: 13,
       type: 'translation',
@@ -769,6 +774,7 @@ export const LESSON_A1_2_22_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l22_p14',
+      explanation: '\'We have\' + reservation. \'Under the name Wilson\' gives the booking name.',
       lessonId: 'lesson_a1_2_22',
       stage: 8,
       type: 'word_ordering',
@@ -778,6 +784,7 @@ export const LESSON_A1_2_22_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l22_p15',
+      explanation: '\'Excuse me\' is a polite opening. \'Could we have the bill?\' is a polite request.',
       lessonId: 'lesson_a1_2_22',
       stage: 12,
       type: 'speaking',
@@ -819,6 +826,7 @@ export const LESSON_A1_2_22_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l22_rev3',
+      explanation: '\'The pasta dish\' is singular, so \'is\' is used. \'Delicious\' and \'flavorful\' are adjectives describing the dish.',
       lessonId: 'lesson_a1_2_22',
       stage: 16,
       type: 'word_ordering',
@@ -828,6 +836,7 @@ export const LESSON_A1_2_22_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l22_rev4',
+      explanation: '\'Can we pay by credit card?\' asks about payment. \'Yes, of course\' is a polite yes. Hindi: \'क्या हम क्रेडिट कार्ड से भुगतान कर सकते हैं? — हाँ, बिल्कुल।\'',
       lessonId: 'lesson_a1_2_22',
       stage: 16,
       type: 'translation',
@@ -873,6 +882,7 @@ export const LESSON_A1_2_22_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l22_a3',
+      explanation: '\'Excuse me\' is a polite opening. \'Could we have the bill, please?\' is a polite request.',
       lessonId: 'lesson_a1_2_22',
       stage: 17,
       type: 'word_ordering',
@@ -910,6 +920,7 @@ export const LESSON_A1_2_22_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l22_a6',
+      explanation: '\'Are you ready...?\' asks if someone is prepared. \'Now\' means at this moment.',
       lessonId: 'lesson_a1_2_22',
       stage: 17,
       type: 'listen_and_type',
@@ -933,6 +944,7 @@ export const LESSON_A1_2_22_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l22_a8',
+      explanation: '\'What do you recommend...?\' asks for a suggestion. \'For the main course\' is the course. Hindi: \'क्या आप मेन कोर्स के लिए किसी व्यंजन का सुझाव देंगे?\'',
       lessonId: 'lesson_a1_2_22',
       stage: 17,
       type: 'translation',
@@ -959,6 +971,7 @@ export const LESSON_A1_2_22_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l22_a10',
+      explanation: '\'Can we pay separately?\' asks if the bill can be split. \'By debit card\' gives the method.',
       lessonId: 'lesson_a1_2_22',
       stage: 17,
       type: 'word_ordering',

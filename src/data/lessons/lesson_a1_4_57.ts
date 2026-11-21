@@ -1016,6 +1016,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u04_l57_p1",
+      "explanation": 'With a separable phrasal verb, a pronoun goes between the verb and the particle: \'turn it on\'. \'Turn on it\' is incorrect.',
       "lessonId": "lesson_a1_4_57",
       "stage": 8,
       "type": "multiple_choice",
@@ -1040,6 +1041,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_p2",
+      "explanation": '\'Wi-Fi password\' is the password for a wireless network. A battery and a charger are not network passwords.',
       "lessonId": "lesson_a1_4_57",
       "stage": 8,
       "type": "fill_blank",
@@ -1066,6 +1068,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_p3",
+      "explanation": '\'Remember to save\' + object. \'Save\' is the base verb after \'to\'. Hindi: \'अपना दस्तावेज़ बार-बार सहेजना याद रखें।\'',
       "lessonId": "lesson_a1_4_57",
       "stage": 8,
       "type": "word_ordering",
@@ -1082,6 +1085,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_p4",
+      "explanation": 'To download means copy files from the internet. To log in means enter your account details. To charge means add battery power. To restart means reboot.',
       "lessonId": "lesson_a1_4_57",
       "stage": 8,
       "type": "match_pairs",
@@ -1107,6 +1111,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_p5",
+      "explanation": '\'Restart\' is the imperative (base verb). \'If it freezes\' uses the present for a condition. \'Restarts\' and \'to restarting\' are incorrect.',
       "lessonId": "lesson_a1_4_57",
       "stage": 8,
       "type": "error_correction",
@@ -1132,6 +1137,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_p6",
+      "explanation": 'The speaker says: \'Please enter your username and secure password to log in.\' \'Inter\' and \'lock in\' are not correct words.',
       "lessonId": "lesson_a1_4_57",
       "stage": 9,
       "type": "listening",
@@ -1152,6 +1158,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_p7",
+      "explanation": '\'My smartphone battery is very low\' is a statement with \'is\' for a singular subject.',
       "lessonId": "lesson_a1_4_57",
       "stage": 9,
       "type": "listen_and_type",
@@ -1161,6 +1168,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_p8",
+      "explanation": '\'Can I borrow your phone charger...?\' is a polite request. \'Borrow to\' and \'do I borrow of\' are incorrect.',
       "lessonId": "lesson_a1_4_57",
       "stage": 10,
       "type": "multiple_choice",
@@ -1185,6 +1193,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_p9",
+      "explanation": '\'Check if your Wi-Fi is turned on in settings\' gives a fix. The other options do not answer the problem.',
       "lessonId": "lesson_a1_4_57",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1209,6 +1218,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_p10",
+      "explanation": '\'I downloaded a language learning app to practice English every day\' uses the simple past for a finished action and \'to\' + base verb for purpose.',
       "lessonId": "lesson_a1_4_57",
       "stage": 12,
       "type": "speaking",
@@ -1218,6 +1228,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_p11",
+      "explanation": '\'Save your file before closing the window\' is an imperative with \'before\' + -ing. Hindi: \'विंडो बंद करने से पहले अपनी फ़ाइल सहेजें।\'',
       "lessonId": "lesson_a1_4_57",
       "stage": 13,
       "type": "translation",
@@ -1226,6 +1237,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_p12",
+      "explanation": '\'Plug in\' means connect to an electrical power source. \'Download\' and \'delete\' are different actions.',
       "lessonId": "lesson_a1_4_57",
       "stage": 14,
       "type": "multiple_choice",
@@ -1250,6 +1262,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_p13",
+      "explanation": '\'Don\'t\' + base verb: \'Don\'t share your password\'. \'Shares\' and \'sharing\' are not used after \'Don\'t\'.',
       "lessonId": "lesson_a1_4_57",
       "stage": 14,
       "type": "fill_blank",
@@ -1276,6 +1289,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_p14",
+      "explanation": '\'What is the name of the Wi-Fi network?\' is a question with \'is\' for the singular noun \'name\'.',
       "lessonId": "lesson_a1_4_57",
       "stage": 14,
       "type": "word_ordering",
@@ -1294,6 +1308,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_p15",
+      "explanation": '\'Make sure to log out\' is an imperative. \'When using a public computer\' is a time clause.',
       "lessonId": "lesson_a1_4_57",
       "stage": 14,
       "type": "speaking",
@@ -1305,6 +1320,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u04_l57_r1",
+      "explanation": '\'Love\' + -ing: \'I love playing the guitar in my free time.\' \'To playing\' is incorrect.',
       "lessonId": "lesson_a1_4_57",
       "stage": 16,
       "type": "multiple_choice",
@@ -1329,6 +1345,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_r2",
+      "explanation": '\'Going to move\' is a plan. \'Going\' + \'to\' is the structure used here.',
       "lessonId": "lesson_a1_4_57",
       "stage": 16,
       "type": "fill_blank",
@@ -1355,6 +1372,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_r3",
+      "explanation": '\'She enjoys cooking healthy meals\' uses -s on \'enjoys\' (third person) and -ing after \'enjoys\'.',
       "lessonId": "lesson_a1_4_57",
       "stage": 16,
       "type": "word_ordering",
@@ -1370,6 +1388,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_r4",
+      "explanation": '\'Turn it on\' is a separable phrasal verb. \'Keen on\' means enthusiastic. \'Play the piano\' uses the instrument with \'the\'.',
       "lessonId": "lesson_a1_4_57",
       "stage": 16,
       "type": "match_pairs",
@@ -1395,6 +1414,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_r5",
+      "explanation": '\'Can I use your charger?\' is a polite request. Hindi: \'क्या मैं आपका चार्जर इस्तेमाल कर सकता हूँ?\'',
       "lessonId": "lesson_a1_4_57",
       "stage": 16,
       "type": "translation",
@@ -1405,6 +1425,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u04_l57_a1",
+      "explanation": '\'Plug it in\' is a separable phrasal verb with the pronoun between the verb and the particle.',
       "lessonId": "lesson_a1_4_57",
       "stage": 17,
       "type": "multiple_choice",
@@ -1429,6 +1450,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_a2",
+      "explanation": 'The password is used to log in to an account.',
       "lessonId": "lesson_a1_4_57",
       "stage": 17,
       "type": "fill_blank",
@@ -1455,6 +1477,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_a3",
+      "explanation": '\'What is the Wi-Fi password for this cafe?\' is a question with the correct word order.',
       "lessonId": "lesson_a1_4_57",
       "stage": 17,
       "type": "word_ordering",
@@ -1473,6 +1496,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_a4",
+      "explanation": '\'Try holding the power button to restart it\' gives a fix for a laptop problem.',
       "lessonId": "lesson_a1_4_57",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1497,6 +1521,7 @@ export const LESSON_A1_4_57_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l57_a5",
+      "explanation": '\'Please log in with your email address and download the latest software update\' is a polite imperative with two commands joined by \'and\'.',
       "lessonId": "lesson_a1_4_57",
       "stage": 17,
       "type": "speaking",

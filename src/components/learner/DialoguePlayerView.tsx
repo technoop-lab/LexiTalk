@@ -30,6 +30,34 @@ import { HindiCourseService } from '../../services/HindiCourseService';
 import { AudioService } from '../../services/AudioService';
 import { getActiveEnglishAccent, playSoundEffectEffect, speakCleanAudio } from '../../utils/audioUtils';
 
+// Browser speech recognition (built in; no paid service). Null where the browser or app lacks it.
+const getSpeechRecognitionCtor = (): any => {
+  if (typeof window === 'undefined') return null;
+  const w = window as any;
+  return w.SpeechRecognition || w.webkitSpeechRecognition || null;
+};
+
+const normaliseWords = (text: string): string[] =>
+  text
+    .toLowerCase()
+    .replace(/[\u2018\u2019']/g, '')
+    .replace(/[^a-z0-9 ]+/g, ' ')
+    .split(/\s+/)
+    .filter(Boolean);
+
+// Counts target words that appear in the spoken text, in the same order (longest common subsequence).
+const scoreWordsInOrder = (target: string, said: string): { matched: number; total: number } => {
+  const t = normaliseWords(target);
+  const sp = normaliseWords(said);
+  const dp: number[][] = Array.from({ length: t.length + 1 }, () => new Array(sp.length + 1).fill(0));
+  for (let i = 1; i <= t.length; i++) {
+    for (let j = 1; j <= sp.length; j++) {
+      dp[i][j] = t[i - 1] === sp[j - 1] ? dp[i - 1][j - 1] + 1 : Math.max(dp[i - 1][j], dp[i][j - 1]);
+    }
+  }
+  return { matched: dp[t.length][sp.length], total: t.length };
+};
+
 interface DialoguePlayerViewProps {
   user: UserAcademyProfile;
   dayLesson?: HindiDayLesson | null;
@@ -74,11 +102,12 @@ export const DialoguePlayerView: React.FC<DialoguePlayerViewProps> = ({
   const [recordedTurnIndex, setRecordedTurnIndex] = useState<number | null>(null);
   const [isRecordingGlobal, setIsRecordingGlobal] = useState(false);
   const [recordingSeconds, setRecordingSeconds] = useState(0);
-  const [globalSpeechScore, setGlobalSpeechScore] = useState<{
-    pronunciation: number;
-    confidence: number;
-    fluency: number;
-  } | null>(null);
+  const [recordingDone, setRecordingDone] = useState(false);
+  const [globalTranscript, setGlobalTranscript] = useState('');
+  const [speechNote, setSpeechNote] = useState<string | null>(null);
+  const [turnResult, setTurnResult] = useState<Record<number, { matched: number; total: number; said: string }>>({});
+  const recognitionRef = useRef<any>(null);
+  const sessionRef = useRef(0);
   const [finishedTurnIndices, setFinishedTurnIndices] = useState<Set<number>>(new Set());
   const [showCelebration, setShowCelebration] = useState(false);
 
@@ -174,7 +203,24 @@ export const DialoguePlayerView: React.FC<DialoguePlayerViewProps> = ({
     setRecordedTurnIndex(null);
     setFinishedTurnIndices(new Set());
     setShowCelebration(false);
+    setRecordingDone(false);
+    setGlobalTranscript('');
+    setSpeechNote(null);
+    setTurnResult({});
   }, [selectedScenarioIndex, selectedDayNumber]);
+
+  // Stop the recording timer if the learner leaves this screen mid-recording.
+  useEffect(() => {
+    return () => {
+      if (recordingTimerRef.current) clearInterval(recordingTimerRef.current);
+      try {
+        recognitionRef.current?.abort();
+      } catch {
+        // Already stopped.
+      }
+      recognitionRef.current = null;
+    };
+  }, []);
 
   // Smooth auto-scroll following playback
   useEffect(() => {
@@ -265,36 +311,127 @@ export const DialoguePlayerView: React.FC<DialoguePlayerViewProps> = ({
     playSoundEffectEffect('victory');
   };
 
-  // Individual Turn Speech Recording Simulator
-  const handleRecordTurn = (idx: number) => {
-    playSoundEffectEffect('tap');
-    setRecordedTurnIndex(idx);
-    setTimeout(() => {
-      playSoundEffectEffect('correct');
-      setFinishedTurnIndices((prev) => new Set([...prev, idx]));
-      setTimeout(() => setRecordedTurnIndex(null), 2500);
-    }, 1800);
+  const stopRecognition = () => {
+    try {
+      recognitionRef.current?.stop();
+    } catch {
+      // Already stopped.
+    }
   };
 
-  // Global Speech Recording Practice Handler
+  // Starts one browser speech-recognition session. Returns false if it could not start.
+  const startListening = (
+    continuous: boolean,
+    onResult: (transcript: string) => void,
+    onEnd: () => void
+  ): boolean => {
+    const SR = getSpeechRecognitionCtor();
+    if (!SR) {
+      setSpeechNote('Speech recognition is not available in this browser or app. Try Chrome on a computer or an Android phone.');
+      return false;
+    }
+    const rec = new SR();
+    rec.lang = getActiveEnglishAccent();
+    rec.continuous = continuous;
+    rec.interimResults = false;
+    rec.maxAlternatives = 1;
+    rec.onresult = (event: any) => {
+      const transcript = Array.from(event.results as ArrayLike<any>)
+        .map((r: any) => r?.[0]?.transcript ?? '')
+        .join(' ')
+        .trim();
+      onResult(transcript);
+    };
+    rec.onerror = (event: any) => {
+      const code = event?.error;
+      if (code === 'not-allowed' || code === 'service-not-allowed') {
+        setSpeechNote('Microphone permission is blocked. Allow the microphone in your browser or phone settings, then try again.');
+      } else if (code === 'no-speech') {
+        setSpeechNote('No speech was heard. Try again and speak clearly.');
+      } else if (code !== 'aborted') {
+        setSpeechNote('Speech could not be captured. Please try again.');
+      }
+    };
+    rec.onend = () => {
+      if (recognitionRef.current === rec) recognitionRef.current = null;
+      onEnd();
+    };
+    recognitionRef.current = rec;
+    try {
+      setSpeechNote(null);
+      rec.start();
+      return true;
+    } catch {
+      recognitionRef.current = null;
+      setSpeechNote('Speech could not start. Please try again.');
+      return false;
+    }
+  };
+
+  // Per-line practice: listens once and compares the words with this line.
+  const handleRecordTurn = (idx: number) => {
+    playSoundEffectEffect('tap');
+    if (recordedTurnIndex === idx) {
+      stopRecognition();
+      return;
+    }
+    stopRecognition();
+    const target = activeScenario?.turns[idx]?.textEn ?? '';
+    const session = ++sessionRef.current;
+    setRecordedTurnIndex(idx);
+    const started = startListening(
+      false,
+      (said) => {
+        if (!said || session !== sessionRef.current) return;
+        const { matched, total } = scoreWordsInOrder(target, said);
+        setTurnResult((prev) => ({ ...prev, [idx]: { matched, total, said } }));
+        setFinishedTurnIndices((prev) => new Set([...prev, idx]));
+        playSoundEffectEffect('correct');
+      },
+      () => {
+        if (session === sessionRef.current) setRecordedTurnIndex(null);
+      }
+    );
+    if (!started) setRecordedTurnIndex(null);
+  };
+
+  // Whole-dialogue practice: shows what was heard. No score is given.
   const handleToggleGlobalRecording = () => {
     playSoundEffectEffect('tap');
     if (isRecordingGlobal) {
+      stopRecognition();
+      return;
+    }
+    stopRecognition();
+    const session = ++sessionRef.current;
+    setRecordingDone(false);
+    setGlobalTranscript('');
+    setRecordingSeconds(0);
+    setIsRecordingGlobal(true);
+    recordingTimerRef.current = setInterval(() => {
+      setRecordingSeconds((prev) => prev + 1);
+    }, 1000);
+    const stopTimer = () => {
       clearInterval(recordingTimerRef.current);
+      recordingTimerRef.current = null;
+    };
+    const started = startListening(
+      true,
+      (said) => {
+        if (session !== sessionRef.current) return;
+        setGlobalTranscript(said);
+        setRecordingDone(!!said);
+      },
+      () => {
+        if (session !== sessionRef.current) return;
+        stopTimer();
+        setIsRecordingGlobal(false);
+        playSoundEffectEffect('correct');
+      }
+    );
+    if (!started) {
+      stopTimer();
       setIsRecordingGlobal(false);
-      playSoundEffectEffect('correct');
-      setGlobalSpeechScore({
-        pronunciation: 94,
-        confidence: 96,
-        fluency: 92,
-      });
-    } else {
-      setGlobalSpeechScore(null);
-      setRecordingSeconds(0);
-      setIsRecordingGlobal(true);
-      recordingTimerRef.current = setInterval(() => {
-        setRecordingSeconds((prev) => prev + 1);
-      }, 1000);
     }
   };
 
@@ -743,6 +880,12 @@ export const DialoguePlayerView: React.FC<DialoguePlayerViewProps> = ({
                     </p>
                   )}
 
+                  {turnResult[idx] && turnResult[idx].total > 0 && (
+                    <div className="text-[10px] font-bold text-emerald-700 dark:text-emerald-300 pt-1">
+                      {turnResult[idx].matched} of {turnResult[idx].total} words in order. You said: "{turnResult[idx].said}"
+                    </div>
+                  )}
+
                   {/* Tiny Bottom Metadata Row */}
                   <div className="flex items-center justify-between text-[9px] text-slate-400 dark:text-slate-500 pt-0.5">
                     <span>Turn {idx + 1} of {turnsCount}</span>
@@ -978,26 +1121,14 @@ export const DialoguePlayerView: React.FC<DialoguePlayerViewProps> = ({
           </div>
 
           {/* Pronunciation Evaluation Scores */}
-          {globalSpeechScore && (
-            <div className="grid grid-cols-3 gap-2 pt-2 border-t border-slate-800 animate-fade-in">
-              <div className="bg-slate-950/80 p-2.5 rounded-2xl border border-slate-800 text-center">
-                <span className="text-[10px] text-slate-400 block font-semibold">Pronunciation</span>
-                <span className="text-base font-black text-emerald-400 font-mono">
-                  {globalSpeechScore.pronunciation}%
-                </span>
-              </div>
-              <div className="bg-slate-950/80 p-2.5 rounded-2xl border border-slate-800 text-center">
-                <span className="text-[10px] text-slate-400 block font-semibold">Confidence</span>
-                <span className="text-base font-black text-indigo-400 font-mono">
-                  {globalSpeechScore.confidence}%
-                </span>
-              </div>
-              <div className="bg-slate-950/80 p-2.5 rounded-2xl border border-slate-800 text-center">
-                <span className="text-[10px] text-slate-400 block font-semibold">Fluency</span>
-                <span className="text-base font-black text-teal-400 font-mono">
-                  {globalSpeechScore.fluency}%
-                </span>
-              </div>
+          {speechNote && (
+            <p className="text-xs text-amber-300 font-semibold pt-2 border-t border-slate-800">{speechNote}</p>
+          )}
+          {recordingDone && !isRecordingGlobal && globalTranscript && (
+            <div className="space-y-1 pt-2 border-t border-slate-800 animate-fade-in">
+              <span className="text-[10px] text-slate-400 font-semibold block">What we heard</span>
+              <p className="text-xs text-slate-200">{globalTranscript}</p>
+              <p className="text-[10px] text-slate-400">Pronunciation is not scored in this version. Compare with the model audio.</p>
             </div>
           )}
         </div>

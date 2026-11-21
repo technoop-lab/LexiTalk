@@ -1020,6 +1020,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u03_l39_p1",
+      "explanation": '\'Worked\' is the regular past of \'work\' (add -ed). \'Workt\' is an incorrect spelling and \'working\' is the -ing form.',
       "type": "multiple_choice",
       "prompt": "Select the correct regular past tense of \"work\":",
       "targetSentence": "I worked until 6 PM yesterday.",
@@ -1048,6 +1049,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_p2",
+      "explanation": '\'Visited\' is the past simple of \'visit\' (add -ed). \'Last Sunday afternoon\' shows the past time.',
       "type": "fill_blank",
       "prompt": "Fill in the blank with the correct past tense verb:",
       "targetSentence": "We visited our grandparents last Sunday afternoon.",
@@ -1076,6 +1078,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_p3",
+      "explanation": '\'Cooked\' and \'watched\' are past forms (add -ed). \'Last night\' is a past time phrase.',
       "type": "word_ordering",
       "prompt": "Assemble the simple past sentence:",
       "targetSentence": "She cooked dinner and watched a movie last night",
@@ -1095,6 +1098,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_p4",
+      "explanation": 'The audio says: \'We cleaned the house and washed the car yesterday.\' That matches the first option.',
       "type": "listening",
       "prompt": "Listen and identify what activity took place in the past:",
       "audioText": "We cleaned the house and washed the car yesterday.",
@@ -1123,6 +1127,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_p5",
+      "explanation": '\'Arrived\' is the past simple of \'arrive\'. \'Two days ago\' is a past time phrase, so \'in two days\' and \'were arrive\' are incorrect.',
       "type": "error_correction",
       "prompt": "Fix the past tense error:",
       "targetSentence": "They arrived two days ago.",
@@ -1152,6 +1157,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_p6",
+      "explanation": '\'I played tennis\' is the simple past. \'With my brother in the park\' is a past activity answer.',
       "type": "dialogue_completion",
       "prompt": "Complete the dialogue with the correct past response:",
       "dialogueContext": {
@@ -1184,6 +1190,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_p7",
+      "explanation": '\'Worked\' is the simple past of \'work\'. \'Yesterday\' signals the past. Hindi: \'कल हमने पूरा दिन ऑफिस में काम किया।\'',
       "type": "translation",
       "prompt": "Translate this past tense sentence into English:",
       "sourceSentence": "कल हमने पूरे दिन कार्यालय में काम किया।",
@@ -1207,6 +1214,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_p8",
+      "explanation": '\'Watched\' ends in an unvoiced sound (/t/), so the -ed is pronounced /t/. \'Last night\' signals past time.',
       "type": "speaking",
       "prompt": "Speak this past sentence clearly with correct /t/ ending:",
       "targetSentence": "I watched an interesting movie last night.",
@@ -1214,6 +1222,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_p9",
+      "explanation": '\'Finished\' is the simple past of \'finish\'. \'At four o\'clock yesterday\' gives the time.',
       "type": "listen_and_type",
       "prompt": "Listen and assemble the sentence:",
       "audioText": "The meeting finished at four o clock yesterday.",
@@ -1233,6 +1242,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_p10",
+      "explanation": 'The -ed sound is /ɪd/ after the sounds /t/ or /d/. \'Visited\' ends in /t/ and gets /ɪd/. \'Cooked\' is /t/, \'played\' is /d/, and \'worked\' is /t/.',
       "type": "multiple_choice",
       "prompt": "Which verb has the /ɪd/ pronunciation for its -ed ending?",
       "targetSentence": "visited",
@@ -1261,6 +1271,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_p11",
+      "explanation": '\'Stop\' is one vowel and one consonant, so the final \'p\' doubles: \'stopped\'.',
       "type": "fill_blank",
       "prompt": "Select the correct spelling for the past tense of \"stop\":",
       "targetSentence": "The bus stopped in front of the supermarket.",
@@ -1289,6 +1300,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_p12",
+      "explanation": 'Regular past: live - lived (add -d), study - studied (-y becomes -ied), plan - planned (double the consonant), listen - listened (add -ed).',
       "type": "match_pairs",
       "prompt": "Match base verbs with their past forms:",
       "options": [
@@ -1328,6 +1340,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_p13",
+      "explanation": '\'Five years ago\' is a past time phrase. \'Lived\' is the simple past of \'live\'.',
       "type": "word_ordering",
       "prompt": "Assemble the sentence with a time expression:",
       "targetSentence": "They lived in Germany five years ago",
@@ -1345,6 +1358,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_p14",
+      "explanation": 'Simple past is used for finished times. \'Tomorrow morning\' is in the future, so it cannot be used with the simple past.',
       "type": "multiple_choice",
       "prompt": "Which time phrase CANNOT be used with simple past tense?",
       "targetSentence": "tomorrow morning",
@@ -1373,6 +1387,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_p15",
+      "explanation": '\'Ago\' counts back from now: \'fifteen minutes ago\'. \'Before\' and \'since\' need another phrase.',
       "type": "fill_blank",
       "prompt": "Fill in the blank with the correct time word:",
       "targetSentence": "The train departed fifteen minutes ago.",
@@ -1403,6 +1418,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u03_l39_rev1",
+      "explanation": '\'Stayed\' is the simple past of \'stay\'. \'Last summer\' is a finished time.',
       "type": "multiple_choice",
       "prompt": "Which sentence correctly expresses a finished past action?",
       "targetSentence": "We stayed at a quiet hotel near the beach last summer.",
@@ -1431,6 +1447,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_rev2",
+      "explanation": '\'Walked\' is the simple past of \'walk\'. \'Yesterday evening\' is a past time phrase.',
       "type": "word_ordering",
       "prompt": "Build the past activity sentence:",
       "targetSentence": "Lucas walked along the riverbank yesterday evening",
@@ -1448,6 +1465,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_rev3",
+      "explanation": '\'Listened\' is the simple past of \'listen\'. \'To\' comes after the verb in \'listened to\', and this sentence has it already.',
       "type": "fill_blank",
       "prompt": "Complete the sentence with the correct verb form:",
       "targetSentence": "I listened to an interesting podcast this morning.",
@@ -1476,6 +1494,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_rev4",
+      "explanation": '\'Visited\' is the simple past of \'visit\'. \'Last week\' is a past time phrase with no preposition.',
       "type": "error_correction",
       "prompt": "Fix the error:",
       "targetSentence": "They visited us last week.",
@@ -1505,6 +1524,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_rev5",
+      "explanation": '\'Finished\' is the simple past of \'finish\'. Hindi: \'उसने दोपहर के भोजन के बाद अपना होमवर्क पूरा किया।\'',
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "उसने दोपहर के भोजन के बाद अपना गृहकार्य पूरा किया।",
@@ -1528,6 +1548,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u03_l39_a1",
+      "explanation": 'The regular rule is to add -ed to the base form. Some verbs are irregular and must be memorized.',
       "type": "multiple_choice",
       "prompt": "What is the regular rule to form the simple past tense of most English verbs?",
       "targetSentence": "Add \"-ed\" to the base form of the verb.",
@@ -1556,6 +1577,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_a2",
+      "explanation": '\'Lived\' is the simple past of \'live\'. \'For three years\' is a finished period.',
       "type": "fill_blank",
       "prompt": "Select the correct past tense verb:",
       "targetSentence": "Maria lived in London for three years.",
@@ -1584,6 +1606,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_a3",
+      "explanation": '\'Started\' is the simple past of \'start\'. \'At nine o clock yesterday morning\' gives the past time.',
       "type": "word_ordering",
       "prompt": "Assemble the sentence stating a past event:",
       "targetSentence": "The conference started at nine o clock yesterday morning",
@@ -1603,6 +1626,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_a4",
+      "explanation": 'The audio says: \'I cleaned my room, washed the dishes, and cooked dinner.\' That matches the first option.',
       "type": "listening",
       "prompt": "Listen and answer what the speaker did yesterday:",
       "audioText": "I cleaned my room, washed the dishes, and cooked dinner.",
@@ -1631,6 +1655,7 @@ export const LESSON_A1_3_39_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l39_a5",
+      "explanation": '\'Worked\' is the simple past. \'Until six o clock yesterday\' is a finished time period.',
       "type": "speaking",
       "prompt": "Speak this past sentence clearly:",
       "targetSentence": "I worked at the office until six o clock yesterday.",

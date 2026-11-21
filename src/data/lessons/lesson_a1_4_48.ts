@@ -1016,6 +1016,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u04_l48_p1",
+      "explanation": 'A receipt is proof of purchase, which is usually needed for a refund. A menu lists food and a ticket is for travel or events.',
       "lessonId": "lesson_a1_4_48",
       "stage": 8,
       "type": "multiple_choice",
@@ -1040,6 +1041,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_p2",
+      "explanation": '\'Too small\' means more than needed. \'To\' and \'two\' are different words and do not fit here.',
       "lessonId": "lesson_a1_4_48",
       "stage": 8,
       "type": "fill_blank",
@@ -1066,6 +1068,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_p3",
+      "explanation": '\'I would like a full refund, please\' is a polite request. \'Would like\' is the polite form of \'want\'.',
       "lessonId": "lesson_a1_4_48",
       "stage": 8,
       "type": "word_ordering",
@@ -1083,6 +1086,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_p4",
+      "explanation": 'A receipt is proof of purchase. A refund is money back. An exchange is a swap for another item. Damaged means broken or faulty.',
       "lessonId": "lesson_a1_4_48",
       "stage": 8,
       "type": "match_pairs",
@@ -1108,6 +1112,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_p5",
+      "explanation": '\'Defective\' is the adjective for faulty. The sentence uses \'are defective\' (plural) and \'do not work\' with plural \'headphones\'.',
       "lessonId": "lesson_a1_4_48",
       "stage": 8,
       "type": "error_correction",
@@ -1133,6 +1138,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_p6",
+      "explanation": 'The audio says: \'I would like to exchange this blue sweater for a larger size.\' The other option describes a return for a smaller price, which does not match.',
       "lessonId": "lesson_a1_4_48",
       "stage": 9,
       "type": "listening",
@@ -1153,6 +1159,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_p7",
+      "explanation": '\'Here is my original receipt\' is a short statement. \'Here is\' introduces an object you are giving.',
       "lessonId": "lesson_a1_4_48",
       "stage": 9,
       "type": "listen_and_type",
@@ -1162,6 +1169,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_p8",
+      "explanation": '\'Can I return this item...?\' is a polite question with \'can\' + base verb. \'Do I returning\' and \'Am I return\' are incorrect.',
       "lessonId": "lesson_a1_4_48",
       "stage": 10,
       "type": "multiple_choice",
@@ -1186,6 +1194,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_p9",
+      "explanation": '\'I would prefer a replacement, please\' answers the clerk\'s question about a replacement.',
       "lessonId": "lesson_a1_4_48",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1210,6 +1219,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_p10",
+      "explanation": '\'Can I exchange this shirt for a medium size?\' is a polite request. \'For\' introduces the item you want instead.',
       "lessonId": "lesson_a1_4_48",
       "stage": 12,
       "type": "speaking",
@@ -1219,6 +1229,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_p11",
+      "explanation": '\'Under warranty\' means the product is still covered by the manufacturer\'s guarantee. Hindi: \'यह उत्पाद वारंटी के तहत है।\'',
       "lessonId": "lesson_a1_4_48",
       "stage": 13,
       "type": "translation",
@@ -1227,6 +1238,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_p12",
+      "explanation": '\'Unworn\' means not worn. A receipt is a document, and \'broken\' describes a faulty item.',
       "lessonId": "lesson_a1_4_48",
       "stage": 14,
       "type": "multiple_choice",
@@ -1251,6 +1263,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_p13",
+      "explanation": '\'Damaged\' describes an item that was harmed or broken. \'During transit\' means while being shipped. \'Receipt\' and \'policy\' are nouns, not adjectives, so they do not fit.',
       "lessonId": "lesson_a1_4_48",
       "stage": 14,
       "type": "fill_blank",
@@ -1277,6 +1290,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_p14",
+      "explanation": '\'What is your return policy for electronics?\' is a question about a store\'s rules. \'What is...\' is followed by the subject.',
       "lessonId": "lesson_a1_4_48",
       "stage": 14,
       "type": "word_ordering",
@@ -1294,6 +1308,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_p15",
+      "explanation": '\'The store offers a full refund within thirty days\' is a statement of policy. \'Within\' means before the end of a period.',
       "lessonId": "lesson_a1_4_48",
       "stage": 14,
       "type": "speaking",
@@ -1305,6 +1320,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u04_l48_r1",
+      "explanation": '\'Could you please check this receipt for me?\' is a polite request with \'could\' + base verb.',
       "lessonId": "lesson_a1_4_48",
       "stage": 16,
       "type": "multiple_choice",
@@ -1329,6 +1345,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_r2",
+      "explanation": '\'What does this symbol mean?\' uses \'does\' + base verb \'mean\'.',
       "lessonId": "lesson_a1_4_48",
       "stage": 16,
       "type": "fill_blank",
@@ -1355,6 +1372,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_r3",
+      "explanation": '\'She always keeps her shopping receipts\' uses the adverb \'always\' before the verb and -s on \'keeps\'.',
       "lessonId": "lesson_a1_4_48",
       "stage": 16,
       "type": "word_ordering",
@@ -1371,6 +1389,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_r4",
+      "explanation": '\'May I help you?\' is answered with \'Yes, I would like to return this.\' \'Do you have the receipt?\' is answered with \'Yes, here it is.\'',
       "lessonId": "lesson_a1_4_48",
       "stage": 16,
       "type": "match_pairs",
@@ -1396,6 +1415,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_r5",
+      "explanation": '\'Can I exchange this?\' is a polite question about changing an item. Hindi: \'क्या मैं इसे बदल सकता हूँ?\'',
       "lessonId": "lesson_a1_4_48",
       "stage": 16,
       "type": "translation",
@@ -1406,6 +1426,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u04_l48_a1",
+      "explanation": '\'I would like to exchange this damaged item, please\' is a correct and polite request. \'I like exchange\' and \'I am wanting return\' are incorrect.',
       "lessonId": "lesson_a1_4_48",
       "stage": 17,
       "type": "multiple_choice",
@@ -1430,6 +1451,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_a2",
+      "explanation": 'A \'warranty\' is the manufacturer\'s promise to repair or replace a product for a period.',
       "lessonId": "lesson_a1_4_48",
       "stage": 17,
       "type": "fill_blank",
@@ -1456,6 +1478,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_a3",
+      "explanation": '\'Too tight\' means more than comfortable, so the sentence uses \'too\' + adjective.',
       "lessonId": "lesson_a1_4_48",
       "stage": 17,
       "type": "word_ordering",
@@ -1473,6 +1496,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_a4",
+      "explanation": '\'Without a receipt, we can only offer store credit\' explains the store policy in response to the question.',
       "lessonId": "lesson_a1_4_48",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1497,6 +1521,7 @@ export const LESSON_A1_4_48_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l48_a5",
+      "explanation": '\'I would like to return this defective product with my receipt\' is a polite request with proof of purchase.',
       "lessonId": "lesson_a1_4_48",
       "stage": 17,
       "type": "speaking",

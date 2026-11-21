@@ -896,6 +896,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     // Category 3: Sentence Construction & Tile Assembly (13-18)
     {
       id: 'pe_l2_10',
+      explanation: 'Use \'I am\' + a or an + job. Use \'a\' before a consonant sound, as in \'a software engineer\'.',
       type: 'word_ordering',
       prompt: 'Arrange the word tiles to state your profession:',
       targetSentence: 'I am a software engineer',
@@ -903,6 +904,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l2_11',
+      explanation: 'To ask about someone\'s job, use \'What do you do?\' The helper verb \'do\' comes before the subject \'you\'.',
       type: 'word_ordering',
       prompt: 'Arrange the tiles to ask what someone does:',
       targetSentence: 'What do you do',
@@ -910,6 +912,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l2_12',
+      explanation: 'With \'she\' (third person), add -s to the verb: \'works\'. Use \'in\' before a place such as an office, and \'an\' before a vowel sound.',
       type: 'word_ordering',
       prompt: 'Arrange the tiles to describe a workplace:',
       targetSentence: 'She works in an office',
@@ -917,6 +920,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l2_13',
+      explanation: '\'Where do you work?\' is a question: question word + do + you + base verb. With \'you\', the verb has no -s.',
       type: 'question_formation',
       prompt: 'Construct the question to ask where someone works:',
       targetSentence: 'Where do you work',
@@ -924,6 +928,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l2_14',
+      explanation: 'Yes/no questions with \'be\' start with the verb: \'Is she...?\' Here \'an architect\' takes \'an\' because \'architect\' starts with a vowel sound.',
       type: 'question_formation',
       prompt: 'Construct a Yes/No question asking if she is an architect:',
       targetSentence: 'Is she an architect',
@@ -933,6 +938,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     // Category 4: Listening & Dictation (19-24)
     {
       id: 'pe_l2_15',
+      explanation: 'Listen for the job title. The speaker says \'I work as an architect\', so \'architect\' is the correct answer.',
       type: 'listening',
       prompt: 'Listen to the audio and choose the profession you hear:',
       audioText: 'I work as an architect in Toronto.',
@@ -945,6 +951,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l2_16',
+      explanation: 'Write the question exactly as you hear it, with a question mark: \'Where do you work?\'',
       type: 'listen_type',
       prompt: 'Listen and arrange the tiles to complete what you hear:',
       audioText: 'Where do you work?',
@@ -953,6 +960,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l2_17',
+      explanation: 'Use \'is\' with \'she\' (he, she, it). Write the sentence in full: \'She is a doctor at the hospital.\'',
       type: 'listen_and_type',
       prompt: 'Listen and write the sentence you hear:',
       audioText: 'She is a doctor at the hospital.',
@@ -963,6 +971,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     // Category 5: Speaking & Shadowing (25-28)
     {
       id: 'pe_l2_18',
+      explanation: 'Say \'I am a software engineer\' clearly. Stress the word \'engineer\' on its last syllable: en-gi-NEER.',
       type: 'speak_sentence',
       prompt: 'Speak this sentence into your microphone:',
       targetSentence: 'I am a software engineer.',
@@ -970,6 +979,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l2_19',
+      explanation: 'Say \'She works in an office\' with a clear -s on \'works\'. Keep the sentence in the present simple.',
       type: 'speak_sentence',
       prompt: 'Speak this sentence clearly:',
       targetSentence: 'She works in an office.',
@@ -979,6 +989,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     // Category 6: Translation / Mediation (29-32)
     {
       id: 'pe_l2_20',
+      explanation: 'Use \'I am\' + a + job: \'मैं एक शिक्षक हूँ।\' \'Teacher\' starts with a consonant sound, so use \'a\'.',
       type: 'translate_tiles',
       prompt: 'Translate into English:',
       sourceSentence: 'मैं एक शिक्षक हूँ। / Soy profesor.',
@@ -988,6 +999,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l2_21',
+      explanation: 'Use \'He is\' for a man. \'Engineer\' starts with a vowel sound, so the article is \'an\'.',
       type: 'translation',
       prompt: 'Translate this job statement into English:',
       sourceSentence: 'वह एक इंजीनियर है। / Él es ingeniero.',
@@ -999,6 +1011,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     // Category 7: Interleaved & Recycled Lesson 1 + Lesson 2 (33-38)
     {
       id: 'pe_l2_22',
+      explanation: 'A self-introduction usually follows this order: greeting, name, origin (\'from Canada\'), then job.',
       type: 'word_ordering',
       prompt: 'Interleaved Practice: Combine introduction, origin, and job:',
       targetSentence: 'Hello I am Alex from Canada and I am a doctor',
@@ -1006,6 +1019,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l2_23',
+      explanation: '\'Architect\' starts with a vowel sound, so use \'am an\': \'I am an architect.\' \'am a\' is wrong here.',
       type: 'fill_blank',
       prompt: 'Interleaved Practice: Complete both verb BE and article:',
       sourceSentence: 'My name is Sarah. I ____ ____ architect.',
@@ -1034,6 +1048,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 're_l2_2',
+      explanation: 'Introduce yourself with \'I am\' + name, then the job with \'a\' before a consonant sound: \'a manager\'.',
       type: 'word_ordering',
       prompt: 'Review: Arrange tiles to form a complete introduction with job:',
       targetSentence: 'Hi I am Priya and I am a manager',
@@ -1041,6 +1056,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 're_l2_3',
+      explanation: '\'What do you do?\' asks about a job. \'Where\' asks about a place and \'Who\' asks about a person.',
       type: 'fill_blank',
       prompt: 'Review: Select the correct question phrase:',
       sourceSentence: '____ do you do? I am an accountant.',
@@ -1054,6 +1070,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 're_l2_4',
+      explanation: '\'Where do you work?\' asks for a place. Keep \'do\' before \'you\' and use the base verb \'work\' (no -s).',
       type: 'translate_tiles',
       prompt: 'Review Translation: Translate to English:',
       sourceSentence: 'आप कहाँ काम करते हैं? / ¿Dónde trabajas?',
@@ -1098,6 +1115,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l2_4',
+      explanation: '\'What do you do?\' asks about someone\'s job. \'Where\' asks about a place, and \'How\' asks about manner.',
       type: 'fill_blank',
       prompt: 'Mastery Test 4: Choose the correct question word:',
       sourceSentence: '____ do you do? I am a teacher.',
@@ -1111,6 +1129,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l2_5',
+      explanation: '\'They\' is plural, so use \'are\' with it: \'They are doctors at the hospital.\' \'Is\' and \'am\' do not fit a plural subject.',
       type: 'fill_blank',
       prompt: 'Mastery Test 5: Choose the correct verb form:',
       sourceSentence: 'They ____ doctors at the hospital.',
@@ -1124,6 +1143,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l2_6',
+      explanation: 'Put the place phrase \'at the university\' at the end: \'I am a student at the university.\'',
       type: 'word_ordering',
       prompt: 'Mastery Test 6: Construct "I am a student at the university":',
       targetSentence: 'I am a student at the university',
@@ -1131,6 +1151,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l2_7',
+      explanation: 'In \'Where do you work?\', the question word comes first, then \'do\', then the subject, then the base verb.',
       type: 'word_ordering',
       prompt: 'Mastery Test 7: Construct "Where do you work":',
       targetSentence: 'Where do you work',
@@ -1138,6 +1159,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l2_8',
+      explanation: 'Listen for the job title. The speaker says \'I am an accountant\', so \'accountant\' is correct.',
       type: 'listening',
       prompt: 'Mastery Test 8: Listen and select the profession:',
       audioText: 'I am an accountant in an international company.',
@@ -1150,6 +1172,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l2_9',
+      explanation: 'Write the sentence as you hear it: \'She is a product manager.\' Use \'is\' with \'she\'.',
       type: 'listen_type',
       prompt: 'Mastery Test 9: Listen and arrange the tiles:',
       audioText: 'She is a product manager.',
@@ -1158,6 +1181,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l2_10',
+      explanation: 'For a negative with \'be\', put \'not\' after the verb: \'He is not a doctor.\' Do not use \'do\' with \'be\'.',
       type: 'translate_tiles',
       prompt: 'Mastery Test 10: Translate to English:',
       sourceSentence: 'वह डॉक्टर नहीं है। / Él no es médico.',
@@ -1167,6 +1191,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l2_11',
+      explanation: '\'What do you do?\' is the usual way to ask someone about their job in English.',
       type: 'translation',
       prompt: 'Mastery Test 11: Translate into English:',
       sourceSentence: 'आप क्या काम करते हैं? / ¿A qué te dedicas?',
@@ -1176,6 +1201,7 @@ export const LESSON_A1_1_2_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l2_12',
+      explanation: 'Introduce yourself in order: name, origin (\'from Spain\'), then job: \'I am Carlos from Spain and I am a doctor.\'',
       type: 'word_ordering',
       prompt: 'Mastery Test 12: Interleaved Final: Combine name, origin, and job:',
       targetSentence: 'I am Carlos from Spain and I am a doctor',

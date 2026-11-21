@@ -1040,6 +1040,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u03_l33_p1",
+      "explanation": 'After the verb \'called\', an object pronoun is needed: \'called me\'. \'I\' is a subject pronoun, and \'my\' is a possessive.',
       "type": "multiple_choice",
       "prompt": "Select the correct object pronoun to complete: \"Maria called ___ yesterday to invite us.\"",
       "targetSentence": "Maria called me yesterday to invite us.",
@@ -1068,6 +1069,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_p2",
+      "explanation": 'After the preposition \'for\', use the object pronoun \'her\'. \'She\' is the subject form.',
       "type": "fill_blank",
       "prompt": "Choose the correct pronoun: \"I bought these flowers for ___ (she).\"",
       "targetSentence": "I bought these flowers for her.",
@@ -1096,6 +1098,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_p3",
+      "explanation": 'With two objects, the indirect object (him) comes before the direct object (the message): \'send him the message\'.',
       "type": "word_ordering",
       "prompt": "Assemble the sentence with two objects:",
       "targetSentence": "Please send him the message right now",
@@ -1113,6 +1116,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_p4",
+      "explanation": 'The audio asks for a book on the table to be passed, so the correct request is \'Passing a book on the table\'.',
       "type": "listening",
       "prompt": "Listen to the audio and choose what is being requested:",
       "audioText": "Could you give me that book on the table, please?",
@@ -1141,6 +1145,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_p5",
+      "explanation": '\'Us\' is the object pronoun after \'invited\'. \'Our\' is a possessive and would need a noun after it.',
       "type": "error_correction",
       "prompt": "Correct the pronoun error in this sentence:",
       "targetSentence": "He invited us to his graduation party.",
@@ -1170,6 +1175,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_p6",
+      "explanation": '\'I gave it to him\' uses \'it\' for the object (the report) and \'him\' for the person. The other options put the pronouns in the wrong order.',
       "type": "dialogue_completion",
       "prompt": "Choose the correct line to complete the dialogue:",
       "dialogueContext": {
@@ -1202,6 +1208,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_p7",
+      "explanation": '\'Can you lend me...?\' uses \'me\' as the indirect object. Hindi: \'क्या आप मुझे अपना पेन उधार दे सकते हैं?\'',
       "type": "translation",
       "prompt": "Translate this sentence into English:",
       "sourceSentence": "क्या आप मुझे अपना पेन उधार दे सकते हैं?",
@@ -1224,6 +1231,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_p8",
+      "explanation": '\'Could you do me a favor\' uses \'me\' as the indirect object after \'do\'. \'Could you\' is a polite request.',
       "type": "speaking",
       "prompt": "Speak this polite request clearly into your microphone:",
       "targetSentence": "Could you do me a favor and close the door?",
@@ -1231,6 +1239,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_p9",
+      "explanation": '\'Told them\' uses \'them\' as the object of \'told\'. The sentence is: \'We told them the good news this morning.\'',
       "type": "listen_and_type",
       "prompt": "Listen to the audio and assemble the sentence:",
       "audioText": "We told them the good news this morning.",
@@ -1250,6 +1259,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_p10",
+      "explanation": '\'Gave us\' uses the object pronoun \'us\'. \'We\' is the subject form and cannot follow \'gave\'.',
       "type": "multiple_choice",
       "prompt": "Which sentence correctly uses object pronouns?",
       "targetSentence": "My parents gave us a wonderful wedding present.",
@@ -1278,6 +1288,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_p11",
+      "explanation": 'After \'talk to\', use the object pronoun \'him\' (not \'he\').',
       "type": "fill_blank",
       "prompt": "Select the missing pronoun for the object: \"I see John every day, but I didn't talk to ___ today.\"",
       "targetSentence": "I see John every day, but I didn't talk to him today.",
@@ -1306,6 +1317,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_p12",
+      "explanation": 'Subject pronouns (I, he, she, they) change to object pronouns (me, him, her, them).',
       "type": "match_pairs",
       "prompt": "Match the subject pronouns with their corresponding object pronouns:",
       "options": [
@@ -1345,6 +1357,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_p13",
+      "explanation": '\'For you\' uses the object pronoun \'you\' after the preposition \'for\'. \'Let me carry\' is a polite offer.',
       "type": "word_ordering",
       "prompt": "Assemble the sentence offering help:",
       "targetSentence": "Let me carry those heavy bags for you",
@@ -1363,6 +1376,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_p14",
+      "explanation": '\'Give her the book\' means \'Give the book to her\' (indirect object). \'She\' is the wrong form after a verb.',
       "type": "multiple_choice",
       "prompt": "Which sentence means \"Give the book to the teacher (female)\"?",
       "targetSentence": "Give her the book.",
@@ -1391,6 +1405,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_p15",
+      "explanation": '\'Help us\' uses the object pronoun \'us\' after the verb \'help\'. \'Our\' is a possessive.',
       "type": "fill_blank",
       "prompt": "Complete the sentence with the correct pronoun: \"We are lost, can you help ___?\"",
       "targetSentence": "We are lost, can you help us?",
@@ -1421,6 +1436,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u03_l33_rev1",
+      "explanation": '\'Show me the photos\' uses \'me\' as the indirect object. The other options put the pronoun in the wrong place.',
       "type": "multiple_choice",
       "prompt": "Choose the sentence with correct pronoun placement:",
       "targetSentence": "Show me the photos from your vacation.",
@@ -1449,6 +1465,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_rev2",
+      "explanation": '\'Helping us\' uses \'us\' as the object of the preposition \'for\'. Hindi-speakers often confuse \'we\' and \'us\' here.',
       "type": "word_ordering",
       "prompt": "Build the thank-you sentence:",
       "targetSentence": "Thank you very much for helping us today",
@@ -1467,6 +1484,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_rev3",
+      "explanation": '\'Give it to the driver\' - \'it\' is the object pronoun for a singular thing (the phone).',
       "type": "fill_blank",
       "prompt": "Complete the sentence: \"I found this phone on the seat; I will give ___ to the driver.\"",
       "targetSentence": "I found this phone on the seat; I will give it to the driver.",
@@ -1495,6 +1513,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_rev4",
+      "explanation": '\'Tell them\' uses \'them\' as the object of \'tell\'. \'Their\' is a possessive and needs a noun after it.',
       "type": "error_correction",
       "prompt": "Correct the error in this sentence:",
       "targetSentence": "Can you tell them the meeting location?",
@@ -1524,6 +1543,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_rev5",
+      "explanation": '\'For her\' uses the object pronoun \'her\' after the preposition \'for\'. Hindi: \'यह सुंदर उपहार उसके लिए है।\'',
       "type": "translation",
       "prompt": "Translate this sentence into English:",
       "sourceSentence": "यह सुंदर उपहार उसके (महिला) लिए है।",
@@ -1547,6 +1567,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u03_l33_a1",
+      "explanation": '\'Them\' is the object pronoun. \'They\' is subject, \'their\' is possessive, and \'theirs\' is the possessive pronoun.',
       "type": "multiple_choice",
       "prompt": "Which of the following is an object pronoun?",
       "targetSentence": "them",
@@ -1575,6 +1596,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_a2",
+      "explanation": '\'Speak to me\' uses \'me\' as the object of \'to\'. \'I\' would be the subject form.',
       "type": "fill_blank",
       "prompt": "Select the correct pronoun: \"The manager wants to speak to ___ (I) in the office.\"",
       "targetSentence": "The manager wants to speak to me in the office.",
@@ -1603,6 +1625,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_a3",
+      "explanation": '\'Give her the keys\' uses \'her\' as the indirect object (to her).',
       "type": "word_ordering",
       "prompt": "Assemble the sentence giving an item to someone:",
       "targetSentence": "Give her the keys before she leaves the house",
@@ -1622,6 +1645,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_a4",
+      "explanation": 'The audio says \'I sent them the project files yesterday afternoon.\' \'Them\' refers to a group of people.',
       "type": "listening",
       "prompt": "Listen to the audio and identify who received the email:",
       "audioText": "I sent them the project files yesterday afternoon.",
@@ -1650,6 +1674,7 @@ export const LESSON_A1_3_33_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l33_a5",
+      "explanation": '\'I will send you all the details\' uses \'you\' as the indirect object and \'tomorrow\' as the time.',
       "type": "speaking",
       "prompt": "Speak this helpful sentence clearly into your microphone:",
       "targetSentence": "I will send you all the details in an email tomorrow.",

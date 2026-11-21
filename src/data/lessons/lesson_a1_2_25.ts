@@ -925,6 +925,7 @@ export const LESSON_A1_2_25_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l25_p03',
+      explanation: 'Use \'play\' with games and sports (football, chess), \'go\' with activities ending in -ing (hiking, swimming), \'do\' with yoga and martial arts, and \'listen to\' with music and podcasts.',
       lessonId: 'lesson_a1_2_25',
       type: 'match_pairs',
       prompt: 'Match the verb with its correct activity collocation:',
@@ -1022,6 +1023,7 @@ export const LESSON_A1_2_25_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l25_p11',
+      explanation: 'Baking uses an oven and cake pans, knitting uses yarn and needles, gaming uses a controller and console, and camping uses a tent and sleeping bag.',
       lessonId: 'lesson_a1_2_25',
       type: 'match_pairs',
       prompt: 'Match the hobby to its equipment or location:',
@@ -1114,6 +1116,7 @@ export const LESSON_A1_2_25_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l25_r03',
+      explanation: '\'Love\' is the strongest positive, \'like\' is positive, \'don\'t mind\' is neutral, and \'can\'t stand\' is the strongest negative.',
       lessonId: 'lesson_a1_2_25',
       type: 'match_pairs',
       prompt: 'Match preference degree with example phrases:',
@@ -1201,6 +1204,7 @@ export const LESSON_A1_2_25_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l25_a05',
+      explanation: '\'What are your hobbies?\' asks for a list, so \'I love reading and gardening\' fits. The other pairs match yes/no questions with yes or no answers and \'Why\' with a reason.',
       lessonId: 'lesson_a1_2_25',
       type: 'match_pairs',
       prompt: 'Match the question with the most natural answer:',

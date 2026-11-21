@@ -649,6 +649,7 @@ export const LESSON_A1_2_21_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l21_p3',
+      explanation: '\'I would like\' is a polite way to ask for something. \'Two kilos of fresh tomatoes\' is a quantity phrase.',
       lessonId: 'lesson_a1_2_21',
       stage: 8,
       type: 'word_ordering',
@@ -672,6 +673,7 @@ export const LESSON_A1_2_21_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l21_p5',
+      explanation: '\'How much is...?\' asks for the price. \'A kilo of cheddar cheese\' is a unit of measure.',
       lessonId: 'lesson_a1_2_21',
       stage: 9,
       type: 'listen_and_type',
@@ -681,6 +683,7 @@ export const LESSON_A1_2_21_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l21_p6',
+      explanation: '\'Do you have any...?\' asks if something is available. \'Any\' is used in questions with plural nouns.',
       lessonId: 'lesson_a1_2_21',
       stage: 10,
       type: 'word_ordering',
@@ -690,6 +693,7 @@ export const LESSON_A1_2_21_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l21_p7',
+      explanation: '\'Could I have...?\' is a polite request. \'A bottle of olive oil\' and \'some cheese\' are quantities.',
       lessonId: 'lesson_a1_2_21',
       stage: 12,
       type: 'speaking',
@@ -699,6 +703,7 @@ export const LESSON_A1_2_21_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l21_p8',
+      explanation: '\'Some\' is used in positive statements; \'any\' is used in negatives. \'We do not have any milk\' is negative. Hindi: \'हमारे पास कुछ सेब हैं, लेकिन हमारे पास दूध नहीं है।\'',
       lessonId: 'lesson_a1_2_21',
       stage: 13,
       type: 'translation',
@@ -783,6 +788,7 @@ export const LESSON_A1_2_21_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l21_p14',
+      explanation: '\'There are\' is used with the plural \'a lot of fresh vegetables\'. \'In the basket\' is a place phrase.',
       lessonId: 'lesson_a1_2_21',
       stage: 8,
       type: 'word_ordering',
@@ -792,6 +798,7 @@ export const LESSON_A1_2_21_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l21_p15',
+      explanation: '\'How much is...?\' asks for the price. \'A kilo of red tomatoes\' is the quantity.',
       lessonId: 'lesson_a1_2_21',
       stage: 12,
       type: 'speaking',
@@ -833,6 +840,7 @@ export const LESSON_A1_2_21_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l21_rev3',
+      explanation: '\'We bought\' is the past of \'buy\'. \'Two loaves of whole wheat bread\' is a plural quantity.',
       lessonId: 'lesson_a1_2_21',
       stage: 16,
       type: 'word_ordering',
@@ -842,6 +850,7 @@ export const LESSON_A1_2_21_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l21_rev4',
+      explanation: '\'Would you like anything else?\' is a shop question. \'No, that is all, thank you\' is the polite answer. Hindi: \'क्या आपको आज कुछ और चाहिए? — नहीं, बस इतना ही, धन्यवाद।\'',
       lessonId: 'lesson_a1_2_21',
       stage: 16,
       type: 'translation',
@@ -887,6 +896,7 @@ export const LESSON_A1_2_21_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l21_a3',
+      explanation: '\'Could I have...?\' is a polite request. \'A bottle of water\' is the quantity.',
       lessonId: 'lesson_a1_2_21',
       stage: 17,
       type: 'word_ordering',
@@ -924,6 +934,7 @@ export const LESSON_A1_2_21_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l21_a6',
+      explanation: '\'There is\' is used with the singular \'some cheese\' (uncountable). \'In the refrigerator\' is a place phrase.',
       lessonId: 'lesson_a1_2_21',
       stage: 17,
       type: 'listen_and_type',
@@ -947,6 +958,7 @@ export const LESSON_A1_2_21_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l21_a8',
+      explanation: '\'Do you have any...?\' is used in questions. \'Fresh butter\' is uncountable. Hindi: \'क्या आपके पास कोई ताज़ा मक्खन है?\'',
       lessonId: 'lesson_a1_2_21',
       stage: 17,
       type: 'translation',
@@ -973,6 +985,7 @@ export const LESSON_A1_2_21_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l21_a10',
+      explanation: '\'Put\' is an imperative (base verb). \'Into the shopping cart\' is a place phrase.',
       lessonId: 'lesson_a1_2_21',
       stage: 17,
       type: 'word_ordering',

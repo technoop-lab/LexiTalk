@@ -1026,6 +1026,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u04_l55_p1",
+      "explanation": '\'Be going to\' expresses a plan made before the moment of speaking: \'We are going to visit...\'. \'Will going\' and \'are will\' are incorrect.',
       "lessonId": "lesson_a1_4_55",
       "stage": 8,
       "type": "multiple_choice",
@@ -1050,6 +1051,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_p2",
+      "explanation": '\'Will\' expresses a spontaneous offer made at the moment of speaking: \'I will carry it for you.\'',
       "lessonId": "lesson_a1_4_55",
       "stage": 8,
       "type": "fill_blank",
@@ -1076,6 +1078,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_p3",
+      "explanation": '\'Be going to\' + base verb expresses a plan: \'She is going to start her new job tomorrow.\'',
       "lessonId": "lesson_a1_4_55",
       "stage": 8,
       "type": "word_ordering",
@@ -1095,6 +1098,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_p4",
+      "explanation": 'A prior intention uses \'be going to\' (I am going to study). A spontaneous offer uses \'will\' (I will carry your bag). A promise uses \'will not\' (I will not forget). A prediction uses \'will\' with evidence or opinion.',
       "lessonId": "lesson_a1_4_55",
       "stage": 8,
       "type": "match_pairs",
@@ -1120,6 +1124,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_p5",
+      "explanation": 'After \'will\', use the base verb: \'will help\'. \'Will helping\' and \'will to helping\' are incorrect.',
       "lessonId": "lesson_a1_4_55",
       "stage": 8,
       "type": "error_correction",
@@ -1145,6 +1150,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_p6",
+      "explanation": 'The speaker says: \'We are going to move to our new apartment next weekend.\' \'Make to\' is not the same as \'move to\'.',
       "lessonId": "lesson_a1_4_55",
       "stage": 9,
       "type": "listening",
@@ -1165,6 +1171,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_p7",
+      "explanation": '\'I promise I will call you\' uses \'will\' for a promise. \'As soon as I arrive\' is a time clause that uses the present tense.',
       "lessonId": "lesson_a1_4_55",
       "stage": 9,
       "type": "listen_and_type",
@@ -1174,6 +1181,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_p8",
+      "explanation": '\'What are you going to do this evening?\' asks about someone\'s plans with \'be going to\'. \'Will\' is not used after \'are\' here.',
       "lessonId": "lesson_a1_4_55",
       "stage": 10,
       "type": "multiple_choice",
@@ -1198,6 +1206,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_p9",
+      "explanation": '\'I will open it right now\' is a spontaneous response to someone knocking at the door.',
       "lessonId": "lesson_a1_4_55",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1222,6 +1231,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_p10",
+      "explanation": '\'I am going to attend an important business meeting tomorrow morning\' is a planned intention with \'be going to\'.',
       "lessonId": "lesson_a1_4_55",
       "stage": 12,
       "type": "speaking",
@@ -1231,6 +1241,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_p11",
+      "explanation": '\'I am going to start my new project tomorrow\' is a planned action. Hindi: \'मैं कल अपना नया प्रोजेक्ट शुरू करने जा रहा हूँ।\'',
       "lessonId": "lesson_a1_4_55",
       "stage": 13,
       "type": "translation",
@@ -1239,6 +1250,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_p12",
+      "explanation": '\'Will\' is used for promises, spontaneous decisions, offers, and predictions.',
       "lessonId": "lesson_a1_4_55",
       "stage": 14,
       "type": "multiple_choice",
@@ -1263,6 +1275,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_p13",
+      "explanation": '\'Won\'t\' is the contraction of \'will not\' and is used for a promise not to do something.',
       "lessonId": "lesson_a1_4_55",
       "stage": 14,
       "type": "fill_blank",
@@ -1289,6 +1302,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_p14",
+      "explanation": '\'Will\' + base verb \'be\' for a prediction: \'It will probably be sunny this afternoon.\' \'Probably\' comes after \'will\'.',
       "lessonId": "lesson_a1_4_55",
       "stage": 14,
       "type": "word_ordering",
@@ -1306,6 +1320,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_p15",
+      "explanation": '\'We are going to organize\' is a planned event with \'be going to\' and \'next month\' as the time.',
       "lessonId": "lesson_a1_4_55",
       "stage": 14,
       "type": "speaking",
@@ -1317,6 +1332,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u04_l55_r1",
+      "explanation": '\'Because\' introduces a reason. \'So\' introduces a result, which does not fit here.',
       "lessonId": "lesson_a1_4_55",
       "stage": 16,
       "type": "multiple_choice",
@@ -1341,6 +1357,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_r2",
+      "explanation": '\'Prefer X to Y\' is the standard structure for preferences.',
       "lessonId": "lesson_a1_4_55",
       "stage": 16,
       "type": "fill_blank",
@@ -1367,6 +1384,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_r3",
+      "explanation": '\'In my opinion\' introduces a personal view. \'Is important\' is the adjective for the opinion.',
       "lessonId": "lesson_a1_4_55",
       "stage": 16,
       "type": "word_ordering",
@@ -1383,6 +1401,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_r4",
+      "explanation": '\'Tomorrow\' is the day after today. \'Next week\' means the coming seven days. \'I will\' is for a spontaneous decision. \'I am going to\' is for a planned intention.',
       "lessonId": "lesson_a1_4_55",
       "stage": 16,
       "type": "match_pairs",
@@ -1408,6 +1427,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_r5",
+      "explanation": '\'Although it was cold, we went out\' uses \'although\' to show a contrast. Hindi: \'हालाँकि ठंड थी, फिर भी हम बाहर गए।\'',
       "lessonId": "lesson_a1_4_55",
       "stage": 16,
       "type": "translation",
@@ -1418,6 +1438,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u04_l55_a1",
+      "explanation": '\'We are going to travel to Canada next summer\' is a planned intention with \'be going to\' + base verb.',
       "lessonId": "lesson_a1_4_55",
       "stage": 17,
       "type": "multiple_choice",
@@ -1442,6 +1463,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_a2",
+      "explanation": '\'I will lend you mine\' is a spontaneous offer made at the moment of speaking.',
       "lessonId": "lesson_a1_4_55",
       "stage": 17,
       "type": "fill_blank",
@@ -1468,6 +1490,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_a3",
+      "explanation": '\'What are you going to do...?\' asks about a plan with \'be going to\' + base verb \'do\'.',
       "lessonId": "lesson_a1_4_55",
       "stage": 17,
       "type": "word_ordering",
@@ -1486,6 +1509,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_a4",
+      "explanation": '\'I am going to visit the dentist on Tuesday morning, but I am free in the afternoon\' gives a plan and a free time with \'but\' to contrast.',
       "lessonId": "lesson_a1_4_55",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1510,6 +1534,7 @@ export const LESSON_A1_4_55_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l55_a5",
+      "explanation": '\'I promise I will send you the completed report by five o\'clock\' uses \'will\' for a promise and \'by\' for a deadline.',
       "lessonId": "lesson_a1_4_55",
       "stage": 17,
       "type": "speaking",

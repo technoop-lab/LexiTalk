@@ -112,7 +112,8 @@ export class OnDeviceAndroidSpeechProvider implements ISpeechRecognitionProvider
       }
 
       this.webRecognition = new SpeechRecClass();
-      this.webRecognition.continuous = true;
+      // Single utterance: the engine ends the session after the speaker pauses, and onend resets the UI.
+      this.webRecognition.continuous = false;
       this.webRecognition.interimResults = config?.interimResults ?? true;
       this.webRecognition.lang = lang;
 
@@ -145,10 +146,10 @@ export class OnDeviceAndroidSpeechProvider implements ISpeechRecognitionProvider
           message = 'Microphone permission was denied. Please allow microphone access.';
         } else if (event.error === 'no-speech') {
           code = 'no_speech';
-          message = 'No speech detected. Please speak clearly.';
+          message = 'No speech was heard. Tap the mic and speak right away, or type your answer.';
         } else if (event.error === 'network' || event.error === 'audio-capture') {
           code = 'device_offline';
-          message = 'Offline speech recognition is not available on this device.';
+          message = 'The speech service could not start. Check the Google app and English speech pack, or type your answer.';
         }
 
         if (this.errorCallback) {

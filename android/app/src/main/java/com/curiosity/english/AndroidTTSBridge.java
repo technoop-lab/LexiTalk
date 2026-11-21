@@ -119,12 +119,7 @@ public class AndroidTTSBridge implements TextToSpeech.OnInitListener {
         }
 
         if (!isInitialized) {
-            Log.w(TAG, "TTS requested but TextToSpeech is not yet fully initialized");
-            try {
-                this.tts = new TextToSpeech(activity.getApplicationContext(), this);
-            } catch (Exception e) {
-                Log.e(TAG, "Failed retry initialization of TTS", e);
-            }
+            Log.w(TAG, "TTS requested but TextToSpeech is not yet fully initialized; waiting for onInit");
             return false;
         }
 
@@ -166,6 +161,9 @@ public class AndroidTTSBridge implements TextToSpeech.OnInitListener {
             } else {
                 currentLocale = targetLocale;
             }
+
+            // Prefer a female voice for this locale when the engine provides one
+            pickFemaleVoice(targetLocale);
 
             // Set natural normal speaking rate
             if (rate > 0.2f && rate < 2.5f) {
@@ -228,6 +226,34 @@ public class AndroidTTSBridge implements TextToSpeech.OnInitListener {
             } catch (Exception e) {
                 Log.e(TAG, "Error destroying TTS", e);
             }
+        }
+    }
+
+    private void pickFemaleVoice(Locale locale) {
+        try {
+            java.util.Set<android.speech.tts.Voice> voices = tts.getVoices();
+            if (voices == null || voices.isEmpty()) return;
+            android.speech.tts.Voice best = null;
+            android.speech.tts.Voice fallback = null;
+            for (android.speech.tts.Voice v : voices) {
+                Locale vl = v.getLocale();
+                if (vl == null || !vl.getLanguage().equals(locale.getLanguage())) continue;
+                if (v.isNetworkConnectionRequired()) continue;
+                String name = v.getName().toLowerCase(Locale.ROOT);
+                boolean male = name.contains("male") && !name.contains("female");
+                if (!male && name.contains("female")) {
+                    if (best == null || (vl.equals(locale) && !best.getLocale().equals(locale))) best = v;
+                } else if (!male && fallback == null) {
+                    fallback = v;
+                }
+            }
+            android.speech.tts.Voice chosen = best != null ? best : fallback;
+            if (chosen != null) {
+                tts.setVoice(chosen);
+                Log.i(TAG, "Using voice: " + chosen.getName());
+            }
+        } catch (Exception e) {
+            Log.w(TAG, "Voice selection failed; using engine default", e);
         }
     }
 }

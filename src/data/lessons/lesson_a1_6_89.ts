@@ -1026,6 +1026,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u06_l89_p1",
+      "explanation": 'First conditional: \'If + present simple, will + base verb\'. \'Will reduce\' is the correct main clause.',
       "lessonId": "lesson_a1_6_89",
       "stage": 8,
       "type": "multiple_choice",
@@ -1050,6 +1051,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_p2",
+      "explanation": '\'Will probably\' is the correct modal + adverb order for a prediction. \'Will probably to\' and \'are probably\' are incorrect.',
       "lessonId": "lesson_a1_6_89",
       "stage": 8,
       "type": "multiple_choice",
@@ -1074,6 +1076,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_p3",
+      "explanation": '\'Likely to\' + base verb expresses probability: \'likely to replace\'.',
       "lessonId": "lesson_a1_6_89",
       "stage": 8,
       "type": "fill_blank",
@@ -1100,6 +1103,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_p4",
+      "explanation": 'Future predictions use time expressions: \'in the next five years\', \'in the next decade\', \'by 2040\'.',
       "lessonId": "lesson_a1_6_89",
       "stage": 8,
       "type": "match_pairs",
@@ -1125,6 +1129,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_p5",
+      "explanation": '\'Aspire to\' + base verb expresses an ambition: \'aspire to lead\'.',
       "lessonId": "lesson_a1_6_89",
       "stage": 8,
       "type": "word_ordering",
@@ -1143,6 +1148,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_p6",
+      "explanation": 'First conditional: \'If + present simple, will + base verb\'. \'Will\' does not go inside the \'if\' clause.',
       "lessonId": "lesson_a1_6_89",
       "stage": 8,
       "type": "error_correction",
@@ -1164,6 +1170,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_p7",
+      "explanation": '\'Will transform\' is the future simple for a prediction about the next decade.',
       "lessonId": "lesson_a1_6_89",
       "stage": 9,
       "type": "listen_and_type",
@@ -1173,6 +1180,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_p8",
+      "explanation": '\'I plan to complete my degree and aspire to lead...\' uses \'to\' + base verb for long-term plans. \'I want work\' is incorrect.',
       "lessonId": "lesson_a1_6_89",
       "stage": 10,
       "type": "multiple_choice",
@@ -1197,6 +1205,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_p9",
+      "explanation": '\'AI is likely to assist doctors\' uses \'likely to\' to express a prediction.',
       "lessonId": "lesson_a1_6_89",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1221,6 +1230,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_p10",
+      "explanation": '\'If we invest in education and clean technology, our society will prosper\' is a first conditional sentence.',
       "lessonId": "lesson_a1_6_89",
       "stage": 12,
       "type": "speaking",
@@ -1230,6 +1240,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_p11",
+      "explanation": '\'Technological innovation boosts economic productivity\' is a general statement. Hindi: \'तकनीकी नवाचार आर्थिक उत्पादकता को बढ़ावा देता है।\'',
       "lessonId": "lesson_a1_6_89",
       "stage": 13,
       "type": "translation",
@@ -1238,6 +1249,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_p12",
+      "explanation": 'A milestone is an important stage. A millimeter and a millennium are units of measure and time.',
       "lessonId": "lesson_a1_6_89",
       "stage": 14,
       "type": "multiple_choice",
@@ -1262,6 +1274,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_p13",
+      "explanation": 'A breakthrough is an important discovery. A breakdown is a failure, and breakfast is a meal.',
       "lessonId": "lesson_a1_6_89",
       "stage": 14,
       "type": "fill_blank",
@@ -1288,6 +1301,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_p14",
+      "explanation": '\'Smart automation will transform future workplace productivity\' is a prediction with the future simple.',
       "lessonId": "lesson_a1_6_89",
       "stage": 14,
       "type": "word_ordering",
@@ -1305,6 +1319,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_p15",
+      "explanation": '\'I will definitely achieve full fluency\' uses \'will\' with \'definitely\' to express a strong prediction.',
       "lessonId": "lesson_a1_6_89",
       "stage": 14,
       "type": "speaking",
@@ -1316,6 +1331,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u06_l89_r1",
+      "explanation": '\'Clean solar energy is likely to dominate\' uses \'likely to\' + base verb for a prediction.',
       "lessonId": "lesson_a1_6_89",
       "stage": 16,
       "type": "multiple_choice",
@@ -1340,6 +1356,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_r2",
+      "explanation": 'First conditional: \'If + present simple, we will achieve our climate goals\'.',
       "lessonId": "lesson_a1_6_89",
       "stage": 16,
       "type": "fill_blank",
@@ -1366,6 +1383,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_r3",
+      "explanation": '\'In the next decade, clean energy will expand rapidly\' is a future prediction with \'will\'.',
       "lessonId": "lesson_a1_6_89",
       "stage": 16,
       "type": "word_ordering",
@@ -1385,6 +1403,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_r4",
+      "explanation": 'Autonomous driving makes urban transit safer. Medical AI speeds up scan diagnostics. Renewable batteries store energy.',
       "lessonId": "lesson_a1_6_89",
       "stage": 16,
       "type": "match_pairs",
@@ -1410,6 +1429,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_r5",
+      "explanation": '\'I aspire to launch my own software company\' expresses an ambition. Hindi: \'मेरी आकांक्षा अपना खुद का सॉफ्टवेयर व्यवसाय शुरू करने की है।\'',
       "lessonId": "lesson_a1_6_89",
       "stage": 16,
       "type": "translation",
@@ -1420,6 +1440,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u06_l89_a1",
+      "explanation": '\'If we invest in innovation, autonomous electric vehicles will definitely transform city transport\' is correct: first conditional with \'will definitely\'.',
       "lessonId": "lesson_a1_6_89",
       "stage": 17,
       "type": "multiple_choice",
@@ -1444,6 +1465,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_a2",
+      "explanation": 'A milestone is an important point in progress. A millstone is a heavy stone and minefield is a dangerous area.',
       "lessonId": "lesson_a1_6_89",
       "stage": 17,
       "type": "fill_blank",
@@ -1470,6 +1492,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_a3",
+      "explanation": '\'I will definitely reach A2 proficiency this year\' is a strong prediction with \'will\' and \'definitely\'.',
       "lessonId": "lesson_a1_6_89",
       "stage": 17,
       "type": "word_ordering",
@@ -1488,6 +1511,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_a4",
+      "explanation": '\'I plan to lead innovative software projects and collaborate globally in English\' states a clear long-term vision.',
       "lessonId": "lesson_a1_6_89",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1512,6 +1536,7 @@ export const LESSON_A1_6_89_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l89_a5",
+      "explanation": '\'With dedicated practice and continuous learning, I will achieve all of my goals\' gives a condition-free prediction with a prepositional phrase.',
       "lessonId": "lesson_a1_6_89",
       "stage": 17,
       "type": "speaking",

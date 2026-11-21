@@ -909,6 +909,7 @@ export const LESSON_A1_2_26_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l26_p05',
+      explanation: '\'Drive a car\' means operate a vehicle, \'type fast\' means write quickly on a keyboard, \'fix things\' means repair broken objects, and \'speak English\' means communicate in English.',
       lessonId: 'lesson_a1_2_26',
       type: 'match_pairs',
       prompt: 'Match each verb phrase with its corresponding English meaning:',
@@ -999,6 +1000,7 @@ export const LESSON_A1_2_26_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l26_p12',
+      explanation: '\'Can I borrow...?\' asks for permission and gets \'Sure, go ahead.\' \'Can you speak German?\' asks about ability, so the answer is \'No, I can\'t.\'',
       lessonId: 'lesson_a1_2_26',
       type: 'match_pairs',
       prompt: 'Match the question with the most appropriate response:',
@@ -1088,6 +1090,7 @@ export const LESSON_A1_2_26_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l26_r04',
+      explanation: '\'Can\' expresses ability in \'I can speak two languages\' and requests in \'Can you help me?\'. \'Can I borrow?\' asks permission. \'Can\'t\' with a rule expresses prohibition.',
       lessonId: 'lesson_a1_2_26',
       type: 'match_pairs',
       prompt: 'Match the modal statement with its communicative function:',
@@ -1153,6 +1156,7 @@ export const LESSON_A1_2_26_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l26_a04',
+      explanation: 'Short answers repeat \'can\' or \'can\'t\': \'Yes, I can.\', \'No, she can\'t.\', \'Yes, they can.\', and \'Yes, you can.\' The short answer uses the same subject pronoun.',
       lessonId: 'lesson_a1_2_26',
       type: 'match_pairs',
       prompt: 'Match each question with its correct short answer:',

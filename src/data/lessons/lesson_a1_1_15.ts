@@ -559,6 +559,7 @@ export const LESSON_A1_1_15_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l15_p3',
+      explanation: '\'Can\' does not change: \'She can speak English.\' It takes the base verb, with no -s.',
       lessonId: 'lesson_a1_1_15',
       stage: 8,
       type: 'word_ordering',
@@ -582,6 +583,7 @@ export const LESSON_A1_1_15_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l15_p5',
+      explanation: 'A polite request uses \'can\' + base verb: \'Can you speak more slowly, please?\'',
       lessonId: 'lesson_a1_1_15',
       stage: 9,
       type: 'listen_and_type',
@@ -591,6 +593,7 @@ export const LESSON_A1_1_15_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l15_p6',
+      explanation: '\'Can\'t\' is the negative of \'can\', followed by the base verb: \'He can\'t drive a car in the city.\'',
       lessonId: 'lesson_a1_1_15',
       stage: 10,
       type: 'word_ordering',
@@ -600,6 +603,7 @@ export const LESSON_A1_1_15_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l15_p7',
+      explanation: '\'Can\' + base verb expresses ability. \'A little\' means to a small degree: \'I can speak a little English and Spanish.\'',
       lessonId: 'lesson_a1_1_15',
       stage: 12,
       type: 'speaking',
@@ -609,6 +613,7 @@ export const LESSON_A1_1_15_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l15_p8',
+      explanation: 'A short answer uses \'can\' alone: \'Yes, I can.\' Hindi: \'क्या आप मेरी मदद कर सकते हैं, कृपया? — हाँ, मैं कर सकता हूँ।\'',
       lessonId: 'lesson_a1_1_15',
       stage: 13,
       type: 'translation',
@@ -693,6 +698,7 @@ export const LESSON_A1_1_15_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l15_p14',
+      explanation: '\'Can\' + base verb: \'I can remember all your names.\' \'Remember\' has no -s with \'I\'.',
       lessonId: 'lesson_a1_1_15',
       stage: 8,
       type: 'word_ordering',
@@ -702,6 +708,7 @@ export const LESSON_A1_1_15_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l15_p15',
+      explanation: '\'Can you help me...?\' is a polite request. \'Can\' is followed by the base verb \'help\'.',
       lessonId: 'lesson_a1_1_15',
       stage: 12,
       type: 'speaking',
@@ -743,6 +750,7 @@ export const LESSON_A1_1_15_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l15_rev3',
+      explanation: '\'Can\' stays the same for every subject: \'We can speak three foreign languages fluently.\'',
       lessonId: 'lesson_a1_1_15',
       stage: 16,
       type: 'word_ordering',
@@ -752,6 +760,7 @@ export const LESSON_A1_1_15_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l15_rev4',
+      explanation: '\'Can\'t\' is the short negative answer: \'No, I can\'t.\' Hindi: \'क्या आप कार चला सकते हैं? — नहीं, मैं नहीं चला सकता।\'',
       lessonId: 'lesson_a1_1_15',
       stage: 16,
       type: 'translation',
@@ -797,6 +806,7 @@ export const LESSON_A1_1_15_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l15_a3',
+      explanation: 'In a question, \'can\' comes first: \'Can your brother ride a bicycle well?\' \'Ride\' keeps its base form.',
       lessonId: 'lesson_a1_1_15',
       stage: 17,
       type: 'word_ordering',
@@ -834,6 +844,7 @@ export const LESSON_A1_1_15_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l15_a6',
+      explanation: '\'Can\' + base verb + object + adverb: \'I can speak two languages fluently.\'',
       lessonId: 'lesson_a1_1_15',
       stage: 17,
       type: 'listen_and_type',
@@ -857,6 +868,7 @@ export const LESSON_A1_1_15_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l15_a8',
+      explanation: '\'Can\' does not add -s for \'he\': \'He can run very fast.\' Hindi: \'वह बहुत तेज़ दौड़ सकता है।\'',
       lessonId: 'lesson_a1_1_15',
       stage: 17,
       type: 'translation',
@@ -883,6 +895,7 @@ export const LESSON_A1_1_15_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l15_a10',
+      explanation: 'One \'can\' covers two verbs: \'She can use a computer and write emails.\' The second verb keeps its base form.',
       lessonId: 'lesson_a1_1_15',
       stage: 17,
       type: 'word_ordering',

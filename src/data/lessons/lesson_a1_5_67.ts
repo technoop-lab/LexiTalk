@@ -1026,6 +1026,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u05_l67_p1",
+      "explanation": '\'I have a headache\' is the standard way to describe head pain. \'I am headache\' is not grammatical.',
       "lessonId": "lesson_a1_5_67",
       "stage": 8,
       "type": "multiple_choice",
@@ -1050,6 +1051,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_p2",
+      "explanation": '\'Should\' + base verb gives advice: \'You should drink plenty of fluids and rest.\' \'Should to\' and \'are should\' are incorrect.',
       "lessonId": "lesson_a1_5_67",
       "stage": 8,
       "type": "fill_blank",
@@ -1076,6 +1078,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_p3",
+      "explanation": '\'How often should I take...?\' asks about dosage. \'Should\' + subject + base verb \'take\'.',
       "lessonId": "lesson_a1_5_67",
       "stage": 8,
       "type": "word_ordering",
@@ -1093,6 +1096,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_p4",
+      "explanation": 'A sore throat causes pain when swallowing. A fever is a high body temperature. A dosage is the recommended amount and timing. A side effect is an unwanted effect.',
       "lessonId": "lesson_a1_5_67",
       "stage": 8,
       "type": "match_pairs",
@@ -1118,6 +1122,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_p5",
+      "explanation": 'After \'should\', use the base verb: \'should take\'. \'Should taking\' and \'should took\' are incorrect.',
       "lessonId": "lesson_a1_5_67",
       "stage": 8,
       "type": "error_correction",
@@ -1143,6 +1148,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_p6",
+      "explanation": 'The speaker says: \'Take one tablet twice a day with a glass of water.\' The other option has different instructions.',
       "lessonId": "lesson_a1_5_67",
       "stage": 9,
       "type": "listening",
@@ -1163,6 +1169,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_p7",
+      "explanation": '\'I have a sore throat and a dry cough\' describes two symptoms with \'have\' + noun.',
       "lessonId": "lesson_a1_5_67",
       "stage": 9,
       "type": "listen_and_type",
@@ -1172,6 +1179,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_p8",
+      "explanation": '\'Do I need a prescription for this medicine?\' asks if a doctor\'s note is required. \'Need\' + base verb.',
       "lessonId": "lesson_a1_5_67",
       "stage": 10,
       "type": "multiple_choice",
@@ -1196,6 +1204,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_p9",
+      "explanation": '\'Take two teaspoons every six hours after meals\' gives the dosage and timing.',
       "lessonId": "lesson_a1_5_67",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1220,6 +1229,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_p10",
+      "explanation": '\'I have a stomachache and I feel slightly dizzy\' describes symptoms. \'Feel\' + adjective: \'feel dizzy\'.',
       "lessonId": "lesson_a1_5_67",
       "stage": 12,
       "type": "speaking",
@@ -1229,6 +1239,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_p11",
+      "explanation": '\'Should take this medicine after meals\' gives advice about the medicine. Hindi: \'मुझे यह दवा भोजन के बाद लेनी चाहिए।\'',
       "lessonId": "lesson_a1_5_67",
       "stage": 13,
       "type": "translation",
@@ -1237,6 +1248,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_p12",
+      "explanation": 'Over-the-counter medicine can be bought without a prescription. A round-trip ticket and gluten-free food are different things.',
       "lessonId": "lesson_a1_5_67",
       "stage": 14,
       "type": "multiple_choice",
@@ -1261,6 +1273,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_p13",
+      "explanation": 'A bandage covers a cut. A ticket and a keycard are not used for wounds.',
       "lessonId": "lesson_a1_5_67",
       "stage": 14,
       "type": "fill_blank",
@@ -1287,6 +1300,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_p14",
+      "explanation": '\'Should drink plenty of warm fluids\' gives healthy advice. \'Plenty of\' means a large amount.',
       "lessonId": "lesson_a1_5_67",
       "stage": 14,
       "type": "word_ordering",
@@ -1304,6 +1318,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_p15",
+      "explanation": '\'Recommended taking\' uses the -ing form after \'recommend\'. \'One painkiller tablet every eight hours\' gives the dose and timing.',
       "lessonId": "lesson_a1_5_67",
       "stage": 14,
       "type": "speaking",
@@ -1315,6 +1330,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u05_l67_r1",
+      "explanation": '\'Allergic to\' + noun: \'I am allergic to peanuts\'. \'Allergy\' is a noun, and \'allergic with\' is incorrect.',
       "lessonId": "lesson_a1_5_67",
       "stage": 16,
       "type": "multiple_choice",
@@ -1339,6 +1355,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_r2",
+      "explanation": '\'On the side\' means served separately: \'the salad dressing on the side\'.',
       "lessonId": "lesson_a1_5_67",
       "stage": 16,
       "type": "fill_blank",
@@ -1365,6 +1382,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_r3",
+      "explanation": '\'On the fifth floor\' uses \'on\' with floors and the ordinal \'fifth\'.',
       "lessonId": "lesson_a1_5_67",
       "stage": 16,
       "type": "word_ordering",
@@ -1383,6 +1401,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_r4",
+      "explanation": 'A prescription is an authorization from a doctor. Vegetarian means meat-free. A keycard opens a hotel room. A painkiller relieves pain.',
       "lessonId": "lesson_a1_5_67",
       "stage": 16,
       "type": "match_pairs",
@@ -1408,6 +1427,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_r5",
+      "explanation": '\'I have a headache and a mild fever\' describes two symptoms. Hindi: \'मुझे सिरदर्द और हल्का बुखार है।\'',
       "lessonId": "lesson_a1_5_67",
       "stage": 16,
       "type": "translation",
@@ -1418,6 +1438,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u05_l67_a1",
+      "explanation": '\'I have a sore throat and should rest today\' gives a symptom and a piece of advice in grammatical form.',
       "lessonId": "lesson_a1_5_67",
       "stage": 17,
       "type": "multiple_choice",
@@ -1442,6 +1463,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_a2",
+      "explanation": '\'Dosage\' is the recommended amount of medicine. It is printed on the medicine bottle.',
       "lessonId": "lesson_a1_5_67",
       "stage": 17,
       "type": "fill_blank",
@@ -1468,6 +1490,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_a3",
+      "explanation": '\'How often should I apply this ointment?\' asks about the dosage with \'should\' + subject + base verb.',
       "lessonId": "lesson_a1_5_67",
       "stage": 17,
       "type": "word_ordering",
@@ -1486,6 +1509,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_a4",
+      "explanation": '\'It might cause mild drowsiness, so do not drive after taking it\' gives a warning about a side effect.',
       "lessonId": "lesson_a1_5_67",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1510,6 +1534,7 @@ export const LESSON_A1_5_67_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l67_a5",
+      "explanation": '\'You should take one tablet with food every twelve hours\' gives advice on dose and timing.',
       "lessonId": "lesson_a1_5_67",
       "stage": 17,
       "type": "speaking",

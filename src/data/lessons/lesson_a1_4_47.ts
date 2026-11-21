@@ -1016,6 +1016,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u04_l47_p1",
+      "explanation": '\'Could you please repeat...?\' is a polite request. \'Must\' and \'should\' do not work as polite requests here.',
       "lessonId": "lesson_a1_4_47",
       "stage": 8,
       "type": "multiple_choice",
@@ -1040,6 +1041,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_p2",
+      "explanation": '\'Does ... mean?\' is the question form for meaning with \'this word\' (singular, third person). \'Do\' and \'is\' do not fit.',
       "lessonId": "lesson_a1_4_47",
       "stage": 8,
       "type": "fill_blank",
@@ -1066,6 +1068,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_p3",
+      "explanation": '\'Could you speak more slowly, please?\' is a polite request. \'Could\' + subject + base verb.',
       "lessonId": "lesson_a1_4_47",
       "stage": 8,
       "type": "word_ordering",
@@ -1082,6 +1085,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_p4",
+      "explanation": '\'What does ... mean?\' asks for meaning. \'How do you spell that?\' asks for spelling. \'How do you pronounce this?\' asks for pronunciation.',
       "lessonId": "lesson_a1_4_47",
       "stage": 8,
       "type": "match_pairs",
@@ -1107,6 +1111,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_p5",
+      "explanation": '\'What does this word mean in English?\' uses \'does\' + base verb \'mean\'. \'What is mean\' is not correct.',
       "lessonId": "lesson_a1_4_47",
       "stage": 8,
       "type": "error_correction",
@@ -1132,6 +1137,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_p6",
+      "explanation": 'The audio says: \'Could you please clarify the meaning of the second sentence?\' \'Classify\' is a different word meaning to put into groups.',
       "lessonId": "lesson_a1_4_47",
       "stage": 9,
       "type": "listening",
@@ -1152,6 +1158,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_p7",
+      "explanation": '\'May I ask...?\' is a polite request for permission to ask a question.',
       "lessonId": "lesson_a1_4_47",
       "stage": 9,
       "type": "listen_and_type",
@@ -1161,6 +1168,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_p8",
+      "explanation": '\'How do you spell...?\' asks how to write something. \'How do you speak your name?\' is not the right question.',
       "lessonId": "lesson_a1_4_47",
       "stage": 10,
       "type": "multiple_choice",
@@ -1185,6 +1193,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_p9",
+      "explanation": '\'I will say it again slowly\' is a reply that offers to repeat. It fits the statement \'I didn\'t catch that\'.',
       "lessonId": "lesson_a1_4_47",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1209,6 +1218,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_p10",
+      "explanation": '\'Could you please explain this rule again?\' is a polite request. \'Explain\' is followed by the object \'this rule\'.',
       "lessonId": "lesson_a1_4_47",
       "stage": 12,
       "type": "speaking",
@@ -1218,6 +1228,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_p11",
+      "explanation": '\'Could you please speak more slowly?\' is the polite request. Hindi: \'क्या आप कृपया अधिक धीरे बोल सकते हैं?\'',
       "lessonId": "lesson_a1_4_47",
       "stage": 13,
       "type": "translation",
@@ -1226,6 +1237,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_p12",
+      "explanation": '\'Pronounce\' means to say the sounds of words correctly. \'Write\' and \'listen\' describe other actions.',
       "lessonId": "lesson_a1_4_47",
       "stage": 14,
       "type": "multiple_choice",
@@ -1250,6 +1262,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_p13",
+      "explanation": '\'May I leave a message...?\' is a polite request for permission.',
       "lessonId": "lesson_a1_4_47",
       "stage": 14,
       "type": "fill_blank",
@@ -1276,6 +1289,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_p14",
+      "explanation": '\'Could you do me a favor?\' is a polite request for help. \'Do me a favor\' is a common phrase.',
       "lessonId": "lesson_a1_4_47",
       "stage": 14,
       "type": "word_ordering",
@@ -1292,6 +1306,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_p15",
+      "explanation": '\'Thank you very much for your valuable assistance\' is a polite thank-you. \'Valuable\' is the adjective for \'assistance\'.',
       "lessonId": "lesson_a1_4_47",
       "stage": 14,
       "type": "speaking",
@@ -1303,6 +1318,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u04_l47_r1",
+      "explanation": '\'I always check\' puts the adverb \'always\' before the main verb. \'I check always\' and \'always I check\' are incorrect.',
       "lessonId": "lesson_a1_4_47",
       "stage": 16,
       "type": "multiple_choice",
@@ -1327,6 +1343,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_r2",
+      "explanation": '\'Does she work on Saturdays?\' is a question with \'does\' (third person singular).',
       "lessonId": "lesson_a1_4_47",
       "stage": 16,
       "type": "fill_blank",
@@ -1353,6 +1370,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_r3",
+      "explanation": '\'Usually\' comes before the main verb \'takes\': \'She usually takes a break at noon.\'',
       "lessonId": "lesson_a1_4_47",
       "stage": 16,
       "type": "word_ordering",
@@ -1370,6 +1388,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_r4",
+      "explanation": '\'Send an email\', \'meet a deadline\', \'have a meeting\', and \'start work\' are common workplace collocations.',
       "lessonId": "lesson_a1_4_47",
       "stage": 16,
       "type": "match_pairs",
@@ -1395,6 +1414,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_r5",
+      "explanation": '\'Could you send that email?\' is a polite request. Hindi: \'क्या आप वह ईमेल भेज सकते हैं?\'',
       "lessonId": "lesson_a1_4_47",
       "stage": 16,
       "type": "translation",
@@ -1405,6 +1425,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u04_l47_a1",
+      "explanation": '\'Could you please repeat what you just said?\' is the most polite request. The other options are blunt or ungrammatical.',
       "lessonId": "lesson_a1_4_47",
       "stage": 17,
       "type": "multiple_choice",
@@ -1429,6 +1450,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_a2",
+      "explanation": '\'How do you spell your surname?\' uses the base verb \'spell\' after \'do you\'.',
       "lessonId": "lesson_a1_4_47",
       "stage": 17,
       "type": "fill_blank",
@@ -1455,6 +1477,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_a3",
+      "explanation": '\'What does this expression mean?\' asks for the meaning of a phrase.',
       "lessonId": "lesson_a1_4_47",
       "stage": 17,
       "type": "word_ordering",
@@ -1470,6 +1493,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_a4",
+      "explanation": '\'Of course! Go ahead and ask.\' is a natural reply to \'May I ask a quick question?\'',
       "lessonId": "lesson_a1_4_47",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1494,6 +1518,7 @@ export const LESSON_A1_4_47_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l47_a5",
+      "explanation": '\'Could you please clarify this instruction for me?\' is a polite request for explanation.',
       "lessonId": "lesson_a1_4_47",
       "stage": 17,
       "type": "speaking",

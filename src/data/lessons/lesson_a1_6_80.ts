@@ -1036,6 +1036,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u06_l80_p1",
+      "explanation": 'Allergic is followed by \'to\': \'allergic to peanuts\'. \'Allergic with\' and \'allergic from\' are incorrect.',
       "lessonId": "lesson_a1_6_80",
       "stage": 8,
       "type": "multiple_choice",
@@ -1060,6 +1061,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_p2",
+      "explanation": 'Questions in the present simple use \'Does\' with a singular subject: \'Does this dish contain nuts?\'',
       "lessonId": "lesson_a1_6_80",
       "stage": 8,
       "type": "multiple_choice",
@@ -1084,6 +1086,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_p3",
+      "explanation": '\'On the side\' means served separately. \'Dressing on the side\' is a common restaurant phrase.',
       "lessonId": "lesson_a1_6_80",
       "stage": 8,
       "type": "fill_blank",
@@ -1110,6 +1113,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_p4",
+      "explanation": 'Vegetarian means no meat or fish. Vegan means no animal products. Gluten-free means no wheat or gluten. Dairy-free means no milk products.',
       "lessonId": "lesson_a1_6_80",
       "stage": 8,
       "type": "match_pairs",
@@ -1135,6 +1139,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_p5",
+      "explanation": '\'I did not order this dish\' is the past negative and a polite way to correct an order.',
       "lessonId": "lesson_a1_6_80",
       "stage": 8,
       "type": "word_ordering",
@@ -1153,6 +1158,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_p6",
+      "explanation": '\'Allergic to\' is the correct preposition. \'Allergic for\' is not used.',
       "lessonId": "lesson_a1_6_80",
       "stage": 8,
       "type": "error_correction",
@@ -1174,6 +1180,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_p7",
+      "explanation": '\'Could we split the bill...?\' is a polite request. \'Split\' is the same in present and past.',
       "lessonId": "lesson_a1_6_80",
       "stage": 9,
       "type": "listen_and_type",
@@ -1183,6 +1190,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_p8",
+      "explanation": '\'Can I substitute X for Y?\' is the correct pattern for replacing an item in an order.',
       "lessonId": "lesson_a1_6_80",
       "stage": 10,
       "type": "multiple_choice",
@@ -1207,6 +1215,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_p9",
+      "explanation": '\'I asked for medium-well, but this is quite rare\' gives a clear correction with a contrast.',
       "lessonId": "lesson_a1_6_79",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1231,6 +1240,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_p10",
+      "explanation": '\'I am severely allergic to peanuts, so please make sure there are no nuts in my dish\' gives a clear safety instruction with \'so\' for the reason.',
       "lessonId": "lesson_a1_6_80",
       "stage": 12,
       "type": "speaking",
@@ -1240,6 +1250,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_p11",
+      "explanation": '\'I ordered grilled salmon\' is the past simple for a completed order. Hindi: \'माफ कीजिए, मैंने ग्रिल्ड सैल्मन का ऑर्डर दिया था।\'',
       "lessonId": "lesson_a1_6_80",
       "stage": 13,
       "type": "translation",
@@ -1248,6 +1259,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_p12",
+      "explanation": '\'Compliments to the chef\' are praise for the cook. Complaints go the other way.',
       "lessonId": "lesson_a1_6_80",
       "stage": 14,
       "type": "multiple_choice",
@@ -1272,6 +1284,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_p13",
+      "explanation": '\'The check\' is the bill in American English, and \'bring the check\' is a common request.',
       "lessonId": "lesson_a1_6_80",
       "stage": 14,
       "type": "fill_blank",
@@ -1298,6 +1311,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_p14",
+      "explanation": '\'Could we get the check, please?\' is a polite request with \'could\' + base verb.',
       "lessonId": "lesson_a1_6_80",
       "stage": 14,
       "type": "word_ordering",
@@ -1314,6 +1328,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_p15",
+      "explanation": '\'Is the tip included in the total bill, or can we add it separately?\' asks a question with \'or\' and \'separately\'.',
       "lessonId": "lesson_a1_6_80",
       "stage": 14,
       "type": "speaking",
@@ -1325,6 +1340,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u06_l80_r1",
+      "explanation": '\'On the side\' is the correct phrase for a separate serving of dressing.',
       "lessonId": "lesson_a1_6_80",
       "stage": 16,
       "type": "multiple_choice",
@@ -1349,6 +1365,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_r2",
+      "explanation": '\'Dairy products\' means milk-based foods. \'Diary\' and \'daily\' are different words.',
       "lessonId": "lesson_a1_6_80",
       "stage": 16,
       "type": "fill_blank",
@@ -1375,6 +1392,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_r3",
+      "explanation": '\'We would like to split the bill, please\' is a polite request.',
       "lessonId": "lesson_a1_6_80",
       "stage": 16,
       "type": "word_ordering",
@@ -1393,6 +1411,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_r4",
+      "explanation": '\'On the side\' means dressing in a separate bowl. Compliments to the chef praise the food. \'I did not order this\' corrects an order.',
       "lessonId": "lesson_a1_6_80",
       "stage": 16,
       "type": "match_pairs",
@@ -1418,6 +1437,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_r5",
+      "explanation": '\'Could we split the bill between the four of us?\' is a polite request. Hindi: \'क्या हम चारों के बीच बिल विभाजित कर सकते हैं?\'',
       "lessonId": "lesson_a1_6_80",
       "stage": 16,
       "type": "translation",
@@ -1428,6 +1448,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u06_l80_a1",
+      "explanation": '\'I am allergic to peanuts, so does this curry contain any peanut oil?\' is correct: \'allergic to\' and a present simple question.',
       "lessonId": "lesson_a1_6_80",
       "stage": 17,
       "type": "multiple_choice",
@@ -1452,6 +1473,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_a2",
+      "explanation": '\'Compliments\' are praise. Complaints are the opposite, and compartments are sections.',
       "lessonId": "lesson_a1_6_80",
       "stage": 17,
       "type": "fill_blank",
@@ -1478,6 +1500,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_a3",
+      "explanation": '\'Can I substitute rice for the French fries?\' is a correct request with \'substitute X for Y\'.',
       "lessonId": "lesson_a1_6_80",
       "stage": 17,
       "type": "word_ordering",
@@ -1496,6 +1519,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_a4",
+      "explanation": '\'I am very sorry about that. I will have the kitchen remake it immediately\' is a professional apology and solution.',
       "lessonId": "lesson_a1_6_80",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1520,6 +1544,7 @@ export const LESSON_A1_6_80_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l80_a5",
+      "explanation": '\'Could we get the check please, and can we split it between two cards?\' is a polite, complete request.',
       "lessonId": "lesson_a1_6_80",
       "stage": 17,
       "type": "speaking",

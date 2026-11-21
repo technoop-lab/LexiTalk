@@ -1026,6 +1026,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u06_l78_p1",
+      "explanation": '\'First\' is the sequence marker for the first event. \'Finally\' comes at the end and \'never\' is a frequency adverb.',
       "lessonId": "lesson_a1_6_78",
       "stage": 8,
       "type": "multiple_choice",
@@ -1050,6 +1051,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_p2",
+      "explanation": 'Past negative: \'did not\' + base verb \'arrive\'. \'Did not arrived\' and \'does not\' are incorrect.',
       "lessonId": "lesson_a1_6_78",
       "stage": 8,
       "type": "multiple_choice",
@@ -1074,6 +1076,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_p3",
+      "explanation": 'A voucher is a document that can be exchanged for a service or meal. A vowel is a letter sound, and a volume is an amount.',
       "lessonId": "lesson_a1_6_78",
       "stage": 8,
       "type": "fill_blank",
@@ -1100,6 +1103,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_p4",
+      "explanation": 'A carousel is a baggage belt. To rebook means schedule a new flight. A layover is a wait between flights. A claim tag is a luggage receipt label.',
       "lessonId": "lesson_a1_6_78",
       "stage": 8,
       "type": "match_pairs",
@@ -1125,6 +1129,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_p5",
+      "explanation": '\'My black suitcase did not arrive\' reports a missing bag with the past negative.',
       "lessonId": "lesson_a1_6_78",
       "stage": 8,
       "type": "word_ordering",
@@ -1141,6 +1146,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_p6",
+      "explanation": 'Questions with \'Where can I find...?\' keep the question form only once: \'Where can I find...?\' not \'Where I can find...\'.',
       "lessonId": "lesson_a1_6_78",
       "stage": 8,
       "type": "error_correction",
@@ -1162,6 +1168,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_p7",
+      "explanation": '\'Because the inbound plane was delayed\' gives the reason for missing a flight.',
       "lessonId": "lesson_a1_6_78",
       "stage": 9,
       "type": "listen_and_type",
@@ -1171,6 +1178,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_p8",
+      "explanation": '\'Will my bag be delivered directly to my hotel?\' is a correct future passive question.',
       "lessonId": "lesson_a1_6_78",
       "stage": 10,
       "type": "multiple_choice",
@@ -1195,6 +1203,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_p9",
+      "explanation": '\'Please step over to the desk, and I will rebook you\' is a helpful airport reply with a future action.',
       "lessonId": "lesson_a1_6_78",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1219,6 +1228,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_p10",
+      "explanation": '\'My checked luggage did not arrive on the carousel\' reports a problem with the past negative.',
       "lessonId": "lesson_a1_6_78",
       "stage": 12,
       "type": "speaking",
@@ -1228,6 +1238,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_p11",
+      "explanation": '\'I missed my connecting flight\' uses the past simple. Hindi: \'मेरी कनेक्टिंग फ्लाइट छूट गई क्योंकि पहली उड़ान देर से पहुँची।\'',
       "lessonId": "lesson_a1_6_78",
       "stage": 13,
       "type": "translation",
@@ -1236,6 +1247,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_p12",
+      "explanation": 'A layover is a waiting time between flights. A runway is where planes take off and land, and a cockpit is the pilots\' area.',
       "lessonId": "lesson_a1_6_78",
       "stage": 14,
       "type": "multiple_choice",
@@ -1260,6 +1272,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_p13",
+      "explanation": 'To locate means to find. \'Locomotive\' and \'lock\' do not fit the meaning.',
       "lessonId": "lesson_a1_6_78",
       "stage": 14,
       "type": "fill_blank",
@@ -1286,6 +1299,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_p14",
+      "explanation": '\'First we landed, and then we rebooked\' uses sequence words to order events.',
       "lessonId": "lesson_a1_6_78",
       "stage": 14,
       "type": "word_ordering",
@@ -1303,6 +1317,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_p15",
+      "explanation": '\'Where is the transit desk for international transfers?\' is a clear question with \'where is\' + noun.',
       "lessonId": "lesson_a1_6_78",
       "stage": 14,
       "type": "speaking",
@@ -1314,6 +1329,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u06_l78_r1",
+      "explanation": '\'First ... and after that\' gives a clear order of events. \'First claim\' without an article is incorrect.',
       "lessonId": "lesson_a1_6_78",
       "stage": 16,
       "type": "multiple_choice",
@@ -1338,6 +1354,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_r2",
+      "explanation": 'A luggage tag is a label on the bag. \'Toe\' and \'tip\' are not travel terms.',
       "lessonId": "lesson_a1_6_78",
       "stage": 16,
       "type": "fill_blank",
@@ -1364,6 +1381,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_r3",
+      "explanation": '\'The flight was cancelled due to fog\' uses the passive past with \'due to\' for a reason.',
       "lessonId": "lesson_a1_6_78",
       "stage": 16,
       "type": "word_ordering",
@@ -1381,6 +1399,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_r4",
+      "explanation": 'A missed connection needs a rebooking. A lost suitcase needs a baggage claim form. A delay can call for a hotel voucher.',
       "lessonId": "lesson_a1_6_78",
       "stage": 16,
       "type": "match_pairs",
@@ -1406,6 +1425,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_r5",
+      "explanation": '\'Could you rebook me on the next available flight?\' is a polite request. Hindi: \'क्या आप मुझे अगली उपलब्ध उड़ान पर पुनः बुक कर सकते हैं?\'',
       "lessonId": "lesson_a1_6_78",
       "stage": 16,
       "type": "translation",
@@ -1416,6 +1436,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u06_l78_a1",
+      "explanation": '\'Our flight was delayed, so we missed our connecting flight\' gives a result with \'so\' and the correct past tenses.',
       "lessonId": "lesson_a1_6_78",
       "stage": 17,
       "type": "multiple_choice",
@@ -1440,6 +1461,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_a2",
+      "explanation": '\'Vouchers\' is the plural noun for the meal coupons. \'Volcanoes\' and \'voltages\' do not fit.',
       "lessonId": "lesson_a1_6_78",
       "stage": 17,
       "type": "fill_blank",
@@ -1466,6 +1488,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_a3",
+      "explanation": '\'Where is the baggage service desk located?\' is a question in the passive with \'located\'.',
       "lessonId": "lesson_a1_6_78",
       "stage": 17,
       "type": "word_ordering",
@@ -1483,6 +1506,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_a4",
+      "explanation": '\'We will deliver it directly to your hotel address tomorrow morning\' gives the future plan clearly.',
       "lessonId": "lesson_a1_6_78",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1507,6 +1531,7 @@ export const LESSON_A1_6_78_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l78_a5",
+      "explanation": '\'First my flight was delayed, and then the agent rebooked my ticket\' describes events in order with past tenses.',
       "lessonId": "lesson_a1_6_78",
       "stage": 17,
       "type": "speaking",

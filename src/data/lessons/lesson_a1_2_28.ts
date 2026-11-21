@@ -959,6 +959,7 @@ export const LESSON_A1_2_28_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l28_p05',
+      explanation: 'Past of \'be\': I/he/she/it use \'was\', and we/you/they/plural nouns use \'were\'. Negatives: \'wasn\'t\' and \'weren\'t\'.',
       lessonId: 'lesson_a1_2_28',
       type: 'match_pairs',
       prompt: 'Match subject with the correct past form of "to be":',
@@ -1034,6 +1035,7 @@ export const LESSON_A1_2_28_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l28_p11',
+      explanation: '\'Last night\' and \'Three weeks ago\' are past time phrases. \'In 2015\' gives a specific year, and \'When I was young\' refers to childhood.',
       lessonId: 'lesson_a1_2_28',
       type: 'match_pairs',
       prompt: 'Match the past time marker with its correct usage:',
@@ -1126,6 +1128,7 @@ export const LESSON_A1_2_28_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l28_r03',
+      explanation: '\'Were you late?\' is answered with \'No, I was...\' and \'Was the movie interesting?\' with \'Yes, it was...\'. \'Where were they?\' uses \'were\' for \'they\'.',
       lessonId: 'lesson_a1_2_28',
       type: 'match_pairs',
       prompt: 'Match the question with the appropriate answer:',
@@ -1213,6 +1216,7 @@ export const LESSON_A1_2_28_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l28_a05',
+      explanation: 'Negative past of \'be\': \'wasn\'t\' with I/he/she/it and singular nouns, \'weren\'t\' with you/we/they and plural nouns.',
       lessonId: 'lesson_a1_2_28',
       type: 'match_pairs',
       prompt: 'Match pronoun to its negative past form:',

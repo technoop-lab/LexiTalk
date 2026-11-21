@@ -1016,6 +1016,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u04_l51_p1",
+      "explanation": 'An urgent instruction uses the imperative (base verb): \'Call an ambulance\'. \'Calling\' and \'to call\' do not work as commands.',
       "lessonId": "lesson_a1_4_51",
       "stage": 8,
       "type": "multiple_choice",
@@ -1040,6 +1041,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_p2",
+      "explanation": '\'The nearest\' is a superlative, so it needs \'the\' before it: \'the nearest hospital\'.',
       "lessonId": "lesson_a1_4_51",
       "stage": 8,
       "type": "fill_blank",
@@ -1066,6 +1068,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_p3",
+      "explanation": '\'There has been a car accident\' uses \'has been\' (present perfect) to report a recent event.',
       "lessonId": "lesson_a1_4_51",
       "stage": 8,
       "type": "word_ordering",
@@ -1082,6 +1085,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_p4",
+      "explanation": 'An ambulance carries sick or injured people. A firefighter puts out fires. The police maintain public safety. A witness saw what happened.',
       "lessonId": "lesson_a1_4_51",
       "stage": 8,
       "type": "match_pairs",
@@ -1107,6 +1111,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_p5",
+      "explanation": '\'Was stolen\' is the passive past. \'Steal\' and \'stole\' do not fit the passive form.',
       "lessonId": "lesson_a1_4_51",
       "stage": 8,
       "type": "error_correction",
@@ -1132,6 +1137,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_p6",
+      "explanation": 'The operator asks: \'What is your exact location and are there any injuries?\' The other option uses wrong words.',
       "lessonId": "lesson_a1_4_51",
       "stage": 9,
       "type": "listening",
@@ -1152,6 +1158,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_p7",
+      "explanation": '\'Please stay calm and wait for help\' is an imperative instruction. Hindi: \'कृपया शांत रहें और मदद का इंतज़ार करें।\'',
       "lessonId": "lesson_a1_4_51",
       "stage": 9,
       "type": "listen_and_type",
@@ -1161,6 +1168,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_p8",
+      "explanation": '\'Where is the nearest medical clinic?\' is the correct question word order. \'Where nearest is\' is incorrect.',
       "lessonId": "lesson_a1_4_51",
       "stage": 10,
       "type": "multiple_choice",
@@ -1185,6 +1193,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_p9",
+      "explanation": '\'Understood, I will stay with him right here\' responds to the instruction to stay with the injured person.',
       "lessonId": "lesson_a1_4_51",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1209,6 +1218,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_p10",
+      "explanation": '\'I need to file a police report\' states a need. \'For my lost passport\' gives the reason.',
       "lessonId": "lesson_a1_4_51",
       "stage": 12,
       "type": "speaking",
@@ -1218,6 +1228,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_p11",
+      "explanation": '\'Please stay calm and wait for help\' is an imperative. Hindi: \'कृपया शांत रहें और मदद की प्रतीक्षा करें।\'',
       "lessonId": "lesson_a1_4_51",
       "stage": 13,
       "type": "translation",
@@ -1226,6 +1237,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_p12",
+      "explanation": 'A witness is a person who saw a crime or accident. A sender sends a package and a teller works at a bank.',
       "lessonId": "lesson_a1_4_51",
       "stage": 14,
       "type": "multiple_choice",
@@ -1250,6 +1262,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_p13",
+      "explanation": 'Negative imperatives use \'Don\'t\' + base verb: \'Don\'t touch the broken glass.\'',
       "lessonId": "lesson_a1_4_51",
       "stage": 14,
       "type": "fill_blank",
@@ -1276,6 +1289,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_p14",
+      "explanation": '\'We need a doctor right away\' expresses urgent need. \'Right away\' means immediately.',
       "lessonId": "lesson_a1_4_51",
       "stage": 14,
       "type": "word_ordering",
@@ -1292,6 +1306,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_p15",
+      "explanation": '\'The paramedics arrived quickly\' uses the past simple (completed event). \'Helped\' is the past of \'help\'.',
       "lessonId": "lesson_a1_4_51",
       "stage": 14,
       "type": "speaking",
@@ -1303,6 +1318,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u04_l51_r1",
+      "explanation": '\'Faster\' is the comparative of \'fast\'. \'More fast\' is incorrect.',
       "lessonId": "lesson_a1_4_51",
       "stage": 16,
       "type": "multiple_choice",
@@ -1327,6 +1343,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_r2",
+      "explanation": '\'How long\' asks about a period of time for express delivery.',
       "lessonId": "lesson_a1_4_51",
       "stage": 16,
       "type": "fill_blank",
@@ -1353,6 +1370,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_r3",
+      "explanation": '\'I would like to withdraw money\' is a polite request with \'would like\' + to + base verb.',
       "lessonId": "lesson_a1_4_51",
       "stage": 16,
       "type": "word_ordering",
@@ -1369,6 +1387,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_r4",
+      "explanation": 'Call the police, stay calm, file a report, and weigh a parcel are common verb + object combinations.',
       "lessonId": "lesson_a1_4_51",
       "stage": 16,
       "type": "match_pairs",
@@ -1394,6 +1413,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_r5",
+      "explanation": '\'Is anyone injured?\' is a yes/no question asking about injuries. Hindi: \'क्या कोई घायल है?\'',
       "lessonId": "lesson_a1_4_51",
       "stage": 16,
       "type": "translation",
@@ -1404,6 +1424,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u04_l51_a1",
+      "explanation": '\'Call an ambulance immediately and stay calm\' is a correct imperative with two commands joined by \'and\'.',
       "lessonId": "lesson_a1_4_51",
       "stage": 17,
       "type": "multiple_choice",
@@ -1428,6 +1449,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_a2",
+      "explanation": '\'Was stolen\' is the passive past. The wallet received the action of being stolen.',
       "lessonId": "lesson_a1_4_51",
       "stage": 17,
       "type": "fill_blank",
@@ -1454,6 +1476,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_a3",
+      "explanation": '\'Where is the nearest emergency hospital?\' is a question with the correct word order.',
       "lessonId": "lesson_a1_4_51",
       "stage": 17,
       "type": "word_ordering",
@@ -1470,6 +1493,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_a4",
+      "explanation": '\'There is a fire in the kitchen at 45 Elm Street\' gives the location that the dispatcher needs.',
       "lessonId": "lesson_a1_4_51",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1494,6 +1518,7 @@ export const LESSON_A1_4_51_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l51_a5",
+      "explanation": '\'Please send police and medical help to Main Street right now\' is a polite imperative with the place and urgency.',
       "lessonId": "lesson_a1_4_51",
       "stage": 17,
       "type": "speaking",

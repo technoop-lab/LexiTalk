@@ -1020,6 +1020,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u03_l40_p1",
+      "explanation": '\'Go\' is irregular: go - went - gone. The simple past is \'went\' (no -ed form). \'Goed\' is not a word.',
       "type": "multiple_choice",
       "prompt": "Select the correct irregular past tense of \"go\":",
       "targetSentence": "We went to the beach yesterday.",
@@ -1048,6 +1049,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_p2",
+      "explanation": '\'Buy\' is irregular: buy - bought - bought. The simple past is \'bought\'.',
       "type": "fill_blank",
       "prompt": "Fill in the blank with the past tense of \"buy\":",
       "targetSentence": "She bought a warm winter jacket on sale.",
@@ -1076,6 +1078,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_p3",
+      "explanation": '\'Have\' is irregular: have - had. \'Had lunch\' is the past of \'have lunch\'.',
       "type": "word_ordering",
       "prompt": "Assemble the irregular past sentence:",
       "targetSentence": "I had lunch with my colleagues yesterday",
@@ -1093,6 +1096,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_p4",
+      "explanation": 'The audio says \'He drank two cups of black coffee this morning.\' That matches the first option.',
       "type": "listening",
       "prompt": "Listen and identify what the person drank:",
       "audioText": "He drank two cups of black coffee this morning.",
@@ -1121,6 +1125,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_p5",
+      "explanation": '\'Eat\' is irregular: eat - ate - eaten. The simple past is \'ate\', and \'eat\' and \'are ate\' are incorrect.',
       "type": "error_correction",
       "prompt": "Correct the irregular past error:",
       "targetSentence": "We ate sushi for dinner last night.",
@@ -1150,6 +1155,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_p6",
+      "explanation": '\'Took\' is the past of \'take\' (irregular). \'I take the train tomorrow\' uses the present, not the past.',
       "type": "dialogue_completion",
       "prompt": "Choose the correct past response:",
       "dialogueContext": {
@@ -1182,6 +1188,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_p7",
+      "explanation": '\'Saw\' is the simple past of \'see\' (irregular). \'Seed\' is a real word meaning seeds, not the past tense. Hindi: \'कल मैंने हवाई अड्डे पर अपनी पुरानी शिक्षिका को देखा।\'',
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "कल मैंने हवाई अड्डे पर अपने पुराने शिक्षक को देखा।",
@@ -1206,6 +1213,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_p8",
+      "explanation": '\'Made\' is the irregular past of \'make\' (make - made - made). The vowel sound changes; the pronunciation is /meɪd/.',
       "type": "speaking",
       "prompt": "Speak this sentence with correct past irregular pronunciation:",
       "targetSentence": "She made a delicious chocolate cake for the party.",
@@ -1213,6 +1221,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_p9",
+      "explanation": '\'Came\' is the irregular past of \'come\'. \'Comed\' is not a word.',
       "type": "listen_and_type",
       "prompt": "Listen and write the sentence:",
       "audioText": "They came to our house at seven o clock.",
@@ -1233,6 +1242,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_p10",
+      "explanation": '\'Saw\' is the past simple of \'see\' (see - saw - seen). \'Seen\' is the past participle, used with \'have\'.',
       "type": "multiple_choice",
       "prompt": "What is the past tense of \"see\"?",
       "targetSentence": "saw",
@@ -1261,6 +1271,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_p11",
+      "explanation": '\'Gave\' is the past of \'give\' (give - gave - given). \'Given\' is the past participle.',
       "type": "fill_blank",
       "prompt": "Complete with the past tense of \"give\":",
       "targetSentence": "He gave me a valuable travel guide.",
@@ -1289,6 +1300,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_p12",
+      "explanation": 'Irregular past forms: go - went, buy - bought, take - took, eat - ate. These must be learned as lists.',
       "type": "match_pairs",
       "prompt": "Match base verbs with their irregular past forms:",
       "options": [
@@ -1328,6 +1340,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_p13",
+      "explanation": '\'Met\' is the irregular past of \'meet\' (meet - met - met). \'Meeted\' is incorrect.',
       "type": "word_ordering",
       "prompt": "Assemble the past sentence:",
       "targetSentence": "We met our friends outside the museum at noon",
@@ -1347,6 +1360,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_p14",
+      "explanation": '\'Read\' is spelled the same in the present and past, but it is pronounced /red/ in the past. The sentence uses the past form correctly.',
       "type": "multiple_choice",
       "prompt": "Which sentence has the correct past tense form?",
       "targetSentence": "I read an interesting novel on the train yesterday.",
@@ -1375,6 +1389,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_p15",
+      "explanation": '\'Found\' is the irregular past of \'find\' (find - found - found).',
       "type": "fill_blank",
       "prompt": "Complete with the past of \"find\":",
       "targetSentence": "She found her keys inside the kitchen drawer.",
@@ -1405,6 +1420,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u03_l40_rev1",
+      "explanation": '\'Wrote\' is the irregular past of \'write\' (write - wrote - written). \'Writed\' is incorrect.',
       "type": "multiple_choice",
       "prompt": "Which sentence correctly uses an irregular past verb?",
       "targetSentence": "David wrote a detailed report for his manager.",
@@ -1433,6 +1449,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_rev2",
+      "explanation": '\'Left\' is the irregular past of \'leave\', and \'went\' is the irregular past of \'go\'.',
       "type": "word_ordering",
       "prompt": "Build the past experience sentence:",
       "targetSentence": "They left the office early and went to the gym",
@@ -1453,6 +1470,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_rev3",
+      "explanation": '\'Spoke\' is the irregular past of \'speak\' (speak - spoke - spoken). \'Speaked\' is incorrect.',
       "type": "fill_blank",
       "prompt": "Select the past tense form of \"speak\":",
       "targetSentence": "She spoke to the hotel receptionist about room service.",
@@ -1481,6 +1499,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_rev4",
+      "explanation": '\'Bought\' is the irregular past of \'buy\'. \'This morning\' is a past time phrase that fits the simple past.',
       "type": "error_correction",
       "prompt": "Fix the irregular past verb error:",
       "targetSentence": "I bought some fresh bread this morning.",
@@ -1510,6 +1529,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_rev5",
+      "explanation": '\'Gave\' is the past of \'give\' (irregular). \'Gived\' is incorrect. Hindi: \'उसने मुझे अपनी कार की चाबियाँ दीं।\'',
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "उसने मुझे अपनी कार की चाबियाँ दीं।",
@@ -1535,6 +1555,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u03_l40_a1",
+      "explanation": '\'Buy\' is irregular: buy - bought. \'Work\', \'visit\', and \'clean\' take -ed (regular).',
       "type": "multiple_choice",
       "prompt": "Which of the following verbs is irregular in the simple past?",
       "targetSentence": "buy -> bought",
@@ -1563,6 +1584,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_a2",
+      "explanation": '\'Got\' is the irregular past of \'get\' (get - got). \'Getted\' is incorrect.',
       "type": "fill_blank",
       "prompt": "Fill in the blank with the past form of \"get\":",
       "targetSentence": "We got to the station five minutes before departure.",
@@ -1591,6 +1613,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_a3",
+      "explanation": '\'Ate\' is the past of \'eat\' and \'drank\' is the past of \'drink\', both irregular.',
       "type": "word_ordering",
       "prompt": "Assemble the story sentence:",
       "targetSentence": "Maria ate breakfast and drank a glass of orange juice",
@@ -1611,6 +1634,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_a4",
+      "explanation": 'The audio says: \'We went to the Italian restaurant and had seafood pasta.\' That matches the first option.',
       "type": "listening",
       "prompt": "Listen and identify where the speaker went:",
       "audioText": "We went to the Italian restaurant and had seafood pasta.",
@@ -1639,6 +1663,7 @@ export const LESSON_A1_3_40_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l40_a5",
+      "explanation": '\'Saw\' is the simple past of \'see\' (irregular), and \'last night\' is a past time phrase.',
       "type": "speaking",
       "prompt": "Speak this sentence clearly:",
       "targetSentence": "I saw an amazing documentary on television last night.",

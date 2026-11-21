@@ -1006,6 +1006,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u05_l70_p1",
+      "explanation": '\'I am writing to + base verb\' is the standard formal opening: \'I am writing to inquire...\'. \'Inquiring\' and \'inquired\' do not fit after \'to\'.',
       "lessonId": "lesson_a1_5_70",
       "stage": 8,
       "type": "multiple_choice",
@@ -1030,6 +1031,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_p2",
+      "explanation": '\'Look forward to\' is followed by -ing (a gerund): \'look forward to hearing from you\'.',
       "lessonId": "lesson_a1_5_70",
       "stage": 8,
       "type": "fill_blank",
@@ -1056,6 +1058,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_p3",
+      "explanation": '\'Please find ... attached\' is the standard phrase for an email attachment. \'Attached\' follows the noun.',
       "lessonId": "lesson_a1_5_70",
       "stage": 8,
       "type": "word_ordering",
@@ -1072,6 +1075,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_p4",
+      "explanation": 'The subject line is the summary of the email. A salutation is the greeting. An attachment is an enclosed file. A sign-off is the closing phrase.',
       "lessonId": "lesson_a1_5_70",
       "stage": 8,
       "type": "match_pairs",
@@ -1097,6 +1101,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_p5",
+      "explanation": '\'Look forward to\' + -ing: \'look forward to meeting you\'. \'Met\' and \'meeted\' are incorrect after \'to\'.',
       "lessonId": "lesson_a1_5_70",
       "stage": 8,
       "type": "error_correction",
@@ -1122,6 +1127,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_p6",
+      "explanation": 'The speaker says: \'Thank you for your prompt response to our inquiry.\' The other option has different words.',
       "lessonId": "lesson_a1_5_70",
       "stage": 9,
       "type": "listening",
@@ -1142,6 +1148,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_p7",
+      "explanation": '\'Please let me know if you have any questions\' is a polite closing. \'Any\' is used in questions.',
       "lessonId": "lesson_a1_5_70",
       "stage": 9,
       "type": "listen_and_type",
@@ -1151,6 +1158,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_p8",
+      "explanation": '\'Best regards\' is a standard formal sign-off. \'See ya\' and \'bye now\' are informal.',
       "lessonId": "lesson_a1_5_70",
       "stage": 10,
       "type": "multiple_choice",
@@ -1175,6 +1183,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_p9",
+      "explanation": '\'The meeting is scheduled for 10:00 AM in Conference Room B\' answers the question with the time and place.',
       "lessonId": "lesson_a1_5_70",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1199,6 +1208,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_p10",
+      "explanation": '\'I am writing to inquire about...\' is a formal opening. \'Inquire about\' means ask for information.',
       "lessonId": "lesson_a1_5_70",
       "stage": 12,
       "type": "speaking",
@@ -1208,6 +1218,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_p11",
+      "explanation": '\'Please find the document attached\' is the formal phrase for an attachment. Hindi: \'कृपया संलग्न दस्तावेज़ देखें।\'',
       "lessonId": "lesson_a1_5_70",
       "stage": 13,
       "type": "translation",
@@ -1216,6 +1227,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_p12",
+      "explanation": '\'At your earliest convenience\' is a polite phrase asking for a reply as soon as possible.',
       "lessonId": "lesson_a1_5_70",
       "stage": 14,
       "type": "multiple_choice",
@@ -1240,6 +1252,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_p13",
+      "explanation": '\'Forward\' an email means send it on to others. \'Leak\' and \'fever\' are not email actions.',
       "lessonId": "lesson_a1_5_70",
       "stage": 14,
       "type": "fill_blank",
@@ -1266,6 +1279,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_p14",
+      "explanation": '\'I am available for a phone call on Friday\' states availability with \'be\' + available.',
       "lessonId": "lesson_a1_5_70",
       "stage": 14,
       "type": "word_ordering",
@@ -1285,6 +1299,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_p15",
+      "explanation": '\'Thank you very much for your time and assistance\' is a polite closing.',
       "lessonId": "lesson_a1_5_70",
       "stage": 14,
       "type": "speaking",
@@ -1296,6 +1311,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u05_l70_r1",
+      "explanation": '\'I would like to deposit this check\' is a polite request with \'would like to\' + base verb. \'I would to\' and \'I wanting\' are incorrect.',
       "lessonId": "lesson_a1_5_70",
       "stage": 16,
       "type": "multiple_choice",
@@ -1320,6 +1336,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_r2",
+      "explanation": 'A PIN is a personal identification number. A faucet and an amenity are not secret codes.',
       "lessonId": "lesson_a1_5_70",
       "stage": 16,
       "type": "fill_blank",
@@ -1346,6 +1363,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_r3",
+      "explanation": '\'There are two bedrooms\' uses \'there are\' with a plural noun.',
       "lessonId": "lesson_a1_5_70",
       "stage": 16,
       "type": "word_ordering",
@@ -1363,6 +1381,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_r4",
+      "explanation": 'An inquiry is a formal request for information. A balance is the money in an account. An attachment is an enclosed file. A landlord owns the property.',
       "lessonId": "lesson_a1_5_70",
       "stage": 16,
       "type": "match_pairs",
@@ -1388,6 +1407,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_r5",
+      "explanation": '\'I look forward to hearing from you\' is a formal closing. Hindi: \'मैं आपसे सुनने के लिए उत्सुक हूँ।\'',
       "lessonId": "lesson_a1_5_70",
       "stage": 16,
       "type": "translation",
@@ -1398,6 +1418,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u05_l70_a1",
+      "explanation": '\'I am writing to inquire about the conference dates, and I look forward to hearing from you\' is a complete formal email.',
       "lessonId": "lesson_a1_5_70",
       "stage": 17,
       "type": "multiple_choice",
@@ -1422,6 +1443,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_a2",
+      "explanation": '\'Attached\' is used after the noun to show the document is enclosed: \'the budget attached to this email\'.',
       "lessonId": "lesson_a1_5_70",
       "stage": 17,
       "type": "fill_blank",
@@ -1448,6 +1470,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_a3",
+      "explanation": '\'Could you please clarify...?\' is a polite request. \'For us\' gives the person affected.',
       "lessonId": "lesson_a1_5_70",
       "stage": 17,
       "type": "word_ordering",
@@ -1467,6 +1490,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_a4",
+      "explanation": '\'Thank you for your inquiry. We have attached our full service catalog\' is a professional reply.',
       "lessonId": "lesson_a1_5_70",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1491,6 +1515,7 @@ export const LESSON_A1_5_70_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l70_a5",
+      "explanation": '\'Please let me know if you require any further information, and I look forward to working with you\' is a professional sign-off.',
       "lessonId": "lesson_a1_5_70",
       "stage": 17,
       "type": "speaking",

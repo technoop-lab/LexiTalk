@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { lazy, Suspense, useState } from 'react';
 import {
   Home,
   Compass,
@@ -21,26 +21,62 @@ import {
   SpellCheck
 } from 'lucide-react';
 import { UserAcademyProfile, CourseUnit, LessonNode } from '../../types';
-import { LearnerHomeDashboard } from './LearnerHomeDashboard';
-import { LearningJourneySelector } from './LearningJourneySelector';
-import { LanguageSetupModal } from './LanguageSetupModal';
-import { UnitDetailView } from './UnitDetailView';
-import { LessonOverviewModal } from './LessonOverviewModal';
-import { VocabExperienceModal } from './VocabExperienceModal';
-import { GrammarExperienceModal } from './GrammarExperienceModal';
-import { SentenceBuilderView } from './SentenceBuilderView';
-import { DialoguePlayerView } from './DialoguePlayerView';
-import { SkillExperiences } from './SkillExperiences';
-import { ReviewCenterView } from './ReviewCenterView';
-import { DailyPracticeView } from './DailyPracticeView';
-import { ProgressDetailView } from './ProgressDetailView';
-import { AssessmentCenterView } from './AssessmentCenterView';
-import { LearnerProfileView } from './LearnerProfileView';
-import { ConversationLabView } from '../conversation/ConversationLabView';
-import { CuriosityPath } from '../CuriosityPath';
-import { HindiCourseHome } from '../hindi/HindiCourseHome';
-import { HindiLessonView } from '../hindi/HindiLessonView';
-import { HindiSpokenLabModal } from '../hindi/HindiSpokenLabModal';
+
+// Split the larger practice areas into feature chunks. Users download a section
+// when they first open it rather than blocking the initial home screen.
+function lazyNamed<P extends object>(
+  importer: () => Promise<{ default: React.ComponentType<P> }>,
+): React.FC<P> {
+  const Component = lazy(importer);
+  const LazyFeature: React.FC<P> = (props) => (
+    <Suspense fallback={<div className="p-6 text-center text-sm text-slate-500">Loading…</div>}>
+      <Component {...props} />
+    </Suspense>
+  );
+  return LazyFeature;
+}
+
+const LearnerHomeDashboard = lazyNamed(() => import('./LearnerHomeDashboard').then(m => ({ default: m.LearnerHomeDashboard })));
+const LearningJourneySelector = lazyNamed(() => import('./LearningJourneySelector').then(m => ({ default: m.LearningJourneySelector })));
+const LanguageSetupModal = lazyNamed(() => import('./LanguageSetupModal').then(m => ({ default: m.LanguageSetupModal })));
+const UnitDetailView = lazyNamed(() => import('./UnitDetailView').then(m => ({ default: m.UnitDetailView })));
+const LessonOverviewModal = lazyNamed(() => import('./LessonOverviewModal').then(m => ({ default: m.LessonOverviewModal })));
+const VocabExperienceModal = lazyNamed(() => import('./VocabExperienceModal').then(m => ({ default: m.VocabExperienceModal })));
+const GrammarExperienceModal = lazyNamed(() => import('./GrammarExperienceModal').then(m => ({ default: m.GrammarExperienceModal })));
+const SentenceBuilderView = lazyNamed(() => import('./SentenceBuilderView').then(m => ({ default: m.SentenceBuilderView })));
+const DialoguePlayerView = lazyNamed(() => import('./DialoguePlayerView').then(m => ({ default: m.DialoguePlayerView })));
+const SkillExperiences = lazyNamed(() => import('./SkillExperiences').then(m => ({ default: m.SkillExperiences })));
+const ReviewCenterView = lazyNamed(() => import('./ReviewCenterView').then(m => ({ default: m.ReviewCenterView })));
+const DailyPracticeView = lazyNamed(() => import('./DailyPracticeView').then(m => ({ default: m.DailyPracticeView })));
+const ProgressDetailView = lazyNamed(() => import('./ProgressDetailView').then(m => ({ default: m.ProgressDetailView })));
+const AssessmentCenterView = lazyNamed(() => import('./AssessmentCenterView').then(m => ({ default: m.AssessmentCenterView })));
+const LearnerProfileView = lazyNamed(() => import('./LearnerProfileView').then(m => ({ default: m.LearnerProfileView })));
+const ConversationLabView = lazyNamed(() => import('../conversation/ConversationLabView').then(m => ({ default: m.ConversationLabView })));
+const CuriosityPath = lazyNamed(() => import('../CuriosityPath').then(m => ({ default: m.CuriosityPath })));
+const HindiCourseHome = lazyNamed(() => import('../hindi/HindiCourseHome').then(m => ({ default: m.HindiCourseHome })));
+const HindiLessonView = lazyNamed(() => import('../hindi/HindiLessonView').then(m => ({ default: m.HindiLessonView })));
+const HindiSpokenLabModal = lazyNamed(() => import('../hindi/HindiSpokenLabModal').then(m => ({ default: m.HindiSpokenLabModal })));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import { HindiDayLesson } from '../../types/hindiCourse';
 import { HindiCourseService } from '../../services/HindiCourseService';
 import { EntitlementService } from '../../services/EntitlementService';

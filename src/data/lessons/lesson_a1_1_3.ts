@@ -658,6 +658,7 @@ export const LESSON_A1_1_3_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l3_12',
+      explanation: '\'His\' is the possessive for a man: \'His father is a doctor.\' Use \'is\' with the singular \'father\'.',
       type: 'listen_and_type',
       prompt: 'Listen and arrange the tiles to form the sentence:',
       audioText: 'His father is a doctor.',
@@ -668,6 +669,7 @@ export const LESSON_A1_1_3_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l3_13',
+      explanation: '\'My\' shows that the sister belongs to the speaker: \'This is my sister.\'',
       type: 'translation',
       prompt: 'Translate into English:',
       sourceSentence: 'यह मेरी बहन है।',
@@ -678,6 +680,7 @@ export const LESSON_A1_1_3_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l3_14',
+      explanation: 'Say \'My brother is a software engineer\' with a clear \'is\' after the singular subject \'brother\'.',
       type: 'speaking',
       prompt: 'Speak this family description out loud:',
       targetSentence: 'My brother is a software engineer.',
@@ -685,6 +688,7 @@ export const LESSON_A1_1_3_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l3_15',
+      explanation: 'Introduce a family member in order: name, origin, job. The pronoun \'he\' refers back to \'my father\'.',
       type: 'word_ordering',
       prompt: 'Interleaved Practice (L1 + L2 + L3): Combine name, origin, and family job:',
       targetSentence: 'My father is Carlos from Spain and he is an architect',
@@ -708,6 +712,7 @@ export const LESSON_A1_1_3_DATA: DetailedLessonData = {
     },
     {
       id: 're_l3_2',
+      explanation: '\'Mother\'s job\' uses an apostrophe + s to show possession. The question is: \'What is your mother\'s job?\'',
       type: 'word_ordering',
       prompt: 'Review: Arrange tiles to ask about someone\'s mother\'s job:',
       targetSentence: 'What is your mother\'s job',
@@ -716,6 +721,7 @@ export const LESSON_A1_1_3_DATA: DetailedLessonData = {
     },
     {
       id: 're_l3_3',
+      explanation: '\'Their\' is the possessive for more than one person. Priya and Rahul are two people, so \'Their children\' is correct.',
       type: 'fill_blank',
       prompt: 'Review: Complete with possessive adjective:',
       sourceSentence: 'Priya and Rahul are married. ____ children are students.',
@@ -729,6 +735,7 @@ export const LESSON_A1_1_3_DATA: DetailedLessonData = {
     },
     {
       id: 're_l3_4',
+      explanation: '\'My\' is used before a family noun: \'My father is a doctor.\' Hindi: \'मेरे पिता जी डॉक्टर हैं।\'',
       type: 'translation',
       prompt: 'Review Translation: Translate to English:',
       sourceSentence: 'मेरे पिता जी डॉक्टर हैं।',
@@ -754,6 +761,7 @@ export const LESSON_A1_1_3_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l3_2',
+      explanation: '\'Their\' shows possession by more than one person. \'There\' means a place, and \'them\' is an object pronoun.',
       type: 'multiple_choice',
       prompt: 'Mastery Test 2: Select the correct possessive for "they":',
       options: [
@@ -764,6 +772,7 @@ export const LESSON_A1_1_3_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l3_3',
+      explanation: '\'Two brothers\' is the plural of \'brother\': add -s. \'Brothers\'\' with an apostrophe shows possession, which does not fit here.',
       type: 'fill_blank',
       prompt: 'Mastery Test 3: Complete with correct plural noun:',
       sourceSentence: 'He has two ____ (brother) and one sister.',
@@ -777,6 +786,7 @@ export const LESSON_A1_1_3_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l3_4',
+      explanation: 'For a question about quantity, use \'How many\' + a plural noun: \'How many children do you have?\'',
       type: 'word_ordering',
       prompt: 'Mastery Test 4: Construct "How many children do you have":',
       targetSentence: 'How many children do you have',
@@ -785,6 +795,7 @@ export const LESSON_A1_1_3_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l3_5',
+      explanation: '\'My mother\'s sister\' uses an apostrophe + s to show that she belongs to my mother. A sister is not an uncle.',
       type: 'word_ordering',
       prompt: 'Mastery Test 5: Construct "My mother\'s sister is my aunt":',
       targetSentence: 'My mother\'s sister is my aunt',
@@ -793,6 +804,7 @@ export const LESSON_A1_1_3_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l3_6',
+      explanation: 'Listen for two things: who the speaker means (\'her husband\') and where he works (\'at the hospital\'). Choose the option that matches both.',
       type: 'listening',
       prompt: 'Mastery Test 6: Listen and select the relationship statement:',
       audioText: 'Her husband works at the city hospital.',
@@ -805,6 +817,7 @@ export const LESSON_A1_1_3_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l3_7',
+      explanation: '\'Our\' is the possessive for \'we\': \'Our grandfather is eighty years old.\' Use \'is\' with a singular subject.',
       type: 'listen_and_type',
       prompt: 'Mastery Test 7: Listen and write the sentence:',
       audioText: 'Our grandfather is eighty years old.',
@@ -815,6 +828,7 @@ export const LESSON_A1_1_3_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l3_8',
+      explanation: '\'His\' is the possessive for a man: \'His brother is a software engineer.\' Hindi: \'उसका भाई एक सॉफ्टवेयर इंजीनियर है।\'',
       type: 'translation',
       prompt: 'Mastery Test 8: Translate into English:',
       sourceSentence: 'उसका भाई एक सॉफ्टवेयर इंजीनियर है।',
@@ -825,6 +839,7 @@ export const LESSON_A1_1_3_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l3_9',
+      explanation: 'Introduce a spouse with \'This is my wife\' and then \'she\': \'she is a doctor\'. \'She\' refers back to \'my wife\'.',
       type: 'speaking',
       prompt: 'Mastery Test 9: Speak this complete introduction:',
       targetSentence: 'This is my wife Priya and she is a doctor.',

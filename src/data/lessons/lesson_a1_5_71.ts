@@ -1006,6 +1006,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u05_l71_p1",
+      "explanation": '\'Graduated from\' + institution: \'graduated from Boston University\'.',
       "lessonId": "lesson_a1_5_71",
       "stage": 8,
       "type": "multiple_choice",
@@ -1030,6 +1031,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_p2",
+      "explanation": '\'Responsible for\' + -ing: \'responsible for managing client accounts\'.',
       "lessonId": "lesson_a1_5_71",
       "stage": 8,
       "type": "fill_blank",
@@ -1056,6 +1058,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_p3",
+      "explanation": '\'Experience in\' + field: \'four years of experience in sales\'.',
       "lessonId": "lesson_a1_5_71",
       "stage": 8,
       "type": "word_ordering",
@@ -1074,6 +1077,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_p4",
+      "explanation": 'A resume summarizes work history and skills. A cover letter accompanies an application. Full-time means a standard working week.',
       "lessonId": "lesson_a1_5_71",
       "stage": 8,
       "type": "match_pairs",
@@ -1099,6 +1103,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_p5",
+      "explanation": '\'Responsible for\' + -ing: \'responsible for organizing meetings\'. \'On\' and \'to\' are not used here.',
       "lessonId": "lesson_a1_5_71",
       "stage": 8,
       "type": "error_correction",
@@ -1124,6 +1129,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_p6",
+      "explanation": 'The speaker says: \'I have worked as a software developer for three years.\' The other option describes a different job and period.',
       "lessonId": "lesson_a1_5_71",
       "stage": 9,
       "type": "listening",
@@ -1144,6 +1150,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_p7",
+      "explanation": '\'Please find my resume attached\' is the formal phrase for a document enclosed with an email.',
       "lessonId": "lesson_a1_5_71",
       "stage": 9,
       "type": "listen_and_type",
@@ -1153,6 +1160,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_p8",
+      "explanation": '\'Bachelor\'s degree in economics\' is the correct form. \'Degree from economics\' and \'degree of\' are incorrect.',
       "lessonId": "lesson_a1_5_71",
       "stage": 10,
       "type": "multiple_choice",
@@ -1177,6 +1185,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_p9",
+      "explanation": '\'I was responsible for customer support and managing inventory\' describes past duties with \'was\' and -ing.',
       "lessonId": "lesson_a1_5_71",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1201,6 +1210,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_p10",
+      "explanation": '\'Apply for the position of\' is the standard job application phrase.',
       "lessonId": "lesson_a1_5_71",
       "stage": 12,
       "type": "speaking",
@@ -1210,6 +1220,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_p11",
+      "explanation": '\'Four years of experience in finance\' states experience. Hindi: \'मेरे पास वित्त के क्षेत्र में चार साल का अनुभव है।\'',
       "lessonId": "lesson_a1_5_71",
       "stage": 13,
       "type": "translation",
@@ -1218,6 +1229,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_p12",
+      "explanation": '\'Fluent\' describes someone who speaks a language easily and accurately.',
       "lessonId": "lesson_a1_5_71",
       "stage": 14,
       "type": "multiple_choice",
@@ -1242,6 +1254,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_p13",
+      "explanation": '\'Upon request\' means when someone asks for it. \'Available upon request\' is a standard resume phrase.',
       "lessonId": "lesson_a1_5_71",
       "stage": 14,
       "type": "fill_blank",
@@ -1268,6 +1281,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_p14",
+      "explanation": '\'Fluent in\' + language: \'She is fluent in both English and Spanish.\'',
       "lessonId": "lesson_a1_5_71",
       "stage": 14,
       "type": "word_ordering",
@@ -1286,6 +1300,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_p15",
+      "explanation": '\'Graduated with honors\' is an achievement. \'Have managed\' is the present perfect for experience up to now.',
       "lessonId": "lesson_a1_5_71",
       "stage": 14,
       "type": "speaking",
@@ -1297,6 +1312,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u05_l71_r1",
+      "explanation": '\'I am writing to inquire about the position\' is a formal opening. \'I write inquiring\' is incorrect.',
       "lessonId": "lesson_a1_5_71",
       "stage": 16,
       "type": "multiple_choice",
@@ -1321,6 +1337,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_r2",
+      "explanation": '\'Look forward to\' + -ing: \'look forward to hearing from you soon\'.',
       "lessonId": "lesson_a1_5_71",
       "stage": 16,
       "type": "fill_blank",
@@ -1347,6 +1364,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_r3",
+      "explanation": '\'Please find ... attached\' is the formal phrase for a document enclosed with an email.',
       "lessonId": "lesson_a1_5_71",
       "stage": 16,
       "type": "word_ordering",
@@ -1363,6 +1381,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_r4",
+      "explanation": 'A resume is a CV. An attachment is an enclosed file. Salary is the pay. An inquiry is a request for information.',
       "lessonId": "lesson_a1_5_71",
       "stage": 16,
       "type": "match_pairs",
@@ -1388,6 +1407,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_r5",
+      "explanation": '\'I was responsible for managing the team\' describes a past duty. Hindi: \'मैं टीम के प्रबंधन के लिए ज़िम्मेदार था।\'',
       "lessonId": "lesson_a1_5_71",
       "stage": 16,
       "type": "translation",
@@ -1398,6 +1418,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u05_l71_a1",
+      "explanation": '\'I graduated from university in 2021 and have five years of experience in project management\' uses the correct tenses and prepositions.',
       "lessonId": "lesson_a1_5_71",
       "stage": 17,
       "type": "multiple_choice",
@@ -1422,6 +1443,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_a2",
+      "explanation": '\'Responsible for\' + -ing: \'responsible for improving customer satisfaction\'.',
       "lessonId": "lesson_a1_5_71",
       "stage": 17,
       "type": "fill_blank",
@@ -1448,6 +1470,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_a3",
+      "explanation": '\'Applied for the full-time graphic designer position\' is a past statement about a job application.',
       "lessonId": "lesson_a1_5_71",
       "stage": 17,
       "type": "word_ordering",
@@ -1466,6 +1489,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_a4",
+      "explanation": '\'I have extensive experience in marketing and want to contribute to your team\'s growth\' gives a clear reason in a professional way.',
       "lessonId": "lesson_a1_5_71",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1490,6 +1514,7 @@ export const LESSON_A1_5_71_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l71_a5",
+      "explanation": '\'I have four years of experience in software development and I graduated from Boston University\' states experience and education.',
       "lessonId": "lesson_a1_5_71",
       "stage": 17,
       "type": "speaking",

@@ -1015,6 +1015,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u05_l63_p1",
+      "explanation": '\'On Friday\' is used with days of the week. \'At\' and \'in\' do not fit with days.',
       "lessonId": "lesson_a1_5_63",
       "stage": 8,
       "type": "multiple_choice",
@@ -1039,6 +1040,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_p2",
+      "explanation": '\'I would like to make an appointment\' is a polite request. \'Am want\' and \'liking\' are incorrect.',
       "lessonId": "lesson_a1_5_63",
       "stage": 8,
       "type": "fill_blank",
@@ -1065,6 +1067,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_p3",
+      "explanation": '\'Is three o\'clock convenient for you?\' is a polite question to check a time. \'Is\' comes before the subject.',
       "lessonId": "lesson_a1_5_63",
       "stage": 8,
       "type": "word_ordering",
@@ -1081,6 +1084,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_p4",
+      "explanation": '\'Reschedule\' means change the time. \'Confirm\' means make sure a booking is valid. \'Convenient\' means suitable and easy. A \'slot\' is an available time.',
       "lessonId": "lesson_a1_5_63",
       "stage": 8,
       "type": "match_pairs",
@@ -1106,6 +1110,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_p5",
+      "explanation": '\'On Tuesday at 3:00\' uses \'on\' for days and \'at\' for clock times. \'On 3:00\' is incorrect.',
       "lessonId": "lesson_a1_5_63",
       "stage": 8,
       "type": "error_correction",
@@ -1131,6 +1136,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_p6",
+      "explanation": 'The speaker says: \'We have an open slot this Thursday at ten thirty in the morning.\' \'Shop\' and \'evening\' do not match.',
       "lessonId": "lesson_a1_5_63",
       "stage": 9,
       "type": "listening",
@@ -1151,6 +1157,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_p7",
+      "explanation": '\'I would like to reschedule my appointment for Friday\' is a polite request with \'for\' + day.',
       "lessonId": "lesson_a1_5_63",
       "stage": 9,
       "type": "listen_and_type",
@@ -1160,6 +1167,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_p8",
+      "explanation": '\'How about Thursday morning at ten o\'clock?\' suggests an alternative time. \'How about\' + noun phrase.',
       "lessonId": "lesson_a1_5_63",
       "stage": 10,
       "type": "multiple_choice",
@@ -1184,6 +1192,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_p9",
+      "explanation": '\'I am afraid I can\'t make it then. How about Wednesday morning?\' declines politely and proposes an alternative.',
       "lessonId": "lesson_a1_5_63",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1208,6 +1217,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_p10",
+      "explanation": '\'I am calling to confirm my appointment for tomorrow morning at nine\' uses \'to\' + base verb to show purpose.',
       "lessonId": "lesson_a1_5_63",
       "stage": 12,
       "type": "speaking",
@@ -1217,6 +1227,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_p11",
+      "explanation": '\'Is Friday morning convenient for you?\' is a yes/no question. Hindi: \'क्या शुक्रवार सुबह का समय आपके लिए सुविधाजनक है?\'',
       "lessonId": "lesson_a1_5_63",
       "stage": 13,
       "type": "translation",
@@ -1225,6 +1236,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_p12",
+      "explanation": '\'At\' is used before clock times: \'at 2:15 PM\'.',
       "lessonId": "lesson_a1_5_63",
       "stage": 14,
       "type": "multiple_choice",
@@ -1249,6 +1261,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_p13",
+      "explanation": '\'Notice\' means advance warning. \'Give us 24 hours\' notice\' is the common phrase for cancellation.',
       "lessonId": "lesson_a1_5_63",
       "stage": 14,
       "type": "fill_blank",
@@ -1275,6 +1288,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_p14",
+      "explanation": '\'What is your earliest available appointment slot?\' is a question with the correct word order.',
       "lessonId": "lesson_a1_5_63",
       "stage": 14,
       "type": "word_ordering",
@@ -1292,6 +1306,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_p15",
+      "explanation": '\'I would like to book a consultation with the specialist next week\' is a polite request. \'Next week\' is the time.',
       "lessonId": "lesson_a1_5_63",
       "stage": 14,
       "type": "speaking",
@@ -1303,6 +1318,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u05_l63_r1",
+      "explanation": '\'May I speak to Mrs. Johnson, please?\' is the polite phone request. \'May I to speak\' and \'could I speaking\' are incorrect.',
       "lessonId": "lesson_a1_5_63",
       "stage": 16,
       "type": "multiple_choice",
@@ -1327,6 +1343,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_r2",
+      "explanation": '\'Please hold the line\' is a polite instruction. \'Cut\' and \'hung\' do not fit.',
       "lessonId": "lesson_a1_5_63",
       "stage": 16,
       "type": "fill_blank",
@@ -1353,6 +1370,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_r3",
+      "explanation": '\'I am calling regarding the meeting agenda\' states the reason for a call.',
       "lessonId": "lesson_a1_5_63",
       "stage": 16,
       "type": "word_ordering",
@@ -1370,6 +1388,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_r4",
+      "explanation": '\'At\' + clock time (at 3:30 PM). \'On\' + day (on Wednesday). \'In\' + part of the day (in the morning). \'For\' + time period (for next week).',
       "lessonId": "lesson_a1_5_63",
       "stage": 16,
       "type": "match_pairs",
@@ -1395,6 +1414,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_r5",
+      "explanation": '\'Can we reschedule it for next week?\' is a polite question. Hindi: \'क्या हम इसे अगले हफ्ते के लिए बदल सकते हैं?\'',
       "lessonId": "lesson_a1_5_63",
       "stage": 16,
       "type": "translation",
@@ -1405,6 +1425,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u05_l63_a1",
+      "explanation": '\'I would like to schedule a consultation on Thursday at 2:00 PM\' uses \'on\' with a day and \'at\' with a clock time.',
       "lessonId": "lesson_a1_5_63",
       "stage": 17,
       "type": "multiple_choice",
@@ -1429,6 +1450,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_a2",
+      "explanation": '\'Does ... work for you?\' is a question with \'does\' + base verb \'work\'.',
       "lessonId": "lesson_a1_5_63",
       "stage": 17,
       "type": "fill_blank",
@@ -1455,6 +1477,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_a3",
+      "explanation": '\'I am afraid I have to reschedule my visit\' is a polite way to announce a change.',
       "lessonId": "lesson_a1_5_63",
       "stage": 17,
       "type": "word_ordering",
@@ -1474,6 +1497,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_a4",
+      "explanation": '\'Tuesday at two in the afternoon works best for me\' accepts the offered time and gives the reason.',
       "lessonId": "lesson_a1_5_63",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1498,6 +1522,7 @@ export const LESSON_A1_5_63_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l63_a5",
+      "explanation": '\'Thank you for confirming my dental appointment for next Thursday morning\' is a polite confirmation.',
       "lessonId": "lesson_a1_5_63",
       "stage": 17,
       "type": "speaking",

@@ -16,6 +16,22 @@ interface SentenceBuilderViewProps {
   onBack?: () => void;
 }
 
+
+// Fisher-Yates shuffle that avoids returning the original order when it can.
+const shuffleWords = (words: string[]): string[] => {
+  const original = words.join('\u0001');
+  let result = [...words];
+  for (let attempt = 0; attempt < 5; attempt++) {
+    result = [...words];
+    for (let i = result.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [result[i], result[j]] = [result[j], result[i]];
+    }
+    if (result.join('\u0001') !== original) break;
+  }
+  return result;
+};
+
 export const SentenceBuilderView: React.FC<SentenceBuilderViewProps> = ({
   user,
   onBack,
@@ -69,10 +85,10 @@ export const SentenceBuilderView: React.FC<SentenceBuilderViewProps> = ({
       setIsCorrect(false);
 
       if (currentExercise.wordBank && currentExercise.wordBank.length > 0) {
-        setAvailableTiles([...currentExercise.wordBank].sort(() => Math.random() - 0.5));
+        setAvailableTiles(shuffleWords([...currentExercise.wordBank]));
       } else if (currentExercise.targetSentence) {
         const words = currentExercise.targetSentence.replace(/[.,?!]/g, '').split(' ').filter(Boolean);
-        setAvailableTiles([...words].sort(() => Math.random() - 0.5));
+        setAvailableTiles(shuffleWords(words));
       } else {
         setAvailableTiles([]);
       }

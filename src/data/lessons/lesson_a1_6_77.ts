@@ -1036,6 +1036,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u06_l77_p1",
+      "explanation": '\'On\' is used with days: \'on Wednesday morning\'. \'At\' is for clock times and \'in\' for months or longer periods.',
       "lessonId": "lesson_a1_6_77",
       "stage": 8,
       "type": "multiple_choice",
@@ -1060,6 +1061,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_p2",
+      "explanation": '\'At\' is used with clock times: \'at 3:00\'. \'On\' is for days and dates.',
       "lessonId": "lesson_a1_6_77",
       "stage": 8,
       "type": "multiple_choice",
@@ -1084,6 +1086,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_p3",
+      "explanation": '\'Would you mind + -ing\' is a polite request. \'Mind\' is followed by -ing: \'would you mind rescheduling\'.',
       "lessonId": "lesson_a1_6_77",
       "stage": 8,
       "type": "fill_blank",
@@ -1110,6 +1113,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_p4",
+      "explanation": 'To reschedule means to change the time or date. A conflict is an overlap. Convenient means suitable. A postponement means a delay.',
       "lessonId": "lesson_a1_6_77",
       "stage": 8,
       "type": "match_pairs",
@@ -1135,6 +1139,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_p5",
+      "explanation": '\'Does ... work for you?\' is a polite way to check whether a time suits someone.',
       "lessonId": "lesson_a1_6_77",
       "stage": 8,
       "type": "word_ordering",
@@ -1151,6 +1156,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_p6",
+      "explanation": '\'Apologize for\' + noun or -ing. \'I apologize for the short notice\' is correct; \'apologise on\' is not.',
       "lessonId": "lesson_a1_6_77",
       "stage": 8,
       "type": "error_correction",
@@ -1172,6 +1178,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_p7",
+      "explanation": '\'Something urgent has come up\' explains a sudden change. \'Postpone\' means move a meeting to a later time.',
       "lessonId": "lesson_a1_6_77",
       "stage": 9,
       "type": "listen_and_type",
@@ -1181,6 +1188,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_p8",
+      "explanation": '\'What is your availability for next Tuesday?\' is a polite, correct question. \'When you are free\' and \'what your a...\' are not standard.',
       "lessonId": "lesson_a1_6_77",
       "stage": 10,
       "type": "multiple_choice",
@@ -1205,6 +1213,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_p9",
+      "explanation": '\'Four o\'clock works perfectly for me\' accepts the new time politely.',
       "lessonId": "lesson_a1_6_77",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1229,6 +1238,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_p10",
+      "explanation": '\'I look forward to meeting you on Thursday morning\' is a professional closing.',
       "lessonId": "lesson_a1_6_77",
       "stage": 12,
       "type": "speaking",
@@ -1238,6 +1248,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_p11",
+      "explanation": '\'Is three in the afternoon convenient for you?\' asks if a time suits. Hindi: \'क्या दोपहर तीन बजे का समय आपके लिए सुविधाजनक है?\'',
       "lessonId": "lesson_a1_6_77",
       "stage": 13,
       "type": "translation",
@@ -1246,6 +1257,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_p12",
+      "explanation": '\'Locked it in\' means confirmed and recorded in a schedule. \'Locked the door\' and \'ran away\' are different meanings.',
       "lessonId": "lesson_a1_6_77",
       "stage": 14,
       "type": "multiple_choice",
@@ -1270,6 +1282,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_p13",
+      "explanation": 'A calendar invite is a meeting request sent by email. \'Invent\' and \'invoke\' are different verbs.',
       "lessonId": "lesson_a1_6_77",
       "stage": 14,
       "type": "fill_blank",
@@ -1296,6 +1309,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_p14",
+      "explanation": '\'My schedule is very flexible on Friday\' describes availability with \'on\' + day.',
       "lessonId": "lesson_a1_6_77",
       "stage": 14,
       "type": "word_ordering",
@@ -1313,6 +1327,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_p15",
+      "explanation": '\'Would you mind if we moved our appointment to Monday?\' is a polite request with past tense for politeness.',
       "lessonId": "lesson_a1_6_77",
       "stage": 14,
       "type": "speaking",
@@ -1324,6 +1339,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u06_l77_r1",
+      "explanation": 'Days use \'on\', clock times use \'at\', and \'in the morning\' describes part of the day. \'At Monday\' is incorrect.',
       "lessonId": "lesson_a1_6_77",
       "stage": 16,
       "type": "multiple_choice",
@@ -1348,6 +1364,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_r2",
+      "explanation": '\'Something has come up\' is the present perfect for a recent event. \'Come up\' is an irregular verb: \'come, came, come\'.',
       "lessonId": "lesson_a1_6_77",
       "stage": 16,
       "type": "fill_blank",
@@ -1374,6 +1391,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_r3",
+      "explanation": '\'Sorry for the inconvenience this may cause\' is a formal apology.',
       "lessonId": "lesson_a1_6_77",
       "stage": 16,
       "type": "word_ordering",
@@ -1391,6 +1409,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_r4",
+      "explanation": '\'Does that work for you?\' checks suitability. \'Keep me posted\' asks for updates. \'Looking forward to...\' is a closing.',
       "lessonId": "lesson_a1_6_77",
       "stage": 16,
       "type": "match_pairs",
@@ -1416,6 +1435,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_r5",
+      "explanation": '\'I apologize for the short notice\' is a formal apology. Hindi: \'अल्प सूचना के लिए मैं क्षमा चाहता हूँ।\'',
       "lessonId": "lesson_a1_6_77",
       "stage": 16,
       "type": "translation",
@@ -1426,6 +1446,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u06_l77_a1",
+      "explanation": '\'No problem at all, tomorrow at 10:00 AM works well for me\' is a professional and polite reply.',
       "lessonId": "lesson_a1_6_77",
       "stage": 17,
       "type": "multiple_choice",
@@ -1450,6 +1471,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_a2",
+      "explanation": '\'Confirm\' means make sure something is definite. \'Conform\' and \'confuse\' have different meanings.',
       "lessonId": "lesson_a1_6_77",
       "stage": 17,
       "type": "fill_blank",
@@ -1476,6 +1498,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_a3",
+      "explanation": '\'Could we reschedule our meeting to Friday?\' is a polite question with \'could\' + base verb.',
       "lessonId": "lesson_a1_6_77",
       "stage": 17,
       "type": "word_ordering",
@@ -1493,6 +1516,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_a4",
+      "explanation": '\'Yes, that time is very convenient for my schedule\' accepts the time politely.',
       "lessonId": "lesson_a1_6_77",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1517,6 +1541,7 @@ export const LESSON_A1_6_77_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l77_a5",
+      "explanation": '\'I have locked in our meeting for Friday afternoon at two o\'clock\' uses the present perfect for a confirmed arrangement.',
       "lessonId": "lesson_a1_6_77",
       "stage": 17,
       "type": "speaking",

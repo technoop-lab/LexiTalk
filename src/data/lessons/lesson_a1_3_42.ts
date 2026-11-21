@@ -1032,6 +1032,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u03_l42_p1",
+      "explanation": '\'Must\' expresses an obligation or a strong rule. \'Drivers must stop\' means it is required by law.',
       "type": "multiple_choice",
       "prompt": "Select the correct sentence expressing a mandatory traffic rule:",
       "targetSentence": "Drivers must stop at a red traffic light.",
@@ -1060,6 +1061,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_p2",
+      "explanation": '\'Mustn\'t\' expresses prohibition (it is not allowed). \'Don\'t have to\' means it is not necessary, which is a different meaning.',
       "type": "fill_blank",
       "prompt": "Fill in the blank to express prohibition:",
       "targetSentence": "You mustn't smoke inside the hospital building.",
@@ -1088,6 +1090,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_p3",
+      "explanation": '\'Don\'t have to\' means it is not necessary. \'Mustn\'t\' would mean prohibition, which is different.',
       "type": "word_ordering",
       "prompt": "Assemble the sentence expressing lack of necessity:",
       "targetSentence": "You don't have to pay for parking on Sundays",
@@ -1107,6 +1110,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_p4",
+      "explanation": 'The audio says that passengers must fasten their seatbelts. The other options do not match the instruction.',
       "type": "listening",
       "prompt": "Listen and identify the rule stated:",
       "audioText": "All passengers must fasten their seatbelts during turbulence.",
@@ -1135,6 +1139,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_p5",
+      "explanation": 'After \'must\', use the base verb: \'must show\'. \'Must showing\' and \'must to show\' are incorrect.',
       "type": "error_correction",
       "prompt": "Fix the modal grammar error:",
       "targetSentence": "You must show your passport at the border.",
@@ -1164,6 +1169,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_p6",
+      "explanation": '\'You don\'t have to\' means it is not necessary. \'Casual clothes are fine\' explains the dress code.',
       "type": "dialogue_completion",
       "prompt": "Choose the appropriate response about dress code:",
       "dialogueContext": {
@@ -1196,6 +1202,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_p7",
+      "explanation": '\'Mustn\'t\' means it is forbidden. Hindi: \'आपको यहाँ गाड़ी नहीं खड़ी करनी चाहिए क्योंकि यह मना है।\'',
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "आपको यहाँ गाड़ी पार्क नहीं करनी चाहिए; यह मना है।",
@@ -1219,6 +1226,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_p8",
+      "explanation": '\'Must\' is followed by the base verb: \'must turn off\'. The rule is stated firmly.',
       "type": "speaking",
       "prompt": "Speak this rule clearly:",
       "targetSentence": "You must turn off your mobile phones during the exam.",
@@ -1226,6 +1234,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_p9",
+      "explanation": '\'Has to\' is used with he/she/it: \'She has to work\'. \'Must\' does not change for the third person.',
       "type": "listen_and_type",
       "prompt": "Listen and assemble the sentence:",
       "audioText": "She has to work on Saturday morning.",
@@ -1244,6 +1253,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_p10",
+      "explanation": '\'Don\'t have to\' means it is not necessary. \'We don\'t have to wake up early\' says waking up is optional.',
       "type": "multiple_choice",
       "prompt": "Which sentence correctly expresses lack of obligation?",
       "targetSentence": "Tomorrow is a holiday, so we don't have to wake up early.",
@@ -1272,6 +1282,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_p11",
+      "explanation": '\'Has to\' is used with the third person singular (he). \'Must to\' is incorrect, since \'must\' is not followed by \'to\'.',
       "type": "fill_blank",
       "prompt": "Complete the third-person obligation sentence:",
       "targetSentence": "He has to submit his project before noon.",
@@ -1300,6 +1311,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_p12",
+      "explanation": 'must = strong rule/duty, mustn\'t = prohibited, don\'t have to = not necessary, need to = personal need.',
       "type": "match_pairs",
       "prompt": "Match modal expressions with their meanings:",
       "options": [
@@ -1339,6 +1351,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_p13",
+      "explanation": '\'Do we have to...?\' asks if something is necessary. \'Have to\' takes the base verb.',
       "type": "word_ordering",
       "prompt": "Assemble the question about obligation:",
       "targetSentence": "Do we have to bring our own towels to the pool",
@@ -1360,6 +1373,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_p14",
+      "explanation": '\'Mustn\'t\' means prohibited. \'Don\'t have to\' means optional (not necessary). These are different meanings.',
       "type": "multiple_choice",
       "prompt": "What is the main difference between \"mustn't\" and \"don't have to\"?",
       "targetSentence": "\"Mustn't\" means forbidden, while \"don't have to\" means optional.",
@@ -1388,6 +1402,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_p15",
+      "explanation": '\'Need to\' expresses a personal need: \'I need to drink some water\'. \'Must to\' and \'mustn\'t\' are not used here.',
       "type": "fill_blank",
       "prompt": "Select the verb to express personal need:",
       "targetSentence": "I need to drink some water because I feel thirsty.",
@@ -1418,6 +1433,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u03_l42_rev1",
+      "explanation": '\'Mustn\'t\' expresses prohibition. \'Touch\' keeps the base form after \'mustn\'t\'.',
       "type": "multiple_choice",
       "prompt": "Which sentence is completely grammatically correct?",
       "targetSentence": "You mustn't touch the ancient artifacts in the museum.",
@@ -1446,6 +1462,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_rev2",
+      "explanation": '\'Need to\' expresses a personal need. \'Recharge\' keeps the base form.',
       "type": "word_ordering",
       "prompt": "Build the personal necessity sentence:",
       "targetSentence": "I need to recharge my phone battery before the meeting",
@@ -1466,6 +1483,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_rev3",
+      "explanation": '\'Doesn\'t have to\' is used for he/she/it. It means it is not necessary.',
       "type": "fill_blank",
       "prompt": "Fill in the blank with the correct negative form:",
       "targetSentence": "She doesn't have to come to the office on Fridays.",
@@ -1494,6 +1512,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_rev4",
+      "explanation": '\'Has to\' is used for the third person singular (Mark). \'Must to\' is incorrect.',
       "type": "error_correction",
       "prompt": "Fix the third-person obligation error:",
       "targetSentence": "Mark has to attend the sales meeting at 3 PM.",
@@ -1523,6 +1542,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_rev5",
+      "explanation": '\'Must\' expresses obligation, and \'show\' keeps the base form. Hindi: \'आपको हवाई अड्डे पर अपना पासपोर्ट दिखाना होगा।\'',
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "हवाई अड्डे पर आपको अपना पासपोर्ट दिखाना होगा।",
@@ -1548,6 +1568,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u03_l42_a1",
+      "explanation": '\'Don\'t have to\' means it is not necessary. \'Mustn\'t\' and \'must not\' express prohibition.',
       "type": "multiple_choice",
       "prompt": "Which phrase expresses that an action is NOT forbidden, but simply not required?",
       "targetSentence": "You don't have to",
@@ -1576,6 +1597,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_a2",
+      "explanation": '\'Mustn\'t\' expresses prohibition. Photographs are not allowed inside the gallery.',
       "type": "fill_blank",
       "prompt": "Complete the sentence with the correct prohibition:",
       "targetSentence": "Visitors mustn't take photographs inside the gallery.",
@@ -1604,6 +1626,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_a3",
+      "explanation": '\'Do you have to...?\' asks if something is required. \'Have to\' takes the base verb \'wear\'.',
       "type": "word_ordering",
       "prompt": "Assemble the obligation question:",
       "targetSentence": "Do you have to wear a uniform at your new job",
@@ -1625,6 +1648,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_a4",
+      "explanation": 'The audio says: \'Passengers must stay in their seats.\' That matches the first option.',
       "type": "listening",
       "prompt": "Listen to the instruction and choose the correct rule:",
       "audioText": "All passengers must remain seated until the seatbelt sign is turned off.",
@@ -1653,6 +1677,7 @@ export const LESSON_A1_3_42_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l42_a5",
+      "explanation": '\'Don\'t have to\' means it is not necessary. \'Museum admission on Wednesdays\' gives the context.',
       "type": "speaking",
       "prompt": "Speak this statement clearly:",
       "targetSentence": "You don't have to pay for museum admission on Wednesdays.",

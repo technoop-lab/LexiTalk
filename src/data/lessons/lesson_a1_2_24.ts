@@ -938,6 +938,7 @@ export const LESSON_A1_2_24_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l24_p04',
+      explanation: 'Rain needs an umbrella, cold winter needs a warm coat, sunny beaches need sunglasses. \'Thunderstorm\' means you should stay indoors.',
       lessonId: 'lesson_a1_2_24',
       type: 'match_pairs',
       prompt: 'Match the weather condition with the appropriate item:',
@@ -1035,6 +1036,7 @@ export const LESSON_A1_2_24_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l24_p12',
+      explanation: 'Summer is hot with beach trips, winter has snow and freezing temperatures, autumn has falling golden leaves, and spring has flowers and warming air.',
       lessonId: 'lesson_a1_2_24',
       type: 'match_pairs',
       prompt: 'Match each season with its characteristic feature:',
@@ -1127,6 +1129,7 @@ export const LESSON_A1_2_24_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l24_r04',
+      explanation: '38°C is extremely hot, 22°C is pleasantly warm, 12°C is cool, and -5°C is freezing (below zero).',
       lessonId: 'lesson_a1_2_24',
       type: 'match_pairs',
       prompt: 'Match temperature descriptions with degrees Celsius:',
@@ -1205,6 +1208,7 @@ export const LESSON_A1_2_24_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l24_a05',
+      explanation: '\'What is the weather like?\' asks for a description, so the answer is \'cloudy and cool\'. \'Is it raining?\' gets a yes/no answer, so the answer is \'Yes, take your umbrella.\'',
       lessonId: 'lesson_a1_2_24',
       type: 'match_pairs',
       prompt: 'Match the weather question with its logical response:',

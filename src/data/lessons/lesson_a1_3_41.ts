@@ -1030,6 +1030,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u03_l41_p1",
+      "explanation": 'In negative past sentences, use \'didn\'t\' + the base verb: \'didn\'t see\'. \'Didn\'t saw\' uses the past form twice.',
       "type": "multiple_choice",
       "prompt": "Select the grammatically correct negative past sentence:",
       "targetSentence": "I didn't see your message yesterday.",
@@ -1058,6 +1059,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_p2",
+      "explanation": '\'Did\' is the auxiliary for past questions: \'Did you lock...?\' \'Do\' is for the present, and \'were\' and \'have\' do not fit.',
       "type": "fill_blank",
       "prompt": "Fill in the blank with the correct auxiliary for past questions:",
       "targetSentence": "Did you lock the front door this morning?",
@@ -1086,6 +1088,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_p3",
+      "explanation": 'Wh- past question: \'Where\' + \'did\' + subject + base verb: \'Where did you buy...?\'',
       "type": "word_ordering",
       "prompt": "Assemble the Wh- past question correctly:",
       "targetSentence": "Where did you buy that beautiful blue jacket",
@@ -1104,6 +1107,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_p4",
+      "explanation": 'The audio asks: \'Did you enjoy the concert at the theater last night?\' That matches the first option.',
       "type": "listening",
       "prompt": "Listen to the question and identify what is being asked:",
       "audioText": "Did you enjoy the concert at the theater last night?",
@@ -1132,6 +1136,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_p5",
+      "explanation": 'After \'didn\'t\', use the base verb: \'didn\'t go\'. \'Didn\'t goes\' and \'didn\'t went\' use the wrong form.',
       "type": "error_correction",
       "prompt": "Fix the double past tense error:",
       "targetSentence": "He didn't go to the supermarket yesterday.",
@@ -1161,6 +1166,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_p6",
+      "explanation": 'The short answer to a past question uses \'did\': \'Yes, I did.\' \'Yes, I do\' is in the present.',
       "type": "dialogue_completion",
       "prompt": "Select the proper short answer to the question:",
       "dialogueContext": {
@@ -1193,6 +1199,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_p7",
+      "explanation": '\'What did you eat...?\' asks about the past. \'Last night\' is the past time phrase. Hindi: \'आपने कल रात क्या खाया था?\'',
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "आपने कल रात क्या खाया था?",
@@ -1214,6 +1221,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_p8",
+      "explanation": '\'Did you have...?\' is a yes/no question in the past. \'Have\' keeps its base form after \'did\'.',
       "type": "speaking",
       "prompt": "Speak this question clearly:",
       "targetSentence": "Did you have a good time at the party?",
@@ -1221,6 +1229,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_p9",
+      "explanation": 'Negative past: \'didn\'t\' + base verb \'understand\'. The statement is: \'She didn\'t understand the instructions.\'',
       "type": "listen_and_type",
       "prompt": "Listen and assemble the negative statement:",
       "audioText": "She didn't understand the instructions.",
@@ -1238,6 +1247,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_p10",
+      "explanation": '\'What time did the train arrive...?\' asks about a past event. \'Arrive\' keeps the base form after \'did\'.',
       "type": "multiple_choice",
       "prompt": "Which question correctly asks about past arrival time?",
       "targetSentence": "What time did the train arrive at the station?",
@@ -1266,6 +1276,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_p11",
+      "explanation": 'After \'didn\'t\' and \'did\', use the base verb: \'didn\'t call\'.',
       "type": "fill_blank",
       "prompt": "Fill in the blank with the base verb:",
       "targetSentence": "Why didn't you call me yesterday?",
@@ -1294,6 +1305,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_p12",
+      "explanation": 'Questions in the past use \'did\', and short answers use \'did\' or \'didn\'t\': \'Did they arrive on time? No, they didn\'t.\'',
       "type": "match_pairs",
       "prompt": "Match questions with their natural short answers:",
       "options": [
@@ -1333,6 +1345,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_p13",
+      "explanation": '\'Didn\'t go\' is the negative past. \'Anywhere\' fits a negative sentence, and \'because of the rain\' gives the reason.',
       "type": "word_ordering",
       "prompt": "Assemble the negative past sentence:",
       "targetSentence": "We didn't go anywhere on Sunday because of the rain",
@@ -1353,6 +1366,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_p14",
+      "explanation": 'After \'did\' (in questions and negatives), use the base form \'see\', not the past form \'saw\'.',
       "type": "multiple_choice",
       "prompt": "Why is \"Did you saw the news?\" grammatically incorrect?",
       "targetSentence": "Because \"did\" must be followed by base verb \"see\", not \"saw\".",
@@ -1381,6 +1395,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_p15",
+      "explanation": '\'Didn\'t\' is the contraction of \'did not\', used with the base verb \'remember\'.',
       "type": "fill_blank",
       "prompt": "Complete with the negative contraction:",
       "targetSentence": "I didn't remember her phone number this morning.",
@@ -1411,6 +1426,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u03_l41_rev1",
+      "explanation": 'Past questions use \'did\' + subject + base verb: \'Who did you meet?\' The \'who\' question word comes first.',
       "type": "multiple_choice",
       "prompt": "Which sentence is completely correct?",
       "targetSentence": "Who did you meet at the conference yesterday?",
@@ -1439,6 +1455,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_rev2",
+      "explanation": '\'How did you know...?\' asks about the past. \'Did\' + subject + base verb \'know\'.',
       "type": "word_ordering",
       "prompt": "Build the past question:",
       "targetSentence": "How did you know about the secret birthday party",
@@ -1458,6 +1475,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_rev3",
+      "explanation": 'After \'didn\'t\', use the base verb \'hear\'. Hindi: \'हमने दरवाज़े की घंटी बजती हुई नहीं सुनी।\'',
       "type": "fill_blank",
       "prompt": "Fill in the blank with base verb:",
       "targetSentence": "We didn't hear the doorbell ring.",
@@ -1486,6 +1504,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_rev4",
+      "explanation": 'The short answer is \'No, they didn\'t\' (the same auxiliary as the question). \'Don\'t\' is the present form.',
       "type": "error_correction",
       "prompt": "Fix the short answer error:",
       "targetSentence": "Did they arrive on time? — No, they didn't.",
@@ -1515,6 +1534,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_rev5",
+      "explanation": '\'Didn\'t go out\' is the negative past. \'Because it was cold\' gives the reason. Hindi: \'हम कल रात बाहर नहीं गए क्योंकि ठंड थी।\'',
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "हम कल रात बाहर नहीं गए क्योंकि बहुत ठंड थी।",
@@ -1542,6 +1562,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u03_l41_a1",
+      "explanation": 'After \'didn\'t\', the main verb takes the base form (the infinitive without \'to\').',
       "type": "multiple_choice",
       "prompt": "What form of the main verb follows \"didn't\" in negative past sentences?",
       "targetSentence": "The base form (infinitive without \"to\")",
@@ -1570,6 +1591,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_a2",
+      "explanation": 'After \'did\' in questions, use the base verb: \'Why did you leave...?\' \'Left\' is the past form and cannot follow \'did\'.',
       "type": "fill_blank",
       "prompt": "Complete the question:",
       "targetSentence": "Why did you leave the meeting so early?",
@@ -1598,6 +1620,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_a3",
+      "explanation": '\'Didn\'t buy\' is the negative past with the base verb \'buy\'. \'Anything\' is used in negatives.',
       "type": "word_ordering",
       "prompt": "Assemble the negative statement:",
       "targetSentence": "I didn't buy anything at the shopping mall yesterday",
@@ -1617,6 +1640,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_a4",
+      "explanation": 'The audio says: \'I didn\'t come to work yesterday because I had a severe headache.\' That matches the first option.',
       "type": "listening",
       "prompt": "Listen and identify the reason given for absence:",
       "audioText": "I didn't come to work yesterday because I had a severe headache.",
@@ -1645,6 +1669,7 @@ export const LESSON_A1_3_41_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l41_a5",
+      "explanation": '\'Did you finish...?\' is a past question. \'Yes, I did\' is the short answer.',
       "type": "speaking",
       "prompt": "Speak this question and answer clearly:",
       "targetSentence": "Did you finish the project on time? Yes, I did.",

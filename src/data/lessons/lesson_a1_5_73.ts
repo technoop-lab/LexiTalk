@@ -1026,6 +1026,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u05_l73_p1",
+      "explanation": '\'How long does it take?\' asks about a duration. \'Long\' is used for time, while \'much\' and \'many\' are for quantity.',
       "lessonId": "lesson_a1_5_73",
       "stage": 8,
       "type": "multiple_choice",
@@ -1050,6 +1051,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_p2",
+      "explanation": 'Passive rules use \'are\' with a plural subject: \'Library cards are issued free of charge\'.',
       "lessonId": "lesson_a1_5_73",
       "stage": 8,
       "type": "fill_blank",
@@ -1076,6 +1078,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_p3",
+      "explanation": '\'What is the tracking number for my parcel?\' asks for a code with \'is\' + singular noun.',
       "lessonId": "lesson_a1_5_73",
       "stage": 8,
       "type": "word_ordering",
@@ -1094,6 +1097,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_p4",
+      "explanation": 'A parcel is a mailed package. To borrow is to take something temporarily. A tracking number shows delivery progress. To renew means extend a loan period.',
       "lessonId": "lesson_a1_5_73",
       "stage": 8,
       "type": "match_pairs",
@@ -1119,6 +1123,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_p5",
+      "explanation": '\'How long does it take to...?\' is the correct form. \'How much time it take\' and \'how long it takes\' have grammar errors.',
       "lessonId": "lesson_a1_5_73",
       "stage": 8,
       "type": "error_correction",
@@ -1144,6 +1149,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_p6",
+      "explanation": 'The speaker says: \'Standard delivery takes three to five business days.\' The other option gives different times.',
       "lessonId": "lesson_a1_5_73",
       "stage": 9,
       "type": "listening",
@@ -1164,6 +1170,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_p7",
+      "explanation": '\'You can borrow up to ten books for three weeks\' describes the library rule with \'can\' + base verb.',
       "lessonId": "lesson_a1_5_73",
       "stage": 9,
       "type": "listen_and_type",
@@ -1173,6 +1180,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_p8",
+      "explanation": '\'What are the operating hours of the community center?\' asks about opening times with a plural noun \'hours\'.',
       "lessonId": "lesson_a1_5_73",
       "stage": 10,
       "type": "multiple_choice",
@@ -1197,6 +1205,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_p9",
+      "explanation": '\'Yes, you can easily renew it on the library website\' answers the question with the method.',
       "lessonId": "lesson_a1_5_73",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1221,6 +1230,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_p10",
+      "explanation": '\'I would like to send this package by registered mail\' is a polite request with \'by\' for the method.',
       "lessonId": "lesson_a1_5_73",
       "stage": 12,
       "type": "speaking",
@@ -1230,6 +1240,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_p11",
+      "explanation": '\'How long does it take to deliver this parcel?\' is the English question. Hindi: \'इस पार्सल को पहुंचाने में कितना समय लगता है?\'',
       "lessonId": "lesson_a1_5_73",
       "stage": 13,
       "type": "translation",
@@ -1238,6 +1249,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_p12",
+      "explanation": 'Overdue means past the due date. Fluent describes language skill and furnished describes a room with furniture.',
       "lessonId": "lesson_a1_5_73",
       "stage": 14,
       "type": "multiple_choice",
@@ -1262,6 +1274,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_p13",
+      "explanation": 'A scale weighs items. A faucet and a bandage are not used for weighing.',
       "lessonId": "lesson_a1_5_73",
       "stage": 14,
       "type": "fill_blank",
@@ -1288,6 +1301,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_p14",
+      "explanation": '\'Membership is free for all local residents\' is a passive-style statement of a rule.',
       "lessonId": "lesson_a1_5_73",
       "stage": 14,
       "type": "word_ordering",
@@ -1306,6 +1320,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_p15",
+      "explanation": '\'You can track your package delivery online\' uses \'can\' + base verb for ability.',
       "lessonId": "lesson_a1_5_73",
       "stage": 14,
       "type": "speaking",
@@ -1317,6 +1332,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u05_l73_r1",
+      "explanation": '\'Good at\' + -ing: \'good at solving problems\'. \'Good in\' and \'good on\' are incorrect.',
       "lessonId": "lesson_a1_5_73",
       "stage": 16,
       "type": "multiple_choice",
@@ -1341,6 +1357,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_r2",
+      "explanation": '\'See myself\' uses the reflexive pronoun \'myself\'.',
       "lessonId": "lesson_a1_5_73",
       "stage": 16,
       "type": "fill_blank",
@@ -1367,6 +1384,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_r3",
+      "explanation": '\'Three years of experience in marketing\' is the noun phrase for experience.',
       "lessonId": "lesson_a1_5_73",
       "stage": 16,
       "type": "word_ordering",
@@ -1385,6 +1403,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_r4",
+      "explanation": 'A parcel is a postal package. A resume is a CV. To borrow is to take a loan. A goal is a future aim.',
       "lessonId": "lesson_a1_5_73",
       "stage": 16,
       "type": "match_pairs",
@@ -1410,6 +1429,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_r5",
+      "explanation": '\'How long does delivery take?\' asks about the time needed. Hindi: \'डिलीवरी में कितना समय लगता है?\'',
       "lessonId": "lesson_a1_5_73",
       "stage": 16,
       "type": "translation",
@@ -1420,6 +1440,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u05_l73_a1",
+      "explanation": '\'How long does it take to deliver this parcel by registered mail?\' is the correct question.',
       "lessonId": "lesson_a1_5_73",
       "stage": 17,
       "type": "multiple_choice",
@@ -1444,6 +1465,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_a2",
+      "explanation": '\'Can be renewed\' is the passive form (modal + be + past participle).',
       "lessonId": "lesson_a1_5_73",
       "stage": 17,
       "type": "fill_blank",
@@ -1470,6 +1492,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_a3",
+      "explanation": '\'Placed the heavy parcel on the scale\' is a past statement with the simple past.',
       "lessonId": "lesson_a1_5_73",
       "stage": 17,
       "type": "word_ordering",
@@ -1489,6 +1512,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_a4",
+      "explanation": '\'Here is your new library card. You may now borrow books\' is a helpful counter reply.',
       "lessonId": "lesson_a1_5_73",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1513,6 +1537,7 @@ export const LESSON_A1_5_73_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l73_a5",
+      "explanation": '\'Could you please weigh this parcel and let me know how much express delivery costs?\' is a polite request with two actions.',
       "lessonId": "lesson_a1_5_73",
       "stage": 17,
       "type": "speaking",

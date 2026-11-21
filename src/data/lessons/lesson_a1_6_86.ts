@@ -1036,6 +1036,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u06_l86_p1",
+      "explanation": '\'It is customary to + base verb\' describes a tradition. \'Customary\' is followed by \'to\' + verb.',
       "lessonId": "lesson_a1_6_86",
       "stage": 8,
       "type": "multiple_choice",
@@ -1060,6 +1061,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_p2",
+      "explanation": 'A singular subject \'lantern\' takes \'symbolizes\' with -s. \'Symbolize\' is for plural subjects.',
       "lessonId": "lesson_a1_6_86",
       "stage": 8,
       "type": "multiple_choice",
@@ -1084,6 +1086,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_p3",
+      "explanation": 'A generation is a group of people born around the same time. \'General\' and \'generous\' are different words.',
       "lessonId": "lesson_a1_6_86",
       "stage": 8,
       "type": "fill_blank",
@@ -1110,6 +1113,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_p4",
+      "explanation": 'Fireworks are pyrotechnic displays. A delicacy is a special food. Customary means traditional. A celebration is a festive event.',
       "lessonId": "lesson_a1_6_86",
       "stage": 8,
       "type": "match_pairs",
@@ -1135,6 +1139,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_p5",
+      "explanation": '\'It is customary to wear traditional costumes\' uses \'it is customary to\' + base verb.',
       "lessonId": "lesson_a1_6_86",
       "stage": 8,
       "type": "word_ordering",
@@ -1152,6 +1157,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_p6",
+      "explanation": '\'It is customary to visit grandparents\' is correct. \'Visiting\' and \'visited\' do not fit after \'to\'.',
       "lessonId": "lesson_a1_6_86",
       "stage": 8,
       "type": "error_correction",
@@ -1173,6 +1179,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_p7",
+      "explanation": '\'The lighting of clay lamps symbolizes...\' uses a singular subject with -s.',
       "lessonId": "lesson_a1_6_86",
       "stage": 9,
       "type": "listen_and_type",
@@ -1182,6 +1189,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_p8",
+      "explanation": '\'During the festival, families gather to share delicious traditional delicacies\' is a natural description.',
       "lessonId": "lesson_a1_6_86",
       "stage": 10,
       "type": "multiple_choice",
@@ -1206,6 +1214,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_p9",
+      "explanation": '\'People wear colorful costumes and dance to festive music\' describes activities with two verbs in the present simple.',
       "lessonId": "lesson_a1_6_86",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1230,6 +1239,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_p10",
+      "explanation": '\'It is customary to gather with family, exchange gifts, and enjoy festive delicacies\' lists three customs with \'to\' + verb.',
       "lessonId": "lesson_a1_6_86",
       "stage": 12,
       "type": "speaking",
@@ -1239,6 +1249,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_p11",
+      "explanation": '\'It is customary to exchange gifts during the holidays\' gives the custom in English.',
       "lessonId": "lesson_a1_6_86",
       "stage": 13,
       "type": "translation",
@@ -1247,6 +1258,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_p12",
+      "explanation": 'Cultural heritage means traditions and values passed through generations. Customer service and current weather are different terms.',
       "lessonId": "lesson_a1_6_86",
       "stage": 14,
       "type": "multiple_choice",
@@ -1271,6 +1283,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_p13",
+      "explanation": 'Fireworks light up the sky during celebrations. Firewood and firewall are different things.',
       "lessonId": "lesson_a1_6_86",
       "stage": 14,
       "type": "fill_blank",
@@ -1297,6 +1310,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_p14",
+      "explanation": '\'Lighting incense is an ancient spiritual ritual\' gives a description with a gerund subject.',
       "lessonId": "lesson_a1_6_86",
       "stage": 14,
       "type": "word_ordering",
@@ -1314,6 +1328,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_p15",
+      "explanation": '\'We take great pride in our rich cultural traditions and warm hospitality\' is a warm statement about heritage.',
       "lessonId": "lesson_a1_6_86",
       "stage": 14,
       "type": "speaking",
@@ -1325,6 +1340,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u06_l86_r1",
+      "explanation": '\'During the festival, it is customary to decorate homes with lanterns\' uses the correct structure for a custom.',
       "lessonId": "lesson_a1_6_86",
       "stage": 16,
       "type": "multiple_choice",
@@ -1349,6 +1365,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_r2",
+      "explanation": 'A singular subject \'shape\' takes \'symbolizes\'. \'Symbol\' is the base form and does not fit.',
       "lessonId": "lesson_a1_6_86",
       "stage": 16,
       "type": "fill_blank",
@@ -1375,6 +1392,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_r3",
+      "explanation": '\'Are passed down across generations\' is the passive form for traditions.',
       "lessonId": "lesson_a1_6_86",
       "stage": 16,
       "type": "word_ordering",
@@ -1392,6 +1410,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_r4",
+      "explanation": 'Clay lamps (diyas) symbolize light over darkness. Mooncakes symbolize unity and harvest. Twelve grapes are a New Year custom.',
       "lessonId": "lesson_a1_6_86",
       "stage": 16,
       "type": "match_pairs",
@@ -1417,6 +1436,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_r5",
+      "explanation": '\'We were deeply touched by the warm hospitality\' is a past passive for an emotion. Hindi: \'मेज़बानों के गर्मजोशी भरे आतिथ्य से हम गहराई से प्रभावित हुए।\'',
       "lessonId": "lesson_a1_6_86",
       "stage": 16,
       "type": "translation",
@@ -1427,6 +1447,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u06_l86_a1",
+      "explanation": '\'During the festival, it is customary to wear traditional costumes and share delicacies\' is a correct, natural sentence.',
       "lessonId": "lesson_a1_6_86",
       "stage": 17,
       "type": "multiple_choice",
@@ -1451,6 +1472,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_a2",
+      "explanation": '\'The lighting of lamps symbolizes hope and prosperity\' uses a singular subject with -s.',
       "lessonId": "lesson_a1_6_86",
       "stage": 17,
       "type": "fill_blank",
@@ -1477,6 +1499,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_a3",
+      "explanation": '\'We celebrate our cultural heritage with music and feasts\' is a simple present statement.',
       "lessonId": "lesson_a1_6_86",
       "stage": 17,
       "type": "word_ordering",
@@ -1496,6 +1519,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_a4",
+      "explanation": '\'It is a time-honored tradition to express love, gratitude, and togetherness\' explains the reason for a custom.',
       "lessonId": "lesson_a1_6_86",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1520,6 +1544,7 @@ export const LESSON_A1_6_86_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l86_a5",
+      "explanation": '\'Our cultural heritage is celebrated through colorful parades, festive delicacies, and warm hospitality\' uses the passive present.',
       "lessonId": "lesson_a1_6_86",
       "stage": 17,
       "type": "speaking",

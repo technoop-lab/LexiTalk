@@ -1,5 +1,6 @@
 import { UserAcademyProfile, LessonNode, CourseUnit, CEFRLevel, AccessEntitlement, UserRole } from '../types';
 import { ProgressService } from './ProgressService';
+import { SHOW_A2_LEVEL } from '../config/freeAccess';
 
 export interface AccessCheckResult {
   allowed: boolean;
@@ -78,6 +79,15 @@ class EntitlementServiceManager {
       return { allowed: true, reason: 'ALLOWED', isBypassedByDeveloper: true };
     }
 
+    // Launch setting: A2 stays closed for learners until SHOW_A2_LEVEL is switched on.
+    if (cefr === 'A2' && !SHOW_A2_LEVEL) {
+      return {
+        allowed: false,
+        reason: 'CONTENT_NOT_RELEASED',
+        message: 'A2 lessons are not available yet.',
+      };
+    }
+
     // 2. A2 Gate Check: If lesson is A2 (or higher), learner must have unlocked A2 via A1 mastery
     if (cefr === 'A2') {
       const a2Unlocked = ProgressService.isA2Unlocked(user);
@@ -130,6 +140,14 @@ class EntitlementServiceManager {
 
     if (this.canBypassPrerequisites(user)) {
       return { allowed: true, reason: 'ALLOWED', isBypassedByDeveloper: true };
+    }
+
+    if (unit.cefr === 'A2' && !SHOW_A2_LEVEL) {
+      return {
+        allowed: false,
+        reason: 'CONTENT_NOT_RELEASED',
+        message: 'A2 units are not available yet.',
+      };
     }
 
     if (unit.cefr === 'A2') {

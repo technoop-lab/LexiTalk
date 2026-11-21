@@ -550,6 +550,7 @@ export const LESSON_A1_1_11_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l11_p3',
+      explanation: 'With \'we\', use \'don\'t\' + the base verb: \'We don\'t work on the weekend.\' \'Doesn\'t\' is only for he, she, and it.',
       lessonId: 'lesson_a1_1_11',
       stage: 8,
       type: 'word_ordering',
@@ -573,6 +574,7 @@ export const LESSON_A1_1_11_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l11_p5',
+      explanation: 'With \'I\', use \'don\'t\' + the base verb: \'I don\'t understand the question.\'',
       lessonId: 'lesson_a1_1_11',
       stage: 9,
       type: 'listen_and_type',
@@ -582,6 +584,7 @@ export const LESSON_A1_1_11_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l11_p6',
+      explanation: 'With \'she\', use \'doesn\'t\' + the base verb. The -s moves from the verb to \'does\': \'She doesn\'t eat meat or fish.\'',
       lessonId: 'lesson_a1_1_11',
       stage: 10,
       type: 'word_ordering',
@@ -591,6 +594,7 @@ export const LESSON_A1_1_11_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l11_p7',
+      explanation: 'With \'I\', use \'don\'t\' + the base verb: \'I don\'t wake up early on Sunday mornings.\'',
       lessonId: 'lesson_a1_1_11',
       stage: 12,
       type: 'speaking',
@@ -600,6 +604,7 @@ export const LESSON_A1_1_11_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l11_p8',
+      explanation: 'With \'he\', use \'doesn\'t\' + the base verb each time: \'He doesn\'t drink alcohol and he doesn\'t smoke.\' Hindi: \'वह शराब नहीं पीता और धूम्रपान नहीं करता।\'',
       lessonId: 'lesson_a1_1_11',
       stage: 13,
       type: 'translation',
@@ -684,6 +689,7 @@ export const LESSON_A1_1_11_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l11_p14',
+      explanation: 'In \'I don\'t know where the library is\', the main clause takes \'don\'t\' and the embedded clause keeps statement order: \'where the library is\'.',
       lessonId: 'lesson_a1_1_11',
       stage: 8,
       type: 'word_ordering',
@@ -693,6 +699,7 @@ export const LESSON_A1_1_11_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l11_p15',
+      explanation: '\'My brother\' is third person singular, so use \'doesn\'t\' + the base verb: \'doesn\'t live\'.',
       lessonId: 'lesson_a1_1_11',
       stage: 12,
       type: 'speaking',
@@ -734,6 +741,7 @@ export const LESSON_A1_1_11_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l11_rev3',
+      explanation: 'With \'we\', use \'don\'t\' + the base verb \'need\': \'We don\'t need a big car in the city.\'',
       lessonId: 'lesson_a1_1_11',
       stage: 16,
       type: 'word_ordering',
@@ -743,6 +751,7 @@ export const LESSON_A1_1_11_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l11_rev4',
+      explanation: 'With \'I\', use \'don\'t\' + the base verb: \'I don\'t like this song.\' Hindi: \'मुझे यह गाना पसंद नहीं है।\'',
       lessonId: 'lesson_a1_1_11',
       stage: 16,
       type: 'translation',
@@ -788,6 +797,7 @@ export const LESSON_A1_1_11_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l11_a3',
+      explanation: 'With \'they\', use \'don\'t\' + the base verb \'speak\': \'They don\'t speak French or Spanish at home.\'',
       lessonId: 'lesson_a1_1_11',
       stage: 17,
       type: 'word_ordering',
@@ -825,6 +835,7 @@ export const LESSON_A1_1_11_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l11_a6',
+      explanation: 'With \'she\', use \'doesn\'t\' + the base verb \'drive\': \'She doesn\'t drive to work.\'',
       lessonId: 'lesson_a1_1_11',
       stage: 17,
       type: 'listen_and_type',
@@ -848,6 +859,7 @@ export const LESSON_A1_1_11_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l11_a8',
+      explanation: 'With \'they\', use \'don\'t\' + the base verb: \'They don\'t work on the weekend.\' Hindi: \'वे सप्ताहांत पर काम नहीं करते हैं।\'',
       lessonId: 'lesson_a1_1_11',
       stage: 17,
       type: 'translation',
@@ -874,6 +886,7 @@ export const LESSON_A1_1_11_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l11_a10',
+      explanation: 'With \'I\', use \'don\'t\' + the base verb \'understand\'. The contrast \'but I speak English\' also uses the base form.',
       lessonId: 'lesson_a1_1_11',
       stage: 17,
       type: 'word_ordering',

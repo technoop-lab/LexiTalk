@@ -552,6 +552,7 @@ export const LESSON_A1_1_8_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l8_p3',
+      explanation: 'Two verbs share the subject \'I\': \'drink\' and \'have\'. With \'I\', both use the base form, with no -s.',
       lessonId: 'lesson_a1_1_8',
       stage: 8,
       type: 'word_ordering',
@@ -575,6 +576,7 @@ export const LESSON_A1_1_8_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l8_p5',
+      explanation: 'Use \'at\' before a clock time: \'I go to bed at eleven.\'',
       lessonId: 'lesson_a1_1_8',
       stage: 9,
       type: 'listen_and_type',
@@ -584,6 +586,7 @@ export const LESSON_A1_1_8_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l8_p6',
+      explanation: 'In \'What time do you leave...?\', the question word comes first, then \'do\', then the subject, then the base verb. \'In the morning\' is a time phrase.',
       lessonId: 'lesson_a1_1_8',
       stage: 10,
       type: 'word_ordering',
@@ -593,6 +596,7 @@ export const LESSON_A1_1_8_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l8_p7',
+      explanation: '\'Brush\' and \'take\' are base-form verbs with \'I\'. \'Brush my teeth\' and \'take a shower\' are fixed routine phrases.',
       lessonId: 'lesson_a1_1_8',
       stage: 12,
       type: 'speaking',
@@ -602,6 +606,7 @@ export const LESSON_A1_1_8_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l8_p8',
+      explanation: '\'At eight\' gives the clock time and \'in the evening\' gives the part of the day. Hindi: \'हम शाम को 8:00 बजे रात का खाना खाते हैं।\'',
       lessonId: 'lesson_a1_1_8',
       stage: 13,
       type: 'translation',
@@ -686,6 +691,7 @@ export const LESSON_A1_1_8_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l8_p14',
+      explanation: '\'Every night\' is a time phrase, usually at the end. \'Together\' describes how the cooking is done.',
       lessonId: 'lesson_a1_1_8',
       stage: 8,
       type: 'word_ordering',
@@ -695,6 +701,7 @@ export const LESSON_A1_1_8_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l8_p15',
+      explanation: '\'Before I go to bed\' is a time clause. With \'I\', the verb \'go\' has no -s.',
       lessonId: 'lesson_a1_1_8',
       stage: 12,
       type: 'speaking',
@@ -736,6 +743,7 @@ export const LESSON_A1_1_8_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l8_rev3',
+      explanation: '\'They\' takes the base verb \'sleep\', with no -s. \'For eight hours\' gives the length, and \'every night\' gives the frequency.',
       lessonId: 'lesson_a1_1_8',
       stage: 16,
       type: 'word_ordering',
@@ -745,6 +753,7 @@ export const LESSON_A1_1_8_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l8_rev4',
+      explanation: 'With \'I\', the present simple uses the base verb \'get\'. \'At seven every morning\' gives the time. Hindi: \'मैं रोज सुबह 7:00 बजे उठता हूँ।\'',
       lessonId: 'lesson_a1_1_8',
       stage: 16,
       type: 'translation',
@@ -790,6 +799,7 @@ export const LESSON_A1_1_8_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l8_a3',
+      explanation: '\'At eight\' gives the clock time, and \'in the morning\' gives the part of the day.',
       lessonId: 'lesson_a1_1_8',
       stage: 17,
       type: 'word_ordering',
@@ -827,6 +837,7 @@ export const LESSON_A1_1_8_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l8_a6',
+      explanation: 'Use \'at\' with a clock time: \'We finish work at five.\' \'We\' takes the base verb \'finish\'.',
       lessonId: 'lesson_a1_1_8',
       stage: 17,
       type: 'listen_and_type',
@@ -850,6 +861,7 @@ export const LESSON_A1_1_8_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l8_a8',
+      explanation: '\'They\' takes the base verb \'go\', with no -s. Use \'at\' with the clock time, \'at eleven at night.\'',
       lessonId: 'lesson_a1_1_8',
       stage: 17,
       type: 'translation',
@@ -876,6 +888,7 @@ export const LESSON_A1_1_8_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l8_a10',
+      explanation: 'With \'they\', use \'do\' in the question: \'What time do they arrive home every evening?\' \'Every evening\' is a frequency phrase.',
       lessonId: 'lesson_a1_1_8',
       stage: 17,
       type: 'word_ordering',

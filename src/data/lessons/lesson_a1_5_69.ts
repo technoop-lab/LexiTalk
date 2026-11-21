@@ -1036,6 +1036,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u05_l69_p1",
+      "explanation": '\'Would like to\' is the polite form of \'want to\'. \'Must to\' and \'am want\' are incorrect.',
       "lessonId": "lesson_a1_5_69",
       "stage": 8,
       "type": "multiple_choice",
@@ -1060,6 +1061,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_p2",
+      "explanation": '\'Deposit\' means put money into an account. \'Leak\' and \'depart\' are different words.',
       "lessonId": "lesson_a1_5_69",
       "stage": 8,
       "type": "fill_blank",
@@ -1086,6 +1088,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_p3",
+      "explanation": '\'Must never share\' is a strong security warning. \'Must\' + base verb \'share\'.',
       "lessonId": "lesson_a1_5_69",
       "stage": 8,
       "type": "word_ordering",
@@ -1103,6 +1106,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_p4",
+      "explanation": 'Balance = total money in an account. Withdraw = take out cash. Fraud = unauthorized transactions. A statement is a monthly list of transactions.',
       "lessonId": "lesson_a1_5_69",
       "stage": 8,
       "type": "match_pairs",
@@ -1128,6 +1132,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_p5",
+      "explanation": 'The passive past \'was stolen\' describes what happened to the card. \'Steal\' and \'stealing\' are not correct here.',
       "lessonId": "lesson_a1_5_69",
       "stage": 8,
       "type": "error_correction",
@@ -1153,6 +1158,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_p6",
+      "explanation": 'The speaker says: \'You can withdraw up to five hundred dollars per day at the ATM.\' The other option describes depositing per week.',
       "lessonId": "lesson_a1_5_69",
       "stage": 9,
       "type": "listening",
@@ -1173,6 +1179,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_p7",
+      "explanation": '\'What is my current account balance?\' asks for the balance with \'is\' + subject.',
       "lessonId": "lesson_a1_5_69",
       "stage": 9,
       "type": "listen_and_type",
@@ -1182,6 +1189,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_p8",
+      "explanation": '\'Is there any monthly fee for maintaining this account?\' asks about a charge. \'Is there any\' is used for questions with singular nouns.',
       "lessonId": "lesson_a1_5_69",
       "stage": 10,
       "type": "multiple_choice",
@@ -1206,6 +1214,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_p9",
+      "explanation": '\'Certainly! Please provide the recipient\'s account number and amount\' answers the request and asks for the details needed.',
       "lessonId": "lesson_a1_5_69",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1230,6 +1239,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_p10",
+      "explanation": '\'I need to block my credit card immediately because I lost my wallet\' states a need and gives the reason with \'because\'.',
       "lessonId": "lesson_a1_5_69",
       "stage": 12,
       "type": "speaking",
@@ -1239,6 +1249,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_p11",
+      "explanation": '\'I need to transfer money to my savings account\' uses \'need to\' + base verb. Hindi: \'मुझे अपने बचत खाते में पैसे ट्रांसफर करने की आवश्यकता है।\'',
       "lessonId": "lesson_a1_5_69",
       "stage": 13,
       "type": "translation",
@@ -1247,6 +1258,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_p12",
+      "explanation": 'A PIN is a personal identification number for a card. A lease is a rental contract and a receipt proves purchase.',
       "lessonId": "lesson_a1_5_69",
       "stage": 14,
       "type": "multiple_choice",
@@ -1271,6 +1283,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_p13",
+      "explanation": '\'Insert your card into the ATM\' is the correct phrase for a cash machine.',
       "lessonId": "lesson_a1_5_69",
       "stage": 14,
       "type": "fill_blank",
@@ -1297,6 +1310,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_p14",
+      "explanation": '\'Uses two-factor authentication\' describes a security step. \'For online security\' gives the purpose.',
       "lessonId": "lesson_a1_5_69",
       "stage": 14,
       "type": "word_ordering",
@@ -1315,6 +1329,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_p15",
+      "explanation": '\'I would like to deposit this paycheck into my checking account\' is a polite request with \'would like to\' + base verb.',
       "lessonId": "lesson_a1_5_69",
       "stage": 14,
       "type": "speaking",
@@ -1326,6 +1341,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u05_l69_r1",
+      "explanation": '\'Is leaking\' is the present continuous for an ongoing problem. \'Is leak\' and \'leaks on now\' are incorrect.',
       "lessonId": "lesson_a1_5_69",
       "stage": 16,
       "type": "multiple_choice",
@@ -1350,6 +1366,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_r2",
+      "explanation": '\'Utilities are included in the rent\' uses \'included\' as an adjective after \'are\'.',
       "lessonId": "lesson_a1_5_69",
       "stage": 16,
       "type": "fill_blank",
@@ -1376,6 +1393,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_r3",
+      "explanation": '\'Should take one tablet after meals\' gives advice with \'should\' + base verb.',
       "lessonId": "lesson_a1_5_69",
       "stage": 16,
       "type": "word_ordering",
@@ -1393,6 +1411,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_r4",
+      "explanation": 'A landlord owns the property. A teller is a bank clerk. A balance is the money available. A lease is a rental contract.',
       "lessonId": "lesson_a1_5_69",
       "stage": 16,
       "type": "match_pairs",
@@ -1418,6 +1437,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_r5",
+      "explanation": '\'Could you please check my balance?\' is a polite request. Hindi: \'क्या आप कृपया मेरा बैलेंस जाँच सकते हैं?\'',
       "lessonId": "lesson_a1_5_69",
       "stage": 16,
       "type": "translation",
@@ -1428,6 +1448,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u05_l69_a1",
+      "explanation": '\'I would like to open a savings account with no monthly fee\' is a polite request with \'would like to\' + base verb.',
       "lessonId": "lesson_a1_5_69",
       "stage": 17,
       "type": "multiple_choice",
@@ -1452,6 +1473,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_a2",
+      "explanation": 'Fraud is illegal activity, such as unauthorized transactions. A faucet and a platform are not relevant.',
       "lessonId": "lesson_a1_5_69",
       "stage": 17,
       "type": "fill_blank",
@@ -1478,6 +1500,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_a3",
+      "explanation": '\'I transferred five hundred dollars to my landlord today\' is a past statement with the simple past \'transferred\'.',
       "lessonId": "lesson_a1_5_69",
       "stage": 17,
       "type": "word_ordering",
@@ -1497,6 +1520,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_a4",
+      "explanation": '\'Use a strong password and enable two-factor authentication\' gives two concrete security steps joined by \'and\'.',
       "lessonId": "lesson_a1_5_69",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1521,6 +1545,7 @@ export const LESSON_A1_5_69_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l69_a5",
+      "explanation": '\'Please block my stolen card immediately and issue a replacement to my home address\' is a polite request with two actions.',
       "lessonId": "lesson_a1_5_69",
       "stage": 17,
       "type": "speaking",

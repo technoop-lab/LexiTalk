@@ -1016,6 +1016,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u04_l56_p1",
+      "explanation": '\'Enjoy\' is followed by the -ing form (gerund): \'enjoy running\'. \'To run\' and \'run\' are not used after \'enjoy\'.',
       "lessonId": "lesson_a1_4_56",
       "stage": 8,
       "type": "multiple_choice",
@@ -1040,6 +1041,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_p2",
+      "explanation": 'Use \'the\' with musical instruments: \'plays the piano\'.',
       "lessonId": "lesson_a1_4_56",
       "stage": 8,
       "type": "fill_blank",
@@ -1066,6 +1068,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_p3",
+      "explanation": '\'In my free time\' is a time phrase. \'Like\' + -ing: \'like reading novels\'.',
       "lessonId": "lesson_a1_4_56",
       "stage": 8,
       "type": "word_ordering",
@@ -1084,6 +1087,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_p4",
+      "explanation": 'Photography uses a camera and lenses. Gardening uses plants and flowers. The guitar uses strings. Baking uses flour and an oven.',
       "lessonId": "lesson_a1_4_56",
       "stage": 8,
       "type": "match_pairs",
@@ -1109,6 +1113,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_p5",
+      "explanation": 'After \'like\' and \'while\', use the -ing form: \'like listening\', \'while cooking\'. \'Listen\' and \'cook\' are base forms.',
       "lessonId": "lesson_a1_4_56",
       "stage": 8,
       "type": "error_correction",
@@ -1134,6 +1139,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_p6",
+      "explanation": 'The speaker says: \'She enjoys playing the guitar and writing creative songs.\' \'Avoids\' and \'critical\' change the meaning.',
       "lessonId": "lesson_a1_4_56",
       "stage": 9,
       "type": "listening",
@@ -1154,6 +1160,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_p7",
+      "explanation": '\'Keen on\' + noun means very interested in something: \'keen on landscape photography\'.',
       "lessonId": "lesson_a1_4_56",
       "stage": 9,
       "type": "listen_and_type",
@@ -1163,6 +1170,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_p8",
+      "explanation": '\'What do you enjoy doing in your free time?\' uses \'enjoy\' + -ing. \'Enjoying to do\' and \'enjoy do\' are incorrect.',
       "lessonId": "lesson_a1_4_56",
       "stage": 10,
       "type": "multiple_choice",
@@ -1187,6 +1195,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_p9",
+      "explanation": '\'Yes, I play the violin and the piano\' answers the question with the correct instruments.',
       "lessonId": "lesson_a1_4_56",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1211,6 +1220,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_p10",
+      "explanation": '\'Gardening and cooking help me relax\' uses -ing forms as subjects and a base verb \'help\'.',
       "lessonId": "lesson_a1_4_56",
       "stage": 12,
       "type": "speaking",
@@ -1220,6 +1230,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_p11",
+      "explanation": '\'I enjoy painting on weekends\' uses -ing after \'enjoy\'. Hindi: \'मुझे सप्ताहांत पर चित्रकारी करना पसंद है।\'',
       "lessonId": "lesson_a1_4_56",
       "stage": 13,
       "type": "translation",
@@ -1228,6 +1239,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_p12",
+      "explanation": '\'Play tennis\' has no article. \'Play the tennis\' and \'playing a tennis\' are incorrect.',
       "lessonId": "lesson_a1_4_56",
       "stage": 14,
       "type": "multiple_choice",
@@ -1252,6 +1264,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_p13",
+      "explanation": '\'Keen on\' is the standard preposition for enthusiasm: \'keen on modern art\'.',
       "lessonId": "lesson_a1_4_56",
       "stage": 14,
       "type": "fill_blank",
@@ -1278,6 +1291,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_p14",
+      "explanation": '\'Has always been\' is the present perfect for an ongoing state. \'My greatest passion\' is a noun phrase.',
       "lessonId": "lesson_a1_4_56",
       "stage": 14,
       "type": "word_ordering",
@@ -1295,6 +1309,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_p15",
+      "explanation": '\'We play chess and modern board games\' uses the simple present for a habit (\'every Friday\').',
       "lessonId": "lesson_a1_4_56",
       "stage": 14,
       "type": "speaking",
@@ -1306,6 +1321,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u04_l56_r1",
+      "explanation": '\'Am going to visit\' is a planned intention. \'Will going\' and \'am will\' are incorrect.',
       "lessonId": "lesson_a1_4_56",
       "stage": 16,
       "type": "multiple_choice",
@@ -1330,6 +1346,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_r2",
+      "explanation": '\'I promise I will help\' uses \'will\' for a promise.',
       "lessonId": "lesson_a1_4_56",
       "stage": 16,
       "type": "fill_blank",
@@ -1356,6 +1373,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_r3",
+      "explanation": '\'Prefer coffee to tea\' uses the structure \'prefer X to Y\'.',
       "lessonId": "lesson_a1_4_56",
       "stage": 16,
       "type": "word_ordering",
@@ -1371,6 +1389,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_r4",
+      "explanation": '\'Last year\' is a past time marker. \'Tomorrow\' is a future time marker. \'Enjoy reading\' uses a gerund. \'Play the guitar\' uses \'the\' with an instrument.',
       "lessonId": "lesson_a1_4_56",
       "stage": 16,
       "type": "match_pairs",
@@ -1396,6 +1415,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_r5",
+      "explanation": '\'Do you play any musical instruments?\' is a question about instruments. Hindi: \'क्या आप कोई वाद्य बजाते हैं?\'',
       "lessonId": "lesson_a1_4_56",
       "stage": 16,
       "type": "translation",
@@ -1406,6 +1426,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u04_l56_a1",
+      "explanation": '\'I enjoy playing the piano and reading\' uses -ing after \'enjoy\' and the correct article.',
       "lessonId": "lesson_a1_4_56",
       "stage": 17,
       "type": "multiple_choice",
@@ -1430,6 +1451,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_a2",
+      "explanation": '\'Play soccer\' takes no article for sports, so the blank is empty. \'The\' and \'a\' are not used here.',
       "lessonId": "lesson_a1_4_56",
       "stage": 17,
       "type": "fill_blank",
@@ -1456,6 +1478,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_a3",
+      "explanation": '\'Keen on\' + noun: \'She is very keen on landscape photography.\'',
       "lessonId": "lesson_a1_4_56",
       "stage": 17,
       "type": "word_ordering",
@@ -1473,6 +1496,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_a4",
+      "explanation": '\'I practice for thirty minutes every evening\' answers \'How often\' with a frequency phrase.',
       "lessonId": "lesson_a1_4_56",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1497,6 +1521,7 @@ export const LESSON_A1_4_56_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l56_a5",
+      "explanation": '\'Creative hobbies like painting and cooking bring great joy\' uses the base verb \'bring\' with a plural subject.',
       "lessonId": "lesson_a1_4_56",
       "stage": 17,
       "type": "speaking",

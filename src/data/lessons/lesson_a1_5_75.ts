@@ -1006,6 +1006,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u05_l75_p1",
+      "explanation": '\'I have successfully completed...\' uses the present perfect for a completed achievement. \'I have complete\' and \'I am comp...\' are incorrect.',
       "lessonId": "lesson_a1_5_75",
       "stage": 8,
       "type": "multiple_choice",
@@ -1030,6 +1031,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_p2",
+      "explanation": '\'Speak ... fluently\' uses the adverb \'fluently\' to describe how she speaks.',
       "lessonId": "lesson_a1_5_75",
       "stage": 8,
       "type": "fill_blank",
@@ -1056,6 +1058,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_p3",
+      "explanation": '\'I am fully prepared to advance\' uses \'to\' + base verb to show readiness.',
       "lessonId": "lesson_a1_5_75",
       "stage": 8,
       "type": "word_ordering",
@@ -1076,6 +1079,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_p4",
+      "explanation": 'A milestone is an important achievement. Collaboration is working together. Fluency is smooth, accurate speech. A portfolio is a collection of work.',
       "lessonId": "lesson_a1_5_75",
       "stage": 8,
       "type": "match_pairs",
@@ -1101,6 +1105,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_p5",
+      "explanation": '\'I have worked here for four years\' uses the present perfect for a period up to now. \'Since\' is used with a point in time, not a period.',
       "lessonId": "lesson_a1_5_75",
       "stage": 8,
       "type": "error_correction",
@@ -1126,6 +1131,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_p6",
+      "explanation": 'The instructor says: \'Congratulations on completing all lessons!\' The other option describes a different event.',
       "lessonId": "lesson_a1_5_75",
       "stage": 9,
       "type": "listening",
@@ -1146,6 +1152,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_p7",
+      "explanation": '\'I can communicate effectively in everyday workplace situations\' is a statement of ability with \'can\' + base verb.',
       "lessonId": "lesson_a1_5_75",
       "stage": 9,
       "type": "listen_and_type",
@@ -1155,6 +1162,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_p8",
+      "explanation": '\'I have demonstrated full A1 English proficiency\' uses the present perfect for an achievement.',
       "lessonId": "lesson_a1_5_75",
       "stage": 10,
       "type": "multiple_choice",
@@ -1179,6 +1187,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_p9",
+      "explanation": '\'I feel very confident and excited to use English\' describes feelings with \'feel\' + adjective.',
       "lessonId": "lesson_a1_5_75",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1203,6 +1212,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_p10",
+      "explanation": '\'I have successfully completed... and achieved...\' uses the present perfect for achievements.',
       "lessonId": "lesson_a1_5_75",
       "stage": 12,
       "type": "speaking",
@@ -1212,6 +1222,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_p11",
+      "explanation": '\'I have demonstrated full A1 proficiency\' is a formal statement of achievement. Hindi: \'मैंने सभी पाठों में पूर्ण A1 दक्षता प्रदर्शित की है।\'',
       "lessonId": "lesson_a1_5_75",
       "stage": 13,
       "type": "translation",
@@ -1220,6 +1231,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_p12",
+      "explanation": 'Collaboration is working cooperatively with others. Overdue and prescription describe other things.',
       "lessonId": "lesson_a1_5_75",
       "stage": 14,
       "type": "multiple_choice",
@@ -1244,6 +1256,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_p13",
+      "explanation": 'Conversational fluency means smooth speech in conversations. A faucet and baggage are not relevant.',
       "lessonId": "lesson_a1_5_75",
       "stage": 14,
       "type": "fill_blank",
@@ -1270,6 +1283,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_p14",
+      "explanation": '\'Congratulations on achieving...\' + -ing after \'on\'.',
       "lessonId": "lesson_a1_5_75",
       "stage": 14,
       "type": "word_ordering",
@@ -1288,6 +1302,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_p15",
+      "explanation": '\'I am proud of my progress and look forward to continuing\' uses \'look forward to\' + -ing.',
       "lessonId": "lesson_a1_5_75",
       "stage": 14,
       "type": "speaking",
@@ -1299,6 +1314,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u05_l75_r1",
+      "explanation": '\'Stay on the line with the dispatcher\' is an imperative with the base verb \'stay\'.',
       "lessonId": "lesson_a1_5_75",
       "stage": 16,
       "type": "multiple_choice",
@@ -1323,6 +1339,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_r2",
+      "explanation": '\'Is issued\' is the passive form. \'Free of charge\' means at no cost.',
       "lessonId": "lesson_a1_5_75",
       "stage": 16,
       "type": "fill_blank",
@@ -1349,6 +1366,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_r3",
+      "explanation": '\'I am writing to inquire about the project\' is a formal opening.',
       "lessonId": "lesson_a1_5_75",
       "stage": 16,
       "type": "word_ordering",
@@ -1367,6 +1385,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_r4",
+      "explanation": 'A milestone is a major turning point. An ambulance is an emergency vehicle. A resume is a CV. A tracking number tracks a parcel.',
       "lessonId": "lesson_a1_5_75",
       "stage": 16,
       "type": "match_pairs",
@@ -1392,6 +1411,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_r5",
+      "explanation": '\'Congratulations on completing\' + -ing. Hindi: \'यूनिट 5 पूरा करने पर बधाई!\'',
       "lessonId": "lesson_a1_5_75",
       "stage": 16,
       "type": "translation",
@@ -1402,6 +1422,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u05_l75_a1",
+      "explanation": '\'I have mastered... and can now communicate fluently in English\' uses the present perfect and modal correctly.',
       "lessonId": "lesson_a1_5_75",
       "stage": 17,
       "type": "multiple_choice",
@@ -1426,6 +1447,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_a2",
+      "explanation": '\'Collaboration\' is the noun for working together. Faucet and scale do not fit.',
       "lessonId": "lesson_a1_5_75",
       "stage": 17,
       "type": "fill_blank",
@@ -1452,6 +1474,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_a3",
+      "explanation": '\'I am proud to demonstrate complete A1 English proficiency\' is a formal statement with \'to\' + base verb.',
       "lessonId": "lesson_a1_5_75",
       "stage": 17,
       "type": "word_ordering",
@@ -1471,6 +1494,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_a4",
+      "explanation": '\'You have demonstrated remarkable dedication and achieved outstanding A1 English fluency!\' is an evaluation with the present perfect.',
       "lessonId": "lesson_a1_5_75",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1495,6 +1519,7 @@ export const LESSON_A1_5_75_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l75_a5",
+      "explanation": '\'I have completed all lessons of the A1 English curriculum and achieved foundational fluency\' is a final statement with the present perfect.',
       "lessonId": "lesson_a1_5_75",
       "stage": 17,
       "type": "speaking",

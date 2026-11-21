@@ -29,6 +29,7 @@ import { HindiCourseService, HINDI_DAY_XP_REWARD } from '../../services/HindiCou
 import { HindiCourseProgressService } from '../../services/HindiCourseProgressService';
 import { HindiSpokenLabModal } from './HindiSpokenLabModal';
 import { playSoundEffectEffect } from '../../utils/audioUtils';
+import { isDayLocked } from '../../config/freeAccess';
 
 interface HindiCourseHomeProps {
   user: UserAcademyProfile;
@@ -81,6 +82,7 @@ export const HindiCourseHome: React.FC<HindiCourseHomeProps> = ({
   const dueReviews = HindiCourseProgressService.getDueReviews(user?.id);
 
   const handleLaunchDay = (dayNum: number) => {
+    if (isDayLocked(dayNum)) return;
     playSoundEffectEffect('tap');
     const dayLesson = HindiCourseService.getDayByNumber(dayNum);
     if (dayLesson) {
@@ -424,7 +426,7 @@ export const HindiCourseHome: React.FC<HindiCourseHomeProps> = ({
                 <div className="space-y-3 pt-1">
                   {stageDays.map((dayNum, dayIndex) => {
                     const dayLesson = HindiCourseService.getDayByNumber(dayNum);
-                    const isUnlocked = progress.unlockedDays.includes(dayNum);
+                    const isUnlocked = progress.unlockedDays.includes(dayNum) && !isDayLocked(dayNum);
                     const isCompleted = progress.completedDays.includes(dayNum);
                     const isTodayGoal = dayNum === nextIncompleteDayNum;
                     const stars = progress.dayStars[dayNum] || (isCompleted ? 3 : 0);

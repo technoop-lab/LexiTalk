@@ -13,6 +13,24 @@ import {
 import { HindiPracticeExercise } from '../../types/hindiCourse';
 import { getActiveEnglishAccent, speakTextOffline, playSoundEffectEffect } from '../../utils/audioUtils';
 
+// Fisher-Yates shuffle that avoids returning the original order when it can.
+const shuffleWords = (words: string[]): string[] => {
+  const original = words.join('\u0001');
+  let result = [...words];
+  for (let attempt = 0; attempt < 5; attempt++) {
+    result = [...words];
+    for (let i = result.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [result[i], result[j]] = [result[j], result[i]];
+    }
+    if (result.join('\u0001') !== original) break;
+  }
+  return result;
+};
+
+// Option text keeps its punctuation, so options that differ only by punctuation stay distinct.
+const strictOptionText = (s: string) => s.toLowerCase().trim().replace(/\s+/g, ' ');
+
 interface HindiPracticeRunnerProps {
   exercises: HindiPracticeExercise[];
   dayNumber: number;
@@ -59,10 +77,10 @@ export const HindiPracticeRunner: React.FC<HindiPracticeRunnerProps> = ({
       if (isReorder && currentExercise.options && currentExercise.options.length > 0) {
         // Shuffle options or words
         const words = currentExercise.options.flatMap((opt) => opt.split(' ')).filter(Boolean);
-        setScrambledWords([...words].sort(() => 0.5 - Math.random()));
+        setScrambledWords(shuffleWords(words));
       } else if (isReorder) {
         const words = currentExercise.correctAnswer.split(' ').filter(Boolean);
-        setScrambledWords([...words].sort(() => 0.5 - Math.random()));
+        setScrambledWords(shuffleWords(words));
       } else {
         setScrambledWords([]);
       }
@@ -109,6 +127,13 @@ export const HindiPracticeRunner: React.FC<HindiPracticeRunnerProps> = ({
       .replace(/[.,?!'"]/g, '')
       .replace(/\s+/g, ' ');
 
+  // Accepts the main answer or any listed alternative (used to highlight the right option)
+  const isAcceptedAnswer = (candidate: string) => {
+    const c = strictOptionText(candidate);
+    if (c === strictOptionText(currentExercise.correctAnswer)) return true;
+    return (currentExercise.acceptableAlternatives || []).some((alt) => strictOptionText(alt) === c);
+  };
+
   const handleSubmitAnswer = () => {
     if (isSubmitted) return;
 
@@ -127,12 +152,16 @@ export const HindiPracticeRunner: React.FC<HindiPracticeRunnerProps> = ({
     const cleanedUser = cleanString(finalUserAnswer);
     const cleanedCorrect = cleanString(currentExercise.correctAnswer);
 
-    let match = cleanedUser === cleanedCorrect;
+    let match = selectedOption !== null
+      ? strictOptionText(finalUserAnswer) === strictOptionText(currentExercise.correctAnswer)
+      : cleanedUser === cleanedCorrect;
 
     // Check acceptable alternatives if any
     if (!match && currentExercise.acceptableAlternatives) {
       match = currentExercise.acceptableAlternatives.some(
-        (alt) => cleanString(alt) === cleanedUser
+        (alt) => (selectedOption !== null
+          ? strictOptionText(alt) === strictOptionText(finalUserAnswer)
+          : cleanString(alt) === cleanedUser)
       );
     }
 
@@ -172,10 +201,10 @@ export const HindiPracticeRunner: React.FC<HindiPracticeRunnerProps> = ({
       setCurrentIndex((prev) => prev + 1);
     } else {
       // Completed all exercises for this day!
-      const finalScorePercent = Math.round(
-        ((totalCorrectCount + (isCorrect ? 1 : 0)) / totalExercises) * 100
-      );
-      onFinishPractice(finalScorePercent, totalCorrectCount + (isCorrect ? 1 : 0));
+      // totalCorrectCount already includes the last answer (counted on submit).
+      // Adding it again double-counted the final question.
+      const finalScorePercent = Math.round((totalCorrectCount / totalExercises) * 100);
+      onFinishPractice(finalScorePercent, totalCorrectCount);
     }
   };
 
@@ -286,7 +315,7 @@ export const HindiPracticeRunner: React.FC<HindiPracticeRunnerProps> = ({
             <div className="grid grid-cols-1 gap-2.5">
               {currentExercise.options.map((opt, idx) => {
                 const isSelected = selectedOption === opt;
-                const isThisCorrect = isSubmitted && cleanString(opt) === cleanString(currentExercise.correctAnswer);
+                const isThisCorrect = isSubmitted && isAcceptedAnswer(opt);
                 const isThisWrong = isSubmitted && isSelected && !isCorrect;
 
                 let btnStyles = 'bg-slate-50 dark:bg-slate-950/80 border-[#D9E4FF] dark:border-slate-800 text-slate-800 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800/80 hover:border-indigo-300 dark:hover:border-slate-700';

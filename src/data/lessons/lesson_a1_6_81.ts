@@ -1036,6 +1036,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u06_l81_p1",
+      "explanation": '\'For\' is used with a period of time: \'for a few days\'. \'Since\' is used with a starting point, and \'at\' is used with clock times.',
       "lessonId": "lesson_a1_6_81",
       "stage": 8,
       "type": "multiple_choice",
@@ -1060,6 +1061,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_p2",
+      "explanation": '\'Since\' is used with a starting point: \'since Monday\'. \'For\' is used with a period.',
       "lessonId": "lesson_a1_6_81",
       "stage": 8,
       "type": "multiple_choice",
@@ -1084,6 +1086,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_p3",
+      "explanation": '\'Twice a day\' means two times per day. \'Two\' and \'twin\' do not fit this frequency phrase.',
       "lessonId": "lesson_a1_6_81",
       "stage": 8,
       "type": "fill_blank",
@@ -1110,6 +1113,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_p4",
+      "explanation": 'A prescription is a doctor\'s order for medicine. A dosage is the amount and frequency. A side effect is a secondary reaction. Drowsiness is a feeling of sleepiness.',
       "lessonId": "lesson_a1_6_81",
       "stage": 8,
       "type": "match_pairs",
@@ -1135,6 +1139,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_p5",
+      "explanation": '\'Drink plenty of fluids and get rest\' gives two pieces of advice joined by \'and\'.',
       "lessonId": "lesson_a1_6_81",
       "stage": 8,
       "type": "word_ordering",
@@ -1152,6 +1157,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_p6",
+      "explanation": '\'Must\' + base verb: \'You must finish all the antibiotic pills\'. \'Must to\' and \'must finishing\' are incorrect.',
       "lessonId": "lesson_a1_6_81",
       "stage": 8,
       "type": "error_correction",
@@ -1173,6 +1179,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_p7",
+      "explanation": '\'Take one tablet twice a day after meals\' gives the dosage and timing.',
       "lessonId": "lesson_a1_6_81",
       "stage": 9,
       "type": "listen_and_type",
@@ -1182,6 +1189,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_p8",
+      "explanation": '\'Are there any common side effects with this medicine?\' asks a plural question with \'are there any\'.',
       "lessonId": "lesson_a1_6_81",
       "stage": 10,
       "type": "multiple_choice",
@@ -1206,6 +1214,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_p9",
+      "explanation": '\'I have had this fever since Monday evening\' gives a starting point with \'since\'.',
       "lessonId": "lesson_a1_6_81",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1230,6 +1239,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_p10",
+      "explanation": '\'I have had a sore throat and fever for three days\' uses the present perfect with \'for\' for a period.',
       "lessonId": "lesson_a1_6_81",
       "stage": 12,
       "type": "speaking",
@@ -1239,6 +1249,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_p11",
+      "explanation": '\'The doctor wrote a prescription for antibiotics\' describes a doctor\'s order. Hindi: \'डॉक्टर ने एंटीबायोटिक दवाओं के लिए एक नुस्खा लिखा।\'',
       "lessonId": "lesson_a1_6_81",
       "stage": 13,
       "type": "translation",
@@ -1247,6 +1258,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_p12",
+      "explanation": '\'Under the weather\' means feeling slightly ill. \'Over the moon\' and \'on cloud nine\' mean very happy.',
       "lessonId": "lesson_a1_6_81",
       "stage": 14,
       "type": "multiple_choice",
@@ -1271,6 +1283,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_p13",
+      "explanation": 'Blood pressure is the force of blood in the arteries. \'Present\' and \'prestige\' do not fit.',
       "lessonId": "lesson_a1_6_81",
       "stage": 14,
       "type": "fill_blank",
@@ -1297,6 +1310,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_p14",
+      "explanation": '\'Take two tablets with food every morning\' gives dosage with time and food.',
       "lessonId": "lesson_a1_6_81",
       "stage": 14,
       "type": "word_ordering",
@@ -1314,6 +1328,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_p15",
+      "explanation": '\'I would like to schedule a follow-up appointment\' is a polite request with \'would like to\'.',
       "lessonId": "lesson_a1_6_81",
       "stage": 14,
       "type": "speaking",
@@ -1325,6 +1340,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u06_l81_r1",
+      "explanation": '\'For five days\' gives a period and \'since last Saturday\' gives a starting point, so both are correct here.',
       "lessonId": "lesson_a1_6_81",
       "stage": 16,
       "type": "multiple_choice",
@@ -1349,6 +1365,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_r2",
+      "explanation": '\'Stay hydrated\' means drink enough water. \'Hygiene\' and \'hydrogen\' do not fit.',
       "lessonId": "lesson_a1_6_81",
       "stage": 16,
       "type": "fill_blank",
@@ -1375,6 +1392,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_r3",
+      "explanation": '\'Under the weather\' is an idiom for feeling unwell.',
       "lessonId": "lesson_a1_6_81",
       "stage": 16,
       "type": "word_ordering",
@@ -1391,6 +1409,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_r4",
+      "explanation": '\'Take with meals\' means take the medicine with food. Bed rest means staying in bed. Finish the course means complete the full course.',
       "lessonId": "lesson_a1_6_81",
       "stage": 16,
       "type": "match_pairs",
@@ -1416,6 +1435,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_r5",
+      "explanation": '\'Are there any common side effects with this medicine?\' asks about possible reactions. Hindi: \'क्या इस दवा के कोई सामान्य दुष्प्रभाव हैं?\'',
       "lessonId": "lesson_a1_6_81",
       "stage": 16,
       "type": "translation",
@@ -1426,6 +1446,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u06_l81_a1",
+      "explanation": '\'I have had a high fever for three days, and I feel nauseous since yesterday\' uses \'for\' for a period and \'since\' for a starting point.',
       "lessonId": "lesson_a1_6_81",
       "stage": 17,
       "type": "multiple_choice",
@@ -1450,6 +1471,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_a2",
+      "explanation": '\'Plenty of rest\' is standard advice for recovering from illness.',
       "lessonId": "lesson_a1_6_81",
       "stage": 17,
       "type": "fill_blank",
@@ -1476,6 +1498,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_a3",
+      "explanation": '\'Take one tablet twice a day with meals\' gives the dose and frequency.',
       "lessonId": "lesson_a1_6_81",
       "stage": 17,
       "type": "word_ordering",
@@ -1494,6 +1517,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_a4",
+      "explanation": '\'No, I do not have any known drug allergies\' answers the question clearly.',
       "lessonId": "lesson_a1_6_81",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1518,6 +1542,7 @@ export const LESSON_A1_6_81_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l81_a5",
+      "explanation": '\'I will finish the entire course of antibiotics and schedule a follow-up next week\' uses \'will\' to state a commitment.',
       "lessonId": "lesson_a1_6_81",
       "stage": 17,
       "type": "speaking",

@@ -552,6 +552,7 @@ export const LESSON_A1_1_10_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l10_p3',
+      explanation: 'Frequency adverbs like \'never\' come after \'is\' (am, is, are) but before other verbs: \'He is never late.\'',
       lessonId: 'lesson_a1_1_10',
       stage: 8,
       type: 'word_ordering',
@@ -575,6 +576,7 @@ export const LESSON_A1_1_10_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l10_p5',
+      explanation: '\'Often\' comes before the main verb: \'We often go to the park on Sunday.\'',
       lessonId: 'lesson_a1_1_10',
       stage: 9,
       type: 'listen_and_type',
@@ -584,6 +586,7 @@ export const LESSON_A1_1_10_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l10_p6',
+      explanation: '\'How often\' asks about frequency. The question continues: \'do\' + subject + base verb.',
       lessonId: 'lesson_a1_1_10',
       stage: 10,
       type: 'word_ordering',
@@ -593,6 +596,7 @@ export const LESSON_A1_1_10_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l10_p7',
+      explanation: '\'Usually\' comes before the main verb \'relax\': \'I usually relax and read a book.\'',
       lessonId: 'lesson_a1_1_10',
       stage: 12,
       type: 'speaking',
@@ -602,6 +606,7 @@ export const LESSON_A1_1_10_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l10_p8',
+      explanation: '\'Rarely\' comes before the main verb: \'He rarely eats out at night.\' Hindi: \'वह शायद ही कभी रात में बाहर खाता है।\'',
       lessonId: 'lesson_a1_1_10',
       stage: 13,
       type: 'translation',
@@ -686,6 +691,7 @@ export const LESSON_A1_1_10_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l10_p14',
+      explanation: '\'Always\' comes before the main verb: \'We always finish work early on Friday.\'',
       lessonId: 'lesson_a1_1_10',
       stage: 8,
       type: 'word_ordering',
@@ -695,6 +701,7 @@ export const LESSON_A1_1_10_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l10_p15',
+      explanation: '\'Rarely\' comes before the main verb. With \'I\', the verb \'drink\' has no -s.',
       lessonId: 'lesson_a1_1_10',
       stage: 12,
       type: 'speaking',
@@ -736,6 +743,7 @@ export const LESSON_A1_1_10_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l10_rev3',
+      explanation: 'With \'are\', the adverb \'always\' comes after the verb: \'They are always friendly to new students.\'',
       lessonId: 'lesson_a1_1_10',
       stage: 16,
       type: 'word_ordering',
@@ -745,6 +753,7 @@ export const LESSON_A1_1_10_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l10_rev4',
+      explanation: '\'Often\' comes before the main verb \'have\': \'We often have lunch with family on Sunday.\' Hindi: \'हम अक्सर रविवार को परिवार के साथ लंच करते हैं।\'',
       lessonId: 'lesson_a1_1_10',
       stage: 16,
       type: 'translation',
@@ -790,6 +799,7 @@ export const LESSON_A1_1_10_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l10_a3',
+      explanation: '\'Usually\' comes before the verb \'leaves\'. \'She\' takes -s on the verb.',
       lessonId: 'lesson_a1_1_10',
       stage: 17,
       type: 'word_ordering',
@@ -827,6 +837,7 @@ export const LESSON_A1_1_10_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l10_a6',
+      explanation: 'With \'is\', the adverb \'often\' comes after the verb: \'He is often tired after work.\'',
       lessonId: 'lesson_a1_1_10',
       stage: 17,
       type: 'listen_and_type',
@@ -850,6 +861,7 @@ export const LESSON_A1_1_10_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l10_a8',
+      explanation: 'With \'is\', \'always\' comes after the verb: \'She is always on time.\' Hindi: \'वह हमेशा समय पर आती है।\'',
       lessonId: 'lesson_a1_1_10',
       stage: 17,
       type: 'translation',
@@ -876,6 +888,7 @@ export const LESSON_A1_1_10_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l10_a10',
+      explanation: 'In the question, \'usually\' goes between the subject and the main verb: \'What do you usually do on Sunday evening?\'',
       lessonId: 'lesson_a1_1_10',
       stage: 17,
       type: 'word_ordering',

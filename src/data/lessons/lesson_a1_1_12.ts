@@ -558,6 +558,7 @@ export const LESSON_A1_1_12_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l12_p3',
+      explanation: 'Questions with \'you\' use \'do\' + subject + base verb: \'What time do you start work in the morning?\'',
       lessonId: 'lesson_a1_1_12',
       stage: 8,
       type: 'word_ordering',
@@ -581,6 +582,7 @@ export const LESSON_A1_1_12_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l12_p5',
+      explanation: '\'Where do you have lunch?\' uses the question word, then \'do\', the subject, and the base verb \'have\'.',
       lessonId: 'lesson_a1_1_12',
       stage: 9,
       type: 'listen_and_type',
@@ -590,6 +592,7 @@ export const LESSON_A1_1_12_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l12_p6',
+      explanation: 'With \'she\', use \'does\' in the question, and the main verb \'go\' has no -s: \'How often does she go to the gym?\'',
       lessonId: 'lesson_a1_1_12',
       stage: 10,
       type: 'word_ordering',
@@ -599,6 +602,7 @@ export const LESSON_A1_1_12_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l12_p7',
+      explanation: 'A yes/no question starts with \'do\' + subject + base verb: \'Do you drink coffee every morning?\'',
       lessonId: 'lesson_a1_1_12',
       stage: 12,
       type: 'speaking',
@@ -608,6 +612,7 @@ export const LESSON_A1_1_12_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l12_p8',
+      explanation: 'Answer with a short form: \'No, I don\'t.\' Hindi: \'क्या आप सप्ताहांत पर काम करते हैं? — नहीं, मैं नहीं करता।\'',
       lessonId: 'lesson_a1_1_12',
       stage: 13,
       type: 'translation',
@@ -692,6 +697,7 @@ export const LESSON_A1_1_12_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l12_p14',
+      explanation: 'With \'they\', use \'do\' in the question and the base verb \'speak\': \'How many languages do they speak?\'',
       lessonId: 'lesson_a1_1_12',
       stage: 8,
       type: 'word_ordering',
@@ -701,6 +707,7 @@ export const LESSON_A1_1_12_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l12_p15',
+      explanation: '\'What time do you usually finish work?\' uses \'do\' + \'you\' + the adverb \'usually\' + the base verb.',
       lessonId: 'lesson_a1_1_12',
       stage: 12,
       type: 'speaking',
@@ -742,6 +749,7 @@ export const LESSON_A1_1_12_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l12_rev3',
+      explanation: 'With \'you\', use \'do\' in the question. Prepositions such as \'with\' usually come at the end of the question: \'Who do you eat dinner with on Friday?\'',
       lessonId: 'lesson_a1_1_12',
       stage: 16,
       type: 'word_ordering',
@@ -751,6 +759,7 @@ export const LESSON_A1_1_12_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l12_rev4',
+      explanation: 'The first \'do\' is the helper verb that forms the question. The second \'do\' is the main verb: \'What do you do on the weekend?\'',
       lessonId: 'lesson_a1_1_12',
       stage: 16,
       type: 'translation',
@@ -796,6 +805,7 @@ export const LESSON_A1_1_12_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l12_a3',
+      explanation: 'With \'you\', use \'do\' in the question. \'Want\' and \'learn\' keep the base form: \'Why do you want to learn English?\'',
       lessonId: 'lesson_a1_1_12',
       stage: 17,
       type: 'word_ordering',
@@ -833,6 +843,7 @@ export const LESSON_A1_1_12_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l12_a6',
+      explanation: '\'How do you go to work?\' asks how someone travels: \'do\' + subject + base verb.',
       lessonId: 'lesson_a1_1_12',
       stage: 17,
       type: 'listen_and_type',
@@ -856,6 +867,7 @@ export const LESSON_A1_1_12_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l12_a8',
+      explanation: 'With \'you\', use \'do\' in the question and the base verb \'speak\': \'How many languages do you speak?\' Hindi: \'आप कितनी भाषाएँ बोलते हैं?\'',
       lessonId: 'lesson_a1_1_12',
       stage: 17,
       type: 'translation',
@@ -882,6 +894,7 @@ export const LESSON_A1_1_12_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l12_a10',
+      explanation: 'With \'we\', use \'do\' in the question: \'Which bus do we take to go to the museum?\' \'Which\' asks the learner to choose between options.',
       lessonId: 'lesson_a1_1_12',
       stage: 17,
       type: 'word_ordering',

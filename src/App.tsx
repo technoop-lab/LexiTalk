@@ -1,30 +1,39 @@
-import { useState, useEffect } from 'react';
+import React, { lazy, Suspense, useState, useEffect } from 'react';
 import { UserAcademyProfile, LessonNode, CourseUnit, CEFRLevel, NativeLanguageCode } from './types';
 import { AuthService } from './services/AuthService';
+
+// Keep route-specific code out of the first screen. Each feature loads only
+// when the learner opens it; the local fallback also works while a chunk loads.
+function lazyNamed<P extends object>(
+  importer: () => Promise<{ default: React.ComponentType<P> }>,
+): React.FC<P> {
+  const Component = lazy(importer);
+  const LazyFeature: React.FC<P> = (props) => (
+    <Suspense fallback={<div className="p-6 text-center text-sm text-slate-500">Loading…</div>}>
+      <Component {...props} />
+    </Suspense>
+  );
+  return LazyFeature;
+}
+
+const OnboardingFlow = lazyNamed(() => import('./components/OnboardingFlow').then(m => ({ default: m.OnboardingFlow })));
+const LearnerAppShell = lazyNamed(() => import('./components/learner/LearnerAppShell').then(m => ({ default: m.LearnerAppShell })));
+const LessonRunner = lazyNamed(() => import('./components/LessonRunner').then(m => ({ default: m.LessonRunner })));
+const LessonEngine = lazyNamed(() => import('./components/lesson/LessonEngine').then(m => ({ default: m.LessonEngine })));
+const StoryModeView = lazyNamed(() => import('./components/StoryModeView').then(m => ({ default: m.StoryModeView })));
+const GrammarHandbook = lazyNamed(() => import('./components/GrammarHandbook').then(m => ({ default: m.GrammarHandbook })));
+const ShopAndProfile = lazyNamed(() => import('./components/ShopAndProfile').then(m => ({ default: m.ShopAndProfile })));
+const AccountAuthModal = lazyNamed(() => import('./components/AccountAuthModal').then(m => ({ default: m.AccountAuthModal })));
+const CertificateModal = lazyNamed(() => import('./components/CertificateModal').then(m => ({ default: m.CertificateModal })));
+const AudioProductionTestScreen = lazyNamed(() => import('./components/AudioProductionTestScreen').then(m => ({ default: m.AudioProductionTestScreen })));
+const AdminCurriculumDashboard = lazyNamed(() => import('./components/admin/AdminCurriculumDashboard').then(m => ({ default: m.AdminCurriculumDashboard })));
+const DeveloperModeBanner = lazyNamed(() => import('./components/developer/DeveloperModeBanner').then(m => ({ default: m.DeveloperModeBanner })));
+const LearnerPreviewBar = lazyNamed(() => import('./components/developer/LearnerPreviewBar').then(m => ({ default: m.LearnerPreviewBar })));
+const DeveloperTestControlModal = lazyNamed(() => import('./components/developer/DeveloperTestControlModal').then(m => ({ default: m.DeveloperTestControlModal })));
+const DeveloperCurriculumExplorer = lazyNamed(() => import('./components/developer/DeveloperCurriculumExplorer').then(m => ({ default: m.DeveloperCurriculumExplorer })));
+const DeveloperExerciseDebugger = lazyNamed(() => import('./components/developer/DeveloperExerciseDebugger').then(m => ({ default: m.DeveloperExerciseDebugger })));
 import { setActiveEnglishAccent } from './utils/audioUtils';
-import { ProgressService } from './services/ProgressService';
-import { CurriculumService } from './services/CurriculumService';
-import { LessonService } from './services/LessonService';
 import { EntitlementService } from './services/EntitlementService';
-import { DeveloperTestService } from './services/DeveloperTestService';
-import { OnboardingFlow } from './components/OnboardingFlow';
-import { CuriosityPath } from './components/CuriosityPath';
-import { LessonRunner } from './components/LessonRunner';
-import { LessonEngine } from './components/lesson/LessonEngine';
-import { StoryModeView } from './components/StoryModeView';
-import { GrammarHandbook } from './components/GrammarHandbook';
-import { ShopAndProfile } from './components/ShopAndProfile';
-import { AccountAuthModal } from './components/AccountAuthModal';
-import { CertificateModal } from './components/CertificateModal';
-import { AudioProductionTestScreen } from './components/AudioProductionTestScreen';
-import { AdminCurriculumDashboard } from './components/admin/AdminCurriculumDashboard';
-import { LearnerAppShell } from './components/learner/LearnerAppShell';
-import { DeveloperModeBanner } from './components/developer/DeveloperModeBanner';
-import { LearnerPreviewBar } from './components/developer/LearnerPreviewBar';
-import { DeveloperTestControlModal } from './components/developer/DeveloperTestControlModal';
-import { DeveloperCurriculumExplorer } from './components/developer/DeveloperCurriculumExplorer';
-import { DeveloperExerciseDebugger } from './components/developer/DeveloperExerciseDebugger';
-import { AudioService } from './services/AudioService';
 
 export default function App() {
   const [currentUser, setCurrentUser] = useState<UserAcademyProfile>(() => AuthService.getCurrentUser());
@@ -88,6 +97,7 @@ export default function App() {
   // Handler: Select and launch a lesson
   const handleSelectLesson = async (lesson: LessonNode) => {
     setActiveLesson(lesson);
+    const { LessonService } = await import('./services/LessonService');
     const data = await LessonService.getLessonById(lesson.id);
     setActiveLessonData(data);
     setCurrentScreen('lesson');
@@ -161,13 +171,14 @@ export default function App() {
       exercises: [],
     };
     setActiveLesson(targetNode);
+    const { LessonService } = await import('./services/LessonService');
     const data = await LessonService.getLessonById('lesson_a1_1_1');
     setActiveLessonData(data);
     setCurrentScreen('lesson');
 
     if (audioId) {
       setTimeout(() => {
-        AudioService.play(audioId);
+        void import('./services/AudioService').then(({ AudioService }) => AudioService.play(audioId));
       }, 600);
     }
   };
@@ -216,6 +227,7 @@ export default function App() {
           user={currentUser}
           onUpdateUser={updateCurrentUser}
           onLaunchLesson={async (lessonId) => {
+            const { LessonService } = await import('./services/LessonService');
             const detailedData = await LessonService.getLessonById(lessonId);
             const targetNode: LessonNode = {
               id: lessonId,
@@ -242,6 +254,7 @@ export default function App() {
             onUpdateUser={updateCurrentUser}
             onClose={() => setShowTestControlsModal(false)}
             onLaunchLesson={async (lessonId) => {
+              const { LessonService } = await import('./services/LessonService');
               const detailedData = await LessonService.getLessonById(lessonId);
               const targetNode: LessonNode = {
                 id: lessonId,
@@ -316,6 +329,7 @@ export default function App() {
               user={currentUser}
               onUpdateUser={updateCurrentUser}
               onLaunchLesson={async (lessonId) => {
+                const { LessonService } = await import('./services/LessonService');
                 const detailedData = await LessonService.getLessonById(lessonId);
                 const targetNode: LessonNode = {
                   id: lessonId,
@@ -424,6 +438,7 @@ export default function App() {
             onUpdateUser={updateCurrentUser}
             onClose={() => setShowTestControlsModal(false)}
             onLaunchLesson={async (lessonId) => {
+              const { LessonService } = await import('./services/LessonService');
               const detailedData = await LessonService.getLessonById(lessonId);
               const targetNode: LessonNode = {
                 id: lessonId,
@@ -445,8 +460,9 @@ export default function App() {
         {isPreview && currentScreen === 'path' && (
           <LearnerPreviewBar
             onExitPreview={() => {
-              const updated = DeveloperTestService.toggleLearnerPreviewMode(false);
-              updateCurrentUser(updated);
+              void import('./services/DeveloperTestService').then(({ DeveloperTestService }) => {
+                updateCurrentUser(DeveloperTestService.toggleLearnerPreviewMode(false));
+              });
             }}
             onOpenControls={() => setShowTestControlsModal(true)}
           />

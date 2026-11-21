@@ -959,6 +959,7 @@ export const LESSON_A1_2_29_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l29_p05',
+      explanation: 'Irregular past forms must be memorized: see - saw, eat - ate, have - had, take - took.',
       lessonId: 'lesson_a1_2_29',
       type: 'match_pairs',
       prompt: 'Match present verb with its irregular past form:',
@@ -1034,6 +1035,7 @@ export const LESSON_A1_2_29_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l29_p11',
+      explanation: 'Regular verbs add -ed (or -d for verbs already ending in -e): work - worked, play - played, clean - cleaned, arrive - arrived.',
       lessonId: 'lesson_a1_2_29',
       type: 'match_pairs',
       prompt: 'Match regular verb with its past form:',
@@ -1126,6 +1128,7 @@ export const LESSON_A1_2_29_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l29_r03',
+      explanation: '\'What did you buy?\' is answered with the object \'A new winter jacket.\' \'Did you cook?\' is answered with \'No, we ordered takeout.\'',
       lessonId: 'lesson_a1_2_29',
       type: 'match_pairs',
       prompt: 'Match the question with the logical response:',
@@ -1213,6 +1216,7 @@ export const LESSON_A1_2_29_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l29_a05',
+      explanation: 'Irregular past forms: make - made, write - wrote, drink - drank, buy - bought.',
       lessonId: 'lesson_a1_2_29',
       type: 'match_pairs',
       prompt: 'Match present infinitive with irregular past form:',

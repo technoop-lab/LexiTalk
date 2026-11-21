@@ -634,6 +634,7 @@ export const LESSON_A1_2_23_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l23_p3',
+      explanation: '\'Can I try on...?\' is a polite request. \'The fitting room\' is the place to try clothes.',
       lessonId: 'lesson_a1_2_23',
       stage: 8,
       type: 'word_ordering',
@@ -657,6 +658,7 @@ export const LESSON_A1_2_23_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l23_p5',
+      explanation: '\'Suits you\' means the item looks good on you. \'That blue wool sweater\' is the subject.',
       lessonId: 'lesson_a1_2_23',
       stage: 9,
       type: 'listen_and_type',
@@ -666,6 +668,7 @@ export const LESSON_A1_2_23_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l23_p6',
+      explanation: '\'How much are...?\' asks for the price with plural items like \'boots\'. \'Those\' is used for items at a distance.',
       lessonId: 'lesson_a1_2_23',
       stage: 10,
       type: 'word_ordering',
@@ -675,6 +678,7 @@ export const LESSON_A1_2_23_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l23_p7',
+      explanation: '\'It fits me perfectly\' means it is the right size. \'I will take it\' means I am buying it.',
       lessonId: 'lesson_a1_2_23',
       stage: 12,
       type: 'speaking',
@@ -684,6 +688,7 @@ export const LESSON_A1_2_23_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l23_p8',
+      explanation: '\'In a medium size\' describes the size. \'Do you have this jacket?\' asks about availability. Hindi: \'क्या आपके पास यह जैकेट मीडियम साइज में है?\'',
       lessonId: 'lesson_a1_2_23',
       stage: 13,
       type: 'translation',
@@ -768,6 +773,7 @@ export const LESSON_A1_2_23_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l23_p14',
+      explanation: '\'Are on sale\' is the passive form in the present. \'With a discount\' explains the offer.',
       lessonId: 'lesson_a1_2_23',
       stage: 8,
       type: 'word_ordering',
@@ -777,6 +783,7 @@ export const LESSON_A1_2_23_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l23_p15',
+      explanation: '\'Do you have this dress in small or medium?\' asks about sizes. \'Excuse me\' is a polite opening.',
       lessonId: 'lesson_a1_2_23',
       stage: 12,
       type: 'speaking',
@@ -818,6 +825,7 @@ export const LESSON_A1_2_23_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l23_rev3',
+      explanation: '\'Made of\' gives the material. \'This cotton shirt\' is singular, but the sentence uses \'is made\' (not \'are\').',
       lessonId: 'lesson_a1_2_23',
       stage: 16,
       type: 'word_ordering',
@@ -827,6 +835,7 @@ export const LESSON_A1_2_23_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l23_rev4',
+      explanation: '\'It fits perfectly\' means the size is right. \'I will take it\' means buying it. Hindi: \'यह बिल्कुल सही फिट है। मैं इसे लूँगा!\'',
       lessonId: 'lesson_a1_2_23',
       stage: 16,
       type: 'translation',
@@ -872,6 +881,7 @@ export const LESSON_A1_2_23_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l23_a3',
+      explanation: '\'A larger size\' is a comparative request. \'Do you have this dress in...?\' asks about availability.',
       lessonId: 'lesson_a1_2_23',
       stage: 17,
       type: 'word_ordering',
@@ -909,6 +919,7 @@ export const LESSON_A1_2_23_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l23_a6',
+      explanation: '\'Where are...?\' is used with the plural \'the fitting rooms\'. \'Please\' is a polite ending.',
       lessonId: 'lesson_a1_2_23',
       stage: 17,
       type: 'listen_and_type',
@@ -932,6 +943,7 @@ export const LESSON_A1_2_23_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l23_a8',
+      explanation: '\'Too small\' means smaller than needed. \'These shoes\' is plural, so \'are\' is used. Hindi: \'ये जूते मेरे लिए बहुत छोटे हैं।\'',
       lessonId: 'lesson_a1_2_23',
       stage: 17,
       type: 'translation',
@@ -958,6 +970,7 @@ export const LESSON_A1_2_23_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l23_a10',
+      explanation: '\'That green jacket\' is singular, so \'suits\' takes -s. \'Looks great\' means it looks good.',
       lessonId: 'lesson_a1_2_23',
       stage: 17,
       type: 'word_ordering',

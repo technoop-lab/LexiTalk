@@ -1050,6 +1050,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u03_l32_p1",
+      "explanation": 'Use \'on\' with days (on Tuesday morning) and \'at\' with clock times (at 10 AM).',
       "type": "multiple_choice",
       "prompt": "Choose the correct preposition to complete the sentence:",
       "targetSentence": "My doctor appointment is on Tuesday morning at 10 AM.",
@@ -1078,6 +1079,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_p2",
+      "explanation": '\'For four\' gives the number of people in a booking: \'a table for four\'.',
       "type": "fill_blank",
       "prompt": "Fill in the blank with the correct booking phrase:",
       "targetSentence": "I would like to book a table for four tonight.",
@@ -1106,6 +1108,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_p3",
+      "explanation": 'A question starts with \'What times\' followed by \'are\' and the subject: \'What times are available on Friday afternoon?\'',
       "type": "word_ordering",
       "prompt": "Assemble the polite inquiry sentence:",
       "targetSentence": "What times are available on Friday afternoon",
@@ -1123,6 +1126,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_p4",
+      "explanation": 'The audio says: \'confirmed for Thursday at two thirty in the afternoon,\' which is \'Thursday at 2:30 PM\'.',
       "type": "listening",
       "prompt": "Listen to the audio and identify the confirmed time:",
       "audioText": "Your appointment is confirmed for Thursday at two thirty in the afternoon.",
@@ -1151,6 +1155,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_p5",
+      "explanation": '\'At\' is used with clock times: \'at three o\'clock\'. \'In\', \'to\' and \'of\' do not fit.',
       "type": "error_correction",
       "prompt": "Correct the preposition error:",
       "targetSentence": "I have a meeting at three o'clock.",
@@ -1180,6 +1185,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_p6",
+      "explanation": 'Confirming a reservation: \'Yes, 10 AM on Monday is perfect, thank you!\' answers the question and uses \'on\' with a day.',
       "type": "dialogue_completion",
       "prompt": "Select the best response to confirm a reservation:",
       "dialogueContext": {
@@ -1212,6 +1218,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_p7",
+      "explanation": '\'Book an appointment with the doctor\' is a standard phrase. \'I would like\' is a polite request. Hindi: \'मैं डॉक्टर के साथ अपॉइंटमेंट बुक करना चाहूँगा।\'',
       "type": "translation",
       "prompt": "Translate this booking request into English:",
       "sourceSentence": "मैं डॉक्टर के साथ एक अपॉइंटमेंट बुक करना चाहता हूँ।",
@@ -1237,6 +1244,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_p8",
+      "explanation": '\'Reschedule\' means change the date or time, so \'my appointment to Friday\' gives the new day. \'Could I please\' is a polite request.',
       "type": "speaking",
       "prompt": "Speak this polite rescheduling request clearly:",
       "targetSentence": "Could I please reschedule my appointment to Friday?",
@@ -1244,6 +1252,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_p9",
+      "explanation": '\'Please confirm your full name and phone number\' is a polite instruction (imperative verb \'confirm\' with no subject).',
       "type": "listen_and_type",
       "prompt": "Listen to the audio and assemble the sentence:",
       "audioText": "Please confirm your full name and phone number.",
@@ -1263,6 +1272,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_p10",
+      "explanation": 'To move a time, use \'move ... to\' with the new time: \'Could we move our reservation to 8 PM instead?\'',
       "type": "multiple_choice",
       "prompt": "Which phrase is most natural when moving a reservation time?",
       "targetSentence": "Could we move our reservation to 8 PM instead?",
@@ -1291,6 +1301,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_p11",
+      "explanation": 'After \'Let me\', use the base verb: \'Let me check the calendar\'.',
       "type": "fill_blank",
       "prompt": "Choose the correct word for checking schedules:",
       "targetSentence": "Let me check the calendar for available openings.",
@@ -1319,6 +1330,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_p12",
+      "explanation": '\'Reschedule\' means change the date or time, \'cancel\' means call off a booking, \'confirm\' means make it final, and \'available\' means free and open.',
       "type": "match_pairs",
       "prompt": "Match the terms with their definitions:",
       "options": [
@@ -1358,6 +1370,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_p13",
+      "explanation": '\'You are all set\' means everything is arranged. \'On Thursday afternoon\' uses \'on\' with a day.',
       "type": "word_ordering",
       "prompt": "Assemble the final confirmation sentence:",
       "targetSentence": "You are all set for Thursday afternoon",
@@ -1375,6 +1388,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_p14",
+      "explanation": '\'Party of five\' is a booking term meaning a group of five people, so the table is reserved for five.',
       "type": "multiple_choice",
       "prompt": "What does \"party of five\" mean in a restaurant reservation?",
       "targetSentence": "A table reserved for five people.",
@@ -1403,6 +1417,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_p15",
+      "explanation": 'Parts of the day use \'in\' (in the morning, in the afternoon, in the evening).',
       "type": "fill_blank",
       "prompt": "Select the correct preposition for morning/afternoon:",
       "targetSentence": "Dr. Patel has consultations in the afternoon.",
@@ -1433,6 +1448,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u03_l32_rev1",
+      "explanation": '\'Make an appointment on Wednesday at 2 PM\' uses \'on\' with the day and \'at\' with the clock time. The other options use \'making\' after \'would like\' or wrong prepositions.',
       "type": "multiple_choice",
       "prompt": "Select the grammatically correct sentence:",
       "targetSentence": "I would like to make an appointment on Wednesday at 2 PM.",
@@ -1461,6 +1477,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_rev2",
+      "explanation": 'Questions about availability use \'Do you have any...?\' \'Any\' is used in questions with plural nouns like \'openings\'.',
       "type": "word_ordering",
       "prompt": "Build the polite availability inquiry:",
       "targetSentence": "Do you have any openings this coming Friday",
@@ -1479,6 +1496,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_rev3",
+      "explanation": '\'At eight o\'clock sharp\' uses \'at\' with a clock time. \'Sharp\' means exactly on time.',
       "type": "fill_blank",
       "prompt": "Complete the sentence with the appropriate preposition:",
       "targetSentence": "Our dinner reservation is at eight o'clock sharp.",
@@ -1507,6 +1525,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_rev4",
+      "explanation": '\'Could I reschedule...?\' uses the base verb after \'could\'. The correct sentence is already grammatical.',
       "type": "error_correction",
       "prompt": "Correct the error:",
       "targetSentence": "Could I reschedule my dental appointment for next week?",
@@ -1536,6 +1555,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_rev5",
+      "explanation": '\'Is ... convenient for you?\' asks if a time suits the listener. Hindi: \'क्या बुधवार दोपहर 3 बजे आपके लिए सुविधाजनक है?\'',
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "क्या बुधवार दोपहर 3 बजे का समय आपके लिए सुविधाजनक है?",
@@ -1563,6 +1583,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u03_l32_a1",
+      "explanation": 'Use \'at\' with clock times: \'starts at 9:00 AM\'. Note: the options list \'at\' more than once; the correct word is \'at\'.',
       "type": "multiple_choice",
       "prompt": "Which preposition correctly completes: \"The seminar starts ___ 9:00 AM ___ Monday\"?",
       "targetSentence": "at / on",
@@ -1591,6 +1612,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_a2",
+      "explanation": 'After \'Could I please\', use the base verb: \'speak with the receptionist\'.',
       "type": "fill_blank",
       "prompt": "Fill in the blank to complete the polite phone request:",
       "targetSentence": "Could I please speak with the receptionist about my schedule?",
@@ -1619,6 +1641,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_a3",
+      "explanation": '\'For four guests\' gives the group size; \'tonight\' gives the time. The reservation phrase is \'updated your reservation for four guests tonight\'.',
       "type": "word_ordering",
       "prompt": "Assemble the reservation confirmation phrase:",
       "targetSentence": "I have updated your reservation for four guests tonight",
@@ -1638,6 +1661,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_a4",
+      "explanation": 'The receptionist says: \'we have a free consultation tomorrow morning at nine\', which matches \'An appointment is available tomorrow at 9 AM\'. The other options contradict the audio.',
       "type": "listening",
       "prompt": "Listen to the clinic receptionist and choose the correct statement:",
       "audioText": "The doctor is fully booked today, but we have a free consultation tomorrow morning at nine.",
@@ -1666,6 +1690,7 @@ export const LESSON_A1_3_32_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l32_a5",
+      "explanation": '\'Book a table for two\' uses \'for\' with the group size, and \'at seven thirty\' uses \'at\' with the time.',
       "type": "speaking",
       "prompt": "Speak this booking statement clearly into your microphone:",
       "targetSentence": "I would like to book a table for two at seven thirty this evening.",

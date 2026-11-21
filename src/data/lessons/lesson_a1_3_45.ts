@@ -1035,6 +1035,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u03_l45_p1",
+      "explanation": 'Past Continuous (was/were + -ing) describes an action in progress when a shorter action happens (Simple Past): \'was reading... the doorbell rang\'.',
       "type": "multiple_choice",
       "prompt": "Choose the sentence combining Past Continuous with Simple Past correctly:",
       "targetSentence": "While she was reading a novel, the doorbell rang.",
@@ -1063,6 +1064,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_p2",
+      "explanation": '\'The highest\' is the superlative of \'high\' (one syllable, -est) with \'the\'. \'The most high\' and \'higher than\' are not superlatives.',
       "type": "fill_blank",
       "prompt": "Complete with the superlative form:",
       "targetSentence": "Mount Everest is the highest mountain in the world.",
@@ -1091,6 +1093,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_p3",
+      "explanation": '\'A little\' is used with uncountable nouns (milk) in a positive sentence: \'only a little milk\'.',
       "type": "word_ordering",
       "prompt": "Assemble the quantifier sentence for uncountable noun:",
       "targetSentence": "There is only a little milk left in the refrigerator",
@@ -1111,6 +1114,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_p4",
+      "explanation": 'The audio says employees must show their security pass. That matches the first option.',
       "type": "listening",
       "prompt": "Listen to the rule and choose what is required:",
       "audioText": "All employees must show their security pass at the entrance.",
@@ -1139,6 +1143,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_p5",
+      "explanation": '\'More expensive\' is the comparative of a long adjective. \'Expensiver\' and \'expen...\' are incorrect.',
       "type": "error_correction",
       "prompt": "Fix the comparative adjective error:",
       "targetSentence": "This tablet is more expensive than my old phone.",
@@ -1168,6 +1173,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_p6",
+      "explanation": '\'I\'ll open it for you\' is a spontaneous offer. \'I was open it yesterday\' and \'I am must open\' are incorrect.',
       "type": "dialogue_completion",
       "prompt": "Select the natural offer response with \"I'll\":",
       "dialogueContext": {
@@ -1200,6 +1206,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_p7",
+      "explanation": '\'While I was driving\' (past continuous) + \'it started to rain\' (simple past). Hindi: \'जब मैं गाड़ी चला रहा था, तभी बारिश शुरू हो गई।\'',
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "जब मैं गाड़ी चला रहा था, तब बारिश शुरू हो गई।",
@@ -1223,6 +1230,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_p8",
+      "explanation": '\'I have mastered all core grammar topics\' uses the present perfect for a completed achievement.',
       "type": "speaking",
       "prompt": "Speak this capstone milestone sentence clearly:",
       "targetSentence": "I have mastered all core grammar topics in Unit 3.",
@@ -1230,6 +1238,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_p9",
+      "explanation": '\'Are going to celebrate\' is a plan. \'Will celebrated\' is incorrect.',
       "type": "listen_and_type",
       "prompt": "Listen and write the sentence:",
       "audioText": "We are going to celebrate our graduation tonight.",
@@ -1249,6 +1258,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_p10",
+      "explanation": '\'Don\'t have to pay\' means it is not necessary (free water). \'Mustn\'t\' would mean forbidden.',
       "type": "multiple_choice",
       "prompt": "Which sentence correctly uses \"don't have to\" to express lack of obligation?",
       "targetSentence": "You don't have to pay for water; it is complimentary.",
@@ -1277,6 +1287,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_p11",
+      "explanation": '\'Many\' is used with countable nouns in questions: \'How many languages?\' \'Much\' is for uncountable nouns.',
       "type": "fill_blank",
       "prompt": "Complete with the correct quantifier for countable questions:",
       "targetSentence": "How many foreign languages can you speak fluently?",
@@ -1305,6 +1316,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_p12",
+      "explanation": 'Past Continuous: \'was cooking\' (action in progress). Comparative: \'sunnier than\'. Prohibition: \'mustn\'t\' or \'must not\'.',
       "type": "match_pairs",
       "prompt": "Match the Unit 3 structures with their examples:",
       "options": [
@@ -1344,6 +1356,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_p13",
+      "explanation": '\'The most delicious\' is the superlative of a long adjective. The sentence has the correct structure.',
       "type": "word_ordering",
       "prompt": "Assemble the superlative statement:",
       "targetSentence": "This Italian restaurant serves the most delicious pasta in the entire city",
@@ -1366,6 +1379,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_p14",
+      "explanation": 'The strict prohibition is \'mustn\'t\' (= must not). \'Don\'t must\' and \'doesn\'t must\' are not correct.',
       "type": "multiple_choice",
       "prompt": "What is the correct negative form of \"must\" to show strict prohibition?",
       "targetSentence": "mustn't / must not",
@@ -1394,6 +1408,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_p15",
+      "explanation": '\'Are flying\' (present continuous) is used for a fixed arrangement: \'They are flying to New York next Wednesday.\'',
       "type": "fill_blank",
       "prompt": "Fill in the blank with the correct future form for a booked flight:",
       "targetSentence": "They are flying to New York next Wednesday morning.",
@@ -1424,6 +1439,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u03_l45_rev1",
+      "explanation": '\'While we were waiting\' (past continuous) + \'I met\' (simple past) is the correct pattern for an interruption.',
       "type": "multiple_choice",
       "prompt": "Which sentence is completely grammatically correct in all aspects?",
       "targetSentence": "While we were waiting for the train, I met an old friend.",
@@ -1452,6 +1468,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_rev2",
+      "explanation": '\'Although\' is followed by a clause; \'the cleanest in town\' is the superlative. Hindi: \'यह होटल महँगा है, फिर भी शहर में सबसे साफ है।\'',
       "type": "word_ordering",
       "prompt": "Build the integrated sentence:",
       "targetSentence": "Although this hotel is more expensive it is the cleanest in town",
@@ -1474,6 +1491,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_rev3",
+      "explanation": '\'Much\' is used with uncountable nouns (time) in negatives: \'don\'t have much time\'.',
       "type": "fill_blank",
       "prompt": "Complete with the correct quantifier:",
       "targetSentence": "We don't have much time before the boarding gate closes.",
@@ -1502,6 +1520,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_rev4",
+      "explanation": '\'Will\' + base verb \'help\': \'I will help you with those heavy bags\' is a spontaneous offer.',
       "type": "error_correction",
       "prompt": "Fix the future modal error:",
       "targetSentence": "I will help you with those heavy bags.",
@@ -1531,6 +1550,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_rev5",
+      "explanation": '\'Must\' + base verb \'be\' expresses obligation. Hindi: \'आपको पुस्तकालय में शांत रहना होगा।\'',
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "आपको पुस्तकालय में शांत रहना चाहिए।",
@@ -1555,6 +1575,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u03_l45_a1",
+      "explanation": 'The sentence combines the past continuous (\'was studying\') with the simple past (\'discovered\') and a comparative (\'easier than\').',
       "type": "multiple_choice",
       "prompt": "GRAND CAPSTONE FINAL: Which sentence correctly demonstrates mastery of all Unit 3 criteria?",
       "targetSentence": "While I was studying in London, I discovered that English was easier than I thought.",
@@ -1583,6 +1604,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_a2",
+      "explanation": '\'Don\'t have to bring much cash\' (not necessary) with \'much\' for uncountable \'cash\'.',
       "type": "fill_blank",
       "prompt": "Complete the sentence with the correct quantifier and modal:",
       "targetSentence": "You don't have to bring much cash because card payments are accepted.",
@@ -1611,6 +1633,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_a3",
+      "explanation": '\'I am proud that I successfully completed\' uses the present tense for the feeling and the past for the completed action.',
       "type": "word_ordering",
       "prompt": "Assemble the final milestone graduation sentence:",
       "targetSentence": "I am proud that I successfully completed all forty-five lessons in the English Academy",
@@ -1635,6 +1658,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_a4",
+      "explanation": 'The audio says: \'You have demonstrated comprehensive mastery across all forty-five A1 English lessons.\' That matches the first option.',
       "type": "listening",
       "prompt": "Listen to the milestone conclusion audio and choose the correct achievement:",
       "audioText": "Congratulations! You have demonstrated comprehensive mastery across all forty-five A1 English lessons.",
@@ -1663,6 +1687,7 @@ export const LESSON_A1_3_45_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l45_a5",
+      "explanation": '\'Have successfully completed\' is the present perfect for an achievement that is complete and has a result now.',
       "type": "speaking",
       "prompt": "Speak the graduation declaration with pride and clarity:",
       "targetSentence": "I have successfully completed Unit Three and the entire A1 English curriculum!",

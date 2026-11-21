@@ -1050,6 +1050,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u03_l35_p1",
+      "explanation": '\'I have a reservation under the name of...\' is the standard way to state a booking at check-in. \'I am want\' is not grammatical.',
       "type": "multiple_choice",
       "prompt": "Select the correct phrase to begin checking in at a hotel:",
       "targetSentence": "I have a reservation under the name of John Smith.",
@@ -1078,6 +1079,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_p2",
+      "explanation": '\'On\' is used with floors: \'on the third floor\'. \'At\' is used with addresses or places, and \'in\' is for enclosed spaces.',
       "type": "fill_blank",
       "prompt": "Choose the correct preposition: \"Your room is ___ the third floor.\"",
       "targetSentence": "Your room is on the third floor.",
@@ -1106,6 +1108,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_p3",
+      "explanation": '\'Is breakfast included?\' is a yes/no question with \'is\' before the subject. The phrase \'in the room rate\' is the price term.',
       "type": "word_ordering",
       "prompt": "Assemble the polite inquiry about breakfast:",
       "targetSentence": "Is breakfast included in the room rate",
@@ -1123,6 +1126,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_p4",
+      "explanation": 'The audio says: \'check-out time is at eleven o\'clock tomorrow morning\', which means 11:00 AM tomorrow morning.',
       "type": "listening",
       "prompt": "Listen to the audio and identify the check-out time:",
       "audioText": "Please note that check-out time is at eleven o'clock tomorrow morning.",
@@ -1151,6 +1155,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_p5",
+      "explanation": '\'Could I please have...?\' uses \'have\' with the base form after \'could\'. \'Having\' and \'to have\' do not fit this pattern.',
       "type": "error_correction",
       "prompt": "Correct the error in this polite hotel request:",
       "targetSentence": "Could I please have two extra towels?",
@@ -1180,6 +1185,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_p6",
+      "explanation": 'The staff member gives directions with \'located just past the lobby on your right\', which answers a location question.',
       "type": "dialogue_completion",
       "prompt": "Choose the most natural staff response:",
       "dialogueContext": {
@@ -1212,6 +1218,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_p7",
+      "explanation": '\'Is breakfast included in the room price?\' is a yes/no question. Hindi: \'क्या कमरे की कीमत में नाश्ता शामिल है?\'',
       "type": "translation",
       "prompt": "Translate this question into English:",
       "sourceSentence": "क्या कमरे की कीमत में नाश्ता शामिल है?",
@@ -1234,6 +1241,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_p8",
+      "explanation": '\'Could we please request...?\' is a polite form. \'For seven tomorrow morning\' gives the time.',
       "type": "speaking",
       "prompt": "Speak this polite request clearly into your microphone:",
       "targetSentence": "Could we please request a wake-up call for seven tomorrow morning?",
@@ -1241,6 +1249,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_p9",
+      "explanation": '\'Here is your key card\' introduces an object. \'For room 405\' names the room.',
       "type": "listen_and_type",
       "prompt": "Listen to the audio and assemble the sentence:",
       "audioText": "Here is your electronic key card for room 405.",
@@ -1261,6 +1270,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_p10",
+      "explanation": '\'What is the Wi-Fi password?\' is a direct question. \'Where is wifi pass?\' and \'How much is\' do not ask for a password.',
       "type": "multiple_choice",
       "prompt": "Which sentence correctly asks for the wireless network password?",
       "targetSentence": "What is the Wi-Fi password?",
@@ -1289,6 +1299,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_p11",
+      "explanation": 'Ordinal number for 5 is \'fifth\'. Other forms (\'fiveth\', \'fives\') are not words.',
       "type": "fill_blank",
       "prompt": "Select the correct ordinal number: \"Their suite is on the ___ (5) floor.\"",
       "targetSentence": "Their suite is on the fifth floor.",
@@ -1317,6 +1328,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_p12",
+      "explanation": 'Check-in is the arrival registration. Check-out is departure and billing. A key card opens the door, and a minibar is an in-room fridge.',
       "type": "match_pairs",
       "prompt": "Match the hotel terms with their descriptions:",
       "options": [
@@ -1356,6 +1368,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_p13",
+      "explanation": '\'We hope you enjoy your stay\' is a common closing. \'At our hotel\' gives the place.',
       "type": "word_ordering",
       "prompt": "Assemble the hospitable sign-off phrase:",
       "targetSentence": "We hope you enjoy your stay at our hotel",
@@ -1375,6 +1388,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_p14",
+      "explanation": 'A wake-up call is a phone call that wakes you up. Hindi-speakers may translate it literally, so it is important to know the phrase.',
       "type": "multiple_choice",
       "prompt": "What is a \"wake-up call\"?",
       "targetSentence": "A morning phone call from the hotel staff to wake a guest.",
@@ -1403,6 +1417,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_p15",
+      "explanation": '\'Breakfast is served\' is the passive voice. \'Serve\' takes the past participle \'served\' after \'is\'.',
       "type": "fill_blank",
       "prompt": "Complete the sentence with the correct verb: \"Breakfast is ___ in the dining hall from 7 to 10.\"",
       "targetSentence": "Breakfast is served in the dining hall from 7 to 10.",
@@ -1433,6 +1448,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u03_l35_rev1",
+      "explanation": '\'Could I please borrow...?\' is a polite request. \'I want you give\' is not grammatical.',
       "type": "multiple_choice",
       "prompt": "Choose the most natural way to ask for an iron at a hotel:",
       "targetSentence": "Could I please borrow an iron for my clothes?",
@@ -1461,6 +1477,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_rev2",
+      "explanation": '\'On the second floor\' uses \'on\' with floors. \'Near the stairs\' describes the location.',
       "type": "word_ordering",
       "prompt": "Build the floor location sentence:",
       "targetSentence": "Our hotel room is on the second floor near the stairs",
@@ -1482,6 +1499,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_rev3",
+      "explanation": '\'Luggage\' is an uncountable noun and does not take -s. \'Luggages\' is incorrect.',
       "type": "fill_blank",
       "prompt": "Complete the phrase: \"The hotel staff helped us carry our heavy ___ to the room.\"",
       "targetSentence": "The hotel staff helped us carry our heavy luggage to the room.",
@@ -1510,6 +1528,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_rev4",
+      "explanation": '\'On the fourth floor\' uses \'on\' with floors and the ordinal \'fourth\'. \'Four floor\' is incorrect.',
       "type": "error_correction",
       "prompt": "Correct the preposition error:",
       "targetSentence": "We stayed on the fourth floor of the hotel.",
@@ -1539,6 +1558,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_rev5",
+      "explanation": '\'Collect your room key at the front desk\' uses \'at\' for a location. Hindi: \'कृपया फ्रंट डेस्क से अपनी रूम की चाबी लें।\'',
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "कृपया फ्रंट डेस्क से अपने कमरे की चाबी लें।",
@@ -1565,6 +1585,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u03_l35_a1",
+      "explanation": '\'I have a booking under the name of...\' is the standard check-in phrase. \'Reserved in\' is not used this way.',
       "type": "multiple_choice",
       "prompt": "Which phrase is standard when checking in at reception?",
       "targetSentence": "I have a booking under the name of Sarah Johnson.",
@@ -1593,6 +1614,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_a2",
+      "explanation": '\'Could we please have...?\' is the polite request. \'Please\' is the word that fits between \'could we\' and \'have\'.',
       "type": "fill_blank",
       "prompt": "Fill in the blank to complete the request: \"Could we ___ have two extra pillows for our bed?\"",
       "targetSentence": "Could we please have two extra pillows for our bed?",
@@ -1621,6 +1643,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_a3",
+      "explanation": '\'From seven to ten thirty\' gives the times. \'Breakfast is served\' uses the passive voice.',
       "type": "word_ordering",
       "prompt": "Assemble the sentence explaining breakfast timing:",
       "targetSentence": "Breakfast is served in the restaurant from seven to ten thirty",
@@ -1642,6 +1665,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_a4",
+      "explanation": 'The audio says: \'Your room number is 518 on the fifth floor, and check-out is tomorrow at 11 AM.\' Only the first option matches.',
       "type": "listening",
       "prompt": "Listen to the audio and answer the question:",
       "audioText": "Your room number is 518 on the fifth floor, and check-out is tomorrow at 11 AM.",
@@ -1670,6 +1694,7 @@ export const LESSON_A1_3_35_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l35_a5",
+      "explanation": '\'Could you please tell me...?\' is a polite request. \'Wi-Fi password for the guest network\' names the item.',
       "type": "speaking",
       "prompt": "Speak this hotel inquiry clearly into your microphone:",
       "targetSentence": "Could you please tell me the Wi-Fi password for the guest network?",

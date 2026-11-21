@@ -549,6 +549,7 @@ export const LESSON_A1_1_14_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l14_p3',
+      explanation: 'After \'like\', use the -ing form for activities: \'like doing\'. The subject is \'you\', so the question uses \'do\', not \'does\'.',
       lessonId: 'lesson_a1_1_14',
       stage: 8,
       type: 'word_ordering',
@@ -572,6 +573,7 @@ export const LESSON_A1_1_14_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l14_p5',
+      explanation: '\'Love\' + -ing for an activity: \'loves taking photos\'. \'He\' takes -s on \'loves\'.',
       lessonId: 'lesson_a1_1_14',
       stage: 9,
       type: 'listen_and_type',
@@ -581,6 +583,7 @@ export const LESSON_A1_1_14_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l14_p6',
+      explanation: '\'Prefer\' + -ing + \'to\' + -ing compares two activities: \'prefers reading books to watching movies\'.',
       lessonId: 'lesson_a1_1_14',
       stage: 10,
       type: 'word_ordering',
@@ -590,6 +593,7 @@ export const LESSON_A1_1_14_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l14_p7',
+      explanation: '\'Enjoy\' is followed by the -ing form: \'enjoy cooking\' and \'listening to jazz\'.',
       lessonId: 'lesson_a1_1_14',
       stage: 12,
       type: 'speaking',
@@ -599,6 +603,7 @@ export const LESSON_A1_1_14_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l14_p8',
+      explanation: '\'Loves\' takes -s with \'she\', and the activity after it uses -ing: \'loves traveling\'. Hindi: \'उसे नई जगहों की यात्रा करना बहुत पसंद है।\'',
       lessonId: 'lesson_a1_1_14',
       stage: 13,
       type: 'translation',
@@ -683,6 +688,7 @@ export const LESSON_A1_1_14_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l14_p14',
+      explanation: '\'Like\' + -ing: \'We like playing board games.\' With \'we\', \'like\' has no -s.',
       lessonId: 'lesson_a1_1_14',
       stage: 8,
       type: 'word_ordering',
@@ -692,6 +698,7 @@ export const LESSON_A1_1_14_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l14_p15',
+      explanation: 'After \'is\', an -ing form can work as a noun: \'My favorite hobby is reading history books.\'',
       lessonId: 'lesson_a1_1_14',
       stage: 12,
       type: 'speaking',
@@ -733,6 +740,7 @@ export const LESSON_A1_1_14_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l14_rev3',
+      explanation: '\'Love\' + -ing for an activity: \'They love swimming in the lake every summer.\'',
       lessonId: 'lesson_a1_1_14',
       stage: 16,
       type: 'word_ordering',
@@ -742,6 +750,7 @@ export const LESSON_A1_1_14_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l14_rev4',
+      explanation: '\'Prefer\' + -ing + \'to\' + -ing: \'I prefer being with friends to being alone.\' Hindi: \'मुझे अकेले रहने से ज्यादा दोस्तों के साथ रहना पसंद है।\'',
       lessonId: 'lesson_a1_1_14',
       stage: 16,
       type: 'translation',
@@ -787,6 +796,7 @@ export const LESSON_A1_1_14_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l14_a3',
+      explanation: '\'Hates\' takes -s with \'he\', and the activity after it uses -ing: \'hates waking up early.\'',
       lessonId: 'lesson_a1_1_14',
       stage: 17,
       type: 'word_ordering',
@@ -824,6 +834,7 @@ export const LESSON_A1_1_14_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l14_a6',
+      explanation: '\'Enjoy\' + -ing: \'She enjoys swimming and playing tennis.\' \'Enjoys\' takes -s with \'she\'.',
       lessonId: 'lesson_a1_1_14',
       stage: 17,
       type: 'listen_and_type',
@@ -847,6 +858,7 @@ export const LESSON_A1_1_14_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l14_a8',
+      explanation: '\'Like\' + -ing: \'We like playing board games with friends on the weekend.\' Hindi: \'हम सप्ताहांत पर दोस्तों के साथ बोर्ड गेम खेलना पसंद करते हैं।\'',
       lessonId: 'lesson_a1_1_14',
       stage: 17,
       type: 'translation',
@@ -873,6 +885,7 @@ export const LESSON_A1_1_14_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l14_a10',
+      explanation: '\'Prefer\' + -ing + \'or\' + -ing compares two options. The question uses \'do\' with \'you\'.',
       lessonId: 'lesson_a1_1_14',
       stage: 17,
       type: 'word_ordering',

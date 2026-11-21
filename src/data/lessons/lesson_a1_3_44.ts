@@ -1022,6 +1022,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u03_l44_p1",
+      "explanation": '\'Be going to\' + base verb expresses a plan made before speaking: \'am going to visit\'. \'Next month\' is the time.',
       "type": "multiple_choice",
       "prompt": "Select the correct sentence expressing a prior intention:",
       "targetSentence": "I am going to visit my grandparents in Canada next month.",
@@ -1050,6 +1051,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_p2",
+      "explanation": '\'Be going to\' is used for predictions based on present evidence (\'dark clouds\'): \'It is going to rain.\'',
       "type": "fill_blank",
       "prompt": "Complete the prediction based on physical evidence:",
       "targetSentence": "Look at those dark clouds! It is going to rain.",
@@ -1078,6 +1080,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_p3",
+      "explanation": '\'Are meeting\' (present continuous) describes a fixed arrangement with a set time: \'tomorrow at ten o\'clock\'. \'Will\' is not used here.',
       "type": "word_ordering",
       "prompt": "Assemble the fixed arrangement sentence:",
       "targetSentence": "We are meeting the marketing team tomorrow at ten o'clock",
@@ -1098,6 +1101,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_p4",
+      "explanation": 'The audio says: \'They are flying to London on flight 302 next Monday morning.\' That matches the first option.',
       "type": "listening",
       "prompt": "Listen to the travel arrangement and choose the correct detail:",
       "audioText": "They are flying to London on flight 302 next Monday morning.",
@@ -1126,6 +1130,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_p5",
+      "explanation": '\'Is going to\' + base verb \'buy\' (plan). \'Is will buy\' and \'goes to buying\' are incorrect.',
       "type": "error_correction",
       "prompt": "Fix the future intention grammar error:",
       "targetSentence": "She is going to buy a new car.",
@@ -1155,6 +1160,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_p6",
+      "explanation": '\'Am going to hike\' is a plan. \'I am hike yesterday\' and \'I will to hike\' are incorrect.',
       "type": "dialogue_completion",
       "prompt": "Choose the appropriate response about weekend plans:",
       "dialogueContext": {
@@ -1187,6 +1193,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_p7",
+      "explanation": 'Present continuous for a fixed arrangement: \'We are seeing the doctor at three PM tomorrow.\' Hindi: \'हम कल दोपहर 3 बजे डॉक्टर से मिलने जा रहे हैं।\'',
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "हम कल दोपहर तीन बजे डॉक्टर से मिलने जा रहे हैं।",
@@ -1211,6 +1218,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_p8",
+      "explanation": '\'Am going to learn\' expresses a plan for the year ahead. \'This year\' is the time.',
       "type": "speaking",
       "prompt": "Speak this intention clearly:",
       "targetSentence": "I am going to learn conversational English this year.",
@@ -1218,6 +1226,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_p9",
+      "explanation": '\'Is going to start\' is a plan for the future. \'Next month\' is the time.',
       "type": "listen_and_type",
       "prompt": "Listen and write the sentence:",
       "audioText": "He is going to start his new job next month.",
@@ -1239,6 +1248,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_p10",
+      "explanation": 'The present continuous describes a confirmed arrangement with a fixed time: \'I am having lunch with the director at 1 PM today.\'',
       "type": "multiple_choice",
       "prompt": "Which sentence describes a fixed calendar arrangement with a confirmed time?",
       "targetSentence": "I am having lunch with the director at 1 PM today.",
@@ -1267,6 +1277,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_p11",
+      "explanation": '\'Are going to travel\' (plural subject \'they\'). \'Is going to\' is for singular subjects.',
       "type": "fill_blank",
       "prompt": "Fill in the blank with the correct form of \"be going to\":",
       "targetSentence": "They are going to travel across Europe by train.",
@@ -1295,6 +1306,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_p12",
+      "explanation": '\'Be going to\' for a sign of a future event (\'it is going to fall\') is evidence-based. \'I\'ll answer the door\' is a spontaneous decision.',
       "type": "match_pairs",
       "prompt": "Match the sentences with their communicative functions:",
       "options": [
@@ -1334,6 +1346,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_p13",
+      "explanation": '\'Are you going to stay\' asks about a plan. \'Where\' is the question word for place.',
       "type": "word_ordering",
       "prompt": "Assemble the question about future plans:",
       "targetSentence": "Where are you going to stay during your holiday in Spain",
@@ -1355,6 +1368,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_p14",
+      "explanation": '\'Be going to\' is used for a plan already decided or for a prediction based on evidence. \'Will\' is used for decisions made at the moment.',
       "type": "multiple_choice",
       "prompt": "When do we prefer \"be going to\" over spontaneous \"will\"?",
       "targetSentence": "When the plan was decided before the conversation or visual evidence exists.",
@@ -1383,6 +1397,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_p15",
+      "explanation": 'Negative of \'be going to\' is \'aren\'t/are not going to\' with \'we\'. \'Don\'t going to\' is incorrect.',
       "type": "fill_blank",
       "prompt": "Complete the negative plan sentence:",
       "targetSentence": "We are not going to attend the seminar this Friday.",
@@ -1413,6 +1428,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u03_l44_rev1",
+      "explanation": 'The present continuous describes a confirmed appointment: \'She is seeing her dentist at ten tomorrow morning.\'',
       "type": "multiple_choice",
       "prompt": "Which sentence correctly expresses a confirmed appointment using Present Continuous?",
       "targetSentence": "She is seeing her dentist at ten tomorrow morning.",
@@ -1441,6 +1457,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_rev2",
+      "explanation": '\'Be going to\' + base verb \'drop\' is a warning based on visible evidence (the glasses are slipping).',
       "type": "word_ordering",
       "prompt": "Build the evidence prediction sentence:",
       "targetSentence": "Watch out because you are going to drop those glasses",
@@ -1461,6 +1478,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_rev3",
+      "explanation": 'Questions with \'be going to\' start with the \'be\' verb: \'Are you going to cook?\' \'Do you going to\' is incorrect.',
       "type": "fill_blank",
       "prompt": "Complete with the correct question form:",
       "targetSentence": "Are you going to cook dinner tonight?",
@@ -1489,6 +1507,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_rev4",
+      "explanation": '\'Am going to start\' is a plan. \'Next week\' is the time.',
       "type": "error_correction",
       "prompt": "Fix the intention sentence structure:",
       "targetSentence": "I am going to start an online course next week.",
@@ -1518,6 +1537,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_rev5",
+      "explanation": '\'Am going to buy\' is a plan for next year. Hindi: \'मैं अगले साल एक नया कंप्यूटर खरीदने वाला हूँ।\'',
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "मैं अगले साल एक नया कंप्यूटर खरीदने जा रहा हूँ।",
@@ -1545,6 +1565,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u03_l44_a1",
+      "explanation": '\'I am going to the concert next Friday evening\' is a plan. \'Next Friday evening\' is the time.',
       "type": "multiple_choice",
       "prompt": "Choose the most appropriate sentence for someone who already bought a concert ticket for next Friday:",
       "targetSentence": "I am going to the concert next Friday evening.",
@@ -1573,6 +1594,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_a2",
+      "explanation": '\'The athlete is going to win\' is a prediction based on evidence (the athlete is in the race).',
       "type": "fill_blank",
       "prompt": "Complete the sentence with \"is going to\":",
       "targetSentence": "The athlete is going to win the gold medal.",
@@ -1601,6 +1623,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_a3",
+      "explanation": '\'What countries are you going to visit?\' asks about plans. \'Are you going to\' is the question form.',
       "type": "word_ordering",
       "prompt": "Assemble the question asking about vacation plans:",
       "targetSentence": "What countries are you going to visit during your summer trip",
@@ -1622,6 +1645,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_a4",
+      "explanation": 'The audio warns: \'The ladder is shaking and you are going to fall.\' That matches the first option.',
       "type": "listening",
       "prompt": "Listen to the warning and identify what is about to happen:",
       "audioText": "Be careful! The ladder is shaking and you are going to fall.",
@@ -1650,6 +1674,7 @@ export const LESSON_A1_3_44_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l44_a5",
+      "explanation": '\'We are flying to Rome next Tuesday morning at eight o\'clock\' is a fixed arrangement (present continuous).',
       "type": "speaking",
       "prompt": "Speak this fixed arrangement clearly:",
       "targetSentence": "We are flying to Rome next Tuesday morning at eight o'clock.",

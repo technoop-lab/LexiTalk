@@ -1026,6 +1026,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u06_l88_p1",
+      "explanation": 'A zero conditional describes general truths: \'When water reaches... it evaporates\'. Use the present simple in both clauses.',
       "lessonId": "lesson_a1_6_88",
       "stage": 8,
       "type": "multiple_choice",
@@ -1050,6 +1051,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_p2",
+      "explanation": '\'The Moon orbits the Earth every twenty-seven days\' is a complete present simple statement. \'Orbit\' needs an -s with a singular subject.',
       "lessonId": "lesson_a1_6_88",
       "stage": 8,
       "type": "multiple_choice",
@@ -1074,6 +1076,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_p3",
+      "explanation": 'Tides are the regular rise and fall of the sea caused by the Moon\'s gravity. \'Tires\' and \'titles\' do not fit.',
       "lessonId": "lesson_a1_6_88",
       "stage": 8,
       "type": "fill_blank",
@@ -1100,6 +1103,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_p4",
+      "explanation": 'A telescope observes distant objects. A microscope magnifies tiny cells. A satellite orbits a planet. A probe explores space.',
       "lessonId": "lesson_a1_6_88",
       "stage": 8,
       "type": "match_pairs",
@@ -1125,6 +1129,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_p5",
+      "explanation": '\'Jupiter is the largest planet in our solar system\' uses \'the\' + superlative adjective.',
       "lessonId": "lesson_a1_6_88",
       "stage": 8,
       "type": "word_ordering",
@@ -1144,6 +1149,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_p6",
+      "explanation": 'A general truth uses \'when\' + present simple: \'When water freezes, it expands\'. \'When water freezing\' is not a complete clause.',
       "lessonId": "lesson_a1_6_88",
       "stage": 8,
       "type": "error_correction",
@@ -1165,6 +1171,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_p7",
+      "explanation": '\'Astronomers use powerful telescopes to observe distant galaxies\' uses \'to\' + base verb to show purpose.',
       "lessonId": "lesson_a1_6_88",
       "stage": 9,
       "type": "listen_and_type",
@@ -1174,6 +1181,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_p8",
+      "explanation": '\'The Northern Lights occur when charged solar particles enter Earth\'s atmosphere\' states a scientific fact with the present simple.',
       "lessonId": "lesson_a1_6_88",
       "stage": 10,
       "type": "multiple_choice",
@@ -1198,6 +1206,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_p9",
+      "explanation": '\'Because Earth\'s gravitational pull keeps it in orbit\' gives the scientific reason with \'because\'.',
       "lessonId": "lesson_a1_6_88",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1222,6 +1231,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_p10",
+      "explanation": '\'When water is heated to one hundred degrees Celsius, it evaporates into steam\' is a zero conditional about a scientific process.',
       "lessonId": "lesson_a1_6_88",
       "stage": 12,
       "type": "speaking",
@@ -1231,6 +1241,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_p11",
+      "explanation": '\'Jupiter is the largest planet in our solar system\' is a factual statement. Hindi: \'बृहस्पति हमारे सौर मंडल का सबसे बड़ा ग्रह है।\'',
       "lessonId": "lesson_a1_6_88",
       "stage": 13,
       "type": "translation",
@@ -1239,6 +1250,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_p12",
+      "explanation": 'An asteroid is a rocky object in space, mostly between Mars and Jupiter. An astronaut travels in space and an atmosphere is a layer of gases.',
       "lessonId": "lesson_a1_6_88",
       "stage": 14,
       "type": "multiple_choice",
@@ -1263,6 +1275,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_p13",
+      "explanation": 'A hypothesis is a testable idea. \'Hyperlink\' and \'hygiene\' do not fit.',
       "lessonId": "lesson_a1_6_88",
       "stage": 14,
       "type": "fill_blank",
@@ -1289,6 +1302,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_p14",
+      "explanation": '\'The Mars rover collects mineral samples on Mars\' states a fact about a spacecraft\'s job.',
       "lessonId": "lesson_a1_6_88",
       "stage": 14,
       "type": "word_ordering",
@@ -1307,6 +1321,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_p15",
+      "explanation": '\'Our solar system is located within the spiral arms of the Milky Way galaxy\' is a factual present simple statement with \'located within\'.',
       "lessonId": "lesson_a1_6_88",
       "stage": 14,
       "type": "speaking",
@@ -1318,6 +1333,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u06_l88_r1",
+      "explanation": '\'When ice melts, it transforms into liquid water\' is a zero conditional with present simple in both clauses.',
       "lessonId": "lesson_a1_6_88",
       "stage": 16,
       "type": "multiple_choice",
@@ -1342,6 +1358,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_r2",
+      "explanation": 'Satellites monitor weather from space. \'Satisfaction\' and \'salads\' do not fit.',
       "lessonId": "lesson_a1_6_88",
       "stage": 16,
       "type": "fill_blank",
@@ -1368,6 +1385,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_r3",
+      "explanation": '\'The Earth takes 365 days to orbit the Sun\' is a present simple statement of fact with \'takes\' for a singular subject.',
       "lessonId": "lesson_a1_6_88",
       "stage": 16,
       "type": "word_ordering",
@@ -1387,6 +1405,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_r4",
+      "explanation": 'Ocean tides are caused by the Moon\'s pull. A solar eclipse happens when the Moon passes between Earth and the Sun.',
       "lessonId": "lesson_a1_6_88",
       "stage": 16,
       "type": "match_pairs",
@@ -1412,6 +1431,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_r5",
+      "explanation": '\'Earth\'s atmosphere protects living organisms from harmful radiation\' is a factual statement. Hindi: \'पृथ्वी का वायुमंडल जीवित जीवों को हानिकारक विकिरण से बचाता है।\'',
       "lessonId": "lesson_a1_6_88",
       "stage": 16,
       "type": "translation",
@@ -1422,6 +1442,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u06_l88_a1",
+      "explanation": '\'When the Moon orbits between the Earth and the Sun, a solar eclipse occurs\' is a correct zero conditional with a singular subject.',
       "lessonId": "lesson_a1_6_88",
       "stage": 17,
       "type": "multiple_choice",
@@ -1446,6 +1467,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_a2",
+      "explanation": '\'Telescope\' is the correct noun in the name James Webb Space Telescope.',
       "lessonId": "lesson_a1_6_88",
       "stage": 17,
       "type": "fill_blank",
@@ -1472,6 +1494,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_a3",
+      "explanation": '\'The Mars rover sends panoramic photos back to Earth\' is a factual present simple statement.',
       "lessonId": "lesson_a1_6_88",
       "stage": 17,
       "type": "word_ordering",
@@ -1491,6 +1514,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_a4",
+      "explanation": '\'They monitor cloud movements and atmospheric pressure from orbit\' explains how satellites help forecasts.',
       "lessonId": "lesson_a1_6_88",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1515,6 +1539,7 @@ export const LESSON_A1_6_88_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l88_a5",
+      "explanation": '\'The discovery of exoplanets expands our understanding of the universe\' is a complete factual statement with a gerund-like noun phrase subject.',
       "lessonId": "lesson_a1_6_88",
       "stage": 17,
       "type": "speaking",

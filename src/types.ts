@@ -106,7 +106,7 @@ export interface TargetLanguageCurriculumMetadata {
 
 export type LearningMode = 'english_only' | 'english_plus_secondary';
 
-export type SecondaryLanguageCode = 'es' | 'fr' | 'de' | 'ja' | 'it' | 'pt';
+export type SecondaryLanguageCode = 'es' | 'fr' | 'de' | 'ja' | 'pt';
 
 export interface SecondaryLanguageInfo {
   code: SecondaryLanguageCode;

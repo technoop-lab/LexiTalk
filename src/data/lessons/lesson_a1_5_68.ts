@@ -1026,6 +1026,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u05_l68_p1",
+      "explanation": '\'There are\' is used with plural nouns: \'There are two bedrooms in the apartment.\' \'It have\' is not used for \'there\'.',
       "lessonId": "lesson_a1_5_68",
       "stage": 8,
       "type": "multiple_choice",
@@ -1050,6 +1051,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_p2",
+      "explanation": 'After \'is\' in the present continuous, use -ing: \'is leaking\'. \'Leak\' and \'leaked\' do not fit here.',
       "lessonId": "lesson_a1_5_68",
       "stage": 8,
       "type": "fill_blank",
@@ -1076,6 +1078,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_p3",
+      "explanation": '\'Are ... included in the rent?\' is a yes/no question with \'are\' for the plural subject \'water and heating\'.',
       "lessonId": "lesson_a1_5_68",
       "stage": 8,
       "type": "word_ordering",
@@ -1094,6 +1097,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_p4",
+      "explanation": 'A landlord owns the property. A tenant rents a home. A deposit is a security payment. A plumber repairs pipes.',
       "lessonId": "lesson_a1_5_68",
       "stage": 8,
       "type": "match_pairs",
@@ -1119,6 +1123,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_p5",
+      "explanation": '\'There are two bathrooms\' uses the plural form with a plural noun. \'There has\' and \'two bathroom\' are incorrect.',
       "lessonId": "lesson_a1_5_68",
       "stage": 8,
       "type": "error_correction",
@@ -1144,6 +1149,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_p6",
+      "explanation": 'The speaker says: \'The security deposit is equal to one month\'s rent.\' The other option has different amounts.',
       "lessonId": "lesson_a1_5_68",
       "stage": 9,
       "type": "listening",
@@ -1164,6 +1170,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_p7",
+      "explanation": '\'The bathroom faucet is dripping constantly\' uses the present continuous to describe an ongoing problem.',
       "lessonId": "lesson_a1_5_68",
       "stage": 9,
       "type": "listen_and_type",
@@ -1173,6 +1180,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_p8",
+      "explanation": '\'Is this apartment fully furnished?\' asks if furniture is included. \'Furnished\' describes an apartment with furniture.',
       "lessonId": "lesson_a1_5_68",
       "stage": 10,
       "type": "multiple_choice",
@@ -1197,6 +1205,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_p9",
+      "explanation": '\'You can move in on the first of next month\' answers when you can start living in the place.',
       "lessonId": "lesson_a1_5_68",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1221,6 +1230,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_p10",
+      "explanation": '\'Could you please send someone to repair...?\' is a polite request. \'Send someone to repair\' uses \'to\' + base verb.',
       "lessonId": "lesson_a1_5_68",
       "stage": 12,
       "type": "speaking",
@@ -1230,6 +1240,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_p11",
+      "explanation": '\'The pipe under the kitchen sink is leaking\' describes a problem with the present continuous. Hindi: \'रसोई के सिंक के नीचे पानी का रिसाव हो रहा है।\'',
       "lessonId": "lesson_a1_5_68",
       "stage": 13,
       "type": "translation",
@@ -1238,6 +1249,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_p12",
+      "explanation": 'A lease is the legal contract for renting property. A prescription is a doctor\'s order and a keycard opens a door.',
       "lessonId": "lesson_a1_5_68",
       "stage": 14,
       "type": "multiple_choice",
@@ -1262,6 +1274,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_p13",
+      "explanation": 'A neighborhood is an area where people live. A dosage and a symptom are health terms.',
       "lessonId": "lesson_a1_5_68",
       "stage": 14,
       "type": "fill_blank",
@@ -1288,6 +1301,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_p14",
+      "explanation": '\'There is a spacious balcony\' uses \'there is\' with a singular noun. \'With garden views\' describes the balcony.',
       "lessonId": "lesson_a1_5_68",
       "stage": 14,
       "type": "word_ordering",
@@ -1306,6 +1320,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_p15",
+      "explanation": '\'The landlord agreed to replace...\' uses the past simple. \'Before we move in\' is a time clause.',
       "lessonId": "lesson_a1_5_68",
       "stage": 14,
       "type": "speaking",
@@ -1317,6 +1332,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u05_l68_r1",
+      "explanation": '\'Should\' + base verb gives advice: \'You should drink plenty of fluids.\' \'Should to drink\' and \'should drinking\' are incorrect.',
       "lessonId": "lesson_a1_5_68",
       "stage": 16,
       "type": "multiple_choice",
@@ -1341,6 +1357,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_r2",
+      "explanation": '\'Sore throat\' is the common phrase for pain when swallowing.',
       "lessonId": "lesson_a1_5_68",
       "stage": 16,
       "type": "fill_blank",
@@ -1367,6 +1384,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_r3",
+      "explanation": '\'How often should I take...?\' asks about a dosage with \'should\' + base verb.',
       "lessonId": "lesson_a1_5_68",
       "stage": 16,
       "type": "word_ordering",
@@ -1384,6 +1402,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_r4",
+      "explanation": 'A landlord is a property owner. A faucet is a water tap. A pharmacist dispenses medicine. A leak is an escape of water.',
       "lessonId": "lesson_a1_5_68",
       "stage": 16,
       "type": "match_pairs",
@@ -1409,6 +1428,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_r5",
+      "explanation": '\'Is water included in the rent?\' is a yes/no question. Hindi: \'क्या पानी का बिल किराए में शामिल है?\'',
       "lessonId": "lesson_a1_5_68",
       "stage": 16,
       "type": "translation",
@@ -1419,6 +1439,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u05_l68_a1",
+      "explanation": '\'There is a large living room and water is included in the rent\' uses \'there is\' with a singular noun and a correct passive form.',
       "lessonId": "lesson_a1_5_68",
       "stage": 17,
       "type": "multiple_choice",
@@ -1443,6 +1464,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_a2",
+      "explanation": 'A plumber repairs pipes and taps. A pharmacist and a conductor do other jobs.',
       "lessonId": "lesson_a1_5_68",
       "stage": 17,
       "type": "fill_blank",
@@ -1469,6 +1491,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_a3",
+      "explanation": '\'Signed a twelve-month lease with the landlord\' is a past statement about a rental contract.',
       "lessonId": "lesson_a1_5_68",
       "stage": 17,
       "type": "word_ordering",
@@ -1488,6 +1511,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_a4",
+      "explanation": '\'The security deposit is equal to one month of rent\' answers the question with a fact.',
       "lessonId": "lesson_a1_5_68",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1512,6 +1536,7 @@ export const LESSON_A1_5_68_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l68_a5",
+      "explanation": '\'I am calling to report that our apartment heater stopped working during the night\' is a polite report with the past simple.',
       "lessonId": "lesson_a1_5_68",
       "stage": 17,
       "type": "speaking",

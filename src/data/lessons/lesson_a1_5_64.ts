@@ -1026,6 +1026,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u05_l64_p1",
+      "explanation": '\'Which platform\' asks for a choice from a set of platforms. \'Who\', \'why\', and \'baggage\' do not answer where the train leaves.',
       "lessonId": "lesson_a1_5_64",
       "stage": 8,
       "type": "multiple_choice",
@@ -1050,6 +1051,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_p2",
+      "explanation": 'Timetable statements use the present simple for scheduled events: \'The flight departs at 8:15.\' \'Is depart\' and \'departing\' are not used.',
       "lessonId": "lesson_a1_5_64",
       "stage": 8,
       "type": "fill_blank",
@@ -1076,6 +1078,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_p3",
+      "explanation": '\'I need two round-trip tickets to Chicago\' is a direct request. \'Round-trip\' means there and back.',
       "lessonId": "lesson_a1_5_64",
       "stage": 8,
       "type": "word_ordering",
@@ -1093,6 +1096,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_p4",
+      "explanation": 'A platform is the boarding area. A round-trip ticket covers the journey there and back. A transfer means changing lines. \'Delayed by\' means late by a given time.',
       "lessonId": "lesson_a1_5_64",
       "stage": 8,
       "type": "match_pairs",
@@ -1118,6 +1122,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_p5",
+      "explanation": '\'Delayed by\' + the length of time: \'delayed by fifteen minutes\'. \'On\' and \'at\' do not fit this structure.',
       "lessonId": "lesson_a1_5_64",
       "stage": 8,
       "type": "error_correction",
@@ -1143,6 +1148,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_p6",
+      "explanation": 'The speaker says: \'The express train to Boston leaves from platform seven.\' The other option has the wrong vehicle and verb.',
       "lessonId": "lesson_a1_5_64",
       "stage": 9,
       "type": "listening",
@@ -1163,6 +1169,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_p7",
+      "explanation": '\'Where do we transfer for the airport line?\' asks where to change trains. The question word comes first, then \'do\' + subject.',
       "lessonId": "lesson_a1_5_64",
       "stage": 9,
       "type": "listen_and_type",
@@ -1172,6 +1179,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_p8",
+      "explanation": '\'What time does the bus arrive...?\' is a question with \'does\' + base verb \'arrive\'. \'What time the bus is arrive\' is incorrect.',
       "lessonId": "lesson_a1_5_64",
       "stage": 10,
       "type": "multiple_choice",
@@ -1196,6 +1204,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_p9",
+      "explanation": '\'It departs from platform four on the lower level\' answers \'which platform\' with a place.',
       "lessonId": "lesson_a1_5_64",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1220,6 +1229,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_p10",
+      "explanation": '\'I would like to buy a one-way ticket\' is a polite request. \'A one-way ticket\' is a single journey.',
       "lessonId": "lesson_a1_5_64",
       "stage": 12,
       "type": "speaking",
@@ -1229,6 +1239,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_p11",
+      "explanation": '\'Delayed by fifteen minutes\' uses \'by\' to name the length of the delay. Hindi: \'ट्रेन पंद्रह मिनट की देरी से चल रही है।\'',
       "lessonId": "lesson_a1_5_64",
       "stage": 13,
       "type": "translation",
@@ -1237,6 +1248,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_p12",
+      "explanation": 'The overhead compartment is the shelf above the seats for bags. A ticket counter sells tickets and a fare box collects fares.',
       "lessonId": "lesson_a1_5_64",
       "stage": 14,
       "type": "multiple_choice",
@@ -1261,6 +1273,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_p13",
+      "explanation": '\'Heavy luggage\' is what passengers place under seats. A schedule is a timetable and a terminal is a station building.',
       "lessonId": "lesson_a1_5_64",
       "stage": 14,
       "type": "fill_blank",
@@ -1287,6 +1300,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_p14",
+      "explanation": '\'Is this window seat available or reserved?\' is a yes/no question with \'is\' before the subject.',
       "lessonId": "lesson_a1_5_64",
       "stage": 14,
       "type": "word_ordering",
@@ -1304,6 +1318,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_p15",
+      "explanation": '\'Must proceed to platform three immediately\' is an announcement with \'must\' + base verb \'proceed\'.',
       "lessonId": "lesson_a1_5_64",
       "stage": 14,
       "type": "speaking",
@@ -1315,6 +1330,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u05_l64_r1",
+      "explanation": '\'At\' is used with clock times, \'on\' with days, and \'in\' with parts of the day. For appointments, \'on\' with days and \'at\' with times is used.',
       "lessonId": "lesson_a1_5_64",
       "stage": 16,
       "type": "multiple_choice",
@@ -1339,6 +1355,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_r2",
+      "explanation": '\'Make an appointment\' is the standard phrase for booking a time with a doctor.',
       "lessonId": "lesson_a1_5_64",
       "stage": 16,
       "type": "fill_blank",
@@ -1365,6 +1382,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_r3",
+      "explanation": '\'May I speak to the manager, please?\' is a polite phone request.',
       "lessonId": "lesson_a1_5_64",
       "stage": 16,
       "type": "word_ordering",
@@ -1382,6 +1400,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_r4",
+      "explanation": '\'On track\' means following the plan. \'Voicemail\' is a recorded message. \'Reschedule\' means change the time. \'Platform\' is a boarding area.',
       "lessonId": "lesson_a1_5_64",
       "stage": 16,
       "type": "match_pairs",
@@ -1407,6 +1426,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_r5",
+      "explanation": '\'Which platform does the train leave from?\' is the correct question. Hindi: \'ट्रेन किस प्लेटफ़ॉर्म से जाती है?\'',
       "lessonId": "lesson_a1_5_64",
       "stage": 16,
       "type": "translation",
@@ -1417,6 +1437,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u05_l64_a1",
+      "explanation": '\'The express train departs from platform two at four thirty\' uses the present simple with \'departs\' (third person singular).',
       "lessonId": "lesson_a1_5_64",
       "stage": 17,
       "type": "multiple_choice",
@@ -1441,6 +1462,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_a2",
+      "explanation": '\'Change trains\' means switch from one train to another.',
       "lessonId": "lesson_a1_5_64",
       "stage": 17,
       "type": "fill_blank",
@@ -1467,6 +1489,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_a3",
+      "explanation": '\'The conductor checked all passenger tickets on board\' is a past statement with the simple past \'checked\'.',
       "lessonId": "lesson_a1_5_64",
       "stage": 17,
       "type": "word_ordering",
@@ -1485,6 +1508,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_a4",
+      "explanation": '\'Excuse me, is this the local train or the express to New York?\' asks a polite question about the train type.',
       "lessonId": "lesson_a1_5_64",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1509,6 +1533,7 @@ export const LESSON_A1_5_64_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l64_a5",
+      "explanation": '\'The express train on platform five is now boarding for all destinations\' is a standard transit announcement.',
       "lessonId": "lesson_a1_5_64",
       "stage": 17,
       "type": "speaking",

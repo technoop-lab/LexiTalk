@@ -1036,6 +1036,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u05_l65_p1",
+      "explanation": '\'Located on\' is used with floors: \'located on the third floor\'. \'At\' and \'in\' are not used with floor numbers here.',
       "lessonId": "lesson_a1_5_65",
       "stage": 8,
       "type": "multiple_choice",
@@ -1060,6 +1061,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_p2",
+      "explanation": '\'Under the name\' is the standard phrase for a reservation: \'a reservation under the name Sarah Jenkins\'.',
       "lessonId": "lesson_a1_5_65",
       "stage": 8,
       "type": "fill_blank",
@@ -1086,6 +1088,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_p3",
+      "explanation": '\'Could we have...?\' is a polite request. \'Please\' comes at the end.',
       "lessonId": "lesson_a1_5_65",
       "stage": 8,
       "type": "word_ordering",
@@ -1103,6 +1106,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_p4",
+      "explanation": 'A keycard is an electronic door key. Housekeeping cleans rooms. An amenity is a useful feature. Check-in is registering on arrival.',
       "lessonId": "lesson_a1_5_65",
       "stage": 8,
       "type": "match_pairs",
@@ -1128,6 +1132,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_p5",
+      "explanation": '\'On the fifth floor\' uses the ordinal \'fifth\' with \'on\'. \'At the five floor\' and \'on the five floor\' are incorrect.',
       "lessonId": "lesson_a1_5_65",
       "stage": 8,
       "type": "error_correction",
@@ -1153,6 +1158,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_p6",
+      "explanation": 'The speaker says: \'Complimentary buffet breakfast is served from seven to ten in the dining room.\' The other option gives a different meal and time.',
       "lessonId": "lesson_a1_5_65",
       "stage": 9,
       "type": "listening",
@@ -1173,6 +1179,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_p7",
+      "explanation": '\'What is the Wi-Fi password for guests?\' is a direct question with \'is\' + subject.',
       "lessonId": "lesson_a1_5_65",
       "stage": 9,
       "type": "listen_and_type",
@@ -1182,6 +1189,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_p8",
+      "explanation": '\'Is breakfast included in the room rate?\' is a yes/no question. \'Included\' is an adjective after \'is\'.',
       "lessonId": "lesson_a1_5_65",
       "stage": 10,
       "type": "multiple_choice",
@@ -1206,6 +1214,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_p9",
+      "explanation": '\'Yes, of course. We will keep your bags safely in the luggage room\' answers a request to store luggage.',
       "lessonId": "lesson_a1_5_65",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1230,6 +1239,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_p10",
+      "explanation": '\'Could we please request a late check-out...?\' is a polite request. \'At one in the afternoon\' gives the time.',
       "lessonId": "lesson_a1_5_65",
       "stage": 12,
       "type": "speaking",
@@ -1239,6 +1249,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_p11",
+      "explanation": '\'Is breakfast included in the room price?\' is the English for the Hindi sentence about breakfast in the room rate.',
       "lessonId": "lesson_a1_5_65",
       "stage": 13,
       "type": "translation",
@@ -1247,6 +1258,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_p12",
+      "explanation": 'Housekeeping provides cleaning, towels, and room supplies. A ticket counter sells tickets and a conductor checks train tickets.',
       "lessonId": "lesson_a1_5_65",
       "stage": 14,
       "type": "multiple_choice",
@@ -1271,6 +1283,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_p13",
+      "explanation": 'A keycard opens the room door. An agenda is a meeting list and a timeline shows dates.',
       "lessonId": "lesson_a1_5_65",
       "stage": 14,
       "type": "fill_blank",
@@ -1297,6 +1310,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_p14",
+      "explanation": '\'Could we have a quiet room away from...?\' is a polite request. \'Away from\' means not near.',
       "lessonId": "lesson_a1_5_65",
       "stage": 14,
       "type": "word_ordering",
@@ -1317,6 +1331,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_p15",
+      "explanation": '\'I have a reservation for two guests under the name...\' is a standard check-in statement.',
       "lessonId": "lesson_a1_5_65",
       "stage": 14,
       "type": "speaking",
@@ -1328,6 +1343,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u05_l65_r1",
+      "explanation": '\'Which platform does the train leave from?\' uses \'does\' + base verb. \'Which platform the train leave\' is incorrect.',
       "lessonId": "lesson_a1_5_65",
       "stage": 16,
       "type": "multiple_choice",
@@ -1352,6 +1368,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_r2",
+      "explanation": '\'Delayed by\' + the length of time: \'delayed by twenty minutes\'.',
       "lessonId": "lesson_a1_5_65",
       "stage": 16,
       "type": "fill_blank",
@@ -1378,6 +1395,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_r3",
+      "explanation": '\'Is Friday morning convenient for your appointment?\' is a yes/no question with \'is\' before the subject.',
       "lessonId": "lesson_a1_5_65",
       "stage": 16,
       "type": "word_ordering",
@@ -1395,6 +1413,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_r4",
+      "explanation": 'A keycard unlocks a door. A round-trip is a two-way journey. A reservation is an advance booking. Housekeeping is the cleaning team.',
       "lessonId": "lesson_a1_5_65",
       "stage": 16,
       "type": "match_pairs",
@@ -1420,6 +1439,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_r5",
+      "explanation": '\'Could we have two extra towels please?\' is a polite request. Hindi: \'क्या हमें दो अतिरिक्त तौलिए मिल सकते हैं?\'',
       "lessonId": "lesson_a1_5_65",
       "stage": 16,
       "type": "translation",
@@ -1430,6 +1450,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u05_l65_a1",
+      "explanation": '\'I have a reservation under the name David Miller\' is the standard way to state a booking.',
       "lessonId": "lesson_a1_5_65",
       "stage": 17,
       "type": "multiple_choice",
@@ -1454,6 +1475,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_a2",
+      "explanation": '\'The third floor\' uses the ordinal \'third\'. \'Three\' and \'threes\' are not ordinal numbers.',
       "lessonId": "lesson_a1_5_65",
       "stage": 17,
       "type": "fill_blank",
@@ -1480,6 +1502,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_a3",
+      "explanation": '\'Housekeeping will bring fresh towels to your room\' uses \'will\' for a future service.',
       "lessonId": "lesson_a1_5_65",
       "stage": 17,
       "type": "word_ordering",
@@ -1498,6 +1521,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_a4",
+      "explanation": '\'Standard checkout is at 11:00 AM, but we offer late checkout upon request\' answers the question with the policy.',
       "lessonId": "lesson_a1_5_65",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1522,6 +1546,7 @@ export const LESSON_A1_5_65_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l65_a5",
+      "explanation": '\'Could you please let us know if high-speed Wi-Fi is included?\' is a polite question with a yes/no clause.',
       "lessonId": "lesson_a1_5_65",
       "stage": 17,
       "type": "speaking",

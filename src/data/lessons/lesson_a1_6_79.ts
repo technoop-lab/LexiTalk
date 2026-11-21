@@ -1046,6 +1046,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u06_l79_p1",
+      "explanation": '\'There seems to be + singular noun\' politely reports a problem: \'There seems to be an issue\'. \'There seem to be issue\' is incorrect.',
       "lessonId": "lesson_a1_6_79",
       "stage": 8,
       "type": "multiple_choice",
@@ -1070,6 +1071,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_p2",
+      "explanation": '\'Is it possible to + base verb?\' is a polite request. \'Is possible\' without \'it\' and the word order in the other options are incorrect.',
       "lessonId": "lesson_a1_6_79",
       "stage": 8,
       "type": "multiple_choice",
@@ -1094,6 +1096,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_p3",
+      "explanation": '\'Complimentary\' means free of charge. \'Complication\' and \'complicated\' mean difficult or a problem.',
       "lessonId": "lesson_a1_6_79",
       "stage": 8,
       "type": "fill_blank",
@@ -1120,6 +1123,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_p4",
+      "explanation": 'Housekeeping is the cleaning staff. An invoice is an itemized bill. Amenities are facilities and toiletries. Late checkout means leaving after the usual time.',
       "lessonId": "lesson_a1_6_79",
       "stage": 8,
       "type": "match_pairs",
@@ -1145,6 +1149,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_p5",
+      "explanation": '\'Could you send someone up to room 302?\' is a polite request with \'could\' + base verb.',
       "lessonId": "lesson_a1_6_79",
       "stage": 8,
       "type": "word_ordering",
@@ -1163,6 +1168,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_p6",
+      "explanation": '\'Explain ... to me\' uses \'to\' for the person receiving the explanation. \'Explain for me\' is incorrect.',
       "lessonId": "lesson_a1_6_79",
       "stage": 8,
       "type": "error_correction",
@@ -1184,6 +1190,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_p7",
+      "explanation": '\'There seems to be a water leak under the bathroom sink\' reports a problem politely.',
       "lessonId": "lesson_a1_6_79",
       "stage": 9,
       "type": "listen_and_type",
@@ -1193,6 +1200,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_p8",
+      "explanation": '\'May I keep my luggage at the front desk until afternoon?\' is a polite request with \'may\' + base verb.',
       "lessonId": "lesson_a1_6_79",
       "stage": 10,
       "type": "multiple_choice",
@@ -1217,6 +1225,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_p9",
+      "explanation": '\'Yes, we had a lovely stay. Thank you for everything\' answers the question politely.',
       "lessonId": "lesson_a1_6_79",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1241,6 +1250,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_p10",
+      "explanation": '\'Is it possible to arrange a late checkout for one o\'clock?\' is a polite request with \'arrange\' + noun.',
       "lessonId": "lesson_a1_6_79",
       "stage": 12,
       "type": "speaking",
@@ -1250,6 +1260,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_p11",
+      "explanation": '\'Could you please send housekeeping for extra towels?\' is a polite request. Hindi: \'क्या आप अतिरिक्त तौलियों के लिए हाउसकीपिंग को बुला सकते हैं?\'',
       "lessonId": "lesson_a1_6_79",
       "stage": 13,
       "type": "translation",
@@ -1258,6 +1269,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_p12",
+      "explanation": 'A concierge helps guests with tours and reservations. A lifeguard and a pilot have different jobs.',
       "lessonId": "lesson_a1_6_79",
       "stage": 14,
       "type": "multiple_choice",
@@ -1282,6 +1294,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_p13",
+      "explanation": 'A security deposit is money held and then returned. A decision or delivery does not fit here.',
       "lessonId": "lesson_a1_6_79",
       "stage": 14,
       "type": "fill_blank",
@@ -1308,6 +1321,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_p14",
+      "explanation": '\'Could you explain this extra charge to me?\' asks for a clear explanation of a bill.',
       "lessonId": "lesson_a1_6_79",
       "stage": 14,
       "type": "word_ordering",
@@ -1326,6 +1340,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_p15",
+      "explanation": '\'Could we order dinner from room service to room 405?\' is a polite request with \'could\' + base verb.',
       "lessonId": "lesson_a1_6_79",
       "stage": 14,
       "type": "speaking",
@@ -1337,6 +1352,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u06_l79_r1",
+      "explanation": '\'Is it possible to request...?\' is the polite form. \'Give me... now\' is too direct for a hotel.',
       "lessonId": "lesson_a1_6_79",
       "stage": 16,
       "type": "multiple_choice",
@@ -1361,6 +1377,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_r2",
+      "explanation": '\'An issue with\' is the correct phrase for a problem with something.',
       "lessonId": "lesson_a1_6_79",
       "stage": 16,
       "type": "fill_blank",
@@ -1387,6 +1404,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_r3",
+      "explanation": '\'Check out of\' + room number. \'We would like to\' is a polite way to state a request.',
       "lessonId": "lesson_a1_6_79",
       "stage": 16,
       "type": "word_ordering",
@@ -1406,6 +1424,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_r4",
+      "explanation": 'A cold room needs maintenance. Fresh towels are requested from housekeeping. Tour tickets are arranged by the concierge.',
       "lessonId": "lesson_a1_6_79",
       "stage": 16,
       "type": "match_pairs",
@@ -1431,6 +1450,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_r5",
+      "explanation": '\'We had a lovely stay, thank you\' is a polite closing. Hindi: \'हमारा प्रवास बहुत सुखद रहा, धन्यवाद।\'',
       "lessonId": "lesson_a1_6_79",
       "stage": 16,
       "type": "translation",
@@ -1441,6 +1461,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u06_l79_a1",
+      "explanation": '\'There seems to be an issue with the heater, so could you send someone up?\' is correct: singular \'seems\' with a singular noun, and a polite request.',
       "lessonId": "lesson_a1_6_79",
       "stage": 17,
       "type": "multiple_choice",
@@ -1465,6 +1486,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_a2",
+      "explanation": '\'Front desk\' is the reception desk. \'Door\' and \'deck\' do not match the phrase.',
       "lessonId": "lesson_a1_6_79",
       "stage": 17,
       "type": "fill_blank",
@@ -1491,6 +1513,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_a3",
+      "explanation": '\'Is it possible to have a late checkout?\' is a polite question with \'is it possible to\' + base verb.',
       "lessonId": "lesson_a1_6_79",
       "stage": 17,
       "type": "word_ordering",
@@ -1509,6 +1532,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_a4",
+      "explanation": '\'Certainly, that charge is for the room service dinner yesterday evening\' explains the charge.',
       "lessonId": "lesson_a1_6_79",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1533,6 +1557,7 @@ export const LESSON_A1_6_79_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l79_a5",
+      "explanation": '\'Thank you for your help, we had a very comfortable and pleasant stay\' is a polite comment.',
       "lessonId": "lesson_a1_6_79",
       "stage": 17,
       "type": "speaking",

@@ -140,7 +140,9 @@ export class AudioRecordingService {
       try {
         this.audioElement.pause();
         this.audioElement.currentTime = 0;
-      } catch {}
+      } catch {
+        // Already stopped or detached: nothing to clean up.
+      }
       this.audioElement = null;
     }
   }
@@ -153,7 +155,9 @@ export class AudioRecordingService {
     if (audioUrl && audioUrl.startsWith('blob:')) {
       try {
         URL.revokeObjectURL(audioUrl);
-      } catch {}
+      } catch {
+        // Object URL already revoked: ignore.
+      }
     }
   }
 
@@ -175,7 +179,9 @@ export class AudioRecordingService {
     if (this.mediaRecorder && this.mediaRecorder.state !== 'inactive') {
       try {
         this.mediaRecorder.stop();
-      } catch {}
+      } catch {
+        // Recorder already stopped: ignore.
+      }
     }
     this.stopStream();
     this.mediaRecorder = null;

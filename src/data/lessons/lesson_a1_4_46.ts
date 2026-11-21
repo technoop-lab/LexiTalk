@@ -1044,6 +1044,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u04_l46_p1",
+      "explanation": '\'Office\' is the workplace where you arrive to start work. \'Kitchen\' and \'beach\' are not workplaces in this context.',
       "lessonId": "lesson_a1_4_46",
       "stage": 8,
       "type": "multiple_choice",
@@ -1068,6 +1069,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_p2",
+      "explanation": 'Frequency adverbs like \'always\' come before the main verb: \'She always checks her emails\'.',
       "lessonId": "lesson_a1_4_46",
       "stage": 8,
       "type": "fill_blank",
@@ -1094,6 +1096,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_p3",
+      "explanation": '\'We have a team meeting every Monday\' is a routine statement. The word order is subject + verb + object + time phrase.',
       "lessonId": "lesson_a1_4_46",
       "stage": 8,
       "type": "word_ordering",
@@ -1111,6 +1114,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_p4",
+      "explanation": 'A colleague is someone you work with. A deadline is the time something must be finished. A manager supervises staff. A break is a rest period.',
       "lessonId": "lesson_a1_4_46",
       "stage": 8,
       "type": "match_pairs",
@@ -1136,6 +1140,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_p5",
+      "explanation": '\'Starts\' takes -s with \'he\' in the simple present. \'Starting\' and \'is start\' are incorrect.',
       "lessonId": "lesson_a1_4_46",
       "stage": 8,
       "type": "error_correction",
@@ -1161,6 +1166,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_p6",
+      "explanation": 'The audio says: \'Our manager leads the morning meeting at ten o\'clock.\' The other option says \'colleague leaves\', which does not match.',
       "lessonId": "lesson_a1_4_46",
       "stage": 9,
       "type": "listening",
@@ -1181,6 +1187,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_p7",
+      "explanation": '\'I send\' takes the base verb with \'I\' (no -s). \'Every day\' is a frequency phrase.',
       "lessonId": "lesson_a1_4_46",
       "stage": 9,
       "type": "listen_and_type",
@@ -1190,6 +1197,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_p8",
+      "explanation": 'With \'you\', the question uses \'do\': \'What time do you usually finish work?\' \'Does you\' is incorrect.',
       "lessonId": "lesson_a1_4_46",
       "stage": 10,
       "type": "multiple_choice",
@@ -1214,6 +1222,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_p9",
+      "explanation": '\'It is on the second floor next to the cabinet\' answers a \'where\' question with a location. The other options do not answer the question.',
       "lessonId": "lesson_a1_4_46",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1238,6 +1247,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_p10",
+      "explanation": '\'I usually take\' uses the present simple (habit). \'At one o\'clock\' is the time.',
       "lessonId": "lesson_a1_4_46",
       "stage": 12,
       "type": "speaking",
@@ -1247,6 +1257,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_p11",
+      "explanation": '\'I always meet the deadline\' is the English for \'मैं हमेशा समय सीमा पर काम पूरा करता हूँ\'. \'Meet\' means finish on time.',
       "lessonId": "lesson_a1_4_46",
       "stage": 13,
       "type": "translation",
@@ -1255,6 +1266,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_p12",
+      "explanation": 'A printer prints paper copies. A keyboard types text and a desk is a surface for work.',
       "lessonId": "lesson_a1_4_46",
       "stage": 14,
       "type": "multiple_choice",
@@ -1279,6 +1291,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_p13",
+      "explanation": '\'In the folder\' uses \'in\' for a container. \'At\' and \'on\' are for points and surfaces.',
       "lessonId": "lesson_a1_4_46",
       "stage": 14,
       "type": "fill_blank",
@@ -1305,6 +1318,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_p14",
+      "explanation": '\'Can I borrow...?\' is a polite request. The sentence uses the base verb \'borrow\' after \'can\'.',
       "lessonId": "lesson_a1_4_46",
       "stage": 14,
       "type": "word_ordering",
@@ -1321,6 +1335,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_p15",
+      "explanation": '\'We are working\' is the present continuous for an action in progress now. \'Together\' is an adverb of manner.',
       "lessonId": "lesson_a1_4_46",
       "stage": 14,
       "type": "speaking",
@@ -1332,6 +1347,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u04_l46_r1",
+      "explanation": '\'She goes\' takes -es with \'she\' (go - goes). \'She go\' and \'she is go\' are incorrect.',
       "lessonId": "lesson_a1_4_46",
       "stage": 16,
       "type": "multiple_choice",
@@ -1356,6 +1372,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_r2",
+      "explanation": '\'At\' is used for a specific time: \'at 10:30 AM\'.',
       "lessonId": "lesson_a1_4_46",
       "stage": 16,
       "type": "fill_blank",
@@ -1382,6 +1399,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_r3",
+      "explanation": '\'There is\' + singular noun: \'There is a printer on the desk.\' \'On\' is the preposition of place.',
       "lessonId": "lesson_a1_4_46",
       "stage": 16,
       "type": "word_ordering",
@@ -1399,6 +1417,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_r4",
+      "explanation": 'Check emails, write a report, attend a meeting, save a file. These are common verb + noun collocations at work.',
       "lessonId": "lesson_a1_4_46",
       "stage": 16,
       "type": "match_pairs",
@@ -1424,6 +1443,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_r5",
+      "explanation": '\'He starts work at eight o\'clock every day\' uses -s on \'starts\' (third person) and \'at\' with the time. Hindi: \'वह हर दिन आठ बजे काम शुरू करता है।\'',
       "lessonId": "lesson_a1_4_46",
       "stage": 16,
       "type": "translation",
@@ -1434,6 +1454,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u04_l46_a1",
+      "explanation": 'Frequency adverbs go before the main verb: \'She always attends the team meeting.\'',
       "lessonId": "lesson_a1_4_46",
       "stage": 17,
       "type": "multiple_choice",
@@ -1458,6 +1479,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_a2",
+      "explanation": '\'The deadline\' is the time limit for finishing. \'Before the deadline on Friday\' is the correct phrase.',
       "lessonId": "lesson_a1_4_46",
       "stage": 17,
       "type": "fill_blank",
@@ -1484,6 +1506,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_a3",
+      "explanation": '\'I send weekly reports to my manager\' has the subject, the verb, the object, and the recipient in order.',
       "lessonId": "lesson_a1_4_46",
       "stage": 17,
       "type": "word_ordering",
@@ -1501,6 +1524,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_a4",
+      "explanation": '\'Do you work from home?\' is answered with \'Yes, I usually work remotely on Fridays.\' The other options do not answer the question.',
       "lessonId": "lesson_a1_4_46",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1525,6 +1549,7 @@ export const LESSON_A1_4_46_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l46_a5",
+      "explanation": '\'Our team always meets every Monday to plan the weekly tasks\' is a routine statement in the simple present.',
       "lessonId": "lesson_a1_4_46",
       "stage": 17,
       "type": "speaking",

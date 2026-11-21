@@ -637,6 +637,7 @@ export const LESSON_A1_1_5_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l5_12',
+      explanation: 'Use \'am\' with \'I\' and write compound numbers with a hyphen: \'twenty-nine\'. Age is stated as \'I am\' + number + \'years old\'.',
       type: 'listen_and_type',
       prompt: 'Listen and arrange the tiles to form the sentence:',
       audioText: 'I am twenty-nine years old.',
@@ -647,6 +648,7 @@ export const LESSON_A1_1_5_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l5_13',
+      explanation: 'Age uses \'I am\', not \'I have\': \'I am thirty years old.\' Hindi: \'मेरी उम्र 30 साल है।\'',
       type: 'translation',
       prompt: 'Translate into English:',
       sourceSentence: 'मेरी उम्र 30 साल है।',
@@ -657,6 +659,7 @@ export const LESSON_A1_1_5_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l5_14',
+      explanation: 'Read phone numbers digit by digit: \'zero seven nine one\'. Say each digit separately.',
       type: 'speaking',
       prompt: 'Speak your contact information clearly:',
       targetSentence: 'My phone number is zero seven nine one.',
@@ -664,6 +667,7 @@ export const LESSON_A1_1_5_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l5_15',
+      explanation: 'Introduce yourself in order: name, origin, age (\'I am twenty-five\'), then job. \'An architect\' takes \'an\' before a vowel sound.',
       type: 'word_ordering',
       prompt: 'Interleaved Practice (L1–L5): Assemble full personal introduction with age and job:',
       targetSentence: 'Hello I am Elena from Rome I am twenty-five and I am an architect',
@@ -676,6 +680,7 @@ export const LESSON_A1_1_5_DATA: DetailedLessonData = {
   reviewExercises: [
     {
       id: 're_l5_1',
+      explanation: '\'Seventy-four\' is 70 + 4. The hyphen joins the tens and the units, so the answer is 74.',
       type: 'multiple_choice',
       prompt: 'Review: Which number is "seventy-four"?',
       options: [
@@ -686,6 +691,7 @@ export const LESSON_A1_1_5_DATA: DetailedLessonData = {
     },
     {
       id: 're_l5_2',
+      explanation: '\'Your sister\' is singular, so the verb is \'is\': \'How old is your sister?\'',
       type: 'fill_blank',
       prompt: 'Review: Complete with BE verb for age:',
       sourceSentence: 'How old ____ your sister?',
@@ -699,6 +705,7 @@ export const LESSON_A1_1_5_DATA: DetailedLessonData = {
     },
     {
       id: 're_l5_3',
+      explanation: 'To ask the time, use \'What time is it?\' The verb \'is\' agrees with \'it\'.',
       type: 'word_ordering',
       prompt: 'Review: Ask what time it is:',
       targetSentence: 'What time is it now',
@@ -707,6 +714,7 @@ export const LESSON_A1_1_5_DATA: DetailedLessonData = {
     },
     {
       id: 're_l5_4',
+      explanation: 'For a clock time, use \'It is\' + number + \'o\'clock\': \'It is five o\'clock now.\' Hindi: \'अभी पाँच बजे हैं।\'',
       type: 'translation',
       prompt: 'Review Translation: Translate to English:',
       sourceSentence: 'अभी पाँच बजे हैं।',
@@ -721,6 +729,7 @@ export const LESSON_A1_1_5_DATA: DetailedLessonData = {
   assessmentExercises: [
     {
       id: 'ae_l5_1',
+      explanation: 'Age uses \'to be\' + number + \'years old\': \'My father is sixty years old.\' \'Has\' and \'are\' do not fit this sentence.',
       type: 'multiple_choice',
       prompt: 'Mastery Test 1: Choose the correct sentence:',
       options: [
@@ -731,6 +740,7 @@ export const LESSON_A1_1_5_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l5_2',
+      explanation: 'Write 85 as \'eighty-five\', with a hyphen between the tens and the units.',
       type: 'multiple_choice',
       prompt: 'Mastery Test 2: Select the correct written form of 85:',
       options: [
@@ -741,6 +751,7 @@ export const LESSON_A1_1_5_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l5_3',
+      explanation: '\'Half past six\' means 6:30. \'Past\' is used for times after the hour.',
       type: 'fill_blank',
       prompt: 'Mastery Test 3: Fill in the time expression for 6:30:',
       sourceSentence: 'It is half ____ six.',
@@ -754,6 +765,7 @@ export const LESSON_A1_1_5_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l5_4',
+      explanation: 'Ask for a phone number with \'What is your phone number?\' The verb \'is\' agrees with the singular \'number\'.',
       type: 'word_ordering',
       prompt: 'Mastery Test 4: Construct "What is your phone number":',
       targetSentence: 'What is your phone number',
@@ -762,6 +774,7 @@ export const LESSON_A1_1_5_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l5_5',
+      explanation: 'State age with \'I am\' and \'years old\': \'I am thirty-three years old.\'',
       type: 'word_ordering',
       prompt: 'Mastery Test 5: Construct "I am thirty-three years old":',
       targetSentence: 'I am thirty-three years old',
@@ -770,6 +783,7 @@ export const LESSON_A1_1_5_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l5_6',
+      explanation: 'Listen for the number. The speaker says \'eighty-two\', so the answer is 82.',
       type: 'listening',
       prompt: 'Mastery Test 6: Listen and identify the age:',
       audioText: 'My grandmother is eighty-two years old.',
@@ -782,6 +796,7 @@ export const LESSON_A1_1_5_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l5_7',
+      explanation: '\'Half past nine\' means 9:30. Say and write the time as \'half past\' + the hour.',
       type: 'listen_and_type',
       prompt: 'Mastery Test 7: Listen and write the sentence:',
       audioText: 'It is half past nine.',
@@ -792,6 +807,7 @@ export const LESSON_A1_1_5_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l5_8',
+      explanation: '\'Email address\' is singular, so the question uses \'is\': \'What is your email address?\'',
       type: 'translation',
       prompt: 'Mastery Test 8: Translate into English:',
       sourceSentence: 'आपका ईमेल पता क्या है?',
@@ -802,6 +818,7 @@ export const LESSON_A1_1_5_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l5_9',
+      explanation: 'Use \'at\' before a clock time: \'at ten o\'clock\'. \'Starts\' has an -s because \'the class\' is singular.',
       type: 'speaking',
       prompt: 'Mastery Test 9: Speak this statement:',
       targetSentence: 'The English class starts at ten o\'clock.',

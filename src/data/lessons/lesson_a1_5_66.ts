@@ -1026,6 +1026,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u05_l66_p1",
+      "explanation": '\'Allergic to\' is the standard preposition: \'allergic to peanuts\'. \'With\' and \'from\' do not fit.',
       "lessonId": "lesson_a1_5_66",
       "stage": 8,
       "type": "multiple_choice",
@@ -1050,6 +1051,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_p2",
+      "explanation": '\'On the side\' means served separately: \'the salad dressing on the side\'.',
       "lessonId": "lesson_a1_5_66",
       "stage": 8,
       "type": "fill_blank",
@@ -1076,6 +1078,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_p3",
+      "explanation": '\'Could I have...?\' is a polite request. \'Without cheese\' means cheese is not included.',
       "lessonId": "lesson_a1_5_66",
       "stage": 8,
       "type": "word_ordering",
@@ -1093,6 +1096,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_p4",
+      "explanation": '\'Allergic to\' means having an adverse reaction to something. \'Gluten-free\' contains no wheat protein. \'On the side\' means served separately. \'Special\' means a particular request.',
       "lessonId": "lesson_a1_5_66",
       "stage": 8,
       "type": "match_pairs",
@@ -1118,6 +1122,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_p5",
+      "explanation": '\'Allergic to\' is an adjective + preposition. \'Allergy\' is a noun and \'allergic with\' is not used.',
       "lessonId": "lesson_a1_5_66",
       "stage": 8,
       "type": "error_correction",
@@ -1143,6 +1148,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_p6",
+      "explanation": 'The speaker says: \'Our chef can prepare a delicious gluten-free pasta dish for you.\' The other option has different ingredients.',
       "lessonId": "lesson_a1_5_66",
       "stage": 9,
       "type": "listening",
@@ -1163,6 +1169,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_p7",
+      "explanation": '\'Could we have the bill please?\' is a polite request.',
       "lessonId": "lesson_a1_5_66",
       "stage": 9,
       "type": "listen_and_type",
@@ -1172,6 +1179,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_p8",
+      "explanation": '\'Does this soup contain milk or butter?\' asks about ingredients with \'does\' + base verb \'contain\'.',
       "lessonId": "lesson_a1_5_66",
       "stage": 10,
       "type": "multiple_choice",
@@ -1196,6 +1204,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_p9",
+      "explanation": '\'Yes, absolutely. We can substitute that at no extra charge\' answers the question with a clear offer.',
       "lessonId": "lesson_a1_5_66",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1220,6 +1229,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_p10",
+      "explanation": '\'I am allergic to shellfish\' is a clear statement of allergy. \'Please let the kitchen know\' is a polite request.',
       "lessonId": "lesson_a1_5_66",
       "stage": 12,
       "type": "speaking",
@@ -1229,6 +1239,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_p11",
+      "explanation": '\'Split the bill\' means divide it between people or cards. Hindi: \'क्या हम दो कार्डों पर बिल बांट सकते हैं?\'',
       "lessonId": "lesson_a1_5_66",
       "stage": 13,
       "type": "translation",
@@ -1237,6 +1248,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_p12",
+      "explanation": 'Dressing is a sauce served on salad or food. Luggage and a terminal are travel terms.',
       "lessonId": "lesson_a1_5_66",
       "stage": 14,
       "type": "multiple_choice",
@@ -1261,6 +1273,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_p13",
+      "explanation": 'A \'tip\' is extra money given to a server. A slot is an available time and a platform is a train boarding area.',
       "lessonId": "lesson_a1_5_66",
       "stage": 14,
       "type": "fill_blank",
@@ -1287,6 +1300,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_p14",
+      "explanation": '\'What do you recommend for dinner tonight?\' asks for a suggestion with \'do\' + base verb \'recommend\'.',
       "lessonId": "lesson_a1_5_66",
       "stage": 14,
       "type": "word_ordering",
@@ -1304,6 +1318,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_p15",
+      "explanation": '\'With olive oil dressing on the side\' gives the detail of how the dish is served.',
       "lessonId": "lesson_a1_5_66",
       "stage": 14,
       "type": "speaking",
@@ -1315,6 +1330,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u05_l66_r1",
+      "explanation": '\'On the third floor\' uses \'on\' with floors and the ordinal \'third\'.',
       "lessonId": "lesson_a1_5_66",
       "stage": 16,
       "type": "multiple_choice",
@@ -1339,6 +1355,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_r2",
+      "explanation": '\'Is breakfast included in the price?\' uses \'included\' as an adjective after \'is\'.',
       "lessonId": "lesson_a1_5_66",
       "stage": 16,
       "type": "fill_blank",
@@ -1365,6 +1382,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_r3",
+      "explanation": '\'The express train departs from platform six\' uses the present simple for a schedule.',
       "lessonId": "lesson_a1_5_66",
       "stage": 16,
       "type": "word_ordering",
@@ -1382,6 +1400,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_r4",
+      "explanation": 'Allergic to = sensitive to something. Keycard = door access. Dressing = salad sauce. Amenity = useful facility.',
       "lessonId": "lesson_a1_5_66",
       "stage": 16,
       "type": "match_pairs",
@@ -1407,6 +1426,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_r5",
+      "explanation": '\'Could I have the dressing on the side?\' is a polite request. Hindi: \'क्या मुझे ड्रेसिंग अलग से मिल सकती है?\'',
       "lessonId": "lesson_a1_5_66",
       "stage": 16,
       "type": "translation",
@@ -1417,6 +1437,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u05_l66_a1",
+      "explanation": '\'I am allergic to peanuts, so please make sure the dish is nut-free\' gives the reason and the request clearly.',
       "lessonId": "lesson_a1_5_66",
       "stage": 17,
       "type": "multiple_choice",
@@ -1441,6 +1462,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_a2",
+      "explanation": '\'Split the bill\' means divide it between the people at the table.',
       "lessonId": "lesson_a1_5_66",
       "stage": 17,
       "type": "fill_blank",
@@ -1467,6 +1489,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_a3",
+      "explanation": '\'Could we please have the bill and pay by card?\' is a polite request with \'and\' joining two actions.',
       "lessonId": "lesson_a1_5_66",
       "stage": 17,
       "type": "word_ordering",
@@ -1487,6 +1510,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_a4",
+      "explanation": '\'No, this chocolate cake is completely gluten-free and dairy-free\' answers the question directly.',
       "lessonId": "lesson_a1_5_66",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1511,6 +1535,7 @@ export const LESSON_A1_5_66_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l66_a5",
+      "explanation": '\'Could I please have the grilled salmon without butter and with steamed vegetables on the side?\' is a polite order with clear modifications.',
       "lessonId": "lesson_a1_5_66",
       "stage": 17,
       "type": "speaking",

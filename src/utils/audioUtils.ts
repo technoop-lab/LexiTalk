@@ -53,6 +53,34 @@ function getAudioContext(): AudioContext | null {
   }
 }
 
+const MALE_VOICE_HINTS = ['male', 'david', 'mark', 'daniel', 'james', 'george', 'ravi', 'rishi'];
+const FEMALE_VOICE_HINTS = ['female', 'veena', 'heera', 'zira', 'samantha', 'karen', 'moira', 'tessa', 'fiona', 'susan', 'hazel', 'sangeeta'];
+
+/**
+ * Pick a female voice for the requested language when the browser has one.
+ * Order: exact locale + female name, then any same-language female, then any
+ * same-language voice that is not clearly male, then the first matching voice.
+ */
+export const pickFemaleVoice = (voices: SpeechSynthesisVoice[], lang: string): SpeechSynthesisVoice | undefined => {
+  const wanted = lang.replace('_', '-').toLowerCase();
+  const base = wanted.split('-')[0];
+  const isMale = (v: SpeechSynthesisVoice) => MALE_VOICE_HINTS.some((h) => v.name.toLowerCase().includes(h));
+  const isFemale = (v: SpeechSynthesisVoice) => FEMALE_VOICE_HINTS.some((h) => v.name.toLowerCase().includes(h));
+  const sameLang = (v: SpeechSynthesisVoice) => v.lang.replace('_', '-').toLowerCase() === wanted;
+  const sameBase = (v: SpeechSynthesisVoice) => v.lang.toLowerCase().startsWith(base);
+
+  if (base === 'hi') {
+    return voices.find((v) => sameBase(v) && isFemale(v)) || voices.find((v) => sameBase(v));
+  }
+  return (
+    voices.find((v) => sameLang(v) && isFemale(v)) ||
+    voices.find((v) => sameBase(v) && isFemale(v)) ||
+    voices.find((v) => sameLang(v) && !isMale(v)) ||
+    voices.find((v) => sameBase(v) && !isMale(v)) ||
+    voices.find((v) => sameBase(v))
+  );
+};
+
 /**
  * Check if the native Android TextToSpeech bridge is present in WebView
  */
@@ -136,10 +164,24 @@ export const speakNativeAndroidTTS = (text: string, lang: string = getActiveEngl
  * Sanitize text before sending to Speech Synthesis / Native TTS.
  * Strips UI labels, IPA slash/bracket notations, markdown symbols, parentheticals, and metadata.
  */
+/**
+ * Titles are spoken the way the learner hears them: Mr. = Mister, Mrs. = Missus, Ms. = Mizz.
+ * Exported so every direct speech call (not only sanitizeSpokenAudioText) can use it.
+ */
+export const expandTitlesForSpeech = (text: string): string => {
+  return text
+    .replace(/\bMrs\./gi, 'Missus')
+    .replace(/\bMr\./gi, 'Mister')
+    .replace(/\bMs\./gi, 'Mizz');
+};
+
 export const sanitizeSpokenAudioText = (rawText: string): string => {
   if (!rawText || typeof rawText !== 'string') return '';
 
   let text = rawText;
+
+  // Speak titles in full before anything else touches the text
+  text = expandTitlesForSpeech(text);
 
   // Remove markdown formatting
   text = text.replace(/[*_#`~]/g, '');
@@ -271,17 +313,7 @@ export const speakTextOffline = async (text: string, lang: string = getActiveEng
 
         const voices = window.speechSynthesis.getVoices();
         if (voices && voices.length > 0) {
-          const wanted = chunk.lang.replace('_', '-').toLowerCase();
-          let matchingVoice = voices.find((v) => v.lang.replace('_', '-').toLowerCase() === wanted);
-          if (!matchingVoice) {
-            const base = wanted.split('-')[0];
-            if (base === 'hi') {
-              matchingVoice = voices.find((v) => v.lang.toLowerCase().startsWith('hi'));
-            } else {
-              // Prefer any English voice before giving up, rather than staying silent.
-              matchingVoice = voices.find((v) => v.lang.toLowerCase().startsWith('en'));
-            }
-          }
+          const matchingVoice = pickFemaleVoice(voices, chunk.lang);
           if (matchingVoice) {
             utterance.voice = matchingVoice;
           }

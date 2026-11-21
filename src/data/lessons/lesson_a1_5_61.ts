@@ -1016,6 +1016,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u05_l61_p1",
+      "explanation": '\'On track with\' means progressing according to plan. \'Behind of\' and \'out from\' are not standard phrases.',
       "lessonId": "lesson_a1_5_61",
       "stage": 8,
       "type": "multiple_choice",
@@ -1040,6 +1041,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_p2",
+      "explanation": 'Present continuous = am/is/are + -ing. \'Is preparing\' is for an action happening now. \'Prepares now\' mixes the present simple with \'now\'.',
       "lessonId": "lesson_a1_5_61",
       "stage": 8,
       "type": "fill_blank",
@@ -1066,6 +1068,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_p3",
+      "explanation": '\'Making progress\' is a present continuous statement of an ongoing action. \'Excellent\' is an adjective describing the progress.',
       "lessonId": "lesson_a1_5_61",
       "stage": 8,
       "type": "word_ordering",
@@ -1084,6 +1087,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_p4",
+      "explanation": '\'On track\' means following the schedule. \'Ahead of schedule\' means earlier than planned. \'Wrap up\' means finish. \'Feedback\' is helpful comments.',
       "lessonId": "lesson_a1_5_61",
       "stage": 8,
       "type": "match_pairs",
@@ -1109,6 +1113,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_p5",
+      "explanation": '\'I am working on the presentation right now\' uses the present continuous for an action in progress. \'I work\' is the simple present and \'am worked\' is the passive.',
       "lessonId": "lesson_a1_5_61",
       "stage": 8,
       "type": "error_correction",
@@ -1134,6 +1139,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_p6",
+      "explanation": 'The speaker says: \'Please send me a short summary of the morning meeting.\' \'Schedule\' is a different word.',
       "lessonId": "lesson_a1_5_61",
       "stage": 9,
       "type": "listening",
@@ -1154,6 +1160,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_p7",
+      "explanation": '\'We are collaborating with the engineering team\' uses the present continuous for an ongoing joint activity.',
       "lessonId": "lesson_a1_5_61",
       "stage": 9,
       "type": "listen_and_type",
@@ -1163,6 +1170,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_p8",
+      "explanation": '\'What is the current status of the project?\' is a question with the correct word order. \'What does the status project is?\' is incorrect.',
       "lessonId": "lesson_a1_5_61",
       "stage": 10,
       "type": "multiple_choice",
@@ -1187,6 +1195,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_p9",
+      "explanation": '\'The slides are complete and we are ahead of schedule\' gives a status update in response to the question.',
       "lessonId": "lesson_a1_5_61",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1211,6 +1220,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_p10",
+      "explanation": '\'I am currently working on\' uses the present continuous with \'currently\' for an action happening now.',
       "lessonId": "lesson_a1_5_61",
       "stage": 12,
       "type": "speaking",
@@ -1220,6 +1230,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_p11",
+      "explanation": '\'Keep me in the loop\' means keep me informed. Hindi: \'कृपया मुझे इस परियोजना के बारे में सूचित रखें।\'',
       "lessonId": "lesson_a1_5_61",
       "stage": 13,
       "type": "translation",
@@ -1228,6 +1239,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_p12",
+      "explanation": 'A timeline shows the schedule and milestones of a project. A keyboard and a printer are office tools.',
       "lessonId": "lesson_a1_5_61",
       "stage": 14,
       "type": "multiple_choice",
@@ -1252,6 +1264,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_p13",
+      "explanation": '\'For today\' is a time phrase: \'Finishing the report is our top priority for today.\'',
       "lessonId": "lesson_a1_5_61",
       "stage": 14,
       "type": "fill_blank",
@@ -1278,6 +1291,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_p14",
+      "explanation": '\'Let us wrap up\' is a suggestion using the imperative. \'Wrap up\' means finish.',
       "lessonId": "lesson_a1_5_61",
       "stage": 14,
       "type": "word_ordering",
@@ -1296,6 +1310,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_p15",
+      "explanation": '\'Is collaborating effectively to meet the deadline\' uses the present continuous for an ongoing action and \'to\' + base verb for purpose.',
       "lessonId": "lesson_a1_5_61",
       "stage": 14,
       "type": "speaking",
@@ -1307,6 +1322,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u05_l61_r1",
+      "explanation": '\'I always check my email\' places \'always\' before the main verb. \'Check always\' and \'always I check\' are incorrect.',
       "lessonId": "lesson_a1_5_61",
       "stage": 16,
       "type": "multiple_choice",
@@ -1331,6 +1347,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_r2",
+      "explanation": '\'Could you please send...?\' is a polite request. \'Please\' follows \'could you\'.',
       "lessonId": "lesson_a1_5_61",
       "stage": 16,
       "type": "fill_blank",
@@ -1357,6 +1374,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_r3",
+      "explanation": '\'She usually finishes work at six o\'clock\' uses the adverb \'usually\' before the verb and -es on \'finishes\'.',
       "lessonId": "lesson_a1_5_61",
       "stage": 16,
       "type": "word_ordering",
@@ -1374,6 +1392,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_r4",
+      "explanation": 'An agenda is the list of items for a meeting. A deadline is a due date. A client is a customer. A colleague is a coworker.',
       "lessonId": "lesson_a1_5_61",
       "stage": 16,
       "type": "match_pairs",
@@ -1399,6 +1418,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_r5",
+      "explanation": '\'Ahead of schedule\' means earlier than planned. Hindi: \'हम समय से आगे हैं।\'',
       "lessonId": "lesson_a1_5_61",
       "stage": 16,
       "type": "translation",
@@ -1409,6 +1429,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u05_l61_a1",
+      "explanation": '\'We are testing the new system and everything is on track\' uses the present continuous and the correct phrase \'on track\'.',
       "lessonId": "lesson_a1_5_61",
       "stage": 17,
       "type": "multiple_choice",
@@ -1433,6 +1454,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_a2",
+      "explanation": '\'Take the lead\' means to be in charge of something.',
       "lessonId": "lesson_a1_5_61",
       "stage": 17,
       "type": "fill_blank",
@@ -1459,6 +1481,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_a3",
+      "explanation": '\'I am preparing a detailed summary for the meeting\' uses the present continuous for an ongoing task.',
       "lessonId": "lesson_a1_5_61",
       "stage": 17,
       "type": "word_ordering",
@@ -1478,6 +1501,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_a4",
+      "explanation": '\'We are making great progress and will finish before five\' is a professional update with a future prediction.',
       "lessonId": "lesson_a1_5_61",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1502,6 +1526,7 @@ export const LESSON_A1_5_61_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l61_a5",
+      "explanation": '\'Keep me in the loop\' means to keep someone informed. \'Regarding\' means about.',
       "lessonId": "lesson_a1_5_61",
       "stage": 17,
       "type": "speaking",

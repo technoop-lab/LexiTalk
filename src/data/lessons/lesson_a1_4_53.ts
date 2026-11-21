@@ -1016,6 +1016,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u04_l53_p1",
+      "explanation": '\'Went\' is the irregular past of \'go\'. \'Go\' is the base form, and \'goed\' is not a word.',
       "lessonId": "lesson_a1_4_53",
       "stage": 8,
       "type": "multiple_choice",
@@ -1040,6 +1041,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_p2",
+      "explanation": 'After \'Did\', the verb takes the base form: \'Did you buy any souvenirs?\' \'Bought\' and \'buying\' are not used after \'did\'.',
       "lessonId": "lesson_a1_4_53",
       "stage": 8,
       "type": "fill_blank",
@@ -1066,6 +1068,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_p3",
+      "explanation": '\'We had a wonderful time in Italy\' is a past statement. \'Had\' is the past of \'have\'.',
       "lessonId": "lesson_a1_4_53",
       "stage": 8,
       "type": "word_ordering",
@@ -1083,6 +1086,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_p4",
+      "explanation": 'Irregular past forms: go - went, buy - bought, see - saw, take - took. These must be learned as lists.',
       "lessonId": "lesson_a1_4_53",
       "stage": 8,
       "type": "match_pairs",
@@ -1108,6 +1112,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_p5",
+      "explanation": '\'Visited\' is the past simple of \'visit\'. \'Two years ago\' is a finished time, so the simple past is used.',
       "lessonId": "lesson_a1_4_53",
       "stage": 8,
       "type": "error_correction",
@@ -1133,6 +1138,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_p6",
+      "explanation": 'The speaker says: \'We stayed at a comfortable hotel near the beach and swam in the ocean.\' The other option has wrong words.',
       "lessonId": "lesson_a1_4_53",
       "stage": 9,
       "type": "listening",
@@ -1153,6 +1159,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_p7",
+      "explanation": '\'Took\' is the past of \'take\' (irregular), and \'photographs\' is the object.',
       "lessonId": "lesson_a1_4_53",
       "stage": 9,
       "type": "listen_and_type",
@@ -1162,6 +1169,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_p8",
+      "explanation": '\'What did you do during your vacation?\' is the correct past question. \'Did\' takes the base form \'do\'.',
       "lessonId": "lesson_a1_4_53",
       "stage": 10,
       "type": "multiple_choice",
@@ -1186,6 +1194,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_p9",
+      "explanation": '\'It was delicious! We ate fresh seafood every night\' answers the question with the past simple \'was\' and \'ate\'.',
       "lessonId": "lesson_a1_4_53",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1210,6 +1219,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_p10",
+      "explanation": '\'We went sightseeing and visited several famous museums\' describes past events with the simple past.',
       "lessonId": "lesson_a1_4_53",
       "stage": 12,
       "type": "speaking",
@@ -1219,6 +1229,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_p11",
+      "explanation": '\'We went to Italy last summer\' is a past statement. Hindi: \'हम पिछली गर्मियों में इटली गए थे।\'',
       "lessonId": "lesson_a1_4_53",
       "stage": 13,
       "type": "translation",
@@ -1227,6 +1238,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_p12",
+      "explanation": 'A souvenir is an object kept as a reminder of a trip. A receipt proves purchase, and a scale weighs items.',
       "lessonId": "lesson_a1_4_53",
       "stage": 14,
       "type": "multiple_choice",
@@ -1251,6 +1263,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_p14",
+      "explanation": '\'Where did you stay?\' asks about accommodation in the past. \'Did\' takes the base form \'stay\'.',
       "lessonId": "lesson_a1_4_53",
       "stage": 14,
       "type": "word_ordering",
@@ -1267,6 +1280,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_p13",
+      "explanation": '\'Ago\' counts back from now. \'Three days ago\' is a past time phrase.',
       "lessonId": "lesson_a1_4_53",
       "stage": 14,
       "type": "fill_blank",
@@ -1293,6 +1307,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_p15",
+      "explanation": '\'Was an unforgettable experience\' uses the past \'was\' for a past trip.',
       "lessonId": "lesson_a1_4_53",
       "stage": 14,
       "type": "speaking",
@@ -1304,6 +1319,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u04_l53_r1",
+      "explanation": '\'Across from\' means on the opposite side. \'Across to\' and \'across of\' are incorrect.',
       "lessonId": "lesson_a1_4_53",
       "stage": 16,
       "type": "multiple_choice",
@@ -1328,6 +1344,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_r2",
+      "explanation": '\'Faster\' is the comparative of \'fast\', used with \'than\'.',
       "lessonId": "lesson_a1_4_53",
       "stage": 16,
       "type": "fill_blank",
@@ -1354,6 +1371,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_r3",
+      "explanation": '\'There is a supermarket next to the bank\' uses \'there is\' with a singular noun.',
       "lessonId": "lesson_a1_4_53",
       "stage": 16,
       "type": "word_ordering",
@@ -1372,6 +1390,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_r4",
+      "explanation": 'Take photographs, stay at a hotel, buy souvenirs, and go sightseeing are travel collocations.',
       "lessonId": "lesson_a1_4_53",
       "stage": 16,
       "type": "match_pairs",
@@ -1397,6 +1416,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_r5",
+      "explanation": '\'Did you keep the receipt?\' asks about a past action. Hindi: \'क्या आपने रसीद रखी?\'',
       "lessonId": "lesson_a1_4_53",
       "stage": 16,
       "type": "translation",
@@ -1407,6 +1427,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u04_l53_a1",
+      "explanation": '\'We visited three art museums in Paris last summer\' uses the simple past for a completed trip.',
       "lessonId": "lesson_a1_4_53",
       "stage": 17,
       "type": "multiple_choice",
@@ -1431,6 +1452,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_a2",
+      "explanation": '\'Bought\' is the irregular past of \'buy\', and \'three days ago\' is a past time phrase.',
       "lessonId": "lesson_a1_4_53",
       "stage": 17,
       "type": "fill_blank",
@@ -1457,6 +1479,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_a3",
+      "explanation": '\'Did you have...?\' is a past question with \'did\' + base verb \'have\'.',
       "lessonId": "lesson_a1_4_53",
       "stage": 17,
       "type": "word_ordering",
@@ -1474,6 +1497,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_a4",
+      "explanation": '\'It was fantastic! We hiked to the top\' answers the question with the simple past.',
       "lessonId": "lesson_a1_4_53",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1498,6 +1522,7 @@ export const LESSON_A1_4_53_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l53_a5",
+      "explanation": '\'We stayed at a cozy hotel and tried delicious regional cuisine\' uses past simple verbs.',
       "lessonId": "lesson_a1_4_53",
       "stage": 17,
       "type": "speaking",

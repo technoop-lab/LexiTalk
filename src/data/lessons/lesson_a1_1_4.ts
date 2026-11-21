@@ -636,6 +636,7 @@ export const LESSON_A1_1_4_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l4_12',
+      explanation: '\'Those\' points to several things at a distance: \'Those are my sunglasses.\' Use \'are\' with the plural noun.',
       type: 'listen_and_type',
       prompt: 'Listen and arrange the tiles to form the sentence:',
       audioText: 'Those are my sunglasses.',
@@ -646,6 +647,7 @@ export const LESSON_A1_1_4_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l4_13',
+      explanation: '\'This\' points to one thing near the speaker: \'This is my key.\' Hindi: \'यह मेरी चाबी है।\'',
       type: 'translation',
       prompt: 'Translate into English:',
       sourceSentence: 'यह मेरी चाबी है।',
@@ -656,6 +658,7 @@ export const LESSON_A1_1_4_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l4_14',
+      explanation: '\'These\' is for several items close to the speaker: \'These books on the desk are mine.\' Use \'are\' with the plural.',
       type: 'speaking',
       prompt: 'Speak this demonstrative phrase clearly:',
       targetSentence: 'These books on the desk are mine.',
@@ -663,6 +666,7 @@ export const LESSON_A1_1_4_DATA: DetailedLessonData = {
     },
     {
       id: 'pe_l4_15',
+      explanation: '\'Father\'s\' shows possession, and \'mine\' replaces \'my phone\' at the end: \'that phone is mine.\'',
       type: 'word_ordering',
       prompt: 'Interleaved Practice (L1–L4): Combine demonstrative, family member, and object:',
       targetSentence: 'This laptop is my father\'s and that phone is mine',
@@ -675,6 +679,7 @@ export const LESSON_A1_1_4_DATA: DetailedLessonData = {
   reviewExercises: [
     {
       id: 're_l4_1',
+      explanation: '\'Those\' is plural, so it takes \'are\': \'Those are our bags.\' \'That are\' and \'These is\' are wrong.',
       type: 'multiple_choice',
       prompt: 'Review: Select the correct sentence for distant plural items:',
       options: [
@@ -685,6 +690,7 @@ export const LESSON_A1_1_4_DATA: DetailedLessonData = {
     },
     {
       id: 're_l4_2',
+      explanation: '\'These\' is plural, so use \'are\': \'These are my sister\'s glasses.\'',
       type: 'fill_blank',
       prompt: 'Review: Complete with "is" or "are":',
       sourceSentence: 'These ____ my sister\'s glasses.',
@@ -698,6 +704,7 @@ export const LESSON_A1_1_4_DATA: DetailedLessonData = {
     },
     {
       id: 're_l4_3',
+      explanation: '\'That\' asks about one object at a distance: \'What is that on the table?\' Use \'is\' with a singular subject.',
       type: 'word_ordering',
       prompt: 'Review: Construct the question asking what an object is:',
       targetSentence: 'What is that on the table',
@@ -706,6 +713,7 @@ export const LESSON_A1_1_4_DATA: DetailedLessonData = {
     },
     {
       id: 're_l4_4',
+      explanation: '\'Those\' is for several things at a distance. Hindi: \'वे मेरी किताबें हैं।\' Use \'are\' with the plural \'books\'.',
       type: 'translation',
       prompt: 'Review Translation: Translate to English:',
       sourceSentence: 'वे मेरी किताबें हैं।',
@@ -720,6 +728,7 @@ export const LESSON_A1_1_4_DATA: DetailedLessonData = {
   assessmentExercises: [
     {
       id: 'ae_l4_1',
+      explanation: '\'This\' goes with a singular noun and \'is\': \'This pen is blue.\' \'That pen are\' and \'Those pen is\' mix singular and plural.',
       type: 'multiple_choice',
       prompt: 'Mastery Test 1: Choose the correct demonstrative for an object near your hand:',
       options: [
@@ -730,6 +739,7 @@ export const LESSON_A1_1_4_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l4_2',
+      explanation: 'Most nouns form the plural by adding -s: \'umbrella\' becomes \'umbrellas\'. \'Umbrellaes\' and \'umbrellas\'\' are not plural forms.',
       type: 'multiple_choice',
       prompt: 'Mastery Test 2: Select the correct plural form:',
       options: [
@@ -740,6 +750,7 @@ export const LESSON_A1_1_4_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l4_3',
+      explanation: '\'That\' points to one thing at a distance. In \'That is a beautiful bird\', \'That\' refers to the bird seen through the window.',
       type: 'fill_blank',
       prompt: 'Mastery Test 3: Fill the correct demonstrative pronoun:',
       sourceSentence: 'Look over there at the window! ____ is a beautiful bird.',
@@ -753,6 +764,7 @@ export const LESSON_A1_1_4_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l4_4',
+      explanation: 'Start the question with \'Whose\' (ownership), then \'are\' for plural keys, then \'these\': \'Whose keys are these...?\'',
       type: 'word_ordering',
       prompt: 'Mastery Test 4: Construct "Whose keys are these on the chair":',
       targetSentence: 'Whose keys are these on the chair',
@@ -761,6 +773,7 @@ export const LESSON_A1_1_4_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l4_5',
+      explanation: '\'These\' + \'are\' + plural noun: \'These laptops are for our students.\' Keep \'are\' with the plural subject.',
       type: 'word_ordering',
       prompt: 'Mastery Test 5: Construct "These laptops are for our students":',
       targetSentence: 'These laptops are for our students',
@@ -769,6 +782,7 @@ export const LESSON_A1_1_4_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l4_6',
+      explanation: 'Listen for the object named in the audio: \'Is this your wallet, sir?\' The answer is \'wallet\'.',
       type: 'listening',
       prompt: 'Mastery Test 6: Listen and identify what is being confirmed:',
       audioText: 'Is this your wallet, sir?',
@@ -781,6 +795,7 @@ export const LESSON_A1_1_4_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l4_7',
+      explanation: '\'Those\' + \'are\' + plural noun. \'Watches\' is the plural of \'watch\', formed by adding -es after -ch.',
       type: 'listen_and_type',
       prompt: 'Mastery Test 7: Listen and write the sentence:',
       audioText: 'Those watches are very expensive.',
@@ -791,6 +806,7 @@ export const LESSON_A1_1_4_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l4_8',
+      explanation: 'A yes/no question with \'is\' starts with the verb: \'Is this your passport?\' Hindi: \'क्या यह आपका पासपोर्ट है?\'',
       type: 'translation',
       prompt: 'Mastery Test 8: Translate into English:',
       sourceSentence: 'क्या यह आपका पासपोर्ट है?',
@@ -801,6 +817,7 @@ export const LESSON_A1_1_4_DATA: DetailedLessonData = {
     },
     {
       id: 'ae_l4_9',
+      explanation: 'Use \'These\' for several near items and \'that\' for one item at a distance: \'These are my keys and that is my bag.\'',
       type: 'speaking',
       prompt: 'Mastery Test 9: Speak this statement clearly:',
       targetSentence: 'These are my keys and that is my bag.',

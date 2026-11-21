@@ -1026,6 +1026,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u06_l87_p1",
+      "explanation": '\'By + -ing\' expresses how something is done: \'by turning off lights\'. \'By turn\' and \'to turning\' are incorrect.',
       "lessonId": "lesson_a1_6_87",
       "stage": 8,
       "type": "multiple_choice",
@@ -1050,6 +1051,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_p2",
+      "explanation": '\'Should\' + base verb expresses advice or obligation: \'should bring\'. \'Should to\' and \'ought\' with the wrong form are incorrect.',
       "lessonId": "lesson_a1_6_87",
       "stage": 8,
       "type": "multiple_choice",
@@ -1074,6 +1076,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_p3",
+      "explanation": 'Compost is decomposed organic matter used as fertilizer. \'Compact\' and \'compound\' do not fit.',
       "lessonId": "lesson_a1_6_87",
       "stage": 8,
       "type": "fill_blank",
@@ -1100,6 +1103,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_p4",
+      "explanation": 'Biodegradable materials decompose naturally. Renewable energy comes from sources such as solar and wind. A carbon footprint is the greenhouse gas emissions caused by a person or activity.',
       "lessonId": "lesson_a1_6_87",
       "stage": 8,
       "type": "match_pairs",
@@ -1125,6 +1129,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_p5",
+      "explanation": '\'Reduce, reuse, and recycle\' is a list of three verbs after \'remember to\'.',
       "lessonId": "lesson_a1_6_87",
       "stage": 8,
       "type": "word_ordering",
@@ -1143,6 +1148,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_p6",
+      "explanation": '\'Switching off the lights\' uses -ing after \'by\'. \'Light\' should be plural in this context, as the advice refers to several lights.',
       "lessonId": "lesson_a1_6_87",
       "stage": 8,
       "type": "error_correction",
@@ -1164,6 +1170,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_p7",
+      "explanation": '\'Taking public transportation helps reduce your personal carbon footprint\' uses an -ing subject with a singular verb \'helps\'.',
       "lessonId": "lesson_a1_6_87",
       "stage": 9,
       "type": "listen_and_type",
@@ -1173,6 +1180,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_p8",
+      "explanation": '\'We can conserve fresh water by taking shorter showers and fixing leaks\' uses \'by\' + -ing for method.',
       "lessonId": "lesson_a1_6_87",
       "stage": 10,
       "type": "multiple_choice",
@@ -1197,6 +1205,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_p9",
+      "explanation": '\'Please put them into the blue recycling container\' gives a clear instruction for recycling.',
       "lessonId": "lesson_a1_6_87",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1221,6 +1230,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_p10",
+      "explanation": '\'We should reduce our carbon footprint by using renewable solar energy\' uses \'should\' + base verb and \'by\' + -ing.',
       "lessonId": "lesson_a1_6_87",
       "stage": 12,
       "type": "speaking",
@@ -1230,6 +1240,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_p11",
+      "explanation": '\'Solar power is a clean and sustainable energy source\' gives a definition. Hindi: \'सौर ऊर्जा एक स्वच्छ और टिकाऊ ऊर्जा स्रोत है।\'',
       "lessonId": "lesson_a1_6_87",
       "stage": 13,
       "type": "translation",
@@ -1238,6 +1249,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_p12",
+      "explanation": 'Biodegradable means able to decompose naturally. Biographical and biological clock are different terms.',
       "lessonId": "lesson_a1_6_87",
       "stage": 14,
       "type": "multiple_choice",
@@ -1262,6 +1274,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_p13",
+      "explanation": 'Exhaust emissions are gases released by vehicles. Emotions and elements do not fit.',
       "lessonId": "lesson_a1_6_87",
       "stage": 14,
       "type": "fill_blank",
@@ -1288,6 +1301,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_p14",
+      "explanation": '\'Wind turbines generate clean renewable electricity\' is a factual statement with a plural subject and present simple verb.',
       "lessonId": "lesson_a1_6_87",
       "stage": 14,
       "type": "word_ordering",
@@ -1304,6 +1318,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_p15",
+      "explanation": '\'You can conserve water by turning off the tap while brushing your teeth\' uses \'can\' for possibility and \'by\' + -ing.',
       "lessonId": "lesson_a1_6_87",
       "stage": 14,
       "type": "speaking",
@@ -1315,6 +1330,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u06_l87_r1",
+      "explanation": '\'By reducing deforestation\' uses \'by\' + -ing to show how habitats are protected.',
       "lessonId": "lesson_a1_6_87",
       "stage": 16,
       "type": "multiple_choice",
@@ -1339,6 +1355,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_r2",
+      "explanation": 'Landfills are sites where waste is buried. Landmarks and landscapes are different things.',
       "lessonId": "lesson_a1_6_87",
       "stage": 16,
       "type": "fill_blank",
@@ -1365,6 +1382,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_r3",
+      "explanation": '\'Solar energy is a clean and renewable power source\' is a factual statement.',
       "lessonId": "lesson_a1_6_87",
       "stage": 16,
       "type": "word_ordering",
@@ -1384,6 +1402,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_r4",
+      "explanation": 'Fruit and vegetable scraps go into a green compost bin. Clean glass bottles and cans go into a blue recycling bin.',
       "lessonId": "lesson_a1_6_87",
       "stage": 16,
       "type": "match_pairs",
@@ -1409,6 +1428,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_r5",
+      "explanation": '\'Taking the subway reduces your personal carbon footprint.\' Hindi: \'सबवे लेने से आपका व्यक्तिगत कार्बन फुटप्रिंट कम होता है।\'',
       "lessonId": "lesson_a1_6_87",
       "stage": 16,
       "type": "translation",
@@ -1419,6 +1439,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u06_l87_a1",
+      "explanation": '\'We should conserve energy and reduce waste by using renewable resources and recycling\' is correct: \'should\' + base verb and \'by\' + -ing.',
       "lessonId": "lesson_a1_6_87",
       "stage": 17,
       "type": "multiple_choice",
@@ -1443,6 +1464,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_a2",
+      "explanation": 'Consumption is the amount of energy used. Construction and condition do not fit.',
       "lessonId": "lesson_a1_6_87",
       "stage": 17,
       "type": "fill_blank",
@@ -1469,6 +1491,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_a3",
+      "explanation": '\'We can cut emissions by taking electric public buses\' uses \'by\' + -ing for method.',
       "lessonId": "lesson_a1_6_87",
       "stage": 17,
       "type": "word_ordering",
@@ -1488,6 +1511,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_a4",
+      "explanation": '\'By switching off unused lights, composting organic food, and recycling containers\' gives three methods with -ing forms.',
       "lessonId": "lesson_a1_6_87",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1512,6 +1536,7 @@ export const LESSON_A1_6_87_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l87_a5",
+      "explanation": '\'We can protect our ecosystem by conserving water, recycling waste, and using renewable energy sources\' gives three methods with -ing.',
       "lessonId": "lesson_a1_6_87",
       "stage": 17,
       "type": "speaking",

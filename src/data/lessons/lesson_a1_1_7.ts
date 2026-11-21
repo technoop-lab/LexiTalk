@@ -552,6 +552,7 @@ export const LESSON_A1_1_7_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l7_p3',
+      explanation: '\'Opposite\' means across from. \'The supermarket is opposite the train station\' places one place across from another.',
       lessonId: 'lesson_a1_1_7',
       stage: 8,
       type: 'word_ordering',
@@ -575,6 +576,7 @@ export const LESSON_A1_1_7_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l7_p5',
+      explanation: 'Use \'in\' for the centre of a city or an area: \'in the city center\'.',
       lessonId: 'lesson_a1_1_7',
       stage: 9,
       type: 'listen_and_type',
@@ -584,6 +586,7 @@ export const LESSON_A1_1_7_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l7_p6',
+      explanation: '\'Where is...?\' asks for a place. \'Nearest\' comes before the noun: \'the nearest bank\'.',
       lessonId: 'lesson_a1_1_7',
       stage: 10,
       type: 'word_ordering',
@@ -593,6 +596,7 @@ export const LESSON_A1_1_7_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l7_p7',
+      explanation: 'Use \'on\' for a street corner: \'on the corner of Park Street\'.',
       lessonId: 'lesson_a1_1_7',
       stage: 12,
       type: 'speaking',
@@ -602,6 +606,7 @@ export const LESSON_A1_1_7_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l7_p8',
+      explanation: '\'Opposite\' means across from: \'The hospital is opposite the park.\' Hindi: \'अस्पताल पार्क के सामने है।\'',
       lessonId: 'lesson_a1_1_7',
       stage: 13,
       type: 'translation',
@@ -686,6 +691,7 @@ export const LESSON_A1_1_7_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l7_p14',
+      explanation: '\'Behind\' means at the back of something: \'The parking lot is behind the school.\'',
       lessonId: 'lesson_a1_1_7',
       stage: 8,
       type: 'word_ordering',
@@ -695,6 +701,7 @@ export const LESSON_A1_1_7_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l7_p15',
+      explanation: '\'In the city center\' is the usual phrase for the central part of a city.',
       lessonId: 'lesson_a1_1_7',
       stage: 12,
       type: 'speaking',
@@ -736,6 +743,7 @@ export const LESSON_A1_1_7_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l7_rev3',
+      explanation: '\'Is there\' introduces a place that may or may not exist: \'Is there a restaurant near the museum?\'',
       lessonId: 'lesson_a1_1_7',
       stage: 16,
       type: 'word_ordering',
@@ -745,6 +753,7 @@ export const LESSON_A1_1_7_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l7_rev4',
+      explanation: '\'Between\' links two places: \'between the supermarket and the hotel.\' Hindi: \'बैंक सुपरमार्केट और होटल के बीच में है।\'',
       lessonId: 'lesson_a1_1_7',
       stage: 16,
       type: 'translation',
@@ -790,6 +799,7 @@ export const LESSON_A1_1_7_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l7_a3',
+      explanation: '\'In front of\' means before something on the same side. \'Behind\' is the opposite.',
       lessonId: 'lesson_a1_1_7',
       stage: 17,
       type: 'word_ordering',
@@ -827,6 +837,7 @@ export const LESSON_A1_1_7_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l7_a6',
+      explanation: '\'There is\' + a + noun introduces something that exists: \'There is a small supermarket near here.\'',
       lessonId: 'lesson_a1_1_7',
       stage: 17,
       type: 'listen_and_type',
@@ -850,6 +861,7 @@ export const LESSON_A1_1_7_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l7_a8',
+      explanation: '\'Far from\' expresses distance: \'The airport is far from the city center.\' Hindi: \'हवाई अड्डा शहर के केंद्र से बहुत दूर है।\'',
       lessonId: 'lesson_a1_1_7',
       stage: 17,
       type: 'translation',
@@ -876,6 +888,7 @@ export const LESSON_A1_1_7_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l7_a10',
+      explanation: '\'Is there an Italian restaurant...?\' \'An\' comes before \'Italian\' because it starts with a vowel sound.',
       lessonId: 'lesson_a1_1_7',
       stage: 17,
       type: 'word_ordering',

@@ -1022,6 +1022,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u03_l43_p1",
+      "explanation": '\'I\'ll\' (I will) is used for a decision or offer made at the moment of speaking. \'I will to help\' and \'I\'ll hel...\' are incorrect.',
       "type": "multiple_choice",
       "prompt": "Select the correct sentence expressing a spontaneous offer:",
       "targetSentence": "I'll help you carry those boxes.",
@@ -1050,6 +1051,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_p2",
+      "explanation": '\'Won\'t\' is the contraction of \'will not\' and is used for future refusals or predictions: \'we won\'t be late\'. \'Willn\'t\' is not a word.',
       "type": "fill_blank",
       "prompt": "Fill in the blank with the future negative contraction:",
       "targetSentence": "Don't worry, we won't be late for the presentation.",
@@ -1078,6 +1080,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_p3",
+      "explanation": '\'Will\' + base verb: \'I will answer it\'. The decision is made when the phone rings, so \'will\' is used.',
       "type": "word_ordering",
       "prompt": "Assemble the spontaneous decision sentence:",
       "targetSentence": "The phone is ringing so I will answer it",
@@ -1097,6 +1100,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_p4",
+      "explanation": 'The audio says: \'I promise I will send you the project files before five o clock.\' That matches the first option.',
       "type": "listening",
       "prompt": "Listen to the promise and identify what will happen:",
       "audioText": "I promise I will send you the project files before five o clock.",
@@ -1125,6 +1129,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_p5",
+      "explanation": '\'Will\' + base verb: \'will arrive\'. \'Will arriving\' and \'will to arrive\' are not correct.',
       "type": "error_correction",
       "prompt": "Fix the modal future error:",
       "targetSentence": "She will arrive around seven o'clock.",
@@ -1154,6 +1159,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_p6",
+      "explanation": '\'Yes, I will\' answers a future question with \'will\'. \'I look forward to it\' is a natural reply.',
       "type": "dialogue_completion",
       "prompt": "Choose the natural response to the question:",
       "dialogueContext": {
@@ -1186,6 +1192,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_p7",
+      "explanation": '\'I think... will be\' is a prediction. \'Will\' + \'be\' is used for the future state. Hindi: \'मुझे लगता है कि कल मौसम बढ़िया रहेगा।\'',
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "मुझे लगता है कि कल मौसम बहुत अच्छा रहेगा।",
@@ -1209,6 +1216,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_p8",
+      "explanation": '\'I\'ll call you back\' is a spontaneous promise. \'I\'ll\' is the contraction of \'I will\'.',
       "type": "speaking",
       "prompt": "Speak this promise clearly with contraction I'll:",
       "targetSentence": "I'll call you back in ten minutes.",
@@ -1216,6 +1224,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_p9",
+      "explanation": '\'Will\' + base verb \'arrive\'. \'Probably\' is an adverb that comes before the main verb.',
       "type": "listen_and_type",
       "prompt": "Listen and write the sentence:",
       "audioText": "We will probably arrive before noon.",
@@ -1233,6 +1242,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_p10",
+      "explanation": '\'I think it will snow...\' is a prediction without evidence. \'Will\' is used for predictions.',
       "type": "multiple_choice",
       "prompt": "Which sentence correctly makes a future prediction?",
       "targetSentence": "I think it will snow in the mountains this weekend.",
@@ -1261,6 +1271,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_p11",
+      "explanation": 'After \'I\'ll\', use the base verb \'have\'. \'Having\' and \'had\' do not fit after \'will\'.',
       "type": "fill_blank",
       "prompt": "Complete with base form of the verb:",
       "targetSentence": "I'll have a cup of black coffee, please.",
@@ -1289,6 +1300,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_p12",
+      "explanation": 'I\'ll = I will, won\'t = will not, she\'ll = she will, they\'ll = they will. Contractions with \'will\' use -\'ll\'.',
       "type": "match_pairs",
       "prompt": "Match contractions with their full forms:",
       "options": [
@@ -1328,6 +1340,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_p13",
+      "explanation": '\'I will not tell\' is a promise. \'Tell\' keeps the base form after \'will not\'.',
       "type": "word_ordering",
       "prompt": "Assemble the promise sentence:",
       "targetSentence": "I promise I will not tell your secret to anyone",
@@ -1348,6 +1361,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_p14",
+      "explanation": 'The negative contraction of \'will not\' is \'won\'t\' (the \'ill\' changes to \'on\'t\').',
       "type": "multiple_choice",
       "prompt": "What is the negative contraction of \"will not\"?",
       "targetSentence": "won't",
@@ -1376,6 +1390,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_p15",
+      "explanation": 'Questions about the future use \'Will\' + subject + base verb: \'Will you be at home?\'',
       "type": "fill_blank",
       "prompt": "Fill in the blank to ask about future attendance:",
       "targetSentence": "Will you be at home this evening?",
@@ -1406,6 +1421,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u03_l43_rev1",
+      "explanation": '\'I\'ll close the window\' is a decision made at the moment of speaking, because it is cold now.',
       "type": "multiple_choice",
       "prompt": "Which sentence expresses an instant decision made at the moment of speaking?",
       "targetSentence": "It is cold in here; I'll close the window.",
@@ -1434,6 +1450,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_rev2",
+      "explanation": '\'Will\' + base verb \'arrive\' for a prediction (the train timetable). \'In ten minutes\' is a time phrase.',
       "type": "word_ordering",
       "prompt": "Build the prediction sentence:",
       "targetSentence": "The express train will arrive at platform four in ten minutes",
@@ -1455,6 +1472,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_rev3",
+      "explanation": '\'Won\'t\' is the negative contraction of \'will not\', followed by the base verb \'forget\'.',
       "type": "fill_blank",
       "prompt": "Complete the sentence with \"won't\":",
       "targetSentence": "She won't forget to bring the keys.",
@@ -1483,6 +1501,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_rev4",
+      "explanation": '\'Will\' + base verb \'send\': \'I will send you the document right now\' is a spontaneous decision.',
       "type": "error_correction",
       "prompt": "Fix the future modal error:",
       "targetSentence": "I will send you the document right now.",
@@ -1512,6 +1531,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_rev5",
+      "explanation": '\'Will finish\' is a promise. \'On time\' means not late. Hindi: \'चिंता मत करो, मैं तुम्हारा काम समय पर पूरा कर दूँगा।\'',
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "चिंता मत करो, मैं आपका काम समय पर पूरा कर दूँगा।",
@@ -1538,6 +1558,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u03_l43_a1",
+      "explanation": '\'Will\' is used for spontaneous decisions, offers, promises, and predictions.',
       "type": "multiple_choice",
       "prompt": "When is \"will\" typically used in everyday English conversation?",
       "targetSentence": "For spontaneous decisions, offers, promises, and predictions.",
@@ -1566,6 +1587,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_a2",
+      "explanation": 'The short answer to \'Will you help me?\' is \'Yes, I will.\' \'Yes, I do\' uses the present auxiliary.',
       "type": "fill_blank",
       "prompt": "Select the correct short answer to \"Will you help me?\":",
       "targetSentence": "Yes, I will.",
@@ -1594,6 +1616,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_a3",
+      "explanation": '\'I think our team will win\' is a prediction. \'Will\' + base verb \'win\'.',
       "type": "word_ordering",
       "prompt": "Assemble the future statement:",
       "targetSentence": "I think our team will win the match this weekend",
@@ -1614,6 +1637,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_a4",
+      "explanation": 'The audio says: \'It is getting dark outside; I\'ll turn on the living room lights.\' That matches the first option.',
       "type": "listening",
       "prompt": "Listen and choose what the speaker decides spontaneously:",
       "audioText": "It is getting dark outside; I'll turn on the living room lights.",
@@ -1642,6 +1666,7 @@ export const LESSON_A1_3_43_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l43_a5",
+      "explanation": '\'I\'ll help you carry\' is an offer made at the moment of speaking.',
       "type": "speaking",
       "prompt": "Speak this offer clearly:",
       "targetSentence": "I'll help you carry those grocery bags to your car.",

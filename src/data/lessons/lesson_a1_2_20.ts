@@ -624,6 +624,7 @@ export const LESSON_A1_2_20_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l20_p3',
+      explanation: 'Imperative sentences (giving commands or directions) use the base verb: \'Turn right\', \'cross\'. \'At the traffic lights\' is a place phrase.',
       lessonId: 'lesson_a1_2_20',
       stage: 8,
       type: 'word_ordering',
@@ -647,6 +648,7 @@ export const LESSON_A1_2_20_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l20_p5',
+      explanation: '\'How do I get to...?\' is a common direction question. \'Excuse me\' is a polite opening.',
       lessonId: 'lesson_a1_2_20',
       stage: 9,
       type: 'listen_and_type',
@@ -656,6 +658,7 @@ export const LESSON_A1_2_20_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l20_p6',
+      explanation: '\'Where is...?\' asks for a location. \'The nearest pharmacy\' is singular, so \'is\' is used. \'Excuse me\' and \'please\' are polite phrases.',
       lessonId: 'lesson_a1_2_20',
       stage: 10,
       type: 'word_ordering',
@@ -665,6 +668,7 @@ export const LESSON_A1_2_20_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l20_p7',
+      explanation: 'The imperative uses the base verb: \'Take the second turning\'. \'You can\'t miss it\' is an informal phrase meaning it is easy to find.',
       lessonId: 'lesson_a1_2_20',
       stage: 12,
       type: 'speaking',
@@ -674,6 +678,7 @@ export const LESSON_A1_2_20_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l20_p8',
+      explanation: '\'Turn left\' and \'go straight ahead\' are both imperatives. \'Straight ahead\' means forward. Hindi: \'ट्रैफिक लाइट पर बाएं मुड़ें और सीधे आगे जाएं।\'',
       lessonId: 'lesson_a1_2_20',
       stage: 13,
       type: 'translation',
@@ -758,6 +763,7 @@ export const LESSON_A1_2_20_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l20_p14',
+      explanation: '\'Take\' is the imperative (base verb). \'The second street on your left\' gives the direction.',
       lessonId: 'lesson_a1_2_20',
       stage: 8,
       type: 'word_ordering',
@@ -767,6 +773,7 @@ export const LESSON_A1_2_20_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l20_p15',
+      explanation: '\'Cross\' is the imperative. \'At the pedestrian crossing\' is a place phrase.',
       lessonId: 'lesson_a1_2_20',
       stage: 12,
       type: 'speaking',
@@ -808,6 +815,7 @@ export const LESSON_A1_2_20_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l20_rev3',
+      explanation: '\'Across from\' means on the opposite side. \'The post office\' is singular, so \'is\' is used.',
       lessonId: 'lesson_a1_2_20',
       stage: 16,
       type: 'word_ordering',
@@ -817,6 +825,7 @@ export const LESSON_A1_2_20_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l20_rev4',
+      explanation: '\'On your right\' is the position. \'You cannot miss it\' means it is easy to find. Hindi: \'यह आपके दाईं ओर है। आप इसे आसानी से पहचान लेंगे!\'',
       lessonId: 'lesson_a1_2_20',
       stage: 16,
       type: 'translation',
@@ -862,6 +871,7 @@ export const LESSON_A1_2_20_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l20_a3',
+      explanation: '\'Walk past\' and \'cross\' are imperatives (base verbs). \'The museum\' is the landmark.',
       lessonId: 'lesson_a1_2_20',
       stage: 17,
       type: 'word_ordering',
@@ -899,6 +909,7 @@ export const LESSON_A1_2_20_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l20_a6',
+      explanation: '\'The bank\' is singular, so \'is\' is used. \'On your left\' and \'opposite the park\' are place phrases.',
       lessonId: 'lesson_a1_2_20',
       stage: 17,
       type: 'listen_and_type',
@@ -922,6 +933,7 @@ export const LESSON_A1_2_20_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l20_a8',
+      explanation: '\'Cross\' and \'take\' are imperatives. \'The second turning on your left\' gives the direction. Hindi: \'पुल पार करें और बाईं ओर दूसरा मोड़ लें।\'',
       lessonId: 'lesson_a1_2_20',
       stage: 17,
       type: 'translation',
@@ -948,6 +960,7 @@ export const LESSON_A1_2_20_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l20_a10',
+      explanation: '\'How do I get to...?\' is a direction question. \'Excuse me\' is a polite opening.',
       lessonId: 'lesson_a1_2_20',
       stage: 17,
       type: 'word_ordering',

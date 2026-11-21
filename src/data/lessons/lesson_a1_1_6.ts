@@ -553,6 +553,7 @@ export const LESSON_A1_1_6_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l6_p3',
+      explanation: 'Adjectives come before the noun, and \'and\' joins two adjectives: \'a new and fast laptop\'. \'Old\' does not describe this laptop.',
       lessonId: 'lesson_a1_1_6',
       stage: 8,
       type: 'word_ordering',
@@ -576,6 +577,7 @@ export const LESSON_A1_1_6_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l6_p5',
+      explanation: '\'Old\' describes the building. In this sentence the adjective comes after \'is\' and \'very\' gives the degree.',
       lessonId: 'lesson_a1_1_6',
       stage: 9,
       type: 'listen_and_type',
@@ -585,6 +587,7 @@ export const LESSON_A1_1_6_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l6_p6',
+      explanation: 'Ask about colour with \'What colour is...?\' The verb \'is\' agrees with the singular \'jacket\'.',
       lessonId: 'lesson_a1_1_6',
       stage: 10,
       type: 'word_ordering',
@@ -594,6 +597,7 @@ export const LESSON_A1_1_6_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l6_p7',
+      explanation: 'Adjectives after \'is\' describe the subject: \'My new apartment is big and quiet.\' \'Is\' agrees with the singular subject.',
       lessonId: 'lesson_a1_1_6',
       stage: 12,
       type: 'speaking',
@@ -603,6 +607,7 @@ export const LESSON_A1_1_6_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l6_p8',
+      explanation: 'Adjectives after \'is\' describe a noun: \'My car is blue and fast.\' Hindi: \'मेरी कार नीली और तेज है।\'',
       lessonId: 'lesson_a1_1_6',
       stage: 13,
       type: 'translation',
@@ -687,6 +692,7 @@ export const LESSON_A1_1_6_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l6_p14',
+      explanation: '\'Old and wise\' describe the grandfather. \'Young\' would contradict \'old\', so it does not fit.',
       lessonId: 'lesson_a1_1_6',
       stage: 8,
       type: 'word_ordering',
@@ -696,6 +702,7 @@ export const LESSON_A1_1_6_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l6_p15',
+      explanation: '\'Hot and sunny\' describe the weather. Use \'is\' with the singular \'weather\'.',
       lessonId: 'lesson_a1_1_6',
       stage: 12,
       type: 'speaking',
@@ -737,6 +744,7 @@ export const LESSON_A1_1_6_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l6_rev3',
+      explanation: 'In a noun phrase, size comes before colour: \'a small white car\'. \'Big\' would repeat the size.',
       lessonId: 'lesson_a1_1_6',
       stage: 16,
       type: 'word_ordering',
@@ -746,6 +754,7 @@ export const LESSON_A1_1_6_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l6_rev4',
+      explanation: '\'They\' is plural, so use \'are\': \'They are young and happy.\' Hindi: \'वे युवा और खुश हैं।\'',
       lessonId: 'lesson_a1_1_6',
       stage: 16,
       type: 'translation',
@@ -791,6 +800,7 @@ export const LESSON_A1_1_6_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l6_a3',
+      explanation: 'Adjectives come before the noun: \'a tall and strong man\'. \'He\' matches \'is\'.',
       lessonId: 'lesson_a1_1_6',
       stage: 17,
       type: 'word_ordering',
@@ -828,6 +838,7 @@ export const LESSON_A1_1_6_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l6_a6',
+      explanation: 'When several adjectives come before a noun, put size before colour: \'a small red apple\'.',
       lessonId: 'lesson_a1_1_6',
       stage: 17,
       type: 'listen_and_type',
@@ -851,6 +862,7 @@ export const LESSON_A1_1_6_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l6_a8',
+      explanation: 'Adjectives after \'is\' describe the room: \'This room is clean and new.\' Hindi: \'यह कमरा साफ और नया है।\'',
       lessonId: 'lesson_a1_1_6',
       stage: 17,
       type: 'translation',
@@ -876,6 +888,7 @@ export const LESSON_A1_1_6_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l6_a10',
+      explanation: 'Plural \'shoes\' takes \'are\', and \'those\' points to things at a distance: \'What colour are those new shoes?\'',
       lessonId: 'lesson_a1_1_6',
       stage: 17,
       type: 'word_ordering',

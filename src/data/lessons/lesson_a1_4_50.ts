@@ -1026,6 +1026,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u04_l50_p1",
+      "explanation": '\'Faster\' is the comparative of the one-syllable \'fast\' (add -er). \'More fast\' is not used with one-syllable adjectives.',
       "lessonId": "lesson_a1_4_50",
       "stage": 8,
       "type": "multiple_choice",
@@ -1050,6 +1051,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_p2",
+      "explanation": '\'How long does it take...?\' asks about a time period. \'Long\' is used for time and distance questions.',
       "lessonId": "lesson_a1_4_50",
       "stage": 8,
       "type": "fill_blank",
@@ -1076,6 +1078,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_p3",
+      "explanation": '\'Please place the box on the scale\' is an imperative. \'On the scale\' is the place for the parcel to be weighed.',
       "lessonId": "lesson_a1_4_50",
       "stage": 8,
       "type": "word_ordering",
@@ -1093,6 +1096,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_p4",
+      "explanation": 'A scale measures weight. A stamp shows that postage is paid. An envelope holds a letter. A tracking number lets you follow a package.',
       "lessonId": "lesson_a1_4_50",
       "stage": 8,
       "type": "match_pairs",
@@ -1118,6 +1122,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_p5",
+      "explanation": '\'Cheaper\' is the comparative of \'cheap\' (one syllable, -er). \'Most cheap\' and \'cheap than\' are incorrect.',
       "lessonId": "lesson_a1_4_50",
       "stage": 8,
       "type": "error_correction",
@@ -1143,6 +1148,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_p6",
+      "explanation": 'The clerk says: \'Please write the recipient address on the front of the envelope.\' The other option has wrong words.',
       "lessonId": "lesson_a1_4_50",
       "stage": 9,
       "type": "listening",
@@ -1163,6 +1169,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_p7",
+      "explanation": '\'Does this delivery include...?\' is a yes/no question with \'does\' + base verb \'include\'.',
       "lessonId": "lesson_a1_4_50",
       "stage": 9,
       "type": "listen_and_type",
@@ -1172,6 +1179,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_p8",
+      "explanation": '\'How much does it cost to send...?\' is the correct question about the price. \'How many costs\' and \'what is cost\' are incorrect.',
       "lessonId": "lesson_a1_4_50",
       "stage": 10,
       "type": "multiple_choice",
@@ -1196,6 +1204,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_p9",
+      "explanation": '\'Yes, there is glass inside, so please mark it fragile\' answers the question with a clear reason and instruction.',
       "lessonId": "lesson_a1_4_50",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1220,6 +1229,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_p10",
+      "explanation": '\'I would like to send this letter by airmail\' is a polite request. \'By airmail\' is the method.',
       "lessonId": "lesson_a1_4_50",
       "stage": 12,
       "type": "speaking",
@@ -1229,6 +1239,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_p11",
+      "explanation": '\'Please place this parcel on the scale\' is an imperative. Hindi: \'कृपया इस पार्सल को तराजू पर रखें।\'',
       "lessonId": "lesson_a1_4_50",
       "stage": 13,
       "type": "translation",
@@ -1237,6 +1248,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_p12",
+      "explanation": '\'Fragile\' describes something that breaks easily. \'Express\' is a fast service, and \'standard\' is a normal service.',
       "lessonId": "lesson_a1_4_50",
       "stage": 14,
       "type": "multiple_choice",
@@ -1261,6 +1273,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_p13",
+      "explanation": 'A customs form is needed for international packages. A mailbox is a box for mail and a stamp is for postage.',
       "lessonId": "lesson_a1_4_50",
       "stage": 14,
       "type": "fill_blank",
@@ -1287,6 +1300,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_p14",
+      "explanation": '\'How long does express delivery take?\' asks about the time needed. \'Express\' describes the service.',
       "lessonId": "lesson_a1_4_50",
       "stage": 14,
       "type": "word_ordering",
@@ -1303,6 +1317,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_p15",
+      "explanation": '\'The package arrived safely with online tracking\' is a past statement with the past simple \'arrived\'.',
       "lessonId": "lesson_a1_4_50",
       "stage": 14,
       "type": "speaking",
@@ -1314,6 +1329,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u04_l50_r1",
+      "explanation": '\'Paid by credit card\' uses \'by\' for the payment method. \'On\' and \'in\' are not used this way.',
       "lessonId": "lesson_a1_4_50",
       "stage": 16,
       "type": "multiple_choice",
@@ -1338,6 +1354,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_r2",
+      "explanation": '\'How much money\' uses \'much\' with uncountable \'money\'.',
       "lessonId": "lesson_a1_4_50",
       "stage": 16,
       "type": "fill_blank",
@@ -1364,6 +1381,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_r3",
+      "explanation": '\'Could you please repeat the price?\' is a polite request with \'could\' + base verb.',
       "lessonId": "lesson_a1_4_50",
       "stage": 16,
       "type": "word_ordering",
@@ -1380,6 +1398,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_r4",
+      "explanation": 'Buy stamps, weigh a parcel, enter a PIN, and check a balance are common collocations.',
       "lessonId": "lesson_a1_4_50",
       "stage": 16,
       "type": "match_pairs",
@@ -1405,6 +1424,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_r5",
+      "explanation": '\'This is too expensive\' means more than you can pay. Hindi: \'यह बहुत महंगा है।\'',
       "lessonId": "lesson_a1_4_50",
       "stage": 16,
       "type": "translation",
@@ -1415,6 +1435,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u04_l50_a1",
+      "explanation": '\'Faster\' is the comparative of \'fast\'. \'Airmail is faster than surface transport\' is the correct sentence.',
       "lessonId": "lesson_a1_4_50",
       "stage": 17,
       "type": "multiple_choice",
@@ -1439,6 +1460,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_a2",
+      "explanation": 'A \'postcode\' is the code for an address. A scale weighs items, and an envelope holds a letter.',
       "lessonId": "lesson_a1_4_50",
       "stage": 17,
       "type": "fill_blank",
@@ -1465,6 +1487,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_a3",
+      "explanation": '\'Does this service include online tracking?\' is a yes/no question with \'does\' + base verb.',
       "lessonId": "lesson_a1_4_50",
       "stage": 17,
       "type": "word_ordering",
@@ -1481,6 +1504,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_a4",
+      "explanation": '\'I would prefer express shipping because it is faster\' answers the question with a reason.',
       "lessonId": "lesson_a1_4_50",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1505,6 +1529,7 @@ export const LESSON_A1_4_50_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l50_a5",
+      "explanation": '\'I would like to buy five international stamps\' is a polite request. \'For my postcards\' gives the purpose.',
       "lessonId": "lesson_a1_4_50",
       "stage": 17,
       "type": "speaking",

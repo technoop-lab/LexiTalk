@@ -148,6 +148,24 @@ export const GrammarHandbook: React.FC<GrammarHandbookProps> = ({
                         {topic.concept}
                       </p>
                     )}
+
+                    {topic.bankWords && topic.bankWords.length > 0 && (
+                      <div className="space-y-1.5">
+                        <span className="text-[9px] font-black uppercase tracking-wider text-slate-400">
+                          Words from this lesson
+                        </span>
+                        <div className="flex flex-wrap gap-1.5">
+                          {topic.bankWords.map((word) => (
+                            <span
+                              key={word}
+                              className="text-[11px] font-bold px-2 py-0.5 rounded-lg bg-white dark:bg-slate-900 border border-[#D9E4FF] dark:border-slate-800 text-slate-700 dark:text-slate-300"
+                            >
+                              {word}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
                     {topic.conceptHi && (
                       <p className="text-xs text-emerald-700 dark:text-emerald-400 leading-relaxed font-hindi">
                         {topic.conceptHi}

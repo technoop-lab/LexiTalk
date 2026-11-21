@@ -1029,6 +1029,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u03_l37_p1",
+      "explanation": '\'Faster\' is the comparative of the one-syllable adjective \'fast\' (add -er). \'More fast\' is not used with one-syllable adjectives.',
       "type": "multiple_choice",
       "prompt": "Choose the correct comparative form: \"The airplane is ___ (fast) than the bus.\"",
       "targetSentence": "The airplane is faster than the bus.",
@@ -1057,6 +1058,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_p2",
+      "explanation": 'Long adjectives (3+ syllables) use \'more\' + the adjective: \'more expensive\'. Here \'than our budget motel\' follows.',
       "type": "fill_blank",
       "prompt": "Select the correct word: \"This luxury hotel is ___ expensive than our budget motel.\"",
       "targetSentence": "This luxury hotel is more expensive than our budget motel.",
@@ -1085,6 +1087,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_p3",
+      "explanation": 'Long adjectives use \'more\'. Here \'healthier\' is a two-syllable adjective ending in -y, so it uses -er: \'healthier than\'.',
       "type": "word_ordering",
       "prompt": "Assemble the comparative sentence:",
       "targetSentence": "Fresh fruits are healthier than sweet candy",
@@ -1102,6 +1105,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_p4",
+      "explanation": 'The audio says the bus ticket is five dollars and is \'much cheaper than the train\'. The comparative \'cheaper\' is used with \'than\'.',
       "type": "listening",
       "prompt": "Listen to the audio and identify which option is cheaper:",
       "audioText": "The bus ticket is five dollars, so it is much cheaper than the train.",
@@ -1130,6 +1134,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_p5",
+      "explanation": '\'Better\' is the irregular comparative of \'good\'. \'Gooder\' and \'more good\' are incorrect.',
       "type": "error_correction",
       "prompt": "Correct the comparative grammar error:",
       "targetSentence": "My new smartphone is better than my old one.",
@@ -1159,6 +1164,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_p6",
+      "explanation": '\'Bigger and quieter\' uses comparative adjectives for both items. \'Than the standard room\' completes the comparison.',
       "type": "dialogue_completion",
       "prompt": "Choose the most natural comparison response:",
       "dialogueContext": {
@@ -1191,6 +1197,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_p7",
+      "explanation": '\'Faster and more comfortable\' uses -er for the one-syllable adjective and \'more\' for the longer one. Hindi: \'एक्सप्रेस ट्रेन बस से तेज़ और ज़्यादा आरामदायक है।\'',
       "type": "translation",
       "prompt": "Translate this comparative sentence into English:",
       "sourceSentence": "एक्सप्रेस ट्रेन बस से तेज़ और अधिक आरामदायक है।",
@@ -1216,6 +1223,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_p8",
+      "explanation": '\'Quieter and cleaner\' are one-syllable comparatives with -er. \'Than living in the city\' shows the comparison.',
       "type": "speaking",
       "prompt": "Speak this comparative sentence clearly into your microphone:",
       "targetSentence": "Living in the countryside is quieter and cleaner than living in the city.",
@@ -1223,6 +1231,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_p9",
+      "explanation": '\'Lighter and faster\' are one-syllable comparatives with -er. \'More light\' is incorrect.',
       "type": "listen_and_type",
       "prompt": "Listen to the audio and assemble the sentence:",
       "audioText": "This new laptop is lighter and faster.",
@@ -1241,6 +1250,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_p10",
+      "explanation": '\'Worse\' is the irregular comparative of \'bad\'. \'Badder\' is incorrect.',
       "type": "multiple_choice",
       "prompt": "Which sentence correctly uses an irregular comparative?",
       "targetSentence": "Today's weather is worse than yesterday's.",
@@ -1269,6 +1279,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_p11",
+      "explanation": 'Adjectives ending in one vowel + one consonant double the last letter before -er: \'hot - hotter\'.',
       "type": "fill_blank",
       "prompt": "Choose the spelling rule: \"Summer is ___ (hot) than spring.\"",
       "targetSentence": "Summer is hotter than spring.",
@@ -1297,6 +1308,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_p12",
+      "explanation": 'Irregular comparatives: good - better, bad - worse. Regular: big - bigger (doubled g). Long adjectives: expensive - more expensive.',
       "type": "match_pairs",
       "prompt": "Match the base adjectives with their comparative forms:",
       "options": [
@@ -1336,6 +1348,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_p13",
+      "explanation": '\'Much more comfortable\' uses \'more\' with a long adjective. \'Than the wooden bench\' completes the comparison.',
       "type": "word_ordering",
       "prompt": "Assemble the sentence comparing comfort:",
       "targetSentence": "This sofa is much more comfortable than the wooden bench",
@@ -1356,6 +1369,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_p14",
+      "explanation": '\'Than\' is used in comparisons to introduce the second item. \'Then\' is a time word, and \'that\' and \'as\' do not fit.',
       "type": "multiple_choice",
       "prompt": "What word introduces the second item in an English comparison?",
       "targetSentence": "than",
@@ -1384,6 +1398,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_p15",
+      "explanation": '\'Older\' is the comparative of \'old\' (one syllable). \'More old\' and \'elderly\' are not used here.',
       "type": "fill_blank",
       "prompt": "Complete the sentence: \"My sister is two years ___ (old) than me.\"",
       "targetSentence": "My sister is two years older than me.",
@@ -1414,6 +1429,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u03_l37_rev1",
+      "explanation": '\'More modern\' is used for a long adjective, and \'lighter\' takes -er. Both are joined by \'and\' and followed by \'than\'.',
       "type": "multiple_choice",
       "prompt": "Choose the sentence with flawless comparative grammar:",
       "targetSentence": "The silver laptop is more modern and lighter than the black one.",
@@ -1442,6 +1458,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_rev2",
+      "explanation": '\'Colder\' is the comparative of the one-syllable \'cold\' (-er). \'More cold\' is incorrect.',
       "type": "word_ordering",
       "prompt": "Build the weather comparison sentence:",
       "targetSentence": "Winter in the north is colder than in the south",
@@ -1462,6 +1479,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_rev3",
+      "explanation": '\'More\' + a long adjective: \'more relaxing\'. \'Relaxinger\' is not a word.',
       "type": "fill_blank",
       "prompt": "Complete the sentence: \"Traveling by train is more ___ (relaxing) than driving a car.\"",
       "targetSentence": "Traveling by train is more relaxing than driving a car.",
@@ -1490,6 +1508,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_rev4",
+      "explanation": '\'Slower\' is the comparative of \'slow\' (one syllable). \'More slow\' is not used with one-syllable adjectives. \'Than\' is the correct word.',
       "type": "error_correction",
       "prompt": "Correct the comparison word error:",
       "targetSentence": "Walking is slower than running.",
@@ -1519,6 +1538,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_rev5",
+      "explanation": '\'Better\' is irregular, and \'healthier\' is the comparative of \'healthy\'. Hindi: \'घर का बना खाना फास्ट फूड से बेहतर और स्वास्थ्यवर्धक है।\'',
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "घर का बना खाना फास्ट फूड से बेहतर और स्वास्थ्यवर्धक होता है।",
@@ -1545,6 +1565,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u03_l37_a1",
+      "explanation": 'The irregular comparative of \'bad\' is \'worse\'. \'Badder\' and \'more bad\' are incorrect.',
       "type": "multiple_choice",
       "prompt": "Which of the following is the comparative form of \"bad\"?",
       "targetSentence": "worse",
@@ -1573,6 +1594,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_a2",
+      "explanation": '\'Heavy\' ends in -y, so the comparative is \'heavier\' (y changes to i + -er).',
       "type": "fill_blank",
       "prompt": "Fill in the blank with the comparative of heavy: \"This luggage is ___ (heavy) than that one.\"",
       "targetSentence": "This luggage is heavier than that one.",
@@ -1601,6 +1623,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_a3",
+      "explanation": '\'Cleaner and quieter\' use -er for one-syllable adjectives. \'Than diesel trucks\' completes the comparison.',
       "type": "word_ordering",
       "prompt": "Assemble the comparison sentence:",
       "targetSentence": "Electric vehicles are cleaner and quieter than diesel trucks",
@@ -1620,6 +1643,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_a4",
+      "explanation": 'The audio says the room on the tenth floor is much bigger and has a better view than room 201. That matches the first option.',
       "type": "listening",
       "prompt": "Listen to the audio and answer the question:",
       "audioText": "The hotel room on the tenth floor is much bigger and has a better view than room 201.",
@@ -1648,6 +1672,7 @@ export const LESSON_A1_3_37_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l37_a5",
+      "explanation": '\'Much better\' uses the irregular comparative \'better\' of \'good\'. \'More comfortable\' is the long-adjective form.',
       "type": "speaking",
       "prompt": "Speak this comparative sentence clearly into your microphone:",
       "targetSentence": "This new coffee shop is much better and more comfortable than the old one.",

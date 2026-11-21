@@ -1016,6 +1016,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u04_l54_p1",
+      "explanation": '\'Because\' introduces a reason. \'So\' introduces a result, and \'but\' introduces a contrast.',
       "lessonId": "lesson_a1_4_54",
       "stage": 8,
       "type": "multiple_choice",
@@ -1040,6 +1041,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_p2",
+      "explanation": '\'Prefer X to Y\' is the standard structure for a preference. \'Than\' is used with comparatives, not \'prefer\'.',
       "lessonId": "lesson_a1_4_54",
       "stage": 8,
       "type": "fill_blank",
@@ -1066,6 +1068,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_p3",
+      "explanation": '\'In my opinion\' introduces a personal view. \'Is rewarding\' is the adjective used to describe the opinion.',
       "lessonId": "lesson_a1_4_54",
       "stage": 8,
       "type": "word_ordering",
@@ -1083,6 +1086,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_p4",
+      "explanation": '\'Because\' gives a reason. \'So\' gives a result. \'But\' contrasts two ideas. \'Although\' gives a concession (unexpected contrast).',
       "lessonId": "lesson_a1_4_54",
       "stage": 8,
       "type": "match_pairs",
@@ -1108,6 +1112,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_p5",
+      "explanation": '\'Agree with\' + the noun \'viewpoint\'. \'Agreeing to\' and \'agrees with\' do not fit the sentence.',
       "lessonId": "lesson_a1_4_54",
       "stage": 8,
       "type": "error_correction",
@@ -1133,6 +1138,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_p6",
+      "explanation": 'The speaker says: \'Although the tickets were expensive, the concert was wonderful.\' \'Context\' and \'faculty\' are different words.',
       "lessonId": "lesson_a1_4_54",
       "stage": 9,
       "type": "listening",
@@ -1153,6 +1159,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_p7",
+      "explanation": '\'I agree with your opinion completely\' is a statement of agreement. \'Completely\' is an adverb that modifies \'agree\'.',
       "lessonId": "lesson_a1_4_54",
       "stage": 9,
       "type": "listen_and_type",
@@ -1162,6 +1169,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_p8",
+      "explanation": '\'What is your opinion about...?\' is the correct question. \'What your opinion is\' is an indirect-question word order.',
       "lessonId": "lesson_a1_4_54",
       "stage": 10,
       "type": "multiple_choice",
@@ -1186,6 +1194,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_p9",
+      "explanation": '\'I think the train is better because it is faster\' gives an opinion with a reason. \'Because\' introduces the reason.',
       "lessonId": "lesson_a1_4_54",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1210,6 +1219,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_p10",
+      "explanation": '\'It was raining heavily, so we decided to stay inside\' uses \'so\' to introduce a result.',
       "lessonId": "lesson_a1_4_54",
       "stage": 12,
       "type": "speaking",
@@ -1219,6 +1229,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_p11",
+      "explanation": '\'In my opinion\' introduces a personal view. Hindi: \'मेरी राय में, यह योजना बहुत व्यावहारिक है।\'',
       "lessonId": "lesson_a1_4_54",
       "stage": 13,
       "type": "translation",
@@ -1227,6 +1238,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_p12",
+      "explanation": '\'So\' connects a cause to its result. \'Because\' connects a reason, and \'although\' gives a contrast.',
       "lessonId": "lesson_a1_4_54",
       "stage": 14,
       "type": "multiple_choice",
@@ -1251,6 +1263,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_p13",
+      "explanation": '\'Although\' introduces a contrast or concession: \'Although it was late, we finished the report.\'',
       "lessonId": "lesson_a1_4_54",
       "stage": 14,
       "type": "fill_blank",
@@ -1277,6 +1290,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_p14",
+      "explanation": '\'Because it is healthy\' gives the reason for the preference. \'I prefer walking\' is the main statement.',
       "lessonId": "lesson_a1_4_54",
       "stage": 14,
       "type": "word_ordering",
@@ -1294,6 +1308,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_p15",
+      "explanation": '\'I think that this restaurant is the best\' states an opinion. \'In the neighborhood\' gives the place.',
       "lessonId": "lesson_a1_4_54",
       "stage": 14,
       "type": "speaking",
@@ -1305,6 +1320,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u04_l54_r1",
+      "explanation": '\'We went to the beach three days ago\' uses the simple past with a past time phrase.',
       "lessonId": "lesson_a1_4_54",
       "stage": 16,
       "type": "multiple_choice",
@@ -1329,6 +1345,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_r2",
+      "explanation": '\'Across from\' means on the opposite side. \'Between\' is used with two places and \'next to\' is beside.',
       "lessonId": "lesson_a1_4_54",
       "stage": 16,
       "type": "fill_blank",
@@ -1355,6 +1372,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_r3",
+      "explanation": '\'Did you visit...?\' is a past question with \'did\' + base verb \'visit\'.',
       "lessonId": "lesson_a1_4_54",
       "stage": 16,
       "type": "word_ordering",
@@ -1371,6 +1389,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_r4",
+      "explanation": '\'In my opinion\' = a personal viewpoint. \'On the corner of\' = a street intersection. \'I agree\' = a shared opinion. \'Two days ago\' = a past time.',
       "lessonId": "lesson_a1_4_54",
       "stage": 16,
       "type": "match_pairs",
@@ -1396,6 +1415,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_r5",
+      "explanation": '\'I agree that this is very important\' expresses agreement with a reason-free opinion. Hindi: \'मैं सहमत हूँ कि यह बहुत ज़रूरी है।\'',
       "lessonId": "lesson_a1_4_54",
       "stage": 16,
       "type": "translation",
@@ -1406,6 +1426,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u04_l54_a1",
+      "explanation": '\'I like this neighborhood because there are many parks and cafes\' uses \'because\' to introduce a reason.',
       "lessonId": "lesson_a1_4_54",
       "stage": 17,
       "type": "multiple_choice",
@@ -1430,6 +1451,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_a2",
+      "explanation": '\'Prefer X to Y\': \'I prefer working in the morning to working at night.\'',
       "lessonId": "lesson_a1_4_54",
       "stage": 17,
       "type": "fill_blank",
@@ -1456,6 +1478,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_a3",
+      "explanation": '\'Although it was cold, we enjoyed our walk\' uses \'although\' to show contrast.',
       "lessonId": "lesson_a1_4_54",
       "stage": 17,
       "type": "word_ordering",
@@ -1474,6 +1497,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_a4",
+      "explanation": '\'I think it is very practical and helpful\' gives an opinion in answer to the question.',
       "lessonId": "lesson_a1_4_54",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1498,6 +1522,7 @@ export const LESSON_A1_4_54_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l54_a5",
+      "explanation": '\'In my opinion\' introduces a personal view, and \'the keys to fluency\' is the main claim.',
       "lessonId": "lesson_a1_4_54",
       "stage": 17,
       "type": "speaking",

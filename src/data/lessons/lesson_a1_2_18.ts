@@ -625,6 +625,7 @@ export const LESSON_A1_2_18_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l18_p3',
+      explanation: '\'I\' takes \'take\' and \'get\' (no -s). \'First\' and \'then\' show the order of routine actions.',
       lessonId: 'lesson_a1_2_18',
       stage: 8,
       type: 'word_ordering',
@@ -648,6 +649,7 @@ export const LESSON_A1_2_18_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l18_p5',
+      explanation: '\'What time...?\' is a question about time. \'Do you\' is the question form with \'you\'. \'Usually\' goes before the main verb.',
       lessonId: 'lesson_a1_2_18',
       stage: 9,
       type: 'listen_and_type',
@@ -657,6 +659,7 @@ export const LESSON_A1_2_18_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l18_p6',
+      explanation: 'With \'you\', the question uses \'do\' (not \'does\'): \'What time do you wake up every morning?\'',
       lessonId: 'lesson_a1_2_18',
       stage: 10,
       type: 'word_ordering',
@@ -666,6 +669,7 @@ export const LESSON_A1_2_18_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l18_p7',
+      explanation: '\'Finally\' starts the last step of a routine. \'Go to sleep\' is a common phrase; \'at eleven o\'clock\' gives the time.',
       lessonId: 'lesson_a1_2_18',
       stage: 12,
       type: 'speaking',
@@ -675,6 +679,7 @@ export const LESSON_A1_2_18_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l18_p8',
+      explanation: '\'First\' and \'then\' are sequence words. \'I make\' and \'I catch\' take the base form with \'I\'. Hindi: \'पहले मैं नाश्ता बनाता हूँ, फिर मैं बस पकड़ता हूँ।\'',
       lessonId: 'lesson_a1_2_18',
       stage: 13,
       type: 'translation',
@@ -759,6 +764,7 @@ export const LESSON_A1_2_18_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l18_p14',
+      explanation: '\'He\' takes -s on \'check\': \'checks\'. \'Every morning\' is a time phrase, and \'at nine\' gives the exact time.',
       lessonId: 'lesson_a1_2_18',
       stage: 8,
       type: 'word_ordering',
@@ -768,6 +774,7 @@ export const LESSON_A1_2_18_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l18_p15',
+      explanation: '\'Leave\' and \'walk\' keep the base form with \'I\'. \'At seven thirty\' gives the time.',
       lessonId: 'lesson_a1_2_18',
       stage: 12,
       type: 'speaking',
@@ -809,6 +816,7 @@ export const LESSON_A1_2_18_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l18_rev3',
+      explanation: '\'After that\' is a sequence phrase. \'We cook\' takes the base form with \'we\'.',
       lessonId: 'lesson_a1_2_18',
       stage: 16,
       type: 'word_ordering',
@@ -818,6 +826,7 @@ export const LESSON_A1_2_18_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l18_rev4',
+      explanation: '\'At eleven o\'clock at night\' is a time phrase. \'I go to sleep\' takes the base form. Hindi: \'मैं रात ग्यारह बजे सोने जाता हूँ।\'',
       lessonId: 'lesson_a1_2_18',
       stage: 16,
       type: 'translation',
@@ -863,6 +872,7 @@ export const LESSON_A1_2_18_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l18_a3',
+      explanation: '\'Usually\' goes before the main verb \'get\' in the question. With \'you\', the question uses \'do\'.',
       lessonId: 'lesson_a1_2_18',
       stage: 17,
       type: 'word_ordering',
@@ -900,6 +910,7 @@ export const LESSON_A1_2_18_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l18_a6',
+      explanation: '\'After that\' is a sequence phrase. \'I leave\' takes the base form with \'I\'.',
       lessonId: 'lesson_a1_2_18',
       stage: 17,
       type: 'listen_and_type',
@@ -923,6 +934,7 @@ export const LESSON_A1_2_18_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l18_a8',
+      explanation: '\'Finally\' is a sequence word. \'He turns\' and \'goes\' take -s with \'he\'. Hindi: \'अंत में, वह बत्तियां बंद करता है और सो जाता है।\'',
       lessonId: 'lesson_a1_2_18',
       stage: 17,
       type: 'translation',
@@ -949,6 +961,7 @@ export const LESSON_A1_2_18_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l18_a10',
+      explanation: '\'She\' takes -s on the verbs: \'relaxes\' and \'reads\'. \'On the sofa\' is a place phrase.',
       lessonId: 'lesson_a1_2_18',
       stage: 17,
       type: 'word_ordering',

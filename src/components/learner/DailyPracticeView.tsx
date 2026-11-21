@@ -22,6 +22,38 @@ import { ProgressService } from '../../services/ProgressService';
 import { playSoundEffectEffect } from '../../utils/audioUtils';
 import { normalizeExercise } from '../../utils/exerciseUtils';
 
+// Practice XP and streak are awarded once per calendar day on this device.
+const PRACTICE_LOG_KEY = 'curiosity_daily_practice_v1';
+
+const dateKey = (d: Date): string =>
+  `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+
+const readLastPracticeDate = (): string | null => {
+  try {
+    const raw = localStorage.getItem(PRACTICE_LOG_KEY);
+    return raw ? (JSON.parse(raw).lastDate as string) ?? null : null;
+  } catch {
+    return null;
+  }
+};
+
+const writeLastPracticeDate = (day: string): void => {
+  try {
+    localStorage.setItem(PRACTICE_LOG_KEY, JSON.stringify({ lastDate: day }));
+  } catch {
+    // Storage unavailable (private mode): the reward still applies for this session.
+  }
+};
+
+const shuffleList = <T,>(items: T[]): T[] => {
+  const out = [...items];
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+};
+
 interface DailyPracticeViewProps {
   user: UserAcademyProfile;
   onUpdateUser: (updated: UserAcademyProfile) => void;
@@ -34,6 +66,7 @@ export const DailyPracticeView: React.FC<DailyPracticeViewProps> = ({ user, onUp
   const [hasAnsweredCurrent, setHasAnsweredCurrent] = useState(false);
   const [score, setScore] = useState(0);
   const [isCompleted, setIsCompleted] = useState(false);
+  const [earnedXp, setEarnedXp] = useState(0);
 
   useEffect(() => {
     // Generate 5 dynamic adaptive exercises from Unit 1 pool
@@ -48,12 +81,12 @@ export const DailyPracticeView: React.FC<DailyPracticeViewProps> = ({ user, onUp
   const handleStartNewSession = () => {
     playSoundEffectEffect('tap');
     const pool = ProgressService.getAdaptiveReviewExercises(user, 5);
-    const shuffled = [...pool].sort(() => Math.random() - 0.5);
-    setPracticeExercises(shuffled.map(normalizeExercise));
+    setPracticeExercises(shuffleList(pool).map(normalizeExercise));
     setCurrentIndex(0);
     setHasAnsweredCurrent(false);
     setScore(0);
     setIsCompleted(false);
+    setEarnedXp(0);
   };
 
   const currentExercise = practiceExercises[currentIndex];
@@ -72,13 +105,26 @@ export const DailyPracticeView: React.FC<DailyPracticeViewProps> = ({ user, onUp
     if (currentIndex < practiceExercises.length - 1) {
       setCurrentIndex((i) => i + 1);
     } else {
-      // Practice session completed
+      // Practice session completed. XP and streak count once per calendar day.
       setIsCompleted(true);
       playSoundEffectEffect('victory');
 
+      const today = dateKey(new Date());
+      const yesterday = dateKey(new Date(Date.now() - 24 * 60 * 60 * 1000));
+      const last = readLastPracticeDate();
+
+      if (last === today) {
+        setEarnedXp(0);
+        return;
+      }
+
+      const nextStreak = last === yesterday && user.streakDays > 0 ? user.streakDays + 1 : 1;
+      writeLastPracticeDate(today);
+      setEarnedXp(50);
+
       const updated = AuthService.updateUserProfile({
         totalXp: user.totalXp + 50,
-        streakDays: user.streakDays > 0 ? user.streakDays : 1,
+        streakDays: nextStreak,
       });
       onUpdateUser(updated);
     }
@@ -92,7 +138,7 @@ export const DailyPracticeView: React.FC<DailyPracticeViewProps> = ({ user, onUp
         <div className="relative w-20 h-20 mx-auto rounded-3xl bg-gradient-to-tr from-emerald-400 to-teal-500 flex items-center justify-center text-white text-3xl shadow-lg shadow-emerald-500/30">
           <Trophy className="w-10 h-10" />
           <span className="absolute -bottom-2 -right-2 bg-amber-400 text-slate-950 text-xs font-black px-2 py-0.5 rounded-full border-2 border-white shadow-xs">
-            +50 XP
+            {earnedXp > 0 ? '+50 XP' : 'Done today'}
           </span>
         </div>
 
@@ -140,6 +186,13 @@ export const DailyPracticeView: React.FC<DailyPracticeViewProps> = ({ user, onUp
   }
 
   if (!currentExercise) {
+    if (practiceExercises.length === 0) {
+      return (
+        <div className="p-10 text-center text-xs text-slate-500 dark:text-slate-400">
+          No practice questions are ready yet. Complete a lesson to unlock daily practice.
+        </div>
+      );
+    }
     return (
       <div className="p-10 text-center text-xs text-slate-500 dark:text-slate-400">
         Loading daily practice exercises...
@@ -167,7 +220,7 @@ export const DailyPracticeView: React.FC<DailyPracticeViewProps> = ({ user, onUp
 
         <span className="px-3 py-1 bg-emerald-50 dark:bg-emerald-500/20 text-emerald-800 dark:text-emerald-300 text-xs font-black rounded-xl border border-emerald-300 dark:border-emerald-500/30 flex items-center space-x-1">
           <Zap className="w-3.5 h-3.5 fill-current text-amber-500" />
-          <span>+50 XP</span>
+          <span>{readLastPracticeDate() === dateKey(new Date()) ? 'XP earned today' : '+50 XP'}</span>
         </span>
       </div>
 

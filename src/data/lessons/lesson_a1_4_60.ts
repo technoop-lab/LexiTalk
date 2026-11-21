@@ -1026,6 +1026,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u04_l60_p1",
+      "explanation": '\'Can\' + base verb: \'I can speak and understand English.\' \'Can to speak\' and \'can speaking\' are incorrect.',
       "lessonId": "lesson_a1_4_60",
       "stage": 8,
       "type": "multiple_choice",
@@ -1050,6 +1051,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_p2",
+      "explanation": '\'Congratulations on\' + -ing: \'Congratulations on completing...\'',
       "lessonId": "lesson_a1_4_60",
       "stage": 8,
       "type": "fill_blank",
@@ -1076,6 +1078,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_p3",
+      "explanation": '\'I am proud of my progress\' uses \'of\' after \'proud\' (an adjective + preposition).',
       "lessonId": "lesson_a1_4_60",
       "stage": 8,
       "type": "word_ordering",
@@ -1094,6 +1097,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_p4",
+      "explanation": 'Present Simple: habits and routines. Present Continuous: actions happening now. Past Simple: completed events in the past. Future forms: plans and predictions.',
       "lessonId": "lesson_a1_4_60",
       "stage": 8,
       "type": "match_pairs",
@@ -1119,6 +1123,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_p5",
+      "explanation": '\'I am ready for\' is the correct structure. \'I ready\' is missing the verb \'am\', and \'on\' is the wrong preposition.',
       "lessonId": "lesson_a1_4_60",
       "stage": 8,
       "type": "error_correction",
@@ -1144,6 +1149,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_p6",
+      "explanation": 'The instructor says: \'Congratulations on your graduation from the complete A1 curriculum!\' \'Considerations\' and \'generation\' are different words.',
       "lessonId": "lesson_a1_4_60",
       "stage": 9,
       "type": "listening",
@@ -1164,6 +1170,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_p7",
+      "explanation": '\'I can hold a conversation in English with confidence\' is an \'I can\' statement about ability.',
       "lessonId": "lesson_a1_4_60",
       "stage": 9,
       "type": "listen_and_type",
@@ -1173,6 +1180,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_p8",
+      "explanation": '\'What are you going to learn next?\' uses \'be going to\' for a plan. \'Will\' is not used after \'are\' here.',
       "lessonId": "lesson_a1_4_60",
       "stage": 10,
       "type": "multiple_choice",
@@ -1197,6 +1205,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_p9",
+      "explanation": '\'I feel very proud and confident in my speaking skills\' answers the question about feelings.',
       "lessonId": "lesson_a1_4_60",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1221,6 +1230,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_p10",
+      "explanation": '\'I have mastered... and I am ready...\' uses the present perfect for an achievement and the present for a current state.',
       "lessonId": "lesson_a1_4_60",
       "stage": 12,
       "type": "speaking",
@@ -1230,6 +1240,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_p11",
+      "explanation": '\'Congratulations on completing\' + -ing. Hindi: \'पूरा A1 पाठ्यक्रम पूरा करने पर बधाई!\'',
       "lessonId": "lesson_a1_4_60",
       "stage": 13,
       "type": "translation",
@@ -1238,6 +1249,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_p12",
+      "explanation": '\'Hold a conversation\' means to talk with someone. \'Fill a customs form\' and \'withdraw money\' are other activities.',
       "lessonId": "lesson_a1_4_60",
       "stage": 14,
       "type": "multiple_choice",
@@ -1262,6 +1274,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_p13",
+      "explanation": '\'Feel\' + adjective: \'I feel confident\'. \'Confidently\' is an adverb and \'confidence\' is a noun.',
       "lessonId": "lesson_a1_4_60",
       "stage": 14,
       "type": "fill_blank",
@@ -1288,6 +1301,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_p14",
+      "explanation": '\'We are fully ready for level A2\' is a statement of readiness with \'be\' + ready.',
       "lessonId": "lesson_a1_4_60",
       "stage": 14,
       "type": "word_ordering",
@@ -1305,6 +1319,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_p15",
+      "explanation": '\'I can introduce myself, describe my routines...\' lists abilities with \'can\' + base verbs.',
       "lessonId": "lesson_a1_4_60",
       "stage": 14,
       "type": "speaking",
@@ -1316,6 +1331,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u04_l60_r1",
+      "explanation": '\'I was born in 1998 and grew up in a beautiful coastal city\' uses the past passive and the irregular past \'grew\'.',
       "lessonId": "lesson_a1_4_60",
       "stage": 16,
       "type": "multiple_choice",
@@ -1340,6 +1356,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_r2",
+      "explanation": '\'Would you like to join us\' uses \'to\' + base verb \'join\'.',
       "lessonId": "lesson_a1_4_60",
       "stage": 16,
       "type": "fill_blank",
@@ -1366,6 +1383,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_r3",
+      "explanation": '\'Graduated from university last year\' uses the simple past with a past time phrase.',
       "lessonId": "lesson_a1_4_60",
       "stage": 16,
       "type": "word_ordering",
@@ -1382,6 +1400,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_r4",
+      "explanation": 'Each unit covers a set of functions and structures. The matching options describe the content of the units.',
       "lessonId": "lesson_a1_4_60",
       "stage": 16,
       "type": "match_pairs",
@@ -1407,6 +1426,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_r5",
+      "explanation": '\'I can speak English fluently\' uses \'can\' + base verb and an adverb. Hindi: \'मैं धाराप्रवाह अंग्रेज़ी बोल सकता हूँ।\'',
       "lessonId": "lesson_a1_4_60",
       "stage": 16,
       "type": "translation",
@@ -1417,6 +1437,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u04_l60_a1",
+      "explanation": '\'I study English every day, I visited London last year, and I am going to travel to Canada next summer\' uses present, past, and future forms correctly.',
       "lessonId": "lesson_a1_4_60",
       "stage": 17,
       "type": "multiple_choice",
@@ -1441,6 +1462,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_a2",
+      "explanation": '\'Proud and confident\' are both adjectives describing how you feel.',
       "lessonId": "lesson_a1_4_60",
       "stage": 17,
       "type": "fill_blank",
@@ -1467,6 +1489,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_a3",
+      "explanation": '\'Congratulations on completing\' + -ing, with the object \'all sixty English lessons\' as written in the source.',
       "lessonId": "lesson_a1_4_60",
       "stage": 17,
       "type": "word_ordering",
@@ -1484,6 +1507,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_a4",
+      "explanation": '\'Yes, I have completed all sixty lessons and I am ready for Level A2!\' answers the question directly.',
       "lessonId": "lesson_a1_4_60",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1508,6 +1532,7 @@ export const LESSON_A1_4_60_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l60_a5",
+      "explanation": '\'I have achieved complete mastery of CEFR Level A1 English\' uses the present perfect for an achievement with a present result.',
       "lessonId": "lesson_a1_4_60",
       "stage": 17,
       "type": "speaking",

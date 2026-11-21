@@ -1036,6 +1036,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u06_l76_p1",
+      "explanation": '\'Because\' gives the reason: \'I am asking for assistance because...\'. \'So\' gives a result and \'but\' contrasts, so neither fits this reason.',
       "lessonId": "lesson_a1_6_76",
       "stage": 8,
       "type": "multiple_choice",
@@ -1060,6 +1061,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_p2",
+      "explanation": '\'So\' introduces a result: the server crashed, therefore we called support. \'Because so\' is incorrect: use one connector, not both.',
       "lessonId": "lesson_a1_6_76",
       "stage": 8,
       "type": "multiple_choice",
@@ -1084,6 +1086,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_p3",
+      "explanation": '\'Give a hand\' means help. \'Give me a hand with these boxes\' is a common, polite request.',
       "lessonId": "lesson_a1_6_76",
       "stage": 8,
       "type": "fill_blank",
@@ -1110,6 +1113,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_p4",
+      "explanation": '\'Give a hand\' means help. \'On track\' means on schedule. \'Figure out\' means solve or understand. \'As soon as possible\' means urgently.',
       "lessonId": "lesson_a1_6_76",
       "stage": 8,
       "type": "match_pairs",
@@ -1135,6 +1139,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_p5",
+      "explanation": '\'Do you have a few minutes to talk?\' is a polite way to ask for someone\'s time. \'Do you have\' + noun phrase.',
       "lessonId": "lesson_a1_6_76",
       "stage": 8,
       "type": "word_ordering",
@@ -1153,6 +1158,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_p6",
+      "explanation": 'After \'could\', use the base verb: \'Could you explain...?\'. \'Could you explaining\' and \'could explained\' are incorrect.',
       "lessonId": "lesson_a1_6_76",
       "stage": 8,
       "type": "error_correction",
@@ -1174,6 +1180,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_p7",
+      "explanation": '\'Encountered an unexpected obstacle\' describes a problem. \'Encountered\' is the past simple of \'encounter\'.',
       "lessonId": "lesson_a1_6_76",
       "stage": 9,
       "type": "listen_and_type",
@@ -1183,6 +1190,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_p8",
+      "explanation": '\'What do you suggest we do next?\' asks for advice. \'Suggest\' is followed by a noun or -ing, not \'are suggest\'.',
       "lessonId": "lesson_a1_6_76",
       "stage": 10,
       "type": "multiple_choice",
@@ -1207,6 +1215,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_p9",
+      "explanation": '\'Don\'t worry, let\'s figure this out together\' is a reassuring response to someone having trouble.',
       "lessonId": "lesson_a1_6_76",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1231,6 +1240,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_p10",
+      "explanation": '\'Could you give me a hand...\' is a polite request. \'Because the deadline is today\' gives the reason.',
       "lessonId": "lesson_a1_6_76",
       "stage": 12,
       "type": "speaking",
@@ -1240,6 +1250,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_p11",
+      "explanation": '\'I need your assistance with this financial report\' is a formal request. Hindi: \'मुझे इस वित्तीय रिपोर्ट में आपकी सहायता की आवश्यकता है।\'',
       "lessonId": "lesson_a1_6_76",
       "stage": 13,
       "type": "translation",
@@ -1248,6 +1259,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_p12",
+      "explanation": 'A strategy is a plan to reach a goal. A stapler and an elevator are not plans.',
       "lessonId": "lesson_a1_6_76",
       "stage": 14,
       "type": "multiple_choice",
@@ -1272,6 +1284,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_p13",
+      "explanation": '\'Take care of\' means handle or manage. \'Take off\' means remove or leave the ground, and \'take over\' means assume control.',
       "lessonId": "lesson_a1_6_76",
       "stage": 14,
       "type": "fill_blank",
@@ -1298,6 +1311,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_p14",
+      "explanation": '\'We can resolve this issue very quickly\' uses \'can\' + base verb to express ability.',
       "lessonId": "lesson_a1_6_76",
       "stage": 14,
       "type": "word_ordering",
@@ -1315,6 +1329,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_p15",
+      "explanation": '\'I will contact technical support as soon as possible\' is a promise with \'will\' + base verb.',
       "lessonId": "lesson_a1_6_76",
       "stage": 14,
       "type": "speaking",
@@ -1326,6 +1341,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u06_l76_r1",
+      "explanation": '\'Because\' gives the reason: she stayed late because she had to finish the proposal. \'So because\' is incorrect.',
       "lessonId": "lesson_a1_6_76",
       "stage": 16,
       "type": "multiple_choice",
@@ -1350,6 +1366,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_r2",
+      "explanation": '\'Stepping in\' means intervening to help. \'Thank you for stepping in\' is a common phrase.',
       "lessonId": "lesson_a1_6_76",
       "stage": 16,
       "type": "fill_blank",
@@ -1376,6 +1393,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_r3",
+      "explanation": '\'The printer is broken, so I need help\' uses \'so\' to give a result.',
       "lessonId": "lesson_a1_6_76",
       "stage": 16,
       "type": "word_ordering",
@@ -1394,6 +1412,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_r4",
+      "explanation": 'Assistance means help. An obstacle is a barrier. An outcome is a result. To clarify means explain clearly.',
       "lessonId": "lesson_a1_6_76",
       "stage": 16,
       "type": "match_pairs",
@@ -1419,6 +1438,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_r5",
+      "explanation": '\'Do you have a few minutes to talk?\' is a polite request. Hindi: \'क्या आपके पास बात करने के लिए कुछ मिनट हैं?\'',
       "lessonId": "lesson_a1_6_76",
       "stage": 16,
       "type": "translation",
@@ -1429,6 +1449,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u06_l76_a1",
+      "explanation": '\'We have an obstacle with the deadline, so we need extra assistance\' uses \'so\' correctly to show a result.',
       "lessonId": "lesson_a1_6_76",
       "stage": 17,
       "type": "multiple_choice",
@@ -1453,6 +1474,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_a2",
+      "explanation": '\'Contact\' means get in touch. \'Contain\' and \'contract\' have different meanings.',
       "lessonId": "lesson_a1_6_76",
       "stage": 17,
       "type": "fill_blank",
@@ -1479,6 +1501,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_a3",
+      "explanation": '\'Could you clarify the project deadline for us?\' is a polite request with \'could\' + base verb.',
       "lessonId": "lesson_a1_6_76",
       "stage": 17,
       "type": "word_ordering",
@@ -1497,6 +1520,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_a4",
+      "explanation": '\'Sure, I would be happy to help you with it\' is a polite, helpful reply.',
       "lessonId": "lesson_a1_6_76",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1521,6 +1545,7 @@ export const LESSON_A1_6_76_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l76_a5",
+      "explanation": '\'We can resolve this problem together if we follow the instructions\' uses a conditional with \'if\' + present simple.',
       "lessonId": "lesson_a1_6_76",
       "stage": 17,
       "type": "speaking",

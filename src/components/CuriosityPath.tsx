@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { SHOW_A2_LEVEL } from '../config/freeAccess';
 import {
   Trophy,
   Flame,
@@ -49,7 +50,7 @@ export const CuriosityPath: React.FC<CuriosityPathProps> = ({
   onOpenAssessment,
 }) => {
   const [selectedCEFR, setSelectedCEFR] = useState<CEFRLevel>(
-    user.currentCEFR === 'A2' && ProgressService.isA2Unlocked(user) ? 'A2' : 'A1'
+    SHOW_A2_LEVEL && user.currentCEFR === 'A2' && ProgressService.isA2Unlocked(user) ? 'A2' : 'A1'
   );
   const [selectedUnitId, setSelectedUnitId] = useState<string>('unit_a1_1');
   const [showLangDropdown, setShowLangDropdown] = useState(false);
@@ -143,7 +144,7 @@ export const CuriosityPath: React.FC<CuriosityPathProps> = ({
         <div className="flex items-center justify-between">
           {/* CEFR Level Pills */}
           <div className="flex items-center space-x-1 overflow-x-auto no-scrollbar py-0.5">
-            {(['A1', 'A2'] as CEFRLevel[]).map((lvl) => {
+            {(SHOW_A2_LEVEL ? (['A1', 'A2'] as CEFRLevel[]) : (['A1'] as CEFRLevel[])).map((lvl) => {
               const isActive = selectedCEFR === lvl;
               const isLocked = lvl === 'A2' && !isA2Unlocked;
               return (

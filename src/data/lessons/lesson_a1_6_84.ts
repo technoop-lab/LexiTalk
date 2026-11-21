@@ -1026,6 +1026,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u06_l84_p1",
+      "explanation": '\'According to\' + source: \'According to the course syllabus\'. \'With\' and \'at\' do not fit this phrase.',
       "lessonId": "lesson_a1_6_84",
       "stage": 8,
       "type": "multiple_choice",
@@ -1050,6 +1051,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_p2",
+      "explanation": '\'Are required to\' + base verb is the passive obligation. \'Required\' is the past participle after \'are\'.',
       "lessonId": "lesson_a1_6_84",
       "stage": 8,
       "type": "multiple_choice",
@@ -1074,6 +1076,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_p3",
+      "explanation": 'Citations are references to sources. \'Circuits\' and \'circles\' do not fit.',
       "lessonId": "lesson_a1_6_84",
       "stage": 8,
       "type": "fill_blank",
@@ -1100,6 +1103,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_p4",
+      "explanation": 'A syllabus is a course outline. A rubric lists grading criteria. Peer review is evaluation by fellow students. A thesis is the main claim of a paper.',
       "lessonId": "lesson_a1_6_84",
       "stage": 8,
       "type": "match_pairs",
@@ -1125,6 +1129,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_p5",
+      "explanation": '\'Let us divide ... equally\' uses \'let us\' + base verb to suggest an action.',
       "lessonId": "lesson_a1_6_84",
       "stage": 8,
       "type": "word_ordering",
@@ -1142,6 +1147,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_p6",
+      "explanation": '\'Must be submitted\' is the passive form. \'Must sub...\' and similar forms are incorrect.',
       "lessonId": "lesson_a1_6_84",
       "stage": 8,
       "type": "error_correction",
@@ -1163,6 +1169,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_p7",
+      "explanation": '\'We are required to submit the final research paper by midnight\' states a deadline in the passive form.',
       "lessonId": "lesson_a1_6_84",
       "stage": 9,
       "type": "listen_and_type",
@@ -1172,6 +1179,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_p8",
+      "explanation": 'Peer-reviewed sources are checked by experts before publication. Blogs and forum posts usually are not.',
       "lessonId": "lesson_a1_6_84",
       "stage": 10,
       "type": "multiple_choice",
@@ -1196,6 +1204,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_p9",
+      "explanation": '\'Let us meet at the campus library tomorrow at 4:00 PM\' proposes a time and place for a group meeting.',
       "lessonId": "lesson_a1_6_84",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1220,6 +1229,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_p10",
+      "explanation": '\'According to the syllabus, all essays must be submitted through the online portal\' states a rule with a source.',
       "lessonId": "lesson_a1_6_84",
       "stage": 12,
       "type": "speaking",
@@ -1229,6 +1239,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_p11",
+      "explanation": '\'Review the grading rubric before writing your essay\' gives advice. Hindi: \'अपना निबंध लिखने से पहले ग्रेडिंग रूब्रिक की समीक्षा करें।\'',
       "lessonId": "lesson_a1_6_84",
       "stage": 13,
       "type": "translation",
@@ -1237,6 +1248,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_p12",
+      "explanation": 'Plagiarism is using someone else\'s work without credit. Philosophy and paragraph are different terms.',
       "lessonId": "lesson_a1_6_84",
       "stage": 14,
       "type": "multiple_choice",
@@ -1261,6 +1273,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_p13",
+      "explanation": 'A lecture is a talk given to students. Leisure and lemon do not fit.',
       "lessonId": "lesson_a1_6_84",
       "stage": 14,
       "type": "fill_blank",
@@ -1287,6 +1300,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_p14",
+      "explanation": '\'We exchanged drafts for peer review today\' describes a past event with the past simple.',
       "lessonId": "lesson_a1_6_84",
       "stage": 14,
       "type": "word_ordering",
@@ -1304,6 +1318,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_p15",
+      "explanation": '\'Let us divide the research topics and share our notes\' proposes a group plan with \'let us\' + verb.',
       "lessonId": "lesson_a1_6_84",
       "stage": 14,
       "type": "speaking",
@@ -1315,6 +1330,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u06_l84_r1",
+      "explanation": '\'Are required to be formatted\' is the correct passive obligation in academic writing.',
       "lessonId": "lesson_a1_6_84",
       "stage": 16,
       "type": "multiple_choice",
@@ -1339,6 +1355,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_r2",
+      "explanation": '\'According to\' is the correct phrase for a source of information.',
       "lessonId": "lesson_a1_6_84",
       "stage": 16,
       "type": "fill_blank",
@@ -1365,6 +1382,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_r3",
+      "explanation": '\'Meets at the library every Tuesday\' uses the present simple for a routine.',
       "lessonId": "lesson_a1_6_84",
       "stage": 16,
       "type": "word_ordering",
@@ -1384,6 +1402,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_r4",
+      "explanation": '\'According to the syllabus\' cites course rules. \'Divide responsibilities\' means share tasks. Peer-reviewed sources are checked by experts.',
       "lessonId": "lesson_a1_6_84",
       "stage": 16,
       "type": "match_pairs",
@@ -1409,6 +1428,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_r5",
+      "explanation": '\'State your main thesis statement clearly in the introduction\' is an instruction. Hindi: \'प्रस्तावना में अपने मुख्य थीसिस कथन को स्पष्ट रूप से बताएँ।\'',
       "lessonId": "lesson_a1_6_84",
       "stage": 16,
       "type": "translation",
@@ -1419,6 +1439,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u06_l84_a1",
+      "explanation": '\'According to the syllabus, we are required to submit our essays by Friday\' is correct: \'According to\' + noun and a passive obligation.',
       "lessonId": "lesson_a1_6_84",
       "stage": 17,
       "type": "multiple_choice",
@@ -1443,6 +1464,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_a2",
+      "explanation": '\'Must be submitted\' uses the past participle after \'be\'.',
       "lessonId": "lesson_a1_6_84",
       "stage": 17,
       "type": "fill_blank",
@@ -1469,6 +1491,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_a3",
+      "explanation": '\'Make sure to cite all peer-reviewed sources correctly\' gives a clear academic instruction.',
       "lessonId": "lesson_a1_6_84",
       "stage": 17,
       "type": "word_ordering",
@@ -1487,6 +1510,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_a4",
+      "explanation": '\'Let us divide the slides equally and practice our timing together\' proposes a group plan.',
       "lessonId": "lesson_a1_6_84",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1511,6 +1535,7 @@ export const LESSON_A1_6_84_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l84_a5",
+      "explanation": '\'We have reviewed the rubric, divided the tasks, and will meet at the library\' combines completed and future actions.',
       "lessonId": "lesson_a1_6_84",
       "stage": 17,
       "type": "speaking",

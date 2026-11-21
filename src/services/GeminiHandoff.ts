@@ -1,52 +1,51 @@
-import { registerPlugin } from '@capacitor/core';
+import { Capacitor, registerPlugin } from '@capacitor/core';
 import { Share } from '@capacitor/share';
 
 interface GeminiHandoffPlugin {
   open(options: { prompt: string }): Promise<{ launched: string }>;
 }
 
+/** Native Android plugin (GeminiHandoffPlugin.java). Absent on the web. */
 const NativeGeminiHandoff = registerPlugin<GeminiHandoffPlugin>('GeminiHandoff');
+
+/** Gemini on the web. Used by the "Open Gemini" link on the website. */
+export const GEMINI_WEB_URL = 'https://gemini.google.com/app';
 
 const wasCancelled = (err: unknown): boolean =>
   /cancel/i.test(String((err as any)?.message || err || ''));
 
-export type HandoffResult = 'native' | 'share' | 'web-share' | 'clipboard' | 'failed';
-
 /**
- * Opens the phone's INSTALLED Gemini app with the prompt pre-typed —
- * no API key, no server, zero cost (GEM-H1 primary path).
- *
- * Fallbacks: native targeted intent → share sheet → Web Share → clipboard.
- * Never throws.
+ * 'native'    — Android opened the installed Gemini app with the prompt
+ * 'share'     — Android share sheet opened (or the learner closed it)
+ * 'clipboard' — prompt copied; the web button then offers the Gemini link
+ * 'failed'    — nothing worked; the button shows the prompt to copy by hand
  */
+export type HandoffResult = 'native' | 'share' | 'clipboard' | 'failed';
+
+/** True inside the installed Android app, false on the website. */
+export const isNativeApp = (): boolean => Capacitor.isNativePlatform();
+
+/** Never throws. No API key, no server call. */
 export const handoffToGemini = async (prompt: string): Promise<HandoffResult> => {
-  // 1) Native: straight into the Gemini composer (no chooser)
-  try {
-    const res = await NativeGeminiHandoff.open({ prompt });
-    if (res && res.launched) return 'native';
-  } catch {
-    /* web build, plugin not registered, or no target — fall through */
-  }
-
-  // 2) Android / iOS share sheet
-  try {
-    await Share.share({ text: prompt, title: 'Ask Gemini' });
-    return 'share';
-  } catch (err) {
-    if (wasCancelled(err)) return 'share'; // user closed the sheet — stop here
-  }
-
-  // 3) Web Share API (desktop browsers)
-  try {
-    if (typeof navigator !== 'undefined' && navigator.share) {
-      await navigator.share({ text: prompt });
-      return 'web-share';
+  if (isNativeApp()) {
+    // 1) Native plugin: installed Gemini app, else its own share-sheet fallback
+    try {
+      const res = await NativeGeminiHandoff.open({ prompt });
+      if (res && res.launched) return res.launched === 'chooser' ? 'share' : 'native';
+    } catch {
+      /* plugin missing or failed — fall through */
     }
-  } catch (err) {
-    if (wasCancelled(err)) return 'web-share';
+
+    // 2) Capacitor Share plugin
+    try {
+      await Share.share({ text: prompt, title: 'Ask Gemini' });
+      return 'share';
+    } catch (err) {
+      if (wasCancelled(err)) return 'share';
+    }
   }
 
-  // 4) Clipboard — the learner pastes into Gemini themselves
+  // 3) Website (or native fallback): copy the prompt; the button shows the Gemini link
   try {
     await navigator.clipboard.writeText(prompt);
     return 'clipboard';

@@ -1026,6 +1026,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u04_l58_p1",
+      "explanation": '\'Would you like to...?\' is a polite invitation. \'Do you liking\' and \'are you like\' are not correct.',
       "lessonId": "lesson_a1_4_58",
       "stage": 8,
       "type": "multiple_choice",
@@ -1050,6 +1051,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_p2",
+      "explanation": '\'I\'d love to, but...\' is the polite way to decline with a reason. \'But\' introduces the reason that contrasts with the invitation.',
       "lessonId": "lesson_a1_4_58",
       "stage": 8,
       "type": "fill_blank",
@@ -1076,6 +1078,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_p3",
+      "explanation": '\'Would you like to + base verb\' is a polite invitation: \'Would you like to join us for lunch?\'',
       "lessonId": "lesson_a1_4_58",
       "stage": 8,
       "type": "word_ordering",
@@ -1094,6 +1097,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_p4",
+      "explanation": '\'Would you like to...?\' is a polite invitation. \'I would love to!\' shows enthusiastic acceptance. \'I have to study\' gives a polite excuse. \'Take a raincheck\' means postpone the invitation.',
       "lessonId": "lesson_a1_4_58",
       "stage": 8,
       "type": "match_pairs",
@@ -1119,6 +1123,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_p5",
+      "explanation": '\'How about + -ing\' makes a suggestion: \'How about meeting at the central cafe at four?\' \'How about to meet\' and \'how about meets\' are incorrect.',
       "lessonId": "lesson_a1_4_58",
       "stage": 8,
       "type": "error_correction",
@@ -1144,6 +1149,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_p6",
+      "explanation": 'The speaker says: \'Thank you so much for the invitation, I would love to attend.\' \'Imitation\' and \'intend\' are different words.',
       "lessonId": "lesson_a1_4_58",
       "stage": 9,
       "type": "listening",
@@ -1164,6 +1170,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_p7",
+      "explanation": '\'I would love to join you for dinner\' is a polite acceptance of an invitation.',
       "lessonId": "lesson_a1_4_58",
       "stage": 9,
       "type": "listen_and_type",
@@ -1173,6 +1180,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_p8",
+      "explanation": '\'What should I bring to...?\' asks for advice on what to contribute. \'Should\' + base verb \'bring\'.',
       "lessonId": "lesson_a1_4_58",
       "stage": 10,
       "type": "multiple_choice",
@@ -1197,6 +1205,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_p9",
+      "explanation": '\'Yes, that sounds wonderful! Let\'s meet at three\' accepts the invitation and suggests a time.',
       "lessonId": "lesson_a1_4_58",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1221,6 +1230,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_p10",
+      "explanation": '\'I would love to come, but unfortunately I already have other plans\' declines politely with a reason.',
       "lessonId": "lesson_a1_4_58",
       "stage": 12,
       "type": "speaking",
@@ -1230,6 +1240,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_p11",
+      "explanation": '\'Would you like to join us tomorrow?\' is a polite invitation. Hindi: \'क्या आप कल हमारे साथ शामिल होना चाहेंगे?\'',
       "lessonId": "lesson_a1_4_58",
       "stage": 13,
       "type": "translation",
@@ -1238,6 +1249,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_p12",
+      "explanation": '\'Take a raincheck\' means politely postpone an invitation to a later date.',
       "lessonId": "lesson_a1_4_58",
       "stage": 14,
       "type": "multiple_choice",
@@ -1262,6 +1274,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_p13",
+      "explanation": '\'How about + -ing\' is a suggestion: \'How about having a picnic?\'',
       "lessonId": "lesson_a1_4_58",
       "stage": 14,
       "type": "fill_blank",
@@ -1288,6 +1301,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_p14",
+      "explanation": '\'I have to study for my exam tomorrow\' gives a reason with \'have to\' + base verb.',
       "lessonId": "lesson_a1_4_58",
       "stage": 14,
       "type": "word_ordering",
@@ -1306,6 +1320,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_p15",
+      "explanation": '\'Thank you for inviting me to...\' uses \'for\' + -ing to thank someone for an action.',
       "lessonId": "lesson_a1_4_58",
       "stage": 14,
       "type": "speaking",
@@ -1317,6 +1332,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u04_l58_r1",
+      "explanation": 'The pronoun goes between the verb and the particle: \'turn it off\'. \'Turn off it\' is incorrect.',
       "lessonId": "lesson_a1_4_58",
       "stage": 16,
       "type": "multiple_choice",
@@ -1341,6 +1357,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_r2",
+      "explanation": '\'Enjoy\' is followed by the -ing form: \'enjoys playing\'.',
       "lessonId": "lesson_a1_4_58",
       "stage": 16,
       "type": "fill_blank",
@@ -1367,6 +1384,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_r3",
+      "explanation": '\'Going to travel\' is a plan. \'We are going to travel soon\' has the subject, the auxiliary \'are\', and \'going to\' + base verb.',
       "lessonId": "lesson_a1_4_58",
       "stage": 16,
       "type": "word_ordering",
@@ -1383,6 +1401,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_r4",
+      "explanation": '\'Would you like to\' is a social invitation. \'Turn it on\' is a phrasal verb. \'Take a raincheck\' means postpone. \'In my opinion\' introduces a view.',
       "lessonId": "lesson_a1_4_58",
       "stage": 16,
       "type": "match_pairs",
@@ -1408,6 +1427,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_r5",
+      "explanation": '\'I would love to!\' is an enthusiastic acceptance. Hindi: \'मुझे बहुत खुशी होगी!\'',
       "lessonId": "lesson_a1_4_58",
       "stage": 16,
       "type": "translation",
@@ -1418,6 +1438,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u04_l58_a1",
+      "explanation": '\'Would you like to come?\' is a polite invitation. \'I\'d love to, but I have to work\' is a polite refusal with a reason.',
       "lessonId": "lesson_a1_4_58",
       "stage": 17,
       "type": "multiple_choice",
@@ -1442,6 +1463,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_a2",
+      "explanation": '\'How about going to the park?\' uses \'going\' after \'how about\'.',
       "lessonId": "lesson_a1_4_58",
       "stage": 17,
       "type": "fill_blank",
@@ -1468,6 +1490,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_a3",
+      "explanation": '\'Would you like to come to my birthday party?\' is a polite invitation with the correct word order.',
       "lessonId": "lesson_a1_4_58",
       "stage": 17,
       "type": "word_ordering",
@@ -1487,6 +1510,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_a4",
+      "explanation": '\'I\'d love to, but I have an important meeting at twelve\' declines politely with a reason.',
       "lessonId": "lesson_a1_4_58",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1511,6 +1535,7 @@ export const LESSON_A1_4_58_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l58_a5",
+      "explanation": '\'I would be delighted to attend\' is a polite and formal acceptance.',
       "lessonId": "lesson_a1_4_58",
       "stage": 17,
       "type": "speaking",

@@ -1026,6 +1026,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u06_l83_p1",
+      "explanation": 'The present continuous uses \'am/is/are\' + -ing: \'am currently working\'. \'Am currently work\' and \'I working\' are incorrect.',
       "lessonId": "lesson_a1_6_83",
       "stage": 8,
       "type": "multiple_choice",
@@ -1050,6 +1051,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_p2",
+      "explanation": '\'Would ... work for you?\' is a polite question. \'Would\' is followed by the base verb \'work\', not \'works\' or \'working\'.',
       "lessonId": "lesson_a1_6_83",
       "stage": 8,
       "type": "multiple_choice",
@@ -1074,6 +1076,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_p3",
+      "explanation": 'A project deadline is the date a task must be done. A deadlock is a stalemate and destiny means fate.',
       "lessonId": "lesson_a1_6_83",
       "stage": 8,
       "type": "fill_blank",
@@ -1100,6 +1103,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_p4",
+      "explanation": 'An agenda is a list of meeting topics. Reschedule means change a time. Feedback is evaluative comments. An attachment is an appended file.',
       "lessonId": "lesson_a1_6_83",
       "stage": 8,
       "type": "match_pairs",
@@ -1125,6 +1129,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_p5",
+      "explanation": '\'I have attached the document for your review\' uses the present perfect for an action just completed.',
       "lessonId": "lesson_a1_6_83",
       "stage": 8,
       "type": "word_ordering",
@@ -1143,6 +1148,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_p6",
+      "explanation": '\'Would ... work for your team?\' is correct. \'Will ... work\' and \'would ... works\' are incorrect.',
       "lessonId": "lesson_a1_6_83",
       "stage": 8,
       "type": "error_correction",
@@ -1164,6 +1170,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_p7",
+      "explanation": '\'I am currently preparing\' is a present continuous for something in progress.',
       "lessonId": "lesson_a1_6_83",
       "stage": 9,
       "type": "listen_and_type",
@@ -1173,6 +1180,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_p8",
+      "explanation": '\'Please review the draft and let me know what you think\' is a professional way to invite feedback.',
       "lessonId": "lesson_a1_6_83",
       "stage": 10,
       "type": "multiple_choice",
@@ -1197,6 +1205,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_p9",
+      "explanation": '\'Yes, 4:00 PM works well for me. I will update the calendar invite\' accepts the change and gives a next step.',
       "lessonId": "lesson_a1_6_83",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1221,6 +1230,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_p10",
+      "explanation": '\'I have completed the first draft and I am currently working on the budget\' combines a finished action and an ongoing one.',
       "lessonId": "lesson_a1_6_83",
       "stage": 12,
       "type": "speaking",
@@ -1230,6 +1240,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_p11",
+      "explanation": '\'Could we reschedule our meeting for Thursday morning?\' is a polite request. Hindi: \'क्या हम अपनी बैठक गुरुवार सुबह के लिए पुनर्निर्धारित कर सकते हैं?\'',
       "lessonId": "lesson_a1_6_83",
       "stage": 13,
       "type": "translation",
@@ -1238,6 +1249,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_p12",
+      "explanation": 'A deliverable is a tangible product or result of work. \'Delicious\' and \'deliveryman\' do not fit the meaning.',
       "lessonId": "lesson_a1_6_83",
       "stage": 14,
       "type": "multiple_choice",
@@ -1262,6 +1274,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_p13",
+      "explanation": 'An agenda is the list of meeting topics. \'Agency\' and \'agent\' are different words.',
       "lessonId": "lesson_a1_6_83",
       "stage": 14,
       "type": "fill_blank",
@@ -1288,6 +1301,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_p14",
+      "explanation": '\'Are you available for a quick sync call?\' is a polite request for someone\'s time.',
       "lessonId": "lesson_a1_6_83",
       "stage": 14,
       "type": "word_ordering",
@@ -1306,6 +1320,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_p15",
+      "explanation": '\'Thank you for your feedback, looking forward to our sync tomorrow\' is a short professional closing.',
       "lessonId": "lesson_a1_6_83",
       "stage": 14,
       "type": "speaking",
@@ -1317,6 +1332,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u06_l83_r1",
+      "explanation": '\'I have finished the presentation and I am currently reviewing the notes\' combines the present perfect and present continuous correctly.',
       "lessonId": "lesson_a1_6_83",
       "stage": 16,
       "type": "multiple_choice",
@@ -1341,6 +1357,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_r2",
+      "explanation": '\'Would ... work for you?\' uses the base verb \'work\' after \'would\'.',
       "lessonId": "lesson_a1_6_83",
       "stage": 16,
       "type": "fill_blank",
@@ -1367,6 +1384,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_r3",
+      "explanation": '\'We welcome any feedback on this first draft\' is a professional statement.',
       "lessonId": "lesson_a1_6_83",
       "stage": 16,
       "type": "word_ordering",
@@ -1385,6 +1403,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_r4",
+      "explanation": '\'Are you available for a call?\' checks availability. \'Could we reschedule to Tuesday?\' moves a meeting.',
       "lessonId": "lesson_a1_6_83",
       "stage": 16,
       "type": "match_pairs",
@@ -1410,6 +1429,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_r5",
+      "explanation": '\'We welcome any constructive feedback on this draft\' is professional. Hindi: \'हम इस मसौदे पर किसी भी रचनात्मक प्रतिक्रिया का स्वागत करते हैं।\'',
       "lessonId": "lesson_a1_6_83",
       "stage": 16,
       "type": "translation",
@@ -1420,6 +1440,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u06_l83_a1",
+      "explanation": '\'I have completed the proposal and I am currently working on the budget spreadsheet\' correctly uses the present perfect and present continuous.',
       "lessonId": "lesson_a1_6_83",
       "stage": 17,
       "type": "multiple_choice",
@@ -1444,6 +1465,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_a2",
+      "explanation": '\'Would ... work for our design review?\' uses the base verb after \'would\'.',
       "lessonId": "lesson_a1_6_83",
       "stage": 17,
       "type": "fill_blank",
@@ -1470,6 +1492,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_a3",
+      "explanation": '\'We are on track to meet the project deadline\' uses \'be on track\' for progress.',
       "lessonId": "lesson_a1_6_83",
       "stage": 17,
       "type": "word_ordering",
@@ -1489,6 +1512,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_a4",
+      "explanation": '\'Yes, 3:00 PM works perfectly for everyone on the team\' accepts a reschedule politely. \'Works\' follows a singular time.',
       "lessonId": "lesson_a1_6_83",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1513,6 +1537,7 @@ export const LESSON_A1_6_83_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l83_a5",
+      "explanation": '\'I have attached the revised proposal for your review, let me know what you think\' gives a professional request for feedback.',
       "lessonId": "lesson_a1_6_83",
       "stage": 17,
       "type": "speaking",

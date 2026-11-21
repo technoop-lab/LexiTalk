@@ -21,7 +21,7 @@ import {
   Gamepad2
 } from 'lucide-react';
 import { VocabItem, UserAcademyProfile } from '../../types';
-import { LESSON_A1_1_1_DATA } from '../../data/lessons/lesson_a1_1_1';
+import { VOCAB_BANK_A1 } from '../../data/vocabBank';
 import { VocabHeroStudioCard } from '../vocab/VocabHeroStudioCard';
 import { VocabSwipeDeck } from '../vocab/VocabSwipeDeck';
 import { PronunciationSpotlightCard } from '../vocab/PronunciationSpotlightCard';
@@ -59,7 +59,8 @@ export const VocabExperienceModal: React.FC<VocabExperienceModalProps> = ({
   const [showMiniQuiz, setShowMiniQuiz] = useState(false);
 
   const nativeLang = user.nativeLanguage || 'hi';
-  const rawList: VocabItem[] = LESSON_A1_1_1_DATA.vocabulary || [];
+  // All A1 words from the content bank (each word once). Previously this was lesson 1.1 only.
+  const rawList: VocabItem[] = (VOCAB_BANK_A1 as unknown as VocabItem[]) || [];
 
   // Filter list by search, favorites, and collection
   const filteredVocab = rawList.filter((item) => {

@@ -1036,6 +1036,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u06_l85_p1",
+      "explanation": 'Question form: \'Where can I apply...?\' with \'can\' + subject + base verb. \'Where I can apply\' lacks question word order.',
       "lessonId": "lesson_a1_6_85",
       "stage": 8,
       "type": "multiple_choice",
@@ -1060,6 +1061,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_p2",
+      "explanation": '\'Responsible for\' + -ing: \'responsible for maintaining the sidewalks\'. \'Responsible to\' is incorrect.',
       "lessonId": "lesson_a1_6_85",
       "stage": 8,
       "type": "multiple_choice",
@@ -1084,6 +1086,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_p3",
+      "explanation": 'A pothole is a hole in the road surface. \'Pocket\' and \'poster\' do not fit.',
       "lessonId": "lesson_a1_6_85",
       "stage": 8,
       "type": "fill_blank",
@@ -1110,6 +1113,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_p4",
+      "explanation": 'A resident lives in the area. A pothole is a hole in the pavement. An ordinance is a local law. A volunteer works without pay.',
       "lessonId": "lesson_a1_6_85",
       "stage": 8,
       "type": "match_pairs",
@@ -1135,6 +1139,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_p5",
+      "explanation": '\'I would like to report a broken streetlight\' is a polite way to make a civic report.',
       "lessonId": "lesson_a1_6_85",
       "stage": 8,
       "type": "word_ordering",
@@ -1153,6 +1158,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_p6",
+      "explanation": '\'Responsible for\' + -ing: \'responsible for repairing the road\'. \'Responsible with\' is incorrect.',
       "lessonId": "lesson_a1_6_85",
       "stage": 8,
       "type": "error_correction",
@@ -1174,6 +1180,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_p7",
+      "explanation": '\'Where can I register for...?\' asks where to sign up. \'Free public library card\' is a noun phrase.',
       "lessonId": "lesson_a1_6_85",
       "stage": 9,
       "type": "listen_and_type",
@@ -1183,6 +1190,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_p8",
+      "explanation": '\'Could you tell me what time the town hall opens?\' is a polite indirect question with word order of a statement.',
       "lessonId": "lesson_a1_6_85",
       "stage": 10,
       "type": "multiple_choice",
@@ -1207,6 +1215,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_p9",
+      "explanation": '\'Yes, I have a recent electricity utility bill and my ID card\' gives proof of residence and identity.',
       "lessonId": "lesson_a1_6_85",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1231,6 +1240,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_p10",
+      "explanation": '\'Where can I register for the community recreation programs this summer?\' is a clear civic question.',
       "lessonId": "lesson_a1_6_85",
       "stage": 12,
       "type": "speaking",
@@ -1240,6 +1250,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_p11",
+      "explanation": '\'The municipality is responsible for collecting residential waste\' states a responsibility. Hindi: \'नगर पालिका आवासीय कचरा एकत्र करने के लिए जिम्मेदार है।\'',
       "lessonId": "lesson_a1_6_85",
       "stage": 13,
       "type": "translation",
@@ -1248,6 +1259,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_p12",
+      "explanation": 'A city council is an elected governing body. A crew cabin and a concert hall are different places.',
       "lessonId": "lesson_a1_6_85",
       "stage": 14,
       "type": "multiple_choice",
@@ -1272,6 +1284,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_p13",
+      "explanation": 'Citizens are people with the right to vote in a country or city. Cities and citations do not fit.',
       "lessonId": "lesson_a1_6_85",
       "stage": 14,
       "type": "fill_blank",
@@ -1298,6 +1311,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_p14",
+      "explanation": '\'Many volunteers helped clean up the local park\' uses the past simple for a completed action.',
       "lessonId": "lesson_a1_6_85",
       "stage": 14,
       "type": "word_ordering",
@@ -1316,6 +1330,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_p15",
+      "explanation": '\'I would like to report a broken streetlight and request maintenance assistance\' is a polite, complete civic report.',
       "lessonId": "lesson_a1_6_85",
       "stage": 14,
       "type": "speaking",
@@ -1327,6 +1342,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u06_l85_r1",
+      "explanation": '\'Where can I apply for...?\' uses correct question word order. \'Where I can apply\' is incorrect.',
       "lessonId": "lesson_a1_6_85",
       "stage": 16,
       "type": "multiple_choice",
@@ -1351,6 +1367,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_r2",
+      "explanation": '\'Responsible for\' + -ing: \'responsible for maintaining the public sports facilities\'.',
       "lessonId": "lesson_a1_6_85",
       "stage": 16,
       "type": "fill_blank",
@@ -1377,6 +1394,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_r3",
+      "explanation": '\'The city council meets at the town hall\' uses the present simple for a regular event.',
       "lessonId": "lesson_a1_6_85",
       "stage": 16,
       "type": "word_ordering",
@@ -1395,6 +1413,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_r4",
+      "explanation": 'To register a library card you need proof of address. A pothole is reported to the public works department.',
       "lessonId": "lesson_a1_6_85",
       "stage": 16,
       "type": "match_pairs",
@@ -1420,6 +1439,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_r5",
+      "explanation": '\'You need a parking permit to park on this street\' states a rule. Hindi: \'इस सड़क पर पार्क करने के लिए आपको पार्किंग परमिट की आवश्यकता है।\'',
       "lessonId": "lesson_a1_6_85",
       "stage": 16,
       "type": "translation",
@@ -1430,6 +1450,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u06_l85_a1",
+      "explanation": '\'Where can I register for a library card, and who is responsible for issuing parking permits?\' uses correct question forms and a correct \'responsible for\'.',
       "lessonId": "lesson_a1_6_85",
       "stage": 17,
       "type": "multiple_choice",
@@ -1454,6 +1475,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_a2",
+      "explanation": 'A council is an elected governing body. A counselor is an advisor and a corridor is a passage.',
       "lessonId": "lesson_a1_6_85",
       "stage": 17,
       "type": "fill_blank",
@@ -1480,6 +1502,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_a3",
+      "explanation": '\'I would like to register for the community classes\' is a polite request with \'would like to\' + base verb.',
       "lessonId": "lesson_a1_6_85",
       "stage": 17,
       "type": "word_ordering",
@@ -1499,6 +1522,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_a4",
+      "explanation": '\'The municipal public works team is responsible for fixing streetlights\' answers who handles the problem.',
       "lessonId": "lesson_a1_6_85",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1523,6 +1547,7 @@ export const LESSON_A1_6_85_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l85_a5",
+      "explanation": '\'I have submitted my residency proof and registered for our neighborhood community programs\' uses the present perfect for completed actions.',
       "lessonId": "lesson_a1_6_85",
       "stage": 17,
       "type": "speaking",

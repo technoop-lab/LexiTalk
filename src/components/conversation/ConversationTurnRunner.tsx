@@ -17,7 +17,7 @@ import {
   MessageSquare,
   AlertCircle,
 } from 'lucide-react';
-import { getActiveEnglishAccent, playSoundEffectEffect } from '../../utils/audioUtils';
+import { expandTitlesForSpeech, getActiveEnglishAccent, playSoundEffectEffect } from '../../utils/audioUtils';
 import { askGeminiJson, isAiConfigured } from '../../services/GeminiClient';
 
 interface ConversationTurnRunnerProps {
@@ -104,7 +104,7 @@ export const ConversationTurnRunner: React.FC<ConversationTurnRunnerProps> = ({
     try {
       window.speechSynthesis.cancel();
       const textToSpeak = turn.partnerAudioText || turn.partnerPrompt;
-      const utterance = new SpeechSynthesisUtterance(textToSpeak);
+      const utterance = new SpeechSynthesisUtterance(expandTitlesForSpeech(textToSpeak));
       utterance.lang = getActiveEnglishAccent();
       utterance.rate = cefr === 'A1' ? 0.85 : 0.95;
 
@@ -139,6 +139,10 @@ export const ConversationTurnRunner: React.FC<ConversationTurnRunnerProps> = ({
     provider.onError((err: SpeechError) => {
       setIsListening(false);
       setSpeechError(err.message);
+    });
+
+    provider.onEnd(() => {
+      setIsListening(false);
     });
 
     try {
@@ -194,7 +198,7 @@ export const ConversationTurnRunner: React.FC<ConversationTurnRunnerProps> = ({
     // Read the starter aloud so the learner can repeat it
     try {
       window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(text);
+      const utterance = new SpeechSynthesisUtterance(expandTitlesForSpeech(text));
       utterance.lang = getActiveEnglishAccent();
       utterance.rate = cefr === 'A1' ? 0.85 : 0.95;
       window.speechSynthesis.speak(utterance);

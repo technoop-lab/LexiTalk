@@ -1030,6 +1030,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u03_l38_p1",
+      "explanation": 'One-syllable adjectives use \'the\' + -est: \'the fastest\'. \'The most fast\' and \'the faster\' are incorrect.',
       "type": "multiple_choice",
       "prompt": "Select the correct superlative form of \"fast\":",
       "targetSentence": "The cheetah is the fastest land animal.",
@@ -1058,6 +1059,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_p2",
+      "explanation": 'Long adjectives use \'the most\' + adjective: \'the most expensive\'. \'The expensivest\' is incorrect.',
       "type": "fill_blank",
       "prompt": "Complete the sentence with the correct superlative adjective:",
       "targetSentence": "This is the most expensive watch in the jewelry store.",
@@ -1086,6 +1088,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_p3",
+      "explanation": 'The superlative needs \'the biggest\' before the noun group. \'City in Japan\' is the place where Tokyo is compared.',
       "type": "word_ordering",
       "prompt": "Assemble the superlative sentence correctly:",
       "targetSentence": "Tokyo is the biggest city in Japan",
@@ -1103,6 +1106,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_p4",
+      "explanation": 'The audio says \'The express train is the fastest and most convenient route.\' That is the first option.',
       "type": "listening",
       "prompt": "Listen and identify the statement being made:",
       "audioText": "The express train is the fastest and most convenient route.",
@@ -1131,6 +1135,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_p5",
+      "explanation": '\'Best\' is the irregular superlative of \'good\'. \'Goodest\' is incorrect.',
       "type": "error_correction",
       "prompt": "Fix the error in this superlative statement:",
       "targetSentence": "This is the best restaurant in our neighborhood.",
@@ -1160,6 +1165,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_p6",
+      "explanation": '\'The most comfortable\' uses \'the most\' with a long adjective. \'Peaceful\' is joined to it with \'and\'.',
       "type": "dialogue_completion",
       "prompt": "Choose the most natural superlative response:",
       "dialogueContext": {
@@ -1192,6 +1198,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_p7",
+      "explanation": '\'The highest\' is the superlative of \'high\' (one syllable, -est). Hindi: \'माउंट एवरेस्ट दुनिया का सबसे ऊँचा पहाड़ है।\'',
       "type": "translation",
       "prompt": "Translate this superlative sentence into English:",
       "sourceSentence": "माउंट एवरेस्ट दुनिया का सबसे ऊँचा पर्वत है।",
@@ -1216,6 +1223,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_p8",
+      "explanation": '\'The easiest\' is the superlative of \'easy\' (ends in -y, so -y changes to -iest). \'Easy\' becomes \'easiest\'.',
       "type": "speaking",
       "prompt": "Speak this superlative statement clearly:",
       "targetSentence": "This is the easiest lesson in our English course.",
@@ -1223,6 +1231,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_p9",
+      "explanation": '\'The most popular\' uses \'the most\' with the longer adjective. \'More popularly\' is an adverb, not an adjective.',
       "type": "listen_and_type",
       "prompt": "Listen to the audio and assemble the sentence:",
       "audioText": "It is the most popular cafe in town.",
@@ -1242,6 +1251,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_p10",
+      "explanation": '\'Worst\' is the irregular superlative of \'bad\'. \'Baddest\' is incorrect.',
       "type": "multiple_choice",
       "prompt": "Which sentence correctly uses an irregular superlative?",
       "targetSentence": "Monday was the worst day of the week for traffic.",
@@ -1270,6 +1280,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_p11",
+      "explanation": 'Superlatives with \'the\' + a group (in the class) use the preposition \'in\' for a place or group: \'in the class\'.',
       "type": "fill_blank",
       "prompt": "Complete the sentence with the correct preposition:",
       "targetSentence": "She is the smartest student in the class.",
@@ -1298,6 +1309,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_p12",
+      "explanation": 'Irregular: good - the best, bad - the worst. Regular: cheap - the cheapest. Long: expensive - the most expensive.',
       "type": "match_pairs",
       "prompt": "Match adjectives with their correct superlative forms:",
       "options": [
@@ -1337,6 +1349,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_p13",
+      "explanation": '\'Oldest\' is the superlative of \'old\' (one syllable). \'Most older\' is incorrect.',
       "type": "word_ordering",
       "prompt": "Assemble the superlative question:",
       "targetSentence": "What is the oldest building in this ancient city",
@@ -1356,6 +1369,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_p14",
+      "explanation": '\'Happy\' ends in -y and forms \'the happiest\' without \'most\'. Using \'most\' with a -est form (the most happiest) doubles the superlative.',
       "type": "multiple_choice",
       "prompt": "Why is \"the most happiest\" incorrect?",
       "targetSentence": "Because \"happy\" forms \"the happiest\" without needing \"most\".",
@@ -1384,6 +1398,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_p15",
+      "explanation": '\'Biggest\' doubles the g, since \'big\' is one vowel + one consonant. \'Bigest\' has no doubled letter.',
       "type": "fill_blank",
       "prompt": "Select the correct superlative form for \"big\":",
       "targetSentence": "The blue whale is the biggest animal in the ocean.",
@@ -1414,6 +1429,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u03_l38_rev1",
+      "explanation": '\'The most talented\' uses \'the most\' with a long adjective. \'Talentedest\' is incorrect.',
       "type": "multiple_choice",
       "prompt": "Which sentence is grammatically correct?",
       "targetSentence": "She is the most talented singer in the choir.",
@@ -1442,6 +1458,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_rev2",
+      "explanation": '\'The oldest\' is the superlative of \'old\' (one syllable). \'Older\' is the comparative, not the superlative.',
       "type": "word_ordering",
       "prompt": "Build the superlative sentence:",
       "targetSentence": "This ancient bridge is the oldest in our region",
@@ -1461,6 +1478,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_rev3",
+      "explanation": '\'Easiest\' is the superlative of \'easy\' (-y changes to -iest). \'Easyest\' and \'most easy\' are incorrect.',
       "type": "fill_blank",
       "prompt": "Fill in the blank with the correct superlative:",
       "targetSentence": "Online shopping is the easiest way to compare prices.",
@@ -1489,6 +1507,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_rev4",
+      "explanation": '\'The worst\' is the irregular superlative of \'bad\'. \'Worst\' alone needs \'the\' before it.',
       "type": "error_correction",
       "prompt": "Fix the grammar error in this sentence:",
       "targetSentence": "That was the worst storm of the year.",
@@ -1518,6 +1537,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_rev5",
+      "explanation": '\'The most popular\' uses \'the most\' with a long adjective. Hindi: \'यह हमारे मेनू का सबसे लोकप्रिय व्यंजन है।\'',
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "यह हमारे मेनू का सबसे लोकप्रिय व्यंजन है।",
@@ -1544,6 +1564,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u03_l38_a1",
+      "explanation": 'One-syllable adjectives add -est and use \'the\': \'the tallest\'. Long adjectives use \'the most\'.',
       "type": "multiple_choice",
       "prompt": "What rule applies to 1-syllable adjectives in superlative form?",
       "targetSentence": "Add \"-est\" to the adjective and place \"the\" before it.",
@@ -1572,6 +1593,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_a2",
+      "explanation": '\'The cheapest\' is the superlative of \'cheap\' (one syllable, -est). \'Cheaper\' is a comparative.',
       "type": "fill_blank",
       "prompt": "Select the missing word to complete the superlative:",
       "targetSentence": "This is the cheapest room in the guest house.",
@@ -1600,6 +1622,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_a3",
+      "explanation": '\'The fastest way\' is a superlative. \'Faster\' and \'most\' are not used here.',
       "type": "word_ordering",
       "prompt": "Assemble the superlative statement:",
       "targetSentence": "The subway is the fastest way to travel across town",
@@ -1620,6 +1643,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_a4",
+      "explanation": 'The audio says \'The library is the quietest place to study on campus.\' That matches the first option.',
       "type": "listening",
       "prompt": "Listen to the audio and answer what is described:",
       "audioText": "The library is the quietest place to study on campus.",
@@ -1648,6 +1672,7 @@ export const LESSON_A1_3_38_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l38_a5",
+      "explanation": '\'The best view\' uses the irregular superlative of \'good\'. \'In the whole city\' names the place.',
       "type": "speaking",
       "prompt": "Speak this recommendation clearly:",
       "targetSentence": "Bella Vista has the best view in the whole city.",

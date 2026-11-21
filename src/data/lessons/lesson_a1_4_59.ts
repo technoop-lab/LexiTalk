@@ -1016,6 +1016,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u04_l59_p1",
+      "explanation": '\'Was born\' is the passive past for birth. \'Am born\' is present and \'was be born\' is not correct.',
       "lessonId": "lesson_a1_4_59",
       "stage": 8,
       "type": "multiple_choice",
@@ -1040,6 +1041,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_p2",
+      "explanation": '\'Grew\' is the irregular past of \'grow\'. \'Growed\' is not a word.',
       "lessonId": "lesson_a1_4_59",
       "stage": 8,
       "type": "fill_blank",
@@ -1066,6 +1068,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_p3",
+      "explanation": '\'Graduated from\' + institution. This is the simple past of \'graduate\'.',
       "lessonId": "lesson_a1_4_59",
       "stage": 8,
       "type": "word_ordering",
@@ -1082,6 +1085,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_p4",
+      "explanation": '\'First\' starts a sequence, \'then\' adds a following action, \'after that\' adds a later milestone, and \'finally\' ends the sequence.',
       "lessonId": "lesson_a1_4_59",
       "stage": 8,
       "type": "match_pairs",
@@ -1107,6 +1111,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_p5",
+      "explanation": '\'Graduated from\' + school is the correct structure. \'Graduated to\' and \'was graduate\' are incorrect.',
       "lessonId": "lesson_a1_4_59",
       "stage": 8,
       "type": "error_correction",
@@ -1132,6 +1137,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_p6",
+      "explanation": 'The speaker says: \'I was born in Canada and grew up in Vancouver.\' \'Burn\' and \'blow up\' are incorrect words.',
       "lessonId": "lesson_a1_4_59",
       "stage": 9,
       "type": "listening",
@@ -1152,6 +1158,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_p7",
+      "explanation": '\'Got married\' is the simple past of \'get married\'. \'In a beautiful ceremony\' describes the event.',
       "lessonId": "lesson_a1_4_59",
       "stage": 9,
       "type": "listen_and_type",
@@ -1161,6 +1168,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_p8",
+      "explanation": '\'Where did you grow up?\' uses \'did\' + base verb \'grow\'. \'Grew\' and \'was you grow\' are incorrect.',
       "lessonId": "lesson_a1_4_59",
       "stage": 10,
       "type": "multiple_choice",
@@ -1185,6 +1193,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_p9",
+      "explanation": '\'He retired five years ago after teaching for forty years\' answers \'When\' with a past time phrase.',
       "lessonId": "lesson_a1_4_59",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1209,6 +1218,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_p10",
+      "explanation": '\'First I studied... then I moved...\' uses sequence words and past simple verbs for a life timeline.',
       "lessonId": "lesson_a1_4_59",
       "stage": 12,
       "type": "speaking",
@@ -1218,6 +1228,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_p11",
+      "explanation": '\'Born\' is the past passive: \'I was born in Madrid in 1998.\' Hindi: \'मेरा जन्म 1998 में मैड्रिड में हुआ था।\'',
       "lessonId": "lesson_a1_4_59",
       "stage": 13,
       "type": "translation",
@@ -1226,6 +1237,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_p12",
+      "explanation": '\'Graduate from\' is followed by \'from\' + institution.',
       "lessonId": "lesson_a1_4_59",
       "stage": 14,
       "type": "multiple_choice",
@@ -1250,6 +1262,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_p13",
+      "explanation": '\'Finally\' introduces the last step after many years of effort.',
       "lessonId": "lesson_a1_4_59",
       "stage": 14,
       "type": "fill_blank",
@@ -1276,6 +1289,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_p14",
+      "explanation": '\'Two years later\' is a time phrase used to show sequence. \'They moved\' uses the past simple.',
       "lessonId": "lesson_a1_4_59",
       "stage": 14,
       "type": "word_ordering",
@@ -1293,6 +1307,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_p15",
+      "explanation": '\'Graduating from university\' as a subject uses -ing. \'Was a proud milestone\' uses past \'was\'.',
       "lessonId": "lesson_a1_4_59",
       "stage": 14,
       "type": "speaking",
@@ -1304,6 +1319,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u04_l59_r1",
+      "explanation": '\'I\'d love to, but I have to study tonight\' is a polite refusal with a reason.',
       "lessonId": "lesson_a1_4_59",
       "stage": 16,
       "type": "multiple_choice",
@@ -1328,6 +1344,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_r2",
+      "explanation": '\'Turn off the lights\' uses \'off\' with \'turn\' and the object.',
       "lessonId": "lesson_a1_4_59",
       "stage": 16,
       "type": "fill_blank",
@@ -1354,6 +1371,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_r3",
+      "explanation": '\'Would you like to join us for lunch?\' is a polite invitation.',
       "lessonId": "lesson_a1_4_59",
       "stage": 16,
       "type": "word_ordering",
@@ -1372,6 +1390,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_r4",
+      "explanation": '\'Was born\' is the past passive for birth. \'Grew up\' describes childhood. \'Graduated from\' means completed university. \'Got married\' is the wedding milestone.',
       "lessonId": "lesson_a1_4_59",
       "stage": 16,
       "type": "match_pairs",
@@ -1397,6 +1416,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_r5",
+      "explanation": '\'He grew up in a small town\' uses the irregular past \'grew\'. Hindi: \'वह एक छोटे शहर में पला-बढ़ा।\'',
       "lessonId": "lesson_a1_4_59",
       "stage": 16,
       "type": "translation",
@@ -1407,6 +1427,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u04_l59_a1",
+      "explanation": '\'I was born in London and grew up in a friendly neighborhood\' uses the past passive and the irregular past \'grew\'.',
       "lessonId": "lesson_a1_4_59",
       "stage": 17,
       "type": "multiple_choice",
@@ -1431,6 +1452,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_a2",
+      "explanation": '\'Graduated from university\' uses \'from\' after \'graduated\'.',
       "lessonId": "lesson_a1_4_59",
       "stage": 17,
       "type": "fill_blank",
@@ -1457,6 +1479,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_a3",
+      "explanation": '\'First\' and \'then\' show the order of events in a life story.',
       "lessonId": "lesson_a1_4_59",
       "stage": 17,
       "type": "word_ordering",
@@ -1476,6 +1499,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_a4",
+      "explanation": '\'I grew up in Sydney, Australia, near the coast\' answers \'Where did you grow up?\' with the place.',
       "lessonId": "lesson_a1_4_59",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1500,6 +1524,7 @@ export const LESSON_A1_4_59_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l59_a5",
+      "explanation": '\'I was born in 1995, grew up in Chicago, and graduated from university five years ago\' is a life summary in the past simple.',
       "lessonId": "lesson_a1_4_59",
       "stage": 17,
       "type": "speaking",

@@ -1016,6 +1016,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u04_l52_p1",
+      "explanation": '\'Across from\' means on the opposite side of the street. \'Across to\' and \'at\' are not used this way.',
       "lessonId": "lesson_a1_4_52",
       "stage": 8,
       "type": "multiple_choice",
@@ -1040,6 +1041,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_p2",
+      "explanation": '\'There are\' is used with plural nouns. \'Three parks\' is plural, so \'are\' is correct.',
       "lessonId": "lesson_a1_4_52",
       "stage": 8,
       "type": "fill_blank",
@@ -1066,6 +1068,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_p3",
+      "explanation": '\'Next to\' describes a position beside something: \'The bakery is next to the supermarket.\'',
       "lessonId": "lesson_a1_4_52",
       "stage": 8,
       "type": "word_ordering",
@@ -1083,6 +1086,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_p4",
+      "explanation": 'A library has books and study spaces. A pharmacy sells medicines. A bakery sells fresh bread and pastries. A gym has exercise equipment.',
       "lessonId": "lesson_a1_4_52",
       "stage": 8,
       "type": "match_pairs",
@@ -1108,6 +1112,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_p5",
+      "explanation": '\'Between\' is followed directly by the two places: \'between the bank and the post office\'. \'Between of\' and \'between to\' are incorrect.',
       "lessonId": "lesson_a1_4_52",
       "stage": 8,
       "type": "error_correction",
@@ -1133,6 +1138,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_p6",
+      "explanation": 'The speaker says: \'There is a modern sports facility on the corner of Elm Street.\' The other option has different words.',
       "lessonId": "lesson_a1_4_52",
       "stage": 9,
       "type": "listening",
@@ -1153,6 +1159,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_p7",
+      "explanation": '\'Across from\' describes a position on the opposite side. Hindi: \'पुस्तकालय केंद्रीय पार्क के सामने है।\'',
       "lessonId": "lesson_a1_4_52",
       "stage": 9,
       "type": "listen_and_type",
@@ -1162,6 +1169,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_p8",
+      "explanation": '\'Is there a supermarket near here?\' is the correct question for a singular noun. \'Are there\' is for plural nouns.',
       "lessonId": "lesson_a1_4_52",
       "stage": 10,
       "type": "multiple_choice",
@@ -1186,6 +1194,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_p9",
+      "explanation": '\'It is on the corner of Pine Street, right next to the clinic\' answers \'where is the...\' with a location.',
       "lessonId": "lesson_a1_4_52",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1210,6 +1219,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_p10",
+      "explanation": '\'Within walking distance\' means close enough to walk to. \'The train station is within walking distance\' describes distance.',
       "lessonId": "lesson_a1_4_52",
       "stage": 12,
       "type": "speaking",
@@ -1219,6 +1229,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_p11",
+      "explanation": '\'Between\' means in the space that separates two places. Hindi: \'पुस्तकालय पार्क और स्कूल के बीच में है।\'',
       "lessonId": "lesson_a1_4_52",
       "stage": 13,
       "type": "translation",
@@ -1227,6 +1238,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_p12",
+      "explanation": '\'Within walking distance\' means close enough to reach on foot.',
       "lessonId": "lesson_a1_4_52",
       "stage": 14,
       "type": "multiple_choice",
@@ -1251,6 +1263,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_p13",
+      "explanation": '\'On the corner of\' is the standard phrase for a street corner location.',
       "lessonId": "lesson_a1_4_52",
       "stage": 14,
       "type": "fill_blank",
@@ -1277,6 +1290,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_p14",
+      "explanation": '\'What are the opening hours...?\' asks about the times a place is open. \'Are\' goes with the plural \'hours\'.',
       "lessonId": "lesson_a1_4_52",
       "stage": 14,
       "type": "word_ordering",
@@ -1295,6 +1309,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_p15",
+      "explanation": '\'Our neighborhood has a clean park and friendly residents\' is a description with \'has\' (singular subject).',
       "lessonId": "lesson_a1_4_52",
       "stage": 14,
       "type": "speaking",
@@ -1306,6 +1321,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u04_l52_r1",
+      "explanation": '\'Please call the emergency number immediately\' is an imperative with the base verb \'call\'.',
       "lessonId": "lesson_a1_4_52",
       "stage": 16,
       "type": "multiple_choice",
@@ -1330,6 +1346,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_r2",
+      "explanation": '\'Faster\' is the comparative of \'fast\' (one syllable, -er), used with \'than\'.',
       "lessonId": "lesson_a1_4_52",
       "stage": 16,
       "type": "fill_blank",
@@ -1356,6 +1373,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_r3",
+      "explanation": '\'Can I pay by debit card?\' is a question about the payment method.',
       "lessonId": "lesson_a1_4_52",
       "stage": 16,
       "type": "word_ordering",
@@ -1372,6 +1390,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_r4",
+      "explanation": 'A post office sends parcels. A bank handles money. A hospital provides emergency care. A pharmacy sells medicines.',
       "lessonId": "lesson_a1_4_52",
       "stage": 16,
       "type": "match_pairs",
@@ -1397,6 +1416,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_r5",
+      "explanation": '\'Where is the nearest hospital?\' asks for the closest location. Hindi: \'निकटतम अस्पताल कहाँ है?\'',
       "lessonId": "lesson_a1_4_52",
       "stage": 16,
       "type": "translation",
@@ -1407,6 +1427,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u04_l52_a1",
+      "explanation": '\'Across from the public library\' describes the location on the opposite side. \'Across to\' is not correct.',
       "lessonId": "lesson_a1_4_52",
       "stage": 17,
       "type": "multiple_choice",
@@ -1431,6 +1452,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_a2",
+      "explanation": '\'Between\' is used with two places: \'between the bookshop and the bakery\'. \'Between of\' is incorrect.',
       "lessonId": "lesson_a1_4_52",
       "stage": 17,
       "type": "fill_blank",
@@ -1457,6 +1479,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_a3",
+      "explanation": '\'Within walking distance\' is a fixed phrase meaning close enough to walk to.',
       "lessonId": "lesson_a1_4_52",
       "stage": 17,
       "type": "word_ordering",
@@ -1474,6 +1497,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_a4",
+      "explanation": '\'Yes, there is one right behind the train station\' answers the question with the location.',
       "lessonId": "lesson_a1_4_52",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1498,6 +1522,7 @@ export const LESSON_A1_4_52_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l52_a5",
+      "explanation": '\'The health clinic is on the corner of Elm Street opposite the park\' gives the place with two prepositions of place.',
       "lessonId": "lesson_a1_4_52",
       "stage": 17,
       "type": "speaking",

@@ -1016,6 +1016,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u05_l72_p1",
+      "explanation": '\'Good at\' + -ing: \'good at solving complex problems\'.',
       "lessonId": "lesson_a1_5_72",
       "stage": 8,
       "type": "multiple_choice",
@@ -1040,6 +1041,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_p2",
+      "explanation": '\'Myself\' is the reflexive pronoun for \'I\'. \'See myself leading\' is the correct structure.',
       "lessonId": "lesson_a1_5_72",
       "stage": 8,
       "type": "fill_blank",
@@ -1066,6 +1068,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_p3",
+      "explanation": 'A list of qualities uses commas or \'and\'. \'Detail-oriented\' is a compound adjective.',
       "lessonId": "lesson_a1_5_72",
       "stage": 8,
       "type": "word_ordering",
@@ -1084,6 +1087,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_p4",
+      "explanation": 'A strength is a key capability. A team player works well with others. Leadership means guiding a team. Culture is the working environment.',
       "lessonId": "lesson_a1_5_72",
       "stage": 8,
       "type": "match_pairs",
@@ -1109,6 +1113,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_p5",
+      "explanation": '\'Good at\' + -ing: \'good at managing tight deadlines\'. \'Manage\' and \'on\' are incorrect here.',
       "lessonId": "lesson_a1_5_72",
       "stage": 8,
       "type": "error_correction",
@@ -1134,6 +1139,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_p6",
+      "explanation": 'The speaker says: \'My greatest strength is solving problems under pressure.\' The other option describes a weakness.',
       "lessonId": "lesson_a1_5_72",
       "stage": 9,
       "type": "listening",
@@ -1154,6 +1160,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_p7",
+      "explanation": '\'Where do you see yourself in five years?\' is a common interview question with \'do\' + subject.',
       "lessonId": "lesson_a1_5_72",
       "stage": 9,
       "type": "listen_and_type",
@@ -1163,6 +1170,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_p8",
+      "explanation": '\'What does a typical day look like in this role?\' asks a relevant question about the job.',
       "lessonId": "lesson_a1_5_72",
       "stage": 10,
       "type": "multiple_choice",
@@ -1187,6 +1195,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_p9",
+      "explanation": '\'I listen actively, discuss solutions calmly, and focus on team goals\' gives a clear answer to the question.',
       "lessonId": "lesson_a1_5_72",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1211,6 +1220,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_p10",
+      "explanation": '\'I am highly motivated to contribute my analytical skills\' is a professional statement with \'to\' + base verb.',
       "lessonId": "lesson_a1_5_72",
       "stage": 12,
       "type": "speaking",
@@ -1220,6 +1230,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_p11",
+      "explanation": '\'My greatest strength is solving complex problems\' is an interview answer. Hindi: \'मेरी सबसे बड़ी ताकत जटिल समस्याओं को हल करना है।\'',
       "lessonId": "lesson_a1_5_72",
       "stage": 13,
       "type": "translation",
@@ -1228,6 +1239,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_p12",
+      "explanation": '\'Detail-oriented\' describes someone who pays close attention to detail.',
       "lessonId": "lesson_a1_5_72",
       "stage": 14,
       "type": "multiple_choice",
@@ -1252,6 +1264,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_p13",
+      "explanation": '\'Career growth\' means progress in a career. \'Faucet\' and \'syrup\' are not career terms.',
       "lessonId": "lesson_a1_5_72",
       "stage": 14,
       "type": "fill_blank",
@@ -1278,6 +1291,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_p14",
+      "explanation": '\'Stay calm and handle pressure\' describes stress management with two actions joined by \'and\'.',
       "lessonId": "lesson_a1_5_72",
       "stage": 14,
       "type": "word_ordering",
@@ -1296,6 +1310,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_p15",
+      "explanation": '\'Could you please tell me more about...?\' is a polite question for an interviewer.',
       "lessonId": "lesson_a1_5_72",
       "stage": 14,
       "type": "speaking",
@@ -1307,6 +1322,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u05_l72_r1",
+      "explanation": '\'Three years of experience in sales\' is the correct noun phrase. \'Experience on\' and \'having experience\' are incorrect here.',
       "lessonId": "lesson_a1_5_72",
       "stage": 16,
       "type": "multiple_choice",
@@ -1331,6 +1347,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_r2",
+      "explanation": '\'Responsible for\' + -ing: \'responsible for training new employees\'.',
       "lessonId": "lesson_a1_5_72",
       "stage": 16,
       "type": "fill_blank",
@@ -1357,6 +1374,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_r3",
+      "explanation": '\'Am writing to inquire about the position\' is a formal opening.',
       "lessonId": "lesson_a1_5_72",
       "stage": 16,
       "type": "word_ordering",
@@ -1375,6 +1393,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_r4",
+      "explanation": 'A team player works well with others. A cover letter accompanies an application. A goal is an ambition. A strength is a key skill.',
       "lessonId": "lesson_a1_5_72",
       "stage": 16,
       "type": "match_pairs",
@@ -1400,6 +1419,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_r5",
+      "explanation": '\'In five years I see myself leading a team\' expresses a career goal. Hindi: \'पाँच वर्षों में, मैं खुद को एक टीम का नेतृत्व करते हुए देखता हूँ।\'',
       "lessonId": "lesson_a1_5_72",
       "stage": 16,
       "type": "translation",
@@ -1410,6 +1430,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u05_l72_a1",
+      "explanation": '\'My greatest strength is that I am highly organized and good at solving complex problems\' is a clear interview statement.',
       "lessonId": "lesson_a1_5_72",
       "stage": 17,
       "type": "multiple_choice",
@@ -1434,6 +1455,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_a2",
+      "explanation": '\'Quickly\' is an adverb modifying the verb \'learn\'.',
       "lessonId": "lesson_a1_5_72",
       "stage": 17,
       "type": "fill_blank",
@@ -1460,6 +1482,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_a3",
+      "explanation": '\'In five years I see myself managing larger projects\' expresses a future goal.',
       "lessonId": "lesson_a1_5_72",
       "stage": 17,
       "type": "word_ordering",
@@ -1479,6 +1502,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_a4",
+      "explanation": '\'Could you tell me more about the company culture and next steps in the hiring process?\' is a polite closing question.',
       "lessonId": "lesson_a1_5_72",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1503,6 +1527,7 @@ export const LESSON_A1_5_72_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l72_a5",
+      "explanation": '\'I am a collaborative team player with four years of experience in project management\' gives a professional summary.',
       "lessonId": "lesson_a1_5_72",
       "stage": 17,
       "type": "speaking",

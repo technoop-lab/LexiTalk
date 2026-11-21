@@ -1016,6 +1016,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u05_l62_p1",
+      "explanation": '\'May I speak to...?\' is the polite phone request. \'I want\' and \'give me\' are blunt.',
       "lessonId": "lesson_a1_5_62",
       "stage": 8,
       "type": "multiple_choice",
@@ -1040,6 +1041,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_p2",
+      "explanation": 'The imperative \'Please hold the line\' uses the base verb \'hold\'. \'Holding\' and \'held\' are not imperatives.',
       "lessonId": "lesson_a1_5_62",
       "stage": 8,
       "type": "fill_blank",
@@ -1066,6 +1068,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_p3",
+      "explanation": '\'May I take a message for him?\' is a polite offer to record a message.',
       "lessonId": "lesson_a1_5_62",
       "stage": 8,
       "type": "word_ordering",
@@ -1083,6 +1086,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_p4",
+      "explanation": '\'May I speak to...?\' asks for a person. \'Speaking!\' confirms you are the person. \'Hold the line\' asks the caller to wait. \'Put you through\' transfers the call.',
       "lessonId": "lesson_a1_5_62",
       "stage": 8,
       "type": "match_pairs",
@@ -1108,6 +1112,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_p5",
+      "explanation": '\'Could you spell...?\' uses the base verb after \'could\'. \'Could you spelling\' and \'can you to spell\' are incorrect.',
       "lessonId": "lesson_a1_5_62",
       "stage": 8,
       "type": "error_correction",
@@ -1133,6 +1138,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_p6",
+      "explanation": 'The speaker says: \'I will ask him to call you back as soon as possible.\' \'Send you email\' is a different idea.',
       "lessonId": "lesson_a1_5_62",
       "stage": 9,
       "type": "listening",
@@ -1153,6 +1159,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_p7",
+      "explanation": '\'Could you repeat your phone number please?\' is a polite request.',
       "lessonId": "lesson_a1_5_62",
       "stage": 9,
       "type": "listen_and_type",
@@ -1162,6 +1169,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_p8",
+      "explanation": '\'May I ask who is calling, please?\' is a polite way to ask for the caller\'s name.',
       "lessonId": "lesson_a1_5_62",
       "stage": 10,
       "type": "multiple_choice",
@@ -1186,6 +1194,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_p9",
+      "explanation": '\'I am afraid he is on another line right now\' is a polite way to say he is busy. The offer of a message follows.',
       "lessonId": "lesson_a1_5_62",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1210,6 +1219,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_p10",
+      "explanation": '\'Thank you for calling, let me transfer you to extension 304\' is a polite phone phrase. \'Extension\' is an internal phone line.',
       "lessonId": "lesson_a1_5_62",
       "stage": 12,
       "type": "speaking",
@@ -1219,6 +1229,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_p11",
+      "explanation": '\'I am calling regarding the new contract\' is a formal way to state the reason for a call. Hindi: \'मैं नए अनुबंध के संबंध में कॉल कर रहा हूँ।\'',
       "lessonId": "lesson_a1_5_62",
       "stage": 13,
       "type": "translation",
@@ -1227,6 +1238,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_p12",
+      "explanation": '\'Speaking!\' is the standard reply when the person you asked for is on the line.',
       "lessonId": "lesson_a1_5_62",
       "stage": 14,
       "type": "multiple_choice",
@@ -1251,6 +1263,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_p13",
+      "explanation": '\'Call you back\' is a phrasal verb (call back = return a call). \'In ten minutes\' gives the time.',
       "lessonId": "lesson_a1_5_62",
       "stage": 14,
       "type": "fill_blank",
@@ -1277,6 +1290,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_p14",
+      "explanation": '\'Please tell her that David called today\' is a polite message. \'Called\' is the past simple of \'call\'.',
       "lessonId": "lesson_a1_5_62",
       "stage": 14,
       "type": "word_ordering",
@@ -1294,6 +1308,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_p15",
+      "explanation": '\'Could you please ask her to return my call this afternoon?\' is a polite request with \'ask\' + object + \'to\' + base verb.',
       "lessonId": "lesson_a1_5_62",
       "stage": 14,
       "type": "speaking",
@@ -1305,6 +1320,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u05_l62_r1",
+      "explanation": '\'I am preparing\' uses the present continuous with \'am\' and -ing. \'I preparing\' and \'am prepare\' are incorrect.',
       "lessonId": "lesson_a1_5_62",
       "stage": 16,
       "type": "multiple_choice",
@@ -1329,6 +1345,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_r2",
+      "explanation": '\'On track\' means on schedule.',
       "lessonId": "lesson_a1_5_62",
       "stage": 16,
       "type": "fill_blank",
@@ -1355,6 +1372,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_r3",
+      "explanation": '\'Could you give us a status update?\' is a polite request with \'could\' + base verb \'give\'.',
       "lessonId": "lesson_a1_5_62",
       "stage": 16,
       "type": "word_ordering",
@@ -1372,6 +1390,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_r4",
+      "explanation": 'A voicemail is a recorded message. An extension is an internal line number. Urgent means needing immediate action. To dial is to press phone numbers.',
       "lessonId": "lesson_a1_5_62",
       "stage": 16,
       "type": "match_pairs",
@@ -1397,6 +1416,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_r5",
+      "explanation": '\'May I leave a message?\' is a polite request for permission to leave a message. Hindi: \'क्या मैं एक संदेश छोड़ सकता हूँ?\'',
       "lessonId": "lesson_a1_5_62",
       "stage": 16,
       "type": "translation",
@@ -1407,6 +1427,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u05_l62_a1",
+      "explanation": '\'Miller Corporation, how may I direct your call?\' is a professional greeting for a phone call.',
       "lessonId": "lesson_a1_5_62",
       "stage": 17,
       "type": "multiple_choice",
@@ -1431,6 +1452,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_a2",
+      "explanation": '\'Put you through to\' means connect you to a department.',
       "lessonId": "lesson_a1_5_62",
       "stage": 17,
       "type": "fill_blank",
@@ -1457,6 +1479,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_a3",
+      "explanation": '\'Could you please spell your full name?\' is a polite request with \'could\' + base verb \'spell\'.',
       "lessonId": "lesson_a1_5_62",
       "stage": 17,
       "type": "word_ordering",
@@ -1474,6 +1497,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_a4",
+      "explanation": '\'No, he is away today, but I can take a message for him\' answers the question and offers help.',
       "lessonId": "lesson_a1_5_62",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1498,6 +1522,7 @@ export const LESSON_A1_5_62_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l62_a5",
+      "explanation": '\'I will make sure she gets your message as soon as she returns\' is a professional promise with \'will\' and a time clause.',
       "lessonId": "lesson_a1_5_62",
       "stage": 17,
       "type": "speaking",

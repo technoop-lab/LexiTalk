@@ -625,6 +625,7 @@ export const LESSON_A1_2_19_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l19_p3',
+      explanation: '\'By\' + transport: \'by subway\' or \'by bus\' (no \'the\' or \'a\'). \'He\' takes -s on \'takes\'.',
       lessonId: 'lesson_a1_2_19',
       stage: 8,
       type: 'word_ordering',
@@ -648,6 +649,7 @@ export const LESSON_A1_2_19_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l19_p5',
+      explanation: '\'How do you get to work?\' asks about travel. With \'you\', use \'do\' in the question.',
       lessonId: 'lesson_a1_2_19',
       stage: 9,
       type: 'listen_and_type',
@@ -657,6 +659,7 @@ export const LESSON_A1_2_19_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l19_p6',
+      explanation: '\'How do you travel...?\' asks about the method of travel. With \'you\', the question uses \'do\'.',
       lessonId: 'lesson_a1_2_19',
       stage: 10,
       type: 'word_ordering',
@@ -666,6 +669,7 @@ export const LESSON_A1_2_19_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l19_p7',
+      explanation: '\'A one-way ticket\' means a ticket for a single journey. \'Please\' is a polite ending.',
       lessonId: 'lesson_a1_2_19',
       stage: 12,
       type: 'speaking',
@@ -675,6 +679,7 @@ export const LESSON_A1_2_19_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l19_p8',
+      explanation: '\'By bus\' and \'on foot\' are the two travel phrases. \'Goes on foot\' takes -es with \'she\' (goes). Hindi: \'मैं बस से काम पर जाता हूँ और वह पैदल जाती है।\'',
       lessonId: 'lesson_a1_2_19',
       stage: 13,
       type: 'translation',
@@ -759,6 +764,7 @@ export const LESSON_A1_2_19_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l19_p14',
+      explanation: '\'Rides\' takes -s with \'he\'. \'Along the river\' is a place phrase; \'by bicycle\' is also acceptable.',
       lessonId: 'lesson_a1_2_19',
       stage: 8,
       type: 'word_ordering',
@@ -768,6 +774,7 @@ export const LESSON_A1_2_19_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l19_p15',
+      explanation: '\'Departs from\' means leaves from. \'Platform number two\' is the place phrase.',
       lessonId: 'lesson_a1_2_19',
       stage: 12,
       type: 'speaking',
@@ -809,6 +816,7 @@ export const LESSON_A1_2_19_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l19_rev3',
+      explanation: '\'Departs\' and \'arrives\' take -s with \'the bus\' (singular). \'At nine\' and \'at nine thirty\' are times.',
       lessonId: 'lesson_a1_2_19',
       stage: 16,
       type: 'word_ordering',
@@ -818,6 +826,7 @@ export const LESSON_A1_2_19_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l19_rev4',
+      explanation: '\'Is this seat taken?\' is answered with \'No, not at all\' (meaning it is not taken). Note: the Hindi says \'हाँ, बिल्कुल\' (yes, absolutely), which does not match the English. Flagged for review.',
       lessonId: 'lesson_a1_2_19',
       stage: 16,
       type: 'translation',
@@ -863,6 +872,7 @@ export const LESSON_A1_2_19_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l19_a3',
+      explanation: '\'Can I have...?\' is a polite request. \'Do\' is not needed in this sentence, so the answer should use \'Can I have a one-way ticket to the airport?\'',
       lessonId: 'lesson_a1_2_19',
       stage: 17,
       type: 'word_ordering',
@@ -900,6 +910,7 @@ export const LESSON_A1_2_19_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l19_a6',
+      explanation: '\'Departs from\' + platform. \'In ten minutes\' is a time phrase.',
       lessonId: 'lesson_a1_2_19',
       stage: 17,
       type: 'listen_and_type',
@@ -923,6 +934,7 @@ export const LESSON_A1_2_19_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l19_a8',
+      explanation: '\'The train\' is singular, so \'departs\' takes -s and \'is\' is used in the question form. \'From platform three\' is the place phrase. Hindi: \'हवाई अड्डे की ट्रेन प्लेटफॉर्म तीन से जाती है।\'',
       lessonId: 'lesson_a1_2_19',
       stage: 17,
       type: 'translation',
@@ -949,6 +961,7 @@ export const LESSON_A1_2_19_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l19_a10',
+      explanation: '\'All passengers\' is plural, so \'must show\' keeps the base form. \'Must\' is followed by the base verb.',
       lessonId: 'lesson_a1_2_19',
       stage: 17,
       type: 'word_ordering',

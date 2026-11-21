@@ -641,6 +641,7 @@ export const LESSON_A1_2_16_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l16_p3',
+      explanation: '\'There is\' introduces one thing and \'are\' is used for plurals. Here the subject is \'a large comfortable sofa\' (singular), so \'There is\' is correct.',
       lessonId: 'lesson_a1_2_16',
       stage: 8,
       type: 'word_ordering',
@@ -664,6 +665,7 @@ export const LESSON_A1_2_16_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l16_p5',
+      explanation: '\'Is there...?\' is the question form of \'There is\' (singular). Use \'a balcony\' for one balcony.',
       lessonId: 'lesson_a1_2_16',
       stage: 9,
       type: 'listen_and_type',
@@ -673,6 +675,7 @@ export const LESSON_A1_2_16_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l16_p6',
+      explanation: 'For plural nouns like \'bathrooms\', the question is \'Are there...?\' Use \'two\' with plural nouns.',
       lessonId: 'lesson_a1_2_16',
       stage: 10,
       type: 'word_ordering',
@@ -682,6 +685,7 @@ export const LESSON_A1_2_16_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l16_p7',
+      explanation: '\'Welcome to my new home\' is a common greeting. \'Make yourself at home\' tells the guest to relax.',
       lessonId: 'lesson_a1_2_16',
       stage: 12,
       type: 'speaking',
@@ -691,6 +695,7 @@ export const LESSON_A1_2_16_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l16_p8',
+      explanation: 'The sentence uses \'There is\' because the first noun, \'a comfortable sofa\', is singular. Note: with a list like \'a sofa and two windows\', many textbooks prefer \'There are\' (plural). Hindi: \'लिविंग रूम में एक आरामदायक सोफा और दो खिड़कियाँ हैं।\'',
       lessonId: 'lesson_a1_2_16',
       stage: 13,
       type: 'translation',
@@ -775,6 +780,7 @@ export const LESSON_A1_2_16_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l16_p14',
+      explanation: '\'Upstairs\' and \'downstairs\' are adverbs of place. \'Upstairs\' fits here because the master bedroom is on the upper floor.',
       lessonId: 'lesson_a1_2_16',
       stage: 8,
       type: 'word_ordering',
@@ -784,6 +790,7 @@ export const LESSON_A1_2_16_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l16_p15',
+      explanation: '\'There is\' + singular noun: \'a sunny garden\'. \'Behind our house\' is a place phrase.',
       lessonId: 'lesson_a1_2_16',
       stage: 12,
       type: 'speaking',
@@ -825,6 +832,7 @@ export const LESSON_A1_2_16_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l16_rev3',
+      explanation: '\'There is\' is used here because the first noun, \'a quiet garden\', is singular. \'And a garage\' adds a second item to the list.',
       lessonId: 'lesson_a1_2_16',
       stage: 16,
       type: 'word_ordering',
@@ -834,6 +842,7 @@ export const LESSON_A1_2_16_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l16_rev4',
+      explanation: 'A question with \'Are there\' is answered with \'Yes, there are.\' Hindi: \'क्या घर में दो बाथरूम हैं? — हाँ, हैं।\'',
       lessonId: 'lesson_a1_2_16',
       stage: 16,
       type: 'translation',
@@ -879,6 +888,7 @@ export const LESSON_A1_2_16_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l16_a3',
+      explanation: 'Negative plural: \'There aren\'t any cars\' (aren\'t = are not). \'Any\' is used in negatives with plural or uncountable nouns.',
       lessonId: 'lesson_a1_2_16',
       stage: 17,
       type: 'word_ordering',
@@ -916,6 +926,7 @@ export const LESSON_A1_2_16_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l16_a6',
+      explanation: '\'Between\' is used for a position between two things: \'between the two bedrooms.\'',
       lessonId: 'lesson_a1_2_16',
       stage: 17,
       type: 'listen_and_type',
@@ -939,6 +950,7 @@ export const LESSON_A1_2_16_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l16_a8',
+      explanation: '\'There are\' is used with the plural \'three bedrooms\'. \'A balcony\' is added to the list. Hindi: \'अपार्टमेंट में तीन बेडरूम और एक बालकनी है।\'',
       lessonId: 'lesson_a1_2_16',
       stage: 17,
       type: 'translation',
@@ -965,6 +977,7 @@ export const LESSON_A1_2_16_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l16_a10',
+      explanation: 'In questions, \'Is there...?\' is used with a singular noun. Here, \'a quiet garden\' is singular, so the question form is \'Is there...?\'',
       lessonId: 'lesson_a1_2_16',
       stage: 17,
       type: 'word_ordering',

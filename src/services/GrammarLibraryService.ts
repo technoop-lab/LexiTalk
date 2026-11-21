@@ -1,3 +1,4 @@
+import { BANK_WORDS_BY_LESSON } from '../data/bankWordLinks';
 // GrammarLibraryService — aggregates every grammar corpus already in the app
 // into one searchable topic list for the Grammar Studio "Library" tab and the
 // in-depth unit Grammar Handbook.
@@ -40,6 +41,8 @@ export interface GrammarTopic {
   lessonId?: string;
   lessonTitle?: string;
   dayNumber?: number;
+  /** Words from the shared content bank that appear in this lesson (lesson topics only). */
+  bankWords?: string[];
 }
 
 export interface GrammarTopicCounts {
@@ -111,6 +114,7 @@ const buildTopics = (): GrammarTopic[] => {
         unitNumber: unit.unitNumber,
         lessonId: lesson.id,
         lessonTitle: lesson.title,
+        bankWords: BANK_WORDS_BY_LESSON[lesson.id]?.length ? BANK_WORDS_BY_LESSON[lesson.id] : undefined,
       });
     }
   }

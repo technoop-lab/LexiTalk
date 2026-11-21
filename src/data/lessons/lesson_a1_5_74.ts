@@ -1026,6 +1026,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u05_l74_p1",
+      "explanation": 'Imperatives use the base verb: \'Stay on the line\'. \'Staying\' and \'stayed\' are not commands.',
       "lessonId": "lesson_a1_5_74",
       "stage": 8,
       "type": "multiple_choice",
@@ -1050,6 +1051,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_p2",
+      "explanation": '\'Conscious\' means awake and aware. \'Overdue\' and \'furnished\' describe other things.',
       "lessonId": "lesson_a1_5_74",
       "stage": 8,
       "type": "fill_blank",
@@ -1076,6 +1078,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_p3",
+      "explanation": '\'Please send an ambulance to our location immediately\' is a polite emergency request with \'please\' and \'immediately\'.',
       "lessonId": "lesson_a1_5_74",
       "stage": 8,
       "type": "word_ordering",
@@ -1094,6 +1097,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_p4",
+      "explanation": 'A paramedic is an emergency medical specialist. Conscious means awake and aware. First aid is immediate care. A dispatcher sends emergency services.',
       "lessonId": "lesson_a1_5_74",
       "stage": 8,
       "type": "match_pairs",
@@ -1119,6 +1123,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_p5",
+      "explanation": '\'Is bleeding from his head\' uses the present continuous for an ongoing action. \'Bleed on\' is not correct here.',
       "lessonId": "lesson_a1_5_74",
       "stage": 8,
       "type": "error_correction",
@@ -1144,6 +1149,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_p6",
+      "explanation": 'The speaker says: \'Do not move the injured person and stay on the line.\' The other option describes a different instruction.',
       "lessonId": "lesson_a1_5_74",
       "stage": 9,
       "type": "listening",
@@ -1164,6 +1170,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_p7",
+      "explanation": '\'The ambulance is on the way\' is a reassurance. \'On the way\' means coming or travelling to a place.',
       "lessonId": "lesson_a1_5_74",
       "stage": 9,
       "type": "listen_and_type",
@@ -1173,6 +1180,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_p8",
+      "explanation": '\'The emergency location is 142 Elm Street near Central Park\' gives a clear address with a landmark.',
       "lessonId": "lesson_a1_5_74",
       "stage": 10,
       "type": "multiple_choice",
@@ -1197,6 +1205,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_p9",
+      "explanation": '\'He is conscious and able to speak with me\' answers the question about his condition.',
       "lessonId": "lesson_a1_5_74",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1221,6 +1230,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_p10",
+      "explanation": '\'There is a medical emergency on Main Street and we need an ambulance immediately\' gives the report with the location and need.',
       "lessonId": "lesson_a1_5_74",
       "stage": 12,
       "type": "speaking",
@@ -1230,6 +1240,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_p11",
+      "explanation": '\'Do not move the injured person and stay on the line\' is an imperative instruction. Hindi: \'घायल व्यक्ति को न हिलाएं और लाइन पर बने रहें।\'',
       "lessonId": "lesson_a1_5_74",
       "stage": 13,
       "type": "translation",
@@ -1238,6 +1249,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_p12",
+      "explanation": 'A paramedic gives emergency medical treatment. A landlord and a conductor have different jobs.',
       "lessonId": "lesson_a1_5_74",
       "stage": 14,
       "type": "multiple_choice",
@@ -1262,6 +1274,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_p13",
+      "explanation": '\'Apply pressure\' to a wound means press on it to stop bleeding.',
       "lessonId": "lesson_a1_5_74",
       "stage": 14,
       "type": "fill_blank",
@@ -1288,6 +1301,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_p14",
+      "explanation": '\'Keep the patient warm and stay calm\' is a first aid command with two actions.',
       "lessonId": "lesson_a1_5_74",
       "stage": 14,
       "type": "word_ordering",
@@ -1305,6 +1319,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_p15",
+      "explanation": '\'The paramedics have arrived and are providing first aid\' uses the present perfect for a recent event and the present continuous for an ongoing action.',
       "lessonId": "lesson_a1_5_74",
       "stage": 14,
       "type": "speaking",
@@ -1316,6 +1331,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u05_l74_r1",
+      "explanation": '\'How long does delivery take?\' asks about the time needed. \'How many time\' is incorrect.',
       "lessonId": "lesson_a1_5_74",
       "stage": 16,
       "type": "multiple_choice",
@@ -1340,6 +1356,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_r2",
+      "explanation": '\'Are issued\' is the passive plural form for \'library cards\'.',
       "lessonId": "lesson_a1_5_74",
       "stage": 16,
       "type": "fill_blank",
@@ -1366,6 +1383,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_r3",
+      "explanation": '\'My greatest strength is solving complex problems\' is a clear statement about a strength.',
       "lessonId": "lesson_a1_5_74",
       "stage": 16,
       "type": "word_ordering",
@@ -1383,6 +1401,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_r4",
+      "explanation": 'An ambulance is an emergency vehicle. A parcel is a postal package. Conscious means awake and alert. A library card lets you borrow books.',
       "lessonId": "lesson_a1_5_74",
       "stage": 16,
       "type": "match_pairs",
@@ -1408,6 +1427,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_r5",
+      "explanation": '\'Help is on the way\' is a reassurance in an emergency. Hindi: \'मदद रास्ते में है।\'',
       "lessonId": "lesson_a1_5_74",
       "stage": 16,
       "type": "translation",
@@ -1418,6 +1438,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u05_l74_a1",
+      "explanation": '\'There has been an accident on Highway 10 and the driver is conscious and breathing\' uses the present perfect for a recent event and a correct description.',
       "lessonId": "lesson_a1_5_74",
       "stage": 17,
       "type": "multiple_choice",
@@ -1442,6 +1463,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_a2",
+      "explanation": '\'Stay on the line\' means keep the phone connected to the emergency dispatcher.',
       "lessonId": "lesson_a1_5_74",
       "stage": 17,
       "type": "fill_blank",
@@ -1468,6 +1490,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_a3",
+      "explanation": '\'Do not move the victim and apply pressure to the wound\' gives two first aid instructions.',
       "lessonId": "lesson_a1_5_74",
       "stage": 17,
       "type": "word_ordering",
@@ -1489,6 +1512,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_a4",
+      "explanation": '\'Help is on the way. An ambulance will arrive in approximately three minutes\' is a clear assurance with a time.',
       "lessonId": "lesson_a1_5_74",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1513,6 +1537,7 @@ export const LESSON_A1_5_74_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u05_l74_a5",
+      "explanation": '\'Emergency services have been notified and the ambulance is arriving at your location now\' uses the present perfect passive for a completed action.',
       "lessonId": "lesson_a1_5_74",
       "stage": 17,
       "type": "speaking",

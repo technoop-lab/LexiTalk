@@ -1016,6 +1016,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u04_l49_p1",
+      "explanation": '\'By\' is used for a payment method: \'pay by credit card\'. \'With\' is used for a tool, not a payment method.',
       "lessonId": "lesson_a1_4_49",
       "stage": 8,
       "type": "multiple_choice",
@@ -1040,6 +1041,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_p2",
+      "explanation": '\'Fee\' is countable (a fee, fees). For amounts of money, \'how much\' is used with uncountable nouns: \'How much is the fee?\'',
       "lessonId": "lesson_a1_4_49",
       "stage": 8,
       "type": "fill_blank",
@@ -1066,6 +1068,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_p3",
+      "explanation": '\'I would like to withdraw...\' is a polite request. \'Withdraw\' means take money out of an account.',
       "lessonId": "lesson_a1_4_49",
       "stage": 8,
       "type": "word_ordering",
@@ -1083,6 +1086,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_p4",
+      "explanation": 'Withdraw means take money out. Deposit means put money in. Balance is the amount in an account. A fee is a charge for a service.',
       "lessonId": "lesson_a1_4_49",
       "stage": 8,
       "type": "match_pairs",
@@ -1108,6 +1112,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_p5",
+      "explanation": 'After \'Please\', use the base verb: \'Please enter\'. \'Enters\' and \'entered\' do not fit an imperative.',
       "lessonId": "lesson_a1_4_49",
       "stage": 8,
       "type": "error_correction",
@@ -1133,6 +1138,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_p6",
+      "explanation": 'The audio says: \'What is the current exchange rate for US dollars?\' The other option uses wrong words.',
       "lessonId": "lesson_a1_4_49",
       "stage": 9,
       "type": "listening",
@@ -1153,6 +1159,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_p7",
+      "explanation": '\'I would like to check my account balance\' is a polite request. \'Check\' means look at the amount.',
       "lessonId": "lesson_a1_4_49",
       "stage": 9,
       "type": "listen_and_type",
@@ -1162,6 +1169,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_p8",
+      "explanation": '\'Do you accept...?\' is the correct question for asking whether a payment method is accepted. \'Are you accept\' and \'do you accepting\' are incorrect.',
       "lessonId": "lesson_a1_4_49",
       "stage": 10,
       "type": "multiple_choice",
@@ -1186,6 +1194,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_p9",
+      "explanation": '\'Yes, please print my receipt\' answers the question about a printed receipt. The other options do not fit.',
       "lessonId": "lesson_a1_4_49",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1210,6 +1219,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_p10",
+      "explanation": '\'Can I transfer money online to another account?\' is a polite question. \'To another account\' gives the destination.',
       "lessonId": "lesson_a1_4_49",
       "stage": 12,
       "type": "speaking",
@@ -1219,6 +1229,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_p11",
+      "explanation": '\'I prefer to pay in cash\' is the English for \'मैं नकद में भुगतान करना पसंद करता हूँ।\' \'Prefer\' + \'to\' + base verb.',
       "lessonId": "lesson_a1_4_49",
       "stage": 13,
       "type": "translation",
@@ -1227,6 +1238,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_p12",
+      "explanation": 'A teller works at the bank counter. A cashier works at a shop checkout. A waiter serves food in a restaurant.',
       "lessonId": "lesson_a1_4_49",
       "stage": 14,
       "type": "multiple_choice",
@@ -1251,6 +1263,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_p13",
+      "explanation": 'A \'signature\' is written at the bottom of a form. \'Currency\' and \'interest\' are not written on the form.',
       "lessonId": "lesson_a1_4_49",
       "stage": 14,
       "type": "fill_blank",
@@ -1277,6 +1290,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_p14",
+      "explanation": '\'How much is...?\' asks about an amount. \'The annual interest rate\' is the thing being asked about.',
       "lessonId": "lesson_a1_4_49",
       "stage": 14,
       "type": "word_ordering",
@@ -1294,6 +1308,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_p15",
+      "explanation": '\'I need to exchange currency before traveling abroad\' is a statement of need. \'Need to\' + base verb.',
       "lessonId": "lesson_a1_4_49",
       "stage": 14,
       "type": "speaking",
@@ -1305,6 +1320,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u04_l49_r1",
+      "explanation": '\'Could you please help me...?\' is a polite request. \'Could\' + subject + base verb \'help\'.',
       "lessonId": "lesson_a1_4_49",
       "stage": 16,
       "type": "multiple_choice",
@@ -1329,6 +1345,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_r2",
+      "explanation": '\'Too big\' means more than needed. \'Two\' is a number and \'to\' is a preposition.',
       "lessonId": "lesson_a1_4_49",
       "stage": 16,
       "type": "fill_blank",
@@ -1355,6 +1372,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_r3",
+      "explanation": '\'He always arrives at the office early\' uses the adverb \'always\' before the verb \'arrives\' (-s with \'he\').',
       "lessonId": "lesson_a1_4_49",
       "stage": 16,
       "type": "word_ordering",
@@ -1372,6 +1390,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_r4",
+      "explanation": 'Receipt = proof of purchase. Refund = money back. Balance = funds in the account. Withdraw = take out cash.',
       "lessonId": "lesson_a1_4_49",
       "stage": 16,
       "type": "match_pairs",
@@ -1397,6 +1416,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_r5",
+      "explanation": '\'Do you have the receipt?\' is a question about having a document. Hindi: \'क्या आपके पास रसीद है?\'',
       "lessonId": "lesson_a1_4_49",
       "stage": 16,
       "type": "translation",
@@ -1407,6 +1427,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u04_l49_a1",
+      "explanation": '\'You can pay by debit card or in cash\' uses \'by\' for the card and \'in\' for cash. The other options use \'on\' or \'with\' incorrectly.',
       "lessonId": "lesson_a1_4_49",
       "stage": 17,
       "type": "multiple_choice",
@@ -1431,6 +1452,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_a2",
+      "explanation": '\'Withdraw\' means take money out. \'Exchange\' means swap currency, and \'spell\' means write letters.',
       "lessonId": "lesson_a1_4_49",
       "stage": 17,
       "type": "fill_blank",
@@ -1457,6 +1479,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_a3",
+      "explanation": '\'Is there a fee for this transfer?\' is a yes/no question with \'is there\' + singular noun.',
       "lessonId": "lesson_a1_4_49",
       "stage": 17,
       "type": "word_ordering",
@@ -1474,6 +1497,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_a4",
+      "explanation": '\'I would like to pay by credit card\' answers the question about a payment method.',
       "lessonId": "lesson_a1_4_49",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1498,6 +1522,7 @@ export const LESSON_A1_4_49_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u04_l49_a5",
+      "explanation": '\'Please enter your four-digit PIN code\' is an imperative. \'Into the machine\' gives the place.',
       "lessonId": "lesson_a1_4_49",
       "stage": 17,
       "type": "speaking",

@@ -625,6 +625,7 @@ export const LESSON_A1_2_17_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l17_p3',
+      explanation: 'Use \'are\' with plural subjects and \'is\' with singular ones. \'My keys\' is plural, so \'are\' is correct. \'Behind the lamp\' is a position phrase.',
       lessonId: 'lesson_a1_2_17',
       stage: 8,
       type: 'word_ordering',
@@ -648,6 +649,7 @@ export const LESSON_A1_2_17_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l17_p5',
+      explanation: '\'Where are...?\' is used with plural nouns. \'Glasses\' is plural, so the question starts with \'Where are my glasses?\'',
       lessonId: 'lesson_a1_2_17',
       stage: 9,
       type: 'listen_and_type',
@@ -657,6 +659,7 @@ export const LESSON_A1_2_17_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l17_p6',
+      explanation: '\'Where is...?\' asks about one thing. \'The microwave\' is singular, so \'is\' is used, not \'are\' or \'does\'.',
       lessonId: 'lesson_a1_2_17',
       stage: 10,
       type: 'word_ordering',
@@ -666,6 +669,7 @@ export const LESSON_A1_2_17_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l17_p7',
+      explanation: '\'There is\' + a singular noun: \'a big mirror\'. \'Above the bathroom sink\' is a place phrase.',
       lessonId: 'lesson_a1_2_17',
       stage: 12,
       type: 'speaking',
@@ -675,6 +679,7 @@ export const LESSON_A1_2_17_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l17_p8',
+      explanation: '\'Next to\' means beside. \'Keys\' are plural, so \'are\' is used. Hindi: \'मेरी चाबियां लैपटॉप के बगल में मेज पर हैं।\'',
       lessonId: 'lesson_a1_2_17',
       stage: 13,
       type: 'translation',
@@ -759,6 +764,7 @@ export const LESSON_A1_2_17_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l17_p14',
+      explanation: '\'There is\' + singular noun \'a soft grey rug\'. \'Under the table\' is a position phrase.',
       lessonId: 'lesson_a1_2_17',
       stage: 8,
       type: 'word_ordering',
@@ -768,6 +774,7 @@ export const LESSON_A1_2_17_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l17_p15',
+      explanation: '\'Is under\' describes position. \'The trash can\' is singular, so \'is\' is used.',
       lessonId: 'lesson_a1_2_17',
       stage: 12,
       type: 'speaking',
@@ -809,6 +816,7 @@ export const LESSON_A1_2_17_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l17_rev3',
+      explanation: '\'Next to\' is a position phrase. \'The bookshelf\' is singular, so \'is\' is used.',
       lessonId: 'lesson_a1_2_17',
       stage: 16,
       type: 'word_ordering',
@@ -818,6 +826,7 @@ export const LESSON_A1_2_17_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l17_rev4',
+      explanation: '\'Behind\' and \'under\' are position words. \'The remote control\' is singular, so \'is\' is used. Hindi: \'रिमोट कंट्रोल सोफे पर तकिए के पीछे है।\'',
       lessonId: 'lesson_a1_2_17',
       stage: 16,
       type: 'translation',
@@ -863,6 +872,7 @@ export const LESSON_A1_2_17_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l17_a3',
+      explanation: '\'Did\' is used in past questions and it takes the base verb \'put\' (not \'putting\'). \'Where did you put...?\' asks about the past.',
       lessonId: 'lesson_a1_2_17',
       stage: 17,
       type: 'word_ordering',
@@ -900,6 +910,7 @@ export const LESSON_A1_2_17_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l17_a6',
+      explanation: '\'Right over there\' and \'on the kitchen table\' are place phrases. \'They\' is plural, so \'are\' is used.',
       lessonId: 'lesson_a1_2_17',
       stage: 17,
       type: 'listen_and_type',
@@ -923,6 +934,7 @@ export const LESSON_A1_2_17_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l17_a8',
+      explanation: '\'Above\' means higher than something. \'The clock\' is singular, so \'is\' is used. Hindi: \'घड़ी टेलीविजन के ऊपर दीवार पर है।\'',
       lessonId: 'lesson_a1_2_17',
       stage: 17,
       type: 'translation',
@@ -949,6 +961,7 @@ export const LESSON_A1_2_17_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l17_a10',
+      explanation: '\'There is\' + singular noun \'a green houseplant\'. \'Next to the desk\' is a place phrase.',
       lessonId: 'lesson_a1_2_17',
       stage: 17,
       type: 'word_ordering',

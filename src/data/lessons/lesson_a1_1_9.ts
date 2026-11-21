@@ -551,6 +551,7 @@ export const LESSON_A1_1_9_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l9_p3',
+      explanation: '\'He\' is third person singular, so the verb takes -s: \'He drives to work every morning.\'',
       lessonId: 'lesson_a1_1_9',
       stage: 8,
       type: 'word_ordering',
@@ -574,6 +575,7 @@ export const LESSON_A1_1_9_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l9_p5',
+      explanation: '\'Father\' is third person singular, so the verb takes -s: \'My father works in a hospital.\'',
       lessonId: 'lesson_a1_1_9',
       stage: 9,
       type: 'listen_and_type',
@@ -583,6 +585,7 @@ export const LESSON_A1_1_9_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l9_p6',
+      explanation: 'Verbs ending in -o take -es in the third person: \'go\' becomes \'goes\'. \'On Saturdays\' names the days.',
       lessonId: 'lesson_a1_1_9',
       stage: 10,
       type: 'word_ordering',
@@ -592,6 +595,7 @@ export const LESSON_A1_1_9_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l9_p7',
+      explanation: '\'He\' is third person singular, so both \'speaks\' and \'lives\' take -s.',
       lessonId: 'lesson_a1_1_9',
       stage: 12,
       type: 'speaking',
@@ -601,6 +605,7 @@ export const LESSON_A1_1_9_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l9_p8',
+      explanation: 'Verbs ending in -ch take -es in the third person: \'watch\' becomes \'watches\'. Hindi: \'मेरी माँ शाम को टीवी देखती हैं।\'',
       lessonId: 'lesson_a1_1_9',
       stage: 13,
       type: 'translation',
@@ -685,6 +690,7 @@ export const LESSON_A1_1_9_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l9_p14',
+      explanation: '\'She\' takes -s on both verbs: \'plays\' (the -y after a vowel stays) and \'drinks\'.',
       lessonId: 'lesson_a1_1_9',
       stage: 8,
       type: 'word_ordering',
@@ -694,6 +700,7 @@ export const LESSON_A1_1_9_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l9_p15',
+      explanation: '\'My son\' is third person singular. \'Do\' becomes \'does\', and \'wash\' ends in -sh, so it takes -es: \'washes\'.',
       lessonId: 'lesson_a1_1_9',
       stage: 12,
       type: 'speaking',
@@ -735,6 +742,7 @@ export const LESSON_A1_1_9_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l9_rev3',
+      explanation: '\'The doctor\' is a singular subject, so the verb takes -s: \'helps\'.',
       lessonId: 'lesson_a1_1_9',
       stage: 16,
       type: 'word_ordering',
@@ -744,6 +752,7 @@ export const LESSON_A1_1_9_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l9_rev4',
+      explanation: '\'He\' is third person singular, so \'travel\' takes -s: \'travels\'. Hindi: \'वह हर महीने व्यापार के लिए यात्रा करता है।\'',
       lessonId: 'lesson_a1_1_9',
       stage: 16,
       type: 'translation',
@@ -789,6 +798,7 @@ export const LESSON_A1_1_9_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l9_a3',
+      explanation: '\'Have\' changes to \'has\' with \'she\' (third person singular): \'She has a big house and a red car.\'',
       lessonId: 'lesson_a1_1_9',
       stage: 17,
       type: 'word_ordering',
@@ -826,6 +836,7 @@ export const LESSON_A1_1_9_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l9_a6',
+      explanation: '\'She\' is third person singular, so \'buy\' takes -s: \'buys\'.',
       lessonId: 'lesson_a1_1_9',
       stage: 17,
       type: 'listen_and_type',
@@ -849,6 +860,7 @@ export const LESSON_A1_1_9_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l9_a8',
+      explanation: '\'Teach\' ends in -ch, so the third person form is \'teaches\'. \'My sister\' is singular. Hindi: \'मेरी बहन एक नए स्कूल में गणित पढ़ाती है।\'',
       lessonId: 'lesson_a1_1_9',
       stage: 17,
       type: 'translation',
@@ -875,6 +887,7 @@ export const LESSON_A1_1_9_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_l9_a10',
+      explanation: '\'He\' is third person singular: \'relaxes\' (-x takes -es) and \'listens\' (-s).',
       lessonId: 'lesson_a1_1_9',
       stage: 17,
       type: 'word_ordering',

@@ -896,6 +896,7 @@ export const LESSON_A1_2_27_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l27_p04',
+      explanation: 'A headache is in the head, a sore throat in the neck and throat, a stomachache in the abdomen, and a toothache in the teeth and jaw.',
       lessonId: 'lesson_a1_2_27',
       type: 'match_pairs',
       prompt: 'Match each symptom with its corresponding body region:',
@@ -986,6 +987,7 @@ export const LESSON_A1_2_27_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l27_p11',
+      explanation: 'A thermometer measures temperature, a prescription is the doctor\'s permission for medicine, a bandage covers a cut, and pills are tablets taken with water.',
       lessonId: 'lesson_a1_2_27',
       type: 'match_pairs',
       prompt: 'Match each medical item with its practical purpose:',
@@ -1088,6 +1090,7 @@ export const LESSON_A1_2_27_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l27_r04',
+      explanation: '\'What\'s the matter?\' asks about a problem, so \'I have a sore throat\' fits. \'Where does it hurt?\' asks for a location, so \'My left knee hurts\' fits.',
       lessonId: 'lesson_a1_2_27',
       type: 'match_pairs',
       prompt: 'Match the question with the most appropriate reply:',
@@ -1153,6 +1156,7 @@ export const LESSON_A1_2_27_DATA: DetailedLessonData = {
     },
     {
       id: 'ex_u02_l27_a04',
+      explanation: '\'Have a headache\' uses \'have\' + a + illness noun. \'Feel dizzy\' uses \'feel\' + adjective. \'My shoulder hurts\' uses \'hurt\' with a body part. \'Should rest\' uses modal \'should\' + base verb.',
       lessonId: 'lesson_a1_2_27',
       type: 'match_pairs',
       prompt: 'Match the health structure with its correct grammatical category:',

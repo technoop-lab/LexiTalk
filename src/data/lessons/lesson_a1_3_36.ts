@@ -1060,6 +1060,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u03_l36_p1",
+      "explanation": '\'Boards at Gate 18\' uses \'at\' with a specific place or numbered gate.',
       "type": "multiple_choice",
       "prompt": "Choose the correct preposition: \"Our flight to London boards ___ Gate 18.\"",
       "targetSentence": "Our flight to London boards at Gate 18.",
@@ -1088,6 +1089,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_p2",
+      "explanation": '\'Carry-on\' is a compound noun for a bag taken into the cabin. \'Carried\' and \'carrying\' are verb forms.',
       "type": "fill_blank",
       "prompt": "Select the correct word: \"I only have one small ___ bag for the cabin.\"",
       "targetSentence": "I only have one small carry-on bag for the cabin.",
@@ -1116,6 +1118,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_p3",
+      "explanation": '\'Place ... in a separate plastic tray\' uses \'in\' for a container. \'On\' and \'at\' do not fit here.',
       "type": "word_ordering",
       "prompt": "Assemble the security instruction sentence:",
       "targetSentence": "Please place your laptop in a separate plastic tray",
@@ -1135,6 +1138,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_p4",
+      "explanation": 'The announcement says: \'please proceed to Gate C14 immediately.\' That is the only matching option.',
       "type": "listening",
       "prompt": "Listen to the airport announcement and identify the gate number:",
       "audioText": "Attention passengers on flight 402 to Rome, please proceed to Gate C14 immediately.",
@@ -1163,6 +1167,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_p5",
+      "explanation": '\'Luggage\' is uncountable, so use \'How many pieces of luggage?\' \'Luggages\' and \'luggage bags\' are incorrect here.',
       "type": "error_correction",
       "prompt": "Fix the uncountable noun mistake:",
       "targetSentence": "How many pieces of luggage do you have?",
@@ -1192,6 +1197,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_p6",
+      "explanation": '\'A window seat, please\' is a clear request. The other options are not grammatical.',
       "type": "dialogue_completion",
       "prompt": "Choose the best passenger reply:",
       "dialogueContext": {
@@ -1224,6 +1230,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_p7",
+      "explanation": '\'Have ... ready\' is a polite instruction. Hindi: \'कृपया अपना पासपोर्ट और बोर्डिंग पास तैयार रखें।\'',
       "type": "translation",
       "prompt": "Translate this sentence into English:",
       "sourceSentence": "कृपया अपना पासपोर्ट और बोर्डिंग पास तैयार रखें।",
@@ -1247,6 +1254,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_p8",
+      "explanation": '\'Excuse me, where is...?\' is a polite direction question. \'The baggage claim area\' is the place.',
       "type": "speaking",
       "prompt": "Speak this airport question clearly into your microphone:",
       "targetSentence": "Excuse me, where is the baggage claim area?",
@@ -1254,6 +1262,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_p9",
+      "explanation": '\'Delayed by thirty minutes\' uses \'by\' to give the length of the delay. \'At\' is not used here.',
       "type": "listen_and_type",
       "prompt": "Listen to the audio and assemble the sentence:",
       "audioText": "Our connecting flight is delayed by thirty minutes.",
@@ -1273,6 +1282,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_p10",
+      "explanation": '\'On time\' means the flight is operating as scheduled, neither early nor late.',
       "type": "multiple_choice",
       "prompt": "What does \"on time\" mean regarding a flight status?",
       "targetSentence": "The flight is operating exactly as scheduled.",
@@ -1301,6 +1311,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_p11",
+      "explanation": '\'Seatbelt\' is one word. \'Fasten your seatbelt\' is the standard safety phrase.',
       "type": "fill_blank",
       "prompt": "Select the missing word: \"Please fasten your ___ before take-off.\"",
       "targetSentence": "Please fasten your seatbelt before take-off.",
@@ -1329,6 +1340,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_p12",
+      "explanation": 'A boarding pass lets you enter the plane. A departure gate is where you board. Baggage claim is where you collect luggage. Customs is where goods are checked.',
       "type": "match_pairs",
       "prompt": "Match the airport terms with their meanings:",
       "options": [
@@ -1368,6 +1380,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_p13",
+      "explanation": '\'Please board now\' is an instruction. Flight numbers are read digit by digit in announcements: \'one zero eight\'.',
       "type": "word_ordering",
       "prompt": "Assemble the passenger announcement:",
       "targetSentence": "All passengers for flight one zero eight please board now",
@@ -1388,6 +1401,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_p14",
+      "explanation": '\'Overhead compartment\' and \'under the seat\' are where carry-on bags go during a flight.',
       "type": "multiple_choice",
       "prompt": "Where do you put your carry-on luggage on an airplane?",
       "targetSentence": "In the overhead compartment or under the seat in front of you.",
@@ -1416,6 +1430,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_p15",
+      "explanation": 'The present continuous uses \'is\' + -ing: \'is boarding\'. \'Right now\' signals the present action.',
       "type": "fill_blank",
       "prompt": "Complete the sentence with the correct verb: \"The plane is ___ at gate 10 right now.\"",
       "targetSentence": "The plane is boarding at gate 10 right now.",
@@ -1446,6 +1461,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u03_l36_rev1",
+      "explanation": '\'Could you tell me how to get to...?\' is a polite question for directions.',
       "type": "multiple_choice",
       "prompt": "Select the correct phrase for asking airport directions:",
       "targetSentence": "Excuse me, could you tell me how to get to Terminal 2?",
@@ -1474,6 +1490,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_rev2",
+      "explanation": '\'Departing on time\' means the flight is leaving as scheduled. Flight numbers are read as separate digits.',
       "type": "word_ordering",
       "prompt": "Build the flight departure sentence:",
       "targetSentence": "International flight two zero five is departing on time",
@@ -1493,6 +1510,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_rev3",
+      "explanation": 'Numbers after \'carousel number\' use digits: \'carousel number 3\'.',
       "type": "fill_blank",
       "prompt": "Complete the phrase: \"We need to collect our bags at carousel number ___.\"",
       "targetSentence": "We need to collect our bags at carousel number 3.",
@@ -1521,6 +1539,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_rev4",
+      "explanation": '\'At Gate 9\' uses \'at\' with a numbered gate, not \'to\'.',
       "type": "error_correction",
       "prompt": "Correct the preposition error:",
       "targetSentence": "We are boarding the flight at Gate 9.",
@@ -1550,6 +1569,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_rev5",
+      "explanation": '\'Delayed by forty minutes\' uses \'by\' to name the length of the delay. Hindi: \'हमारी कनेक्टिंग फ्लाइट चालीस मिनट देर से है।\'',
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "हमारी कनेक्टिंग फ्लाइट चालीस मिनट लेट है।",
@@ -1575,6 +1595,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u03_l36_a1",
+      "explanation": 'Airport security requires a passport and a boarding pass. The other items are not travel documents.',
       "type": "multiple_choice",
       "prompt": "Which document is required at the airport security check?",
       "targetSentence": "Passport and boarding pass",
@@ -1603,6 +1624,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_a2",
+      "explanation": '\'Is delayed\' is the passive form. \'Delayed\' is the past participle used as the passive verb.',
       "type": "fill_blank",
       "prompt": "Fill in the blank with the correct adjective: \"The 8:00 AM flight to Paris is ___ by two hours.\"",
       "targetSentence": "The 8:00 AM flight to Paris is delayed by two hours.",
@@ -1631,6 +1653,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_a3",
+      "explanation": '\'Passengers with small children may board first\' is a common announcement. \'The aircraft\' is the plane.',
       "type": "word_ordering",
       "prompt": "Assemble the boarding announcement sentence:",
       "targetSentence": "Passengers with small children may board the aircraft first",
@@ -1650,6 +1673,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_a4",
+      "explanation": 'The audio says: \'your flight is now boarding at Gate 22, and your seat is 14A near the window.\' That matches only the first option.',
       "type": "listening",
       "prompt": "Listen to the audio and answer the question:",
       "audioText": "Your flight is now boarding at Gate 22, and your seat is 14A near the window.",
@@ -1678,6 +1702,7 @@ export const LESSON_A1_3_36_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l36_a5",
+      "explanation": '\'Could you please tell me where I can find...?\' is a polite question. \'Departure gate for flight 302\' names the target.',
       "type": "speaking",
       "prompt": "Speak this airport phrase clearly into your microphone:",
       "targetSentence": "Could you please tell me where I can find the departure gate for flight 302?",

@@ -1022,6 +1022,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u03_l31_p1",
+      "explanation": "Use the polite pattern: Would you like + to + base verb. 'Would you like join' is missing 'to', 'to joining' uses -ing after 'to' (wrong), and 'Do you like to join' is not an invitation.",
       "type": "multiple_choice",
       "prompt": "Select the correct polite invitation form:",
       "targetSentence": "Would you like to join us for dinner tonight?",
@@ -1050,6 +1051,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_p2",
+      "explanation": "After \"Let's\", use the base verb without 'to': Let's meet. 'to meet', 'meeting' and 'met' do not fit here.",
       "type": "fill_blank",
       "prompt": "Complete the casual suggestion:",
       "targetSentence": "Let's meet outside the cinema at seven o'clock.",
@@ -1078,9 +1080,10 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_p3",
+      "explanation": "Build the sentence in order: I would love to join you for lunch, thank you. The comma separates 'thank you' from the rest of the sentence.",
       "type": "word_ordering",
       "prompt": "Assemble the enthusiastic acceptance:",
-      "targetSentence": "I would love to join you for lunch thank you",
+      "targetSentence": "I would love to join you for lunch, thank you",
       "wordBank": [
         "I",
         "would",
@@ -1098,6 +1101,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_p4",
+      "explanation": "Listen for the activity the speaker actually proposes. Choose the option that matches that activity, not one that only sounds similar.",
       "type": "listening",
       "prompt": "Listen and choose what the speaker is proposing:",
       "audioText": "How about going to the art museum this Sunday afternoon?",
@@ -1126,6 +1130,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_p5",
+      "explanation": "Would you like + to + base verb: 'to have'. 'to having' uses -ing after 'to', which is wrong.",
       "type": "error_correction",
       "prompt": "Fix the invitation syntax error:",
       "targetSentence": "Would you like to have coffee with me?",
@@ -1155,6 +1160,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_p6",
+      "explanation": "A polite decline shows thanks or interest and gives a reason: 'I'd love to, but I'm afraid I already have plans.' The other options are rude or have grammar errors.",
       "type": "dialogue_completion",
       "prompt": "Choose the most polite response to decline:",
       "dialogueContext": {
@@ -1187,6 +1193,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_p7",
+      "explanation": "Keep the polite invitation form: Would you like to + base verb (join) + us + for lunch? 'Would you like to' is the polite way to invite someone.",
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "क्या आप हमारे साथ दोपहर के भोजन में शामिल होना चाहेंगे?",
@@ -1210,6 +1217,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_p8",
+      "explanation": "Say the question with a rising tone at the end and link the words smoothly: 'Would you like to come to my birthday party on Saturday?'",
       "type": "speaking",
       "prompt": "Speak this invitation clearly:",
       "targetSentence": "Would you like to come to my birthday party on Saturday?",
@@ -1217,6 +1225,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_p9",
+      "explanation": "'Let us' is the full form of 'Let's'. Write exactly what you hear, including 'before the meeting' at the end.",
       "type": "listen_and_type",
       "prompt": "Listen and write the sentence:",
       "audioText": "Let us grab some coffee before the meeting.",
@@ -1236,6 +1245,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_p10",
+      "explanation": "After 'How about' or 'What about', use -ing: 'How about meeting on Monday?' 'How about to meet' and 'How about meet' break this rule.",
       "type": "multiple_choice",
       "prompt": "Which sentence correctly suggests an alternative meetup time?",
       "targetSentence": "How about meeting on Monday afternoon instead?",
@@ -1264,6 +1274,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_p11",
+      "explanation": "'I'm afraid' followed by a clause makes a refusal polite: 'I'm afraid I cannot attend.' The other options do not work in this sentence.",
       "type": "fill_blank",
       "prompt": "Fill in the blank with the polite refusal phrase:",
       "targetSentence": "I'm afraid I cannot attend because I am working late.",
@@ -1292,6 +1303,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_p12",
+      "explanation": "'Would you like to come?' is a polite invitation. 'I'd love to!' is an enthusiastic acceptance. 'I'm afraid I can't.' is a polite decline. 'How about tomorrow?' suggests another time.",
       "type": "match_pairs",
       "prompt": "Match invitation phrases with their communicative functions:",
       "options": [
@@ -1331,9 +1343,10 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_p13",
+      "explanation": "Start a polite decline with 'Thank you for the invite, but...', then give a reason: 'I have a doctor appointment.'",
       "type": "word_ordering",
       "prompt": "Assemble the polite decline sentence:",
-      "targetSentence": "Thank you for the invite but I have a doctor appointment",
+      "targetSentence": "Thank you for the invite, but I have a doctor appointment",
       "wordBank": [
         "Thank",
         "you",
@@ -1352,6 +1365,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_p14",
+      "explanation": "'Let's' is followed by the base verb without 'to': Let's go, Let's eat. Do not use 'to', -ing, or a past form after 'Let's'.",
       "type": "multiple_choice",
       "prompt": "What comes after \"Let's\" in a proposal?",
       "targetSentence": "The base verb without \"to\" (e.g., Let's go).",
@@ -1380,6 +1394,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_p15",
+      "explanation": "'That sounds fantastic!' is a warm, natural acceptance. After 'That', use the present form 'sounds'. 'sounded' and 'sounding' do not fit.",
       "type": "fill_blank",
       "prompt": "Complete the sentence to accept warmly:",
       "targetSentence": "That sounds fantastic! See you there at six.",
@@ -1410,6 +1425,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
   "reviewExercises": [
     {
       "id": "ex_u03_l31_rev1",
+      "explanation": "'Let's' + base verb: 'Let's try'. 'Let's to try' and 'Let's trying' break the rule.",
       "type": "multiple_choice",
       "prompt": "Which sentence is completely correct for a casual proposal?",
       "targetSentence": "Let's try that new Italian restaurant tonight.",
@@ -1438,6 +1454,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_rev2",
+      "explanation": "Would you like + to + base verb (watch) + object (a movie) + time (this evening). Keep the order: Would you like to watch a movie with us this evening?",
       "type": "word_ordering",
       "prompt": "Build the polite invitation question:",
       "targetSentence": "Would you like to watch a movie with us this evening",
@@ -1459,6 +1476,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_rev3",
+      "explanation": "'How about' + -ing: 'How about going to the beach?' Use 'going', not 'go', 'to go' or 'went'.",
       "type": "fill_blank",
       "prompt": "Fill in the blank with the correct verb form:",
       "targetSentence": "How about going to the beach this Saturday?",
@@ -1487,6 +1505,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_rev4",
+      "explanation": "'I'm afraid' + subject + cannot + base verb: 'I'm afraid I cannot join you today.' 'I cannot to join' and 'I not can join' are wrong.",
       "type": "error_correction",
       "prompt": "Fix the decline structure error:",
       "targetSentence": "I'm afraid I cannot join you today.",
@@ -1516,6 +1535,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_rev5",
+      "explanation": "The reference sentence is: Maybe another time. I already have plans this time. 'Maybe another time' is a polite way to decline a future invitation.",
       "type": "translation",
       "prompt": "Translate into English:",
       "sourceSentence": "शायद अगली बार, इस बार मेरी पहले से योजना है।",
@@ -1523,7 +1543,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
         "hi": "शायद अगली बार, इस बार मेरी पहले से योजना है।",
         "es": "Tal vez en otra ocasión, esta vez ya tengo planes."
       },
-      "targetSentence": "Maybe another time I already have plans this time",
+      "targetSentence": "Maybe another time. I already have plans this time.",
       "wordBank": [
         "Maybe",
         "another",
@@ -1542,6 +1562,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
   "assessmentExercises": [
     {
       "id": "ex_u03_l31_a1",
+      "explanation": "'I'd love to join you' is a warm, natural acceptance. 'I love to joining' and 'I will want dinner' are wrong or unnatural.",
       "type": "multiple_choice",
       "prompt": "Which sentence is the most natural way to accept a dinner invitation?",
       "targetSentence": "I'd love to join you for dinner, thank you!",
@@ -1570,6 +1591,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_a2",
+      "explanation": "Would you like to have lunch with us? The word 'to' completes 'Would you like to have'. The base verb comes after 'to'.",
       "type": "fill_blank",
       "prompt": "Complete the sentence with \"to\":",
       "targetSentence": "Would you like to have lunch with us?",
@@ -1598,6 +1620,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_a3",
+      "explanation": "A meeting confirmation gives the place and time: See you + place + time. Example: See you outside the central station tomorrow at eight o'clock.",
       "type": "word_ordering",
       "prompt": "Assemble the meeting confirmation:",
       "targetSentence": "See you outside the central station tomorrow at eight o'clock",
@@ -1618,6 +1641,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_a4",
+      "explanation": "Listen for the reason and the response. A decline because of travel matches the speaker's words; the other options change the meaning.",
       "type": "listening",
       "prompt": "Listen and choose what the response means:",
       "audioText": "I would love to come, but I am flying to Paris tomorrow morning.",
@@ -1646,6 +1670,7 @@ export const LESSON_A1_3_31_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u03_l31_a5",
+      "explanation": "'That sounds fantastic' is a warm acceptance. 'I would love to come' shows enthusiasm. Use a comma before 'I'.",
       "type": "speaking",
       "prompt": "Speak this enthusiastic acceptance clearly:",
       "targetSentence": "That sounds fantastic, I would love to come!",

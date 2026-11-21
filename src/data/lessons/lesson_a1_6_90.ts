@@ -3,16 +3,16 @@ import { DetailedLessonData } from '../../types';
 export const LESSON_A1_6_90_DATA: DetailedLessonData = {
   "id": "lesson_a1_6_90",
   "unitId": "unit_a1_6",
-  "title": "A1 Mastery Milestone, Comprehensive Bridge Review & A2 Transition Synthesis",
+  "title": "A1 Mastery Milestone, Comprehensive Bridge Review & Next-Level Transition Synthesis",
   "cefr": "A1",
   "icon": "🏆",
   "estimatedMinutes": 30,
   "learningObjective": {
-    "title": "Synthesize complete A1 competencies, demonstrate multi-sentence fluency, and bridge seamlessly into A2 proficiency",
+    "title": "Synthesize complete A1 competencies, demonstrate multi-sentence fluency, and bridge seamlessly into next-level proficiency",
     "description": "The definitive A1 graduation capstone! Synthesizes past narratives, modal predictions, professional discourse, civic engagement, cultural exchange, and environmental solutions into cohesive, confident spoken and written English.",
     "descriptionsByLang": {
-      "hi": "पूर्ण A1 दक्षताओं का संश्लेषण करें, बहु-वाक्य प्रवाह का प्रदर्शन करें, और A2 प्रवीणता में निर्बाध रूप से प्रवेश करें।",
-      "es": "Sintetiza las competencias completas de A1, demuestra fluidez multioracional y realiza una transición fluida al nivel A2.",
+      "hi": "पूर्ण A1 दक्षताओं का संश्लेषण करें, बहु-वाक्य प्रवाह का प्रदर्शन करें, और अगले स्तर की प्रवीणता में निर्बाध रूप से प्रवेश करें।",
+      "es": "Sintetiza las competencias completas de A1, demuestra fluidez multioracional y realiza una transición fluida al siguiente nivel.",
       "fr": "The definitive A1 graduation capstone! Synthesizes past narratives, modal predictions, professional discourse, civic engagement, cultural exchange, and environmental solutions into cohesive, confident spoken and written English.",
       "de": "The definitive A1 graduation capstone! Synthesizes past narratives, modal predictions, professional discourse, civic engagement, cultural exchange, and environmental solutions into cohesive, confident spoken and written English.",
       "pt": "The definitive A1 graduation capstone! Synthesizes past narratives, modal predictions, professional discourse, civic engagement, cultural exchange, and environmental solutions into cohesive, confident spoken and written English.",
@@ -24,18 +24,18 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
     "canDoStatements": [
       "I can synthesize narrative past tenses, present routines, and future goals in extended conversations.",
       "I can negotiate professional, medical, civic, and social situations with high independence.",
-      "I have mastered all 90 core A1 foundational and bridge communicative skills, ready for CEFR A2 mastery."
+      "I have mastered all 90 core A1 foundational and bridge communicative skills, ready for the next CEFR level."
     ],
     "canDoByLang": {
       "hi": [
         "मैं विस्तृत बातचीत में भूतकाल के आख्यानों, वर्तमान की दिनचर्या और भविष्य के लक्ष्यों को जोड़ सकता हूँ।",
         "मैं उच्च स्वतंत्रता के साथ पेशेवर, चिकित्सा, नागरिक और सामाजिक स्थितियों में बातचीत कर सकता हूँ।",
-        "मैंने सभी 90 मुख्य A1 बुनियादी और सेतु संचार कौशलों में महारत हासिल कर ली है, और CEFR A2 के लिए पूरी तरह तैयार हूँ।"
+        "मैंने सभी 90 मुख्य A1 बुनियादी और सेतु संचार कौशलों में महारत हासिल कर ली है, और अगले CEFR स्तर के लिए पूरी तरह तैयार हूँ।"
       ],
       "es": [
         "Puedo sintetizar narrativas en pasado, rutinas presentes y metas futuras en conversaciones extendidas.",
         "Puedo desenvolverme en situaciones profesionales, médicas, cívicas y sociales con gran independencia.",
-        "He dominado las 90 habilidades comunicativas fundamentales y de puente del nivel A1, listo para el nivel A2."
+        "He dominado las 90 habilidades comunicativas fundamentales y de puente del nivel A1, listo para el siguiente nivel."
       ]
     }
   },
@@ -308,10 +308,10 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
         "ja": "マイルストーン / 節目",
         "ru": "веха"
       },
-      "exampleSentence": "Lesson 90 represents the final A1 milestone before advancing to A2.",
+      "exampleSentence": "Lesson 90 represents the final A1 milestone before advancing to the next level.",
       "exampleTranslationByLang": {
-        "hi": "पाठ 90 A2 में आगे बढ़ने से पहले अंतिम A1 मील के पत्थर का प्रतिनिधित्व करता है।",
-        "es": "La lección 90 representa el último hito de A1 antes de avanzar a A2."
+        "hi": "पाठ 90 अगले स्तर में आगे बढ़ने से पहले अंतिम A1 मील के पत्थर का प्रतिनिधित्व करता है।",
+        "es": "La lección 90 representa el último hito de A1 antes de avanzar al siguiente nivel."
       },
       "audioText": "milestone",
       "audioId": "en_a1_u06_l90_v_10",
@@ -448,10 +448,10 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
         "ja": "移行 / トランジション",
         "ru": "переходный этап"
       },
-      "exampleSentence": "You are now ready to make a smooth transition to CEFR Level A2.",
+      "exampleSentence": "You are now ready to make a smooth transition to the next CEFR level.",
       "exampleTranslationByLang": {
-        "hi": "अब आप CEFR स्तर A2 में सहज संक्रमण करने के लिए तैयार हैं।",
-        "es": "Ahora estás listo para hacer una transición fluida al nivel CEFR A2."
+        "hi": "अब आप अगले CEFR स्तर में सहज संक्रमण करने के लिए तैयार हैं।",
+        "es": "Ahora estás listo para hacer una transición fluida al siguiente nivel CEFR."
       },
       "audioText": "transition",
       "audioId": "en_a1_u06_l90_v_15",
@@ -588,10 +588,10 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
         "ja": "地平線 / 新たな視野",
         "ru": "горизонт / новые перспективы"
       },
-      "exampleSentence": "New horizons and exciting opportunities await you in Level A2!",
+      "exampleSentence": "New horizons and exciting opportunities await you in the next level!",
       "exampleTranslationByLang": {
-        "hi": "लेवल A2 में नए क्षितिज और रोमांचक अवसर आपका इंतजार कर रहे हैं!",
-        "es": "¡Nuevos horizontes y emocionantes oportunidades te esperan en el Nivel A2!"
+        "hi": "अगले लेवल में नए क्षितिज और रोमांचक अवसर आपका इंतजार कर रहे हैं!",
+        "es": "¡Nuevos horizontes y emocionantes oportunidades te esperan en el siguiente nivel!"
       },
       "audioText": "horizon",
       "audioId": "en_a1_u06_l90_v_20",
@@ -670,21 +670,21 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
     },
     {
       "id": "c_u06_l90_4",
-      "expression": "Ready for Level A2",
+      "expression": "Ready for the next level",
       "meaning": "Prepared for the next CEFR stage",
       "translationsByLang": {
-        "hi": "लेवल A2 के लिए तैयार",
-        "es": "Listo para el Nivel A2",
-        "fr": "Prêt pour le niveau A2",
-        "de": "Bereit für Stufe A2",
-        "pt": "Pronto para o Nível A2",
-        "zh": "准备好进阶A2阶段",
-        "ar": "جاهز تماماً للانتقال إلى مستوى A2",
-        "ja": "レベルA2への準備完了",
-        "ru": "готов к уровню A2"
+        "hi": "अगले लेवल के लिए तैयार",
+        "es": "Listo para el siguiente nivel",
+        "fr": "Prêt pour le niveau suivant",
+        "de": "Bereit für die nächste Stufe",
+        "pt": "Pronto para o próximo nível",
+        "zh": "准备好进入下一阶段",
+        "ar": "جاهز تماماً للانتقال إلى المستوى التالي",
+        "ja": "次のレベルへの準備完了",
+        "ru": "готов к следующему уровню"
       },
       "usageNote": "Readiness badge chunk.",
-      "audioText": "Ready for Level A2",
+      "audioText": "Ready for the next level",
       "audioId": "en_a1_u06_l90_c_4",
       "slowAudioId": "en_a1_u06_l90_c_4_slow",
       "voiceId": "EN_TEACHER_01",
@@ -790,13 +790,13 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
         "rule": "Use transitional cohesive devices (When I started, Currently, In the coming years, As a result) to structure extended discourse across time frames.",
         "examples": [
           {
-            "english": "When I began in Lesson 1, I only knew basic greetings; now, I can converse about work, civic life, and science, and I will continue to Level A2.",
-            "translation": "Cuando comencé en la Lección 1, solo conocía saludos básicos; ahora puedo conversar sobre trabajo, vida cívica y ciencia, y continuaré al Nivel A2.",
+            "english": "When I began in Lesson 1, I only knew basic greetings; now, I can converse about work, civic life, and science, and I will continue to the next level.",
+            "translation": "Cuando comencé en la Lección 1, solo conocía saludos básicos; ahora puedo conversar sobre trabajo, vida cívica y ciencia, y continuaré al siguiente nivel.",
             "translationByLang": {
-              "hi": "जब मैंने पाठ 1 में शुरुआत की, तो मैं केवल बुनियादी अभिवादन जानता था; अब, मैं काम, नागरिक जीवन और विज्ञान के बारे में बातचीत कर सकता हूँ, और मैं स्तर A2 तक जारी रखूँगा।",
-              "es": "Cuando comencé en la Lección 1, solo conocía saludos básicos; ahora puedo conversar sobre trabajo, vida cívica y ciencia, y continuaré al Nivel A2."
+              "hi": "जब मैंने पाठ 1 में शुरुआत की, तो मैं केवल बुनियादी अभिवादन जानता था; अब, मैं काम, नागरिक जीवन और विज्ञान के बारे में बातचीत कर सकता हूँ, और मैं अगले स्तर तक पढ़ाई जारी रखूँगा।",
+              "es": "Cuando comencé en la Lección 1, solo conocía saludos básicos; ahora puedo conversar sobre trabajo, vida cívica y ciencia, y continuaré al siguiente nivel."
             },
-            "audioText": "When I began in Lesson 1, I only knew basic greetings; now, I can converse about work, civic life, and science, and I will continue to Level A2.",
+            "audioText": "When I began in Lesson 1, I only knew basic greetings; now, I can converse about work, civic life, and science, and I will continue to the next level.",
             "audioId": "en_a1_u06_l90_g_ex_1_1"
           },
           {
@@ -813,9 +813,9 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
       },
       {
         "id": "gp_u06_l90_2",
-        "title": "Bridging to A2: Complex Sentences with Subordinating Conjunctions (Although, Because, As soon as, If)",
+        "title": "Bridging to the next level: Complex Sentences with Subordinating Conjunctions (Although, Because, As soon as, If)",
         "structure": "Although [Challenge], Subject + [Achievement] + because [Reason]",
-        "rule": "Bridge to A2 by linking dependent clauses with \"although\", \"because\", \"while\", and \"if\" without losing grammatical agreement.",
+        "rule": "Bridge to the next level by linking dependent clauses with \"although\", \"because\", \"while\", and \"if\" without losing grammatical agreement.",
         "examples": [
           {
             "english": "Although learning a new language requires dedication, I made steady progress because I practiced every single day.",
@@ -854,12 +854,12 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
     },
     {
       "id": "cm_u06_l90_3",
-      "incorrect": "I am ready to transition on Level A2.",
-      "correct": "I am ready to transition to Level A2.",
-      "explanation": "Say \"transition to Level A2\" (transition to).",
+      "incorrect": "I am ready to transition on the next level.",
+      "correct": "I am ready to transition to the next level.",
+      "explanation": "Say \"transition to the next level\" (transition to).",
       "explanationsByLang": {
-        "hi": "\"Transition to Level A2\" कहें।",
-        "es": "Usa \"transition to\": \"transition to Level A2\"."
+        "hi": "\"Transition to the next level\" कहें।",
+        "es": "Usa \"transition to\": \"transition to the next level\"."
       }
     },
     {
@@ -933,12 +933,12 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
         },
         {
           "speaker": "Kenji",
-          "text": "This curriculum has empowered me to communicate naturally with global colleagues. I am excited to step forward into Level A2!",
+          "text": "This curriculum has empowered me to communicate naturally with global colleagues. I am excited to step forward into the next level!",
           "translationsByLang": {
-            "hi": "इस पाठ्यक्रम ने मुझे वैश्विक सहयोगियों के साथ स्वाभाविक रूप से संवाद करने के लिए सशक्त बनाया है। मैं स्तर A2 में आगे बढ़ने के लिए बहुत उत्साहित हूँ!",
-            "es": "¡Este currículo me ha capacitado para comunicarme con naturalidad con colegas de todo el mundo! ¡Estoy emocionado de dar el paso hacia el Nivel A2!"
+            "hi": "इस पाठ्यक्रम ने मुझे वैश्विक सहयोगियों के साथ स्वाभाविक रूप से संवाद करने के लिए सशक्त बनाया है। मैं अगले स्तर में आगे बढ़ने के लिए बहुत उत्साहित हूँ!",
+            "es": "¡Este currículo me ha capacitado para comunicarme con naturalidad con colegas de todo el mundo! ¡Estoy emocionado de dar el paso hacia el siguiente nivel!"
           },
-          "audioText": "This curriculum has empowered me to communicate naturally with global colleagues. I am excited to step forward into Level A2!",
+          "audioText": "This curriculum has empowered me to communicate naturally with global colleagues. I am excited to step forward into the next level!",
           "audioId": "en_a1_u06_l90_d1_l4"
         },
         {
@@ -955,8 +955,8 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
     },
     {
       "id": "d_u06_l90_2",
-      "title": "Planning Future Language Goals for Level A2",
-      "context": "Maria and Priya celebrate their A1 milestone and set A2 ambitions.",
+      "title": "Planning Future Language Goals for the next level",
+      "context": "Maria and Priya celebrate their A1 milestone and set next-level ambitions.",
       "characters": [
         {
           "name": "Maria",
@@ -982,22 +982,22 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
         },
         {
           "speaker": "Priya",
-          "text": "It feels amazing! If we keep practicing conversation skills daily, our transition to Level A2 will be smooth and enjoyable.",
+          "text": "It feels amazing! If we keep practicing conversation skills daily, our transition to the next level will be smooth and enjoyable.",
           "translationsByLang": {
-            "hi": "यह अद्भुत लगता है! यदि हम प्रतिदिन बातचीत कौशल का अभ्यास करते रहेंगे, तो स्तर A2 में हमारा संक्रमण सहज और सुखद होगा।",
-            "es": "¡Se siente increíble! Si seguimos practicando habilidades de conversación a diario, nuestra transición al Nivel A2 será fluida y placentera."
+            "hi": "यह अद्भुत लगता है! यदि हम प्रतिदिन बातचीत कौशल का अभ्यास करते रहेंगे, तो अगले स्तर में हमारा संक्रमण सहज और सुखद होगा।",
+            "es": "¡Se siente increíble! Si seguimos practicando habilidades de conversación a diario, nuestra transición al siguiente nivel será fluida y placentera."
           },
-          "audioText": "It feels amazing! If we keep practicing conversation skills daily, our transition to Level A2 will be smooth and enjoyable.",
+          "audioText": "It feels amazing! If we keep practicing conversation skills daily, our transition to the next level will be smooth and enjoyable.",
           "audioId": "en_a1_u06_l90_d2_l2"
         },
         {
           "speaker": "Maria",
-          "text": "Definitely! In Level A2, we will master complex storytelling, nuanced negotiations, and advanced presentations.",
+          "text": "Definitely! In the next level, we will master complex storytelling, nuanced negotiations, and advanced presentations.",
           "translationsByLang": {
-            "hi": "निश्चित रूप से! स्तर A2 में, हम जटिल कहानी कहने, सूक्ष्म बातचीत और उन्नत प्रस्तुतियों में महारत हासिल करेंगे।",
-            "es": "¡Definitivamente! En el Nivel A2 dominaremos narraciones complejas, negociaciones matizadas y presentaciones avanzadas."
+            "hi": "निश्चित रूप से! अगले स्तर में, हम जटिल कहानी कहने, सूक्ष्म बातचीत और उन्नत प्रस्तुतियों में महारत हासिल करेंगे।",
+            "es": "¡Definitivamente! En el siguiente nivel dominaremos narraciones complejas, negociaciones matizadas y presentaciones avanzadas."
           },
-          "audioText": "Definitely! In Level A2, we will master complex storytelling, nuanced negotiations, and advanced presentations.",
+          "audioText": "Definitely! In the next level, we will master complex storytelling, nuanced negotiations, and advanced presentations.",
           "audioId": "en_a1_u06_l90_d2_l3"
         },
         {
@@ -1016,6 +1016,7 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
   "practiceExercises": [
     {
       "id": "ex_u06_l90_p1",
+      "explanation": '\'I started as a beginner, now I speak with clarity, and I will achieve full fluency\' combines past, present, and future tenses in one statement.',
       "lessonId": "lesson_a1_6_90",
       "stage": 8,
       "type": "multiple_choice",
@@ -1023,12 +1024,12 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
       "options": [
         {
           "id": "o1",
-          "text": "I started as a beginner, now I speak with clarity, and I will achieve full A2 fluency.",
+          "text": "I started as a beginner, now I speak with clarity, and I will achieve full next-level fluency.",
           "isCorrect": true
         },
         {
           "id": "o2",
-          "text": "I start as beginner, now I speaking clarity, and I achieve A2.",
+          "text": "I start as beginner, now I speaking clarity, and I achieve the next level.",
           "isCorrect": false
         },
         {
@@ -1040,6 +1041,7 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l90_p2",
+      "explanation": '\'Although\' shows contrast and \'because\' shows cause, so the sentence needs both. They express different relationships and are not redundant.',
       "lessonId": "lesson_a1_6_90",
       "stage": 8,
       "type": "multiple_choice",
@@ -1064,6 +1066,7 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l90_p3",
+      "explanation": 'A milestone is a major point in a journey. \'Mileage\' and \'millimeter\' do not fit.',
       "lessonId": "lesson_a1_6_90",
       "stage": 8,
       "type": "fill_blank",
@@ -1090,6 +1093,7 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l90_p4",
+      "explanation": 'Each unit has a different focus. For example, Units 1 and 2 cover greetings, routines, shopping and food.',
       "lessonId": "lesson_a1_6_90",
       "stage": 8,
       "type": "match_pairs",
@@ -1109,12 +1113,13 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
         },
         {
           "left": "Unit 6 (Lessons 76–90)",
-          "right": "A1→A2 bridge: professional, civic, cultural & future synthesis"
+          "right": "A1→next level bridge: professional, civic, cultural & future synthesis"
         }
       ]
     },
     {
       "id": "ex_u06_l90_p5",
+      "explanation": '\'Congratulations on completing...\' + -ing after \'on\'.',
       "lessonId": "lesson_a1_6_90",
       "stage": 8,
       "type": "word_ordering",
@@ -1132,6 +1137,7 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l90_p6",
+      "explanation": '\'I can speak English with confidence now\' uses \'can\' + base verb. \'Can speaking\' is incorrect.',
       "lessonId": "lesson_a1_6_90",
       "stage": 8,
       "type": "error_correction",
@@ -1153,15 +1159,17 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l90_p7",
+      "explanation": '\'You have built a rock-solid foundation and are fully ready for the next level\' uses the present perfect and present passive-style adjective.',
       "lessonId": "lesson_a1_6_90",
       "stage": 9,
       "type": "listen_and_type",
       "prompt": "Listen and type what you hear:",
-      "audioText": "You have built a rock-solid foundation and are fully ready for Level A2.",
-      "targetSentence": "You have built a rock-solid foundation and are fully ready for Level A2."
+      "audioText": "You have built a rock-solid foundation and are fully ready for the next level.",
+      "targetSentence": "You have built a rock-solid foundation and are fully ready for the next level."
     },
     {
       "id": "ex_u06_l90_p8",
+      "explanation": '\'Through dedicated daily practice, I have developed conversational fluency\' uses the present perfect for a result up to now.',
       "lessonId": "lesson_a1_6_90",
       "stage": 10,
       "type": "multiple_choice",
@@ -1186,6 +1194,7 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l90_p9",
+      "explanation": '\'I will collaborate with international colleagues and pursue advanced career goals\' uses \'will\' for future plans.',
       "lessonId": "lesson_a1_6_90",
       "stage": 11,
       "type": "dialogue_completion",
@@ -1210,15 +1219,17 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l90_p10",
+      "explanation": '\'I have mastered the foundational English curriculum and I am ready to step forward\' combines present perfect and adjective with \'ready to\'.',
       "lessonId": "lesson_a1_6_90",
       "stage": 12,
       "type": "speaking",
       "prompt": "Speak this triumphant graduation synthesis clearly:",
-      "targetSentence": "I have mastered the foundational English curriculum and I am ready to step forward into Level A2!",
-      "audioText": "I have mastered the foundational English curriculum and I am ready to step forward into Level A2!"
+      "targetSentence": "I have mastered the foundational English curriculum and I am ready to step forward into the next level!",
+      "audioText": "I have mastered the foundational English curriculum and I am ready to step forward into the next level!"
     },
     {
       "id": "ex_u06_l90_p11",
+      "explanation": '\'Mastering English opens global opportunities\' is a general statement. Hindi: \'अंग्रेजी में महारत हासिल करने से वैश्विक अवसर खुलते हैं।\'',
       "lessonId": "lesson_a1_6_90",
       "stage": 13,
       "type": "translation",
@@ -1227,6 +1238,7 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l90_p12",
+      "explanation": 'Syntax is the grammar structure of sentences. Synonym means a word with similar meaning. Synthesis is combining parts into a whole.',
       "lessonId": "lesson_a1_6_90",
       "stage": 14,
       "type": "multiple_choice",
@@ -1251,6 +1263,7 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l90_p13",
+      "explanation": '\'Empower\' means give power or confidence to someone. \'Empty\' and \'employ\' do not fit.',
       "lessonId": "lesson_a1_6_90",
       "stage": 14,
       "type": "fill_blank",
@@ -1277,6 +1290,7 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l90_p14",
+      "explanation": '\'You can now communicate with confidence, clarity, and fluency\' uses \'can\' for ability with a list of nouns.',
       "lessonId": "lesson_a1_6_90",
       "stage": 14,
       "type": "word_ordering",
@@ -1296,17 +1310,19 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l90_p15",
+      "explanation": '\'With confidence, curiosity, and commitment, I celebrate my A1 milestone and welcome new horizons\' is a farewell statement.',
       "lessonId": "lesson_a1_6_90",
       "stage": 14,
       "type": "speaking",
       "prompt": "Speak this inspiring farewell and transition pledge:",
-      "targetSentence": "With confidence, curiosity, and commitment, I celebrate my A1 milestone and welcome new horizons in Level A2!",
-      "audioText": "With confidence, curiosity, and commitment, I celebrate my A1 milestone and welcome new horizons in Level A2!"
+      "targetSentence": "With confidence, curiosity, and commitment, I celebrate my A1 milestone and welcome new horizons in the next level!",
+      "audioText": "With confidence, curiosity, and commitment, I celebrate my A1 milestone and welcome new horizons in the next level!"
     }
   ],
   "reviewExercises": [
     {
       "id": "ex_u06_l90_r1",
+      "explanation": '\'Having completed ninety lessons\' is a participle phrase that shows the reason for the main clause.',
       "lessonId": "lesson_a1_6_90",
       "stage": 16,
       "type": "multiple_choice",
@@ -1331,6 +1347,7 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l90_r2",
+      "explanation": '\'Accomplishment\' means a successful achievement. \'Accompaniment\' and \'accommodation\' have other meanings.',
       "lessonId": "lesson_a1_6_90",
       "stage": 16,
       "type": "fill_blank",
@@ -1357,6 +1374,7 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l90_r3",
+      "explanation": '\'You have built a rock-solid foundation in English\' uses the present perfect for a result up to now.',
       "lessonId": "lesson_a1_6_90",
       "stage": 16,
       "type": "word_ordering",
@@ -1375,6 +1393,7 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l90_r4",
+      "explanation": 'A1 Starter covers basic survival topics such as introductions, routines, shopping and food.',
       "lessonId": "lesson_a1_6_90",
       "stage": 16,
       "type": "match_pairs",
@@ -1393,23 +1412,25 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
           "right": "Narrative past: storytelling, technology & emergencies"
         },
         {
-          "left": "A1→A2 Bridge (L76–90)",
+          "left": "A1→Next Level Bridge (L76–90)",
           "right": "Independence: professional, civic, scientific & future synthesis"
         }
       ]
     },
     {
       "id": "ex_u06_l90_r5",
+      "explanation": '\'New horizons and exciting opportunities await you in the next level\' is a motivational statement. Hindi: \'अगले लेवल में नए क्षितिज और रोमांचक अवसर आपका इंतज़ार कर रहे हैं।\'',
       "lessonId": "lesson_a1_6_90",
       "stage": 16,
       "type": "translation",
-      "prompt": "Retrieval: Translate: \"लेवल A2 में नए क्षितिज और रोमांचक अवसर आपका इंतजार कर रहे हैं!\" / \"¡Nuevos horizontes y emocionantes oportunidades te esperan en el Nivel A2!\"",
-      "targetSentence": "New horizons and exciting opportunities await you in Level A2!"
+      "prompt": "Retrieval: Translate: \"अगले लेवल में नए क्षितिज और रोमांचक अवसर आपका इंतजार कर रहे हैं!\" / \"¡Nuevos horizontes y emocionantes oportunidades te esperan en el siguiente nivel!\"",
+      "targetSentence": "New horizons and exciting opportunities await you in the next level!"
     }
   ],
   "assessmentExercises": [
     {
       "id": "ex_u06_l90_a1",
+      "explanation": '\'I have mastered foundational grammar and vocabulary, and I am fully prepared to transition\' combines present perfect and \'prepared to\'.',
       "lessonId": "lesson_a1_6_90",
       "stage": 17,
       "type": "multiple_choice",
@@ -1417,23 +1438,24 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
       "options": [
         {
           "id": "o1",
-          "text": "I have mastered foundational grammar and vocabulary, and I am fully prepared to transition to CEFR Level A2.",
+          "text": "I have mastered foundational grammar and vocabulary, and I am fully prepared to transition to the next CEFR level.",
           "isCorrect": true
         },
         {
           "id": "o2",
-          "text": "I master foundational grammar, and I am prepared to transition on Level A2.",
+          "text": "I master foundational grammar, and I am prepared to transition on the next level.",
           "isCorrect": false
         },
         {
           "id": "o3",
-          "text": "I have master grammar and vocabulary, ready transition Level A2.",
+          "text": "I have master grammar and vocabulary, ready transition the next level.",
           "isCorrect": false
         }
       ]
     },
     {
       "id": "ex_u06_l90_a2",
+      "explanation": 'Competence means ability. Competition and compassion have different meanings.',
       "lessonId": "lesson_a1_6_90",
       "stage": 17,
       "type": "fill_blank",
@@ -1460,6 +1482,7 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l90_a3",
+      "explanation": '\'We celebrate our mastery and welcome new horizons in the next level\' is a complete statement.',
       "lessonId": "lesson_a1_6_90",
       "stage": 17,
       "type": "word_ordering",
@@ -1474,12 +1497,13 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
         "new",
         "horizons",
         "in",
-        "A2."
+        "the next level."
       ],
-      "targetSentence": "We celebrate our mastery and welcome new horizons in A2."
+      "targetSentence": "We celebrate our mastery and welcome new horizons in the next level."
     },
     {
       "id": "ex_u06_l90_a4",
+      "explanation": '\'I gained the confidence and ability to express complex thoughts clearly in English\' describes a result of the course with the past simple.',
       "lessonId": "lesson_a1_6_90",
       "stage": 17,
       "type": "dialogue_completion",
@@ -1504,12 +1528,13 @@ export const LESSON_A1_6_90_DATA: DetailedLessonData = {
     },
     {
       "id": "ex_u06_l90_a5",
+      "explanation": '\'I have completed all lessons of the A1 curriculum with excellence, and I am ready to conquer the next level\' combines present perfect and \'ready to\'.',
       "lessonId": "lesson_a1_6_90",
       "stage": 17,
       "type": "speaking",
       "prompt": "Evaluation: Speak this ultimate A1 Graduation Declaration with complete confidence:",
-      "targetSentence": "I have completed all ninety lessons of the A1 curriculum with excellence, and I am ready to conquer Level A2!",
-      "audioText": "I have completed all ninety lessons of the A1 curriculum with excellence, and I am ready to conquer Level A2!"
+      "targetSentence": "I have completed all ninety lessons of the A1 curriculum with excellence, and I am ready to conquer the next level!",
+      "audioText": "I have completed all ninety lessons of the A1 curriculum with excellence, and I am ready to conquer the next level!"
     }
   ]
 };
